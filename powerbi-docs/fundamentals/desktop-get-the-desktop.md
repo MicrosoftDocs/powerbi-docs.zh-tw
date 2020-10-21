@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: d53e7a3205d8e1915f8dd0969fe35d5c32d25cf5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136135"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256359"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 Power BI Desktop，您可以建置資料模型、建立報表，並將成果發佈到 Power BI 服務與他人共用。 Power BI Desktop 為免費下載。
@@ -80,7 +80,7 @@ Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化
 
 在您啟動安裝套件後，Power BI Desktop 即會安裝為應用程式，並在您的桌面上執行。
 
-![Power BI Desktop 安裝的螢幕擷取畫面，其中顯示其安裝精靈。](media/desktop-get-the-desktop/designer_gsg_install.png)
+![Power BI Desktop 安裝的螢幕擷取畫面，其中顯示其安裝精靈。](media/desktop-get-the-desktop/desktop-install-01.png)
 
 > [!NOTE]
 > 不支援將下載的 (MSI) 版本 (已淘汱) 和 Microsoft Store 版的 Power BI Desktop 安裝在同一部電腦上 (有時也稱為「並存」安裝)。 請先手動解除安裝 Power BI Desktop，再從 Microsoft Store 下載。
@@ -89,7 +89,7 @@ Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化
 ## <a name="using-power-bi-desktop"></a>使用 Power BI Desktop
 當您啟動 Power BI Desktop 時，會顯示歡迎畫面。
 
-![Power BI Desktop 安裝的螢幕擷取畫面，其中顯示歡迎畫面。](media/desktop-get-the-desktop/getpbid_05.png)
+![Power BI Desktop 安裝的螢幕擷取畫面，其中顯示歡迎畫面。](media/desktop-get-the-desktop/desktop-splash-screen.png)
 
 如果您是第一次使用 Power BI Desktop (即此安裝不是升級)，系統會提示您填寫表單或登入 Power BI 服務，才能繼續作業。
 

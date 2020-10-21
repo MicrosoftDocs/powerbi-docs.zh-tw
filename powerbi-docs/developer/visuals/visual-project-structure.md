@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: ce0f22c17ed718d3e2ad4e4fa9d9514edd315583
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 74fec4e7fae2fc8630592c435adb42b34c93ef43
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407424"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049353"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 視覺效果專案結構
 
@@ -174,4 +174,4 @@ Power BI 視覺效果工具會使用此檔案作為 [Power BI 視覺效果] 窗�
 
 * 若要了解視覺效果、使用者和 Power BI 之間的互動，請參閱 [Power BI 視覺效果概念](./power-bi-visuals-concept.md)。
 
-* 使用[逐步指南](./custom-visual-develop-tutorial.md)，從頭開始開發您自己的 Power BI 視覺效果。
+* 使用[逐步指南](./develop-circle-card.md)，從頭開始開發您自己的 Power BI 視覺效果。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bfbdbeb08f67a979a5f14c8b45ef7ca269c2d03d
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3aa42394bb12078fb2abcf6574d04b8109a9c40c
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857351"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981588"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -55,7 +55,7 @@ ms.locfileid: "90857351"
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-此節中的一些程序需要 Windows PowerShell 指令碼。 如果您不熟悉 PowerShell，我們建議您參閱 [PowerShell 入門手冊](https://go.microsoft.com/fwlink/p/?LinkID=286814)。 若要執行指令碼，請先安裝[適用於 Graph 的 Azure Active Directory PowerShell](/powershell/azure/active-directory/overview) 的最新 64 位元版本。
+此節中的一些程序需要 Windows PowerShell 指令碼。 如果您不熟悉 PowerShell，我們建議您參閱 [PowerShell 入門手冊](/powershell/scripting/overview)。 若要執行指令碼，請先安裝[適用於 Graph 的 Azure Active Directory PowerShell](/powershell/azure/active-directory/overview) 的最新 64 位元版本。
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>使用者如何註冊 Power BI？
 

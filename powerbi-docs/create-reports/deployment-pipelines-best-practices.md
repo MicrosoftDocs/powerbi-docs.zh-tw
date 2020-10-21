@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855551"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116469"
 ---
 # <a name="deployment-pipelines-best-practices"></a>部署管線最佳做法
 
@@ -103,7 +103,7 @@ ms.locfileid: "90855551"
 
 ### <a name="version-control-for-pbix-files"></a>.pbix 檔案的版本控制
 
-如果您想要管理報表與資料集的版本歷程記錄，請使用 [Power BI 與 OneDrive 的自動同步處理](../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md)。 這會讓您的檔案保持更新為最新版本。 如果需要，其也可讓您取得較舊的版本。
+如果您想要管理報表與資料集的版本歷程記錄，請使用 [Power BI 與 OneDrive 的自動同步處理](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md)。 這會讓您的檔案保持更新為最新版本。 如果需要，其也可讓您取得較舊的版本。
 
 >[!NOTE]
 >只針對部署管線開發階段中的 .pbix 檔案使用與 OneDrive (或任何其他存放庫) 的自動同步處理。 請勿將 .pbix 檔案同步處理至部署管線的測試與生產階段。 這會導致在整個管線部署內容時發生問題。

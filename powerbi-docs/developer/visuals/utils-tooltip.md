@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379160"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197625"
 ---
 # <a name="tooltip-utils"></a>工具提示公用程式
 此文章將協助您安裝、匯入及使用工具提示公用程式。 此公用程式適用於 Power BI 視覺效果中的任何工具提示自訂。
@@ -29,7 +29,7 @@ ms.locfileid: "79379160"
 若要安裝套件，您應該在具有目前視覺效果的目錄中執行下列命令：
 
 ```bash
-npm install powerbi-visuals-utils-colorutils --save
+npm install powerbi-visuals-utils-tooltiputils --save
 ```
 此命令會安裝套件，並作為相依性將套件新增到您的 ```package.json```
 

@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/29/2020
+ms.date: 10/15/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87bb15829936c452999872f95f49f35c2b60af77
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 824dc74d2461f9bbf6350694a48b00a327f3f13d
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525649"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116584"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>將超連結 (URL) 新增至資料表或矩陣
 本主題會指導如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料集。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。 接著，您可以顯示 URL 或連結圖示，或將另一個資料行格式化為連結文字。
@@ -135,7 +135,7 @@ ms.locfileid: "91525649"
 URL 的開頭必須是下列其中一項：
 - http
 - https
-- -mailto
+- mailto
 - ftp
 - 新聞
 - telnet

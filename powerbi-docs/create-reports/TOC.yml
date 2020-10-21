@@ -217,7 +217,7 @@
               href: service-aggregates.md
             - name: 建立報表的 QR 代碼
               href: service-create-qr-code-for-report.md
-            - name: 讓消費者自訂視覺效果 (預覽)
+            - name: 讓使用者自訂視覺效果
               href: power-bi-personalize-visuals.md
             - name: 將報表匯出到 Power BI Desktop (預覽)
               href: service-export-to-pbix.md

@@ -62,6 +62,8 @@
           items:
             - name: 連接至資料來源
               href: desktop-data-sources.md
+            - name: 使用動態 M 查詢參數
+              href: desktop-dynamic-m-query-parameters.md
             - name: 在 SharePoint 清單上建立報表
               href: desktop-sharepoint-online-list.md
             - name: 連線至 LinkedIn Sales Navigator

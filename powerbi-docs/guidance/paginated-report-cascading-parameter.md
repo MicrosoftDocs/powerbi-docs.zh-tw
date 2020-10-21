@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214101"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197648"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>在分頁報表中使用串聯參數
 
@@ -128,7 +128,7 @@ ms.locfileid: "86214101"
 >
 > 一般而言，預存程序是比較好的設計方法。 因為其查詢計劃會經過快取以加快執行速度，並可讓您在需要時開發更精密的邏輯。 不過，閘道關聯式資料來源 (也就是 SQL Server、Oracle 和 Teradata) 目前不支援這些預存程序。
 >
-> 最後，必須有適當的索引，才能支援有效率的資料擷取。 否則，您報表參數的填入速度可能會很慢，而資料庫可能會變得負擔過重。 如需 SQL Server 索引編製的詳細資訊，請參閱 [SQL Server 索引架構和設計指南](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017)。
+> 最後，必須有適當的索引，才能支援有效率的資料擷取。 否則，您報表參數的填入速度可能會很慢，而資料庫可能會變得負擔過重。 如需 SQL Server 索引編製的詳細資訊，請參閱 [SQL Server 索引架構和設計指南](/sql/relational-databases/sql-server-index-design-guide)。
 
 ### <a name="filter-by-a-grouping-column"></a>按照群組資料行篩選
 
@@ -220,7 +220,7 @@ GO
 > [!TIP]
 > 您可以在此設計上做些改良，為您的報表使用者提供更多控制權。 此方法可讓他們定義自己的模式比對值。 例如，搜尋值 "red%" 將會篩選出名稱「開頭」為 "red" 字元的轉銷商。
 >
-> 如需詳細資訊，請參閱 [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-the--wildcard-character)。
+> 如需詳細資訊，請參閱 [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql#using-the--wildcard-character)。
 
 以下是您可以讓報表使用者定義自有模式的方式。
 
