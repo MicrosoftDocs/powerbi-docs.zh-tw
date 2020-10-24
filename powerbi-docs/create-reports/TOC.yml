@@ -121,6 +121,8 @@
       items:
         - name: Power BI 報表
           items:
+            - name: 在服務中建立報表
+              href: service-report-create-new.md
             - name: 啟用自動重新整理頁面
               href: desktop-automatic-page-refresh.md
             - name: 使用效能分析器檢查報表項目
@@ -205,8 +207,12 @@
               href: desktop-grouping-visuals.md
             - name: 建立報表範本
               href: desktop-templates.md
-            - name: 從資料集建立報表
-              href: service-report-create-new.md
+            - name: 變更報表設定
+              href: power-bi-report-settings.md
+            - name: 其他人首頁上的精選報表
+              href: ../collaborate-share/service-featured-content.md
+            - name: 讓消費者自訂視覺效果 (預覽)
+              href: power-bi-personalize-visuals.md
             - name: 儲存報表
               href: service-report-save.md
             - name: 與編輯檢視的報表互動
