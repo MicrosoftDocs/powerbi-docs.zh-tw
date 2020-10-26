@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7439eff964340d3eba20b5d67d2aec992394505f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860087"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525493"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 AI 見解
 
@@ -199,13 +199,13 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 
 您可以直接從 Power Query 編輯器叫用任何您已獲授與存取權的 Azure ML 模型。 若要存取 Azure ML 模型，請選取 Power Query 編輯器中 [首頁] 或 [加入資料行] 功能區中的 [Azure Machine Learning] 按鈕。
 
-![Azure Machine Learning](media/desktop-ai-insights/ai-insights-06.png)
+![螢幕擷取畫面顯示 Power Query 編輯器中的 [Azure Machine Learning] 按鈕。](media/desktop-ai-insights/ai-insights-06.png)
 
 您擁有存取權的所有 Azure ML 模型會在這裡列為 Power Query 函式。 此外，Azure ML 模型的輸入參數會自動對應為對應之 Power Query 函式的參數。
 
 若要叫用 Azure ML 模型，您可以從下拉式清單中指定任何所選實體的資料行作為輸入。 您也可以將資料行圖示切換至 [輸入] 對話方塊的左側，以指定要當作輸入使用的常數值。
 
-![Azure Machine Learning](media/desktop-ai-insights/ai-insights-07.png)
+![螢幕擷取畫面顯示您可以選取的 Azure Machine Learning 模型。](media/desktop-ai-insights/ai-insights-07.png)
 
 選取 [確定] 來檢視 Azure ML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
 

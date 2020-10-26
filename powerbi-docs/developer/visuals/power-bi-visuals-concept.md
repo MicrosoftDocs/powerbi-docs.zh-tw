@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: d5d075e3627ded01f7e47c1b073b60ff379bb506
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 94926ccf0fa214ca4c65808a7476842c22308359
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537634"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048847"
 ---
 # <a name="power-bi-visuals-system-integration"></a>Power BI 視覺效果系統整合
 
@@ -130,5 +130,5 @@ Power BI 視覺效果中的動作和後續更新會以下列三種模式之一�
 
 您想建立視覺效果並將其新增到 Microsoft AppSource 嗎？ 請參閱以下文章：
 
-* [開發 Power BI 視覺效果](./custom-visual-develop-tutorial.md)
+* [開發 Power BI 圓形卡片視覺效果](./develop-circle-card.md)
 * [將 Power BI 視覺效果發佈至合作夥伴中心](office-store.md)

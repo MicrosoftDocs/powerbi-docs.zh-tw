@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748118"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049169"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -170,11 +170,9 @@ Power BI 視覺效果必須由合作夥伴中心核准。 我們建議您的 Pow
 
 ## <a name="next-steps"></a>後續步驟
 
-* 如果您是想要建立自己的 Power BI 視覺效果並將它們新增至  [Microsoft AppSource](https://appsource.microsoft.com) \(英文\) 的 Web 開發人員，請從 [開發 Power BI 視覺效果](custom-visual-develop-tutorial.md)教學課程開始。
+* 如果您是有興趣建立自己的 Power BI 視覺效果並將其新增至  [Microsoft AppSource](https://appsource.microsoft.com) \(英文\) 的 Web 開發人員，請從 [開發 Power BI 圓形卡片視覺效果](develop-circle-card.md)教學課程開始。
 
 * 如需視覺效果的詳細資訊，請參閱[認證視覺效果的常見問題集](power-bi-custom-visuals-faq.md#certified-power-bi-visuals)。
-
-* [開發 Power BI 視覺效果](custom-visual-develop-tutorial.md)
 
 * [YouTube 上的 Microsoft Power BI 視覺效果播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)
 

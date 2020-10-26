@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 5df13baf295745f86c89ce75d2890ca2c13894ee
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747704"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049330"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教學課程：從 R 指令碼到 R 視覺效果 - 建置漏斗圖
 本文逐步說明如何在 R 視覺效果中使用 R 指令碼來建置漏斗圖。
@@ -49,7 +49,7 @@ ms.locfileid: "91747704"
 
 ## <a name="create-an-r-powered-visual-and-package-in-r-code"></a>建立 R 支援的視覺效果並封裝在 R 程式碼中
 
-1. 開始前，務必先[安裝 PBIVIZ 工具](./custom-visual-develop-tutorial.md#installing-packages)。
+1. 開始前，務必先[安裝 PBIVIZ 工具](./environment-setup.md#install-pbiviz)。
 
 1. 執行下列命令以建立 R 支援的新視覺效果：
 
@@ -274,7 +274,7 @@ ms.locfileid: "91747704"
 
 * 每個 R 視覺效果都會將 `unique` 運算子套用至其輸入資料表。 為了避免移除相同的資料列，請考慮使用唯一識別碼來新增額外的輸入欄位，並在 R 程式碼中予以忽略。   
 
-* 如果您有 Power BI 帳戶，請使用 Power BI 服務來[即時](./custom-visual-develop-tutorial.md)開發視覺效果，而不使用 `pbiviz package` 命令將其重新封裝。
+* 如果您有 Power BI 帳戶，請使用 Power BI 服務來[即時](./develop-circle-card.md)開發視覺效果，而不使用 `pbiviz package` 命令將其重新封裝。
 
 ### <a name="html-widgets-gallery"></a>HTML Widget 資源庫
 瀏覽 [HTML Widget 資源庫](http://gallery.htmlwidgets.org/)中的視覺效果，以用於您的下一個視覺效果。 為了方便起見，我們建立了[視覺效果專案存放庫](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)，有超過 20 個互動式 HTML 視覺效果可供您選擇！
@@ -300,6 +300,6 @@ ms.locfileid: "91747704"
 
 ## <a name="next-steps"></a>後續步驟
 
-若要深入了解，請參閱 [Power BI 視覺效果](./custom-visual-develop-tutorial.md) 和 [R 視覺效果](../../visuals/service-r-visuals.md)的其他教學課程。
+若要深入了解，請參閱其他 Power BI 教學課程：[開發 Power BI 圓形卡片視覺效果](./develop-circle-card.md)與 [R 視覺效果](../../visuals/service-r-visuals.md)。
 
 了解如何[開發並提交視覺效果](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/)至 [Office 市集 (資源庫)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI)。如需進一步的範例，請參閱 [R 指令碼展示](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)

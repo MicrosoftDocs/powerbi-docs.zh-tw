@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747520"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049284"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>如何建立易於行動裝置使用的 Power BI 視覺效果
 使用行動裝置在 Power BI 中扮演著重要的角色。 其中一個優點是隨時隨地都能連線到資料。
@@ -79,4 +79,4 @@ Power BI 視覺效果必須在所有支援 Power BI 應用程式的裝置上轉�
 針對 Windows、iOS 和 Android 裝置的最新模型進行測試時，開發人員需慎重考慮品質層面。
 
 ## <a name="next-steps"></a>後續步驟
-若要開始使用，請參閱[教學課程：開發 Power BI 視覺效果](./custom-visual-develop-tutorial.md)。
+若要開始使用，請參閱[開發 Power BI 圓形卡片視覺效果](./develop-circle-card.md)。

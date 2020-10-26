@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9af0edbe63841f6fb0e0de2e628784c89a5e44f1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746623"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983359"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
@@ -401,16 +401,16 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 ## <a name="move-to-production"></a>移至生產環境
 
-現在您已完成應用程式的開發，就可以為工作區配置專用容量。 
+您已完成應用程式的開發，現在可以為工作區配置容量。
 
 > [!Important]
-> 需要專用容量才可移到生產環境。 所有工作區 (一個包含報表或儀表板，另一個包含資料集) 必須指派給一個容量。
+> 需要容量才可移到生產環境。 所有工作區 (一個包含報表或儀表板，另一個包含資料集) 必須指派給一個容量。
 
-### <a name="create-a-dedicated-capacity"></a>建立專用容量
+### <a name="create-a-capacity"></a>建立容量
 
-建立專用容量，您的客戶即可用到專用資源。 有兩種類型的容量可供選擇：
+透過建立容量，您便可以為客戶提供資源。 有兩種類型的容量可供選擇：
 * **Power BI Premium** - 兩個 SKU 系列 (*EM* 和 *P*) 中可用的租用戶層級 Office 356 訂用帳戶。內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../../admin/service-premium-what-is.md)
-* **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買專用容量。 此訂用帳戶會使用 *A* SKU。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
+* **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買容量。 此訂用帳戶會使用 *A* SKU。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 > [!NOTE]
 > 在 A SKU 中，您無法使用免費的 Power BI 授權存取 Power BI 內容。
 
@@ -428,30 +428,30 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 ### <a name="development-testing"></a>開發測試
 
-若要進行開發測試，您可搭配 Pro 授權使用內嵌試用權杖。 若要在生產環境中進行內嵌，請使用專用容量。
+若要進行開發測試，您可搭配 Pro 授權使用內嵌試用權杖。 若要在生產環境中進行內嵌，請使用容量。
 
 Power BI 服務主體或主帳戶可產生的內嵌試用權杖數有所限制。 請使用[可用功能](/rest/api/power-bi/availablefeatures/getavailablefeatures) API 來檢查目前內嵌使用量的百分比。 使用量會針對每個服務主體或主帳戶顯示。
 
-若在測試時用盡內嵌權杖，則需要購買 Power BI Embedded 或 Premium [容量](embedded-capacity.md)。 使用專用容量可產生的內嵌權杖數沒有限制。
+若在測試時用盡內嵌權杖，則需要購買 Power BI Embedded 或 Premium [容量](embedded-capacity.md)。 使用容量可產生的內嵌權杖數沒有限制。
 
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>將工作區指派給專用容量
+### <a name="assign-a-workspace-to-a-capacity"></a>將工作區指派給容量
 
-建立專用容量之後，您可以將工作區指派給該專用容量。
+建立容量之後，您可以將工作區指派到該容量。
 
-您必須將所有包含內嵌內容 (包括資料集、報表和儀表板) 相關 Power BI 資源的工作區指派給專用容量。 例如，如果內嵌報表和繫結至該報表的資料集位於不同工作區，則必須將這兩個工作區指派給專用容量。
+您必須將所有包含與內嵌內容 (包括資料集、報表和儀表板) 相關之 Power BI 資源的工作區指派給容量。 例如，如果內嵌報表和繫結至該報表的資料集位於不同工作區，則必須將這兩個工作區指派給容量。
 
-若要使用[服務主體](embed-service-principal.md)，將專用容量指派工作區，請使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)。
+若要使用[服務主體](embed-service-principal.md)將容量指派至工作區，請使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)。
 
-請遵循下列步驟，使用**主帳戶**將專用容量指派給工作區，。
+請遵循下列步驟，使用**主帳戶**將容量指派給工作區。
 
 1. 在 **Power BI 服務**中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]。
 
     ![編輯工作區](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
 
-2. 展開 [進階]，接著啟用 [專用容量]，然後選取您所建立的專用容量」。 接著，選取 [儲存]。
+2. 展開 [進階]，接著啟用 [容量]，然後選取您所建立的容量。 接著，選取 [儲存]。
 
-    ![指派專用容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+    ![指派容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
 3. 在選取 [儲存] 後，應該會在工作區名稱的旁邊看到一個**鑽石**。
 

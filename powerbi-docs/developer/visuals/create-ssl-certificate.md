@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f6f458d2fe82668074d7cfb046cb5a72afa35c38
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747543"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048778"
 ---
 # <a name="create-an-ssl-certificate"></a>建立 SSL 憑證
 
 此文章說明如何產生並安裝 Power BI 視覺效果的安全通訊端層 (SSL) 憑證。
 
-針對 Windows、macOS X 與 Linux 程序，您必須已安裝 Power BI Visual Tools **.pbiviz** 套件。 如需詳細資訊，請參閱[設定環境開發人員環境](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment)。 
+針對 Windows、macOS X 與 Linux 程序，您必須已安裝 Power BI Visual Tools **.pbiviz** 套件。 如需詳細資訊，請參閱[設定環境以開發 Power BI 視覺效果](./environment-setup.md)。 
 
 ## <a name="create-a-certificate-on-windows"></a>在 Windows 上建立憑證
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 針對 Windows 7，`pbiviz` 工具要求必須能從命令列存取 OpenSSL 公用程式。 若要安裝 OpenSSL，請移至 [OpenSSL](https://www.openssl.org) \(英文\) 或 [OpenSSL 二進位檔](https://wiki.openssl.org/index.php/Binaries) \(英文\)。
 
-如需安裝憑證的詳細資訊與指示，請參閱[建立並安裝適用於 Windows 的憑證](./custom-visual-develop-tutorial.md#windows)。
+如需安裝憑證的詳細資訊與指示，請參閱[建立並安裝適用於 Windows 的憑證](./environment-setup.md#create-and-install-a-certificate)。
 
 ## <a name="create-a-certificate-on-macos-x"></a>在 macOS X 上建立憑證
 
@@ -58,7 +58,7 @@ macOS X 作業系統通常會提供 OpenSSL 公用程式。
 pbiviz --install-cert
 ```
 
-如需詳細資訊與指示，請參閱[建立並安裝適用於 OS X 的憑證](./custom-visual-develop-tutorial.md#osx)。
+如需詳細資訊與指示，請參閱[建立並安裝憑證](./environment-setup.md#create-and-install-a-certificate)中的 [OSX] 索引標籤。
 
 ## <a name="create-a-certificate-on-linux"></a>在 Linux 上建立憑證
 
@@ -199,6 +199,6 @@ openssl req -x509 -newkey rsa:4096 -keyout PowerBIVisualTest_private.key -out Po
     ```
 
 ## <a name="next-steps"></a>後續步驟
-- [開發 Power BI 視覺效果](custom-visual-develop-tutorial.md)
+- [開發 Power BI 圓形卡片視覺效果](develop-circle-card.md)
 - [Power BI 視覺效果範例](samples.md)
 - [將 Power BI 視覺效果發佈到 AppSource](office-store.md)

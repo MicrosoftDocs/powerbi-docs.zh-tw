@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 2c06464999192e71c2d398f41b7b96e8fa4a169b
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748831"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983474"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式
 
@@ -34,7 +34,7 @@ ms.locfileid: "91748831"
 * [服務主體 (僅限應用程式權杖)](embed-service-principal.md)
 * [Microsoft Azure](https://azure.microsoft.com/) 訂用帳戶
 * 您自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)設定
-* 至少有一個 A4 或 P1 [容量](#create-a-dedicated-capacity)，並已啟用[編頁報表](../../admin/service-admin-premium-workloads.md#paginated-reports)工作負載
+* 至少有一個 A4 或 P1 [容量](#create-a-capacity)，並已啟用[編頁報表](../../admin/service-admin-premium-workloads.md#paginated-reports)工作負載
 
 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
 
@@ -45,17 +45,17 @@ ms.locfileid: "91748831"
 
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
-內嵌編頁報表需要將工作區指派給專用容量，並將報表上傳至工作區。
+內嵌編頁報表需要將工作區指派給容量，並將報表上傳至工作區。
 
 ### <a name="create-an-app-workspace"></a>建立應用程式工作區
 
 因為您使用[服務主體](embed-service-principal.md)登入您的應用程式，您需要使用[新的工作區](../../collaborate-share/service-create-the-new-workspaces.md)。 身為「服務主體」，您也必須是與應用程式相關之應用程式工作區的系統管理員或成員。
 
-### <a name="create-a-dedicated-capacity"></a>建立專用容量
+### <a name="create-a-capacity"></a>建立容量
 
 在您匯入或上傳編頁報表以進行內嵌之前，必須至少將包含報表的工作區指派至 A4 或 P1 容量。 有兩種類型的容量可供您選擇：
 * **Power BI Premium** - 若要內嵌編頁報表，需要 *P* SKU 容量。 內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../../admin/service-premium-what-is.md)
-* **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買專用容量。 此訂用帳戶會使用 *A* SKU。 若要內嵌編頁報表，您至少需要一個 *A4* 訂用帳戶。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
+* **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買容量。 此訂用帳戶會使用 *A* SKU。 若要內嵌編頁報表，您至少需要一個 *A4* 訂用帳戶。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 
 下表說明每個 SKU 的資源和限制。 若要判斷最符合需求的容量，請參閱[我該為案例購買哪一種 SKU](./embedded-faq.md#which-solution-should-i-choose) 資料表。
 
@@ -66,11 +66,11 @@ ms.locfileid: "91748831"
 | P3/A6 | 32 | 16 | 100 | 16 |
 | | | | | |
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>將應用程式工作區指派至專用容量
+### <a name="assign-an-app-workspace-to-a-capacity"></a>將應用程式工作區指派給容量
 
-建立了專用容量之後，您可以將應用程式工作區指派到該專用容量。
+建立容量之後，您可以將應用程式工作區指派到該容量。
 
-若要使用[服務主體](embed-service-principal.md)，將專用容量指派工作區，請使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)。
+若要使用[服務主體](embed-service-principal.md)將容量指派至工作區，請使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)。
 
 ### <a name="create-and-upload-your-paginated-reports"></a>建立並上傳您的編頁報表
 

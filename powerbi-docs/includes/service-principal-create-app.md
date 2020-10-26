@@ -7,12 +7,12 @@ ms.author: kesharab
 ms.topic: include
 ms.date: 05/20/2020
 ms.custom: include file
-ms.openlocfilehash: 0fe3e1743cb8853d6626b59b748d70bfcc292dbd
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 80886eab6de6c125d0361b326f5d31d2b3bb35e5
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315746"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524506"
 ---
 1. 登入 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
 
@@ -33,4 +33,4 @@ ms.locfileid: "84315746"
 
 6. 註冊之後，您可以從 [概觀] 索引標籤取得「應用程式識別碼」。複製並儲存「應用程式識別碼」以供稍後使用。
 
-    ![應用程式識別碼](media/embedded-service-principal/application-id.png)
+    ![螢幕擷取畫面顯示在 [概觀] 索引標籤中取得應用程式識別碼的位置。](media/embedded-service-principal/application-id.png)

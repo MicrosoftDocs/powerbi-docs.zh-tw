@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 38c14aa33504e7a3bb21cf68c6466a829d0653a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238882"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526252"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>在 Power BI Desktop 中執行常見查詢工作
 
@@ -87,7 +87,7 @@ ms.locfileid: "85238882"
 
 讓我們找出每一州有多少機構。 (機構可包括學區和其他教育機構，例如地區服務區等等。)選取 [機構識別碼 - 已指派 NCES \[區域\] 的最新可用年份]  資料行，然後選取功能區中 [轉換]  或 [首頁]  索引標籤中的 [分組方式]  按鈕。 (兩個索引標籤都提供 [分組方式]  選項。)
 
-![[分組方式] 對話方塊，Power Query 編輯器，Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+![螢幕擷取畫面顯示如何將資料表中的資料列分組。](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
 [分組方式]  對話方塊隨即出現。 當 Power Query 編輯器將資料列分組時，它會建立新的資料行，其中放入**分組**結果。 您可以以下列方式調整**分組**作業：
 
@@ -98,7 +98,7 @@ ms.locfileid: "85238882"
 
 選取 [加入群組]  或 [加入彙總]  ，即可將多個群組或彙總加入至**分組**作業。 若要移除群組或匯總，請選取資料列右邊的省略號圖示 ( **...** )，然後選取 [刪除]  。 請繼續並使用預設值來嘗試**分組方式**作業，看看會發生什麼情況。
 
-![[分組方式] 對話方塊，Power Query 編輯器，Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+![螢幕擷取畫面顯示 [群組依據] 對話方塊，其中已標註 [加入群組] 和 [加入彙總]。](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
 當您選取 [確定]  時，查詢會執行**分組方式**作業並傳回結果。 哇，不得了，結果顯示俄亥俄、伊利諾州、德州和加州現在都有超過一千個機構！
 

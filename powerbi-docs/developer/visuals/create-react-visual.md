@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 0160bf604b23102bcb6e21232a64a776f3bb8290
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 653724c6028b5be950c09c9361cdb43edc930e3a
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746255"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049054"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>教學課程：建立以 React 為基礎的視覺效果
 
@@ -36,8 +36,8 @@ ms.locfileid: "91746255"
 
 * **Power BI Pro** 帳戶。 開始之前，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)。
 * [Visual Studio Code](https://www.visualstudio.com/) \(英文\)。
-* 適用於 Windows 使用者的 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 4 或更新版本，或適用於 OSX 使用者的[終端機](https://macpaw.com/how-to/use-terminal-on-mac) \(英文\)。
-* 如[設定開發人員環境](custom-visual-develop-tutorial.md#setting-up-the-developer-environment)所述的環境。
+* 適用於 Windows 使用者的 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) 4 或更新版本，或適用於 OSX 使用者的[終端機](https://macpaw.com/how-to/use-terminal-on-mac) \(英文\)。
+* 如[設定環境以開發 Power BI 視覺效果](environment-setup.md)中所述的環境。
 
 ## <a name="getting-started"></a>開始使用
 

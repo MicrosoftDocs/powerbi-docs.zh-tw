@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 891f4d57e1c2754f4c98916b2824ef2283d8298a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 55661d8faa39d26d19d15696252cf46b74c84a50
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747957"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049422"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
 
-一旦建立了 Power BI 視覺效果後，您可以將它發佈至 AppSource 供其他人探索及使用。 如需建立 Power BI 視覺效果的詳細資訊，請參閱[開發 Power BI 視覺效果](custom-visual-develop-tutorial.md)。
+一旦建立了 Power BI 視覺效果後，您可以將它發佈至 AppSource 供其他人探索及使用。 如需建立 Power BI 視覺效果的詳細資訊，請參閱[開發 Power BI 圓形卡片視覺效果](develop-circle-card.md)。
 
 ## <a name="what-is-appsource"></a>什麼是 AppSource？
 
@@ -119,7 +119,7 @@ Power BI 小組必須檢查檔案中是否有新的 Power BI 視覺效果提交�
 
 ## <a name="next-steps"></a>後續步驟
 
-* [Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)
+* [開發 Power BI 圓形卡片視覺效果](develop-circle-card.md)
 
 * [Power BI 中的視覺效果](../../visuals/power-bi-report-visualizations.md)  
 

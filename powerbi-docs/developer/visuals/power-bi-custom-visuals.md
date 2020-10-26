@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 62a88a8267ae38b1dbfc0bbb0ee1d9020e7f9408
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538002"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049238"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
@@ -72,7 +72,7 @@ Power BI 視覺效果是一種套件，其中所包含程式碼可用來轉譯�
 
 若要匯入 Power BI 視覺效果，請在 [視覺效果] 窗格中，按一下 [匯入自訂視覺效果] 並選取 [從檔案匯入]。
 
-如果您是 Web 開發人員，而且想要建立自己的視覺效果並將其新增至 AppSource，您可以了解如何[開發 Power BI 視覺效果](custom-visual-develop-tutorial.md)和[將 Power BI 視覺效果發佈至 AppSource](office-store.md)。
+如果您是 Web 開發人員，而且有興趣建立自己的視覺效果並將其新增至 AppSource，您可以了解如何[開發 Power BI 圓形卡片視覺效果](develop-circle-card.md)和[將 Power BI 視覺效果發佈至 AppSource](office-store.md)。
 
 > [!WARNING]
 > Power BI 視覺效果的程式碼可能會有安全性或隱私權風險。 請確定您信任作者和 Power BI 視覺效果來源，再將其匯入到報表。
@@ -80,7 +80,7 @@ Power BI 視覺效果是一種套件，其中所包含程式碼可用來轉譯�
 ## <a name="next-steps"></a>後續步驟
 
 >[!div class="nextstepaction"]
->[開發 Power BI 視覺效果](custom-visual-develop-tutorial.md)
+>[開發 Power BI 圓形卡片視覺效果](develop-circle-card.md)
 
 >[!div class="nextstepaction"]
 >[Power BI 視覺效果專案結構](visual-project-structure.md)

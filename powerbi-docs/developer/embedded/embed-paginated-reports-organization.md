@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747612"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983384"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 編頁報表內嵌至應用程式
 
@@ -58,11 +58,11 @@ ms.locfileid: "91747612"
 >* 取得應用程式祕密
 >* 將 **Report.ReadAll** 權限 (範圍) 套用到您的應用程式。
 
-### <a name="create-a-dedicated-capacity"></a>建立專用容量
+### <a name="create-a-capacity"></a>建立容量
 
-建立專用容量，您應用程式工作區中的內容即可享有專用資源。 針對編頁報表，您必須使用至少 P1 容量來備份您的應用程式工作區。 您可以使用 [Power BI Premium](../../admin/service-premium-what-is.md) 建立專用容量。
+透過建立容量，您便可以在應用程式工作區中具有內容的資源。 針對編頁報表，您必須使用至少 P1 容量來備份您的應用程式工作區。 您可以使用 [Power BI Premium](../../admin/service-premium-what-is.md) 來建立容量。
 
-下表列出可用來針對 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md) 中的編頁報表建立專用容量的 Power BI Premium SKU：
+下表列出可用來針對 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md) 中的編頁報表建立容量的 Power BI Premium SKU：
 
 | 容量節點 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心數 | 前端 V 核心數 | DirectQuery/即時連線限制 |
 | --- | --- | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ ms.locfileid: "91747612"
 
 ### <a name="enable-paginated-reports-workload"></a>啟用編頁報表工作負載
 
-您必須在您的專用容量上啟用編頁報表工作負載。
+您必須在您的容量上啟用編頁報表工作負載。
 
 1. 登入 [Power BI > [管理入口網站] > [容量設定]](https://app.powerbi.com/admin-portal/capacities)。
 
@@ -91,17 +91,17 @@ ms.locfileid: "91747612"
 
     ![編頁報表工作負載](media/embed-paginated-reports-organization/paginated-reports-workload.png)
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>將應用程式工作區指派至專用容量
+### <a name="assign-an-app-workspace-to-a-capacity"></a>將應用程式工作區指派給容量
 
-建立專用容量之後，您可以將應用程式工作區指派到該專用容量。 若要完成此處理序，請遵循下列步驟：
+建立容量之後，您可以將應用程式工作區指派到該容量。 若要完成此處理序，請遵循下列步驟：
 
 1. 在 Power BI 服務內，展開工作區，然後選取您用來內嵌內容之工作區的 [更多]。 然後選取 [工作區設定]。
 
     ![編輯工作區](media/embed-paginated-reports-organization/workspace-settings.png)
 
-2. 選取 [Premium]，然後啟用 [專用容量]。 選取您建立的專用容量。 接著，選取 [儲存]。
+2. 選取 [Premium]，然後啟用 [容量]。 選取您所建立的容量。 接著，選取 [儲存]。
 
-    ![指派專用容量](media/embed-paginated-reports-organization/dedicated-capacity.png)
+    ![指派容量](media/embed-paginated-reports-organization/capacity.png)
 
 3. 在您選取 [儲存] 後，應該會在應用程式工作區名稱的旁邊看到一個鑽石。
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 10/19/2020
+ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526666"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92257002"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -178,6 +178,12 @@ SaaS 內嵌 (包括安全內嵌支援) 已可供使用。 對於 PaaS 內嵌，�
 使用分頁報表的日期時間欄位時，請記住以下事項。
 
 - 目前有一些與日期時間參數相關的全球化限制。 無論您在 Power BI 報表產生器中如何設計日期時間，都會以美國格式 (MM/DD/YYYY) 來擷取 Power BI 服務中的所有日期時間參數。
+
+在 Power BI 服務中檢視編頁報表時，工作階段可能會逾時，並向使用者顯示下列通知：
+
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="[編頁報表容量設定] 索引標籤":::
+
+- 工作階段將會在下列情況中逾時：停止活動 60 分鐘之後、在裝置已遭鎖定或處於非使用中狀態之前，或當報表未顯示於瀏覽器的使用中索引標籤內時。
 
 ## <a name="next-steps"></a>後續步驟
 

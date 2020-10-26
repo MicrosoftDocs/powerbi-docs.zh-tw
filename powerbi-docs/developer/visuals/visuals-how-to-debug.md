@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 2978401c7ec949c8c8df7c813395b3d84db18b72
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232664"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525539"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>如何針對 Power BI 視覺效果進行偵錯
 
@@ -78,7 +78,7 @@ public update(options: VisualUpdateOptions) {
 3. 按一下**發生例外狀況時中斷**圖示 (具有暫停符號的六邊形)。
 4. 選取 [發生任何例外狀況時中斷]  。
 
-![資料角色欄位](media/visuals-how-to-debug/how-to-debug-edge.png)
+![螢幕擷取畫面顯示 [偵錯工具] 索引標籤，其中已選取 [發生任何例外狀況時中斷]。](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -87,7 +87,7 @@ public update(options: VisualUpdateOptions) {
 3. 按一下**發生例外狀況時中斷**圖示 (具有暫停符號的停止符號)。
 4. 選取 [Pause On Caught Exceptions]  \(攔截到例外狀況時暫停\) 核取方塊。
 
-![資料角色欄位](media/visuals-how-to-debug/how-to-debug-chrome.png)
+![螢幕擷取畫面顯示 [來源] 索引標籤，其中已選取 [攔截到例外狀況時暫停]。](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>後續步驟
 * [針對 Power BI 視覺效果進行疑難排解](power-bi-custom-visuals-troubleshoot.md)

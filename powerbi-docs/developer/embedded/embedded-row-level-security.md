@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748900"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981727"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -195,7 +195,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 這裡為使用 Power BI Embedded 應用程式開始設定 CustomData() 功能的步驟。
 
-1. 建立您的 Azure Analysis Services 資料庫。 接著透過 [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) 登入 Azure Analysis Services 伺服器。
+1. 建立您的 Azure Analysis Services 資料庫。 接著透過 [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) 登入 Azure Analysis Services 伺服器。
 
     ![建立 Azure Analysis Services 資料庫](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -217,7 +217,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     ![建立角色 - 設定 [資料列篩選]](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
-6. 建置 PBI 報表並將其發佈至具專用容量的工作區。
+6. 建置 PBI 報表並將其發佈至具容量的工作區。
 
     ![PBI 報表範例](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
@@ -261,7 +261,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 此類有效身分識別問題直接適用於 Azure SQL Server 上的 RLS 規則。 當從 Azure SQL Server 查詢資料時，Power BI Embedded 會使用所提供的存取權杖。 由於 USER_NAME() SQL 函數，可以存取使用者的 UPN (為其提供存取權杖)。
 
-權杖型身分識別僅適用於專用容量上的 DirectQuery 模型 - 連線到 Azure SQL Database，該資料庫設定為允許 AAD 驗證 ([深入了解 Azure SQL Database 的 AAD 驗證](/azure/sql-database/sql-database-manage-logins))。 必須將資料集其資料來源設定為使用使用者的 OAuth2 認證，才能使用權杖型身分識別。
+權杖型身分識別僅適用於容量上的 DirectQuery 模型 - 連線到 Azure SQL Database，該資料庫設定為允許 AAD 驗證 ([深入了解 Azure SQL Database 的 AAD 驗證](/azure/sql-database/sql-database-manage-logins))。 必須將資料集其資料來源設定為使用使用者的 OAuth2 認證，才能使用權杖型身分識別。
 
    ![設定 Azure SQL Server](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -342,7 +342,7 @@ public IdentityBlob(string value);
 
 ### <a name="token-based-identity-limitations"></a>權杖型身分識別限制
 
-* 僅當擁有專用容量時，您才能使用 RLS。
+* 您只有在擁有容量時才能使用 RLS。
 * RLS 不適用於內部部署 SQL Server。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

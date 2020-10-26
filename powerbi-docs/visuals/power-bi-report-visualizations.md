@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ae4223a6e156be3907bcad980df9446dbb64127
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c94990f3126191cf568c2cc20fb5db0c954a6424
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234642"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049445"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 報表的視覺效果
 
@@ -29,7 +29,7 @@ ms.locfileid: "85234642"
 
 ![具有每個視覺效果類型圖示的窗格](media/power-bi-report-visualizations/power-bi-icons.png)
 
-您可從 [Microsoft AppSource 社群網站](https://appsource.microsoft.com) 取得更多 Power BI 視覺效果。 在 AppSource 中，您可瀏覽並 [下載](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 和社群所提供的 [ Power BI 視覺效果](../developer/visuals/custom-visual-develop-tutorial.md)。
+您可從 [Microsoft AppSource 社群網站](https://appsource.microsoft.com) 取得更多 Power BI 視覺效果。 在 AppSource 中，您可以瀏覽並[下載](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 和社群所提供的 Power BI 視覺效果。
 
 如果您是 Power BI 新手，或需要喚起記憶，請使用下列連結了解 Power BI 視覺效果的基本概念。  或者，使用我們的目錄 (沿著本文的左邊)，來找到更多有用的資訊。
 
@@ -39,7 +39,7 @@ ms.locfileid: "85234642"
 
 ## <a name="upload-a-visualization-from-a-file-or-from-appsource"></a>從檔案或從 AppSource 上傳視覺效果
 
-新增自行建立或在 [Microsoft AppSource 社群網站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 中找到的視覺效果。 腦中充滿創造力嗎？ 深入探索我們的原始程式碼，並使用我們的[開發人員工具](../developer/visuals/custom-visual-develop-tutorial.md)來建立新的視覺效果類型，然後[將其與社群共用](../developer/visuals/office-store.md)。 若要深入了解開發 Power BI 視覺效果，請瀏覽[開發 Power BI 視覺效果](../developer/visuals/custom-visual-develop-tutorial.md)。
+新增自行建立或在 [Microsoft AppSource 社群網站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 中找到的視覺效果。 腦中充滿創造力嗎？ 深入探索我們的原始程式碼，並使用我們的[開發人員工具](../developer/visuals/environment-setup.md)來建立新的視覺效果類型，然後[將其與社群共用](../developer/visuals/office-store.md)。 若要深入了解開發 Power BI 視覺效果，請瀏覽[開發 Power BI 視覺效果](../developer/visuals/develop-circle-card.md)。
 
 ## <a name="personalize-your-visualization-pane"></a>將 [視覺效果] 窗格個人化
 
