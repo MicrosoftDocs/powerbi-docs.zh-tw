@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63acae99f0abd4fc91f4ae51b33786a3e01093ea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226016"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526712"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>在 Power BI 和 Microsoft 365 中管理工作區
 
@@ -42,7 +42,7 @@ ms.locfileid: "85226016"
 
 1. 在 Power BI 服務中，選取 [工作區] 旁邊的箭頭 > 選取工作區名稱旁邊的 [更多選項] (…) > [編輯此工作區]。
 
-   ![編輯 Power BI 中的工作區](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![螢幕擷取畫面顯示 Power BI 首頁，其中已選取 [工作區]，且已選取 [更多選項] 功能表中的 [編輯此工作區]。](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
 
    > [!NOTE]
    > 只有在您是工作區的系統管理員時，您才會看到 [編輯此工作區]。
@@ -61,7 +61,7 @@ ms.locfileid: "85226016"
 
 1. 在 Power BI 服務中，選取 [工作區] 旁邊的箭頭 > 選取工作區名稱旁邊的 [更多選項] (…) > [成員]。
 
-   ![編輯 Power BI 中的工作區](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
+   ![螢幕擷取畫面顯示 Power BI 首頁，其中已選取 [工作區]，且已選取 [更多選項] 功能表中的 [成員]。](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
    這會開啟工作區的 Microsoft 365 Outlook 群組檢視。 您可能需要登入公司帳戶。
 

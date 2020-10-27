@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746738"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983037"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI 內嵌式分析中的容量規劃
 
@@ -27,11 +27,11 @@ ms.locfileid: "91746738"
 * 資料重新整理頻率
 * 難以預測的其他使用模式。
 
-此文章的目的是為了讓 Power BI 內嵌式分析的容量規劃更輕鬆，方法是透過引進 [Power BI 專用容量負載評估工具](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) \(英文\)，該工具是針對 Power BI 內嵌式分析容量 (*A*、*EM* 或 *P* SKU) 的負載測試自動化而建立。
+此文章的目的是透過引進 [Power BI 容量負載評定工具](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) \(英文\)，來讓 Power BI 內嵌式分析的容量規劃更輕鬆，該工具是針對 Power BI 內嵌式分析容量 ( *A* 、 *EM* 或 *P* SKU) 的負載測試自動化而建立。
 
 ## <a name="planning-tool"></a>規劃工具
 
- [Power BI 專用容量負載評估工具](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) \(英文\) 可以協助您了解容量可以處理多少使用者負載。 其會使用 PowerShell 針對您的容量建立自動化的負載測試，並讓您選擇要測試的報表，以及要模擬的並行使用者人數。
+ [Power BI 容量負載評定工具](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) \(英文\) 可以協助您了解容量能夠處理多少使用者負載。 其會使用 PowerShell 針對您的容量建立自動化的負載測試，並讓您選擇要測試的報表，以及要模擬的並行使用者人數。
 
 此工具會透過持續以新的篩選值來轉譯每份報表 (以防止因為報表快取而誤以為效能良好) 產生容量的負載，直到針對服務驗證工具所需的權杖過期為止。
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0555f6c46ef864ed89d3d364420a14a2ff18ab84
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: c4f9d83d612d8f8d442fc5267be66a2a5cf288a2
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136089"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116607"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>在新的工作區體驗中監視使用計量 (預覽)
 
@@ -92,7 +92,7 @@ ms.locfileid: "91136089"
 | 報告使用方式 | 平台交叉分析篩選器 | 如果透過 Power BI 服務 (powerbi.com)、Power BI Embedded 或行動裝置存取報表。 |
 | 報告使用方式 | 具有報表檢視的使用者 | 顯示曾開啟報表的使用者清單 (依檢視計數排序)。 |
 | 報告使用方式 | 頁面 | 如果報表有 1 個以上的頁面，請依檢視的頁面分割報表。 如果您看到 [空白] 清單選項，表示最近新增了報表頁面 (新頁面的實際名稱會在 24 小時內出現在交叉分析篩選器清單中)，及/或已刪除報表頁面。 [空白] 包含這類情況。 |
-| 報表效能 | 一般開啟時間 | 一般報表開啟時間對應至開啟報表所需時間的第 50 個百分位數。 換句話說，這是低於完成 50% 開啟報表動作的時間。 [報表效能] 頁面也會依據取用方法與瀏覽器類型細分一般報表開啟時間。   |
+| 報表效能 | 一般開啟時間 | 一般報表開啟時間對應至開啟報表所需時間的第 50 個百分位數。 換句話說，這是低於完成 50% 開啟報表動作的時間。 [報表效能] 頁面也會依據取用方法與瀏覽器類型細分一般報表開啟時間。 目前我們會測量初始報表載入與檢視第一頁的效能。 測量會在要求報表時開始，並在最後一個視覺效果完成轉譯時結束。 效能計量不包含報表互動，例如切割、篩選或變更頁面。  |
 | 報表效能 | 開啟時間趨勢 | 開啟時間趨勢會反映一段時間內的開啟報表效能變更。 它會比較所選時段前半段的報表開啟時間與後半段的開啟時間。 |
 | 報表效能 | 日期交叉分析篩選器 | 您可以在 [報表效能] 頁面上變更時間間隔，例如計算每週或每兩週的趨勢。 在 [報表效能] 頁面的左下角，您可以判斷所選報表之可用使用量資料的最早與最晚日期。 |
 | 報表效能 | 每日效能 | 針對每個日期計算的開啟報表動作之 10%、50% 與 90% 的效能。 |
@@ -161,8 +161,8 @@ ms.locfileid: "91136089"
 
 若要深入鑽研報表資料，或針對底層資料集建置自己的報表，您有幾個選項：
 
-- **在 Power BI 服務中[建立報表複本](#create-a-copy-of-the-usage-report)。**   使用 [儲存複本] 來建立個別的使用計量報表執行個體，並根據您的特定需求加以自訂。
-- **使用新的報表[連線到資料集](#create-a-new-usage-report-in-power-bi-desktop)。**   針對每個工作區，資料集的名稱都是「使用計量報表」，如先前在[使用計量報表資料集](#usage-metrics-report-dataset)一節中所述。 您也可以使用 Power BI Desktop 來根據底層資料集建置自訂使用計量報表。
+- **在 Power BI 服務中 [建立報表複本](#create-a-copy-of-the-usage-report)。**   使用 [儲存複本] 來建立個別的使用計量報表執行個體，並根據您的特定需求加以自訂。
+- **使用新的報表 [連線到資料集](#create-a-new-usage-report-in-power-bi-desktop)。**   針對每個工作區，資料集的名稱都是「使用計量報表」，如先前在[使用計量報表資料集](#usage-metrics-report-dataset)一節中所述。 您也可以使用 Power BI Desktop 來根據底層資料集建置自訂使用計量報表。
 - **[使用 [在 Excel 中進行分析]](#analyze-usage-data-in-excel)。**   您也可以利用 Microsoft Excel 2010 SP1 或更新版本中的樞紐分析表、圖表與交叉分析篩選器功能來分析 Power BI 使用方式資料。 深入了解[在 Excel 中進行分析](service-analyze-in-excel.md)功能。
 
 ### <a name="create-a-copy-of-the-usage-report"></a>建立使用量報表的複本
@@ -371,7 +371,7 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供和 Po
 
     ![試用 REST API](media/service-modern-usage-metrics/power-bi-rest-api-try-it.png)
 
-1. 在 [執行] 按鈕下，確認服務傳回回應碼 **200**。 該代碼表示已成功刪除資料集及其相關聯的使用計量報表。
+1. 在 [執行] 按鈕下，確認服務傳回回應碼 **200** 。 該代碼表示已成功刪除資料集及其相關聯的使用計量報表。
 
     ![回應碼 200](media/service-modern-usage-metrics/power-bi-response-code-200.png)
 

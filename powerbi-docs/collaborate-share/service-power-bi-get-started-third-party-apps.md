@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: d845cde571679355fd50560a154358885f981db0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9e83d8689564471365666f9b4adfe2c3b9d1c05e
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225510"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526735"
 ---
 # <a name="get-started-with-third-party-apps"></a>開始使用協力廠商應用程式
 
@@ -50,7 +50,7 @@ ms.locfileid: "85225510"
 
 請前往 Office 365 我的應用程式網站，撤銷協力廠商應用程式的權限。
 
-在 **Office 365 我的應用程式**網站，撤銷協力廠商權限的方式如下：
+在 **Office 365 我的應用程式** 網站，撤銷協力廠商權限的方式如下：
 
 1. 前往 [Office 365 我的應用程式網站](https://portal.office.com/myapps)。
 
@@ -58,4 +58,4 @@ ms.locfileid: "85225510"
 
 3. 將滑鼠暫留在該應用程式的磚，按一下 [(...)]  按鈕，然後按一下 [移除]  。
 
-   ![Remove](media/service-power-bi-get-started-third-party-apps/remove.png)
+   ![螢幕擷取畫面顯示撤銷協力廠商權限的 [移除] 選項。](media/service-power-bi-get-started-third-party-apps/remove.png)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020036"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256455"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -185,19 +185,21 @@ ms.locfileid: "91020036"
 * Emigo 資料來源
 * Entersoft 商務套件 (搶鮮版 (Beta))
 * FactSet Analytics
-* Palantir Foundry
-* 企業 App Store
+* Hexagon PPM 智慧型 API
 * Intune 資料倉儲 (搶鮮版 (Beta))
 * Microsoft Graph 安全性 搶鮮版 (Beta)
-* Power BI 的 Projectspace (搶鮮版 (Beta))
 * Product Insights (搶鮮版 (Beta))
 * Quick Base
 * TeamDesk (搶鮮版 (Beta))
 * Webtrends 分析 (搶鮮版 (Beta))
 * Witivio (搶鮮版 (Beta))
-* Zoho Creator (搶鮮版 (Beta))
 * 工作場所分析 (搶鮮版 (Beta))
-* Hexagon PPM 智慧型 API
+* Zoho Creator (搶鮮版 (Beta))
+* Palantir Foundry
+* 企業 App Store
+* Projectplace for Power BI
+* eWay-CRM (搶鮮版 (Beta))
+* Spigit (搶鮮版 (Beta))
 
 
 下圖顯示 [線上服務] 的 [取得資料] 視窗。
@@ -238,18 +240,26 @@ ms.locfileid: "91020036"
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (搶鮮版 (Beta))
 * Vena (搶鮮版 (Beta))
-* Zucchetti HR Infinity (搶鮮版 (Beta))
 * Vessel 見解 (搶鮮版 (Beta))
+* Zucchetti HR Infinity (搶鮮版 (Beta))
 * 空白查詢
 
 
 
 下圖顯示 [其他]  的 [取得資料] 視窗。
 
-![其他資料來源，[取得資料] 對話方塊，Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
+![Power BI Desktop 中的其他資料來源](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > 目前無法連線至使用 Azure Active Directory 保護的自訂資料來源。
+
+### <a name="template-apps"></a>範本應用程式
+
+您可以透過選取 [取得資料] 視窗底部附近的 [範本應用程式] 連結來尋找您組織的範本應用程式。 
+
+![Power BI Desktop 中 [其他資料來源] 的 [取得資料] 對話方塊](media/desktop-data-sources/data-sources-12.png)
+
+可用的範本應用程式可能會根據您的組織而有所不同。
 
 ## <a name="connecting-to-a-data-source"></a>連線到資料來源
 
@@ -273,25 +283,43 @@ ms.locfileid: "91020036"
 
 PBIDS 檔案是具有特定結構的 Power BI Desktop 檔案，而且它們具有 .PBIDS 副檔名，以識別它是 Power BI 資料來源檔案。
 
-您可以建立 PBIDS 檔案以簡化組織中報表建立者的**取得資料**體驗。 為了讓新的報表作者能夠更輕鬆地使用 PBIDS 檔案，我們建議系統管理員為常用的連線建立這些檔案。
+您可以建立 PBIDS 檔案以簡化組織中新報表建立者或初學者的 **取得資料** 體驗。 如果您從現有的報表建立 PBIDS 檔案，建立報表的初學者便能更輕鬆地從從相同的資料建置新報表。
 
-當作者開啟 PBIDS 檔案時，Power BI Desktop 會開啟並提示使用者提供認證來進行驗證，並連線到檔案中指定的資料來源。 [瀏覽] 對話方塊隨即出現，而且使用者必須從該資料來源選取要載入至模型的資料表。 如果未在 PBIDS 檔案中指定的話，使用者可能也需要選取資料庫。
+當作者開啟 PBIDS 檔案時，Power BI Desktop 會開啟並提示使用者提供認證來進行驗證，並連線到檔案中指定的資料來源。 [瀏覽] 對話方塊隨即出現，而且使用者必須從該資料來源選取要載入至模型的資料表。 如果未在 PBIDS 檔案中指定的話，使用者可能也需要選取資料庫與連線模式。
 
 之後，使用者可以開始建置視覺效果，或選取 [最近的來源] 以將一組新的資料表載入模型中。
 
 PBIDS 檔案目前在一個檔案中只支援一個資料來源。 指定一個以上的資料來源會導致錯誤。
 
-若要建立 PBIDS 檔案，系統管理員必須指定單一連線所需的輸入。 他們也可以將連線模式指定為 DirectQuery 或 Import。 若檔案中缺少 **mode** 或為 Null，則會提示在 Power BI Desktop 中開啟檔案的使用者選取 [DirectQuery] 或 [匯入]。
+
+### <a name="how-to-create-a-pbids-connection-file"></a>如何建立 PBIDS 連線檔案
+
+如果您的現有 Power BI Desktop (.PBIX) 已連線到您感興趣的資料，則只要將這些連線檔案從 Power BI Desktop 匯出即可。 建議您使用此方法，因為可以從 Desktop 自動產生 PBIDS 檔案。 此外，您仍然可以在文字編輯器中編輯或手動建立檔案。 
+
+若要建立 PBIDS 檔案，請選取 [檔案] > [選項及設定] > [資料來源設定]：
+
+![[資料來源設定] 功能表選項](media/desktop-data-sources/data-sources-09.png)
+
+在出現的對話方塊中，選取您想要匯出為 PBIDS 的資料來源，然後選取 [匯出 PBIDS]。
+
+![[資料來源設定] 對話方塊](media/desktop-data-sources/data-sources-10.png)
+
+當您選取 [匯出 PBIDS] 按鈕時，Power BI Desktop 會產生 PBIDS 檔案，您可以將其重新命名並儲存在目錄中，並與其他人共用。 您也可以在文字編輯器中開啟檔案，並進一步修改檔案，包括在檔案本身指定連線模式，如下圖所示。 
+
+![使用文字編輯器修改 PBIDS 檔案](media/desktop-data-sources/data-sources-11.png)
+
+如果您想要手動在文字編輯器中建立 PBIDS 檔案，則必須指定單一連線的必要輸入，並以 PBIDS 副檔名儲存檔案。 (選擇性) 您也可以將連線模式指定為 DirectQuery 或 Import。 若檔案中缺少 **mode** 或為 Null，則會提示在 Power BI Desktop 中開啟檔案的使用者選取 [DirectQuery] 或 [匯入]。
+
 
 ### <a name="pbids-file-examples"></a>PBIDS 檔案範例
 
-此節提供一些來自常用資料來源的範例。 PBIDS 檔案類型只支援 Power BI Desktop 中也支援的資料連線，但有兩個例外：Live Connect 與空白查詢。
+此節提供一些來自常用資料來源的範例。 PBIDS 檔案類型只支援 Power BI Desktop 中也支援的資料連線，但有下列例外：Wiki URL、Live Connect 與空白查詢。
 
 PBIDS 檔案不包含驗證資訊與資料表和結構描述資訊。  
 
 下列程式碼片段顯示數個常見的 PBIDS 檔案範例，但它們並不完整。 針對其他資料來源，您可以參考[資料來源參考 (DSR) 格式，以取得通訊協定和位址資訊 ](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) \(部分機器翻譯\)。
 
-這些範例只是為了方便起見，它們並不完整，而且不包含 DSR 格式的所有支援連接器。 系統管理員或組織可以使用這些範例作為指南來建立自己的資料來源，他們可以在其中建立及支援自己的資料來源檔案。
+若您編輯或手動建立連線檔案，這些範例只是為了方便起見，它們並不完整，而且不包含 DSR 格式的所有支援連接器。
 
 #### <a name="azure-as"></a>Azure AS
 
