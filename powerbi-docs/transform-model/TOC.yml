@@ -43,6 +43,8 @@
           href: dataflows/dataflows-create.md
         - name: 設定及取用資料流程
           href: dataflows/dataflows-configure-consume.md
+        - name: 設定 Power BI Premium 的資料流程工作負載
+          href: dataflows/dataflows-premium-workload-configuration.md
         - name: 資料流程與 Azure Data Lake Gen2
           href: dataflows/dataflows-azure-data-lake-storage-integration.md
         - name: 資料流程的進階功能
