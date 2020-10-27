@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47f1db75eb3923c1c4195a319323c3a37d17484e
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855947"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026065"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -23,7 +23,7 @@ ms.locfileid: "90855947"
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Power BI 報表是資料的互動式檢視，以視覺效果顯示資料的各種發現與見解。 在 Power BI 行動裝置應用程式中檢視報表是三步驟程序中的第三個步驟：
 
@@ -100,7 +100,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 ![切入動作](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
 
-當您點選視覺效果的特定部分，然後點選「鑽研」** 選項時，Power BI 會將您帶往報表中的其他頁面，篩選至您所點選的值。 報表作者可定義一或多個鑽研選項，每項都能將您帶往不同頁面。 在此情況下，您可以選擇想要鑽研的選項。 [上一頁] 按鈕可讓您回到上一頁。
+當您點選視覺效果的特定部分，然後點選「鑽研」  選項時，Power BI 會將您帶往報表中的其他頁面，篩選至您所點選的值。 報表作者可定義一或多個鑽研選項，每項都能將您帶往不同頁面。 在此情況下，您可以選擇想要鑽研的選項。 [上一頁] 按鈕可讓您回到上一頁。
 
 
 如需詳細資訊，請參閱如何[在 Power BI Desktop 中新增鑽研](../../create-reports/desktop-drillthrough.md)。
@@ -111,7 +111,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>使用報表頁尾中的動作
-您可以從報表頁尾，對目前報表頁面或整個報表執行數個動作。 頁尾可讓您快速存取一些最常用的動作。 您可以點選 [更多選項]**** (...) 按鈕來存取其他動作：
+您可以從報表頁尾，對目前報表頁面或整個報表執行數個動作。 頁尾可讓您快速存取一些最常用的動作。 您可以點選 [更多選項]  (...) 按鈕來存取其他動作：
 
 ![報表頁尾](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -124,7 +124,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 * 檢視所有報表動作。
 
 #### <a name="all-report-actions"></a>所有報表動作
-當點選報表頁尾中的 [更多選項]**** (...) 按鈕時，您會看到可在報表上執行的所有動作：
+當點選報表頁尾中的 [更多選項]  (...) 按鈕時，您會看到可在報表上執行的所有動作：
 
 
 ![所有報表動作](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
@@ -132,21 +132,21 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 某些動作可能會因相依於特定的報表功能而停用。
 例如：
 
-只有在報表中設定 [[書籤]](mobile-reports-in-the-mobile-apps.md#bookmarks)，才會出現 [書籤]****。 可在 Power BI 服務中定義的個人書籤以及報表建立者定義的書籤都會出現。 如果其中一種書籤已定義為預設書籤，報表就會在載入時開啟至該檢視。
+只有在報表中設定  。 可在 Power BI 服務中定義的個人書籤以及報表建立者定義的書籤都會出現。 如果其中一種書籤已定義為預設書籤，報表就會在載入時開啟至該檢視。
 
-如果組織具有禁止從 Power BI 行動裝置應用程式共用的 [Intune 保護原則](/intune/app-protection-policies)，則可能會關閉 [標註並共用]****。
+如果組織具有禁止從 Power BI 行動裝置應用程式共用的  。
 
-只有當您有權與他人共用報表時，才會啟用 [邀請]****。 只有當您是報表的擁有者，或擁有者已授與您再次共用權限時，您才會擁有權限。
+只有當您有權與他人共用報表時，才會啟用 [邀請]  。 只有當您是報表的擁有者，或擁有者已授與您再次共用權限時，您才會擁有權限。
 
-如果報表作者使用地理資料來分類報表，則會啟用 [依目前位置篩選]****。 如需詳細資訊，請參閱 [identifying geographical data in a report](../../transform-model/desktop-mobile-geofiltering.md) (識別報表中的地理資料)。
+如果報表作者使用地理資料來分類報表，則會啟用 [依目前位置篩選]  。 如需詳細資訊，請參閱 [identifying geographical data in a report](../../transform-model/desktop-mobile-geofiltering.md) (識別報表中的地理資料)。
 
-只有當您報表中的資料集標記為**條碼**時，才會啟用 [依條碼掃描並篩選報表]****。 如需詳細資訊，請參閱 [tagging barcodes in Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md) (在 Power BI Desktop 中標記條碼)。
+只有當您報表中的資料集標記為  。 如需詳細資訊，請參閱 [tagging barcodes in Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md) (在 Power BI Desktop 中標記條碼)。
 
 ### <a name="bookmarks"></a>書籤
 
-Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，也支援可在 Power BI 服務中定義的個人書籤。 [書籤] 功能表位在 [[報表動作] 工具列](mobile-reports-in-the-mobile-apps.md#all-report-actions)的 [更多選項]**** (...) 下。
+Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，也支援可在 Power BI 服務中定義的個人書籤。 [書籤] 功能表位在  (...) 下。
 
-預設的書籤會以特殊圖示來表示。 針對個人書籤，藉由點選所要變更書籤旁的 [更多選項 (...)]****，然後選擇 [設為預設]**** 或 [清除預設值]****，即可設定、取消設定或變更預設設定。
+預設的書籤會以特殊圖示來表示。 針對個人書籤，藉由點選所要變更書籤旁的 [更多選項 (...)]  ，然後選擇 [設為預設]  或 [清除預設值]  ，即可設定、取消設定或變更預設設定。
 
 ![[書籤] 功能表](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
@@ -156,11 +156,30 @@ Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，�
 
 [深入了解 Power BI 服務的書籤](../end-user-bookmarks.md)。
 
+## <a name="refresh-your-data"></a>重新整理資料
+
+如果不確定您在檢視的是否為最新的資料，可以從 Power BI 服務，將新資料下拉至您的報表：
+
+* 在 iOS 裝置與 Android 平板電腦上，從 [報表] 頁面的頂端稍微向下拉到底部。
+* 在 Android 手機上，您可以使用下拉動作或 [重新整理] 按鈕，視您在[互動設定](mobile-app-interaction-settings.md)中設定的方式而定。
+* 在 Windows 裝置上，使用顯示畫面右上方的 [重新整理] 按鈕。
+
+    擁有[自動頁面重新整理](../../create-reports/desktop-automatic-page-refresh.md)的報表頁面將會依設定自動重新整理 (僅限 Windows 應用程式)。
+
+>[!NOTE]
+>上述重新整理方法不會重新整理底層資料集。 但是，這些方法會使用 Power BI 中可能存在的任何新資料，來更新您正在行動應用程式上檢視的報表。
+
+### <a name="how-do-i-know-when-my-report-was-last-refreshed"></a>如何知道我的報表上次重新整理的時間？
+
+若要找出報表上次重新整理的時間，請點選報表標題。 報表的瀏覽樹狀目錄隨即顯示，包括上次重新整理的日期和時間。 
+
+![行動應用程式上報表重新整理資訊的螢幕擷取畫面。](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-refresh-info.png)
+ 
 ## <a name="configure-your-experience-with-reports"></a>設定報表的體驗
 Power BI 行動裝置應用程式有許多設定，可讓您控制報表體驗。 目前，您可以設定
-* **與報表視覺效果的互動**：您可以選擇要使用點一下或點兩下互動。
-* **資料重新整理方法**：您可以選擇讓重新整理按鈕或下拉動作重新整理報表資料。
-* **報表頁尾可見度**：您可以選擇使用一律顯示的停駐頁尾，或是根據您的動作 (例如捲動) 而隱藏和重新顯示的動態頁尾。
+* **與報表視覺效果的互動** ：您可以選擇要使用點一下或點兩下互動。
+* **資料重新整理方法** ：您可以選擇讓重新整理按鈕或下拉動作重新整理報表資料。
+* **報表頁尾可見度** ：您可以選擇使用一律顯示的停駐頁尾，或是根據您的動作 (例如捲動) 而隱藏和重新顯示的動態頁尾。
 
 如需如何變更這些設定的資訊，請參閱[應用程式互動設定](./mobile-app-interaction-settings.md)。
 

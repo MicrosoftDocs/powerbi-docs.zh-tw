@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 65291c81ab1952599079ff93ed4ed19694657132
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96d33351ba1f0d96cac71548854c94810cfdc692
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239088"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928278"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 建立 Power BI 視覺效果
 有了 Power BI Desktop，您可以使用 *R* 將資料視覺化。 [R](https://mran.revolutionanalytics.com/documents/what-is-r) 是用於統計資料計算和圖形的語言及環境。
@@ -36,7 +36,7 @@ ms.locfileid: "85239088"
 確認 R 安裝之後，即可開始建立 R 視覺效果。
 
 ## <a name="create-r-visuals-in-power-bi-desktop"></a>在 Power BI Desktop 中建立 R 視覺效果
-1. 在 [視覺效果]  窗格中選取 **R 視覺效果**圖示以新增 R 視覺效果。
+1. 在 [視覺效果]  窗格中選取 **R 視覺效果** 圖示以新增 R 視覺效果。
    
    ![[視覺效果] 窗格中的 R 視覺效果圖示](media/desktop-r-visuals/r-visuals-3.png)
 
@@ -48,7 +48,7 @@ ms.locfileid: "85239088"
    
    - 報表畫布上會出現預留位置 R 視覺影像。
    
-   - **R 指令碼編輯器**會隨即在中央窗格的底部顯示。
+   - **R 指令碼編輯器** 會隨即在中央窗格的底部顯示。
    
    ![R 指令碼編輯器](media/desktop-r-visuals/r-visuals-4.png)
 
@@ -68,7 +68,7 @@ ms.locfileid: "85239088"
    
    在下圖所示的範例中，已選取三個欄位：hp、gear 以及 drat。 由於選取了這些欄位，R 指令碼編輯器會產生繫結程式碼，其摘要說明如下：
    
-   * 建立稱為**資料集**的資料框架，該框架由使用者選取的不同欄位所組成。
+   * 建立稱為 **資料集** 的資料框架，該框架由使用者選取的不同欄位所組成。
    * 預設彙總為：[不摘要]  。
    * 類似於資料表視覺效果，欄位會進行分組，且重複的資料列只會出現一次。
    
@@ -79,7 +79,7 @@ ms.locfileid: "85239088"
    > 
    > 
    
-   產生的資料框架名為**資料集**，且會根據所選資料行的各自名稱來加以存取。 例如，在 R 指令碼中新增 *dataset$gear* 即可存取 gear 欄位。 針對使用空格或特殊字元的欄位，使用單引號加以括住。
+   產生的資料框架名為 **資料集** ，且會根據所選資料行的各自名稱來加以存取。 例如，在 R 指令碼中新增 *dataset$gear* 即可存取 gear 欄位。 針對使用空格或特殊字元的欄位，使用單引號加以括住。
 
 5. 由於資料框架會根據選取的欄位自動產生，因此您可以撰寫 R 指令碼，Power BI Desktop 會將其繪製到 R 預設裝置。 完成指令碼之後，請選取 [R 指令碼編輯器]  標題列右側的 [執行指令碼]  。
    
@@ -129,6 +129,8 @@ Power BI Desktop 中的 R 視覺效果有下列限制：
 
 * 資料大小：R 視覺效果用於繪製的資料限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列，而且影像上會顯示訊息。
 
+* 輸出大小：R 視覺效果的輸出大小限制為 2 MB。
+
 * 解析度：所有 R 視覺效果都會以 72 DPI 顯示。
 
 * 繪圖裝置：僅支援繪圖至預設裝置。 
@@ -145,10 +147,10 @@ Power BI Desktop 中的 R 視覺效果有下列限制：
 
 * 資料行重新命名：R 視覺效果不支援重新命名輸入資料行。 在指令碼執行期間，資料行會以其原始名稱來參考。
 
-* RRO 安裝：在此版本中，32 位元版本的 Power BI Desktop 不會自動識別 RRO 安裝；您必須在 [選項及設定]   > [選項]   > [R 指令碼]  中手動提供 R 安裝目錄的路徑。
+* RRO 安裝：在此版本中，32 位元版本的 Power BI Desktop 不會自動識別 RRO 安裝；您必須在 [選項及設定] > [選項] > [R 指令碼] 中手動提供 R 安裝目錄的路徑。
 
 ## <a name="next-steps"></a>後續步驟
 如需 Power BI 中的 R 詳細資訊，請參閱下列文章：
 
 * [在 Power BI Desktop 中執行 R 指令碼](../connect-data/desktop-r-scripts.md)
-* [在 Power BI 使用外部 R IDE](../connect-data/desktop-r-ide.md)
+* [搭配使用外部 R IDE 與 Power BI](../connect-data/desktop-r-ide.md)

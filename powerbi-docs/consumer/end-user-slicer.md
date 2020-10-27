@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/06/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e74bb6b2d3414e37924319016a0fab421dd096e
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: bbcac4eb3adf8fe47ff6576e15d8d1334a8c13f0
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536093"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830421"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Power BI 服務的交叉分析篩選器
 
@@ -29,7 +29,7 @@ ms.locfileid: "87536093"
 建立報表時，「設計工具」  會新增交叉分析篩選器以協助說明內容，並提供可探索資料的工具。
 
 ### <a name="numeric-range-slicer"></a>數值範圍交叉分析篩選器
- 上圖的數值範圍交叉分析篩選器可有助依下列項目來探索總銷售額：地理位置、庫存單位和訂單日期。 使用控點選取範圍。 
+ 數值範圍交叉分析篩選器可協助您依下列項目來探索量化資料：地理位置、庫存單位與訂單日期。 使用控點選取範圍。 
 
 ![範圍交叉分析篩選器的控點](media/end-user-slicer/power-bi-handles.png)
 

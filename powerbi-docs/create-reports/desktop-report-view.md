@@ -6,29 +6,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a840a549e5dee79406ddfb2a07877895ce7b6c0f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 859fb6156af38fc5333e9c94281255369d9ee413
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335549"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256955"
 ---
 # <a name="work-with-report-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的報表檢視
 
 若您已在使用 Power BI，就會知道建立報表提供動態檢視方塊及資料的見解有多容易。 Power BI Desktop 提供更多進階的 Power BI 功能。 使用 Power BI Desktop，您可以建立進階查詢、混用來自多種來源的資料、建立資料表之間的關聯性等等。
 
-Power BI Desktop 包含「報表檢視」  ，可讓您從中建立包含視覺效果的任意數目報表頁面。 Power BI Desktop 中的報表檢視提供與 *Power BI 服務*中的報表編輯檢視類似的設計體驗。 您可以在四處移動、複製及貼上、合併其中的視覺效果等等。
+Power BI Desktop 包含「報表檢視」  ，可讓您從中建立包含視覺效果的任意數目報表頁面。 Power BI Desktop 中的報表檢視提供與 *Power BI 服務* 中的報表編輯檢視類似的設計體驗。 您可以在四處移動、複製及貼上、合併其中的視覺效果等等。
 
 之間唯一的差別是使用 Power BI Desktop 時，您可以處理您的查詢及建立資料模型，讓資料在報表中能夠提供最透徹的深入剖析資訊。 您可以將 Power BI Desktop 檔案儲存在任何位置，無論是本機磁碟機或雲端。
 
 ## <a name="lets-take-a-look"></a>讓我們一起來看看！
 
-當您第一次在 Power BI Desktop 中載入資料時，報表檢視中會顯示空白的畫布。
+當您第一次在 Power BI Desktop 中載入資料時，會看到具有空白畫布的報表檢視，其中含有可協助您將資料新增至報表的連結。
 
-![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
+![Power BI Desktop](media/desktop-report-view/report-view-blank-canvas.png)
 
 您只需要選取左導覽窗格中的圖示，就能在 [報表]  檢視、[資料]  檢視與 [關聯性]  檢視之間切換：
 

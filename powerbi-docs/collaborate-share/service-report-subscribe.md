@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 1fd5f4748ffd7a59095bfe34090d9494ff0a9134
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485660"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526758"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -32,7 +32,7 @@ ms.locfileid: "85485660"
 
 ## <a name="requirements"></a>需求
 
-可以**建立**訂用帳戶的人：
+可以 **建立** 訂用帳戶的人：
 
 - 具有 Power BI Pro 授權的使用者 
 - 在 Premium 工作區或應用程式中檢視內容的使用者也可以訂閱位於該處的內容，甚至不需要 Power BI Pro 授權。 
@@ -48,13 +48,13 @@ ms.locfileid: "85485660"
 ![選取訂閱圖示](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. 開啟儀表板或報表。
-2. 從頂端功能表列，選取 [訂閱] 或選取信封圖示 ![訂閱圖示](media/service-report-subscribe/power-bi-icon-envelope.png)。
+2. 從頂端功能表列，選取 [訂閱] 或選取信封圖示 :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false":::。
    
     ![訂閱圖示](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. 使用黃色的滑桿開啟和關閉訂閱。 將滑桿設定為 [關閉] 不會刪除訂閱。 若要刪除訂閱，請選取垃圾桶圖示。
 
-2. 電子郵件已收在 [訂閱] 方塊中。 您可在訂閱中新增其他電子郵件地址，但僅限於同一個網域。 若報表或儀表板託管於 [Premium 容量](https://docs.microsoft.com/power-bi/service-premium-what-is)中，您就可以使用個人電子郵件地址與群組別名訂閱，無論其是否位在網域中。 若報表或儀表板不是託管於 Premium 容量中，則您可使用其他人的名義來訂閱，但這些人也必須具有 Power BI Pro 授權。 如需詳細資料，請參閱下方的[考量與疑難排解](#considerations-and-troubleshooting)。
+2. 電子郵件已收在 [訂閱] 方塊中。 您可在訂閱中新增其他電子郵件地址，但僅限於同一個網域。 若報表或儀表板託管於 [Premium 容量](../admin/service-premium-what-is.md)中，您就可以使用個人電子郵件地址與群組別名訂閱，無論其是否位在網域中。 若報表或儀表板不是託管於 Premium 容量中，則您可使用其他人的名義來訂閱，但這些人也必須具有 Power BI Pro 授權。 如需詳細資料，請參閱下方的[考量與疑難排解](#considerations-and-troubleshooting)。
 
 3. 填寫電子郵件 [主旨] 和 [訊息] 詳細資料。
 
@@ -131,7 +131,7 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
 - 針對報表電子郵件訂閱，如果資料集使用 RLS，您可以為自己建立訂閱。 除編頁報表外，您無法為其他人訂閱套用資料列層級安全性 (RLS) 的報表。 您可使用自己的安全性內容來為其他人訂閱編頁報表。 深入了解[訂閱編頁報表](../consumer/paginated-reports-subscriptions.md)。
 - 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，然後將它重新命名，您必須重新建立訂用帳戶。
 - 您的組織可能會在 Azure Active Directory 進行某些設定，而這可能會限制在 Power BI 中使用電子郵件訂閱的功能。 這些限制包括但不限於存取資源時的多重要素驗證或 IP 範圍限制。
-- 電子郵件訂用帳戶不支援大部分[自訂視覺效果](../developer/power-bi-custom-visuals.md)。 其中一個例外是[「已認證」](../developer/power-bi-custom-visuals-certified.md)的自訂視覺效果。
+- 電子郵件訂用帳戶不支援大部分[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md)。 其中一個例外是[「已認證」](../developer/visuals/power-bi-custom-visuals-certified.md)的自訂視覺效果。
 - 電子郵件訂用帳戶目前不支援 R 支援的自訂視覺效果。
 - 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。 編頁報表支援此功能，且可供針對每個訂閱設定特定參數值。
 - 假設您的報表會與 Analysis Services 即時連線，而且您已將訂閱設定為在資料重新整理之後執行。 其將會在輪詢 Analysis Services 執行個體，且 Power BI 服務首次於您的內部部署模型中偵測到變更時執行。  Power BI 每小時都會在 Analysis Services 資料模型中檢查一次變更，以判斷何時傳送訂閱。

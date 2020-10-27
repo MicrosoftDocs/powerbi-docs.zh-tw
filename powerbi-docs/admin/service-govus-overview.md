@@ -10,12 +10,12 @@ ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524619"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981496"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
@@ -74,25 +74,25 @@ Power BI 的驗證、身分識別和管理都相依於對 Microsoft 365 服務�
 
 |  目的 | Destination |
 | ---- | ----- |
-| 後端 API | **GCC**：api.powerbigov.us |
-| | **GCC-High**：api.high.powerbigov.us |
-| | **DoD**：api.mil.powerbi.gov.us |
-| 後端 API | **GCC**：*analysis.usgovcloudapi.net |
-| | **GCC High**：*.high.analysis.usgovcloudapi.net |
-| | **DoD**：*.mil.analysis.usgovcloudapi.net |
-| 後端 API | **All**：*.pbidedicated.usgovcloudapi.net |
-| 內容傳遞網路 (CDN) | **GCC**：gov.content.powerapps.us |
-| | **GCC High**：high.content.powerapps.us |
-| | **DoD**：mil.content.powerapps.us |
-| Microsoft 365 整合 | **GCC**：[全球端點](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High**：[美國政府 GCC High 端點](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD**：[美國政府 DOD 端點](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
-| 入口網站 |**GCC**：*.powerbigov.us |
-| | **GCC-High**：*.high.powerbigov.us |
-| | **DoD**：*.mil.powerbigov.us |
-| 服務遙測 | **所有**：dc.services.visualstudio.us |
-| 告知性訊息 (選擇性) | **所有**：dynmsg.modpim.com |
-| NPS 問卷 (選擇性) | **所有**：nps.onyx.azure.net |
+| 後端 API | **GCC** ：api.powerbigov.us |
+| | **GCC-High** ：api.high.powerbigov.us |
+| | **DoD** ：api.mil.powerbi.gov.us |
+| 後端 API | **GCC** ：*analysis.usgovcloudapi.net |
+| | **GCC High** ：*.high.analysis.usgovcloudapi.net |
+| | **DoD** ：*.mil.analysis.usgovcloudapi.net |
+| 後端 API | **All** ：*.pbidedicated.usgovcloudapi.net |
+| 內容傳遞網路 (CDN) | **GCC** ：gov.content.powerapps.us |
+| | **GCC High** ：high.content.powerapps.us |
+| | **DoD** ：mil.content.powerapps.us |
+| Microsoft 365 整合 | **GCC** ： [全球端點](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High** ： [美國政府 GCC High 端點](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD** ： [美國政府 DOD 端點](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| 入口網站 |**GCC** ：*.powerbigov.us |
+| | **GCC-High** ：*.high.powerbigov.us |
+| | **DoD** ：*.mil.powerbigov.us |
+| 服務遙測 | **所有** ：dc.services.visualstudio.us |
+| 告知性訊息 (選擇性) | **所有** ：dynmsg.modpim.com |
+| NPS 問卷 (選擇性) | **所有** ：nps.onyx.azure.net |
 
 ## <a name="connect-government-and-global-azure-cloud-services"></a>連線政府和全球 Azure 雲端服務
 
@@ -107,7 +107,7 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 
 若要取得美國政府雲端 IP 範圍，請下載 [Azure IP 範圍和服務標籤 – 美國政府雲端](https://www.microsoft.com/download/details.aspx?id=57063)檔案。 已同時列出 Power BI 和 Power Query 的範圍。
 
-如需 Microsoft Azure Government 雲端服務的詳細資訊，請參閱 [Azure Government 文件](https://docs.microsoft.com/azure/azure-government/)。
+如需 Microsoft Azure Government 雲端服務的詳細資訊，請參閱 [Azure Government 文件](/azure/azure-government/)。
 
 若要針對 SQL 資料庫設定防火牆，請參閱[建立和管理 IP 防火牆規則](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) \(部分機器翻譯\)。
 
@@ -123,7 +123,6 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |[使用 Power BI 網頁組件內嵌在 SharePoint Online 中](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可供使用](../media/yes.png)|![可用](../media/yes.png)|![無法使用](../media/no.png)|
 |[適用於資料驅動警示的 Power Automate 連線能力](../connect-data/power-bi-data-sources.md)|![可供使用](../media/yes.png)|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|
 |[Teams 中的 Power BI 索引標籤](../collaborate-share/service-collaborate-microsoft-teams.md) <sup>2</sup>|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
-|[容量計量](../admin/service-admin-premium-monitor-portal.md)|2020 年第 3 季 |2020 年第 3 季|2020 年第 3 季|
 |[大型模型](service-premium-large-models.md) | 2020 年第 4 季 |2020 年第 4 季| ![無法使用](../media/no.png) |
 |[資料流程 - SQL 計算引擎最佳化](../transform-model/service-dataflows-enhanced-compute-engine.md) | 2020 年第 4 季 |2020 年第 4 季| ![無法使用](../media/no.png) |
 |[資料流程 - 直接查詢](../transform-model/service-dataflows-directquery.md) | 2020 年第 4 季 |2020 年第 4 季|![無法使用](../media/no.png)|
@@ -131,6 +130,7 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |[資料保護 (MIP 標籤)](service-security-sensitivity-label-overview.md)|2020 年第 4 季|2020 年第 4 季 |2020 年第 4 季|
 |[範本應用程式](../connect-data/service-template-apps-overview.md) <sup>3</sup>|2020 年第 4 季 |2020 年第 4 季| 2020 年第 4 季|
 |[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md) <sup>3</sup>|2020 年第 4 季 |2020 年第 4 季| 2020 年第 4 季|
+|[通話品質資料連接器](/microsoftteams/cqd-power-bi-connector)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 |[QR 代碼產生](../create-reports/service-create-qr-code-for-tile.md)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 
 <sup>1</sup> 雖然 B2B 共同作業適用於 GCC，但必須在該環境中對外部使用者發出授權。 GCC 中的商業雲端授權無效。 如需適用於美國政府的 B2B 共同作業已知限制其詳細資訊，請[比較 Azure Government 及全域 Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) (英文)

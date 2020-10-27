@@ -7,13 +7,13 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 07/01/2020
-ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 08/11/2020
+ms.openlocfilehash: 4725db331269bc9a2f41abf4c432e0bdf427bae6
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524780"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981680"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>管理 Power BI 視覺效果系統管理員設定
 
@@ -130,7 +130,7 @@ UI 的 [租用戶設定] 只會影響 Power BI 服務。 如果想要在 Power B
 
 3. 若要起始上傳要求，請選取 [新增]。 上傳之後，視覺效果就會顯示在組織視覺效果清單中。
 
-### <a name="add-a-visual-from-appsource-preview"></a>從 AppSource 新增視覺效果 (預覽)
+### <a name="add-a-visual-from-appsource"></a>從 AppSource 新增視覺效果
 
 使用此方法可從 AppSource 新增新的 Power BI 視覺效果。
 

@@ -9,16 +9,16 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746393"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983106"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
-在 **Power BI** 中，您可以利用使用者擁有資料，將報表 (Power BI 或編頁報表)、儀表板或磚內嵌至應用程式。 **使用者擁有資料**可讓應用程式延伸 Power BI 服務，使其可用內嵌式分析。 本教學課程會示範如何將報表 (Power BI 或編頁報表) 整合至應用程式。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API，為組織將 Power BI 內嵌到應用程式中。
+在 **Power BI** 中，您可以利用使用者擁有資料，將報表 (Power BI 或編頁報表)、儀表板或磚內嵌至應用程式。 **使用者擁有資料** 可讓應用程式延伸 Power BI 服務，使其可用內嵌式分析。 本教學課程會示範如何將報表 (Power BI 或編頁報表) 整合至應用程式。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API，為組織將 Power BI 內嵌到應用程式中。
 
 ![Power BI 內嵌報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
@@ -36,7 +36,7 @@ ms.locfileid: "91746393"
 * 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
 * 若要內嵌編頁報表，您需要至少 P1 容量；請參閱[我需要針對編頁報表使用何種大小的 Premium 容量？](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
-如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
+如果您尚未註冊 **Power BI Pro** ，請先 [註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
 
 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
 
@@ -52,7 +52,7 @@ ms.locfileid: "91746393"
 
 請向 Azure Active Directory [註冊您的應用程式](register-app.md)，以允許該應用程式存取 [Power BI REST API](/rest/api/power-bi/)。 註冊您的應用程式可讓您為應用程式建立身分識別，並指定對 Power BI REST 資源的權限。
 
-您必須繼續註冊**伺服器端 Web 應用程式**應用程式。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。
+您必須繼續註冊 **伺服器端 Web 應用程式** 應用程式。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。
 
 在 Azure 中建立應用程式之後，請開啟 Azure 中的應用程式，巡覽至 [驗證] 並在 [重新導向 URI] 中將 **/Redirect** 新增至 [重新導向 URI]。
 
@@ -113,9 +113,9 @@ ms.locfileid: "91746393"
 
 ### <a name="application-id"></a>應用程式識別碼
 
-使用從 **Azure** 取得的**應用程式識別碼**填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。
+使用從 **Azure** 取得的 **應用程式識別碼** 填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。
 
-若要取得 **applicationId**，請遵循下列步驟：
+若要取得 **applicationId** ，請遵循下列步驟：
 
 1. 登入[Azure 入口網站](https://portal.azure.com)。
 
@@ -125,7 +125,7 @@ ms.locfileid: "91746393"
 
     ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
+4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此 **應用程式識別碼** 作為應用程式的 **applicationId** 。
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
@@ -172,7 +172,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 若要以您的組織租用戶內嵌，請使用 URL - *https://login.microsoftonline.com/common/oauth2/authorize* 。
 
-若要以來賓內嵌，請使用 URL - `https://login.microsoftonline.com/report-owner-tenant-id` - 您可在其中新增報表擁有者的租用戶識別碼，以取代 *report-owner-tenant-id*。
+若要以來賓內嵌，請使用 URL - `https://login.microsoftonline.com/report-owner-tenant-id` - 您可在其中新增報表擁有者的租用戶識別碼，以取代 *report-owner-tenant-id* 。
 
 ### <a name="run-the-application"></a>執行應用程式
 
@@ -375,13 +375,13 @@ function updateEmbedReport() {
 }
 ```
 
-## <a name="using-a-power-bi-premium-dedicated-capacity"></a>使用 Power BI Premium 專用容量
+## <a name="using-a-power-bi-premium-capacity"></a>使用 Power BI Premium 容量
 
-現在您已完成應用程式的開發，即可為工作區配置專用容量。
+既然您已完成應用程式的開發，現在可以為工作區配置容量。
 
-### <a name="create-a-dedicated-capacity"></a>建立專用容量
+### <a name="create-a-capacity"></a>建立容量
 
-藉由建立專用容量，您工作區中的內容即可享有專用資源。 針對編頁報表，您必須使用至少 P1 容量來支援工作區。 您可以使用 [Power BI Premium](../../admin/service-premium-what-is.md) 建立專用容量。
+透過建立容量，您可以為工作區中的內容提供資源。 針對編頁報表，您必須使用至少 P1 容量來支援工作區。 您可以使用 [Power BI Premium](../../admin/service-premium-what-is.md) 來建立容量。
 
 下表列出 [Microsoft 365](../../admin/service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
@@ -400,17 +400,17 @@ function updateEmbedReport() {
 > - 當您嘗試使用 Microsoft Office 應用程式進行內嵌時，您可以搭配免費的 Power BI 授權，使用 EM SKU 來存取內容。 但是，您無法在使用 Powerbi.com 或 Power BI 行動版時，搭配免費的 Power BI 授權來存取內容。
 > - 當您嘗試透過利用 Powerbi.com 或 Power BI 行動版，使用 Microsoft Office 應用程式來進行內嵌時，您可以使用免費 Power BI 授權來存取內容。
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>將工作區指派至專用容量
+### <a name="assign-a-workspace-to-a-capacity"></a>將工作區指派給容量
 
-建立專用容量之後，您可以將工作區指派至該專用容量。 若要完成此處理序，請遵循下列步驟：
+建立容量之後，您可以將工作區指派給該容量。 若要完成此處理序，請遵循下列步驟：
 
 1. 在 Power BI 服務中，展開工作區，然後選取用於內嵌內容工作區的省略符號。 然後選取 [編輯工作區]。
 
     ![編輯工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. 展開 [進階]，然後啟用 [專用容量]。 選取您建立的專用容量。 接著，選取 [儲存]。
+2. 展開 [進階]，然後啟用 [容量]。 選取您建立的容量。 接著，選取 [儲存]。
 
-    ![指派專用容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
+    ![指派容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
 3. 在您選取 [儲存] 後，應該會在工作區名稱的旁邊看到一個鑽石。
 

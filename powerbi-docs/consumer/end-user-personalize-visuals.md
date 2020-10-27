@@ -1,20 +1,20 @@
 ---
-title: 個人化報告中的視覺效果 (預覽)
+title: 個人化報表中的視覺效果
 description: 建立您自己的報表檢視，而不需要進行編輯。
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/13/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc682e867b65ba9da2b2eee87f52d7fd5d0961c
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528109"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256727"
 ---
 # <a name="personalize-visuals-in-a-report"></a>個人化報表中的視覺效果
 
@@ -22,7 +22,7 @@ ms.locfileid: "91528109"
 
 一個視覺效果不能滿足所有人的要求。 但當同事與您共用報表時，您可能會想要變更視覺效果，而不需要要求您的同事為您進行變更。 
 
-您可能會想要切換軸上的內容、變更視覺效果類型，或將某些內容新增至工具提示中。 透過**個人化此視覺效果**功能，您可以自行進行變更，當您擁有所需的視覺效果時，請將其另存為[書籤](end-user-bookmarks.md)，以供您返回。 您甚至不需要報表的編輯權限。
+您可能會想要切換軸上的內容、變更視覺效果類型，或將某些內容新增至工具提示中。 透過 **個人化此視覺效果** 功能，您可以自行進行變更，當您擁有所需的視覺效果時，請將其另存為 [書籤](end-user-bookmarks.md)，以供您返回。 您甚至不需要報表的編輯權限。
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize.png" alt-text="個人化視覺效果":::
  
@@ -45,7 +45,7 @@ ms.locfileid: "91528109"
 - 清除您最近的變更
 
 > [!IMPORTANT]
-> 個人化視覺效果的功能是一項預覽功能，必須由報表「設計師」啟用。 如果您看不到 [個人化此視覺效果] ![個人化此視覺效果圖示](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) 圖示，則表示報表設計師尚未針對目前的報表啟用此功能。 
+> 個人化視覺效果的功能必須由報表「設計師」啟用。 如果您看不到 [個人化此視覺效果] ![個人化此視覺效果圖示](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) 圖示，則表示報表設計師尚未針對目前的報表啟用此功能。 請洽詢報表擁有者或您的 Power BI 管理員，以啟用此功能。 若要顯示報表擁有者的連絡人資訊，請從 Power BI 功能表列中選取報表的名稱。
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>Power BI 服務中的個人化視覺效果
 
@@ -55,11 +55,9 @@ ms.locfileid: "91528109"
 
 2. 在視覺效果的功能表列中，選取 [個人化此視覺效果] ![個人化此視覺效果圖示](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png)圖示。 
 
-3. 若要清除任何 [個人化] 欄位，請選取 [更多選項 (...)]，然後選擇 [移除欄位]。
-
 ### <a name="change-the-visualization-type"></a>變更視覺效果類型
 
-您認為資料以堆疊直條圖顯示是否會更好？ 變更**視覺效果類型**。
+您認為資料以堆疊直條圖顯示是否會更好？ 變更 **視覺效果類型** 。
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="個人化視覺效果":::
  
@@ -72,6 +70,16 @@ ms.locfileid: "91528109"
 您可以透過新增圖例，根據類別建立視覺效果色彩代碼。 在此範例中，我們根據公司名稱進行色彩編碼。 
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="個人化視覺效果":::
+
+### <a name="change-the-placement-of-fields"></a>變更欄位的位置
+
+使用拖放功能，您可以變更相同視覺效果屬性內欄位的位置，甚至可跨不同的視覺效果屬性進行變更。 例如，您可以將圖例中的欄位快速移至視覺效果的軸。
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="個人化視覺效果":::
+
+您也可以快速地重新排序資料表或矩陣的欄。
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="個人化視覺效果":::
 
 ### <a name="compare-two-or-more-different-measures"></a>比較兩個或多個不同的量值
 您可以使用 [+] 圖示為視覺效果新增多個量值，以比較和對比不同量值的值。 若要移除量值，請選取 [更多選項 (...)]，然後選擇 [移除欄位]。
@@ -113,7 +121,7 @@ ms.locfileid: "91528109"
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="個人化視覺效果":::
 
-## <a name="limitations-and-known-issues"></a>限制與已知問題
+## <a name="limitations"></a>限制
 
 此功能目前有一些要注意的限制。
 
@@ -121,12 +129,6 @@ ms.locfileid: "91528109"
 - 不會自動保存使用者的探索。 您需要將檢視儲存為個人書籤，才能擷取您的變更。
 - 適用於 iOS 和 Android 平板電腦的 Power BI 行動裝置應用程式，以及 Power BI Windows 應用程式，都支援這項功能；手機的 Power BI 行動裝置應用程式不支援此功能。 但使用 Power BI 服務儲存在個人書籤中的任何視覺效果變更，都會呈現在所有 Power BI 行動裝置應用程式中。
 
-另外還有一些正在處理的已知問題：
-
-- 不支援新增階層，您必須新增每個個別的子項目。
-- 使用個人書籤時，結果會因選取的序列略有不同。 因為我們不擷取報表的完整狀態，只擷取修改過的部分，所以可能有差別。 因應措施為選取 [重設為預設]，然後選取您想要檢視的書籤。 
-
 ## <a name="next-steps"></a>後續步驟
 [將報表視覺效果複製為靜態影像](../visuals/power-bi-visualization-copy-paste.md)    
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-
