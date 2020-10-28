@@ -42,7 +42,7 @@
           href: power-bi-data-sources.md
         - name: Power BI 資料來源必要條件
           href: desktop-data-source-prerequisites.md
-        - name: 使用 Power BI Desktop (預覽) 中的增強型資料集中繼資料
+        - name: 使用 Power BI Desktop 中的增強型資料集中繼資料
           href: desktop-enhanced-dataset-metadata.md
         - name: 使用 Power BI 中的多維度模型
           href: desktop-default-member-multidimensional-models.md
@@ -184,12 +184,6 @@
               href: service-datasets-copy-reports.md
             - name: 控制資料集的使用
               href: service-datasets-admin-across-workspaces.md
-        - name: 簽署資料集
-          items:
-            - name: 宣傳資料集
-              href: service-datasets-promote.md
-            - name: 認證資料集
-              href: service-datasets-certify.md
         - name: 從資料庫取得資料
           items:
             - name: Azure 和 Power BI

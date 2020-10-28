@@ -99,8 +99,6 @@
           items:
             - name: 建立及使用資料流程
               href: service-dataflows-create-use.md
-            - name: 升階或認證資料流程
-              href: service-dataflows-promote-certify.md
             - name: 在 Power BI 中使用資料流程的 DirectQuery 功能 (預覽)
               href: service-dataflows-directquery.md
             - name: 將增強型計算引擎與資料流程搭配使用
