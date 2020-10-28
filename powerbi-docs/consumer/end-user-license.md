@@ -7,16 +7,16 @@ ms.service: powerbi
 ms.subservice: powerbi-consumer
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2b0bde7aa193af831a95fc53d461f874a3c1d1d1
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527925"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830363"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>「商務使用者」的授權和訂閱
 
@@ -46,13 +46,21 @@ Premium 是組織訂用帳戶，其提供不同儲存內容的方式 (儲存在�
 
 Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並不需要 Pro 授權。 內容設計師需要 Pro 授權。 設計師可以連線到資料來源、建立資料模型，然後建立封裝成工作區應用程式的報表與儀表板。 只要使用者獲指派 Power BI Premium 容量中[工作區的角色](end-user-workspaces.md)，即使沒有 Pro 授權仍然可加以存取。
 
-在那些工作區中，設計師會指派角色，例如，**檢視者**、**參與者**、**成員**與**系統管理員**。 這些角色會決定每位同事能與內容互動的範圍。 如需詳細資訊，請參閱[工作區權限與角色。](end-user-workspaces.md) 
+在那些工作區中，設計師會指派角色，例如， **檢視者** 、 **參與者** 、 **成員** 與 **系統管理員** 。 這些角色會決定每位同事能與內容互動的範圍。 如需詳細資訊，請參閱[工作區權限與角色。](end-user-workspaces.md) 
 
 如需 Premium 容量的詳細資訊，請參閱[什麼是 Microsoft Power BI Premium？](../admin/service-premium-what-is.md)。
 
 ## <a name="find-out-which-licenses-you-have"></a>了解您擁有的授權
+選取您的設定檔圖片以顯示帳戶資訊。 Zalan 使用免費授權。 
 
-只要瀏覽您在 [Microsoft 的 [我的帳戶] 頁面](https://portal.office.com/account)，就能查看指派給您的授權。  選取 [訂閱] 索引標籤。
+![當您按一下設定檔圖片時出現之下拉式清單的螢幕擷取畫面](media/end-user-license/power-bi-profiles.png)
+
+
+若要查看有關您帳戶的其他詳細資料，請選取 [檢視帳戶]。 [您的 Microsoft [我的帳戶] 頁面](https://portal.office.com/account)會在新的瀏覽器索引標籤中開啟。查看指派給您的授權。  選取 [訂閱] 索引標籤。
+
+![Microsoft 365 [帳戶] 頁面的螢幕擷取畫面。](media/end-user-license/power-bi-subscriptions.png)
+
+
 
 
 第一位使用者 Pradtanna 具有 Office 365 E5，其中包含 Power BI Pro 授權。
@@ -87,7 +95,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 ![[應用程式] 畫面](media/end-user-license/power-bi-premium.png)
 
-如果您是具有免費授權的使用者，只要「設計師」將工作區置於 Premium 的專用容量中，您就能**在該工作區內**檢視共用的內容、與同事共同作業、使用應用程式儀表板與報表等。 您的權限範圍由您的 Power BI 系統管理員與內容設計師設定。
+如果您是具有免費授權的使用者，只要「設計師」將工作區置於 Premium 的專用容量中，您就能 **在該工作區內** 檢視共用的內容、與同事共同作業、使用應用程式儀表板與報表等。 您的權限範圍由您的 Power BI 系統管理員與內容設計師設定。
 
 ## <a name="putting-it-all-together"></a>總整理
 
@@ -95,7 +103,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 |授權類型  |共用容量 |專用的 Premium 容量  |
 |---------|---------|---------|
-|**免費**     |  作為個人沙箱來使用，在其中建立您自己的內容並與該內容互動。 免費授權是試用 Power BI 服務的絕佳方式。 您無法取用他人的內容，也無法與他人共用您的內容 <sup>1</sup>     |   與指派至專用容量的內容互動，並提供給您共用。 免費使用者無須擁有 Pro 帳戶，就能與 Pro 使用者共同作業。      |
+|**免費**     |  作為個人沙箱來使用，在其中建立您自己的內容並與該內容互動。 免費授權是試用 Power BI 服務的絕佳方式。 您無法取用他人的內容，也無法與他人共用您的內容 <sup>1</sup>     |   與指派至專用進階容量並與您共用的內容互動。 免費使用者無須擁有 Pro 帳戶，就能與 Pro 使用者共同作業。      |
 |**Pro**     |  藉由建立及共用內容來和其他 Pro 使用者共同作業。        |  藉由建立及共用內容來和免費使用者與其他 Pro 使用者共同作業。       |
 
 
@@ -123,9 +131,9 @@ Power BI Pro 的「設計師」可在這些工作區中的任一個工作區內�
 
 - 如果選取「免費試用」類型的按鈕來自行註冊免費授權，則其永遠不會到期。 因此，若升級為 Pro 試用版，或組織提供您 Pro 授權，則當試用版結束，或組織移除 Pro 授權時，除非取消授權，否則您仍可回復成免費授權。
 
-- <sup>1</sup> Power BI 服務的免費使用者授權，十分適合使用**我的工作區**執行探索，或是執行個人資料分析與視覺效果的人員使用。 免費的獨立使用者無法使用 Power BI 與同事共同作業。 使用免費授權的獨立使用者無法檢視由他人所共用內容，也無法將自己的內容與其他 Power BI 使用者共用。
+- <sup>1</sup> Power BI 服務的免費使用者授權，十分適合使用 **我的工作區** 執行探索，或是執行個人資料分析與視覺效果的人員使用。 免費的獨立使用者無法使用 Power BI 與同事共同作業。 使用免費授權的獨立使用者無法檢視由他人所共用內容，也無法將自己的內容與其他 Power BI 使用者共用。
 
-    ![獨立使用者的影像](media/end-user-license/power-bi-free-license.jpg)
+
 
 ## <a name="next-steps"></a>後續步驟
 

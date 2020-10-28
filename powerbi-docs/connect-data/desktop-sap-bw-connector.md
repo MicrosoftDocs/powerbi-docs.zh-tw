@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db5c8b77851ccd35c5f8ccddf5e6587eb1383518
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b3250124fa813f3da96e63455d483cf05f01cb6
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223014"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598842"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP Business Warehouse 連接器
 
@@ -61,11 +61,11 @@ Power BI Desktop 中的第 1 版 SAP BW 連接器可讓您從您的「SAP Busine
 
 若要深入了解 SAP BW 連接器以及如何使用其搭配 DirectQuery，請參閱 [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)。
 
-當您連線時，請指定**伺服器**、**系統名稱**與**用戶端識別碼**以建立連線。
+當您連線時，請指定 **伺服器** 、 **系統名稱** 與 **用戶端識別碼** 以建立連線。
 
 ![SAP 伺服器連線設定](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-您也可以指定其他兩個 [進階選項]  ：**語言代碼**和針對指定伺服器執行的自訂 **MDX 陳述式**。
+您也可以指定其他兩個 [進階選項]  ： **語言代碼** 和針對指定伺服器執行的自訂 **MDX 陳述式** 。
 
 ![其他連線資訊](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -77,9 +77,9 @@ Power BI Desktop 中的第 1 版 SAP BW 連接器可讓您從您的「SAP Busine
 
 [導覽器]  對話方塊也提供顯示選項：
 
-* **僅顯示選取的項目**。 根據預設，[導覽器]  會顯示所有項目。  此選項適用於驗證所選取的最終一組項目。 檢視所選項目的另一個方法是，在預覽區域中選取資料行名稱。
-* **啟用資料預覽**。 這是預設值。 顯示資料預覽。 停用資料預覽可減少伺服器呼叫的數目，因為它不會再要求資料進行預覽。
-* **技術名稱**。 SAP BW 支援 Cube 內物件的「技術名稱」  概念。 技術名稱可讓 Cube 擁有者公開 Cube 物件的「易記名稱」  ，而不只是公開 Cube 中這些物件的「實體名稱」  。
+* **僅顯示選取的項目** 。 根據預設，[導覽器]  會顯示所有項目。  此選項適用於驗證所選取的最終一組項目。 檢視所選項目的另一個方法是，在預覽區域中選取資料行名稱。
+* **啟用資料預覽** 。 這是預設值。 顯示資料預覽。 停用資料預覽可減少伺服器呼叫的數目，因為它不會再要求資料進行預覽。
+* **技術名稱** 。 SAP BW 支援 Cube 內物件的「技術名稱」  概念。 技術名稱可讓 Cube 擁有者公開 Cube 物件的「易記名稱」  ，而不只是公開 Cube 中這些物件的「實體名稱」  。
 
 ![[導覽器] 視窗](media/desktop-sap-bw-connector/sap_bw_6.png)
 
@@ -120,7 +120,7 @@ Power BI Desktop 中的第 1 版 SAP BW 連接器可讓您從您的「SAP Busine
 
 * *EnableStructures* 指出是否會辨識特性結構。 這個選項的預設值為 false。 會影響可讓您選取的物件清單。 原生查詢模式中不支援。
 
-在此實作中，*ScaleMeasures* 選項已被淘汰。 行為現在與將 *ScaleMeasures* 設定為 False 相同，也就是一律會顯示未縮放的值。
+在此實作中， *ScaleMeasures* 選項已被淘汰。 行為現在與將 *ScaleMeasures* 設定為 False 相同，也就是一律會顯示未縮放的值。
 
 ### <a name="additional-improvements-for-implementation-20"></a>實作 2.0 的其他改善
 
@@ -147,19 +147,19 @@ Power BI Desktop 中的第 1 版 SAP BW 連接器可讓您從您的「SAP Busine
 
     判斷查詢是否已經包含選項記錄，例如下列範例：
 
-    ![查詢程式碼片段](media/desktop-sap-bw-connector/sap_bw_9.png)
+    ![螢幕擷取畫面顯示具有選項記錄的純文字查詢。](media/desktop-sap-bw-connector/sap_bw_9.png)
 
     若是如此，請新增 `Implementation` 2.0 選項，並移除 `ScaleMeasures` 選項 (若有)，如下所示：
 
-    ![查詢程式碼片段](media/desktop-sap-bw-connector/sap_bw_10.png)
+    ![螢幕擷取畫面顯示已新增值實作 = 2.0 的純文字查詢。](media/desktop-sap-bw-connector/sap_bw_10.png)
 
     如果查詢尚未包含選項記錄，請加以新增。 針對下列選項：
 
-    ![查詢程式碼片段](media/desktop-sap-bw-connector/sap_bw_11.png)
+    ![螢幕擷取畫面顯示已新增選項記錄的純文字查詢。](media/desktop-sap-bw-connector/sap_bw_11.png)
 
     只要將它變更為：
 
-    ![查詢程式碼片段](media/desktop-sap-bw-connector/sap_bw_12.png)
+    ![螢幕擷取畫面顯示已新增值實作 = 2.0 之新選項的純文字查詢。](media/desktop-sap-bw-connector/sap_bw_12.png)
 
 我們已盡最大努力，讓 SAP BW 連接器的實作 2.0 與第 1 版相容。 不過，因為使用不同 SAP BW MDX 執行模式，所以可能有一些差異。 若要解決任何不一致，請嘗試在執行模式之間切換。
 
