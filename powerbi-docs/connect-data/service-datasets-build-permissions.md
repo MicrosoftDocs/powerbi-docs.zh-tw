@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/21/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d602c97384f42bdd35f12052f67b15a0ca7bae38
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 343351fd762a074de010bc307c0138773e265226
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236896"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462410"
 ---
 # <a name="build-permission-for-shared-datasets"></a>共用資料集的建置權限
 
@@ -32,7 +32,7 @@ ms.locfileid: "85236896"
 
 您能以幾種不同方式賦予資料集的建置權限：
 
-- 若您是工作區中至少擁有「參與者」角色的成員，您便會自動擁有該工作區中資料集的「建置」權限，以及複製報表的權限。
+- 若您是工作區中至少擁有「參與者」角色的成員，您便會自動擁有該工作區中資料集的「建置」權限，以及複製報表的權限。 深入了解[新的工作區中的角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
  
 - 資料集所在的工作區成員，可以將權限指派給權限中心內的特定使用者或安全性群組。 若您是工作區的成員，請選取資料集旁的 [更多選項] (...) > [管理權限]。
 

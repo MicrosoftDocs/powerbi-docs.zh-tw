@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811843"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680759"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中設定精選表格 (預覽)
 
@@ -25,7 +25,7 @@ ms.locfileid: "90811843"
 1. 組織的其他部門可連線到這些精選表格 (在 Excel 中稱為「資料類型」)，以取得相關和可重新整理的資料。 [在 Excel 中存取 Power BI 的精選表格 (預覽)](service-excel-featured-tables.md) 一文描述如何在 Excel 中使用這些精選表格。
 
 > [!NOTE]
-> 您可[在 Power BI 中升級或認證資料集](../connect-data/service-datasets-promote.md)。 這稱為「背書」。 Excel 會優先處理資料類型資源庫中背書資料集內的表格。 Excel 會先列出認證資料集中的精選表格，然後列出升級資料集中的表格。 之後，Excel 會列出未背書資料集中的精選表格。 
+> 您可[在 Power BI 中升級或認證資料集](../collaborate-share/service-endorse-content.md)。 這稱為「背書」。 Excel 會優先處理資料類型資源庫中背書資料集內的表格。 Excel 會先列出認證資料集中的精選表格，然後列出升級資料集中的表格。 之後，Excel 會列出未背書資料集中的精選表格。 
 
 ## <a name="turn-on-the-featured-table-preview"></a>開啟精選表格預覽
 

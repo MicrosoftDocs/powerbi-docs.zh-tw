@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965015"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681022"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
-本文說明**階段 5**，這與移轉到 Power BI 時部署、支援及監視內容相關。
+本文說明 **階段 5** ，這與移轉到 Power BI 時部署、支援及監視內容相關。
 
 :::image type="content" source="media/powerbi-migration-deploy-support-monitor/migrate-to-powerbi-stage-5.png" alt-text="顯示 Power BI 移轉階段的影像。本文的重點在於階段 5。":::
 
@@ -44,8 +44,8 @@ ms.locfileid: "90965015"
 - **連接字串與參數：** 若開發與測試之間的資料來源不同，請調整資料集連接字串。 [參數化](../connect-data/service-parameters.md)可用於有效地管理連接字串。
 - **工作區內容：** 將資料集與報表發佈至測試工作區，並建立儀表板。
 - **應用程式。** 若測試工作區中的內容會形成 UAT 流程的一部分，則使用該內容發佈[應用程式](../consumer/end-user-apps.md)。 應用程式權限通常僅限於涉及 UAT 的少數人員。
-- **資料重新整理：** 針對 UAT 主動發生期間的所有匯入資料集，[排程資料集重新整理](../connect-data/refresh-scheduled-refresh.md)。
-- **安全性：** 更新或確認[工作區角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。 測試工作區存取包括涉及 UAT 的少數人員。
+- **資料重新整理：** 針對 UAT 主動發生期間的所有匯入資料集， [排程資料集重新整理](../connect-data/refresh-scheduled-refresh.md)。
+- **安全性：** 更新或確認 [工作區角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。 測試工作區存取包括涉及 UAT 的少數人員。
 
 > [!NOTE]
 > 如需部署至開發、測試與生產環境的選項等詳細資訊，請參閱[規劃 Power BI 企業部署白皮書](https://aka.ms/PBIEnterpriseDeploymentWP) (英文) 的第 9 節。
@@ -73,13 +73,13 @@ ms.locfileid: "90965015"
 
 在部署處理序期間，您可能需要與 Power BI 系統管理員合作，以解決支援整個解決方案所需的其他需求，例如：
 
-- **閘道維護：** 可能需要在資料閘道上註冊[新的資料來源](../connect-data/service-gateway-data-sources.md)。
+- **閘道維護：** 可能需要在資料閘道上註冊 [新的資料來源](../connect-data/service-gateway-data-sources.md)。
 - **閘道驅動程式與連接器：** 新的專屬資料來源可能需要在閘道叢集中的每部伺服器上，安裝新的驅動程式或自訂連接器。
 - **建立新的 Premium 容量：** 您可能可以使用現有的 [Premium 容量](../admin/service-premium-capacity-manage.md)。 或者，當新的 Premium 容量需要批准時，可能會有某些情況。 若您刻意想要分隔部門工作負載，可能就會發生這種情況。
 - **設定 Power BI 資料流程：** 資料準備活動可以使用 Power Query Online，在 [Power BI 資料流程](../transform-model/service-dataflows-overview.md)中一次設定。 其有助於避免在許多不同的 Power BI Desktop 檔案中，複寫資料準備工作。
-- **註冊新的組織視覺效果：** 您可以在自訂視覺效果 (非源自 AppSource ) 的管理入口網站中，完成[組織視覺效果](../developer/visuals/power-bi-custom-visuals-organization.md)註冊。
-- **設定功能內容：** 租用戶設定會控制哪些人可以在 Power BI 服務首頁中使用[功能內容](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)。
-- **設定敏感度標籤：** Microsoft 資訊保護已整合所有的[敏感度標籤](../admin/service-security-data-protection-overview.md)。
+- **註冊新的組織視覺效果：** 您可以在自訂視覺效果 (非源自 AppSource ) 的管理入口網站中，完成 [組織視覺效果](../developer/visuals/power-bi-custom-visuals-organization.md)註冊。
+- **設定功能內容：** 租用戶設定會控制哪些人可以在 Power BI 服務首頁中使用 [功能內容](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)。
+- **設定敏感度標籤：** Microsoft 資訊保護已整合所有的 [敏感度標籤](../admin/service-security-data-protection-overview.md)。
 
 ### <a name="deploy-to-production-workspace"></a>部署至實際執行工作區
 
@@ -88,12 +88,12 @@ ms.locfileid: "90965015"
 - **變更管理：** 如有必要，請取得部署的核准，並使用您的標準變更管理實作，與使用者擴展的部署進行通訊。 在允許實際執行部署的期間，可能會有已核准的變更管理視窗。 其通常適用於 IT 管理的內容，且較不常套用至自助內容。
 - **復原計畫：** 有了移轉，預期其為新解決方案的第一次移轉。 若內容已經存在，若有必要，最好將計畫還原成先前的版本。 擁有舊版的 Power BI Desktop 檔案 (使用 SharePoint 或 OneDrive 版本設定) 適用於此用途。
 - **連接字串與參數：** 當測試與實際執行之間的資料來源不同，請調整資料集連接字串。 [參數化](../connect-data/service-parameters.md)可以有效地用於此用途。
-- **資料重新整理：** 針對所有匯入的資料集，[排程資料集重新整理](../connect-data/refresh-scheduled-refresh.md)。
+- **資料重新整理：** 針對所有匯入的資料集， [排程資料集重新整理](../connect-data/refresh-scheduled-refresh.md)。
 - **工作區內容：** 將資料集與報表發佈至實際執行工作區，並建立儀表板。 若您的內容已發佈至 Premium 容量上的工作區，[部署管線](../create-reports/deployment-pipelines-overview.md)可以簡化開發、測試與實際執行工作區的部署程序。
-- **應用程式：** 若應用程式是內容散發策略的一部分，請使用實際執行工作區中的內容，發佈[應用程式](../consumer/end-user-apps.md)。
-- **安全性：** 根據您的內容散發與共同作業策略，更新及確認[工作區角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
+- **應用程式：** 若應用程式是內容散發策略的一部分，請使用實際執行工作區中的內容，發佈 [應用程式](../consumer/end-user-apps.md)。
+- **安全性：** 根據您的內容散發與共同作業策略，更新及確認 [工作區角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
 - **資料集設定：** 更新及確認每個資料集的設定，包括：
-  - [背書](../connect-data/service-datasets-certify.md) (例如已認證或已升級)
+  - [背書](../collaborate-share/service-endorse-content.md) (例如已認證或已升級)
   - 閘道連線或資料來源認證
   - 排程重新整理
   - [精選問與答問題](../create-reports/service-q-and-a-create-featured-questions.md)

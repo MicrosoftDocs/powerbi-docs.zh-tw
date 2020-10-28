@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525792"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680972"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>準備移轉到 Power BI
 
@@ -79,7 +79,7 @@ ms.locfileid: "91525792"
 - 與[資料集模式](../connect-data/service-dataset-modes-understand.md)相關的偏好設定，例如使用匯入模式、DirectQuery 模式，或在[複合模型](composite-model-guidance.md)中結合使用這兩種模式。
 - [保護資料及存取](../admin/service-admin-power-bi-security.md)。
 - 使用[共用資料集](../connect-data/service-datasets-share.md)以供重複使用。
-- 套用[資料認證](../connect-data/service-datasets-certify.md)，以推廣使用授權與受信任資料。
+- 套用[資料認證](../collaborate-share/service-endorsement-overview.md)，以推廣使用授權與受信任資料。
 - 使用不同的[報表類型](../create-reports/index.yml)，包含不同使用案例或業務單位的 Power BI 報表、Excel 報表或編頁報表。
 - 變更管理集中式 BI 成品及公司管理 BI 成品的管理方法。
 - 取用者、資料建模者、報表作者及系統管理員的訓練計畫。

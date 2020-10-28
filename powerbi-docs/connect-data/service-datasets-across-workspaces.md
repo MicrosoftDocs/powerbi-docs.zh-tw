@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374261"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681168"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>跨工作區的資料集簡介
 
@@ -47,7 +47,7 @@ ms.locfileid: "91374261"
 
 ## <a name="promotion-and-certification"></a>推廣與認證
 
-如果您要建立資料集，則在建立一個可讓其他人受益的資料集時，可以[將您的資料集升階](service-datasets-promote.md)以利他們輕鬆找到。 您也可以要求您組織中的專家[認證您的資料集](service-datasets-certify.md)。
+如果您要建立資料集，則在建立一個可讓其他人受益的資料集時，可以[將您的資料集升階](../collaborate-share/service-endorse-content.md#promote-content)以利他們輕鬆找到。 您也可以要求您組織中的專家[認證您的資料集](../collaborate-share/service-endorse-content.md#request-content-certification)。
 
 ## <a name="licensing"></a>授權
 
@@ -69,7 +69,8 @@ ms.locfileid: "91374261"
 
 ## <a name="next-steps"></a>後續步驟
 
-- [宣傳資料集](service-datasets-promote.md)
-- [認證資料集](service-datasets-certify.md)
+- [宣傳資料集](../collaborate-share/service-endorse-content.md#promote-content)
+- [認證資料集](../collaborate-share/service-endorse-content.md#certify-content)
+- [要求認證資料集](../collaborate-share/service-endorse-content.md#request-content-certification)
 - [跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
