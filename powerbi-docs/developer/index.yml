@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 33b047952ce5ca7748bc54595e27c4025bd34e6b
-  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+  ms.openlocfilehash: 3ed27c97169c1b4a579dadb001555445fe8fc43f
+  ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/14/2020
-  ms.locfileid: "92048824"
+  ms.lasthandoff: 10/29/2020
+  ms.locfileid: "92916766"
 highlightedContent:
   items:
   - title: 搭配 Power BI 使用內嵌式分析
@@ -85,7 +85,7 @@ additionalContent:
       summary: Power BI REST API 可為內嵌、管理和使用者資源提供服務端點。
       url: /rest/api/power-bi/
     - title: Azure Resource Manager REST API
-      summary: 此 API 提供一組 RESTful 的 Web 服務，可讓您建立、擷取、更新及刪除 Power BI 專用容量。
+      summary: 此 API 提供一組 RESTful 的 Web 服務，可讓您建立、擷取、更新及刪除 Power BI 容量。
       url: /rest/api/power-bi-embedded/
     - title: Power Platform 文件
       summary: 了解 Power BI、Power Apps、Power Automate 以及 Power Virtual Agents 如何搭配運作。
