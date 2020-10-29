@@ -94,7 +94,7 @@
               href: service-security-data-protection-metrics-report.md
         - name: 資料列層級安全性
           href: service-admin-rls.md
-        - name: 設定資料集與資料流程認證
+        - name: 啟用內容認證
           href: service-admin-setup-certification.md
         - name: 使用 Intune 設定行動應用程式
           href: service-admin-mobile-intune.md

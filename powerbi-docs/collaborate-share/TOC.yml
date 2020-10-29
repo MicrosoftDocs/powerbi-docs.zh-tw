@@ -16,6 +16,8 @@
           href: service-usage-metrics.md
         - name: 監視新工作區中的使用狀況
           href: service-modern-usage-metrics.md
+        - name: 內容簽署
+          href: service-endorsement-overview.md
     - name: 操作指南
       expanded: true
       items:
@@ -73,6 +75,8 @@
               href: service-url-filters.md
             - name: 訂閱自己及其他人
               href: service-report-subscribe.md
+            - name: 簽署您的內容
+              href: service-endorse-content.md
             - name: 首頁上的精選內容
               href: service-featured-content.md
             - name: 在 SharePoint Online 內嵌報表
