@@ -79,6 +79,8 @@
               href: access-dataset-odata.md
             - name: 使用 PowerShell 變更資料來源連接字串
               href: connect-data-source-apis.md
+            - name: 在 2020 年 10 月之前，使用 PowerShell 變更資料來源連接字串
+              href: connect-data-source-apis-pre-oct-2020.md
             - name: 設定排程的重新整理
               href: configure-scheduled-refresh.md
             - name: 在報表中新增註解
