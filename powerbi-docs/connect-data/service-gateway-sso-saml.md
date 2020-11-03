@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 10/22/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 38aee727245cd7a33aefe1ee64a8a5be8b062cd7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 1879dbd53f08b3dff7dac2f4050be078ed44ead8
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859765"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92502002"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的 SSO，使用安全性聲明標記語言 (SAML)
 
@@ -26,71 +26,132 @@ ms.locfileid: "90859765"
 
 我們使用 [Kerberos](service-gateway-sso-kerberos.md) 支援其他資料來源 (包含 SAP HANA)。
 
-針對 SAP HANA，建議您先啟用加密再建立 SAML SSO 連線。 若要啟用加密，請將 HANA 伺服器設定為接受加密連線，並將閘道設定為使用加密來與您的 HANA 伺服器進行通訊。 因為 HANA ODBC 驅動程式預設不會加密 SAML 判斷提示，所以已簽署之 SAML 判斷提示會從閘道傳送到「沒有問題」  的 HANA 伺服器，且很容易被第三方攔截並重複使用。 如需如何使用 OpenSSL 程式庫啟用 HANA 加密的指示，請參閱[啟用 SAP HANA 的加密](./desktop-sap-hana-encryption.md)。
+針對 SAP HANA，建議您先啟用加密再建立 SAML SSO 連線。 若要啟用加密，請將 HANA 伺服器設定為接受加密連線，並將閘道設定為使用加密來與您的 HANA 伺服器進行通訊。 因為 HANA ODBC 驅動程式預設不會加密 SAML 判斷提示，所以已簽署之 SAML 判斷提示會從閘道傳送到「沒有問題」  的 HANA 伺服器，且很容易被第三方攔截並重複使用。
+
+> [!IMPORTANT]
+> SAP 已不再支援 OpenSSL，因此 Microsoft 也已停止其支援。 現有及新的連線會繼續正常運作直到 2020 年底，但從 2021 年 1 月 1 日起將停止運作。 請改用 CommonCryptoLib。
 
 ## <a name="configuring-the-gateway-and-data-source"></a>設定閘道和資料來源
 
-若要使用 SAML，您必須在要啟用 SSO 的 HANA 伺服器與閘道之間建立信任關係。 在本案例中，閘道可作為 SAML 識別提供者 (IdP)。 建立此關係的方式很多，例如將閘道 IdP 的 x509 憑證匯入 HANA 伺服器信任存放區，或讓 HANA 伺服器所信任根憑證授權單位 (CA) 簽署閘道的 X509 憑證。 即使本指南會在後文中描述第二種方法，但如有更方便的方法，您也可以使用其他方法。
+若要使用 SAML，您必須在要啟用 SSO 的 HANA 伺服器與閘道之間建立信任關係。 在本案例中，閘道可作為 SAML 識別提供者 (IdP)。 建立此關聯性的方法有很多種。 SAP 建議使用 SAP 密碼編譯程式庫 (也稱為 CommonCryptoLib 或 sapcrypto) 來完成建立信任關係的設定步驟。 如需詳細資訊，請參閱官方的 SAP 文件。
 
-雖然本指南使用 OpenSSL 作為 HANA 伺服器的密碼編譯提供者，但 SAP 建議您使用 SAP 密碼編譯程式庫 (也稱為 CommonCryptoLib 或 sapcrypto) 而不是 OpenSSL 來完成建立信任關係的設定步驟。 如需詳細資訊，請參閱官方的 SAP 文件。
+下列步驟描述如何使用 HANA 伺服器所信任根 CA 來簽署閘道 IdP 的 X509 憑證，以建立 HANA 伺服器與閘道 IdP 之間的信任關係。 
 
-下列步驟描述如何使用 HANA 伺服器所信任根 CA 來簽署閘道 IdP 的 X509 憑證，以建立 HANA 伺服器與閘道 IdP 之間的信任關係。 您將建立這個根 CA：
+### <a name="create-the-certificates"></a>建立憑證
 
-1. 建立根 CA 的 X509 憑證和私密金鑰。 例如，若要以 .pem 格式建立根 CA 的 X509 憑證和私密金鑰，請輸入下列命令：
+採取下列步驟來建立憑證：
 
-   ```
-   openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
-   ```
-
-    請確定根 CA 的私密金鑰受到適當保護。 如果其由協力廠商取得，則可能用來獲取對 HANA 伺服器的未經授權存取。 
-
- 1. 將憑證 (例如，CA_Cert.pem) 新增至 HANA 伺服器的信任存放區，HANA 伺服器才會信任由您建立之根 CA 所簽署的任何憑證。 
-
-    您可以檢查 **ssltruststore** 組態設定來找出 HANA 伺服器的信任存放區位置。 如已遵循 SAP 文件中有關如何設定 OpenSSL 的指示，則 HANA 伺服器可能已信任您可重複使用的根 CA。 如需詳細資訊，請參閱 [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571) (如何設定 SAP HANA 伺服器的 Open SSL for SAP HANA Studio)。 如有多部您要啟用 SAML SSO 的 HANA 伺服器，請確定每部伺服器都信任此根 CA。
-
-1. 建立閘道 IdP 的 X509 憑證。 
-
-   例如，若要建立憑證簽署要求 (IdP_Req.pem) 和有效期為一年的私用金鑰 (IdP_Key.pem)，請執行下列命令：
+1. 在執行 SAP HANA 的裝置上，建立空的資料夾來儲存憑證，然後巡覽至該資料夾。
+2. 執行下列命令來建立根憑證：
 
    ```
-   openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+   openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca'''
    ```
 
- 1. 使用已設定 HANA 伺服器要信任的根 CA 來簽署憑證簽署要求。 
+    您必須記住複雜密碼，才能使用此憑證來簽署其他憑證。
+    您應該會看到所要建立的 *CA_Cert.pem* 和 *CA_Key.pem* 。
 
-    例如，若要使用 CA_Cert.pem 和 CA_Key.pem (根 CA 的憑證和金鑰) 簽署 IdP_Req.pem，請執行下列命令：
+   
+3. 執行下列命令來建立 IdP 憑證：
+ 
+    ```
+    openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+    ```
+    您應該會看到所要建立的 *IdP_Key.pem* 和 *IdP_Req.pem* 。
+
+4. 使用根憑證簽署 IdP 憑證：
 
     ```
     openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
     ```
+    您應該會看到所要建立的 *CA_Cert.srl* 和 *IdP_Cert.pem* 。
+    我們只關心 *IdP_Cert.pem* 。    
 
-     產生的 IdP 憑證有效期為一年 (請參閱 -days 選項)。 
+### <a name="create-saml-identity-provider-certificate-mapping"></a>建立 SAML 識別提供者憑證對應
 
-匯入 HANA Studio 中的 IdP 憑證，以建立新的 SAML 識別提供者：
+使用下列步驟，建立 SAML 身分識別提供者憑證對應。
 
-1. 在 SAP HANA Studio 中，以滑鼠右鍵按一下您的 SAP HANA 伺服器名稱，然後巡覽至 [安全性]  &gt; [開啟安全性主控台]  &gt; [SAML 識別提供者]  &gt; [OpenSSL 密碼編譯程式庫]  。
+1. 在 **SAP HANA Studio** 中，以滑鼠右鍵按一下 SAP HANA 伺服器名稱，然後巡覽至 [安全性] > [開啟安全性主控台] > [SAML 識別提供者] 。
+2. 如果未選取 [SAP 密碼編譯程式庫]，請加以選取。 請「勿」使用 OpenSSL 密碼編譯程式庫 (下圖中的左側選項)，SAP 已淘汰該選項。
 
-    ![識別提供者](media/service-gateway-sso-saml/identity-providers.png)
+    ![選取 SAP 密碼編譯程式庫](media/service-gateway-sso-saml/service-gateway-sso-saml-01.png)
 
-1. 選取 [匯入]  ，巡覽至 IdP_Cert.pem 並匯入它。
+3. 按一下藍色的匯入按鈕 (如下圖所示)，以匯入已簽署的憑證 *IdP_Cert.pem* 。
 
-1. 在 SAP HANA Studio 中，選取 [安全性]  資料夾。
+    ![選取藍色的匯入按鈕](media/service-gateway-sso-saml/service-gateway-sso-saml-02.png)
 
-    ![安全性資料夾](media/service-gateway-sso-saml/security-folder.png)
+請記得將名稱指派給「識別提供者名稱」。
 
-1. 展開 [使用者]  ，然後選取要對應 Power BI 使用者的目標使用者。
+### <a name="import-and-create-the-signed-certificates-in-hana"></a>在 HANA 中匯入並建立已簽署的憑證
 
-1. 選取 [SAML]  ，然後選取 [設定]  。
+接下來，您將在 HANA 中匯入並建立已簽署的憑證。 請遵循下列步驟：
 
-    ![設定 SAML](media/service-gateway-sso-saml/configure-saml.png)
+1. 在 **HANA Studio** 中，執行下列查詢：
 
-1. 選取您在步驟 2 中建立的識別提供者。 針對 [外部身分識別]  ，輸入 Power BI 使用者的 UPN (通常是使用者用來登入 Power BI 的電子郵件地址)，然後選取 [新增]  。 若您設定閘道使用 *ADUserNameReplacementProperty* 設定選項，則請輸入將取代 Power BI 使用者原始 UPN 的值。 
+    ```
+    CREATE CERTIFICATE FROM '<idp_cert_pem_certificate_content>'
+    ```
+    
+    以下為範例：
 
-   例如，若您將 *ADUserNameReplacementProperty* 設為 **SAMAccountName**，則您應輸入使用者的 **SAMAccountName**。
+    ```
+    CREATE CERTIFICATE FROM
+    '-----BEGIN CERTIFICATE-----
+    MIIDyDCCArCgA...veryLongString...0WkC5deeawTyMje6
+    -----END CERTIFICATE-----
+    '
+    ```
 
-    ![選取識別提供者](media/service-gateway-sso-saml/select-identity-provider.png)
+2. 如果沒有搭配 SAML 目的的 PSE，請在 **HANA Studio** 中執行下列查詢來建立一個：
+    
+    ```
+    CREATE PSE SAMLCOLLECTION;<br>set pse SAMLCOLLECTION purpose SAML;<br>
+    ```
 
-現在您已設定閘道的憑證和身分識別，接下來便可以將憑證轉換為 pfx 格式，並將閘道設定為使用憑證：
+3. 使用下列命令，將新建立的已簽署憑證新增至 PSE：
+
+    ```
+    alter pse SAMLCOLLECTION add CERTIFICATE <certificate_id>;
+    ```
+
+    例如：
+    ```
+    alter pse SAMLCOLLECTION add CERTIFICATE 1978320;
+    ```
+
+    您可使用下列查詢來檢查所建立的憑證清單：
+    ```
+    select * from PUBLIC"."CERTIFICATES"
+    ```
+
+    憑證現在已正確安裝。 您可執行下列查詢來確認：
+    ```
+    select * from "PUBLIC"."PSE_CERTIFICATES"
+    ```
+
+### <a name="map-the-user"></a>對應使用者
+
+遵循下列步驟來對應使用者：
+
+1. 在 **SAP HANA Studio** 中，選取 [安全性] 資料夾：
+
+    ![選取 [安全性] 資料夾](media/service-gateway-sso-saml/service-gateway-sso-saml-03.png)
+
+2. 展開 [使用者]，然後選取要對應 Power BI 使用者的目標使用者。
+
+3. 選取 [SAML] 核取方塊，然後選取 [設定]，如下圖中醒目提示。
+
+    ![選取 [SAML]，然後選取 [設定] 連結](media/service-gateway-sso-saml/service-gateway-sso-saml-04.png)
+
+4. 選取在本文稍早的[建立 SAML 識別提供者憑證對應](#create-saml-identity-provider-certificate-mapping)一節中所建立識別提供者。 針對 [外部身分識別]，輸入 Power BI 使用者的 UPN (通常是使用者用來登入 Power BI 的電子郵件地址)，然後選取 [新增]。  下圖顯示這些選項和選取項目。
+
+    ![設定 SAML 身分識別視窗](media/service-gateway-sso-saml/service-gateway-sso-saml-05.png)
+
+    若您設定閘道使用 *ADUserNameReplacementProperty* 設定選項，則請輸入將取代 Power BI 使用者原始 UPN 的值。 例如，若將 *ADUserNameReplacementProperty* 設為 *SAMAccountName* ，則請輸入使用者的 *SAMAccountName* 。
+
+### <a name="configure-the-gateway"></a>設定閘道
+
+現在您已設定閘道的憑證和身分識別，接下來即可透過下列步驟，將憑證轉換為 pfx 格式，並將閘道設定為使用憑證。
 
 1. 請執行下列命令來將憑證轉換成 pfx 格式。 此命令會將產生的 .pfx 檔案命名為 samlcert.pfx，並設定 *root* 為其密碼：
 
@@ -98,41 +159,41 @@ ms.locfileid: "90859765"
     openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
     ```
 
-1. 將 pfx 檔案複製到閘道電腦：
+2. 將 pfx 檔案複製到閘道電腦：
 
-    1. 按兩下 samltest.pfx，然後選取 [本機電腦]  &gt; [下一步]  。
+    1. 按兩下 *samltest.pfx* ，然後選取 [本機電腦] > [下一步]。
 
-    1. 輸入密碼，然後選取 [下一步]  。
+    2. 輸入密碼，然後選取 [下一步]。
 
-    1. 選取 [將所有憑證放在下列存放區]  ，然後選取 [瀏覽]  &gt; [個人]  &gt; [確定]  。
+    3. 選取 [將所有憑證放在下列存放區]，然後選取 [瀏覽] >  [個人] >  [確定]。
 
-    1. 選取 [下一步]  ，然後選取 [完成]  。
+    4. 選取 [下一步]，然後選取 [完成]。
 
-       ![匯入憑證](media/service-gateway-sso-saml/import-certificate.png)
+       ![匯入憑證](media/service-gateway-sso-saml/service-gateway-sso-saml-06.png)
 
-1. 將閘道服務帳戶存取權授與該憑證的私密金鑰：
+3. 使用下列步驟，將閘道服務帳戶存取權授與該憑證的私密金鑰：
 
     1. 在閘道電腦上執行 Microsoft Management Console (MMC)。
 
         ![執行 MMC](media/service-gateway-sso-saml/run-mmc.png)
 
-    1. 在 [檔案]  下方選取 [新增/移除嵌入式管理單元]  。
+    2. 在 [檔案] 下方選取 [新增/移除嵌入式管理單元]。
 
         ![新增嵌入式管理單元](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. 選取 [憑證]  &gt; [新增]  ，然後選取 [電腦帳戶]  &gt; [下一步]  。
+    3. 選取 [憑證] > [新增]，然後選取 [電腦帳戶] > [下一步]。
 
-    1. 選取 [本機電腦]  &gt; [完成]  &gt; [確定]  。
+    4. 選取 [本機電腦] > [完成] > [確定]。
 
-    1. 依序展開 [憑證]  &gt; [個人]  &gt; [憑證]  ，並尋找憑證。
+    5. 依序展開 [憑證] > [個人] > [憑證]，並尋找憑證。
 
-    1. 以滑鼠右鍵按一下憑證，並巡覽至 [所有工作]  &gt; [管理私密金鑰]  。
+    6. 以滑鼠右鍵按一下憑證，並巡覽至 [所有工作] **[管理私用金鑰]** &gt; 。
 
         ![管理私用金鑰](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. 將閘道服務帳戶新增至清單。 根據預設，此帳戶是 **NT SERVICE\PBIEgwService**。 您可以藉由執行  並尋找**內部部署資料閘道服務**，來了解哪個帳戶正在執行閘道服務。
+    1. 將閘道服務帳戶新增至清單。 根據預設，此帳戶是 **NT SERVICE\PBIEgwService** 。 您可以藉由執行  並尋找 **內部部署資料閘道服務** ，來了解哪個帳戶正在執行閘道服務。
 
-        ![閘道服務](media/service-gateway-sso-saml/gateway-service.png)
+        ![閘道器服務](media/service-gateway-sso-saml/gateway-service.png)
 
 最後，請遵循下列步驟將憑證指紋新增至閘道設定：
 
@@ -142,23 +203,23 @@ ms.locfileid: "90859765"
     Get-ChildItem -path cert:\LocalMachine\My
     ```
 
-1. 複製您所建立憑證的指紋。
+2. 複製您所建立憑證的指紋。
 
-1. 巡覽至閘道目錄，其預設為 C:\Program Files\On-premises data gateway。
+3. 巡覽至閘道目錄，其預設為 *C:\Program Files\On-premises data gateway* 。
 
-1. 開啟 PowerBI.DataMovement.Pipeline.GatewayCore.dll.config，並尋找  *SapHanaSAMLCertThumbprint* 區段。 貼上您複製的指紋。
+4. 開啟 *PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* ，並尋找 *SapHanaSAMLCertThumbprint* 區段。 貼上您複製的指紋。
 
-1. 重新啟動閘道服務。
+5. 重新啟動閘道服務。
 
 ## <a name="running-a-power-bi-report"></a>執行 Power BI 報表
 
-現在您可以使用 Power BI 中的 [管理閘道]  頁面來設定 SAP HANA 資料來源。 在 [進階設定]  下方，透過 SAML 啟用 SSO。 這麼做可讓您發佈繫結至該資料來源的報表和資料集。
+現在您可以使用 Power BI 中的 [管理閘道] 頁面來設定 SAP HANA 資料來源。 在 [進階設定] 下方，透過 SAML 啟用 SSO。 這麼做可讓您發佈繫結至該資料來源的報表和資料集。
 
    ![進階設定](media/service-gateway-sso-saml/advanced-settings.png)
 
 ## <a name="troubleshooting"></a>疑難排解
 
-在您設定 SAML 式 SSO 之後，您可能會在 Power BI 入口網站中看到下列錯誤：提供的認證無法用於 SapHana 來源。  此錯誤表示 SAP Hana 拒絕了該 SAML 認證。
+在您設定 SAML 式 SSO 之後，您可能會在 Power BI 入口網站中看到下列錯誤：提供的認證無法用於 SapHana 來源。 此錯誤表示 SAP Hana 拒絕了該 SAML 認證。
 
 伺服器端驗證會追蹤提供的詳細資訊，以針對 SAP HANA 上的認證問題進行疑難排解。 請遵循以下步驟來為 SAP HANA 伺服器設定追蹤：
 
@@ -170,9 +231,9 @@ ms.locfileid: "90859765"
 
 1. 重現問題。
 
-1. 在 HANA Studio 中，開啟管理主控台並選取 [診斷檔案]  索引標籤。
+1. 在 HANA Studio 中，開啟管理主控台並選取 [診斷檔案] 索引標籤。
 
-1. 開啟最近的索引伺服器追蹤，然後搜尋 *SAMLAuthenticator.cpp*。
+1. 開啟最近的索引伺服器追蹤，然後搜尋 *SAMLAuthenticator.cpp* 。
 
     您應該會看到指出根本原因的詳細錯誤訊息，例如：
 

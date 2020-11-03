@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/13/2020
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2fd8375e105769ed0c9a81e7d894cc0f31f08b0
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92258151"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349636"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Power BI Desktop 中的動態 M 查詢參數 (預覽)
 
@@ -28,7 +28,12 @@ ms.locfileid: "92258151"
 
 ![啟用預覽功能](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-01.png)
 
-作為此功能的必要條件，您必須建立有效的 [M 查詢參數](/power-query/power-query-query-parameters)，並在一或多個直接查詢資料表中參考。 讓我們逐步執行一個範例，以動態方式將 **單一值** 傳遞給某個參數：
+作為此功能的必要條件，您必須建立有效的 [M 查詢參數](/power-query/power-query-query-parameters)，並在一或多個直接查詢資料表中參考。 
+
+> [!NOTE]
+> 請務必查看本文中的[考量與限制](#considerations-and-limitations)一節，因為此功能並不支援所有的 DirectQuery 來源。
+
+讓我們逐步執行一個範例，以動態方式將 **單一值** 傳遞給某個參數：
 
 1. 在 Power BI Desktop 中，從 [資料] 索引標籤啟動 **Power Query** ，然後選取功能區中 [管理參數] 按鈕底下的 [新增參數]。
 
@@ -147,7 +152,13 @@ Products
 使用動態 M 查詢參數時，有一些考量事項與限制：
 
 * 單一參數無法繫結至多個欄位，反之亦然。
-* 此功能僅支援以 M 為基礎的資料來源，且不支援原生 SQL 查詢。
+* 只有 M 型資料來源支援此功能。 不支援下列 DirectQuery 來源：
+    * T-SQL 型資料來源：SQL Server、Azure SQL Database、Synapse SQL 集區 (也稱為 Azure SQL 資料倉儲)，以及 Synapse SQL OnDemand 集區
+    * 即時連線資料來源：Azure Analysis Services、SQL Server Analysis Services、Power BI 資料集
+    * 其他不支援的資料來源：Oracle、Teradata 及關聯式 SAP Hana
+    * 透過 XMLA/TOM 端點可程式性部分支援：SAP BW 和 SAP Hana 
+
+
 * 不支援的現成參數類型如下：
   * 任意
   * Duration
