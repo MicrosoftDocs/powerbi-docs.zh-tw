@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/15/2020
+ms.date: 10/22/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1fd5f4748ffd7a59095bfe34090d9494ff0a9134
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8768801f2d704644c888a14caf9b930dcd27f8fa
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526758"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501964"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -112,11 +112,16 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
 - 如同其他 BI 產品，您為訂閱所設定時間就是訂閱開始處理的時間。  當報表處理完成時，訂閱會排入佇列並傳送給電子郵件收件者。  我們致力於盡快處理和傳遞所有的訂閱。 但是，有時候在尖峰需求時，由於 Power BI 一次能傳送的訂閱數量有限，因此您可能會察覺到較長的延遲。 針對處理和傳送報表，大多數客戶都不會遇到延遲超過 15 分鐘的情況。 但針對特定時間和使用量龐大的租用戶，延遲最長可達 30 分鐘。  我們從不預期在排程訂閱之後，於傳遞上的延遲超過 60 分鐘。  若您遇到長時間的延遲，請先確認 `no-reply-powerbi@microsoft.com` 地址位於您的安全寄件者清單中，而且未遭到電子郵件提供者封鎖。  如果電子郵件並未遭到封鎖，請連絡 Power BI 支援人員尋求協助。
 - 目前，訂閱自己以外的使用者時，除編頁報表外，不支援使用即時連線資料集的報表和儀表板電子郵件訂閱。 您可使用自己的安全性內容來為其他人訂閱編頁報表。 深入了解[訂閱編頁報表](../consumer/paginated-reports-subscriptions.md)。
 - 如果超過兩個月未瀏覽某些儀表板和報表，Power BI 會自動暫停重新整理與這些儀表板和報表建立關聯的資料集。 不過，如果您新增儀表板或報表的訂閱，即使有段時間未瀏覽也不會暫停。
-- 若您未收到訂閱電子郵件，請確認您的使用者主體名稱 (UPN) 能夠接收電子郵件。
+- 如果未收到訂閱電子郵件：
+
+    - 請確定使用者主體名稱 (UPN) 可接收電子郵件。
+    - 雖然您有 Power BI Pro 授權，但可能沒有 Microsoft Exchange 授權。 如果沒有 Microsoft Exchange 授權，則 Azure Active Directory 帳戶可能沒有指定電子郵件或備用電子郵件地址。 在此情況下，雖然訂閱似乎已送出，但您永遠不會收到複本。  如果 Power BI 系統管理員指派電子郵件地址，則 Power BI 會在您下次登入時同步更新，並將該電子郵件地址用於訂閱。
+
 - 若您的儀表板或報表處於 Premium 容量中，您可以使用群組電子郵件別名進行訂閱，而不必為各同事的電子郵件一一訂閱。 別名會以目前使用中的目錄為準。
 - 若內容不在 Premium 容量中，則只有 Power BI Pro 使用者會收到電子郵件訂閱。 
 - 訂閱目前不支援書籤。
 - 當您編輯現有的訂閱時，一律會顯示啟用提供報表/儀表板存取權的選項。  如果您清除此選項並儲存訂閱，即會儲存該狀態。 不過，當您重新編輯報表時，預設又會勾選此選項。
+- 如果有備用電子郵件地址，但沒有主要電子郵件地址，Power BI 會使用備用電子郵件地址來傳遞訂閱。
 
 ### <a name="dashboards"></a>儀表板
 

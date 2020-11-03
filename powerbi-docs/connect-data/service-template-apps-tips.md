@@ -8,21 +8,21 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d23062a5b8fe4a1a68be372865746a1a7d497c26
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860271"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349659"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
 當您在 Power BI 中[撰寫自己的範本應用程式](service-template-apps-create.md)時，有一部分重點是建立工作區、進行測試和生產的邏輯。 而另一個重點則明顯是撰寫報表和儀表板。 撰寫程序可以細分成四大部分。 在這幾個部分投入心力能讓您建立最佳的範本應用程式：
 
-* 您可利用**查詢**來將資料[連線](desktop-connect-to-data.md)和[轉換](../transform-model/desktop-query-overview.md)，以及定義[參數](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)。 
-* 您可在**資料模型**中建立[關聯性](../transform-model/desktop-create-and-manage-relationships.md)、[量值](../transform-model/desktop-measures.md)和問與答改善項目。  
+* 您可利用 **查詢** 來將資料 [連線](desktop-connect-to-data.md)和 [轉換](../transform-model/desktop-query-overview.md)，以及定義 [參數](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)。 
+* 您可在 **資料模型** 中建立 [關聯性](../transform-model/desktop-create-and-manage-relationships.md)、 [量值](../transform-model/desktop-measures.md)和問與答改善項目。  
 * **[報表頁面](../create-reports/desktop-report-view.md)** 包含可提供資料見解的視覺效果和篩選。  
-* **[儀表板](../consumer/end-user-dashboards.md)** 和[磚](../create-reports/service-dashboard-create.md)能為包含的見解提供概觀。
+* **[儀表板](../consumer/end-user-dashboards.md)** 和 [磚](../create-reports/service-dashboard-create.md)能為包含的見解提供概觀。
 * 在安裝應用程式後，範例資料可立即供您探索。
 
 您可能以現有 Power BI 功能的角度熟悉每項元素。 在建置範本應用程式時，每項元素都有應考量的其他事項。 如需更多詳細資料，請參閱以下各節。
@@ -30,7 +30,7 @@ ms.locfileid: "90860271"
 <a name="queries"></a>
 
 ## <a name="queries"></a>查詢
-針對範本應用程式，在 Power BI Desktop 中開發的查詢會用來連線至資料來源和匯入資料。 系統需要這些查詢才能傳回一致的結構描述，並針對排程的資料重新整理支援這些查詢 (不支援 DirectQuery)。
+針對範本應用程式，在 Power BI Desktop 中開發的查詢會用來連線至資料來源和匯入資料。 系統需要這些查詢才能傳回一致的結構描述，並針對排程的資料重新整理支援這些查詢。
 
 ### <a name="connect-to-your-api"></a>連接到您的 API
 若要開始，您需要從 Power BI Desktop 連線到您的 API，開始建置您的查詢。

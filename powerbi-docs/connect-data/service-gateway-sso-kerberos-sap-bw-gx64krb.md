@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 10/21/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9dc24d853ee363c75eca811d068288bc375b1f88
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 6fc8dba8e4cdcb8d8ff38c00f3e477902fe8234e
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374238"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349452"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>使用 gx64krb5 將 Kerberos 用於 SAP BW 的單一登入 (SSO)
 
 本文描述如何設定您的 SAP BW 資料來源，以使用 gx64krb5 從 Power BI 服務啟用 SSO。
 
 > [!IMPORTANT]
-> SAP 已不再支援 gx64krb5，因此 Microsoft 也已停止其支援。 現有連線及新的連線會繼續正常運作直至 2020 年底，2021 年 1 月起將停止運作。 請改用 CommonCryptoLib。 
+> SAP 已不再支援 gx64krb5，因此 Microsoft 也已停止其支援。 現有及新的連線會繼續正常運作直到 2020 年底，但從 2021 年 1 月 1 日開始將停止運作。 請改用 CommonCryptoLib。 
 
 > [!NOTE]
 > 除了[設定 Kerberos SSO](service-gateway-sso-kerberos.md) 中的步驟之外，您還可以完成本文中的步驟，以在 Power BI 服務中針對 SAP BW 應用程式伺服器型報表啟用 SSO 型重新整理。 不過，Microsoft 建議使用 CommonCryptoLib (而不是 gx64krb5) 作為您的 SNC 程式庫。 SAP 不再支援 gx64krb5，因此相較於 CommonCryptoLib，針對閘道進行設定所需的步驟會複雜許多。 如需如何使用 CommonCryptoLib 設定 SSO 的資訊，請參閱[使用 CommonCryptoLib 針對 SSO 設定 SAP BW](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md)。 您可使用 CommonCryptoLib「或」gx64krb5 作為 SNC 程式庫，但請勿同時使用。 請勿同時完成這兩個程式庫的設定步驟。
@@ -66,7 +66,7 @@ ms.locfileid: "91374238"
 
 1. 將 SAP BW 伺服器服務使用者設定為在 SAP BW 伺服器電腦上啟動 SAP BW 伺服器服務的使用者：
 
-    1. 開啟 [執行]，然後輸入 **Services.msc**。 
+    1. 開啟 [執行]，然後輸入 **Services.msc** 。 
 
     1. 尋找對應到 SAP BW 應用程式伺服器執行個體的服務、以滑鼠右鍵按一下，然後選取 [屬性]。
 
@@ -78,7 +78,7 @@ ms.locfileid: "91374238"
 
 1. 在 SAP 登入中登入您的伺服器，並使用 RZ10 交易來設定下列設定檔參數：
 
-    1. 將 **snc/identity/as** 設定檔參數設定為 p:&lt;您剛剛建立的 SAP BW 服務使用者&gt;。 例如，*p:BWServiceUser\@MYDOMAIN.COM*。 請注意，*p:* 會在服務使用者的 UPN 前面，而不是像使用 CommonCryptoLib 作為 SNC 程式庫時，在 UPN 前面的 *p:CN=* 。
+    1. 將 **snc/identity/as** 設定檔參數設定為 p:&lt;您剛剛建立的 SAP BW 服務使用者&gt;。 例如， *p:BWServiceUser\@MYDOMAIN.COM* 。 請注意， *p:* 會在服務使用者的 UPN 前面，而不是像使用 CommonCryptoLib 作為 SNC 程式庫時，在 UPN 前面的 *p:CN=* 。
 
     1. 將 **snc/gssapi\_lib** 設定檔參數設為 &lt;BW 伺服器上的 gx64krb5.dll 路徑&gt;。 將程式庫放在 SAP BW 應用程式伺服器可以存取的位置。
 
@@ -107,17 +107,17 @@ ms.locfileid: "91374238"
 
 1. 使用 SAP 登入來登入您的 SAP BW 伺服器。 執行交易 SU01。
 
-1. 針對 [使用者]，輸入您要為其啟用 SSO 連線的 SAP BW 使用者。 選取 SAP 登入視窗左上角附近的**編輯**圖示 (畫筆圖示)。
+1. 針對 [使用者]，輸入您要為其啟用 SSO 連線的 SAP BW 使用者。 選取 SAP 登入視窗左上角附近的 **編輯** 圖示 (畫筆圖示)。
 
     ![SAP BW [使用者維護] 畫面](media/service-gateway-sso-kerberos/user-maintenance.png)
 
 1. 選取 [SNC] 索引標籤。在 SNC 名稱輸入方塊中，輸入 p:&lt;您的 Active Directory 使用者&gt;@&lt;您的網域&gt;。 針對 SNC 名稱，Active Directory 使用者 UPN 前面必須加上 *p:* 。 請注意，UPN 會區分大小寫。
 
-   您指定的 Active Directory 使用者，應屬於要為其啟用 SAP BW 應用程式伺服器 SSO 存取權的人員或組織。 例如，如果您希望為使用者 testuser\@TESTDOMAIN.COM 啟用 SSO 存取權，請輸入 *p:testuser\@TESTDOMAIN.COM*。
+   您指定的 Active Directory 使用者，應屬於要為其啟用 SAP BW 應用程式伺服器 SSO 存取權的人員或組織。 例如，如果您希望為使用者 testuser\@TESTDOMAIN.COM 啟用 SSO 存取權，請輸入 *p:testuser\@TESTDOMAIN.COM* 。
 
     ![SAP BW [維護使用者] 畫面](media/service-gateway-sso-kerberos/maintain-users.png)
 
-1. 選取畫面左上角附近的**儲存**圖示 (磁碟片影像)。
+1. 選取畫面左上角附近的 **儲存** 圖示 (磁碟片影像)。
 
 ## <a name="test-sign-in-via-sso"></a>測試透過 SSO 登入
 
@@ -137,7 +137,7 @@ ms.locfileid: "91374238"
 
 1. 以滑鼠右鍵按一下新的連線、選取 [屬性]，然後選取 [網路] 索引標籤。 
 
-1. 在 [SNC Name] \(SNC 名稱\) 方塊中，輸入 p:&lt;SAP BW 服務使用者的 UPN&gt;。 例如，*p:BWServiceUser\@MYDOMAIN.COM*。 選取 [確定]。
+1. 在 [SNC Name] \(SNC 名稱\) 方塊中，輸入 p:&lt;SAP BW 服務使用者的 UPN&gt;。 例如， *p:BWServiceUser\@MYDOMAIN.COM* 。 選取 [確定]。
 
     ![[System Entry Properties] \(系統項目屬性\) 畫面](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
@@ -159,7 +159,7 @@ ms.locfileid: "91374238"
 
 1. 在 [SNC 合作夥伴名稱] 欄位中，輸入 p:&lt;您對應至 SAP BW 服務使用者的 SPN&gt;。 例如，如果 SPN 是 SAP/BWServiceUser\@MYDOMAIN.COM，則您應該在 [SNC 合作夥伴名稱] 欄位中輸入 p:SAP/BWServiceUser\@MYDOMAIN.COM。
 
-1. 針對 SNC 程式庫，選取 **SNC\_LIB** 或 **SNC\_LIB\_64**。 請確定閘道機器上的 **SNC\_LIB\_64** 指向 gx64krb5.dll。 或者，您可以選取 [自訂] 選項，並提供閘道電腦上的 gx64krb5.dll 絕對路徑。
+1. 針對 SNC 程式庫，選取 **SNC\_LIB** 或 **SNC\_LIB\_64** 。 請確定閘道機器上的 **SNC\_LIB\_64** 指向 gx64krb5.dll。 或者，您可以選取 [自訂] 選項，並提供閘道電腦上的 gx64krb5.dll 絕對路徑。
 
 1. 選取 [Use SSO via Kerberos for DirectQuery queries] \(透過 Kerberos 使用 SSO 進行 DirectQuery 查詢)，然後選取 [套用]。 如果測試連線不成功，請確認已正確完成先前的安裝和設定步驟。
 
@@ -191,11 +191,11 @@ ms.locfileid: "91374238"
 
 1. 開啟 SAP BW 追蹤，並檢閱產生的記錄檔。 有許多不同類型的 SAP BW 追蹤可供使用 (例如 CPIC 追蹤)：
 
-   a. 若要啟用 CPIC 追蹤，請設定兩個環境變數：**CPIC\_TRACE** 和 **CPIC\_TRACE\_DIR**.
+   a. 若要啟用 CPIC 追蹤，請設定兩個環境變數： **CPIC\_TRACE** 和 **CPIC\_TRACE\_DIR**.
 
       第一個變數會設定追蹤層級，第二個變數則會設定追蹤檔案目錄。 此目錄必須是 [已驗證的使用者] 群組成員可以寫入的位置。 
  
-    b. 將 **CPIC\_TRACE** 設為 *3*，並將 **CPIC\_TRACE\_DIR** 設為您想要寫入追蹤檔案的任何目錄。 例如：
+    b. 將 **CPIC\_TRACE** 設為 *3* ，並將 **CPIC\_TRACE\_DIR** 設為您想要寫入追蹤檔案的任何目錄。 例如：
 
       ![CPIC 追蹤](media/service-gateway-sso-kerberos/cpic-tracing.png)
 

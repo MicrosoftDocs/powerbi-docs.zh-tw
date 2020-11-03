@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668543"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683349"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的磚
 適用於︰
@@ -22,7 +22,7 @@ ms.locfileid: "91668543"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
-圖格是釘選到儀表板的即時資料快照集。 其值會隨著資料變更而變更。 **您可以[將磚新增到 Power BI 服務中的儀表板](../end-user-tiles.md)。** 
+圖格是釘選到儀表板的即時資料快照集。 其值會隨著資料變更而變更。 **您可以 [將磚新增到 Power BI 服務中的儀表板](../end-user-tiles.md)。** 
 
 接著在 Power BI 行動裝置應用程式 中，以焦點模式開啟磚，並與之互動。 您可以開啟含有各類視覺效果的磚，包括以 Bing 和 R 為基礎的磚。
 
@@ -35,12 +35,12 @@ ms.locfileid: "91668543"
    
     ![折線圖的螢幕擷取畫面，其中顯示今年度銷售與去年度銷售所選取的值。](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *例如，此折線圖中選取的是**本年度銷售額**和**去年銷售額**在**八月份**的值。*  
+   *例如，此折線圖中選取的是 **本年度銷售額** 和 **去年銷售額** 在 **八月份** 的值。*  
    
    在圓形圖中，點選圓形的配量可在圓形圖上方顯示配量的值。  
    
    ![圓形圖的螢幕擷取畫面，其中顯示 [商機計數] 的值。](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
-3. 在地圖中，點選**地圖置中**圖示 ![地圖置中圖示](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)，將地圖置中於目前的位置。
+3. 在地圖中，點選 **地圖置中** 圖示 ![地圖置中圖示](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)，將地圖置中於目前的位置。
 
    ![地圖的螢幕擷取畫面，其中顯示目前阿拉巴馬州位置的置中地圖。](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
 
@@ -87,7 +87,7 @@ ms.locfileid: "91668543"
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Windows 10 行動裝置應用程式中的磚
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 1. 開啟 [Power BI for Windows 10 行動裝置應用程式中的儀表板](mobile-apps-view-dashboard.md)。
 2. 點選磚上的垂直省略符號。 從這裡您可以： 
@@ -111,14 +111,14 @@ ms.locfileid: "91668543"
    
    *在此橫條圖中，[裝飾項目] 列的值會顯示在圖表上方。*
    
-   無需導覽列或功能列，點選**全螢幕**圖示 ![全螢幕圖示](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)，即可在全螢幕模式中開啟磚。
+   請點選 **切換至簡報模式** 圖示 ![切換至簡報圖示的影像。](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) 以在簡報模式中開啟磚，而不需要導覽列和功能表列。
    
    > [!NOTE]
-   > 您也可以在 Power BI for Windows 10 行動裝置應用程式中，[以全螢幕模式檢視儀表板和報表](mobile-windows-10-app-presentation-mode.md)。
+   > 您也可以在 Power BI for Windows 10 行動裝置應用程式中，[以簡報模式檢視儀表板和報表](mobile-windows-10-app-presentation-mode.md)。
    > 
    > 
    
-   在地圖中，點選**地圖置中**圖示 ![地圖置中圖示](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)，將地圖置中於目前的位置。
+   在地圖中，點選 **地圖置中** 圖示 ![地圖置中圖示](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)，將地圖置中於目前的位置。
    
    ![地圖的螢幕擷取畫面，其中顯示目前肯塔基州位置的置中地圖。](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    

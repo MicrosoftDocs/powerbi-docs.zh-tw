@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e9bffc860baa424caef05bad3ac423932868c410
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 59fc2d4be1336d9476c86e4204eeb23564ebe64e
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374330"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681136"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>以不同工作區的資料集為基礎建立報表
 
@@ -29,7 +29,7 @@ ms.locfileid: "91374330"
 
 ![選取資料集](media/service-datasets-across-workspaces/power-bi-select-dataset.png)
 
-您注意到第一個標示為**已升級**。 我們會在本文稍後的[尋找已認可的資料集](#find-an-endorsed-dataset)中討論。
+您注意到第一個標示為 **已升級** 。 我們會在本文稍後的[尋找已認可的資料集](#find-an-endorsed-dataset)中討論。
 
 您在此清單中看到的資料集，至少符合下列條件之一：
 
@@ -50,14 +50,14 @@ ms.locfileid: "91374330"
 
 ## <a name="find-an-endorsed-dataset"></a>尋找已認可的資料集
 
-有兩種不同的已認可資料集。 資料集擁有者可以「升級」他們向您建議的資料集。 此外，Power BI 系統管理員可指定您組織中可「認證」資料集供大家使用的專家。 升級及認證的資料集都會顯示「徽章」，當您尋找資料集以及在工作區的資料集清單中，都會看到它們。 在資料集探索體驗期間，在工具提示中會顯示認證資料集的人員名稱；將滑鼠停留在 [認證] 標籤上即可看到它。
+有兩種不同的已簽署資料集。 資料集擁有者可以「升級」他們向您建議的資料集。 此外，Power BI 系統管理員可指定您組織中可「認證」資料集供大家使用的專家。 升級及認證的資料集都會顯示「徽章」，當您尋找資料集以及在工作區的資料集清單中，都會看到它們。 在資料集探索體驗期間，在工具提示中會顯示認證資料集的人員名稱；將滑鼠停留在 [認證] 標籤上即可看到它。
 
 - 在 Power BI 服務中：[取得資料] > [已發佈資料集]。
 - 在 Power BI Desktop 中：[取得資料] > [Power BI 資料集]。
 
     在 [選取資料集] 對話方塊中，根據預設，已認可的資料集位在清單頂端。 
 
-    ![升級的資料集](media/service-datasets-certify-promote/power-bi-dataset-promoted.png)
+    ![升級的資料集](media/service-datasets-discover-across-workspaces/power-bi-dataset-promoted.png)
 
 ## <a name="next-steps"></a>後續步驟
 

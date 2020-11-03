@@ -7,24 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 10/21/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8d13cc7a24486fada7f8d428ba52abeaa49d2518
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: fc93ae0f54bfe4f72ec18687829e9eb78dfaedd7
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160918"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349360"
 ---
 # <a name="use-customer-managed-keys-in-power-bi"></a>在 Power BI 中使用客戶管理的金鑰
 
 Power BI 會加密「待用」與「處理中」的資料。 根據預設，Power BI 會使用 Microsoft 管理的金鑰來為您加密資料。 組織可以選擇使用自己的金鑰，加密使用者在 Power BI 間待用的內容，從報表影像到 Premium 容量中的匯入資料集。 
 
 ## <a name="why-use-customer-managed-keys"></a>為什麼要使用客戶管理的金鑰
-使用 Power BI 客戶管理的金鑰 (CMK)，組織可以達到雲端服務提供者 (在此案例中為 Microsoft) 加密待用資料的合規性需求。 CMK 可讓組織使用其提供及管理的金鑰，加密其 Power BI 使用者的內容。 撤銷客戶管理的金鑰，會讓所有人在一小時內無法讀取 Power BI 中的使用者內容，包括 Microsoft。 相較於 BYOK 供應項目，CMK 也涵蓋 Power BI Premium 容量以外的使用者內容，施行更嚴格的快取原則，而且預設啟用所有容量的 BYOK。 
- 
+
+使用 Power BI 客戶管理的金鑰 (CMK)，組織可以達到雲端服務提供者 (在此案例中為 Microsoft) 加密待用資料的合規性需求。 CMK 僅提供給新的 Power BI Premium 客戶，且可讓組織使用其提供及管理的金鑰來加密其 Power BI 使用者內容。 撤銷客戶管理的金鑰，會讓所有人在一小時內無法讀取 Power BI 中的使用者內容，包括 Microsoft。 相較於 BYOK 供應項目，除了匯入至 Premium 容量所裝載報表和資料集的客戶資料之外，CMK 也涵蓋由服務產生的使用者內容，其會實施更嚴格的快取原則，且只能套用單一金鑰來加密所有資料。
+
+
 ## <a name="how-to-use-customer-managed-keys"></a>如何使用客戶管理的金鑰
-若選擇使用 Power BI 客戶管理的金鑰，您的組織必須符合大小要求。 組織的全域管理員必須向 Microsoft 提交支援要求，或者可以連絡組織的 Microsoft 帳戶管理員，以深入了解相關流程。  
+若要選擇使用 Power BI 客戶自控金鑰，則組織必須連絡組織的 Microsoft 帳戶管理員，以驗證組織是否符合啟用 CMK 所需的特定大小需求。  
 
 
 ## <a name="next-steps"></a>後續步驟

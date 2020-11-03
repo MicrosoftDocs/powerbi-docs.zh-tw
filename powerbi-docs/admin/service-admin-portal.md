@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 464fdce94b41c3dc413088da6395520fea32c601
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600258"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462619"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -130,7 +130,7 @@ ms.locfileid: "91600258"
 
 您可以在 Office 365 安全性與合規性中心管理 Power BI 稽核記錄。 [稽核記錄] 索引標籤會提供安全性與合規性中心的連結。 若要深入了解，請參閱[追蹤 Power BI 中的使用者活動](service-admin-auditing.md)。
 
-若要使用稽核記錄，請確定已啟用[**建立內部活動稽核以及合規性的稽核記錄**](#create-audit-logs-for-internal-activity-auditing-and-compliance)設定。
+若要使用稽核記錄，請確定已啟用 [**建立內部活動稽核以及合規性的稽核記錄**](#create-audit-logs-for-internal-activity-auditing-and-compliance)設定。
 
 ## <a name="tenant-settings"></a>租用戶設定
 
@@ -139,26 +139,24 @@ ms.locfileid: "91600258"
 > [!NOTE]
 > 控制 Power BI 使用者介面中功能可用性的租用戶設定，有助於建立治理原則，但其並非安全措施。 例如，[匯出資料] 設定不會限制 Power BI 使用者對資料集的權限。 具有資料集讀取權限的 Power BI 使用者即有權查詢此資料集，而且不必使用 Power BI 使用者介面中的 [匯出資料] 功能就能保存結果。
 
-下圖顯示 [租用戶設定] 索引標籤的數個設定。
-
-![租用戶設定](media/service-admin-portal/powerbi-admin-tenant-settings-2.png)
+下列各節將詳細說明 [租用戶設定] 索引標籤上的設定。
 
 > [!NOTE]
 > 設定變更最多可能需要 15 分鐘，才會套用到組織中的所有使用者。
 
-設定可具有下列三種狀態的其中一種：
+許多設定可具有下列三種狀態的其中一種：
 
-* **已為整個組織停用**：組織中沒有人可以使用這項功能。
+* **已為整個組織停用** ：組織中沒有人可以使用這項功能。
 
     ![已停用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **已為整個組織啟用**：組織中每個人都可以使用這項功能。
+* **已為整個組織啟用** ：組織中每個人都可以使用這項功能。
 
     ![已啟用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **已為組織子集合啟用**：貴組織中的特定安全性群組可以使用這項功能。
+* **已為組織子集合啟用** ：貴組織中的特定安全性群組可以使用這項功能。
 
-    您也可以為整個組織啟用功能，但**特定安全性群組除外**。
+    您也可以為整個組織啟用功能，但 **特定安全性群組除外** 。
 
     ![已啟用子集合設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
@@ -168,6 +166,12 @@ ms.locfileid: "91600258"
 
 下面幾節將提供不同類型的租用戶設定概觀。
 
+## <a name="tenant-wide-new-look-settings"></a>全租用戶的新外觀設定
+
+停用 [新外觀] 選項時，此組織中使用者可開啟和關閉 Power BI 的新外觀。 當啟用 [新外觀] 選項時，此組織中「所有」使用者始終都會看到 Power BI 新外觀的新式控制項。 其再也無法關閉新外觀。 [新外觀] 選項預設為啟用。
+
+:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="管理入口網站中停用 [新外觀] 選項的螢幕擷取畫面。":::
+
 ## <a name="help-and-support-settings"></a>說明及支援設定
 
 ### <a name="publish-get-help-information"></a>發佈「取得說明」資訊
@@ -176,13 +180,13 @@ ms.locfileid: "91600258"
 
 管理員可以指定內部 URL，以覆寫 Power BI [說明] 功能表上的連結目的地，以及進行授權升級。 如果設定了自訂 URL，組織中的使用者就會移至內部說明和支援資源，而非預設目的地。 您可以自訂下列資源目的地：
 
-* **Learn**。 根據預設，此說明功能表連結會以[所有 Power BI 學習路徑和模組的清單](/learn/browse/?products=power-bi)為目標。 若要改為將此連結導向至內部訓練資源，請設定 [訓練文件] 的自訂 URL。
+* **Learn** 。 根據預設，此說明功能表連結會以[所有 Power BI 學習路徑和模組的清單](/learn/browse/?products=power-bi)為目標。 若要改為將此連結導向至內部訓練資源，請設定 [訓練文件] 的自訂 URL。
 
-* **社群**。 若要讓使用者從 [說明] 功能表前往內部論壇，而不是 [Power BI 社群](https://community.powerbi.com/) \(英文\)，請設定 [討論論壇] 的自訂 URL。
+* **社群** 。 若要讓使用者從 [說明] 功能表前往內部論壇，而不是 [Power BI 社群](https://community.powerbi.com/) \(英文\)，請設定 [討論論壇] 的自訂 URL。
 
-* **授權升級**。 具有 Power BI (免費) 授權的使用者在使用服務時，可能有機會將帳戶升級為 Power BI Pro。 如果您針對 [授權要求] 指定內部 URL，即可將使用者重新導向至內部要求並購買流程，以防止自助式購買。 如果您想要防止使用者購買授權，但要讓使用者開始試用 Power BI Pro，請參閱[允許使用者試用 Power BI Pro](#allow-users-to-try-power-bi-pro) 以區隔購買和試用體驗。
+* **授權升級** 。 具有 Power BI (免費) 授權的使用者在使用服務時，可能有機會將帳戶升級為 Power BI Pro。 如果您針對 [授權要求] 指定內部 URL，即可將使用者重新導向至內部要求並購買流程，以防止自助式購買。 如果您想要防止使用者購買授權，但要讓使用者開始試用 Power BI Pro，請參閱[允許使用者試用 Power BI Pro](#allow-users-to-try-power-bi-pro) 以區隔購買和試用體驗。
 
-* **取得說明**。 若要讓使用者從 [說明] 功能表前往內部技術支援中心，而不是 [Power BI 支援](https://powerbi.microsoft.com/support/)，請設定 [支援人員] 的自訂 URL。
+* **取得說明** 。 若要讓使用者從 [說明] 功能表前往內部技術支援中心，而不是 [Power BI 支援](https://powerbi.microsoft.com/support/)，請設定 [支援人員] 的自訂 URL。
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收服務中斷或事件的電子郵件通知
 
@@ -237,7 +241,7 @@ ms.locfileid: "91600258"
 
 系統管理員可以控制組織中的哪些使用者能夠跨工作區使用資料集。 啟用此設定時，使用者仍然需要特定資料集的必要建置權限。
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="建立新的工作區體驗":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="跨工作區使用資料集":::
 
 如需詳細資訊，請參閱[跨工作區的資料集簡介](../connect-data/service-datasets-across-workspaces.md)。
 
@@ -293,7 +297,7 @@ ms.locfileid: "91600258"
 |---------|---------|---------|---------|
 |報表 [更多選項 (...)] 功能表下的 [發行至 Web]|針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
 |[設定] 下的 [管理內嵌程式碼]|針對全部啟用|針對全部啟用|針對全部啟用<br><br>[刪除]*  選項僅適用於經授權的使用者或群組。<br>針對全部啟用 [取得驗證碼]* 。|
-|系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示為**受到侵害**。|
+|系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示為 **受到侵害** 。|
 |現有的已發佈報告|全部已啟用|全部已停用|報告會繼續針對全部項目呈現。|
 
 ### <a name="export-data"></a>匯出資料
@@ -403,7 +407,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 在 [租用戶設定] 下，[允許連線至精選資料表] 設定可讓 Power BI 系統管理員控制組織中哪些人員可使用 Excel 資料類型資源庫中的精選資料表。 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="建立新的工作區體驗":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="精選資料表的所有連線":::
 
 如果 [匯出資料] 設定設為 [停用]，則也會停用對精選資料表的連線。
 
@@ -492,13 +496,13 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ### <a name="install-template-apps-listed-on-appsource"></a>安裝列於 AppSource 的範本應用程式
 
-組織中的使用者**只能**從 [AppSource](https://appsource.microsoft.com) 下載並安裝範本應用程式。 控制哪些特定使用者或安全性群組可以從 AppSource 安裝範本應用程式。
+組織中的使用者 **只能** 從 [AppSource](https://appsource.microsoft.com) 下載並安裝範本應用程式。 控制哪些特定使用者或安全性群組可以從 AppSource 安裝範本應用程式。
 
 ![安裝範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>安裝未列於 AppSource 的範本應用程式
 
-控制組織中的哪些使用者可以下載並安裝**未列於 [AppSource](https://appsource.microsoft.com)** 的範本應用程式。
+控制組織中的哪些使用者可以下載並安裝 **未列於 [AppSource](https://appsource.microsoft.com)** 的範本應用程式。
 
 ![安裝未列於 AppSource 設定的範本應用程式](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
@@ -506,7 +510,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-[Power BI Premium] 索引標籤可讓您管理已為您的組織購買的任何 Power BI Premium 容量 (EM 或 P SKU)。 組織內的所有使用者都可以看到 [Power BI Premium] 索引標籤，但如果他們被指派為*容量系統管理員*或具有指派權限的使用者，則只會看到其中的內容。 如果使用者沒有任何權限，系統會顯示下列訊息。
+[Power BI Premium] 索引標籤可讓您管理已為您的組織購買的任何 Power BI Premium 容量 (EM 或 P SKU)。 組織內的所有使用者都可以看到 [Power BI Premium] 索引標籤，但如果他們被指派為 *容量系統管理員* 或具有指派權限的使用者，則只會看到其中的內容。 如果使用者沒有任何權限，系統會顯示下列訊息。
 
 ![沒有 Premium 設定的存取權](media/service-admin-portal/premium-settings-no-access.png)
 
@@ -550,7 +554,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 管理員也可以控制使用者建立新工作區體驗工作區，以及傳統工作區的能力。 如需詳細資訊，請參閱此文章中的[工作區設定](#workspace-settings)。 
 
-[工作區] 索引標籤上的資料表資料行會對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup**，傳統工作區的類型為 **Group**，新工作區體驗工作區的類型為 **Workspace**。 如需詳細資訊，請參閱[在新的工作區中組織工作](../collaborate-share/service-new-workspaces.md)。
+[工作區] 索引標籤上的資料表資料行會對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup** ，傳統工作區的類型為 **Group** ，新工作區體驗工作區的類型為 **Workspace** 。 如需詳細資訊，請參閱[在新的工作區中組織工作](../collaborate-share/service-new-workspaces.md)。
 
 在 [工作區] 索引標籤上，您會看到每個工作區的「狀態」。 下表提供有關這些狀態意義的更多詳細資料。
 
@@ -571,11 +575,11 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ![[自訂商標] 選項](media/service-admin-portal/power-bi-custom-branding.png)
 
-* **上傳標誌**：為取得最佳結果，請上傳儲存為 .png、10 KB 或更小，且至少為 200 x 30 像素的標誌。
+* **上傳標誌** ：為取得最佳結果，請上傳儲存為 .png、10 KB 或更小，且至少為 200 x 30 像素的標誌。
 
-* **上傳封面影像**：為取得最佳結果，請上傳儲存為 .jpg 或 .png、1 MB 或更小，且至少為 1920 x 160 像素的封面影像。
+* **上傳封面影像** ：為取得最佳結果，請上傳儲存為 .jpg 或 .png、1 MB 或更小，且至少為 1920 x 160 像素的封面影像。
 
-* **選取佈景主題色彩**：您可以根據十六進位 #、RGB、值或從提供的調色盤中選取您的佈景主題。
+* **選取佈景主題色彩** ：您可以根據十六進位 #、RGB、值或從提供的調色盤中選取您的佈景主題。
 
 
 如需詳細資訊，請參閱[為貴組織自訂商標](https://aka.ms/orgBranding)。

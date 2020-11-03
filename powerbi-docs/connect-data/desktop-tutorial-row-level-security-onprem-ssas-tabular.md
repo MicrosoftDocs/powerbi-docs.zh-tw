@@ -1,6 +1,6 @@
 ---
 title: 動態資料列層級安全性與 Analysis Services 表格式模型
-description: 動態資料列層級安全性與 Analysis Services 表格式模型
+description: 動態資料列層級安全性與內部部署 Analysis Services 表格式模型
 author: davidiseminger
 ms.reviewer: davidi
 editor: davidi
@@ -10,21 +10,21 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878302"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349590"
 ---
-# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>在 Analysis Services 表格式模型中實作資料列層級安全性
+# <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>在內部部署 Analysis Services 表格式模型中實作資料列層級安全性
 
-本教學課程使用範例資料集進行以下步驟，為您示範如何在「Analysis Services 表格式模型」  中實作[**資料列層級安全性**](../admin/service-admin-rls.md)，並將其用於 Power BI 報表。
+本教學課程使用範例資料集進行以下步驟，以示範如何在內部部署「Analysis Services 表格式模型」中實作 [**資料列層級安全性**](../admin/service-admin-rls.md)，並將其用於 Power BI 報表。
 
 * 在 [AdventureworksDW2012 資料庫](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)中建立新的安全性資料表
 * 使用所需的事實和維度資料表建立表格式模型
 * 定義使用者角色和權限
-* 將模型部署到 *Analysis Services 表格式*執行個體
+* 將模型部署到 *Analysis Services 表格式* 執行個體
 * 建置 Power BI Desktop 報表，以顯示為存取報表之使用者量身訂做的資料
 * 將報表部署至 *Power BI 服務*
 * 根據報表建立新的儀表板
@@ -119,7 +119,7 @@ ms.locfileid: "87878302"
 
 1. 啟動 Power BI Desktop 並選取 [取得資料]   > [資料庫]  。
 
-1. 從資料來源清單中，選取 **SQL Server Analysis Services 資料庫**，然後選取 [連線]  。
+1. 從資料來源清單中，選取 **SQL Server Analysis Services 資料庫** ，然後選取 [連線]  。
 
    ![連線至 SQL Server Analysis Services 資料庫](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
 
@@ -135,7 +135,7 @@ ms.locfileid: "87878302"
 
 1. 在 [欄位]  窗格上，選取 [FactInternetSales]  資料表的 [SalesAmount]  量值，以及 [SalesTerritory]  資料表的 [SalesTerritoryRegion]  維度。
 
-1. 為了將這份報表保持簡潔，我們現在不會新增任何其他的欄位。 為了讓資料以更能表達意義的方式呈現，請將視覺效果變更為**環圈圖**。
+1. 為了將這份報表保持簡潔，我們現在不會新增任何其他的欄位。 為了讓資料以更能表達意義的方式呈現，請將視覺效果變更為 **環圈圖** 。
 
    ![環圈圖視覺效果](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 

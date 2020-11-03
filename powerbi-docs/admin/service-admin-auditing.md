@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857695"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680997"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -136,7 +136,7 @@ $activities[0]
 
 Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog)取得。 此外，也有 Power BI 管理入口網站的連結：
 
-1. 在 Power BI 中，選取右上角的**齒輪圖示**，然後選取 [管理入口網站]。
+1. 在 Power BI 中，選取右上角的 **齒輪圖示** ，然後選取 [管理入口網站]。
 
    ![齒輪下拉式功能表已標示 [管理入口網站] 選項的螢幕擷取畫面。](media/service-admin-auditing/powerbi-admin.png)
 
@@ -310,6 +310,7 @@ Remove-PSSession $Session
 | 無法移除資料流程權限             | FailedToRemoveDataflowPermissions           | 目前未使用                       |
 | 已產生 Power BI 資料流程 SAS 權杖             | GenerateDataflowSasToken                    |                                          |
 | 已產生 Power BI 內嵌權杖                    | GenerateEmbedToken                          |                                          |
+| 產生螢幕擷取畫面                       | GenerateScreenshot |                     |
 | 已將檔案匯入 Power BI                         | 匯入                                      |                                          |
 | 已安裝 Power BI 應用程式                            | InstallApp                                  |                                          |
 | 已將工作區移轉至容量                  | MigrateWorkspaceIntoCapacity                |                                          |

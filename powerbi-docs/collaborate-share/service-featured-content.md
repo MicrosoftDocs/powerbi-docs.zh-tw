@@ -6,19 +6,21 @@ ms.reviewer: nikhilga
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 03/16/2020
+ms.date: 10/14/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374928"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462436"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>為同事的 Power BI [首頁] 頁面添加精選內容
 
-您可以將儀表板、報表以及應用程式列為精選，使其出現在同事 Power BI [首頁] 頁面的 [精選] 區段中。 添加精選內容對於讓新進員工熟悉 Power BI 而言特別有幫助。 您可以決定要讓新進員工先看到哪些內容。 您可以新增描述和小型的縮圖影像，以協助使用者尋找所需的內容。 內容必須位於新的工作區中。
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)]
+
+您可以將儀表板、報表以及應用程式列為精選，使其出現在同事 Power BI [首頁] 頁面的 [精選] 區段中。 添加精選內容對於讓新進員工熟悉 Power BI 而言特別有幫助。 您會決定要讓新進員工先看到哪些內容。 請新增描述和小型的縮圖影像，以協助使用者尋找所需的內容。 內容必須位於新的工作區中。
 
 :::image type="content" source="media/service-featured-content/power-bi-featured-home.png" alt-text="[首頁] 上的 Power BI 精選內容":::
 
@@ -30,21 +32,21 @@ ms.locfileid: "91374928"
 
 ## <a name="who-sees-featured-content"></a>誰會看到精選的內容
 
-如果您是從工作區精選儀表板或報表，則在該工作區中具有檢視者角色 (以上) 的人員才能看到精選內容。 如果您是從應用程式精選儀表板或報表，或精選應用程式本身，則擁有該應用程式的人員才能看到精選內容。
+您可從工作區精選儀表板或報表。 當這麼做時，該工作區中至少具有檢視人員角色的人員才能看到精選內容。 您也可以從應用程式或應用程式本身來精選儀表板或報表。 在此情況下，應用程式散發目標的人員才能看到精選內容。
 
 ## <a name="feature-a-dashboard-or-report"></a>精選儀表板或報表
 
 精選儀表板或報表的步驟很類似。
 
-1. 在工作區的 [儀表板] 或 [報表] 清單中，選取**設定**圖示。
+1. 在工作區的 [儀表板] 或 [報表] 清單中，選取 **設定** 圖示。
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="[首頁] 上的 Power BI 精選內容":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="報表設定圖示":::
 
 2. 在 [設定] 窗格中，檢查或變更名稱。 如果需要，請新增 [描述] 並上傳 [快照]。 描述與快照有助使用者找到您的內容。
 
 3. 選取 [精選]。
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="[首頁] 上的 Power BI 精選內容":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="精選內容設定":::
 
 4. 選取 [儲存]。
 

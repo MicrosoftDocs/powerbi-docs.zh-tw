@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 10/06/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: aa8277a8d0ddea43aff356ced32c9edad8710c93
-ms.sourcegitcommit: a4e06e401abc67dffab52f34e268467def42a97e
+ms.openlocfilehash: e6ab41b7a9330ff1c99bb0dcc963608485cc3f94
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "86875041"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830588"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 
@@ -27,13 +27,13 @@ ms.locfileid: "86875041"
 
 電子郵件和快照集將使用 Power BI 設定中設定的語言 (請參閱 [Power BI 支援的語言與國家/地區](../fundamentals/supported-languages-countries-regions.md))。 如果未定義任何語言，Power BI 就會使用英文遞補。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](./media/end-user-subscribe/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。 
 
-![[語言] 下拉式清單](./media/end-user-subscribe/power-bi-language.png)
+![[語言] 下拉式清單](./media/end-user-subscribe/power-bi-languages.png)
 
 當您收到電子郵件時，其中會包含「前往報表或儀表板」的連結。 在安裝 Power BI 應用程式的行動裝置上，選取此連結會啟動應用程式 (而不是在 Power BI 網站上開啟報表或儀表板的預設動作)。
 
 
 ## <a name="requirements"></a>需求
-為您自己**建立**訂用帳戶需要特定類型的[授權](end-user-license.md)。 如果您無法建立訂用帳戶，請連絡您的 Power BI 系統管理員。 只有儀表板擁有者或報表擁有者可以**訂閱其他內容**。 訂閱編頁報表則略有不同。 如需詳細資訊，請參閱[為您自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)。 
+為您自己 **建立** 訂用帳戶需要特定類型的 [授權](end-user-license.md)。 如果您無法建立訂用帳戶，請連絡您的 Power BI 系統管理員或 IT 技術支援中心。 只有儀表板擁有者或報表擁有者可以 **訂閱其他內容** 。 訂閱編頁報表則略有不同。 如需詳細資訊，請參閱[為您自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)。 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>訂閱儀表板或報表頁面
 不論您是要訂閱儀表板或報表，程序都很相似。 同樣的按鈕可讓您訂閱 Power BI 服務的儀表板與報表。
@@ -41,7 +41,8 @@ ms.locfileid: "86875041"
 ![選取訂閱圖示](./media/end-user-subscribe/power-bi-subscribe.png).
 
 1. 開啟儀表板或報表。
-2. 從頂端功能表列，選取 [訂閱] 或選取信封圖示 ![訂閱圖示](./media/end-user-subscribe/power-bi-icon-envelope.png)。
+2. 從頂端功能表列，選取 [訂閱] 或選取信封圖示 ![訂閱圖示](./media/end-user-subscribe/power-bi-icon-envelope.png)。    
+1. 選取 [新增訂用帳戶]。
    
 
 
@@ -65,7 +66,7 @@ ms.locfileid: "86875041"
 
 3. 如果一切看起來都沒有問題，請選取 [儲存並關閉] 來儲存訂用帳戶。 您會按照所設定的排程，收到儀表板或報表的電子郵件和快照集。 所有已將頻率設定為 [在資料重新整理後] 的訂用帳戶，只會在那一天第一次排程重新整理之後傳送一封電子郵件。
    
-   ![儀表板的電子郵件快照集](media/end-user-subscribe/power-bi-email-old.png)
+   ![儀表板的電子郵件快照集](media/end-user-subscribe/power-bi-subscription-email.png)
    
     重新整理報表頁面不會重新整理資料集。 只有資料集擁有者可以手動重新整理資料集。 若要查看底層資料集的擁有者名稱，請從功能表列選取下拉式清單，或查看原始訂閱電子郵件。
    
@@ -73,7 +74,7 @@ ms.locfileid: "86875041"
 
 
 ## <a name="manage-your-subscriptions"></a>管理您的訂閱
-只有您可以管理您建立的訂閱。 再次選取 [訂閱]，然後選擇左下角的 [管理所有訂用帳戶] (請參閱上方的螢幕擷取畫面)。 顯示的特定訂用帳戶會取決於哪一個工作區目前為使用中。 若要一次查看所有工作區的所有訂閱，請務必讓 [我的工作區] 為使用中。 如需了解工作區，請參閱 [Power BI 中的工作區](end-user-workspaces.md)。 
+只有您可以管理您建立的訂閱。 再次選取 [訂閱]，然後選擇左下角的 [管理所有訂用帳戶] (請參閱上方的螢幕擷取畫面)。 目前工作區顯示的訂用帳戶。 如需了解工作區，請參閱 [Power BI 中的工作區](end-user-workspaces.md)。 
 
 ![查看 [我的工作區] 中的所有訂閱](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
@@ -86,14 +87,13 @@ ms.locfileid: "86875041"
 * 如果您電子郵件中的 (內容) 連結停止運作，可能是內容已遭刪除。 在電子郵件的螢幕擷取畫面下方，您可以查看是否自我訂閱，或否有其他人訂閱您。 如果有其他人訂閱您，請要求同事取消電子郵件或重新訂閱您。
 * 針對儀表板訂閱，尚不支援某些磚類型。 其中包括：資料流磚、影片磚、自訂 Web 內容磚。 
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，而該頁面已重新命名，您就必須重新建立訂閱。
-* 如果您無法使用訂用帳戶功能，請連絡您的系統管理員。 您的組織可能已停用這項功能。  
+* 如果您無法使用訂用帳戶功能，請連絡您的系統管理員或 IT 技術支援人員。 您的組織可能已停用這項功能。  
 * 電子郵件訂閱不支援大部分[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md)。  其中例外狀況是[經認證](../developer/visuals/power-bi-custom-visuals-certified.md)的 Power BI 自訂視覺效果。    
 * 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。 編頁報表支援此功能，且可讓您針對每個訂閱設定特定參數值。  
 * 電子郵件訂閱目前不支援使用 R 的 Power BI 視覺效果。  
-* 尤其是儀表板訂閱，尚不支援某些類型的磚。  其中包括：資料流磚、影片磚、自訂 Web 內容磚。     
 * 由於電子郵件大小限制，儀表板或報表若含有非常大的影像，訂閱可能會失敗。    
 * 如果超過兩個月未瀏覽某些儀表板和報表，Power BI 會自動暫停重新整理與這些儀表板和報表建立關聯的資料集。  不過，如果您新增儀表板或報表的訂閱，即使有段時間未瀏覽也不會暫停。
-* 請記住，如同其他 BI 產品，您為訂閱所設定時間就是訂閱開始處理的時間。  報表處理完成之後，訂閱會排入佇列並傳送給電子郵件收件者。  雖然我們致力於儘快處理和提供所有訂閱，但有些時候可能會有尖峰需求，可能會因為一次可傳送的訂閱數目而看到較長的延遲。  對大部分的客戶而言，其在處理和傳送其報表時不應該看到超過 15 分鐘時間的延遲，不過在特定時間以及具有大量使用量的租用戶，可能需要最多 30 分鐘的時間。  我們從不預期在排程訂閱之後，於傳遞上的延遲超過 60 分鐘。  如果有任何客戶遇到該時間長度的延遲，則其應先確認 no-reply-powerbi@microsoft.com 地址位於您的安全寄件者清單中，而且未遭到電子郵件提供者封鎖。  如果電子郵件並未遭到封鎖，客戶就應該連絡 Power BI 支援人員尋求協助。
+* 請記住，如同其他 BI 產品，您為訂閱所設定時間就是訂閱開始處理的時間。  報表處理完成之後，訂閱會排入佇列並傳送給電子郵件收件者。  雖然我們致力於儘快處理和提供所有訂閱，但有些時候可能會有尖峰需求，可能會因為一次可傳送的訂閱數目而看到較長的延遲。  對大部分的客戶而言，其在處理和傳送其報表時不應該看到超過 15 分鐘時間的延遲，不過在特定時間以及具有大量使用量的租用戶，可能需要最多 30 分鐘的時間。  我們從不預期在排程訂閱之後，於傳遞上的延遲超過 60 分鐘。  如果有任何客戶遇到該時間長度的延遲，則其應先確認 no-reply-powerbi@microsoft.com 地址位於您的安全寄件者清單中，而且未遭到電子郵件提供者封鎖。  如果電子郵件並未遭到封鎖，客戶就應該連絡其 Power BI 系統管理員或 IT 技術支援人員以尋求協助。
 
 ## <a name="next-steps"></a>後續步驟
 

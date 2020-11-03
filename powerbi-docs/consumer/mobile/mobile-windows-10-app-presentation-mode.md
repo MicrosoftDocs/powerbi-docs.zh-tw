@@ -1,6 +1,6 @@
 ---
 title: 在 Surface Hub 和 Windows 10 上檢視簡報模式 - Power BI
-description: 閱讀在 Surface Hub 上顯示 Power BI 報表，以及在 Windows 10 裝置上以全螢幕模式顯示 Power BI 儀表板、報表和磚。
+description: 閱讀如何在 Surface Hub 上顯示 Power BI 報表，以及如何在 Windows 10 裝置上以簡報模式顯示 Power BI 儀表板、報表和磚的資訊。
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: a982374bbf713d4e0c970da601fdca3249120cbe
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025925"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683303"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
 您可以在 Windows 10 裝置和 Surface Hub 中，使用簡報模式以全螢幕顯示報表和儀表板。 簡報模式非常適合用來在會議中、在辦公室的專用投影機上顯示 Power BI，或甚至只是充分利用小螢幕上的空間。
 
-![以全螢幕模式顯示的報表](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
+![簡報模式中報表的螢幕擷取畫面。](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 在簡報模式中：
 * 所有「組件區塊」(例如導覽和功能表列) 都會消失，讓您更容易專注於報表中的資料。
@@ -29,7 +29,7 @@ ms.locfileid: "92025925"
 >**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="use-presentation-mode"></a>使用簡報模式
-在 Power BI 行動裝置應用程式中，點選 **全螢幕** 圖示，進入全螢幕模式。
+在 Power BI 行動裝置應用程式中，點選 **切換至簡報模式** 圖示。
 ![全螢幕圖示](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) 應用程式組件區塊消失，而動作工具列會出現在螢幕底部或左右兩側 (取決於您的螢幕大小)。
 
 [![全螢幕模式中的報表與側邊工具列](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar.png)](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar-expanded.png#lightbox)

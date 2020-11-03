@@ -7,17 +7,45 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/24/2020
+ms.date: 10/21/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: dee055f53302ef6e7884463b8e0feb113aa9bd5a
-ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
+ms.openlocfilehash: 0166e7a452c01f7b9dbec294d8087fcd035cb586
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91224202"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349429"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>使用私人連結存取 Power BI
+
+Azure 網路提供兩個安全性功能：Azure 私人連結和私人端點，其可讓 Power BI 提供安全存取。 使用 Azure 私人連結和私人端點時，會使用 Microsoft 的骨幹網路基礎結構私下傳送資料流量，因此資料不會周遊網際網路。 
+
+私人連結可確保 Power BI 使用者在進入 Power BI 服務的資源時，使用 Microsoft 私人網路骨幹。
+
+您可深入了解 [Azure 私人連結](https://azure.microsoft.com/services/private-link/)。
+
+## <a name="understanding-private-links"></a>了解私人連結
+
+私人連結可保證「進入」組織 Power BI 成品 (例如報表或工作區) 的流量，一律會遵循組織設定的私人連結網路路徑。 Power BI 成品其使用者流量必須來自已建立的私用連結，且您可設定 Power BI 以拒絕所有不是來自所設定網路路徑的要求。 
+
+私人連結「不」保證從 Power BI 到外部資料來源 (不論是在雲端還是內部部署) 的流量都受到保護。 相反地，您必須設定防火牆規則和虛擬網路，以進一步保護資料來源。 
+
+### <a name="power-bi-and-private-links-integration"></a>Power BI 和私人連結整合
+
+適用於 Power BI 的 Azure 私人端點是一種網路介面，可讓您私下且安全地連線到 Azure Private Link 所支援的 Power BI 服務。   
+
+私人端點整合可讓您從客戶的虛擬和內部部署網路私下部署和存取平台即服務 (PaaS) 服務，而該服務仍在客戶網路外部執行。 私人端點是單一方向的技術，可讓用戶端起始與指定服務的連線，但不允許服務起始連線到客戶網路。 由於服務可獨立於客戶網路原則設定運作，因此這個私人端點整合模式提供管理隔離。 針對多租用戶服務，此私人端點模型會提供連結識別碼，以防止存取裝載於相同服務內的其他客戶資源。 使用私人端點時，只能使用整合以從服務存取一組有限的其他 PaaS 服務資源。  
+
+Power BI 服務會實作私人端點，而不是服務端點。  
+
+搭配 Power BI 使用私人連結可提供下列優點：
+
+1. 私人連結可確保流量會透過 Azure 骨幹傳送至 Azure 雲端式資源的私人端點。 
+
+2. 網路流量與非 Azure 架構基礎結構 (例如內部部署存取) 的隔離，將會要求客戶設定 ExpressRoute 或虛擬私人網路 (VPN)。  
+
+## <a name="using-secure-private-links-to-access-power-bi"></a>使用安全的私人連結來存取 Power BI
 
 在 Power BI 中，您可設定並使用端點，讓組織能夠私下存取 Power BI。 若要設定私人連結，您必須是 Power BI 系統管理員，且在 Azure 中具有建立和設定資源 (例如虛擬機器 (VM) 與虛擬網路 (V-Net)) 的權限。 
 
@@ -149,7 +177,7 @@ ms.locfileid: "91224202"
     |-------------------|---------|
     |**專案詳細資料**||
     |訂用帳戶 | 選取您的 Azure 訂用帳戶 |
-    |資源群組 |   選取在前一節中建立的 **myResourceGroup**。 |
+    |資源群組 |   選取在前一節中建立的 **myResourceGroup** 。 |
     |**執行個體詳細資料** ||
     |名稱 | 輸入 **myVm** |
     |區域 | 選取 [美國中部] |
@@ -194,7 +222,7 @@ ms.locfileid: "91224202"
     |-------------------|---------|
     |**專案詳細資料** ||
     |訂用帳戶|  選取您的 Azure 訂用帳戶|
-    |資源群組|    選取 **myResourceGroup**。 您已在上一區段中建立此項|
+    |資源群組|    選取 **myResourceGroup** 。 您已在上一區段中建立此項|
     |**執行個體詳細資料** ||
     |名稱|  輸入 myPrivateEndpoint。 如果此名稱已被使用，請建立唯一名稱|
     |區域|    選取 [美國中部]|
@@ -236,7 +264,7 @@ ms.locfileid: "91224202"
 
 ## <a name="connect-to-a-vm-using-remote-desktop-rdp"></a>使用遠端桌面 (RDP) 連線到 VM
 
-當完成建立虛擬機器 (**myVM**) 時，請透過下列步驟從網際網路與其連線：
+當完成建立虛擬機器 ( **myVM** ) 時，請透過下列步驟從網際網路與其連線：
 
 1. 在入口網站的搜尋列中，輸入 myVm。
 2. 選取 [連線]  按鈕。 選取 [連線] 按鈕之後，隨即會開啟 [連線至虛擬機器]。
@@ -270,7 +298,7 @@ ms.locfileid: "91224202"
 
 最後，您必須停用 Power BI 的公用存取。 
 
-以系統管理員身分登入 app.powerbi.com，然後巡覽至 **管理入口網站**。 選取 [租用戶設定]，並捲動至 [進階網路] 區段。 啟用 [封鎖公用網際網路存取] 區段中的切換按鈕，如下圖所示。 系統需要大約 15 分鐘時間，才能停用組織從公用網際網路來存取 Power BI。
+以系統管理員身分登入 app.powerbi.com，然後巡覽至 **管理入口網站** 。 選取 [租用戶設定]，並捲動至 [進階網路] 區段。 啟用 [封鎖公用網際網路存取] 區段中的切換按鈕，如下圖所示。 系統需要大約 15 分鐘時間，才能停用組織從公用網際網路來存取 Power BI。
 
 大功告成，在完成這些步驟之後，您組織的 Power BI 便只能從私人連結存取，而無法從公用網際網路存取。 
 

@@ -8,22 +8,26 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748463"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501941"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 視覺效果 API 變更記錄
 此頁面包含 API 版本的快速摘要。 此處所列的版本會視為穩定，且不會變更。
+
+
+## <a name="api-v340"></a>API v3.4.0
+  * `fetchMoreData`：新的 `aggregateSegments` 參數 (預設為 true)，用於支援無彙總 fetchMoreData
 
 ## <a name="api-v320"></a>API v3.2.0
   * 支援 **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)**
 
 ## <a name="api-v260"></a>API v2.6.0
   * 加入 **isInFocus** 以更新選項，並將 **switchFocusModeState** 方法加入至視覺效果主機
-  * 支援**小計**自訂
+  * 支援 **小計** 自訂
 
 ## <a name="api-v250"></a>API v2.5.0
   * 支援[分析窗格](./analytics-pane.md)
@@ -62,13 +66,13 @@ ms.locfileid: "91748463"
 * `proto` 屬性不會再將隱藏的 metadata\data 儲存在 dataView 內。 透過 `proto` 存取屬性的視覺效果，可能因此更新而中斷。
 
 ## <a name="api-v1130"></a>API v1.13.0
-* 支援 **[同步處理交叉分析篩選器](./enable-sync-slicers.md)** ，請注意，由於 PBI 目前程式碼狀態，這僅適用於單一欄位交叉分析篩選器，[深入了解](../../visuals/power-bi-visualization-slicers.md)。
+* 支援 **[同步處理交叉分析篩選器](./enable-sync-slicers.md)** ，請注意，由於 PBI 目前程式碼狀態，這僅適用於單一欄位交叉分析篩選器， [深入了解](../../visuals/power-bi-visualization-slicers.md)。
 * 協助工具：[高對比支援](./high-contrast-support.md) 
 * 協助工具：允許鍵盤焦點旗標
 
 ## <a name="api-v1120"></a>API v1.12.0
 * 支援佈景主題
-* 支援 **[fetchMoreData](./fetch-more-data.md)** ，請注意，**擷取更多資料 API** 克服了 30K 個資料點的硬限制
+* 支援 **[fetchMoreData](./fetch-more-data.md)** ，請注意， **擷取更多資料 API** 克服了 30K 個資料點的硬限制
 * **[畫布工具提示 API](./add-tooltips.md#add-report-page-tooltips)**
 
 ## <a name="api-v1110"></a>API v1.11.0
@@ -84,7 +88,7 @@ ms.locfileid: "91748463"
 
 ## <a name="api-v180"></a>API v1.8.0
 * 支援功能結構描述中的新類型 **fillRule** (漸層)
-* 支援物件屬性之功能結構描述中的**規則**屬性
+* 支援物件屬性之功能結構描述中的 **規則** 屬性
 
 ## <a name="api-v170"></a>API v1.7.0
 * 支援 **[RESJSON](./localization.md#resource-file)**
@@ -103,8 +107,8 @@ ms.locfileid: "91748463"
 * 支援 **[工具提示](./add-tooltips.md)**
 
 ## <a name="api-v120"></a>API 1.2.0 版
-* 新增 **colorPalette**，以管理您視覺效果上所使用的色彩。
-* 支援**多重選取項目** - selectionManager 可以接受 `SelectionId` 的陣列。
+* 新增 **colorPalette** ，以管理您視覺效果上所使用的色彩。
+* 支援 **多重選取項目** - selectionManager 可以接受 `SelectionId` 的陣列。
 * 支援使用 R 指令碼的 **[R 視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)**
 
 ## <a name="api-v110"></a>API 1.1.0 版
@@ -116,9 +120,9 @@ ms.locfileid: "91748463"
 * 支援 API 1.2.0 版的 Alpha 版本
 
 **視覺效果主機**
-* 新增 **createSelectionIdBuilder**，以建立用於資料選擇的唯一識別碼
+* 新增 **createSelectionIdBuilder** ，以建立用於資料選擇的唯一識別碼
 * 新增 **createSelectionManager** 來管理視覺效果的選取狀態，並將變更傳達給視覺效果主機
-* 新增用於視覺效果中的預設**色彩**陣列
+* 新增用於視覺效果中的預設 **色彩** 陣列
 
 ## <a name="api-v100"></a>API 1.0.0 版
 * 初始 API 版本

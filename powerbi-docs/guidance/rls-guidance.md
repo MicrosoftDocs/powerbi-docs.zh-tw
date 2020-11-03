@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 60bb1ef7421d4ebcedd49d2e973cf245edec0381
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 644e4499a335f18febadf33c371bd15e01499701
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965039"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349613"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的資料列層級安全性 (RLS) 指導方針
 
@@ -47,7 +47,7 @@ FALSE()
 TRUE()
 ```
 
-請注意：當報表使用者對應至這兩個角色時，他們將能看見所有 **Salary** 資料表資料列。
+請注意：當報表使用者對應至這兩個角色時，其將能看見所有 **Payroll** 資料表資料列。
 
 ## <a name="optimize-rls"></a>將 RLS 最佳化
 
@@ -169,7 +169,7 @@ DIVIDE(
 
 - **改善查詢效能：** 其可能會因為較少的篩選而導致效能提升。
 - **較小的模型：** 雖然其會產生更多的模型，但模型的大小會比較小。 較小的模型可以改善查詢和資料重新整理回應能力，特別是在裝載容量遇到資源壓力的情況下。 此外，將模型大小保持在容量所加諸的大小限制之下，也是件比較輕鬆的工作。 最後，在不同的容量上平衡工作負載會較為輕鬆，因為您可以在不同的容量上建立工作區，或是將工作區移至不同的容量上。
-- **其他功能：** 可以使用無法搭配 RLS 運作的 Power BI 功能，例如[發行至 Web](../collaborate-share/service-publish-to-web.md)。
+- **其他功能：** 可以使用無法搭配 RLS 運作的 Power BI 功能，例如 [發行至 Web](../collaborate-share/service-publish-to-web.md)。
 
 不過，避免使用 RLS 有幾個相關聯的缺點：
 

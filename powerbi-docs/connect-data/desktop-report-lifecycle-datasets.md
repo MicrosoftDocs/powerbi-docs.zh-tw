@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 5701e94991f64d1f05a867da189c814dd1484370
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598785"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680447"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 
@@ -79,7 +79,7 @@ Anna 可以從該處選擇報表和資料集要發佈的工作區目的地。 �
 
 ![發佈已成功](media/desktop-report-lifecycle-datasets/report-lifecycle_07.png)
 
-現在您包含其資料集的報表已在 Power BI 服務中，您也可以「宣傳」  它。 證明其品質和可靠性。 您甚至可以要求它通過您 Power BI 租用戶中中央授權單位的「認證」  。 透過這些保證，您的資料集便一律會在其他人尋找資料集時，出現在清單頂端。 如需詳細資訊，請參閱[宣傳您的資料集](service-datasets-promote.md)。
+現在您包含其資料集的報表已在 Power BI 服務中，您也可以「宣傳」  它。 證明其品質和可靠性。 您甚至可以要求它通過您 Power BI 租用戶中中央授權單位的「認證」  。 透過這些保證，您的資料集便一律會在其他人尋找資料集時，出現在清單頂端。 如需詳細資訊，請參閱[認可內容](../collaborate-share/service-endorse-content.md)。
 
 最後一個步驟是為作為報表基礎的資料集設定「建置」權限。 建置權限會決定誰可以看見及使用您的資料集。 您可以在工作區本身中設定它，或是在您從工作區共用應用程式時設定它。 如需詳細資訊，請參閱[共用資料集的建置權限](service-datasets-build-permissions.md)。
 
@@ -91,7 +91,7 @@ Anna 可以從該處選擇報表和資料集要發佈的工作區目的地。 �
 
 如果您尚未登入，Power BI 會提示您登入。 登入之後，Power BI 會顯示您所隸屬的工作區。 您可以選取哪個工作區包含您要建立 Power BI 服務即時連線所在的資料集。
 
-清單中資料集是您在任何工作區中具備「建置」權限的所有共用資料集。 您可以搜尋特定資料集並查看其名稱、擁有者、所在的工作區，以及最後重新整理的時間。 在清單的頂端，也會為經過認證或升階的資料集顯示**簽署**。
+清單中資料集是您在任何工作區中具備「建置」權限的所有共用資料集。 您可以搜尋特定資料集並查看其名稱、擁有者、所在的工作區，以及最後重新整理的時間。 在清單的頂端，也會為經過認證或升階的資料集顯示 **簽署** 。
 
 ![可用資料集的清單](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 
