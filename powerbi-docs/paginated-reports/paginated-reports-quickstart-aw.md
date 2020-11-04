@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: baccdcae82fb56b2f7f7a9d6cb4839e941e99bf0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853969"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297535"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立分頁報表並將它上傳至 Power BI 服務
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 在此教學課程中，您將會連線到範例 Azure SQL Database。 接著會使用 Power BI 報表產生器中的精靈來建立分頁報表，其中包含要自動分成多頁的資料表。 隨後會在 Power BI 服務中，將編頁報表上傳至 Premium 容量中的工作區。
 
@@ -30,15 +32,15 @@ ms.locfileid: "90853969"
 > * 將貨幣格式化。
 > * 將報表上傳至 Power BI 服務。
 
-如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
+如果您沒有 Azure 訂用帳戶，請在開始前建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)。
  
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>Prerequisites  
 
 以下是建立編頁報表的必要條件：
 
-- [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)。 
+- 從 Microsoft 下載中心安裝 [Power BI 報表產生器](https://aka.ms/pbireportbuilder)。 
 
-- 遵循快速入門：[在 Azure 入口網站中建立 Azure SQL Database 範例](/azure/sql-database/sql-database-get-started-portal)。 複製並儲存 [概觀]  索引標籤上 [伺服器名稱]  方塊中的值。請記住您在 Azure 中建立的使用者名稱和密碼。
+- 遵循快速入門：[在 Azure 入口網站中建立 Azure SQL Database 範例](/azure/sql-database/sql-database-get-started-portal)。 複製並儲存 [概觀] 索引標籤上 [伺服器名稱] 方塊中的值。請記住您在 Azure 中建立的使用者名稱和密碼。
 
 以下是將編頁報表上傳至 Power BI 服務的必要條件：
 
@@ -49,61 +51,61 @@ ms.locfileid: "90853969"
   
 1.  從您的電腦啟動 Power BI 報表產生器。  
   
-     [開始使用]  對話方塊隨即開啟。  
+     **[使用者入門]** 對話方塊隨即開啟。  
   
      ![報表產生器中的開始使用](media/paginated-reports-create-embedded-dataset/power-bi-paginated-get-started.png)
   
-1.  在左窗格中，確認已選取 [新增報表]  ，然後在右窗格中，選取 [資料表或矩陣精靈]  。  
+1.  在左窗格中，確認已選取 [新增報表]，然後在右窗格中，選取 [資料表或矩陣精靈]。  
   
-4.  在 [選擇資料集]  頁面中，選取 [建立資料集]   > [下一步]  。  
+4.  在 [選擇資料集] 頁面中，選取 [建立資料集] > [下一步]。  
 
     ![建立資料集](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
-5.  在 [選擇與資料來源的連接]  頁面中，選取 [新增]  。 
+5.  在 [選擇與資料來源的連接] 頁面中，選取 [新增]。 
 
     ![新增資料來源](media/paginated-reports-quickstart-aw/power-bi-paginated-new-data-source-connection.png)
   
-     [資料來源屬性]  對話方塊隨即開啟。  
+     **[資料來源屬性]** 對話方塊隨即開啟。  
   
-6.  您可以使用字元和底線，以您想要的任何項目來為資料來源命名。 針對此教學課程，在 [名稱]  方塊中，輸入 **MyAzureDataSource**。  
+6.  您可以使用字元和底線，以您想要的任何項目來為資料來源命名。 針對此教學課程，在 [名稱] 方塊中，輸入 **MyAzureDataSource** 。  
   
-7.  在 [選取連線類型]  方塊中，選取 [Microsoft Azure SQL Database]  。  
+7.  在 [選取連線類型] 方塊中，選取 [Microsoft Azure SQL Database]。  
   
-8.  選取 [連接字串]  方塊旁的 [建置]  。 
+8.  選取 [連接字串] 方塊旁的 [建置]。 
 
     ![資料來源屬性 - 建置](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-build.png)
 
-9. **在 Azure 中：** 返回 Azure 入口網站，然後選取 [SQL 資料庫]  。
+9. **在 Azure 中：** 返回 Azure 入口網站，然後選取 [SQL 資料庫]。
 
-1. 選取您在此文章的**必要條件**一節中，於快速入門＜在 Azure 入口網站中建立 Azure SQL Database 範例＞中建立的 Azure SQL Database。
+1. 選取您在此文章的 **必要條件** 一節中，於快速入門＜在 Azure 入口網站中建立 Azure SQL Database 範例＞中建立的 Azure SQL Database。
 
-1. 在 [概觀]  索引標籤上，複製 [伺服器名稱]  方塊中的值。
+1. 在 [概觀] 索引標籤上，複製 [伺服器名稱] 方塊中的值。
 
-2. **在報表產生器中**：在 [連接屬性]  對話方塊中的 [伺服器名稱]  下方，貼上您複製的伺服器名稱。 
+2. **在報表產生器中：** ：在 [連接屬性] 對話方塊中的 [伺服器名稱] 下方，貼上您複製的伺服器名稱。 
 
-1. 針對 [登入伺服器]  ，確定已選取 [使用 SQL Server 驗證]  ，然後針對範例資料庫輸入您在 Azure 中建立的使用者名稱和密碼。
+1. 針對 [登入伺服器]，確定已選取 [使用 SQL Server 驗證]，然後針對範例資料庫輸入您在 Azure 中建立的使用者名稱和密碼。
 
-1. 在 [連接到資料庫]  下方，選取下拉式箭號，然後選取您在 Azure 中建立的資料庫名稱。
+1. 在 [連接到資料庫] 下方，選取下拉式箭號，然後選取您在 Azure 中建立的資料庫名稱。
  
     ![資料來源連接屬性](media/paginated-reports-quickstart-aw/power-bi-paginated-connection-properties.png)
 
-1. 選取 [測試連接]  。 您會看到**測試結果**訊息，指出**測試連接成功**。
+1. 選取 [測試連線]。 您會看到 **測試結果** 訊息，指出 **測試連接成功** 。
 
-1. 選取 [確定]   > [確定]  。 
+1. 選取 [確定] > [確定]。 
 
-   現在，報表產生器會在 [連接字串]  方塊中顯示您剛建立的連接字串。 
+   現在，報表產生器會在 [連接字串] 方塊中顯示您剛建立的連接字串。 
 
     ![資料來源連接字串](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-connection-string.png)
 
-1. 選取 [確定]  。
+1. 選取 [確定]。
   
-9. 在 [選擇與資料來源的連接]  頁面中，您會在剛建立的資料來源連接下方看到「(在此報表中)」。 選取該資料來源 > [下一步]  。  
+9. 在 [選擇與資料來源的連接] 頁面中，您會在剛建立的資料來源連接下方看到「(在此報表中)」。 選取該資料來源 > [下一步]。  
 
     ![我的 Azure 資料來源](media/paginated-reports-quickstart-aw/power-bi-paginated-my-azure-data-source.png)
 
 10. 在方塊中輸入相同的使用者名稱和密碼。 
   
-10. 在 [設計查詢]  頁面中，依序展開 SalesLT 和資料表，然後選取這些資料表：
+10. 在 [設計查詢] 頁面中，依序展開 SalesLT 和資料表，然後選取這些資料表：
 
     - 位址
     - 客戶
@@ -112,39 +114,39 @@ ms.locfileid: "90853969"
     - SalesOrderDetail
     - SalesOrderHeader
 
-     由於已選取 [關聯性]   > [自動偵測]  ，因此，報表產生器會偵測這些資料表之間的關聯性。 
+     由於已選取 [關聯性] > [自動偵測]，因此，報表產生器會偵測這些資料表之間的關聯性。 
     
     ![設計查詢](media/paginated-reports-quickstart-aw/power-bi-paginated-design-query.png)
  
-1.  選取 [執行查詢]  。 報表產生器會顯示 [查詢結果]  。 
+1.  選取 [執行查詢]。 報表產生器會顯示 [查詢結果]。 
  
      ![查詢結果](media/paginated-reports-quickstart-aw/power-bi-paginated-query-results.png)
 
-18. 選取 [下一步]  。 
+18. 選取 [下一步]。 
 
-19. 在 [選擇資料集]  頁面中，選擇您剛建立的資料集 > [下一步]  。
+19. 在 [選擇資料集] 頁面中，選擇您剛建立的資料集 > [下一步]。
 
     ![選擇資料集](media/paginated-reports-quickstart-aw/power-bi-paginated-choose-dataset.png)
 
-1. 在 [排列欄位]  頁面中，將這些欄位從 [可用的欄位]  方塊拖曳至 [資料列群組]  方塊：
+1. 在 [排列欄位] 頁面中，將這些欄位從 [可用的欄位] 方塊拖曳至 [資料列群組] 方塊：
 
     - CompanyName
     - SalesOrderNumber
     - Product_Name
 
-1. 將這些欄位從 [可用的欄位]  方塊拖曳至 [值]  方塊：
+1. 將這些欄位從 [可用的欄位] 方塊拖曳至 [值] 方塊：
 
     - OrderQty
     - UnitPrice
     - LineTotal
 
-    報表產生器會自動加總 [值]  方塊中的欄位。
+    報表產生器會自動加總 [值] 方塊中的欄位。
 
     ![排列欄位](media/paginated-reports-quickstart-aw/power-bi-paginated-drag-fields.png)
 
-24. 在 [選擇版面配置]  頁面中，保留所有預設設定，但清除 [展開或摺疊群組]  。 通常，展開或摺疊群組功能就很好用，但這次，您想要讓資料表自動分成多頁。
+24. 在 [選擇版面配置] 頁面中，保留所有預設設定，但清除 [展開或摺疊群組]。 通常，展開或摺疊群組功能就很好用，但這次，您想要讓資料表自動分成多頁。
 
-1. 選取 [下一步]   >  [完成]  。 資料表即會顯示於設計介面上。
+1. 選取 [下一步] >  [完成]。 資料表即會顯示於設計介面上。
  
 ## <a name="what-youve-created"></a>您所建立的內容
 
@@ -165,7 +167,7 @@ ms.locfileid: "90853969"
 5. 在 [群組] 窗格中，您可以看到您在精靈中建立的三個資料列群組： 
 
     - CompanyName
-    - 銷售單
+    - Sales Order
     - 產品名稱
 
     這個矩陣沒有任何資料行群組。
@@ -174,19 +176,19 @@ ms.locfileid: "90853969"
 
 若要查看實際的值，您需要執行報表。
 
-1. 在 [常用]  工具列中，選取 [執行]  。
+1. 在 [常用] 工具列中，選取 [執行]。
 
    您現在會看到值。 矩陣的資料列數目比您在 [設計] 檢視中所看到的更多！ 請注意，報表產生器顯示它是頁面 **1** 之 **2?** 。 報表產生器會儘速載入報表，因此它一次只會擷取足以分成數頁的資料。 問號表示報表產生器尚未載入所有資料。
 
    ![執行報表](media/paginated-reports-quickstart-aw/power-bi-paginated-run-report.png)
 
-2. 選取 [整頁模式]  。 當您列印報表時，其格式如下。 報表產生器現在知道報表有 33 頁，並已自動在頁尾新增日期和時間戳記。
+2. 選取 [整頁模式]。 當您列印報表時，其格式如下。 報表產生器現在知道報表有 33 頁，並已自動在頁尾新增日期和時間戳記。
 
 ## <a name="format-the-report"></a>將報表格式化
 
 現在您的報表含有會自動分成 33 頁的矩陣。 讓我們新增一些其他功能，並改善其外觀。 如果您想要查看報表的進展，可在每一個步驟之後執行該報表。
 
-- 在功能區的 [執行]  索引標籤上，選取 [設計]  ，讓您能夠繼續修改它。  
+- 在功能區的 [執行] 索引標籤上，選取 [設計]，讓您能夠繼續修改它。  
 
 ### <a name="set-page-width"></a>設定頁寬
 
@@ -194,19 +196,19 @@ ms.locfileid: "90853969"
 
 1. 拖曳尺規，使設計介面的寬度成為 7 英吋。 預設邊界是每一側 1 英吋，因此需要較窄的側邊界。
 
-1. 按一下設計介面周圍的灰色區域，以顯示 [報表]  屬性。
+1. 按一下設計介面周圍的灰色區域，以顯示 [報表] 屬性。
 
-    如果您看不到 [屬性] 窗格，請按一下 [檢視]  索引標籤 > [屬性]  。
+    如果您看不到 [屬性] 窗格，請按一下 [檢視] 索引標籤 > [屬性]。
 
-2. 展開 [邊界]  ，然後將 [左邊]  和 [右邊]  從 1in 變更為 0.75in。 
+2. 展開 [邊界]，然後將 [左邊] 和 [右邊] 從 1in 變更為 0.75in。 
 
     ![設定頁面邊界](media/paginated-reports-quickstart-aw/power-bi-paginated-set-margins.png)
   
-### <a name="add-a-report-title"></a>新增報表標題  
+### <a name="add-a-report-title"></a>加入報表標題  
 
-1. 選取頁面頂端的**按一下以新增標題**一詞，然後輸入**由公司銷售**。  
+1. 選取頁面頂端的 **按一下以新增標題** 一詞，然後輸入 **由公司銷售** 。  
 
-2. 選取標題文字，然後在 [字型]  下方的 [屬性] 窗格中，將 [色彩]  變更為 [藍色]  。
+2. 選取標題文字，然後在 [字型] 下方的 [屬性] 窗格中，將 [色彩] 變更為 [藍色]。
   
 ### <a name="add-a-page-number"></a>新增頁碼
 
@@ -214,15 +216,15 @@ ms.locfileid: "90853969"
 
 1. 在設計介面底部，您會在頁尾右邊看到 [&ExecutionTime]。 
 
-2. 在 [報表資料] 窗格中，展開 [內建欄位] 資料夾。 將 [頁碼]  拖曳到頁尾左邊，高度與 [&ExecutionTime] 相同。
+2. 在 [報表資料] 窗格中，展開 [內建欄位] 資料夾。 將 [頁碼] 拖曳到頁尾左邊，高度與 [&ExecutionTime] 相同。
 
 3. 拖曳 [&PageNumber] 方塊的右側，以使其成為正方形。
 
-4. 在 [插入]  索引標籤上，選取 [文字方塊]  。
+4. 在 [插入] 索引標籤上，選取 [文字方塊]。
 
 5. 按一下 [&PageNumber] 右邊、輸入「之」，然後使文字方塊成為正方形。
 
-6. 將 [整體總頁數]  拖曳至頁尾「之」的右邊，然後也要拖曳它的右側，以使其成為正方形。
+6. 將 [整體總頁數] 拖曳至頁尾「之」的右邊，然後也要拖曳它的右側，以使其成為正方形。
 
     ![拖曳頁碼](media/paginated-reports-quickstart-aw/power-bi-paginated-add-page-numbers.png)
 
@@ -248,7 +250,7 @@ ms.locfileid: "90853969"
 
     ![選取含貨幣值的資料格](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. 在 [常用]  索引標籤上，選取美元記號 ( **$** ) 的貨幣符號，然後選取 [預留位置樣式]  旁的箭號 > [範例值]  。
+2. 在 [常用] 索引標籤上，選取美元記號 ( **$** ) 的貨幣符號，然後選取 [預留位置樣式] 旁的箭號 > [範例值]。
  
     ![顯示範例值](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 
@@ -260,23 +262,23 @@ ms.locfileid: "90853969"
 
 將報表發佈至 Power BI 服務之前，還有一個要進行的格式化改進：在報表中的每一頁上顯示資料行標頭。
 
-1. 在 [群組] 窗格頂端列的最右側，選取下拉式箭號 > [進階模式]  。
+1. 在 [群組] 窗格頂端列的最右側，選取下拉式箭號 > [進階模式]。
 
     ![開啟進階模式](media/paginated-reports-quickstart-aw/power-bi-paginated-advanced-mode.png)
 
-2. 在 [資料列群組]  中，選取最上方的 [靜態]  列。 您會看到已選取矩陣中的 [公司名稱] 儲存格。
+2. 在 [資料列群組]中，選取最上方的 [靜態] 列。 您會看到已選取矩陣中的 [公司名稱] 儲存格。
 
    ![選取靜態群組](media/paginated-reports-quickstart-aw/power-bi-paginated-static-group.png)
 
-3. 在 [屬性]  窗格中，您正在查看 [Tablix 成員]  的屬性。 將 [KeepWithGroup]  設定為 [After]  ，並將 [RepeatOnNewPage]  設定為 [True]  。
+3. 在 [屬性] 窗格中，您正在查看 [Tablix 成員] 的屬性。 將 [KeepWithGroup] 設定為 [After]，並將 [RepeatOnNewPage] 設定為 [True]。
 
     ![設定 RepeatOnNewPage](media/paginated-reports-quickstart-aw/power-bi-paginated-repeat-on-new-page.png)
 
     現在執行報表，並立即查看其外觀。
 
-5. 在 [常用]  索引標籤上，選取 [執行]  。
+5. 在 [常用] 索引標籤上，選取 [執行]。
 
-6. 選取 [整頁模式]  (如果尚未選取)。 報表現在有 29 頁。 捲動數頁。 您會看到已將貨幣格式化、資料行在每頁均有標題，而且報表中每頁的頁尾都含有頁碼與日期和時間戳記。
+6. 選取 [整頁模式] (如果尚未選取)。 報表現在有 29 頁。 捲動數頁。 您會看到已將貨幣格式化、資料行在每頁均有標題，而且報表中每頁的頁尾都含有頁碼與日期和時間戳記。
  
     ![完成的頁面](media/paginated-reports-quickstart-aw/power-bi-paginated-finished-page.png)
 
@@ -286,39 +288,39 @@ ms.locfileid: "90853969"
 
 既然您已建立此編頁報表，現在就可將它上傳至 Power BI 服務。
 
-1. 在 Power BI 服務 (`https://app.powerbi.com`) 的導覽窗格中，選取 [工作區]   >  [建立工作區]  。
+1. 在 Power BI 服務 (`https://app.powerbi.com`) 的導覽窗格中，選取 [工作區]  >  [建立工作區]。
 
 2. 將工作區命名為 **Azure AW** 或其他唯一的名稱。 您現在是唯一的成員。 
 
-3. 選取 [進階]  旁的箭號，然後開啟 [專用容量]  。 
+3. 選取 [進階] 旁的箭號，然後開啟 [專用容量]。 
 
     ![在 Premium 容量中建立工作區](media/paginated-reports-quickstart-aw/power-bi-paginated-create-workspace-premium-capacity.png)
 
     如果您無法開啟它，就必須要求您的 Power BI 管理員為您提供權限，以將工作區新增至專用 Premium 容量。
 
-4. 視需要選擇 [選擇此工作區可用的專用容量]  > [儲存]  。
+4. 視需要選擇 [選擇此工作區可用的專用容量] > [儲存]。
     
     ![Premium 鑽石圖示](media/paginated-reports-quickstart-aw/power-bi-paginated-diamond-icon.png)
 
     如果工作區不在 Premium 容量中，則當您嘗試上傳報表時，就會看到「無法上傳編頁報表」的訊息。 請連絡您的 Power BI 管理員來移動工作區。
 
-1. 在新的工作區中，選取 [取得資料]  。
+1. 在新的工作區中，選取 [取得資料]。
 
-2. 在 [檔案]  方塊中 > [取得]  。
+2. 在 [檔案] 方塊中 > [取得]。
 
-3. 選取 [本機檔案]  ，瀏覽至您儲存檔案的位置 > [開啟]  。
+3. 選取 [本機檔案]，瀏覽至您儲存檔案的位置 > [開啟]。
 
-   Power BI 會匯入您的檔案，而您會在 [應用程式清單] 頁面上的 [報表]  下方看到該檔案。
+   Power BI 會匯入您的檔案，而您會在 [應用程式清單] 頁面上的 [報表] 下方看到該檔案。
 
     ![應用程式清單中的報表](media/paginated-reports-quickstart-aw/power-bi-paginated-app-list.png)
 
 4. 選取報表來檢視它。
 
-5. 如果您收到錯誤，則可能需要重新輸入認證。 選取 [管理]  圖示。
+5. 如果您收到錯誤，則可能需要重新輸入認證。 選取 [管理] 圖示。
 
     ![管理報表](media/paginated-reports-quickstart-aw/power-bi-paginated-manage-report.png)
 
-6. 選取 [編輯認證]  ，然後輸入當您建立 Azure 資料庫時在 Azure 中所使用的認證。
+6. 選取 [編輯認證]，然後輸入當您建立 Azure 資料庫時在 Azure 中所使用的認證。
 
     ![編輯報表認證](media/paginated-reports-quickstart-aw/power-bi-paginated-edit-credentials.png)
 
