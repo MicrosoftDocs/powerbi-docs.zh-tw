@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d2cd4e9f5d6cb8872e266fabacb9f8a5a3e318cb
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746577"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298008"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 分頁報表中的子報表
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 「子報表」  是分頁報表項目，其會在主要分頁報表的主體內顯示另一份分頁報表。 報表中子報表的概念類似於網頁中的框架。 用於在報表中內嵌報表。 任何報表皆可作為子報表使用。 您要將顯示為子報表的報表，儲存在與父報表相同的 Premium 工作區中。 您可以設計父報表來傳遞參數給子報表。 子報表可使用參數來篩選每一個子報表執行個體中的資料，以在資料區域內重複。  
   
@@ -33,7 +35,7 @@ Power BI Report Builder 可處理電腦上的分頁報表 (也稱為本機報表
 
 登入之後，即會在 Power BI Report Builder 的 [Power BI 服務]  選項中，看到 [檔案]  功能表的 [開啟]  和 [另存新檔]  選項。 當選取 [Power BI 服務]  選項儲存報表時，即會建立 Power BI Report Builder 和 Power BI 服務之間的即時連線。 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="登入 Power BI":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="從 Power BI 服務開啟":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>將本機報表儲存至 Power BI 服務
 
@@ -48,7 +50,7 @@ Power BI Report Builder 可處理電腦上的分頁報表 (也稱為本機報表
 
 3. 在 [另存新檔]  對話方塊中，選取可儲存分頁報表的 Power BI Premium 工作區。  Premium 工作區在名稱旁邊有一個鑽石圖示 ![Premium 鑽石圖示](media/subreports/report-builder-premium-diamond.png)。
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="登入 Power BI":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="另存新檔至 Power BI 服務":::
 
 4. 選取 [儲存]  。
 
@@ -58,7 +60,7 @@ Power BI Report Builder 可處理電腦上的分頁報表 (也稱為本機報表
 
 1. 在 [插入]  功能區中，選取 [子報表]  按鈕，或以滑鼠右鍵按一下報表畫布，然後選取 [插入]   > [子報表]  。
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="登入 Power BI":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="在報表中插入子報表":::
 
     [子報表屬性]  對話方塊隨即開啟。  
 

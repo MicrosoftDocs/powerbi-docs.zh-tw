@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: ''
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 5ed7f3a05be1e600fc67e5162b496309ce315f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41d59f12ad95430e13eb4d856bc1b7d321f7006f
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230971"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297333"
 ---
 # <a name="set-report-views-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中設定編頁報表的報表檢視
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 當在 Power BI 服務中轉譯編頁報表時，預設的檢視為 HTML 型檢視與互動式檢視。 另一種報表檢視則為新的 [頁面檢視] 選項，其適用於固定頁面格式 (如 PDF)。
 

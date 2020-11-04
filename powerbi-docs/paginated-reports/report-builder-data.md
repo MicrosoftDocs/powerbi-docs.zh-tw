@@ -9,14 +9,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 08/04/2020
-ms.openlocfilehash: fe6ca733a5498c0e576ec30e6992ffbf26d54319
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: 97b93f23c8070af1b514032cea122b257097d664
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837581"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297938"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 報表產生器中的報表資料
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 報表資料可以來自您組織中的多個資料來源。 您在設計報表時的第一個步驟，便是建立代表基礎報表資料的資料來源和資料集。 每個資料來源包含資料連接資訊。 每個資料集都包含查詢命令，定義要作為資料來源資料使用的欄位集。 若要視覺化每個資料集的資料，請新增資料區域 (例如資料表、矩陣、圖表或地圖)。 處理報表時，查詢會在資料來源上執行，且每個資料區會視需要展開，以顯示資料集的查詢結果。  
 
@@ -32,7 +34,7 @@ ms.locfileid: "87837581"
     > [!NOTE]
     > 資料來源連接字串不能以運算式為基礎。
   
-- **內嵌資料來源。** 也稱為 *「報表特定資料來源」*(report-specific data source)。 在報表中定義而且僅供該報表使用的資料來源。  
+- **內嵌資料來源。** 也稱為 *「報表特定資料來源」* (report-specific data source)。 在報表中定義而且僅供該報表使用的資料來源。  
   
 - **認證。** 認證是驗證資訊，您必須提供這項資訊才能存取外部資料。  
   

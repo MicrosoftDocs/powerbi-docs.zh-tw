@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 217c1b571c01068d64283df0b25b5e56bbc8b956
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600505"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297284"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>使用 Power BI 服務建立編頁報表的參數
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 您將在此文章中了解如何使用 Power BI 服務中立編頁報表的參數。  報表參數提供一個方式讓您選擇報表資料及改變報表呈現方式。 您可提供預設值和可用值的清單。 報表讀取者可變更選項， 也可以在參數文字方塊中輸入以搜尋值。 請參閱[檢視編頁報表的參數](../consumer/paginated-reports-view-parameters.md)，以查看商務使用者如何與 Power BI 服務中的參數互動。  
 
@@ -29,20 +31,20 @@ ms.locfileid: "91600505"
   
 3.  [參數] 窗格。 您可以在參數窗格中自訂參數的配置。 
   
-4.  @FromDate 和 @ToDate 參數的資料類型為 **DateTime**。 檢視報表時，您可以在文字方塊中輸入日期，或在日曆控制項中選擇日期。 
+4.  @FromDate 和 @ToDate 參數的資料類型為 **DateTime** 。 檢視報表時，您可以在文字方塊中輸入日期，或在日曆控制項中選擇日期。 
 
-5.  [資料集屬性]**** 對話方塊中的其中一個參數。  
+5.  [資料集屬性] 對話方塊中的其中一個參數。  
 
   
 ## <a name="create-or-edit-a-report-parameter"></a>建立或編輯報表參數  
   
 1.  在 Power BI 報表產生器中開啟您的分頁報表。
 
-1. 在 [報表資料]**** 窗格中，以滑鼠右鍵按一下 [參數]**** 節點 > [新增參數]****。 **[報表參數屬性]** 對話方塊隨即開啟。  
+1. 在 [報表資料] 窗格中，以滑鼠右鍵按一下 [參數] 節點 > [新增參數]。 **[報表參數屬性]** 對話方塊隨即開啟。  
   
-2.  在 [名稱]**** 中，輸入參數名稱或接受預設名稱。  
+2.  在 [名稱] 中，輸入參數名稱或接受預設名稱。  
   
-3.  在 [提示]**** 中，輸入當使用者執行報表時，要在參數文字方塊旁邊顯示的文字。  
+3.  在 [提示] 中，輸入當使用者執行報表時，要在參數文字方塊旁邊顯示的文字。  
   
 4.  在 **[資料類型]** 中，選取參數值的資料類型。  
   

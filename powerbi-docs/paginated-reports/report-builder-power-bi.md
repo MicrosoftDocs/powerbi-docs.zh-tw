@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216746"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297840"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 報表產生器
 
- Power BI 報表產生器是用於撰寫可以發佈到 Power BI 服務之分頁報表的工具。  當您設計分頁報表時，您將建立報表定義來指定要擷取的資料、何處取得資料及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您會在報表產生器中預覽報表。 然後將報表發佈至 Power BI 服務。
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Power BI 報表產生器是用於撰寫可以發佈到 Power BI 服務之分頁報表的工具。  當您設計分頁報表時，您將建立報表定義來指定要擷取的資料、何處取得資料及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您會在報表產生器中預覽報表。 然後將報表發佈至 Power BI 服務。
  
 準備好開始撰寫了嗎？ 從 Microsoft 下載中心[安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)。
 
@@ -42,19 +44,19 @@ ms.locfileid: "86216746"
   
 -   **修改現有的報表。** 藉由使用報表產生器，您可以自訂及更新在 SQL Server Data Tools (SSDT) 報表設計工具中建立的報表。  
   
--   **修改您的資料**。 篩選、分組及排序資料，或是新增公式或運算式。  
+-   **修改您的資料** 。 篩選、分組及排序資料，或是新增公式或運算式。  
 
--   **新增圖表、量測計、走勢圖和指標**。 以視覺格式摘要資料，一眼就能瀏覽大量彙總資訊。  
+-   **新增圖表、量測計、走勢圖和指標** 。 以視覺格式摘要資料，一眼就能瀏覽大量彙總資訊。  
   
--   **新增互動式功能**，例如文件引導模式、顯示/隱藏按鈕，以及子報表和鑽研報表的鑽研連結。 使用參數和篩選來篩選自訂檢視的資料。  
+-   **新增互動式功能** ，例如文件引導模式、顯示/隱藏按鈕，以及子報表和鑽研報表的鑽研連結。 使用參數和篩選來篩選自訂檢視的資料。  
   
--   **內嵌或參考影像**與其他資源，包括外部內容。  
+-   **內嵌或參考影像** 與其他資源，包括外部內容。  
   
 ##  <a name="manage-your-report"></a><a name="ManageRpt"></a> 管理報表  
   
--   **儲存報表的定義**至您的電腦或報表伺服器，以便您進行管理並與其他人共用。  
+-   **儲存報表的定義** 至您的電腦或報表伺服器，以便您進行管理並與其他人共用。  
   
--   當您開啟報表時，或在您開啟報表之後，**選擇呈現格式**。 您可以選取 Web 導向、頁面導向和傳統型應用程式格式。 格式包括 MHTML、PDF、XML、CSV、Word 和 Excel。  
+-   當您開啟報表時，或在您開啟報表之後， **選擇呈現格式** 。 您可以選取 Web 導向、頁面導向和傳統型應用程式格式。 格式包括 MHTML、PDF、XML、CSV、Word 和 Excel。  
   
 -   **設定訂閱。** 將報表發佈至 Power BI 服務之後，您可以設定報表在特定時間執行，並以電子郵件訂閱形式傳送。  
 

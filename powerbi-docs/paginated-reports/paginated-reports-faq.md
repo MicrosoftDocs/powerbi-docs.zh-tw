@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/19/2020
-ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257002"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297908"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 此文章將回答有關編頁報表的常見問題集。 這些報表均為已高度格式化且具完美像素的輸出，並已基於列印或產生 PDF 用途進行最佳化。 它們稱為「編頁」，因為已將它們格式化，使其可適當地符合多個頁面。 編頁報表會以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 
 
@@ -72,9 +74,9 @@ ms.locfileid: "92257002"
 
 適用於編頁報表之每個 Premium SKU 中的預設記憶體：
 
-- **P1/A4**：20% 預設值；10% 最小值
-- **P2/A5**：20% 預設值；5% 最小值
-- **P3/A6**：20% 預設值；2.5% 最小值
+- **P1/A4** ：20% 預設值；10% 最小值
+- **P2/A5** ：20% 預設值；5% 最小值
+- **P3/A6** ：20% 預設值；2.5% 最小值
 
 Power BI 管理員可在管理入口網站中修改預設的記憶體百分比上限。 請參閱 [容量設定] 索引標籤上 [Power BI Premium] 下方的 [編頁報表] 工作負載區段。
 
@@ -181,7 +183,7 @@ SaaS 內嵌 (包括安全內嵌支援) 已可供使用。 對於 PaaS 內嵌，�
 
 在 Power BI 服務中檢視編頁報表時，工作階段可能會逾時，並向使用者顯示下列通知：
 
-:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="[編頁報表容量設定] 索引標籤":::
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="編頁報表工作階段已過期通知":::
 
 - 工作階段將會在下列情況中逾時：停止活動 60 分鐘之後、在裝置已遭鎖定或處於非使用中狀態之前，或當報表未顯示於瀏覽器的使用中索引標籤內時。
 

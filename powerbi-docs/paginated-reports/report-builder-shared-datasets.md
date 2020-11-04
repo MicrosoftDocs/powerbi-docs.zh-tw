@@ -7,14 +7,16 @@ ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 44f1c1280e176d99ab909402a77804074e7d8cbd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216845"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298110"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>建立以 Power BI 共用資料集為基礎的編頁報表
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] 
 
 您可以使用您在 Power BI Desktop 中建立的資料集，作為 Power BI 報表產生器編頁報表的資料來源。 想像下列情節：您已在 Power BI Desktop 中建立 Power BI 報表。 您花了很多時間來設計資料模型，然後建立美觀的 Power BI 報表，其中包含各種絕佳的視覺效果。 報表具有包含多個資料列的矩陣，因此您必須捲動才能查看全部。 報表讀者想要一個他們可以列印出來的報表，以顯示該矩陣中的所有資料列。 Power BI 編頁報表可以執行此作業：將執行的資料表或矩陣列印到多個頁面，頁面中包含頁首和頁尾，以及您設計的完美頁面配置。 它可補充 Power BI Desktop 報表。 您希望它們以完全相同的資料為基礎，而不會產生不一致的情況，因此您可以使用相同的資料集。
 
@@ -99,7 +101,7 @@ ms.locfileid: "86216845"
 
 1. 在 [資料集屬性] 中為其命名，然後選取 [查詢設計工具]。
 
-4. 確定已選取 [DAX] 並取消選取**設計模式**圖示。
+4. 確定已選取 [DAX] 並取消選取 **設計模式** 圖示。
 
     ![報表產生器的 [查詢設計工具]](media/report-builder-shared-datasets/power-bi-report-builder-query-designer.png)
 

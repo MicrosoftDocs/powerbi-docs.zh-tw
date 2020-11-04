@@ -7,15 +7,15 @@ featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/25/2019
+ms.date: 10/28/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f98fb7a9d5a01c70eb8cef2a8d5befdbe919d796
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 72306a6269df91a75b750628e3534bf5891fe6b0
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219465"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916904"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>將影像、影片和其他項目新增至儀表板
 
@@ -191,7 +191,7 @@ ms.locfileid: "85219465"
    ![含有四個磚的儀表板](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ### <a name="tips-for-embedding-web-content"></a>內嵌 Web 內容的提示
-* 若為 Iframe，請使用安全的來源。 如果您輸入 Iframe 內嵌程式碼並取得空白磚，則請確認 Iframe 來源未使用 *http*。 如果使用的話，請將其變更為 *https*。
+* 若為 Iframe，請使用安全的來源。 如果您輸入 Iframe 內嵌程式碼並取得空白磚，則請確認 Iframe 來源未使用 *http* 。 如果使用的話，請將其變更為 *https* 。
   
   ```html
   <iframe src="https://xyz.com">
@@ -239,6 +239,7 @@ ms.locfileid: "85219465"
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 * 若想要更輕鬆地在儀表板上移動磚，請新增標題和選擇性的子標題。
 * 如果想要內嵌網站的內容，但網站未提供可供複製及貼上的內嵌程式碼，請參閱 embed.ly 以取得產生內嵌程式碼的協助。
+* 請確定不需要安全性認證以便存取影像檔。 例如，由於 OneDrive 和 SharePoint 需要驗證，因此儲存於該處的影像無法如此這般地新增至儀表板。  
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 設計工具的儀表板磚簡介](service-dashboard-tiles.md)

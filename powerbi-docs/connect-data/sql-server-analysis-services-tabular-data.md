@@ -4,18 +4,18 @@ description: Power BI 中的 SQL Server Analysis Services 即時資料。 這會
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-author: Minewiskan
-ms.author: owend
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
-ms.openlocfilehash: c88c0d56d24f12edf30c2c79ddebb13fa941695a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2c32ceb1db154cd7647402593051e4230c75c07f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238215"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916743"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI 中的 SQL Server Analysis Services 即時資料
 

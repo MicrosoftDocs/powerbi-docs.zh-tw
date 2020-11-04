@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: troubleshooting
 ms.date: 04/29/2020
-ms.openlocfilehash: 6a0e90036b759c409a9f5b3e994571c2a0eb510c
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 06d9b0fc60d9b44f98108cf46bc35c5de15316d6
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747497"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297997"
 ---
 # <a name="troubleshoot-subreports-in-power-bi-paginated-reports"></a>針對 Power BI 分頁報表中的子報表進行疑難排解
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 有時候在使用分頁報表的子報表時，您可能會得得非預期的結果，或功能不如預期。 本文提供子報表常見問題的解決方案。 「子報表」  是一個報表項目，其會在主分頁報表的主體內顯示另一份報表。 如需背景資料，請參閱 [Power BI 分頁報表的子報表](subreports.md)。
 

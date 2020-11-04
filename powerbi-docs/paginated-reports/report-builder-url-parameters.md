@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747474"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298047"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 編頁報表中的 URL 參數
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 您可以將參數新增至 URL，來將命令傳送至 Power BI 中的編頁報表。 例如，您可能使用了一組特定的報表參數值來檢視報表。 您可以使用預先定義的 URL 存取參數，來將這項資訊封裝在 URL 中。 您可以藉由內嵌參數來轉譯格式，或針對報表工具列的外觀及操作，進一步自訂 Power BI 處理報表的方式。 然後，您可以將此 URL 直接貼到電子郵件或網頁中，讓其他人在瀏覽器中以相同方式體驗您的報表。 
 
@@ -49,12 +51,12 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 
 **&** ：用來分隔 URL 存取參數的名稱/值對。
 
-**前置詞**：URL 參數的前置詞 (例如rp: 或 rdl)，可指定 Power BI 服務中的動作。 
+**前置詞** ：URL 參數的前置詞 (例如rp: 或 rdl)，可指定 Power BI 服務中的動作。 
 
 > [!NOTE]
 > 報表參數需要參數前置詞，且會區分大小寫。 
 
-**parameter**：參數名稱。 
+**parameter** ：參數名稱。 
 
 ### <a name="value"></a>value 
 
@@ -68,7 +70,7 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 
 ### <a name="report-commands-rdl"></a>報表命令 (`rdl:`) 
 
-**匯出格式**：指定用來轉譯和匯出報表的格式。
+**匯出格式** ：指定用來轉譯和匯出報表的格式。
 
 範例：rdl:format=PDF
 
@@ -84,14 +86,14 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 - ACCESSIBLEPDF (PDF)
 - XML 
 
-**報表檢視**：指定用來顯示報表的檢視類型。
+**報表檢視** ：指定用來顯示報表的檢視類型。
 
 -   rdl:reportView
 
     - 'interactive' (預設)：以互動模式載入報表。
     - 'pageView'：以頁面檢視模式載入報表。
 
-**參數面板**：指定當載入報表時，參數面板應該要關閉或開啟，或一起隱藏。
+**參數面板** ：指定當載入報表時，參數面板應該要關閉或開啟，或一起隱藏。
 
 -   rdl:parameterPanel
 
@@ -170,7 +172,7 @@ XML：
 - rdl:Encoding=string
 - rdl:Schema=true/false
 
-**在相同的瀏覽器視窗中開啟超連結**：您可以將 'rdl:targetSameWindow=true' 附加至報表中的超連結 URL，讓 Power BI 在相同的瀏覽器視窗中開啟此超連結。 如需將超連結新增至報表的詳細資訊，請參閱 SQL Server Reporting Services 文件中的[將超連結加入到 URL](/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)。
+**在相同的瀏覽器視窗中開啟超連結** ：您可以將 'rdl:targetSameWindow=true' 附加至報表中的超連結 URL，讓 Power BI 在相同的瀏覽器視窗中開啟此超連結。 如需將超連結新增至報表的詳細資訊，請參閱 SQL Server Reporting Services 文件中的[將超連結加入到 URL](/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)。
 
 ## <a name="next-steps"></a>後續步驟
 

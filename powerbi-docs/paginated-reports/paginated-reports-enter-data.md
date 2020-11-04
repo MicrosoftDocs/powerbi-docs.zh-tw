@@ -8,14 +8,16 @@ ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 07/10/2020
 ms.author: maggies
-ms.openlocfilehash: f362303a79acb3468d6523eb24383ca0f3d49609
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 05da5fa050fc92ebae320af9e07fe6505b5790f4
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264517"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297966"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>直接在報表產生器的編頁報表中輸入資料 - Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 在本文中，您將了解新版 Microsoft Power BI 報表產生器中的一項功能，此功能可供在 RDL 報表中直接輸入資料作為內嵌資料集。  此功能類似於 Power BI Desktop。 您可以在報表的資料集中直接鍵入資料，或從另一個應用程式 (例如 Microsoft Excel) 貼上資料。 藉由輸入資料來建立資料集之後，您可以如同已建立的任何其他內嵌資料集一樣加以使用。 此外，您可以新增多個資料表，並使用某個資料表作為其他資料表的篩選條件。 對於您可能需要在報表中使用的小型靜態資料集 (例如報表參數)，這項功能特別有用。
  

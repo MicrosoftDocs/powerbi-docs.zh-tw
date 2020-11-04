@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748164"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045132"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>將分頁報表匯出至檔案 (預覽)
 
@@ -117,7 +117,7 @@ ms.locfileid: "91748164"
       "format": "PDF",
       "paginatedReportConfiguration":{
             "identities": [
-                  {"username": "john@contoso.com"}            
+                  {"username": "john@contoso.com"}
             ]
       }
 }
@@ -153,13 +153,13 @@ private async Task<string> PostExportRequest(
             {"PageHeight", "14in"},
             {"PageWidth", "8.5in" },
             {"StartPage", "1"},
-            {"EndPage", "4"}
+            {"EndPage", "4"},
         },
         ParameterValues = new List<ParameterValue>()
         {
             { new ParameterValue() {Name = "State", Value = "WA"} },
-            { new ParameterValue() {Name = "City", Value = "Redmond"} }
-        }
+            { new ParameterValue() {Name = "City", Value = "Redmond"} },
+        },
     };
 
     var exportRequest = new ExportReportRequest
