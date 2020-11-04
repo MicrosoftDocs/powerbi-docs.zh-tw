@@ -85,6 +85,8 @@
           items:
             - name: Power BI 中的報表產生器
               href: ../paginated-reports/report-builder-power-bi.md
+            - name: 範例 Power BI 編頁報表
+              href: ../paginated-reports/paginated-reports-samples.md
             - name: 探索報表設計檢視
               href: ../paginated-reports/paginated-reports-report-design-view.md
             - name: 規劃報表

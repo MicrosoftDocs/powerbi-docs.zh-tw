@@ -15,4 +15,4 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/29/2020
 ms.locfileid: "91545292"
 ---
-<Token>**適用於︰** ![適用。](media/yes.png)適用於「商務使用者」的 Power BI 服務 ![不適用。](media/no.png)適用於設計師與開發人員的 Power BI 服務 ![不適用。](media/no.png)Power BI Desktop ![取決於授權。](media/maybe.png)需要 Pro 或 Premium 授權 </Token>
+<Token>**適用於︰** ![適用。](media/yes.png)適用於「商務使用者」的 Power BI 服務 ![不適用。](media/no.png)適用於設計師與開發人員的 Power BI 服務 ![不適用。](media/no.png)Power BI Desktop ![取決於授權。](media/maybe.png)需要 Pro 或 Premium 授權</Token>
