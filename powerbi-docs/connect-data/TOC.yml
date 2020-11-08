@@ -284,7 +284,7 @@
               href: service-gateway-personal-mode.md
             - name: 管理閘道資料來源
               items:
-                - name: 管理資料來源
+                - name: 新增或移除閘道資料來源
                   href: service-gateway-data-sources.md
                 - name: 管理您的企業資料來源 - Analysis Services
                   href: service-gateway-enterprise-manage-ssas.md
