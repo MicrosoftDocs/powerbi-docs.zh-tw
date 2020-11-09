@@ -11,12 +11,12 @@ ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 2b0bde7aa193af831a95fc53d461f874a3c1d1d1
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: c2a81e771e611380ef89ef15e097005d1a86e2da
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830363"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916973"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>「商務使用者」的授權和訂閱
 
@@ -42,7 +42,7 @@ ms.locfileid: "91830363"
 
 ## <a name="power-bi-premium-capacity"></a>Power BI Premium 容量
 
-Premium 是組織訂用帳戶，其提供不同儲存內容的方式 (儲存在專用容量中)。 無論是組織內部或外部使用者，只要具有 Premium 權限，則無須購買個人的 Power BI Pro 授權，即可檢視存放在 Premium 容量中的內容。 
+Premium 是組織所使用的訂用帳戶，可提供不同的方式來儲存內容 (儲存在容量中)。 無論是組織內部或外部使用者，只要具有 Premium 權限，則無須購買個人的 Power BI Pro 授權，即可檢視存放在 Premium 容量中的內容。 
 
 Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並不需要 Pro 授權。 內容設計師需要 Pro 授權。 設計師可以連線到資料來源、建立資料模型，然後建立封裝成工作區應用程式的報表與儀表板。 只要使用者獲指派 Power BI Premium 容量中[工作區的角色](end-user-workspaces.md)，即使沒有 Pro 授權仍然可加以存取。
 
@@ -95,11 +95,11 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 ![[應用程式] 畫面](media/end-user-license/power-bi-premium.png)
 
-如果您是具有免費授權的使用者，只要「設計師」將工作區置於 Premium 的專用容量中，您就能 **在該工作區內** 檢視共用的內容、與同事共同作業、使用應用程式儀表板與報表等。 您的權限範圍由您的 Power BI 系統管理員與內容設計師設定。
+如果您是具有免費授權的使用者，只要「設計師」將工作區置於 Premium 的容量中，您就能 **在該工作區內** 檢視共用的內容、與同事共同作業、使用應用程式儀表板與報表等。 您的權限範圍由您的 Power BI 系統管理員與內容設計師設定。
 
 ## <a name="putting-it-all-together"></a>總整理
 
-當組織購買 Premium 訂閱時，系統管理員通常會將 Pro 授權指派給會在 Premium 容量中建立及共用內容的員工。 Pro 使用者會建立[工作區](end-user-workspaces.md)，並將內容 (儀表板、報表、應用程式) 新增至那些工作區。 為讓免費使用者也能在這些工作區中共同作業，系統管理員或 Pro 使用者可以將工作區指派至「專用容量」。  
+當組織購買 Premium 訂閱時，系統管理員通常會將 Pro 授權指派給會在 Premium 容量中建立及共用內容的員工。 Pro 使用者會建立[工作區](end-user-workspaces.md)，並將內容 (儀表板、報表、應用程式) 新增至那些工作區。 為讓免費使用者也能在這些工作區中共同作業，系統管理員或 Pro 使用者可以將工作區指派至「容量」。  
 
 |授權類型  |共用容量 |專用的 Premium 容量  |
 |---------|---------|---------|
@@ -113,11 +113,11 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 - **工作區 A** 是建立在不具 Premium 容量的組織中。
 
-- **工作區 B** 是在擁有 Premium 訂用帳戶的組織中建立的。 該工作區儲存在專用容量中。 此工作區標示有鑽石圖示。  
+- **工作區 B** 是在擁有 Premium 訂用帳戶的組織中建立的。 該工作區儲存在容量中。 此工作區標示有鑽石圖示。  
 
     ![三個工作區的影像](media/end-user-license/power-bi-dedicated.jpg)
 
-Power BI Pro 的「設計師」可在這些工作區中的任一個工作區內，與其他 Pro 使用者共用及共同作業。 但 Power BI Pro 的使用者若要與免費使用者共用及共同作業，只能使用位於 Premium 專用容量中的「工作區 B」。  在該工作區內，設計師會為共同作業者指派角色。 您的角色會決定您可以在工作區內採取的動作。 Power BI「商務使用者」通常會獲指派「檢視人員」角色。 若要深入了解這些角色，請參閱 [Power BI 商務使用者的工作區](end-user-workspaces.md)。
+Power BI Pro 的「設計師」可在這些工作區中的任一個工作區內，與其他 Pro 使用者共用及共同作業。 但 Power BI Pro 的使用者若要與免費使用者共用及共同作業，只能使用位於 Premium 容量中的「工作區 B」。  在該工作區內，設計師會為共同作業者指派角色。 您的角色會決定您可以在工作區內採取的動作。 Power BI「商務使用者」通常會獲指派「檢視人員」角色。 若要深入了解這些角色，請參閱 [Power BI 商務使用者的工作區](end-user-workspaces.md)。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
