@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/24/2020
 ms.author: maggies
-ms.openlocfilehash: 73772b96929ffd91dc5a38634ab9a1a2e57286b1
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b41ca7c8a85a544afea84e7f19a06f91dc85f376
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251319"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045034"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的 Power BI 報表
 您可在 Power BI 報表伺服器入口網站儲存和管理內部部署 Power BI 報表，如同您可在 Power BI 服務 (https://powerbi.com) ) 中將 Power BI 報表儲存於雲端一樣。 在 Power BI Desktop 中建立和編輯報表，並將其發行至入口網站。 接著您組織的報表讀者就可在瀏覽器，或在行動裝置上的 Power BI 行動裝置應用程式中加以檢視。
@@ -44,9 +44,9 @@ ms.locfileid: "87251319"
 
 2. 在安裝結束時，請核取 [立即啟動 Power BI Desktop]  。
    
-    其會自動啟動，一切即就緒。 **Power BI Desktop (2020 年 5 月)** 出現在標題列中即表示版本正確。
+    其會自動啟動，一切即就緒。 **Power BI Desktop (2020 年 10 月)** 出現在標題列中即表示版本正確。
 
-    ![Power BI Desktop 2020 年 5 月](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
+    ![Power BI Desktop 2020 年 10 月](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
 
 3. 如果您不熟悉 Power BI Desktop，請考慮觀看歡迎畫面上的影片。
    
@@ -58,7 +58,7 @@ ms.locfileid: "87251319"
 1. 在歡迎畫面上，選取 [取得資料]  。
    
     或是在 [首頁]  索引標籤上，選取 [取得資料]  。
-2. 選取您的資料來源 -- 在此範例中為 **Analysis Services**。
+2. 選取您的資料來源 -- 在此範例中為 **Analysis Services** 。
    
     ![選取資料來源](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. 填寫 [伺服器]  ，並選擇性地填寫 [資料庫]  。 確定已選取 [即時連接]  > [確定]  。

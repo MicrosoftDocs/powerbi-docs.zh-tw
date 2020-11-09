@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/29/2020
+ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859236"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044769"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -21,6 +21,26 @@ ms.locfileid: "90859236"
 
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新功能](whats-new.md)。 
 
+## <a name="october-2020"></a>2020 年 10 月
+- **Power BI 報表伺服器**
+    - *版本：1.9.7604.41261 (組建 15.0.1104.239)，發行日期：2020 年 10 月 27 日*
+         - 特性
+            - 在 Power BI 報表伺服器中啟用對增強型資料集中繼資料的支援。
+            - 已啟用 Power BI 報表的更新連線功能，以處理 DirectQuery 和重新整理 (如需詳細資料，請參閱[變更資料來源連接字串](./connect-data-source-apis.md))。
+        - 安全性更新
+        - Bug 修正
+            - 已修正阻礙使用者變更 Power BI 報表重新整理排程的問題。
+            - 已修正當認證過期後，使用者管理報表時收到的困惑錯誤訊息。
+            - 已修正匯出報表在名稱中包含句點的問題。
+            - 已修正 tablix 的螢幕助讀程式問題。
+            - 已修正記錄檔在某些情況下為空白的問題。
+            - 已修正 [連線到 Power BI] 對話方塊未關閉的問題
+            - 已更新 MHTML 轉譯器以使用較新的 HTML DOCTYPE
+
+- **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+   - *版本：2.86.961.0 (2020 年 10 月)，發行日期：2020 年 10 月 27 日* (新組建和新版本)
+        - 包含與 Power BI 報表伺服器連線所需的變更 (2020 年 10 月)        
+   
 ## <a name="may-2020"></a>2020 年 5 月
 - **Power BI 報表伺服器**
     - *版本：1.8.7485.35104 (組建 15.0.1103.234)，發行日期：2020 年 6 月 30 日*
@@ -225,7 +245,7 @@ ms.locfileid: "90859236"
 - **Power BI 報表伺服器**
     - *版本 1.3.6816.37243 (組建 15.0.2.557)，發行日期：2018 年 8 月 30 日*
         - Bug 修正
-            - 已修正當在繫結重新導向未更新的情況下將伺服器從舊版 PBI Report Server 升級時，客戶會看到此訊息的問題：      
+            - 已修正當在繫結重新導向未更新的情況下將伺服器從舊版 PBI 報表伺服器升級時，客戶會看到此訊息的問題：      
             *`
             Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
              `*
@@ -279,7 +299,7 @@ ms.locfileid: "90859236"
             - 針對編頁報表 (RDL)，修正編輯其屬性後還原之連結報表中的參數可見度
             - 修正其自訂表單驗證會忽略滑動期限 Cookie 的入口網站
             - 修正 Word 的匯出，如果列內容空白，會建立不相等的列高
-            - 針對編頁報表 (RDL)，修正以連接字串為基礎的運算式，當我們變更資料來源的認證時，會刪除該連接字串
+            - 針對編頁報表 (RDL)，修正變更資料來源的認證時，會刪除運算式型連接字串的問題
             - 修正搭配使用 KPI 和文字值的功能
             - 針對編頁報表 (RDL)，修正將新資料集指派給現有編頁報表 (RDL) 的功能
             - 其他穩定性和可用性修正
@@ -311,8 +331,8 @@ ms.locfileid: "90859236"
 
     - *1.1.6514.9163 (組建 14.0.600.434)，發行日期：2017 年 11 月 1 日*
         - Bug 修正
-            - 超過 500 MB 之 PBIX 報表上傳可靠性問題的修正
-            - 超過 1 GB 之 PBIX 報表資料載入問題的修正
+            - 修正超過 500 MB 的 PBIX 報表上傳可靠性問題
+            - 修正超過 1 GB 的 PBIX 報表資料載入問題
 
     - *1.1.6513.3500 (組建 14.0.600.433)，發行日期：2017 年 10 月 31 日*
         - 功能

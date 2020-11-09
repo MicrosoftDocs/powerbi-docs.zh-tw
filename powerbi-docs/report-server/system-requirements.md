@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/17/2020
-ms.openlocfilehash: 4579296568524304f416d8e353dcbccac77bfc63
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/29/2020
+ms.openlocfilehash: 30e8f1cb1ef8f12d9573d77a70771eef915a2704
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861743"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044809"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安裝 Power BI 報表伺服器的硬體和軟體需求
 
@@ -23,7 +23,7 @@ ms.locfileid: "90861743"
 
 | 元件 | 需求 |
 | --- | --- |
-| .NET Framework |4.7<br><br>您可以從 [Windows 的 Microsoft .NET Framework 4.7 (Web 安裝程式)](https://support.microsoft.com/en-us/kb/3186500) 手動安裝 .NET Framework。<br/><br/> 如需 .NET Framework 4.7 的詳細資訊、建議和指導，請參閱[開發人員的 .NET Framework 部署手冊](/dotnet/framework/deployment/deployment-guide-for-developers)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 需要有 [KB2919355](https://support.microsoft.com/kb/2919355) 才能安裝 .NET Framework 4.7。 |
+| .NET Framework |4.8<br><br>您可從 [Windows 的 Microsoft .NET Framework 4.8 (Web 安裝程式)](https://support.microsoft.com/en-us/help/4503548/) 手動安裝 .NET Framework。<br/><br/> 如需 .NET Framework 4.8 的詳細資訊、建議和指導，請參閱[開發人員的 .NET Framework 部署手冊](/dotnet/framework/deployment/deployment-guide-for-developers)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 需要有 [KB2919355](https://support.microsoft.com/kb/2919355) 才能安裝 .NET Framework 4.8。 |
 | 硬碟 |Power BI 報表伺服器至少需要 1 GB 的可用硬碟空間。<br><br>裝載報表伺服器資料庫的資料庫伺服器則需要額外的空間。 |
 | 記憶體 |**最小值：** 1 GB<br/><br/> **建議值︰** 至少 4 GB |
 | 處理器速度 |**最小值：** x64 處理器：1.4 GHz<br/><br/> **建議配備：** 2.0 GHz 或更快 |

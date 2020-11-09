@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: ad4715bbecc94934d0f2ac53551b27d82cb4282c
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878911"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916950"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>教學課程：在 Power BI 中建置機器學習模型
 
-在本教學課程文章中，您會使用**自動化機器學習服務**，在 Power BI 中建立二進位預測模型並且套用。 教學課程包含建立 Power BI 資料流程，以及使用資料流程中所定義的實體，直接在 Power BI 中定型及驗證機器學習模型的指導。 我們接著會使用該模型來為新資料評分以產生預測。
+在本教學課程文章中，您會使用 **自動化機器學習服務** ，在 Power BI 中建立二進位預測模型並且套用。 教學課程包含建立 Power BI 資料流程，以及使用資料流程中所定義的實體，直接在 Power BI 中定型及驗證機器學習模型的指導。 我們接著會使用該模型來為新資料評分以產生預測。
 
 首先，您會建立二進位預測機器學習模型，根據線上顧客的一組線上工作階段屬性，預測他們的購買意圖。 效能評定機器學習服務資料集會用於此演練。 定型模型後，Power BI 會自動產生驗證報表，解釋模型結果。 您接著可以檢視驗證報表，並將模型套用到您的資料以進行評分。
 
@@ -44,9 +44,9 @@ ms.locfileid: "87878911"
 
 ### <a name="create-the-entities"></a>建立實體
 
-若要在資料流程中建立實體，請登入 Power BI 服務，並巡覽至您已啟用 AI 專用容量上的工作區。
+若要在資料流程中建立實體，請登入 Power BI 服務，並巡覽至已啟用 AI 容量的工作區。
 
-如果還沒有工作區，則您可在 Power BI 服務的導覽窗格功能表中選取 [工作區]  來建立一個工作區，然後在出現的面板底部選取 [建立工作區]  。 如此會在右側開啟一個面板，輸入工作區詳細資料。 輸入工作區名稱，然後選取 [進階]  。 透過圓形按鈕，確認工作區使用專用容量，並且指派給已開啟 AI 預覽的專用容量執行個體。 接著，選取 [儲存]  。
+如果還沒有工作區，則您可在 Power BI 服務的導覽窗格功能表中選取 [工作區]  來建立一個工作區，然後在出現的面板底部選取 [建立工作區]  。 如此會在右側開啟一個面板，輸入工作區詳細資料。 輸入工作區名稱，然後選取 [進階]  。 使用圓形按鈕確認工作區使用專用容量，並已指派給開啟 AI 預覽的容量執行個體。 接著，選取 [儲存]  。
 
 ![建立工作區](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 
@@ -145,13 +145,13 @@ Power Query 會自動推斷資料行的類型。 您可以按一下資料行標�
 
 出現提示時，您必須 [重新整理]  資料流程，以便預覽您模型的結果。
 
-套用模型將會建立兩個新實體，其中包含 **enriched <model_name>** 尾碼和 **enriched <model_name> explanations** 尾碼。 在我們的案例中，將模型套用到**線上訪客**實體將會建立**線上訪客擴充購買意圖預測** (其中包含從模型產生的預測輸出)，以及**線上訪客擴充購買意圖預測解釋** (其中包含針對預測最關鍵的記錄限定影響因素)。 
+套用模型將會建立兩個新實體，其中包含 **enriched <model_name>** 尾碼和 **enriched <model_name> explanations** 尾碼。 在我們的案例中，將模型套用到 **線上訪客** 實體將會建立 **線上訪客擴充購買意圖預測** (其中包含從模型產生的預測輸出)，以及 **線上訪客擴充購買意圖預測解釋** (其中包含針對預測最關鍵的記錄限定影響因素)。 
 
 套用二元預測模型會新增四個資料行，其中包含預測結果、可能性分數、針對預測最關鍵的記錄限定影響因素，以及解釋索引，且每個都會加上所指定的資料行名稱前置詞。  
 
 ![三個結果資料行](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-20.png)
 
-在完成資料流程重新整理後，您可以選取**線上訪客擴充購買意圖預測**實體來檢視結果。
+在完成資料流程重新整理後，您可以選取 **線上訪客擴充購買意圖預測** 實體來檢視結果。
 
 ![檢視結果](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-21.png)
 
@@ -177,7 +177,7 @@ Power Query 會自動推斷資料行的類型。 您可以按一下資料行標�
 
 ## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>在 Power BI 報表中使用模型的評分輸出
 
-若要使用機器學習模型的評分輸出，您可從 Power BI Desktop 使用資料流程連接器來連線到資料流程。 **線上訪客擴充購買意圖預測**實體現在可以用來將模型的預測併入 Power BI 報表。
+若要使用機器學習模型的評分輸出，您可從 Power BI Desktop 使用資料流程連接器來連線到資料流程。 **線上訪客擴充購買意圖預測** 實體現在可以用來將模型的預測併入 Power BI 報表。
 
 ## <a name="next-steps"></a>後續步驟
 

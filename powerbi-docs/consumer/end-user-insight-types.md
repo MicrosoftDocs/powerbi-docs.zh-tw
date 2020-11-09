@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/09/2020
+ms.date: 10/12/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8e8411ea29436a5ee19802d2a970b760062fe59e
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 53074b44457abcf4cae6ffc3cffab2be6e8b95bb
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763980"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045310"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支援的深入解析類型
 
@@ -66,6 +66,11 @@ Power BI 使用統計演算法來發掘見解。 這些演算法將在本文的�
 
 ![主要因素範例](./media/end-user-insight-types/pbi-auto-insight-type-majority.png)
 
+### <a name="outliers"></a>極端值
+此見解類型使用叢集模型在非時間序列資料中尋找極端值。 當特定類別有明顯不同於其他類別的值時，就會偵測極端值。
+
+![極端值範例](./media/end-user-insight-types/power-bi-outliers.png)
+
 ### <a name="overall-trends-in-time-series"></a>時間序列中的整體趨勢
 偵測時間序列資料中的向上或向下趨勢。
 
@@ -79,7 +84,7 @@ Power BI 使用統計演算法來發掘見解。 這些演算法將在本文的�
 ### <a name="steady-share"></a>穩定佔有率
 醒目提示子值的部分相對於跨連續變數的整體父值有父子相互關聯的情況。 穩定的共用見解會套用至量值、維度和另一個日期/時間維度的內容。 當特定維度值 (例如「東部區域」) 在該日期/時間維度上的整體銷售中所佔百分比穩定時，就會觸發此見解。
 
-穩定的共用見解類似於低差異的見解，因為兩者都與缺少某個時間值的變異數有關。 不過，穩定的共用見解會測量在一段時間內缺少**整體百分比**的變異數，而低差異見解則會測量在維度間缺少絕對量值的變異數。
+穩定的共用見解類似於低差異的見解，因為兩者都與缺少某個時間值的變異數有關。 不過，穩定的共用見解會測量在一段時間內缺少 **整體百分比** 的變異數，而低差異見解則會測量在維度間缺少絕對量值的變異數。
 
 ![穩定佔有率範例](./media/end-user-insight-types/pbi-auto-insight-type-steadyshare.png)
 
@@ -87,6 +92,7 @@ Power BI 使用統計演算法來發掘見解。 這些演算法將在本文的�
 針對跨時間序列的資料，偵測特定日期或時間值明顯不同於其他日期/時間值的情況。
 
 ![時間序列極端值範例](./media/end-user-insight-types/pbi-auto-insight-type-time-series-outliers-purple.png)
+
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 深入解析](end-user-insights.md)

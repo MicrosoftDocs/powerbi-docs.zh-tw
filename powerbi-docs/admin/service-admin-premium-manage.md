@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f100051f81ec5a58dcc5df48761975ed28a7c6b2
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 8edc24e62524834e74fb8334875cc27a259207d1
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599988"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916375"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>設定及管理 Power BI Premium 中的容量
 
@@ -24,7 +24,7 @@ ms.locfileid: "91599988"
 
 ![Power BI 的容量設定畫面](media/service-admin-premium-manage/premium-capacity-management.png)
 
-「容量」是 Power BI Premium 和 Power BI Embedded 供應項目的中心。 它是一組專門保留供組織使用的資源集。 擁有專用容量可讓您將儀表板、報表和資料集發佈給整個組織的使用者，而不必購買其個別使用者授權。 它也會為容量中所裝載內容提供可靠且一致的效能。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium-what-is.md)。
+「容量」是 Power BI Premium 和 Power BI Embedded 供應項目的中心。 它是一組專門保留供組織使用的資源集。 擁有容量可讓您將儀表板、報表和資料集發佈給整個組織的使用者，而不必為使用者一一購買授權。 它也會為容量中所裝載內容提供可靠且一致的效能。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium-what-is.md)。
 
 ## <a name="manage-capacity"></a>管理容量
 
@@ -64,7 +64,7 @@ ms.locfileid: "91599988"
 
 ### <a name="capacity-settings"></a>容量設定
 
-1. 在 Premium 容量管理畫面的 [動作] 下方，選取**齒輪圖示**以檢閱和更新設定。 
+1. 在 Premium 容量管理畫面的 [動作] 下方，選取 **齒輪圖示** 以檢閱和更新設定。 
 
     ![容量管理區中的容量動作](media/service-admin-premium-manage/capacity-actions.png)
 
@@ -135,7 +135,7 @@ Power BI 管理員和 Microsoft 365 全域管理員可變更 Power BI Premium �
    | **The entire organization's workspaces (整個組織的工作區)** | 將整個組織的工作區指派給 Premium 容量，會將組織中的所有工作區和「我的工作區」指派給這個 Premium 容量。 此外，所有目前和未來使用者都有權將個別工作區重新指派給這個容量。 |
    | | |
 
-1. 選取 [ **套用**]。
+1. 選取 [ **套用** ]。
 
 ### <a name="assign-from-workspace-settings"></a>從工作區設定進行指派
 

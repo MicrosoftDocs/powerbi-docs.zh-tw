@@ -9,16 +9,16 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 94ffbb508fea27e8b80f137539b6120e4c094030
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092283"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916720"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Power BI 編頁報表一日上手課程
 
-**Power BI 編頁報表一日上手**影片課程可讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。 這堂課程包含將近 4 小時 20 分鐘的可檢視內容，可視需要免費取用。 另外還有可供下載並用來完成八個實習課程的[自我研究套件](#self-study-kit)。
+**Power BI 編頁報表一日上手** 影片課程可讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。 這堂課程包含將近 4 小時 20 分鐘的可檢視內容，可視需要免費取用。 另外還有可供下載並用來完成八個實習課程的[自我研究套件](#self-study-kit)。
 
 具體而言，本課程的適合對象是：
 
@@ -87,7 +87,7 @@ ms.locfileid: "89092283"
 1. 開啟 zip 檔案的檔案屬性，然後選取 [解除封鎖] \(Windows 可能會將檔案標示為可能不受信任\)。
 1. 建立根課程資料夾。 我們建議您將其命名為 "C:\Training"。 請記住這個位置，因為您必須在實驗室期間存取課程檔案。 所有實驗室文件都會將此位置稱為 **&lt;CourseFolder&gt;** 。
 1. 將 **PowerBIPRIAD-Student.zip** 檔案內容解壓縮到您的根課程資料夾。
-1. 在 [ **&lt;CourseFolder&gt;\PowerBIPRIAD**] 資料夾中，開啟 **ReadMe.txt** 檔案並依照設定指示逐步執行。
+1. 在 [ **&lt;CourseFolder&gt;\PowerBIPRIAD** ] 資料夾中，開啟 **ReadMe.txt** 檔案並依照設定指示逐步執行。
 
 > [!TIP]
 > **ReadMe.txt** 檔案、實驗室文件與簡報檔 (PDF) 僅以英文與下列八個語言提供：
@@ -105,7 +105,7 @@ ms.locfileid: "89092283"
 >
 > 您必須登入 Power BI，才能將 Power BI Desktop 檔案發佈至工作區。 發行集會產生作為報表資料來源使用的資料集。 您不需要 Power BI Pro 授權或 Power BI Premium 訂閱，就能使用資料集作為報表資料來源。
 >
-> 有些課程工作需要將編頁報表發佈至工作區。 只有當編頁報表儲存在已啟用編頁報表工作負載的[專用容量](../admin/service-premium-what-is.md#dedicated-capacities)工作區後，您才可以開啟該編頁報表。 如果無法存取合適的工作區，實驗室會改提供您一個連結讓您觀看示範報表發佈的影片。
+> 有些課程工作需要將編頁報表發佈至工作區。 只有當編頁報表儲存在已啟用編頁報表工作負載的[容量](../admin/service-premium-what-is.md#dedicated-capacities)工作區後，您才可以開啟該編頁報表。 如果無法存取合適的工作區，實驗室會改提供您一個連結讓您觀看示範報表發佈的影片。
 
 ## <a name="instructor-kit"></a>講師套件
 

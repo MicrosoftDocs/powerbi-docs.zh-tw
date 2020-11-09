@@ -1,24 +1,24 @@
 ---
 title: 在 Power BI 中建立傳統工作區
-description: 了解如何建立工作區、儀表板集合、報表和編頁報表；這些項目是為了傳遞重要計量給您的組織而建置。
+description: 了解如何建立傳統工作區、儀表板集合、報表與編頁報表，這些都是為了向組織傳遞重要計量所建置。
 author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 44d4c24edbb6ebece8b07ed9fb99261f7f1f0408
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5a5aced331ff8f66fdd0cb58fd7625a68acf9331
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226519"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132382"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中建立傳統工作區
 
-在 Power BI 中，您可以建立「工作區」，這是要與同事共同作業來建立並精簡儀表板、報表和編頁報表集合的地方。 然後，您可以將集合組合成「應用程式」，將其散發給整個組織或是特定人員或群組。 
+在 Power BI 中，您可以建立「工作區」，這是要與同事共同作業來建立並精簡儀表板、報表和編頁報表集合的地方。 Power BI 有原始或「傳統」工作區，以及新的工作區。 本文探討如何建立傳統工作區。
 
 **您知道嗎？** Power BI 提供新的工作區體驗，而這種體驗也是目前的預設值。 請參閱[在新的工作區中組織工作](service-new-workspaces.md)來取得新工作區詳細資料。 準備好移轉傳統工作區了嗎？ 如需詳細資訊，請參閱[將傳統工作區升級至 Power BI 中的新工作區](service-upgrade-workspaces.md)。
 

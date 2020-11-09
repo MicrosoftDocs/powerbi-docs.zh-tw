@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 19933ccbf18003e293e823c2b1f201e953c7bde0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 68cd001995603fec3a64e4b2c79ee2216bfe9ac0
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854774"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132290"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI 計劃性維護
 
@@ -38,8 +38,14 @@ ms.locfileid: "90854774"
 * 主動編輯或發佈使用組織視覺效果之報表的客戶 (無論是在本機或從 OneDrive 和 SharePoint 位置)，都將必須透過組織的視覺效果存放區重新匯入視覺效果，或在重新發佈之前下載已更新的 PBIX。 如需取得組織視覺效果的詳細資訊，請參閱[組織視覺效果](organizational-visuals.md)。
 * 如果使用 [使用 Excel 分析] 功能的 Excel 活頁簿並未重新整理，您可能需要更新連接字串，或重新下載該資料集的 ODC 連線。 如需詳細資訊，請參閱[使用 Excel 分析](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data)。
 * 完成維護時，連結至內容中內嵌的 Power BI 可能無法連線。 例如，SharePoint 或 Teams 中的內嵌連結可能會導致使用者錯誤。 若要解決此問題，您必須在 Power BI 中重新產生內嵌連結，然後更新其使用位置。 如需內嵌連結的詳細資訊，請參閱[在 SharePoint Online 中嵌入報表網頁組件](../collaborate-share/service-embed-report-spo.md)和[使用 Power BI 在 Microsoft Teams 中共同作業](../collaborate-share/service-collaborate-microsoft-teams.md)。
+* 維護完成後，在維護前收集的部分使用量資料將無法使用。 此使用量資料包括：
+
+  * [Power BI 活動記錄](service-admin-auditing.md#use-the-activity-log)。 使用者應該在維護前先下載活動記錄。 您也可以使用 [Office 365 稽核記錄資料](service-admin-auditing.md#access-your-audit-logs)取得對等的活動詳細資料。
+  * [譜系檢視](../collaborate-share/service-data-lineage.md#explore-lineage-view)中的檢視計數
+  * [資料保護計量報表](service-security-data-protection-metrics-report.md)
+  * [使用計量 (預覽)](../collaborate-share/service-modern-usage-metrics.md)
 
 ## <a name="next-steps"></a>後續步驟
 
 * [啟用服務中斷通知](service-interruption-notifications.md)
-* [在訊息中心追蹤即將進行的變更](/microsoft-365/admin/manage/message-center?view=o365-worldwide) \(部分機器翻譯\)
+* [在訊息中心追蹤即將進行的變更](/microsoft-365/admin/manage/message-center) \(部分機器翻譯\)

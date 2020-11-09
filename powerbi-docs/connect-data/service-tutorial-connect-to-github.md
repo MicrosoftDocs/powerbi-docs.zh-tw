@@ -7,22 +7,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 08/07/2019
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860547"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132612"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教學課程：使用 Power BI 連線到 GitHub 存放庫
-在本教學課程中，您使用 Power BI 連線接至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。 您會連線到 Power BI 內容的公用存放庫 (也稱為「存放庫」  )，並查看如下問題的解答：有多少人參與 Power BI 的公用內容？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題。 
+在本教學課程中，您會連線到實際的資料：GitHub 服務中的 Power BI 內容公用存放庫 (也稱為「存放庫」)。 Power BI 會自動建立具有資料的儀表板和報表。 您會看到如下問題的答案：Power BI 公用存放庫的參與人數有多少？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題。 
+
+您也可以連線到自己的私人或公用 GitHub 存放庫。 [使用 Power BI 連線到 GitHub](service-connect-to-github.md) 一文說明如何使用 Power BI 的「範本應用程式」連線到存放庫。
 
 ![Power BI 中的 GitHub 報表](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
-在本教學課程中，您完成下列步驟：
+在本教學課程中，您會完成下列步驟：
 
 > [!div class="checklist"]
 > * 在尚未有 GitHub 帳戶時，註冊一個帳戶 
@@ -44,27 +46,27 @@ ms.locfileid: "90860547"
 
 ## <a name="how-to-connect"></a>如何連接
 1. 登入 Power BI 服務 (`https://app.powerbi.com`)。 
-2. 在導覽窗格中，選取 [應用程式]  ，然後選取 [取得應用程式]  。
+2. 在導覽窗格中，選取 [應用程式]，然後選取 [取得應用程式]。
    
    ![Power BI Get 應用程式](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. 選取 [應用程式]  ，在搜尋方塊中鍵入 **GitHub** > [立即取得]  。
+3. 選取 [應用程式]，在搜尋方塊中鍵入 **GitHub** > [立即取得]。
    
    ![Power BI Get GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
-4. 在 [要安裝此 Power BI 應用程式嗎?]  中，選取 [安裝]  。
-5. 在 [您的新應用程式已準備就緒]  中，選取 [前往應用程式]  。
-6. 在 [開始使用您的新應用程式]  中，選取 [連線]  。
+4. 在 [要安裝此 Power BI 應用程式嗎?] 中，選取 [安裝]。
+5. 在 [您的新應用程式已準備就緒] 中，選取 [前往應用程式]。
+6. 在 [開始使用您的新應用程式] 中，選取 [連線]。
 
     ![開始使用您的新應用程式](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. 輸入該儲存機制的儲存機制名稱和儲存機制擁有者。 此存放庫的 URL 是 https://github.com/MicrosoftDocs/powerbi-docs ，因此 [存放庫擁有者]  是 **MicrosoftDocs**，而 [存放庫]  是 **powerbi-docs**。 
+7. 輸入該儲存機制的儲存機制名稱和儲存機制擁有者。 此存放庫的 URL 是 https://github.com/MicrosoftDocs/powerbi-docs，因此 [存放庫擁有者] 是 **MicrosoftDocs** ，而 [存放庫] 是 **powerbi-docs** 。 
    
     ![Power BI GitHub 存放庫名稱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
 5. 輸入您所建立的 GitHub 認證。 如果您已在瀏覽器中登入 GitHub，則 Power BI 可能會略過此步驟。 
 
-6. 針對 [驗證方法]  ，保持選取 [oAuth2]  \> [登入]  。
+6. 針對 [驗證方法]，將 [oAuth2] 保留為選取  [登入]\> 。
 
 7. 遵循 GitHub 驗證畫面進行。 將 Power BI 權限授與 GitHub 資料。
    
@@ -75,7 +77,7 @@ ms.locfileid: "90860547"
 
     ![導覽窗格中的應用程式](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. 選取儀表板名稱旁邊的 [更多選項]  (...) > [重新命名]  > 鍵入 **GitHub 儀表板**。
+10. 選取儀表板名稱旁邊的 [更多選項] (...) > [重新命名] > 鍵入 **GitHub 儀表板** 。
  
     ![Power BI GitHub 磚](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
@@ -93,9 +95,9 @@ ms.locfileid: "90860547"
 
 ## <a name="ask-a-question"></a>詢問問題
 
-1. 將您的游標放在 [詢問一個與資料相關的問題]  中。 Power BI 提供**使用者入門問題**。 
+1. 將您的游標放在 [詢問一個與資料相關的問題] 中。 Power BI 提供 **使用者入門問題** 。 
 
-1. 選取 [有多少位使用者]  。
+1. 選取 [有多少位使用者]。
  
     ![有多少位使用者](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
@@ -106,30 +108,30 @@ ms.locfileid: "90860547"
     ![每一位使用者各有多少提取要求](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
-13. 選取圖釘來將它釘選到您的儀表板，然後**離開問與答**。
+13. 選取圖釘來將它釘選到您的儀表板，然後 **離開問與答** 。
 
 ## <a name="view-the-github-report"></a>檢視 GitHub 報表 
 
-1. 在 GitHub 儀表板中，選取直條圖 [提取要求數 (依月分)]  來開啟相關報表。
+1. 在 GitHub 儀表板中，選取直條圖 [提取要求數 (依月分)] 來開啟相關報表。
 
     ![提取要求數 (依月份) 直條圖](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. 在 [使用者的的總提取要求數]  圖表中，選取使用者名稱。 在此範例中，我們可以看到他們大多數的時數都集中在二月。
+2. 在 [使用者的的總提取要求數] 圖表中，選取使用者名稱。 在此範例中，我們可以看到他們大多數的時數都集中在二月。
 
     ![Power BI GitHub 報表反白顯示](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
-3. 選取 [穿孔卡片]  索引標籤來檢視報表中的下一個頁面。 
+3. 選取 [穿孔卡片] 索引標籤來檢視報表中的下一個頁面。 
  
     ![Power BI GitHub 報表穿孔卡片](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    顯然每週星期二下午 3 點是最常進行「認可」  的時間，許多人會在這個時間簽入他們的工作。
+    顯然每週星期二下午 3 點是最常進行「認可」的時間，許多人會在這個時間簽入他們的工作。
 
 ## <a name="clean-up-resources"></a>清除資源
 
 既然您已經完成本教學課程，就可以刪除 GitHub 應用程式。 
 
-1. 在導覽窗格中，選取 [應用程式]  。
-2. 將滑鼠游標停留在 GitHub 磚，然後選取 [刪除]  垃圾桶。
+1. 在導覽窗格中，選取 [應用程式]。
+2. 將滑鼠游標停留在 GitHub 磚，然後選取 [刪除] 垃圾桶。
 
     ![刪除 GitHub 應用程式](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)
 
@@ -138,4 +140,4 @@ ms.locfileid: "90860547"
 在本教學課程中，您已連線至 GitHub 公用存放庫並取得 Power BI 已在儀表板和報表中格式化的資料。 您已經探索儀表板和報表來回答有關資料的一些問題。 您現在可以深入了解連線至其他服務，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 
  
 > [!div class="nextstepaction"]
-> [連線至使用的線上服務](service-connect-to-services.md)
+> [使用 Power BI 範本應用程式連線到 GitHub](service-connect-to-github.md)

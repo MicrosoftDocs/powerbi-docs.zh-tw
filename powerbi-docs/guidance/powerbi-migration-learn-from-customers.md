@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a725d2763d7d044220785c2f9727ee30f14bfd5d
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: d436f01e074c27dc8a0d37f9e62d0ac422c4ab81
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803150"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916674"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>從客戶 Power BI 移轉中學習
 
@@ -158,7 +158,7 @@ ms.locfileid: "88803150"
 
 在其內部目錄中，現在有六個內部 Power BI 課程。 [Dashboard in a Day](https://powerbi.microsoft.com/diad/) 課程仍是新手的熱門課程。 為了協助使用者加深技能，他們提供一系列包含三個 Power BI 課程和兩個 DAX 課程。
 
-其中一個最重要的資料控管決策與管理 Premium 容量相關。 公司選擇在業務單位和共用服務的重要分析區域使用專用容量。 因此，如果發生效率不佳的情況，則只有該區域會受到影響，而且非集中式容量管理員能夠視情況來管理容量。
+其中一個最重要的資料控管決策與管理 Premium 容量相關。 公司選擇在業務單位和共用服務的重要分析區域使用容量。 因此，如果發生效率不佳的情況，則只有該區域會受到影響，而且非集中式容量管理員能夠視情況來管理容量。
 
 > [!IMPORTANT]
 > 注意如何使用 Premium 容量，以及如何為其指派工作區。

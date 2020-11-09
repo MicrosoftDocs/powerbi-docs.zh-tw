@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: 0a90c03c516b64e5a0a81c6a2bbdf0049d48b76f
-ms.sourcegitcommit: be0971576a3f1af7a064371c9cf27dd462dfca82
+ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "92080246"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916812"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>部署管線疑難排解
 
@@ -55,7 +55,7 @@ ms.locfileid: "92080246"
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>我可以將哪些類型的容量指派給管線中的工作區？
 
-部署管線中的所有工作區都必須位於專用容量內，管線才能正常運作。 不過，您可以針對管線中的不同工作區使用不同的容量。 您也可以在相同管線中的不同工作區使用不同的容量類型。
+部署管線中的所有工作區都必須位於容量內，管線才能正常運作。 不過，您可以針對管線中的不同工作區使用不同的容量。 您也可以在相同管線中的不同工作區使用不同的容量類型。
 
 若要進行開發及測試，您可以針對每個使用者將 A 或 EM 容量與 Pro Power BI 帳戶一起使用。
 

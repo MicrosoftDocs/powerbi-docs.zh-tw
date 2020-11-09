@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/24/2020
-ms.openlocfilehash: d361430387d9c24b8b4ef0b673c50cf4cec5a24b
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 10/16/2020
+ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252584"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044745"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 
@@ -45,9 +45,9 @@ ms.locfileid: "87252584"
     其會自動啟動，一切即就緒。
 
 ## <a name="verify-youre-using-the-correct-version"></a>確認您使用的版本正確
-確認您使用正確 Power BI Desktop 的方式非常簡單：請查看 Power BI Desktop 中的啟動畫面或標題列。 **Power BI Desktop (2020 年 5 月)** 出現在標題列中即表示版本正確。 而且，Power BI 標誌的色彩也會反轉，從黃底黑圖案變成黑底黃圖案。
+確認您使用正確 Power BI Desktop 的方式非常簡單：請查看 Power BI Desktop 中的啟動畫面或標題列。 **Power BI Desktop (2020 年 10 月)** 出現在標題列中即表示版本正確。 而且，Power BI 標誌的色彩也會反轉，從黃底黑圖案變成黑底黃圖案。
 
-![Power BI Desktop 2020 年 5 月](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop 2020 年 10 月](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
 
 Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和月份。
 

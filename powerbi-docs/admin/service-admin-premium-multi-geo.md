@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/26/2019
+ms.date: 10/29/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d8841c35b2086f9a7e452cdcb4aa9a0fc4c16bd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 899dc5092ac86e08d552758e74dfabd8b373f5c0
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599637"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044700"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>設定 Power BI Premium 的多地理位置支援
 
@@ -37,7 +37,7 @@ ms.locfileid: "91599637"
 
 ## <a name="enable-and-configure"></a>啟用及設定
 
-針對新的容量，請從下拉式清單中選取預設區域以外的區域，以啟用多地理位置。  每個可用的容量都會顯示其目前所在的區域，例如**美國中西部**。
+針對新的容量，請從下拉式清單中選取預設區域以外的區域，以啟用多地理位置。  每個可用的容量都會顯示其目前所在的區域，例如 **美國中西部** 。
 
 ![容量大小：選取一個區域。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
 
@@ -90,14 +90,16 @@ ms.locfileid: "91599637"
 - 刪除工作區所在位置目前的容量。  這會將工作區移回到主要區域中的共用容量。
 - 將個別工作區遷移回到位於主租用戶中的 Premium 容量。
 
+不應將大型儲存格式資料集從建立的區域中移出。 以大型格式資料集為基礎的報表將無法載入資料集，且會傳回「無法載入模型」錯誤。 將大型儲存格式的資料集移回其原始區域，以便可再次提供使用。
+
 ## <a name="limitations-and-considerations"></a>限制與考量
 
 - 初始資料轉送之前，請確認在區域之間開始進行的任何移動都會遵循所有公司與政府的合規性需求。
 - 儲存於遠端區域中的快取查詢會在該區域中保持待用狀態。 不過，傳輸過程中的其他資料可能會往返於多個地理位置之間。
 - 在多地理位置的環境中，將資料從某個區域移至另一個區域時，來源資料可能會在已移動資料的區域中最多保留 30 天。 在該段期間內，使用者無法存取該資料。 系統會在 30 天的期間內，將資料從這個區域中移除並加以銷毀。
 - 所匯入資料模型的查詢文字和查詢結果流量不會透過主區域進行傳輸。 報表中繼資料仍然來自遠端區域，而某些 DNS 路由狀態可能會將流量從區域中取出。 
-
 - 目前多地理位置不支援[資料流程](../transform-model/service-dataflows-overview.md)功能。
+- 將大型儲存格式資料集從建立的區域中移出，會導致報表無法載入資料集。 將大型儲存格式的資料集移回其原始區域，以便提供使用。 
 
 ## <a name="next-steps"></a>後續步驟
 

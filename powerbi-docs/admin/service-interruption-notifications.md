@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981519"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916122"
 ---
 # <a name="service-interruption-notifications"></a>服務中斷通知
 
@@ -21,7 +21,7 @@ ms.locfileid: "91981519"
 
 ![重新整理通知電子郵件](media/service-interruption-notifications/refresh-notification-email.png)
 
-目前，我們會針對下列_可靠性案例_傳送電子郵件：
+目前，我們會針對下列 _可靠性案例_ 傳送電子郵件：
 
 - 開啟報表可靠性
 - 模型重新整理可靠性
@@ -30,7 +30,7 @@ ms.locfileid: "91981519"
 在開啟報表、資料集重新整理或查詢執行等作業中若遇到「延遲延長」，就會傳送通知。 在解決事件之後，您會收到後續的電子郵件。
 
 > [!NOTE]
-> 這項功能目前僅適用於 Power BI Premium 中的專用容量， 其不適用於共用或內嵌容量。
+> 這項功能目前僅適用於 Power BI Premium 的容量。 其不適用於共用或內嵌容量。
 
 ## <a name="capacity-and-reliability-notifications"></a>容量和可靠性通知
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981496"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132359"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
@@ -126,11 +126,11 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |[大型模型](service-premium-large-models.md) | 2020 年第 4 季 |2020 年第 4 季| ![無法使用](../media/no.png) |
 |[資料流程 - SQL 計算引擎最佳化](../transform-model/service-dataflows-enhanced-compute-engine.md) | 2020 年第 4 季 |2020 年第 4 季| ![無法使用](../media/no.png) |
 |[資料流程 - 直接查詢](../transform-model/service-dataflows-directquery.md) | 2020 年第 4 季 |2020 年第 4 季|![無法使用](../media/no.png)|
-|[服務中斷通知](service-premium-large-models.md)|2020 年第 4 季 |2020 年第 4 季|2020 年第 4 季|
 |[資料保護 (MIP 標籤)](service-security-sensitivity-label-overview.md)|2020 年第 4 季|2020 年第 4 季 |2020 年第 4 季|
 |[範本應用程式](../connect-data/service-template-apps-overview.md) <sup>3</sup>|2020 年第 4 季 |2020 年第 4 季| 2020 年第 4 季|
 |[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md) <sup>3</sup>|2020 年第 4 季 |2020 年第 4 季| 2020 年第 4 季|
 |[通話品質資料連接器](/microsoftteams/cqd-power-bi-connector)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
+|[自備儲存體 (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 |[QR 代碼產生](../create-reports/service-create-qr-code-for-tile.md)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 
 <sup>1</sup> 雖然 B2B 共同作業適用於 GCC，但必須在該環境中對外部使用者發出授權。 GCC 中的商業雲端授權無效。 如需適用於美國政府的 B2B 共同作業已知限制其詳細資訊，請[比較 Azure Government 及全域 Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) (英文)

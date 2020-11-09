@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/04/2020
+ms.date: 10/29/2020
 ms.author: maggies
-ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52d38fd0705a6f9335f0ddd965acb0d9f56d38ee
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861191"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045073"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 報表伺服器中的 Power BI 報表資料來源
 Power BI 報表可以連接到數種資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。 可以匯入資料，或者使用 DirectQuery 或與 SQL Server Analysis Services 的即時連線，直接查詢資料。 Power BI Desktop 中的某些資料來源已針對 Power BI 報表伺服器最佳化，但發佈至 Power BI 報表伺服器時則不受支援。
@@ -189,6 +189,8 @@ Power BI 報表伺服器對模型重新整理不支援 OAuth 型驗證。 例如
 | Zendesk (搶鮮版 (Beta)) |否 |否 |否 |否 |
 
 **使用 LDAP 驗證搭配 Teradata (使用命令提示字元命令 'setx PBI_EnableTeradataLdap true' 在 Power BI Desktop 中啟用) 不支援模型重新整理。
+
+Power BI 報表伺服器有網路資料使用限制：只能重新整理來自網路的資料檔案。 無法重新整理以頁面或範例為基礎的資料。 這項限制是因為無法重新整理使用 Web.BrowserContents 和 Web.Page 建立的 M 運算式。 Power BI 報表伺服器只能重新整理 Web.Contents 資料來源。
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery 支援的驗證方法清單
 

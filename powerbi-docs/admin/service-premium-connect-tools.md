@@ -10,25 +10,25 @@ ms.topic: how-to
 ms.date: 10/14/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e30a59e637b39099cdd0ad2eb99223cff20fbe6
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: f13c6990ae1cc0842cd490f88dfdb8fb382d7900
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116538"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916053"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>使用 XMLA 端點連線至資料集 (預覽)
 
-1500 和更高相容性層級的 Power BI Premium 工作區和資料集，可藉由使用 *XMLA 端點*，支援 Microsoft 和第三方用戶端應用程式和工具的開放平台連線。
+1500 和更高相容性層級的 Power BI Premium 工作區和資料集，可藉由使用 *XMLA 端點* ，支援 Microsoft 和第三方用戶端應用程式和工具的開放平台連線。
 
 > [!NOTE]
-> 這是**預覽**功能。 「預覽」中的功能不應在生產環境中使用。 某些功能、支援和文件受到限制。  如需詳細資訊，請參閱 [Microsoft Online Services 條款 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)。
+> 這是 **預覽** 功能。 「預覽」中的功能不應在生產環境中使用。 某些功能、支援和文件受到限制。  如需詳細資訊，請參閱 [Microsoft Online Services 條款 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)。
 
 ## <a name="whats-an-xmla-endpoint"></a>什麼是 XMLA 端點？
 
 Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) (XMLA) (部分機器翻譯) 通訊協定來在用戶端應用程式與管理您 Power BI 工作區及資料集的引擎間進行通訊。 這些通訊是透過通常稱為 XMLA 端點的項目進行。 XMLA 與 Microsoft Analysis Services 引擎所使用的通訊協定相同，其幕後的運作原理是會執行 Power BI 的語意模型、控管、生命週期及資料管理。
 
-根據預設，會針對容量中的**資料集工作負載**，啟用使用端點的「唯讀」連線。 使用唯讀，資料視覺效果應用程式和工具就可以查詢資料集模型資料、中繼資料、事件和結構描述。 使用端點的「讀寫」作業可以啟用，以提供額外的資料集管理、治理、進接語義模型化、偵錯和監視。 啟用讀寫功能之後，Power BI Premium 資料集與 Azure Analysis Services 和 SQL Server Analysis Services 企業級表格式模型工具和程序就會有更多相同處。
+根據預設，會針對容量中的 **資料集工作負載** ，啟用使用端點的「唯讀」連線。 使用唯讀，資料視覺效果應用程式和工具就可以查詢資料集模型資料、中繼資料、事件和結構描述。 使用端點的「讀寫」作業可以啟用，以提供額外的資料集管理、治理、進接語義模型化、偵錯和監視。 啟用讀寫功能之後，Power BI Premium 資料集與 Azure Analysis Services 和 SQL Server Analysis Services 企業級表格式模型工具和程序就會有更多相同處。
 
 > [!NOTE]
 > 建議您使用新式工作區體驗，特別是在使用 XMLA 端點連線到資料集時。 傳統工作區不支援建立或刪除資料集之類的作業。 若要將傳統工作區升級為新式體驗，請參閱[在 Power BI 中升級傳統工作區](../collaborate-share/service-upgrade-workspaces.md)。
@@ -37,7 +37,7 @@ Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analy
 
 以下是一些與 Azure Analysis Services 和 SQL Server Analysis Services 搭配使用的最常見工具，現在已由 Power BI Premium 資料集支援：
 
-**具有 Analysis Services 專案的 Visual Studio**  (也稱為 SQL Server Data Tools，或簡稱為 **SSDT**)，是適用於 Analysis Services 表格式模型的企業級模型製作工具。 所有 Visual Studio 2017 和更新版本都支援 Analysis Services 專案延伸模組，包括免費的社群版本。 需要延伸模組版本 2.9.6 或更高版本，才能將表格式模型部署到 Premium 工作區。 部署到 Premium 工作區時，此模型必須是 1500 或更高的相容性層級。 資料集工作負載需要 XMLA 讀寫。 若要深入了解，請參閱[適用於 Analysis Services 的工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current) (部分機器翻譯)。
+**具有 Analysis Services 專案的 Visual Studio**  (也稱為 SQL Server Data Tools，或簡稱為 **SSDT** )，是適用於 Analysis Services 表格式模型的企業級模型製作工具。 所有 Visual Studio 2017 和更新版本都支援 Analysis Services 專案延伸模組，包括免費的社群版本。 需要延伸模組版本 2.9.6 或更高版本，才能將表格式模型部署到 Premium 工作區。 部署到 Premium 工作區時，此模型必須是 1500 或更高的相容性層級。 資料集工作負載需要 XMLA 讀寫。 若要深入了解，請參閱[適用於 Analysis Services 的工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current) (部分機器翻譯)。
 
 **SQL Server Management Studio (SSMS)**   - 支援 DAX、MDX 和 XMLA 查詢。 使用[表格式模型指令碼語言](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) (部分機器翻譯)，執行資料集中繼資料的精細重新整理作業和指令碼處理。 查詢作業需要唯讀。 指令碼中繼資料需要讀寫。 需要 SSMS 18.4 版或更新版本。 在 [這裡](/sql/ssms/download-sql-server-management-studio-ssms)下載。
 
@@ -92,7 +92,7 @@ Power BI Premium 資料集尚未支援物件層級安全性 (OLS)。
 
 ## <a name="connecting-to-a-premium-workspace"></a>連線到 Premium 工作區
 
-指派給專用容量的工作區會具備 URL 格式的連接字串，如下所示：`powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`。
+指派給容量的工作區會具備這種 URL 格式的連接字串：`powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`。
 
 連線到工作區的應用程式會使用 URL，因為其為 Analysis Services 伺服器名稱。 例如：`powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`。
 
@@ -141,7 +141,7 @@ B2B 使用者必須在租用戶名稱中指定其組織 UPN。 例如， `powe
 
 ## <a name="security"></a>安全性
 
-除了由容量管理員啟用讀寫功能的 XMLA 端點屬性之外，也必須啟用 Power BI 系統管理員入口網站中的租用戶層級**匯出資料**設定 (在 Excel 中進行分析也需要的項目)。
+除了由容量管理員啟用讀寫功能的 XMLA 端點屬性之外，也必須啟用 Power BI 系統管理員入口網站中的租用戶層級 **匯出資料** 設定 (在 Excel 中進行分析也需要的項目)。
 
 ![啟用匯出資料](media/service-premium-connect-tools/xmla-endpoint-export-data.png)
 
@@ -159,7 +159,7 @@ Power BI Premium 目前不支援需要 Analysis Services 伺服器管理員權�
 
 透過 XMLA 端點使用資料集角色時，會有下列限制：
 
-- **在公開預覽期間，您無法使用 XMLA 端點來指定資料集的角色成員資格**。 相反地，請在 Power BI 服務中資料集的資料列層級安全性頁面上，指定角色成員。
+- **在公開預覽期間，您無法使用 XMLA 端點來指定資料集的角色成員資格** 。 相反地，請在 Power BI 服務中資料集的資料列層級安全性頁面上，指定角色成員。
 - 可以針對 Power BI 資料集設定的角色唯一權限是 [讀取] 權限。 不論資料集角色是否存在，都需要資料集的建置權限，才能透過 XMLA 端點進行讀取存取。 使用 Power BI 安全性模型來控制 RLS 以外的權限。
 - Power BI 目前不支持物件層級安全性 (OLS) 規則。
 
@@ -184,7 +184,7 @@ Azure 服務主體可用來執行自動資源和服務層級作業。 若要深�
 
 指定 [部署伺服器] 屬性之後，即可部署專案。
 
-**第一次部署時**，會使用 model.bim 中的中繼資料，在工作區中建立資料集。 在部署作業中，從模型中繼資料在工作區中建立資料集之後，從資料來源將資料載入至資料集的處理將會失敗。
+**第一次部署時** ，會使用 model.bim 中的中繼資料，在工作區中建立資料集。 在部署作業中，從模型中繼資料在工作區中建立資料集之後，從資料來源將資料載入至資料集的處理將會失敗。
 
 處理失敗的原因是與部署至 Azure 或 SQL Server Analysis Server 執行個體時不同，在其中進行部署作業時會提示資料來源認證，而在部署至 Premium 工作區時，無法在部署作業中指定資料來源認證。 相反地，在中繼資料部署成功並建立資料集之後，資料來源認證就會在 Power BI 服務中的資料集設定指定。 在工作區中，按一下 [資料集]  >  [設定]  >  [資料來源認證]  >  [編輯認證]。
 
@@ -239,7 +239,7 @@ Analysis Services [DMV](/analysis-services/instances/use-dynamic-management-view
 
 Power BI Desktop 可使用即時連線來連線到 Power BI Premium 資料集。 使用即時連線時，不需要在本機複寫資料，這讓使用者更容易取用語意模型。 使用者可使用兩種方式連線：
 
-選取 [Power BI 資料集]，然後選取資料集來建立報表。 **建議**使用者以此方式即時連線到資料集。 這個方法提供改善的探索體驗，可顯示資料集的簽署層級。 使用者不需要尋找及追蹤工作區 URL。 若要尋找資料集，使用者只需要鍵入資料集名稱，或捲動尋找所要尋找的資料集。
+選取 [Power BI 資料集]，然後選取資料集來建立報表。 **建議** 使用者以此方式即時連線到資料集。 這個方法提供改善的探索體驗，可顯示資料集的簽署層級。 使用者不需要尋找及追蹤工作區 URL。 若要尋找資料集，使用者只需要鍵入資料集名稱，或捲動尋找所要尋找的資料集。
 
 ![即時連線到資料集](media/service-premium-connect-tools/dataset-live-connect.png)
 

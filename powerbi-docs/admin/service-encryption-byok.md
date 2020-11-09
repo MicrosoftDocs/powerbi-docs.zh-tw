@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374882"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916145"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>攜帶您自己的加密金鑰以用於 Power BI
 
-Power BI 會加密「待用」  與「處理中」  的資料。 根據預設，Power BI 會使用 Microsoft 管理的金鑰來為您加密資料。 在 Power BI Premium 中，您也可以為匯入資料集之待用資料使用您自己的金鑰 (請參閱[資料來源和儲存考量](#data-source-and-storage-considerations)以取得詳細資訊)。 這種方法通常稱為_攜帶您自己的金鑰_ (BYOK)。
+Power BI 會加密「待用」  與「處理中」  的資料。 根據預設，Power BI 會使用 Microsoft 管理的金鑰來為您加密資料。 在 Power BI Premium 中，您也可以為匯入資料集之待用資料使用您自己的金鑰 (請參閱[資料來源和儲存考量](#data-source-and-storage-considerations)以取得詳細資訊)。 這種方法通常稱為 _攜帶您自己的金鑰_ (BYOK)。
 
 ## <a name="why-use-byok"></a>為何要使用 BYOK？
 
@@ -69,7 +69,7 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
     ![PBIX 檔案選取服務主體和密碼編譯作業](media/service-encryption-byok/service-principal.png)
 
-1. 選取 [確定]****，然後選取 [儲存]****。
+1. 選取 [確定]，然後選取 [儲存]。
 
 > [!NOTE]
 > 若要撤銷 Power BI 未來對您資料的存取權限，請從 Azure Key Vault 移除對此服務主體的存取權限。
@@ -78,7 +78,7 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
 1. 在您的金鑰保存庫中，選取 [金鑰] 下方的 [產生/匯入]。
 
-1. 選取 RAS 的 [金鑰類型]****，且 [RSA 金鑰大小]**** 為 4096。
+1. 選取 RAS 的 [金鑰類型]，且 [RSA 金鑰大小] 為 4096。
 
     ![建立金鑰，其中已醒目提示金鑰類型和大小](media/service-encryption-byok/create-rsa-key.png)
 
@@ -86,9 +86,9 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
 1. 在 [金鑰] 下方，選取您建立的金鑰。
 
-1. 選取金鑰 [目前版本]**** 的 GUID。
+1. 選取金鑰 [目前版本] 的 GUID。
 
-1. 確認已選取 [包裝金鑰]**** 和 [解除包裝金鑰]****。 複製 [金鑰識別碼]****，在您啟用 Power BI 中的 BYOK 時使用。
+1. 確認已選取 [包裝金鑰] 和 [解除包裝金鑰]。 複製 [金鑰識別碼]，在您啟用 Power BI 中的 BYOK 時使用。
 
     ![屬性，其中已醒目提示金鑰識別碼和允許的作業](media/service-encryption-byok/key-properties.png)
 
@@ -108,9 +108,9 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
 - 在此階段中，啟動 BYOK 後即無法將其停用。 根據您如何指定 `Add-PowerBIEncryptionKey` 的參數，您可以控制如何將 BYOK 用於您的一或多個容量。 不過，您無法復原將金鑰引入租用戶的動作。 如需詳細資訊，請參閱[啟用 BYOK](#enable-byok)。
 
-- 您不能「直接」__ 將使用 BYOK 之工作空間從 Power BI Premium 中的專用容量移至共用容量。 您必須先將工作區移至未啟用 BYOK 的專用容量。
+- 您不能「直接」將使用 BYOK 的工作空間從 Power BI Premium 中容量移至共用容量。 您必須先將工作區移至未啟用 BYOK 的容量。
 
-- 如果您將使用 BYOK 的工作區從 Power BI Premium 中專用容量移到共用區，由於報表和資料集已使用金鑰進行加密，因此這些報表和資料集會變成無法存取。 若要避免這種情況，您必須先將工作區移至未啟用 BYOK 的專用容量。
+- 如果將使用 BYOK 的工作區從 Power BI Premium 中容量移到共用區，因為報表和資料集已使用金鑰加密，所以這些報表和資料集會變成無法存取。 為避免這種情況，您必須先將工作區移至未啟用 BYOK 的容量。
 
 ### <a name="enable-byok"></a>啟用 BYOK
 

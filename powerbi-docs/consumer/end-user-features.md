@@ -10,12 +10,12 @@ ms.date: 09/16/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 9ab371844f4c746bfcb4c993dec0b32237e5c26a
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: ddd63a4f18c9994e0a89f4028bcdec96eda21600
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763060"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916697"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>「取用者」  與其他免費授權使用者可使用的 Power BI 功能清單
 
@@ -42,7 +42,7 @@ ms.locfileid: "90763060"
 在應用程式工作區中，「角色」  由設計師指派，藉此管理誰可以在工作區中執行動作。 「商務使用者」通常會獲指派 [檢視人員] 角色。 
 
 ### <a name="premium-capacity"></a>進階容量
-組織如有訂閱 Premium 容量，系統管理員與 Pro 使用者便可將工作區指派至「專用容量」  。 專用容量中的工作區是可以讓 Pro 使用者與免費使用者一起共用及共同作業的空間，而且免費使用者不需要具備 Pro 授權就能使用。 在這些工作區中，免費使用者可擁有較高的權限 (參閱下方清單)。 
+當組織訂閱 Premium 容量時，系統管理員和 Pro 使用者便可將工作區指派至「容量」。 容量中的工作區是一種空間，免費使用者不需要擁有 Pro 授權就能在此空間中與 Pro 使用者共用及共同作業。 在這些工作區中，免費使用者可擁有較高的權限 (參閱下方清單)。 
 
 ### <a name="licenses"></a>授權 
 每個 Power BI 服務使用者都有免費授權或 Pro 授權。 「商務使用者」 具有免費授權。
@@ -68,7 +68,7 @@ ms.locfileid: "90763060"
 - 免費使用者授權
 - 屬於具有 Premium 容量訂用帳戶組織的成員
 - 取得 Pro 使用者在專用的 Premium 容量中，使用應用程式工作區共用的內容 (應用程式、儀表板、報表)。
-- 接受指派為這些應用程式工作區的**檢視者**角色。 
+- 接受指派為這些應用程式工作區的 **檢視者** 角色。 
 
 ### <a name="legend"></a>圖例
 ![green dot](media/end-user-license/power-bi-green-dot.png)  在此案例中可供使用的功能    
@@ -79,7 +79,7 @@ ms.locfileid: "90763060"
 
 ### <a name="feature-list"></a>功能清單
 
-|功能   | 案例 1：Power BI 免費使用者無權存取專用容量中裝載的內容。    | 案例 2：Power BI 免費使用者具有**檢視者**權限，可檢視專用容量中儲存的內容。 該位人員是 Power BI「商務使用者」。 |
+|功能   | 案例 1：無法存取裝載在容量中內容的 Power BI 免費使用者。    | 案例 2：對儲存在容量中內容具有 **檢視者** 權限的 Power BI 免費使用者。 該位人員是 Power BI「商務使用者」。 |
 |---|---|---|
 |**應用程式** 
 |自動安裝 | ![orange x](media/end-user-features/orange-x.png) | ![green dot](media/end-user-license/power-bi-green-dot.png)*| 

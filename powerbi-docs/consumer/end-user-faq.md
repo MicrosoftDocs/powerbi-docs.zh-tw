@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860915"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916789"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 
@@ -37,7 +37,7 @@ Power BI 服務是雲端式商務分析服務，讓任何人都能將資料視�
 
 Power BI Pro 是個別使用者授權，可允許存取 Power BI 服務中的所有內容與功能。 您甚至可以共用內容，並與其他 Pro 使用者共同作業。 只有 Pro 使用者能將內容發佈到其他工作區、共用儀表板，以及訂閱儀表板與報表。 
 
-Power BI Premium 提供專用容量，以提供更一致的效能。 它也在 Power BI 支援更大的資料量。 針對個別使用者，Premium 可讓 Pro 使用者能廣泛散發內容，而且檢視內容的收件者並不需要每個使用者 Pro 授權。 這表示「商務使用者」可與同事共同作業，且可檢視並與其互動的所共用儀表板、報表和應用程式。 
+Power BI Premium 提供容量，以提供更一致的效能。 它也在 Power BI 支援更大的資料量。 針對個別使用者，Premium 可讓 Pro 使用者能廣泛散發內容，而且檢視內容的收件者並不需要每個使用者 Pro 授權。 這表示「商務使用者」可與同事共同作業，且可檢視並與其互動的所共用儀表板、報表和應用程式。 
 
 若要深入了解，請參閱[我擁有哪種類型的授權？](end-user-license.md)。
 
@@ -108,7 +108,7 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 如同許多其他 Microsoft 服務和軟體，Power BI 提供簡單的方法，用來復原您的上一個命令。
 
-* 若要**復原**上一個動作或過去的幾個動作，請按 CTRL + Z。
+* 若要 **復原** 上一個動作或過去的幾個動作，請按 CTRL + Z。
 
 ## <a name="next-steps"></a>後續步驟
 

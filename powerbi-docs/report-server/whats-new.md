@@ -1,25 +1,147 @@
 ---
 title: Power BI 報表伺服器的新功能
-description: 了解 Power BI 報表伺服器的新功能。 本文涵蓋主要功能範圍，並會隨著新項目發行而更新。
+description: 了解最新版 Power BI 報表伺服器的新功能。 本文涵蓋主要功能範圍，並會隨著新版本發行而更新。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/30/2020
+ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859972"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132405"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
-了解 Power BI 報表伺服器中的新功能，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop 中的新功能。 本文涵蓋主要功能範圍，且會隨著每個新版本而更新。 如需 Power BI 報表伺服器新功能的詳細資訊，請參閱 [Power BI 報表伺服器的變更記錄](changelog.md)。
+了解最新版 Power BI 報表伺服器的新功能，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop。 本文涵蓋主要功能範圍，且會隨著每個新版本而更新。 如需 Power BI 報表伺服器新功能的詳細資訊，請參閱 [Power BI 報表伺服器的變更記錄](changelog.md)。
 
 下載 [Power BI 報表伺服器和針對 Power BI 報表伺服器最佳化的 Power BI Desktop](https://powerbi.microsoft.com/report-server/)。
+
+## <a name="october-2020"></a>2020 年 10 月
+
+接下來是新增和更新功能的完整清單。 如需詳細資料，請參閱 [Power BI 報表伺服器 2020 年 10 月的部落格文章](https://powerbi.microsoft.com/blog/power-bi-report-server-october-2020-feature-summary/)。 
+
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>針對 Power BI 報表伺服器最佳化的 Power BI Desktop
+
+以下是一些新功能的重點。
+
+**新式功能區**  
+
+針對 Power BI 報表伺服器最佳化的 Power BI Desktop 已推出新式功能區。 我們會繼續新增項目，並在功能區中新增更多功能。 請參閱[使用 Power BI Desktop 中已更新的功能區](../create-reports/desktop-ribbon.md)，以深入了解其變更和優點。
+
+:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="針對 Power BI 報表伺服器最佳化的 Power BI Desktop 新式功能區螢幕擷取畫面。":::
+
+**階層交叉分析篩選器**
+
+您可建置所謂的「階層交叉分析篩選器」，以在單一交叉分析篩選器中篩選多個相關欄位。 自正式運作後，現可從新增的功能中獲益：
+
+- 展開/摺疊圖示的新選項。
+- 圖示現在可隨字型大小調整。
+- 子項目的可自訂縮排。
+- 進一步自訂交叉分析篩選器的標頭文字。
+
+:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="針對 Power BI 報表伺服器最佳化的 Power BI Desktop 階層交叉分析篩選器。":::
+
+如需詳細資料，請參閱文件中 [Power BI 的交叉分析篩選器](../visuals/power-bi-visualization-slicers.md)。
+
+**增強行動版撰寫體驗** 
+
+我們在這個版本中引進改善的行動裝置版面配置撰寫體驗和其他行動裝置版面配置功能。 隨著採用 Power BI 行動裝置應用程式的組織日益增多，我們也收到許多意見反應，要求提供更多功能和行動版撰寫體驗的改善。 本版的增強功能可協助您更輕鬆地建置針對行動裝置最佳化的互動式精彩報表。
+
+以下是建置最佳化行動報表的新體驗和功能：  
+
+- 新的手機模擬器  
+- 更新的視覺效果窗格  
+- 支援重疊視覺效果  
+- 可在行動裝置版面配置檢視中使用的書簽  
+- 關閉格線與貼齊格線  
+
+:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="針對 Power BI 報表伺服器最佳化的 Power BI Desktop 行動裝置版面配置。":::
+
+如需詳細資料，請參閱這篇部落格文章：[增強行動版撰寫體驗](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) (英文)。
+
+**資料準備：自動偵測 Excel 檔案的資料表**
+
+Excel 連接器的這項新功能會自動識別要擷取到資料表的每個 Excel 試算表區段。 這些區段會顯示在 [導覽器] 的 [建議的資料表] 群組下。 在過去，資料必須格式化為資料表或 Excel 的具名範圍。 否則，即必須使用特定轉換從工作表物件中抓取相關的資料列/資料行，例如略過資料列和移除資料行，如下列範例中的 Sheet1 所示。 若要使用這項功能，您必須先在 [設定] 對話方塊中加以啟用。
+
+:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="在針對 Power BI 報表伺服器最佳化的 Power BI Desktop 中辨識 Excel 資料表。":::
+
+**模型化：增強型資料集中繼資料**
+
+在過去，只有在 Power Query 中產生的可載入查詢才會對應至資料模型。 現在，所有查詢都可對應至資料模型中的物件。 當開啟該 .PBIX 檔案時，會根據資料模型重新產生查詢。
+
+這個後端更新已解除鎖定未來的功能改善，並會繼續進行。 
+
+例如：
+
+- 在 Power BI Desktop 中新增外部工具後 (目前為預覽狀態)，重新開啟報表時，透過這些外部工具新增的資料表現在會顯示為查詢。
+- 如果您曾嘗試匯出並解壓縮 PBIT 檔案，現在可使用 JSON 查看模型，且不會再收到有關檔案損毀的錯誤。 
+
+如有因未套用變更等原因而無法自動更新的舊版 PBIX，則必須先成功升級模型，才能進行任何其他模型變更。 
+
+**結束對 Windows 7 的支援**
+
+10 年來對 Windows 7 的支援已於 2020 年 1 月 14 日結束。 同時將於 2021 年 1 月 31 日停止支援 Windows 7 的 Power BI Desktop。 此後只會支援 Windows 8 和更新版本的 Power BI Desktop。 針對報表伺服器最佳化的 Power BI Desktop 2021 年 1 月版本將依現代化生命週期原則獲得支援。 亦即要到下一個版本 (目前排程為 2021 年 5 月) 才會提供完整支援。 自 2021 年 5 月至 2022 年 1 月期間，將只提供安全性更新。 所有支援都會在 2022 年 1 月後停止。 如需詳細資料，請參閱 [Power BI 報表伺服器支援時間軸](support-timeline.md)。 
+
+**完整的更新清單**
+
+以下是針對 Power BI 報表伺服器最佳化的 Power BI Desktop 10 月版完整更新清單。 
+
+**報告**
+
+- 新式功能區
+- 畫布浮水印
+- 堆疊視覺效果的標籤總計
+- 為保持圖層順序而新增的一般視覺效果選項
+- 漸層圖例
+- 相對時間篩選
+- 進一步自訂交叉分析篩選器標頭文字的能力
+- 改善階層式交叉分析篩選器
+
+    - 展開/摺疊圖示的新選項
+    - 圖示現在可隨字型大小調整
+    - 自訂子項目縮排的能力
+
+- 增強行動版撰寫體驗
+
+    - 新的手機模擬器
+    - 更新的視覺效果窗格
+    - 支援重疊視覺效果
+    - 可在行動裝置版面配置檢視中使用的書簽
+    - 關閉格線與貼齊格線  
+
+**視覺效果**
+
+- 折線圖點格式化選項 
+
+**模型化**
+
+- 增強型資料集中繼資料
+- 改善 IF 和 SWITCH 函式的效能
+- 支援 Excel 的財務函式
+- 針對即時連線啟用的 [模型] 檢視
+- [模型] 檢視的更新 
+
+**資料準備**
+
+- 自動偵測 Excel 檔案的資料表  
+- 自動偵測 JSON 檔案的資料表  
+- 停用自動類型偵測的 [全域] 選項 
+
+**其他**  
+
+- 將資料來源匯出為 Power BI Desktop 的 PBIDS
+- 關閉桌面啟動顯示畫面 
+
+### <a name="power-bi-report-server"></a>Power BI 報表伺服器
+
+**在 Power BI 報表中使用 PowerShell 變更資料來源連接字串**
+
+在 10 月版的 Power BI 報表伺服器中，我們會啟用 Power BI 報表的更新連線功能，以處理 DirectQuery 和重新整理。 這項功能也是舊版設定方式的重大變更。 若要深入了解，請參閱[在 PowerShell 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器](connect-data-source-apis.md)。 
 
 ## <a name="may-2020"></a>2020 年 5 月
 
@@ -230,11 +352,11 @@ Power BI 報表伺服器現在支援 Power BI 報表伺服器目錄資料庫 (En
 
 Power BI 報表伺服器的 2019 年 9 月更新包含了許多 Power BI 報表功能。 以下是一些重點：
 
-- **交叉分析篩選器的視覺效果層級篩選**：您可以將視覺效果層級篩選新增至交叉分析篩選器。 它的運作方式就像任何其他視覺效果層級的篩選一樣，但只是篩選交叉分析篩選器本身，而不是其他視覺效果。 這項篩選對於篩選出空白，或您要使用量值篩選時很有用。
-- **資料表和矩陣的圖示集**使用 KPI 圖示，您可以設定規則，以在資料表和矩陣中顯示不同的圖示集，類似於 Excel 中的圖示集。
-- **群組視覺效果**現在，您可以在報表頁面上將視覺效果、圖形、文字方塊、影像及按鈕群組在一起，就像在 PowerPoint 中一樣。 當您將物件群組在一起時，可以一起移動這些物件並調整其大小。 群組可讓您更輕鬆地在每個頁面上有許多物件的報表中工作。
-- **新的預設佈景主題**為了與新的佈景主題 JSON 選項一起使用，我們正在更新可用於報表的佈景主題，以及變更新報表的預設佈景主題。 新預設佈景主題會更妥善地配合 Microsoft 的設計語言，並遵循視覺效果的最佳設計做法。 
-- **更新的窗格設計**：我們重新整理了大部分的介面。 我們已將所有窗格、頁尾和檢視切換器更新為較淺的色彩、已更新間距，並引進了新的圖示。 新設計是重新整理整個介面的第一個步驟。
+- **交叉分析篩選器的視覺效果層級篩選** ：您可以將視覺效果層級篩選新增至交叉分析篩選器。 它的運作方式就像任何其他視覺效果層級的篩選一樣，但只是篩選交叉分析篩選器本身，而不是其他視覺效果。 這項篩選對於篩選出空白，或您要使用量值篩選時很有用。
+- **資料表和矩陣的圖示集** 使用 KPI 圖示，您可以設定規則，以在資料表和矩陣中顯示不同的圖示集，類似於 Excel 中的圖示集。
+- **群組視覺效果** 現在，您可以在報表頁面上將視覺效果、圖形、文字方塊、影像及按鈕群組在一起，就像在 PowerPoint 中一樣。 當您將物件群組在一起時，可以一起移動這些物件並調整其大小。 群組可讓您更輕鬆地在每個頁面上有許多物件的報表中工作。
+- **新的預設佈景主題** 為了與新的佈景主題 JSON 選項一起使用，我們正在更新可用於報表的佈景主題，以及變更新報表的預設佈景主題。 新預設佈景主題會更妥善地配合 Microsoft 的設計語言，並遵循視覺效果的最佳設計做法。 
+- **更新的窗格設計** ：我們重新整理了大部分的介面。 我們已將所有窗格、頁尾和檢視切換器更新為較淺的色彩、已更新間距，並引進了新的圖示。 新設計是重新整理整個介面的第一個步驟。
 
 以下是完整的功能清單。 
 
@@ -351,7 +473,7 @@ Power BI 報表是互動式報表。 很明顯，報表中的標題會是動態�
 
 #### <a name="improved-security-features"></a>改善的安全性功能
 
-**RestrictedResourceMimeTypeForUpload**，系統管理員可用來指定以逗號分隔的禁用 mime 類型清單，例如 text/html。
+**RestrictedResourceMimeTypeForUpload** ，系統管理員可用來指定以逗號分隔的禁用 mime 類型清單，例如 text/html。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -365,7 +487,7 @@ Power BI 報表中支援下列功能：
 
 [**智慧對齊輔助線**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides)：當您在報表頁面上移動物件時，會看到智慧對齊輔助線 (如同您在 PowerPoint 中看到的一樣)，可協助您對齊頁面上的所有物件。 當您在頁面上拖曳物件或調整其大小時，都會看到智慧輔助線。 當您將某物件移近另一個物件時，它會貼齊該物件。
 
-**協助工具功能**：要列出的協助工具功能非常多，例如[欄位清單窗格協助工具支援](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 欄位清單窗格完全可供存取。 您只需要使用鍵盤和螢幕助讀程式即可瀏覽窗格，並可使用操作功能表將欄位新增到報表頁面。
+**協助工具功能** ：要列出的協助工具功能非常多，例如 [欄位清單窗格協助工具支援](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 欄位清單窗格完全可供存取。 您只需要使用鍵盤和螢幕助讀程式即可瀏覽窗格，並可使用操作功能表將欄位新增到報表頁面。
 
 #### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
@@ -375,9 +497,9 @@ Power BI 報表中支援下列功能：
 
 系統管理員可以在伺服器陣列的 SSMS 進階屬性中設定下列屬性：
 
-**AllowedResourceExtensionsForUpload**：設定可上傳到報表伺服器之資源的延伸模組。 內建檔案類型 (像是 &ast;.rdl 和 &ast;.pbix) 的延伸模組不需要包含在內。 預設為「&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx」。 
+**AllowedResourceExtensionsForUpload** ：設定可上傳到報表伺服器之資源的延伸模組。 內建檔案類型 (像是 &ast;.rdl 和 &ast;.pbix) 的延伸模組不需要包含在內。 預設為「&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx」。 
 
-**SupportedHyperlinkSchemes**：設定允許對可轉譯超連結動作定義的 URI 配置逗點分隔清單，或設定 "&ast;" 啟用所有超連結配置。 例如，設定 "http, https" 會允許 "https://www.contoso.com" 的超連結， 但是會移除 “mailto:bill@contoso.com” 或 “javascript:window.open(‘ www.contoso.com’, ‘_blank’)” 的超連結。 預設為 "&ast;"。
+**SupportedHyperlinkSchemes** ：設定允許對可轉譯超連結動作定義的 URI 配置逗點分隔清單，或設定 "&ast;" 啟用所有超連結配置。 例如，設定 "http, https" 會允許 "https://www.contoso.com" 的超連結， 但是會移除 “mailto:bill@contoso.com” 或 “javascript:window.open(‘ www.contoso.com’, ‘_blank’)” 的超連結。 預設為 "&ast;"。
 
 ## <a name="august-2018"></a>2018 年 8 月
 
@@ -572,7 +694,7 @@ SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正�
 
 #### <a name="export-to-accessible-pdf"></a>匯出至可存取的 PDF
 
-當您將編頁報表 (RDL) 匯出至 PDF 時，您現在可以取得可存取/標記的 PDF 檔案。 雖然其大小更大，但更方便螢幕助讀程式和其他輔助技術讀取和巡覽。 您可以將 **AccessiblePDF** 裝置資訊設定設為 **True**，來啟用可存取的 PDF。 請參閱 [PDF 裝置資訊設定](/sql/reporting-services/pdf-device-information-settings)和[變更裝置資訊設定](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
+當您將編頁報表 (RDL) 匯出至 PDF 時，您現在可以取得可存取/標記的 PDF 檔案。 雖然其大小更大，但更方便螢幕助讀程式和其他輔助技術讀取和巡覽。 您可以將 **AccessiblePDF** 裝置資訊設定設為 **True** ，來啟用可存取的 PDF。 請參閱 [PDF 裝置資訊設定](/sql/reporting-services/pdf-device-information-settings)和[變更裝置資訊設定](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
 
 ### <a name="other-improvements"></a>其他功能改進
 
@@ -593,7 +715,7 @@ Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源�
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>編輯來自伺服器的 Power BI 報表
 
-您可以從伺服器開啟和編輯 Power BI 報表 (.pbix) 檔案，但是您會回到您上傳的原始檔案。 **如果資料已由伺服器重新整理，當您第一次開啟檔案時，不會重新整理資料**。 您必須手動在本機重新整理，才能看到變更。
+您可以從伺服器開啟和編輯 Power BI 報表 (.pbix) 檔案，但是您會回到您上傳的原始檔案。 **如果資料已由伺服器重新整理，當您第一次開啟檔案時，不會重新整理資料** 。 您必須手動在本機重新整理，才能看到變更。
 
 ### <a name="large-file-uploaddownload"></a>大型檔案上傳/下載
 

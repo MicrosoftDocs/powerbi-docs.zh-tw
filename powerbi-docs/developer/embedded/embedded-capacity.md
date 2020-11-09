@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635209"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916927"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI embedded 分析中的容量和 SKU
 
-移至生產環境時，Power BI 內嵌式分析需要專用容量 (*A*、*EM* 或 *P* SKU) 來發佈內嵌 Power BI 內容。
+移至生產環境時，Power BI 內嵌式分析需要容量 ( *A* 、 *EM* 或 *P* SKU) 來發佈內嵌 Power BI 內容。
 
 容量是保留給特別用途的專用資源集。 可讓您將儀表板、報表和資料集發佈給使用者，而不必購買個別使用者授權。 也會為內容提供可靠且一致的效能。
 
@@ -58,7 +58,7 @@ Power BI Embedded 隨附 [*A* SKU](../../admin/service-admin-premium-purchase.md
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium SKU
 
-Power BI Premium 提供兩種 SKU：*P* 和 *EM*。
+Power BI Premium 提供兩種 SKU： *P* 和 *EM* 。
 * [了解 *P* 和 *EM* SKU 之間的差異](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
 * [購買 Premium SKU](../../admin/service-admin-premium-purchase.md)
 
@@ -68,7 +68,7 @@ Power BI Premium 提供兩種 SKU：*P* 和 *EM*。
 
 在此表格中，自訂應用程式是指使用內嵌分析所建立的 Web 應用程式。 當以開發人員的身分 (使用 JavaScript 或 .NET SDK 或 REST API) 內嵌至自訂 Web 應用程式時，可控制和自訂 UX。 當使用其他內嵌選項 (例如 Power BI 服務和 Power BI 行動版) 時，無法使用此功能。
 
-| 案例 | Azure   | Office          |
+| 狀況 | Azure   | Office          |
 |----------|---------|-----------------|
 |          | (A SKU) | (P 和 EM SKU) |
 |[對客戶進行內嵌](embed-sample-for-customers.md)</br>(應用程式擁有資料)     |✔        |✔        |

@@ -6,22 +6,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633200"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132313"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>複製其他工作區的報表
 
 當您在工作區或應用程式中找到喜歡的報表時，您可以複製該報表，然後將它儲存到不同的工作區中。 然後您可以修改您複製的報表、新增或刪除視覺效果和其他項目。 您不需要建立資料模型。 它已經為您建立。 修改現有的報表，比從頭開始要輕鬆許多。 但是，當您從您的工作區製作應用程式時，有時候您無法在應用程式內發佈您的報表複本。 請參閱[＜跨工作區使用資料集＞一文中的考量事項和限制](service-datasets-across-workspaces.md#considerations-and-limitations)以取得詳細資料。
 
-> [!NOTE]
-> 若要進行複製，您將需要 Pro 授權，即使原始報表位於 Premium 容量中的工作區也一樣。
+## <a name="prerequisites"></a>先決條件
+
+- 若要複製報表，您將需要 Pro 授權，即使原始報表位於 Premium 容量中的工作區也一樣。
+- 若要複製報表，或根據其他工作區的資料集在某工作區中建立報表，則需要有該資料集的建置權限。 若是原始工作區中的資料集，具有系統管理員、成員和參與者角色的使用者可透過其工作區角色自動取得建置權限。 如需詳細資料，請參閱[新工作區中的角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
 
 ## <a name="save-a-copy-of-a-report-in-a-workspace"></a>在工作區中儲存報表複本
 
@@ -33,7 +35,7 @@ ms.locfileid: "91633200"
 
     ![儲存報表複本](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    如果報表位在新體驗工作區中，而您有[建置權限](service-datasets-build-permissions.md)，您只會看到**儲存複本**圖示。 即使您可以存取該工作區，您也必須有資料集的建置權限。
+    如果報表位在新體驗工作區中，而您有 [建置權限](service-datasets-build-permissions.md)，您只會看到 **儲存複本** 圖示。 即使您可以存取該工作區，您也必須有資料集的建置權限。
 
 3. 在 [儲存此報表的複本] 中，為報表命名，然後選取目的地工作區。
 
@@ -92,11 +94,11 @@ ms.locfileid: "91633200"
 
 您可能會決定自己已不再需要工作區中的報表和其相關聯的共用資料集。
 
-1. 刪除報表。 在工作區的報表清單中，選取**刪除**圖示。
+1. 刪除報表。 在工作區的報表清單中，選取 **刪除** 圖示。
 
     ![刪除報表圖示](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
 
-2. 在資料集清單中，您會看到共用資料集沒有**刪除**圖示。 請重新整理該頁面，或是移至不同的頁面再返回。 該資料集將會消失。 如果沒有，請檢查 [檢視相關項目]。 它可能與工作區中的另一個資料表相關聯。
+2. 在資料集清單中，您會看到共用資料集沒有 **刪除** 圖示。 請重新整理該頁面，或是移至不同的頁面再返回。 該資料集將會消失。 如果沒有，請檢查 [檢視相關項目]。 它可能與工作區中的另一個資料表相關聯。
 
     ![顯示資料集的螢幕擷取畫面，其中包含用來檢查相關資料表的 [檢視] 相關選項。](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 

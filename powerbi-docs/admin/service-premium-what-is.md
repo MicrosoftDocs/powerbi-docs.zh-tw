@@ -1,6 +1,6 @@
 ---
 title: Microsoft Power BI Premium 是什麼？
-description: Power BI Premium 可為組織提供專用容量，給您更可靠的效能和更大的資料磁碟區，不需要您購買每個使用者授權。
+description: Power BI Premium 可為組織提供容量，讓您擁有更可靠的效能和較大資料磁碟區，而無需購買每個使用者授權。
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7c81f3b624de0692d597cfb6c79f2159a6133593
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 6ff1f445172c553116148ffb212129b96f34b1da
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599000"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916007"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -61,19 +61,19 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 * [串流資料集](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 * [問與答](../create-reports/power-bi-tutorial-q-and-a.md)
 
-工作區存放在容量中。 每個 Power BI 使用者都有個人工作區，稱為**我的工作區**。 可建立額外的工作區 (稱為**工作區**) 來啟用共同作業。 根據預設，工作區 (包括個人工作區) 是在共用容量中建立。 當具有 Premium 容量時，即可將「我的工作區」和工作區指派給 Premium 容量。
+工作區存放在容量中。 每個 Power BI 使用者都有個人工作區，稱為 **我的工作區** 。 可建立額外的工作區 (稱為 **工作區** ) 來啟用共同作業。 根據預設，工作區 (包括個人工作區) 是在共用容量中建立。 當具有 Premium 容量時，即可將「我的工作區」和工作區指派給 Premium 容量。
 
 ### <a name="capacity-nodes"></a>容量節點
 
-如[訂閱和授權](#subscriptions-and-licensing)一節中所述，有兩個 Power BI Premium SKU 系列：**EM** 和 **P**。所有 Power BI Premium SKU 都會當成容量「節點」來提供，每個節點代表由處理器、記憶體和儲存體組成的固定數量資源。 除了資源之外，每個 SKU 對於每秒 DirectQuery 和即時連線數目，以及平行模型重新整理數目具有作業限制。
+如 [訂閱和授權](#subscriptions-and-licensing)一節中所述，有兩個 Power BI Premium SKU 系列： **EM** 和 **P** 。所有 Power BI Premium SKU 都會當成容量「節點」來提供，每個節點代表由處理器、記憶體和儲存體組成的固定數量資源。 除了資源之外，每個 SKU 對於每秒 DirectQuery 和即時連線數目，以及平行模型重新整理數目具有作業限制。
 
 處理是透過在後端與前端之間平均分配的固定數目 V 核心來完成。
 
-**後端 V 核心**負責核心 Power BI 功能，包括查詢處理、快取管理、執行 R 服務、模型重新整理，以及在伺服器端轉譯報表和影像。 後端 V 核心會獲指派固定數量的記憶體，主要用於裝載模型，也稱為使用中資料集。
+**後端 V 核心** 負責核心 Power BI 功能，包括查詢處理、快取管理、執行 R 服務、模型重新整理，以及在伺服器端轉譯報表和影像。 後端 V 核心會獲指派固定數量的記憶體，主要用於裝載模型，也稱為使用中資料集。
 
-**前端 V 核心**負責 Web 服務、儀表板和報表文件管理、存取權限管理、排程、API、上傳和下載，大致上就是與使用者體驗相關的所有作業。
+**前端 V 核心** 負責 Web 服務、儀表板和報表文件管理、存取權限管理、排程、API、上傳和下載，大致上就是與使用者體驗相關的所有作業。
 
-儲存空間會設定為**每個容量節點 100 TB**。
+儲存空間會設定為 **每個容量節點 100 TB** 。
 
 下表描述每個 Premium SKU (及同等大小 A SKU) 的資源和限制：
 
@@ -98,7 +98,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 容量工作負載是提供給使用者的服務。 根據預設，Premium 和 Azure 容量僅支援與執行 Power BI 查詢建立關聯的資料集工作負載。 不可停用資料集工作負載。 可為 [AI (認知服務)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[資料流程](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[編頁報表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)啟用額外的工作負載。 這些工作負載僅在 Premium 訂閱中支援。 
 
-每個額外工作負載都可讓您設定工作負載所能使用的最大記憶體 (以總可用記憶體百分比表示)。 最大記憶體的預設值是由 SKU 決定。 您可以透過只在使用時才啟用這些額外的工作負載，最大限度地提高容量的可用資源。 此外，您可以只在已確定預設設定不符合您的容量資源需求時，才變更記憶體設定。 容量管理員可以使用[管理入口網站](service-admin-portal.md)中的**容量設定**或使用[容量 REST API](/rest/api/power-bi/capacities)，為容量啟用和設定工作負載。  
+每個額外工作負載都可讓您設定工作負載所能使用的最大記憶體 (以總可用記憶體百分比表示)。 最大記憶體的預設值是由 SKU 決定。 您可以透過只在使用時才啟用這些額外的工作負載，最大限度地提高容量的可用資源。 此外，您可以只在已確定預設設定不符合您的容量資源需求時，才變更記憶體設定。 容量管理員可以使用 [管理入口網站](service-admin-portal.md)中的 **容量設定** 或使用 [容量 REST API](/rest/api/power-bi/capacities)，為容量啟用和設定工作負載。  
 
 ![啟用工作負載](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -129,7 +129,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 ### <a name="regional-support"></a>區域支援
 
-建立新容量時，全域管理員和 Power BI 服務管理員可以為指派給容量的工作區指定存放區域。 這稱為**多地理位置**。 透過多地理位置，組織可藉由將內容部署到位於特定區域的資料中心以符合資料落地需求，即使該區域不同於 Microsoft 365 訂閱所在區域也可行。 若要深入了解，請參閱 [Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)。
+建立新容量時，全域管理員和 Power BI 服務管理員可以為指派給容量的工作區指定存放區域。 這稱為 **多地理位置** 。 透過多地理位置，組織可藉由將內容部署到位於特定區域的資料中心以符合資料落地需求，即使該區域不同於 Microsoft 365 訂閱所在區域也可行。 若要深入了解，請參閱 [Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)。
 
 ### <a name="capacity-management"></a>容量管理
 
@@ -157,7 +157,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 ![顯示 Power BI 管理入口網站中容量健全狀況的螢幕擷取畫面。](media/service-premium-what-is/premium-admin-portal-health.png)
 
-**Power BI Premium 容量計量**應用程式提供您容量如何執行的最深入資訊。 此應用程式提供高階儀表板和更詳細的報表。
+**Power BI Premium 容量計量** 應用程式提供您容量如何執行的最深入資訊。 此應用程式提供高階儀表板和更詳細的報表。
 
 ![度量應用程式儀表板](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
@@ -205,7 +205,7 @@ Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。
 
 ## <a name="incremental-refresh"></a>累加式重新整理
 
-累加式重新整理是在 Power BI Premium 與 Power BI Pro 中擁有並維護大型資料集不可或缺的一部分。 累加式重新整理有許多好處。例如，重新整理會變快，因為只需要重新整理已變更的資料。 重新整理更可靠，因為不需要維護易變資料來源的長時間執行連線。 減少資源耗用量，因為要重新整理的資料較少可減少記憶體和其他資源的整體耗用。 累加式重新整理原則定義於 **Power BI Desktop**，並在發佈到 Premium 容量中的工作區時套用。 
+累加式重新整理是在 Power BI Premium 與 Power BI Pro 中擁有並維護大型資料集不可或缺的一部分。 累加式重新整理有許多好處。例如，重新整理會變快，因為只需要重新整理已變更的資料。 重新整理更可靠，因為不需要維護易變資料來源的長時間執行連線。 減少資源耗用量，因為要重新整理的資料較少可減少記憶體和其他資源的整體耗用。 累加式重新整理原則定義於 **Power BI Desktop** ，並在發佈到 Premium 容量中的工作區時套用。 
 
 ![重新整理詳細資料](media/service-premium-incremental-refresh/refresh-details.png)
 
@@ -237,7 +237,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium 中的 Analysis Services (預覽)
 
-實際上，Power BI Premium 工作區和資料集受到經企業實證的 Microsoft **Analysis Services Vertipaq 引擎**支援。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 根據預設，Power BI Premium 容量資料集工作負載透過 **XMLA 端點**支援來自 Microsoft 和第三方用戶端應用程式與工具的「唯讀」作業。 容量管理員也可以選擇停用或允許透過端點的「讀取/寫入」 作業。
+實際上，Power BI Premium 工作區和資料集受到經企業實證的 Microsoft **Analysis Services Vertipaq 引擎** 支援。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 根據預設，Power BI Premium 容量資料集工作負載透過 **XMLA 端點** 支援來自 Microsoft 和第三方用戶端應用程式與工具的「唯讀」作業。 容量管理員也可以選擇停用或允許透過端點的「讀取/寫入」 作業。
 
 具有唯讀存取權，Microsoft 工具 (例如 SQL Server Management Studio (SSMS) 和 SQL Server Profiler) 和第三方應用程式 (例如 DAX Studio 和資料視覺效果應用程式) 可以連線到 Premium 資料集，並使用 XMLA、DAX、MDX、DMV 和追蹤事件進行查詢。 具有讀取/寫入存取權，企業資料模型工具 (例如 Visual Studio 與 Analysis Services 專案延伸模組或開放原始碼表格式編輯器) 可以將表格式模型當做資料集部署至 Premium 工作區。 使用 SSMS 這類工具，系統管理員可以使用表格式模型指令碼語言 (TMSL) 來編寫中繼資料變更和進階資料重新整理案例的指令碼。 
 

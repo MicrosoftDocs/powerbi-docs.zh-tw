@@ -8,17 +8,26 @@ featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/19/2020
-ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/16/2020
+ms.openlocfilehash: 2c136f4d81a9cb1c1904c3a06b58271391c76c23
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859650"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297753"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>什麼是 Power BI Premium 中的編頁報表？
 
-*編頁報表*是設計用來進行列印或共用。 這些報表稱為「編頁」，因為已將其格式化，可適當地符合頁面。 即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。 它們亦稱為「完美像素」，因為您可以完全控制其報表頁面配置。 Power BI 報表產生器是用於撰寫編頁報表的獨立工具。 編頁報表中長期以來是以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+*編頁報表* 是設計用來進行列印或共用。 這些報表稱為「編頁」，因為已將其格式化，可適當地符合頁面。 即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。 它們亦稱為「完美像素」，因為您可以完全控制其報表頁面配置。 Power BI 報表產生器是撰寫 Power BI 服務編頁報表的獨立工具。 
+
+如已準備好開始，以下是一些快速連結：
+
+- [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)
+- [教學課程：建立編頁報表](paginated-reports-quickstart-aw.md)
+- [範例 Power BI 編頁報表](paginated-reports-samples.md)
+- 正在尋找 Power BI 報表伺服器或 SQL Server Reporting Services 報表產生器的相關資訊嗎？ 請改參閱[安裝報表產生器 - Power BI 報表伺服器](../report-server/install-report-builder.md)。
 
 編頁報表通常會有許多頁面。 例如，此報表有 563 頁。 每頁都有精確的版面配置，每個發票一頁並重複頁首和頁尾。
 
@@ -98,5 +107,6 @@ ms.locfileid: "90859650"
 - [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)
 - [教學課程：建立編頁報表](paginated-reports-quickstart-aw.md)
 - [線上課程：Power BI 編頁報表一日上手](../learning-catalog/paginated-reports-online-course.md)
+- [範例 Power BI 編頁報表](paginated-reports-samples.md)
 - [直接在編頁報表中輸入資料](paginated-reports-enter-data.md)
 - [教學課程：為客戶將 Power BI 編頁報表內嵌至應用程式](../developer/embedded/embed-paginated-reports-customers.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3a541c46f78c5e5cd25b47a94394a011fd61954f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278599"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916536"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI 最佳化指南
 
@@ -83,7 +83,7 @@ Power BI 編頁報表設計可以透過將最佳做法設計套用至報表的�
 
 ### <a name="capacity-settings"></a>容量設定
 
-使用 Power BI Premium (P SKU) 或 Power BI Embedded (A SKU，A4-A6) 提供的專用容量時，您可以管理容量設定。 如需詳細資訊，請參閱[管理 Premium 容量](../admin/service-premium-capacity-manage.md)。 如需如何最佳化容量的指導方針，請參閱[最佳化 Premium 容量](../admin/service-premium-capacity-optimize.md)。
+使用 Power BI Premium (P SKU) 或 Power BI Embedded (A SKU，A4-A6) 提供的容量時，您可管理容量設定。 如需詳細資訊，請參閱[管理 Premium 容量](../admin/service-premium-capacity-manage.md)。 如需如何最佳化容量的指導方針，請參閱[最佳化 Premium 容量](../admin/service-premium-capacity-optimize.md)。
 
 ### <a name="gateway-sizing"></a>閘道大小調整
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85622b457d1c2eda0af51e0c7190d2691c259a82
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746186"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916490"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -117,7 +117,7 @@ Power BI 需要您使用組織帳戶註冊。 不支援使用 Microsoft 帳戶�
 * [Rest API](/rest/api/power-bi-embedded/) 
 * [Powershell Cmdlet](/powershell/module/azurerm.powerbiembedded/)
 
-### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解決方案中的 PBI Embedded 專用容量角色是什麼？
+### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解決方案中的 PBI Embedded 容量角色是什麼？
 
 若要[將解決方案升階到生產環境](embed-sample-for-customers.md#move-to-production)，您需要將應用程式使用的 Power BI 內容 (工作區) 指派至 Power BI Embedded (A SKU) 容量。
 
@@ -176,7 +176,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>我可以內嵌哪些內容套件資料類型？
 
-您「不能」  內嵌從內容套件資料集建置的**儀表板**和**磚**。 但是，您「可以」  內嵌從內容套件資料集建置的**報表**。
+您「不能」  內嵌從內容套件資料集建置的 **儀表板** 和 **磚** 。 但是，您「可以」  內嵌從內容套件資料集建置的 **報表** 。
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>使用資料列層級安全性 (RLS) 和 JavaScript篩選的差別在哪裡？
 
@@ -270,7 +270,7 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="what-is-power-bi-workspace-collection"></a>什麼是 Power BI 工作區集合？
 
-**Power BI 工作區集合** (**Power BI Embedded** 第 1 版) 是一個以 **Power BI 工作區集合** Azure 資源為基礎的解決方案。 此解決方案可讓您透過使用「Power BI 工作區集合」  解決方案底下的 Power BI 內容、專用 API 與工作區集合金鑰來向 Power BI 驗證應用程式，為客戶建立 **Power BI Embedded** 應用程式。
+**Power BI 工作區集合** ( **Power BI Embedded** 第 1 版) 是一個以 **Power BI 工作區集合** Azure 資源為基礎的解決方案。 此解決方案可讓您透過使用「Power BI 工作區集合」  解決方案底下的 Power BI 內容、專用 API 與工作區集合金鑰來向 Power BI 驗證應用程式，為客戶建立 **Power BI Embedded** 應用程式。
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>我是否可以從「Power BI 工作區集合」移轉至 Power BI Embedded？
 
@@ -278,7 +278,7 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 2. 從使用 Power BI 內容的 **Power BI Embedded** 應用程式 POC 開始著手。
 
-3. 做好進入生產環境的準備之後，購買 **Power BI Embedded** 專用容量，然後將您的 Power BI 內容 (工作區) 指派給該容量。
+3. 做好進入生產環境的準備之後，請購買 **Power BI Embedded** 容量，然後將 Power BI 內容 (工作區) 指派給該容量。
 
     > [!Note]
     > 您可以在以 **Power BI Embedded** 解決方案平行進行建置的同時，繼續使用「Power BI 工作區集合」  。 準備就緒之後，您便可以將客戶移至新的 **Power BI Embedded** 解決方案，然後淘汰「Power BI 工作區集合」  解決方案。
@@ -287,9 +287,9 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Power BI 工作區集合是否即將淘汰？
 
-是，但已經在使用 **Power BI 工作區集合**解決方案的客戶可以繼續使用，直到淘汰為止。 客戶也可以建立新的工作區集合，以及任何仍然使用「Power BI 工作區集合」  解決方案的 **Power BI Embedded** 應用程式。
+是，但已經在使用 **Power BI 工作區集合** 解決方案的客戶可以繼續使用，直到淘汰為止。 客戶也可以建立新的工作區集合，以及任何仍然使用「Power BI 工作區集合」  解決方案的 **Power BI Embedded** 應用程式。
 
-不過，這也表示任何 **Power BI 工作區集合**解決方案都不會再新增新功能。 我們鼓勵客戶規劃移轉至新的 **Power BI Embedded** 解決方案。
+不過，這也表示任何 **Power BI 工作區集合** 解決方案都不會再新增新功能。 我們鼓勵客戶規劃移轉至新的 **Power BI Embedded** 解決方案。
 
 ### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>何時會中止「Power BI 工作區集合」支援？
 
@@ -301,10 +301,10 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>為何我應該從「Power BI 工作區集合」移轉至 Power BI Embedded？
 
-**Power BI Embedded** 解決方案具有 **Power BI 工作區集合**所沒有的一些新功能和處理能力。
+**Power BI Embedded** 解決方案具有 **Power BI 工作區集合** 所沒有的一些新功能和處理能力。
 
 一些功能包括：
-* 所有 PBI 資料來源都收到支援。 僅支援兩個 **Power BI 工作區集合**資料來源受到。 
+* 所有 PBI 資料來源都收到支援。 僅支援兩個 **Power BI 工作區集合** 資料來源受到。 
 * 問與答、重新整理、書籤、內嵌儀表板與圖格以及自訂功能表等新功能只有在 **Power BI Embedded** 解決方案中才有支援。
 * 容量計費模型。
 
@@ -321,9 +321,9 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>我已經下載了應用程式範例，要選擇哪個解決方案？
 
-若您使用**為客戶進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\App Owns Data*資料夾，然後執行 *PowerBIEmbedded_AppOwnsData.sln* 檔案。
+若您使用 **為客戶進行內嵌** 體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\App Owns Data* 資料夾，然後執行 *PowerBIEmbedded_AppOwnsData.sln* 檔案。
 
-若您使用**為組織進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 資料夾，然後執行 *pbi-saas-embed-report.sln* 檔案。
+若您使用 **為組織進行內嵌** 體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 資料夾，然後執行 *pbi-saas-embed-report.sln* 檔案。
 
 ### <a name="how-can-i-edit-my-registered-application"></a>如何編輯已註冊的應用程式？
 

@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: f433a90580034495b4f7b1f6201c4481ffc627c5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859857"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298189"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 編頁報表支援的資料來源
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 在本文中，您將了解 Power BI 服務編頁報表支援的資料來源，以及如何連接 Azure SQL Database 資料來源。 有些資料來源是以原生方式來支援。 您可以透過資料閘道連接其他資料來源。
 
@@ -65,9 +67,9 @@ ms.locfileid: "90859857"
 
 - 基本 (使用者名稱和密碼)
 - SSO (單一登入)
-- OAuth2 (預存 AAD 權杖)
+- OAuth2 (已儲存的 Azure Active Directory 權杖)
 
-若要讓 SSO 和 OAuth2 正常運作，資料來源連接的 Azure SQL Database 伺服器必須[啟用 AAD 驗證支援](/azure/sql-database/sql-database-aad-authentication-configure)。 針對 OAuth2 驗證方法，AAD 會產生權杖並加以儲存以用於未來的資料來源存取。 若要改為使用 [SSO 驗證方法](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on)，請選取正下方的 SSO 選項 [終端使用者在透過 DirectQuery 存取此資料來源時，使用自己的 OAuth2 認證] 。
+若要讓 SSO 和 OAuth2 正常運作，資料來源連線的 Azure SQL Database 伺服器必須[啟用 Azure Active Directory 驗證支援](/azure/sql-database/sql-database-aad-authentication-configure)。 針對 OAuth2 驗證方法，Azure Active Directory 會產生權杖，並儲存以供存取未來的資料來源。 若要改為使用 [SSO 驗證方法](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on)，請選取正下方的 SSO 選項 [終端使用者在透過 DirectQuery 存取此資料來源時，使用自己的 OAuth2 認證] 。
   
 ## <a name="next-steps"></a>後續步驟
 

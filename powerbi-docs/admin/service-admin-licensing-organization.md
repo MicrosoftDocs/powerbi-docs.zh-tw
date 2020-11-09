@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 825b336a96b998c04b019195ad3f3beea96d0a19
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 86a28c1d89537a59bf96d82fb3df87a4a0ccf391
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857281"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916076"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>將 Power BI 服務授權提供給組織中的使用者
 
@@ -84,7 +84,7 @@ Power BI 個別使用者授權有兩種：免費和 Pro。 使用者需要哪種
 
 使用標準自助 Power BI Pro 訂用帳戶時，管理員可以指派個別使用者授權。 Power BI Pro 授權會針對每位使用者按月收費。 此授權類型可進行共同作業、發佈、共用以及特定分析。 內容會儲存到完全由 Microsoft 管理的共用儲存體容量。
 
-Power BI Premium 訂用帳戶會為組織配置專用容量。 Premium 適用於企業 BI、巨量資料分析及雲端與內部部署報告，可提供進階的管理和部署控制。 專用計算與儲存體資源是由您組織中的容量管理員所管理。 此專用環境有每月費用。 除了其他 Premium 優點之外，儲存在 Premium 容量中的內容還可供沒有 Power BI Pro 授權的使用者存取，以及散發給這些使用者。 必須至少有一位使用者獲指派 Power BI Pro 授權，才能使用 Premium，而內容建立者與開發人員則仍然需要 Power BI Pro 授權。
+Power BI Premium 訂閱會為組織配置容量。 Premium 適用於企業 BI、巨量資料分析及雲端與內部部署報告，可提供進階的管理和部署控制。 專用計算與儲存體資源是由您組織中的容量管理員所管理。 此專用環境有每月費用。 除了其他 Premium 優點之外，儲存在 Premium 容量中的內容還可供沒有 Power BI Pro 授權的使用者存取，以及散發給這些使用者。 必須至少有一位使用者獲指派 Power BI Pro 授權，才能使用 Premium，而內容建立者與開發人員則仍然需要 Power BI Pro 授權。
 
 這兩種訂用帳戶類型並不互斥。 您可以同時具備 Power BI Premium 和 Power BI Pro。 在此組態中，儲存在 Premium 容量中的內容可以與所有使用者共用，且共用容量也可供使用。 如需有關容量限制的資訊，請參閱[管理 Power BI 工作區中的資料儲存體](service-admin-manage-your-data-storage-in-power-bi.md)。
 

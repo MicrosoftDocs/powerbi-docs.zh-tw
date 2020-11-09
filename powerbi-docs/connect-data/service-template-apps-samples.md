@@ -1,33 +1,34 @@
 ---
 title: 範本應用程式範例
-description: 供個人使用或以 AppSource Power BI 應用程式的形式轉散發的範例
+description: 供個人使用或以 AppSource 範本應用程式形式轉散發的範例
 author: paulinbar
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 10/28/2020
 ms.author: painbar
-ms.openlocfilehash: 177d04f370e5aea0525882abe6900d6bee012c5a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: da044d3507e649f8a1af4258506961d26aa4ab37
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235571"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045096"
 ---
 # <a name="template-apps-samples"></a>範本應用程式範例
 
-本文件的目的是與 Power BI 使用者共用範本應用程式範例。 將它們用於個人用途或在 AppSource 上轉散發。 範例為 pbix 檔案格式，且可以使用 Power BI Desktop 來撰寫。
+本文件旨在提供可自訂的範本，以建立您自己的應用程式。  
+這些範本可供個人使用，或在 Microsoft AppSource 上發佈為範本應用程式。 這些範例是以 Power BI Desktop 檔案 (.pbix) 的形式提供。
 
-## <a name="connection-additional-related-accounts"></a>連線，其他相關帳戶
+## <a name="prerequisites"></a>先決條件
 
 這些範例可能需要具有相關服務擁有者的其他使用者帳戶。  下列範本適用於此[授權條款](https://templateapps.blob.core.windows.net/sampletemplateapps/Sample-Templates-for-app-on-appsource.pdf)。
 
-## <a name="downloadable-template-apps-samples"></a>可下載的範本應用程式範例
+## <a name="downloadable-apps-template-samples"></a>可下載的應用程式範本範例
 
 * [範本應用程式建立作業的範本範例](https://templateapps.blob.core.windows.net/sampletemplateapps/TemplateforTemplateApps.zip)
-* [LinkedIn Sales Navigator Analytics Integration](https://templateapps.blob.core.windows.net/sampletemplateapps/SalesNavigatorTemplate.pbix)
-* [Github](https://templateapps.blob.core.windows.net/sampletemplateapps/GitHub.pbix)
+* [LinkedIn Sales Navigator 分析整合](https://templateapps.blob.core.windows.net/sampletemplateapps/SalesNavigatorTemplate.pbix)
+* [GitHub](https://templateapps.blob.core.windows.net/sampletemplateapps/GitHub.pbix)
 * [Mailchimp](https://templateapps.blob.core.windows.net/sampletemplateapps/MailChimp.pbix)
 * [QuickBooks Online](https://templateapps.blob.core.windows.net/sampletemplateapps/QuickBooksOnline.pbix)
 * [Google Analytics](https://templateapps.blob.core.windows.net/sampletemplateapps/GoogleAnalytics.pbix)
