@@ -8,7 +8,7 @@
         - name: 查詢編輯器概觀
           href: desktop-query-overview.md
         - name: 使用資料流程的自助資料準備
-          href: service-dataflows-overview.md
+          href: ./dataflows/dataflows-introduction-self-service.md
     - name: 教學課程
       expanded: true
       items:
@@ -98,39 +98,39 @@
         - name: 自助資料準備
           items:
             - name: 建立及使用資料流程
-              href: service-dataflows-create-use.md
+              href: ./dataflows/dataflows-create.md
             - name: 在 Power BI 中使用資料流程的 DirectQuery 功能 (預覽)
-              href: service-dataflows-directquery.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 將增強型計算引擎與資料流程搭配使用
-              href: service-dataflows-enhanced-compute-engine.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 使用 Power BI Premium 的計算實體
-              href: service-dataflows-computed-entities-premium.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 透過資料流程連線到資料來源
-              href: service-dataflows-data-sources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 搭配內部部署資料來源使用資料流程
-              href: service-dataflows-on-premises-gateways.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 在資料流程之間連結實體
-              href: service-dataflows-linked-entities.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 搭配資料流程使用累加式重新整理
-              href: service-dataflows-incremental-refresh.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 資料流程的開發人員資源
-              href: service-dataflows-developer-resources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 在 Power BI Desktop 中連線到資料流程
               href: desktop-connect-dataflows.md
             - name: 資料流程與 Azure Data Lake 整合 (預覽)
-              href: service-dataflows-azure-data-lake-integration.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: 連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體
-              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: 設定工作區資料流程設定 (預覽)
-              href: service-dataflows-configure-workspace-storage-settings.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
-              href: service-dataflows-add-cdm-folder.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: 在 Power BI 中整合機器學習服務
-              href: service-machine-learning-integration.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: 在 Power BI 中使用認知服務
-              href: service-cognitive-services.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Power BI 中的自動化機器學習
-              href: service-machine-learning-automated.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: 參考
       items:
         - name: 公式編輯器快速鍵

@@ -21,7 +21,7 @@
             - name: 停用 Power Query 背景重新整理
               href: power-query-background-refresh.md
             - name: 資料流程的最佳做法
-              href: ../transform-model/service-dataflows-best-practices.md
+              href: ../transform-model/dataflows/dataflows-introduction-self-service.md
         - name: 資料模型化
           items:
             - name: 什麼是星型結構描述？
