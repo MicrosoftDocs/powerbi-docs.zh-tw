@@ -17,7 +17,7 @@ ms.locfileid: "88803200"
 ---
 # <a name="createcontenttomigratetopowerbi"></a>建立內容以移轉到 Power BI
 
-本文描述**第 4 階段**，這與移轉到 Power BI 時建立與驗證內容相關。
+本文描述 **第 4 階段** ，這與移轉到 Power BI 時建立與驗證內容相關。
 
 :::image type="content" source="media/powerbi-migration-create-validate-content/migrate-to-powerbi-stage-4.png" alt-text="顯示 Power BI 移轉階段的影像。本文的重點在於第 4 階段。":::
 
@@ -26,21 +26,21 @@ ms.locfileid: "88803200"
 
 第 4 階段的重點是執行實際工作，以將概念證明 (POC) 轉換為可供生產環境使用的解決方案。
 
-此階段的結果是已在開發工作區中驗證，並已準備好部署到生產的 Power BI 解決方案。
+此階段會產出一個已在開發工作區中經過驗證、並已準備好部署到生產的 Power BI 解決方案。
 
 > [!TIP]
 > 本文中討論的大部分主題也適用於標準 Power BI 實作專案。
 
 ## <a name="create-the-production-solution"></a>建立生產解決方案
 
-此時，執行 POC 的相同人員可能會繼續製作生產環境就緒 Power BI 解決方案。 或者會改換不同的人員。 如果時間表沒有延遲，則很適合讓負責未來 Power BI 開發的人員參與。 如此一來，其即可主動學習。
+此時，要供生產環境使用的 Power BI 解決方案，可由執行 POC 的同一人員繼續製作， 也可改由不同的人員接手。 只要不會延誤時程，則更建議讓未來負責 Power BI 開發的人員參與。 如此一來，其即可主動學習。
 
 > [!IMPORTANT]
 > 盡可能重複使用 POC 中的大部分工作。
 
 ### <a name="develop-new-import-dataset"></a>開發新的匯入資料集
 
-當不存在符合您需求的現有 Power BI 資料集，或若其無法加以增強以符合需求時，即可選擇建立新的匯入資料集。
+如果現有的 Power BI 資料集都不符合您的需求，或者無法加以增強來符合需求時，您可以選擇建立新的匯入資料集。
 
 理想的情況是，從一開始就考慮將資料及報表的開發工作分離。 [將資料及報表分離](report-separate-from-model.md)將在不同人員負責資料模型化及報表時，有助於分離工作與權限。 這種方式可提供更具擴充性的方法，並鼓勵重複使用資料。
 
