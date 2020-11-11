@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600371"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397177"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教學課程：在 Power BI 中使用認知服務
 
@@ -142,11 +142,11 @@ in
 
 ![顯示 [編輯查詢] 的螢幕擷取畫面，其中已選取 [所有見解]，並顯示了一個警告。](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
 
-接下來，請使用您的**組織帳戶**登入。
+接下來，請使用您的 **組織帳戶** 登入。
 
 ![顯示 [輸入認證] 對話方塊的螢幕擷取畫面，可於其中指定組織帳戶。](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-選取「標記影像」函式，在資料行欄位中輸入 _[Binary]_ ，並在文化特性資訊欄位中輸入 _en_。 
+選取「標記影像」函式，在資料行欄位中輸入 _[Binary]_ ，並在文化特性資訊欄位中輸入 _en_ 。 
 
 > [!NOTE]
 > 您目前無法使用下拉式清單挑選資料行，我們會盡快在個人預覽版發佈期間解決這個問題。
@@ -175,11 +175,11 @@ in
 您會在此教學課程中，將情感評分和「影像標記」函式套用在 Power BI 資料流程上。 請參閱下列文章，以深入了解 Power BI 中的認知服務。
 
 * [Azure 中的認知服務帳戶](/azure/cognitive-services/)
-* [在資料流程上開始使用自助資料準備](../transform-model/service-dataflows-overview.md)
+* [在資料流程上開始使用自助資料準備](../transform-model/dataflows/dataflows-introduction-self-service.md)
 * 深入了解 [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/)
 
 您可能也會對下列文章感興趣。
 
 * [教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型 (預覽)](service-tutorial-invoke-machine-learning-model.md)
-* [Power BI 與 Azure Machine Learning 的整合 (預覽)](../transform-model/service-machine-learning-integration.md)
-* [Power BI 中的認知服務 (預覽)](../transform-model/service-cognitive-services.md)
+* [Power BI 與 Azure Machine Learning 的整合 (預覽)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
+* [Power BI 中的認知服務 (預覽)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

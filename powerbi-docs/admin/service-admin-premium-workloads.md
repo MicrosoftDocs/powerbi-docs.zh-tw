@@ -9,16 +9,16 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4cf0c4fbdde52181dbc5307a9d97d17344c7c26
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632840"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396326"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
-本文描述如何啟用及設定 Power BI Premium 容量的工作負載。 根據預設，容量僅支援與執行 Power BI 查詢建立關聯的工作負載。 您也可以啟用及設定 **[AI (認知服務)](../transform-model/service-cognitive-services.md)** 、 **[資料流程](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** 和 **[分頁報表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** 的其他工作負載。
+本文描述如何啟用及設定 Power BI Premium 容量的工作負載。 根據預設，容量僅支援與執行 Power BI 查詢建立關聯的工作負載。 您也可以啟用及設定 **[AI (認知服務)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** 、 **[資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)** 和 **[分頁報表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** 的其他工作負載。
 
 ## <a name="default-memory-settings"></a>預設記憶體設定
 
@@ -41,7 +41,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 |---------------------------------|----------------------------------------|
 | **最大記憶體 (%)** | AI 處理序可在容量中使用的可用記憶體百分比上限。 |
 | **允許從 Power BI Desktop 使用** | 此設定會保留供日後使用，且不會出現在所有租用戶中。 |
-| **允許建置機器學習模型** | 指定商務分析師是否可以直接在 Power BI 中定型、驗證和叫用機器學習模型。 如需詳細資訊，請參閱 [Power BI 中的自動化機器學習 (預覽)](../transform-model/service-machine-learning-automated.md)。 |
+| **允許建置機器學習模型** | 指定商務分析師是否可以直接在 Power BI 中定型、驗證和叫用機器學習模型。 如需詳細資訊，請參閱 [Power BI 中的自動化機器學習 (預覽)](../transform-model/dataflows/dataflows-machine-learning-integration.md)。 |
 | **啟用 AI 要求的平行處理原則** | 指定 AI 要求是否可以平行執行。 |
 |  |  |
 
@@ -118,7 +118,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 
 這項設定適用於單一查詢，而不是執行與更新資料集或報表建立關聯的所有查詢所需時間長度。 請考慮下列範例：
 
-- **查詢逾時**設定為 1200 (20 分鐘)。
+- **查詢逾時** 設定為 1200 (20 分鐘)。
 - 有五個要執行的查詢，每個都執行 15 分鐘。
 
 所有查詢的時間總和為 75 分鐘，但並未達到設定限制，因為所有個別查詢執行都少於 20 分鐘。
@@ -191,7 +191,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 
 1. 啟用一或多個工作負載，並設定 [最大記憶體] 及其他設定的值。
 
-1. 選取 [ **套用**]。
+1. 選取 [ **套用** ]。
 
 ### <a name="rest-api"></a>REST API
 
@@ -209,7 +209,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 ## <a name="next-steps"></a>後續步驟
 
 [將 Power BI Premium 容量最佳化](service-premium-capacity-optimize.md)
-[Power BI 中透過資料流程進行的自助資料準備](../transform-model/service-dataflows-overview.md)
+[Power BI 中透過資料流程進行的自助資料準備](../transform-model/dataflows/dataflows-introduction-self-service.md)
 [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 [Power BI Desktop 自動重新整理頁面 (預覽)](../create-reports/desktop-automatic-page-refresh.md)
 

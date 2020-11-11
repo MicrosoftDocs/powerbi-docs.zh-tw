@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a2622d2d3da5e4149e93a2b4b6f04dc87b55d9e1
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92917019"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397499"
 ---
 # <a name="ai-with-dataflows"></a>使用資料流程的 AI
 
@@ -28,7 +28,7 @@ ms.locfileid: "92917019"
 
 您可使用 Power BI 中的認知服務，套用 [Azure 認知服務](https://azure.microsoft.com/services/cognitive-services/)中的不同演算法，在資料流程的自助資料準備中豐富資料。
 
-目前支援的服務包括[情感分析](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[關鍵片語擷取](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[語言偵測](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)和[影像標記](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)。 轉換會在 Power BI 服務中執行，且不需要訂閱 Azure 認知服務。 此功能需要 Power BI Premium。
+目前支援的服務包括[情感分析](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[關鍵片語擷取](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[語言偵測](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)和[影像標記](/azure/cognitive-services/computer-vision/concept-tagging-images)。 轉換會在 Power BI 服務中執行，且不需要訂閱 Azure 認知服務。 此功能需要 Power BI Premium。
 
 ### <a name="enabling-ai-features"></a>**啟用 AI 功能**
 
@@ -72,7 +72,7 @@ ms.locfileid: "92917019"
 
 語言偵測函式會評估文字輸入，並針對每個欄位，傳回語言名稱和 ISO 識別碼。 此函式用於收集未知語言之任意文字的資料行。 此函式預期以文字格式的資料作為輸入。
 
-文字分析最多可辨識 120 種語言。 如需詳細資訊，請參閱[支援的語言](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
+文字分析最多可辨識 120 種語言。 如需詳細資訊，請參閱[支援的語言](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
 
 #### <a name="extract-key-phrases"></a>**擷取關鍵片語**
 
@@ -88,7 +88,7 @@ ms.locfileid: "92917019"
 
 情感分析是針對整個輸入欄位進行的，而不是擷取文字中特定實體的情感。 在實務上，當文件包含一個或兩個句子，而不是大型文字區塊時，精確度評分有提高的趨勢。 在客觀性評估階段，此模型會判斷整體的輸入欄位是客觀的還是包含情感的。 大部分客觀的輸入欄位不會進展到情感偵測階段，進而導致分數為 .50，而不會進行進一步的處理。 對於在管線中繼續的輸入欄位，下一個階段會產生高於或低於 .50 的分數，端視輸入欄位中偵測到的情感程度而定。
 
-目前，情感分析支援英文、德文、西班牙文和法文。 其他語言目前為預覽版。 如需詳細資訊，請參閱[支援的語言](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
+目前，情感分析支援英文、德文、西班牙文和法文。 其他語言目前為預覽版。 如需詳細資訊，請參閱[支援的語言](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
 
 #### <a name="tag-images"></a>**標記映像**
 
@@ -96,7 +96,7 @@ ms.locfileid: "92917019"
 
 上傳影像或指定影像 URL 之後，電腦視覺演算法會根據物體、生物和影像中識別的動作，輸出標記。 標記不限於主體 (例如在前景的人)，但也包含環境 (室內或戶外)、傢俱、工具、植物、動物、配件、小工具等等。
 
-此函式需要影像 URL 或 abase 64 欄位作為輸入。 目前，影像標記支援英文、西班牙文、日文、葡萄牙文及簡體中文。 如需詳細資訊，請參閱[支援的語言](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)。
+此函式需要影像 URL 或 abase 64 欄位作為輸入。 目前，影像標記支援英文、西班牙文、日文、葡萄牙文及簡體中文。 如需詳細資訊，請參閱[支援的語言](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)。
 
 ## <a name="automated-machine-learning-in-power-bi"></a>Power BI 中的自動化機器學習
 
@@ -114,7 +114,7 @@ Power BI 中的 AutoML 可讓資料分析師單純使用 Power BI 的技能，�
 
 AutoML 支援建立資料流程的 **二元預測** 、 **分類** 和 **迴歸** 模型。 上述是監督式機器學習技術的類型，這表示其會從過去觀察的已知結果中學習，以預測其他觀察的結果。 您會使用一組含已知結果 **標示** 的記錄，作為定型 AutoML 模型的輸入資料集。
 
-Power BI 中的 AutoML 會整合 [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) 的[自動化 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)，以建立您的 ML 模型。 不過，您不需要 Azure 訂用帳戶，就能在 Power BI 中使用 AutoML。 ML 模型的定型和裝載程序完全由 Power BI 服務來管理。
+Power BI 中的 AutoML 會整合 [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml) 的[自動化 ML](/azure/machine-learning/service/concept-automated-ml)，以建立您的 ML 模型。 不過，您不需要 Azure 訂用帳戶，就能在 Power BI 中使用 AutoML。 ML 模型的定型和裝載程序完全由 Power BI 服務來管理。
 
 在 ML 模型定型之後，AutoML 會自動產生 Power BI 報表，說明您 ML 模型可能的效能情況。 AutoML 會醒目提示您輸入中影響模型所傳回預測的關鍵影響因數，以強調可解釋性。 這份報表也會包含模型的關鍵計量。
 
@@ -374,8 +374,8 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 若要深入了解 Azure Machine Learning，請參閱：
 
-- 概觀：[什麼是 Azure Machine Learning 服務？](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Azure Machine Learning 的快速入門與教學課程：[Azure Machine Learning 文件](https://docs.microsoft.com/azure/machine-learning/)
+- 概觀：[什麼是 Azure Machine Learning 服務？](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Azure Machine Learning 的快速入門與教學課程：[Azure Machine Learning 文件](/azure/machine-learning/)
 
 > [!NOTE]
 > 需要 Power BI Premium 訂閱，才能使用 Azure Machine Learning 整合。
@@ -387,7 +387,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 - 針對 Machine Learning Studio (傳統) 模型，需要對 Machine Learning Studio (傳統) Web 服務的 **讀取** 存取權
 - 針對 Machine Learning 模型，需要對 Machine Learning 工作區的 **讀取** 存取權
 
-此文章中的步驟說明如何將對 Azure ML 上裝載之模型的存取權授與 Power BI 使用者，以便他們能以 Power Query 函式形式存取此模型。  如需進一步的詳細資料，請參閱[使用 RBAC 與 Azure 入口網站管理存取權](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)。
+此文章中的步驟說明如何將對 Azure ML 上裝載之模型的存取權授與 Power BI 使用者，以便他們能以 Power Query 函式形式存取此模型。  如需進一步的詳細資料，請參閱[使用 RBAC 與 Azure 入口網站管理存取權](/azure/role-based-access-control/role-assignments-portal)。
 
 1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
@@ -415,7 +415,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 資料科學家主要使用 Python 開發甚至是部署其 Machine Learning 的機器學習模型。  不同於 Machine Learning Studio (傳統) 是協助自動化為模型建立結構描述檔案的工作，在 Machine Learning 的案例中，資料科學家必須明確使用 Python 產生結構描述檔案。
 
-此結構描述檔案必須包含在 Machine Learning 模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。 
+此結構描述檔案必須包含在 Machine Learning 模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。 
 
 具體而言，項目指令碼中的 *\@input_schema* 與 *\@output_schema* 函式會參考 *input_sample* 與 *output_sample* 中的輸入和輸出範例格式，並在部署期間使用這些範例來產生 Web 服務的 OpenAPI (Swagger) 規格。
 
@@ -465,4 +465,4 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 * [設定及取用資料流程](dataflows-configure-consume.md)
 * [將資料流程儲存體設定為使用 Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [資料流程的進階功能](dataflows-premium-features.md)
-* [資料流程限制與考量](dataflows-features-limitations.md) 
+* [資料流程限制與考量](dataflows-features-limitations.md)

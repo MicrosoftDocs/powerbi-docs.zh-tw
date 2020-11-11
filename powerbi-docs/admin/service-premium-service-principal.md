@@ -7,14 +7,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e07cafc5c507d090d56a0d973e2c02aa873c3e2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116492"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483711"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>使用服務主體將 Premium 工作區與資料集工作自動化
 
@@ -32,9 +32,6 @@ Power BI Premium 使用與 Power BI Embedded 相同的服務主體功能。 若�
 只有[新的工作區](../collaborate-share/service-new-workspaces.md)支援使用服務主體的 XMLA 端點連線。 傳統工作區則不受支援。 服務主體只有在為其指派的工作區中執行工作時，才具有所需的權限。 權限是透過工作區存取權來指派，非常類似於一般的 UPN 帳戶。
 
 若要執行寫入作業，則容量的 [資料集工作負載] 必須[啟用 XMLA 端點以進行讀寫](service-premium-connect-tools.md#enable-xmla-read-write)。 從 Power BI Desktop 發佈的資料集應啟用[增強型中繼資料格式](../connect-data/desktop-enhanced-dataset-metadata.md)功能。
-
-> [!NOTE]
-> Power BI Premium 中的 XMLA 端點為**預覽**功能。 預覽中的功能不應使用於生產環境。 某些功能、支援和文件受到限制。  如需詳細資訊，請參閱 [Microsoft Online Services 條款 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)。
 
 ## <a name="create-a-service-principal"></a>建立服務主體
 

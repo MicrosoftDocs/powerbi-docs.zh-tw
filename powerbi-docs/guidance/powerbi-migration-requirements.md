@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f96fa15981de8d86007c6e1fa768f95a77921280
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680945"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396635"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>收集需求以移轉到 Power BI
 
@@ -74,7 +74,7 @@ ms.locfileid: "92680945"
 - **開放式問題和待辦項目：** 將目前的任何已知問題、已知資料品質瑕疵、未來維護或延後要求新增至待辦項目。
 
 > [!IMPORTANT]
-> 透過[共用資料集](../connect-data/service-datasets-share.md)可達成資料的再使用性，其可選擇性地[認證](../collaborate-share/service-endorse-content.md)共用資料集，以指出可信度並改善可搜尋性。 透過[資料流程](../transform-model/service-dataflows-overview.md)可達成資料準備再使用性，以減少多個資料集中的重複邏輯。 資料流程也可大幅減少來源系統上的負載，因為資料的擷取頻率較低 (多個資料集可接著從資料流程匯入資料)。
+> 透過[共用資料集](../connect-data/service-datasets-share.md)可達成資料的再使用性，其可選擇性地[認證](../collaborate-share/service-endorse-content.md)共用資料集，以指出可信度並改善可搜尋性。 透過[資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)可達成資料準備再使用性，以減少多個資料集中的重複邏輯。 資料流程也可大幅減少來源系統上的負載，因為資料的擷取頻率較低 (多個資料集可接著從資料流程匯入資料)。
 
 ## <a name="identify-improvement-opportunities"></a>識別改善機會
 

@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 590e28c727cab88b008d7a05e7df22244e8dabf0
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803133"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396970"
 ---
-# <a name="plandeploymenttomigratetopowerbi"></a>規劃部署以移轉至 Power BI
+# <a name="plan-deployment-to-migrate-to-power-bi"></a>規劃部署以移轉至 Power BI
 
-本文描述**第 2 階段**，這與規劃單一 Power BI 解決方案的移轉相關。
+本文描述 **第 2 階段** ，這與規劃單一 Power BI 解決方案的移轉相關。
 
 :::image type="content" source="media/powerbi-migration-planning/migrate-to-powerbi-stage-2.png" alt-text="顯示 Power BI 移轉階段的影像。本文的重點在於第 2 階段。":::
 
@@ -40,7 +40,7 @@ ms.locfileid: "88803133"
 
 首要決策是選擇 Power BI 產品。 您需決定使用 [Power BI 服務](../fundamentals/power-bi-service-overview.md) 或 [Power BI 報表伺服器](../report-server/get-started.md)。 在發佈內容之後，即可使用許多其他選項，例如內嵌、行動傳遞及電子郵件訂閱。
 
-如需架構考量的詳細資訊，請參閱[規劃 Power BI 企業部署白皮書](https://aka.ms/PBIEnterpriseDeploymentWP)的**第 3 節**。
+如需架構考量的詳細資訊，請參閱 [規劃 Power BI 企業部署白皮書](https://aka.ms/PBIEnterpriseDeploymentWP)的 **第 3 節** 。
 
 > [!CAUTION]
 > 請注意，若想要依賴使用儲存在檔案系統中的 Power BI Desktop 檔案，則此非最佳方法。 使用 Power BI 服務 (或 Power BI 報表伺服器) 對安全性、內容發佈及共同作業有極大的好處。 Power BI 服務也會啟用稽核與監視活動的功能。
@@ -96,7 +96,7 @@ ms.locfileid: "88803133"
 - 是否需要使用新資料或量值來增強現有的共用資料集，以符合其他需求？
 - 哪一種[資料儲存模式](../transform-model/desktop-storage-mode.md)最適合？ 選項包括匯入、DirectQuery、複合或即時連線。
 - 可使用[彙總](../transform-model/desktop-aggregations.md)來提升查詢效能嗎？
-- 建立[資料流程](../transform-model/service-dataflows-overview.md)會很有用嗎？可用其作為多個資料集的來源嗎？
+- 建立[資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)會很有用嗎？可用其作為多個資料集的來源嗎？
 - 是否需要註冊新的[閘道資料來源](../connect-data/service-gateway-data-sources.md)？
 
 ## <a name="decide-where-original-content-will-be-stored"></a>決定儲存原始內容的位置

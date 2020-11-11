@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525493"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396740"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 AI 見解
 
@@ -53,7 +53,7 @@ AI 見解已在 2020 年 6 月版本的 Power BI Desktop 中公開推出。 針�
 
 ### <a name="enabling-text-analytics-and-vision-on-premium-capacities"></a>在 Premium 容量上啟用文字分析和視覺
 
-Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量的個別 AI 工作負載用來執行認知服務。 這些功能的公開預覽期間 (2019 年 6 月前) 預設會停用此工作負載。 在 Power BI 中使用認知服務之前，必須在管理入口網站的**容量設定**中啟用 AI 工作負載。 您可以在**工作負載**區段中開啟 **AI 工作負載**，並定義您希望此工作負載使用的最大記憶體數量。 建議的記憶體限制為 20%。 超出此限制會讓查詢變慢。
+Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量的個別 AI 工作負載用來執行認知服務。 這些功能的公開預覽期間 (2019 年 6 月前) 預設會停用此工作負載。 在 Power BI 中使用認知服務之前，必須在管理入口網站的 **容量設定** 中啟用 AI 工作負載。 您可以在 **工作負載** 區段中開啟 **AI 工作負載** ，並定義您希望此工作負載使用的最大記憶體數量。 建議的記憶體限制為 20%。 超出此限制會讓查詢變慢。
 
 ### <a name="available-functions"></a>可用的函式
 
@@ -67,13 +67,13 @@ Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量
 
 #### <a name="extract-key-phrases"></a>擷取關鍵片語
 
-**關鍵片語擷取**函式會評估非結構化的文字，並針對每個文字欄位，傳回關鍵片語的清單。 此函式需要文字欄位作為輸入，並接受選擇性的輸入作為**文化特性資訊**。
+**關鍵片語擷取** 函式會評估非結構化的文字，並針對每個文字欄位，傳回關鍵片語的清單。 此函式需要文字欄位作為輸入，並接受選擇性的輸入作為 **文化特性資訊** 。
 
 關鍵片語擷取在您為其提供更大的文字區塊來處理時，其效果最佳。 這與情感分析相反，後者在較小的文字區塊效果更佳。 若要從這兩項作業獲得最佳結果，請考慮據此重新建構輸入。
 
 #### <a name="score-sentiment"></a>情感評分
 
-**情感評分**函式會評估文字輸入，並為每個文件傳回情感分數，範圍從 0 (負面) 到 1 (正面)。 此函式用於偵測在社交媒體、客戶評論和討論區論壇方面的正面和負面情感。
+**情感評分** 函式會評估文字輸入，並為每個文件傳回情感分數，範圍從 0 (負面) 到 1 (正面)。 此函式用於偵測在社交媒體、客戶評論和討論區論壇方面的正面和負面情感。
 
 文字分析會使用機器學習服務的分類演算法來產生 0 到 1 之間的情感分數。 分數接近 1 時，表示正面情感，分數接近 0 時，則表示負面情感。 此模型是使用具有情感關聯的大量文字內文預先定型的。 目前無法提供您自己的定型資料。 此模型會在文字分析期間使用技術的組合，包括文字處理、part-of-speech 分析、文字放置，以及文字關聯。 如需有關演算法的詳細資訊，請參閱[文字分析簡介](/archive/blogs/machinelearning/machine-learning-and-text-analytics)。
 
@@ -83,7 +83,7 @@ Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量
 
 #### <a name="tag-images"></a>標記影像
 
-**標記影像**函式會根據超過兩千個可辨識的物體、生物、景象及動作，傳回標記。 當標記模稜兩可或不是常識時，輸出會提供「提示」，以釐清標記在已知設定前後關聯中的意涵。 標記不是按照分類組織的，而且不存在任何繼承階層。 一系列的內容標記會形成影像「描述」的基礎，以完整句子的格式，顯示為人類可讀取的語言。
+**標記影像** 函式會根據超過兩千個可辨識的物體、生物、景象及動作，傳回標記。 當標記模稜兩可或不是常識時，輸出會提供「提示」，以釐清標記在已知設定前後關聯中的意涵。 標記不是按照分類組織的，而且不存在任何繼承階層。 一系列的內容標記會形成影像「描述」的基礎，以完整句子的格式，顯示為人類可讀取的語言。
 
 上傳影像或指定影像 URL 之後，電腦視覺演算法會根據物體、生物和影像中識別的動作，輸出標記。 標記不限於主體 (例如在前景的人)，但也包含環境 (室內或戶外)、傢俱、工具、植物、動物、配件、小工具等等。
 
@@ -158,7 +158,7 @@ Power Query 和 Power Query Online 中使用的文字分析和視覺函式都相
 
 Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query Online 都支援此功能。
 
-若要深入了解資料流程，請參閱 [Power BI 中的自助資料準備](service-dataflows-overview.md)。
+若要深入了解資料流程，請參閱 [Power BI 中的自助資料準備](./dataflows/dataflows-introduction-self-service.md)。
 
 若要深入了解 Azure Machine Learning，請參閱下列文章：
 
@@ -167,10 +167,10 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 
 ### <a name="granting-access-to-an-azure-ml-model"></a>授與 Azure ML 模型的存取權
 
-若要從 Power BI 存取 Azure ML 模型，使用者必須有對 Azure 訂用帳戶的**讀取**存取權。 此外，它們必須具有下列各項：
+若要從 Power BI 存取 Azure ML 模型，使用者必須有對 Azure 訂用帳戶的 **讀取** 存取權。 此外，它們必須具有下列各項：
 
-- 針對 Machine Learning Studio (傳統) 模型，需要有對 Machine Learning Studio (傳統) Web 服務的**讀取**存取權
-- 針對 Machine Learning 模型，需要有對 Machine Learning 工作區的**讀取**存取權
+- 針對 Machine Learning Studio (傳統) 模型，需要有對 Machine Learning Studio (傳統) Web 服務的 **讀取** 存取權
+- 針對 Machine Learning 模型，需要有對 Machine Learning 工作區的 **讀取** 存取權
 
 本節中的步驟說明如何將對 Azure ML 上裝載之模型的存取權授與 Power BI 使用者，以便他們能以 Power Query 函式形式存取此模型。 如需進一步的詳細資料，請參閱[使用 RBAC 與 Azure 入口網站管理存取權](/azure/role-based-access-control/role-assignments-portal)。
 
@@ -180,7 +180,7 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 4. 選取 [存取控制 (IAM)]，然後選取 [新增] 按鈕。
 5. 選取 [讀者] 做為 [角色]。 選取您希望為其授與對 Azure ML 模型之存取權的 Power BI 使用者。
 6. 選取 [儲存]
-7. 重複步驟三到六，將**讀者**存取權授與特定 Machine Learning Studio (傳統) Web 服務「或」託管模型的 Machine Learning 工作區使用者。
+7. 重複步驟三到六，將 **讀者** 存取權授與特定 Machine Learning Studio (傳統) Web 服務「或」託管模型的 Machine Learning 工作區使用者。
 
 ### <a name="schema-discovery-for-machine-learning-models"></a>針對 Machine Learning 模型的結構描述探索
 
@@ -188,7 +188,7 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 
 此結構描述檔案必須包含在 Machine Learning 模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。
 
-具體而言，項目指令碼中的 _@input\_schema_ 與 _@output\_schema_ 函式會參考_input\_sample_ 與 _output\_sample_ 中的輸入和輸出範例格式，並在部署期間使用這些範例來產生 Web 服務的 OpenAPI (Swagger) 規格。
+具體而言，項目指令碼中的 _@input\_schema_ 與 _@output\_schema_ 函式會參考 _input\_sample_ 與 _output\_sample_ 中的輸入和輸出範例格式，並在部署期間使用這些範例來產生 Web 服務的 OpenAPI (Swagger) 規格。
 
 這些透過更新項目指令碼來產生結構描述的指示也必須套用到使用 Azure Machine Learning SDK 時，透過自動化機器學習服務實驗建立的模型。
 
@@ -225,7 +225,7 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 
 - [教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型](../connect-data/service-tutorial-invoke-machine-learning-model.md)
 - [教學課程：在 Power BI 中使用認知服務](../connect-data/service-tutorial-use-cognitive-services.md)
-- [Power BI 中的認知服務](service-cognitive-services.md)
-- [Power BI 中的 Azure Machine Learning 整合](service-machine-learning-integration.md)
+- [Power BI 中的認知服務](./dataflows/dataflows-machine-learning-integration.md)
+- [Power BI 中的 Azure Machine Learning 整合](./dataflows/dataflows-machine-learning-integration.md)
 - [使用應用程式監視 Premium 容量](../admin/service-admin-premium-monitor-capacity.md)
 - [Premium 容量計量應用程式中的 AI 計量](https://powerbi.microsoft.com/blog/ai-metrics-now-available-in-power-bi-premium-capacity-metrics-app/)

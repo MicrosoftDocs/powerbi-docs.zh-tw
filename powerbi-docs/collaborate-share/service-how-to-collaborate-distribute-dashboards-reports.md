@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 93ccb8c02e71165dfd23bcd82b21ae2758e03d43
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252536"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396188"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>在 Power BI 中共同作業和共用的方式
 
@@ -158,7 +158,7 @@ ms.locfileid: "87252536"
 
 ## <a name="create-dataflows"></a>建立資料流程
 
-「資料流程」是一種自助方式，可整合來自不同來源的資料，並為模型化做好準備。 分析師會建立資料流程，以內嵌、轉換、整合和擴充巨量資料。 分析師會在 Power BI 服務的工作區中建立及管理資料流程。 了解[使用資料流程的自助資料準備](../transform-model/service-dataflows-overview.md)。
+「資料流程」是一種自助方式，可整合來自不同來源的資料，並為模型化做好準備。 分析師會建立資料流程，以內嵌、轉換、整合和擴充巨量資料。 分析師會在 Power BI 服務的工作區中建立及管理資料流程。 了解[使用資料流程的自助資料準備](../transform-model/dataflows/dataflows-introduction-self-service.md)。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

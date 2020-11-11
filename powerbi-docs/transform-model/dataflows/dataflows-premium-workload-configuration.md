@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4a919c499746711719d679fc5cb9a689731093cc
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502219"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397246"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>設定 Power BI Premium 的資料流程工作負載
 
@@ -106,7 +106,7 @@ Power BI Premium 工作負載結合前端與後端核心，在各種不同工作
 
 重新整理緩慢通常是平行處理發生問題。 您應該依序檢查下列選項：
 
-1. 對於重新整理緩慢而言，重點在於您進行資料準備的本質。 在本文稍早的餐廳比喻中，假設已經備妥食物，等待使用。 在此案例中，因為準備時間最短，所以食物的處理後速度會更快。 同樣地，只要您可利用資料來源，實際執行準備及預先查詢邏輯，藉此將緩慢的重新整理最佳化，您就應該這麼做。 具體而言，使用關聯式資料庫 (例如 SQL) 作為來源時，請查看初始查詢是否可在來源上執行，並將該來源查詢用於資料來源的初始擷取資料流程。 如果無法在來源系統中使用原生查詢，請執行資料流程[引擎可摺疊至資料來源](https://docs.microsoft.com/power-query/power-query-folding)的作業。
+1. 對於重新整理緩慢而言，重點在於您進行資料準備的本質。 在本文稍早的餐廳比喻中，假設已經備妥食物，等待使用。 在此案例中，因為準備時間最短，所以食物的處理後速度會更快。 同樣地，只要您可利用資料來源，實際執行準備及預先查詢邏輯，藉此將緩慢的重新整理最佳化，您就應該這麼做。 具體而言，使用關聯式資料庫 (例如 SQL) 作為來源時，請查看初始查詢是否可在來源上執行，並將該來源查詢用於資料來源的初始擷取資料流程。 如果無法在來源系統中使用原生查詢，請執行資料流程[引擎可摺疊至資料來源](/power-query/power-query-folding)的作業。
 
 2. 評估在相同容量下的分配重新整理時間。 重新整理作業是需要大量計算的處理序。 在我們的餐廳比喻中，分配重新整理時間類似於限制餐廳中的貴賓人數。 就像餐廳會為貴賓安排用餐時間並規劃容納人數，您也會想在使用量不是處於尖峰的時候，考慮執行重新整理作業。 這對於減輕容量負荷可能有很大的幫助。
 
@@ -136,7 +136,7 @@ Power BI Premium 工作負載結合前端與後端核心，在各種不同工作
 
 1. 針對「內嵌」，請著重於盡快將資料放入儲存體，只有在篩選降低整體資料集大小時，才使用篩選。 最佳做法是讓轉換邏輯與此步驟分開，並讓引擎專注於初始的要素收集。 接下來，使用連結或計算實體，將轉換與商務邏輯在相同工作區中分為不同資料流程，這麼做可讓引擎啟動並加速計算。 在我們的比喻中，這就像在廚房中準備食物：準備食物通常是獨立且不同的步驟，從取得原始食材，到將食物放入烤箱中等事前處理。 同樣地，邏輯必須另外準備好，才能利用計算引擎。
 
-2. 請務必執行可摺疊的作業，例如合併、聯結、轉換[等等](https://docs.microsoft.com/power-query/power-query-folding#transformations-that-can-achieve-folding)。
+2. 請務必執行可摺疊的作業，例如合併、聯結、轉換[等等](/power-query/power-query-folding#transformations-that-can-achieve-folding)。
 
 3. [在已發佈的指引與限制內](dataflows-features-limitations.md#dataflows-in-premium)建置資料流程。
 

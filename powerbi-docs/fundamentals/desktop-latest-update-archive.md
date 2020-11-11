@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bab09647b324e9be8b1de6f27865511b4f2b1a02
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 01d7a433650eb8c74ace37b548ba8d7bf2c570ea
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256312"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396165"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -418,7 +418,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 
 ### <a name="data-preparation"></a>資料準備
-* 資料流程上的 DirectQuery  [[影片]](https://youtu.be/JtuHIslowxk?t=1883)   [[文章]](../transform-model/service-dataflows-directquery.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) (英文) 
+* 資料流程上的 DirectQuery  [[影片]](https://youtu.be/JtuHIslowxk?t=1883)   [[文章]](../transform-model/dataflows/dataflows-configure-consume.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) (英文) 
 * Web 範例現在預設會自動建議資料表  [[影片]](https://youtu.be/JtuHIslowxk?t=1916)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) (英文) 
 * 查詢診斷的增強功能：隱私權等級分割區  [[影片]](https://youtu.be/JtuHIslowxk?t=1931)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) (英文) 
 
@@ -548,8 +548,8 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 請選取下列連結以下載這個較早的版本： 
 
-* [Power BI Desktop - 32 位元 2020 年 4 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04.exe)
-* [Power BI Desktop - 64 位元 2020 年 4 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04_x64.exe)
+* [Power BI Desktop - 32 位元 2020 年 4 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup.exe)
+* [Power BI Desktop - 64 位元 2020 年 4 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 
@@ -848,7 +848,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 我們的十月更新就像南瓜節跑步一樣有趣，而且比午夜鬼屋探險更刺激。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，現在是以包含所有支援語言的單一 .exe 檔案形式提供。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，現在是以包含所有支援語言的單一 .exe 檔案形式提供。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 > [!IMPORTANT]
 > 從 2019 年 9 月版本開始，Power BI Desktop 會僅作為單一 .exe 檔案發行，其中包含所有支援的語言。 .msi 版本已不再發行。
@@ -926,7 +926,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 我們的 9 月更新就像是令人興奮的開學日一樣 - 要學習的新知、在夏天錯過的朋友近況更新，以及將我們所知道的內容應用到更好的未來報表中的機會。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，現在是以包含所有支援語言的單一 .exe 檔案形式提供。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，現在是以包含所有支援語言的單一 .exe 檔案形式提供。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 > [!IMPORTANT]
 > 從 2019 年 9 月版本開始，Power BI Desktop 會僅作為單一 .exe 檔案發行，其中包含所有支援的語言。 .msi 版本已不再發行。
@@ -991,7 +991,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 8 月更新可讓您在 Power BI Desktop 中建立熱門亮眼的報表。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，現在是以包含所有支援語言的單一 .exe 檔案形式提供。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，現在是以包含所有支援語言的單一 .exe 檔案形式提供。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 旁邊的連結分別更新下列項目：
 
@@ -1054,7 +1054,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 7 月更新會為 Power BI Desktop 提供繽紛亮麗的新功能。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 旁邊的連結分別更新下列項目：
 
@@ -1119,7 +1119,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 我們的 6 月更新將在您報表上散播陽光和藍天，為 Power BI Desktop 提供清新且明亮的新色彩配置，以及其他多項改善。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 旁邊的連結分別更新下列項目：
 
@@ -1190,7 +1190,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 我們的 5 月更新為您報表花園綻放了美麗花朵，包含吸睛新功能和充滿繽紛色彩的美麗視覺效果。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 旁邊的連結分別更新下列項目：
 
@@ -1255,7 +1255,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 我們的 4 月更新內容包含了大量更新，讓您在下雨天也春風滿面。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 旁邊的連結分別更新下列項目：
 
@@ -1327,7 +1327,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 我們的三月更新包含吸引人且實用的更新，希望這些改善可讓您像是找到四葉草一樣幸運。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 旁邊的連結分別更新下列項目：
 
@@ -1395,7 +1395,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 我們的 2 月更新會讓客戶欣喜並愛上我們所有的新資料連接器、功能和分析增強功能。 就像一盒巧克力中，我們永遠不知道裡面會有哪些口味... 但這個 2 月更新中包含的所有變更都當讓您感覺甜蜜且十足美味。 
 
 
-您可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 
 旁邊的連結分別更新下列項目：
@@ -1463,7 +1463,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 我們 12 月的更新讓客戶感官獲得如糖梅仙子舞動般享受，或至少創造出如所述之這些吸引人的資料驅動視覺效果。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop** 。 不論您用哪種方式安裝 **Power BI Desktop** ，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 旁邊的連結分別更新下列項目：
 
@@ -2004,7 +2004,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞本月的**最新更新**影片 (位於本文中)，方法是按一下更新清單下方視訊影像的**播放**圖示。
+您也可以從頭開始觀賞本月的 **最新更新** 影片 (位於本文中)，方法是按一下更新清單下方視訊影像的 **播放** 圖示。
 
 以下是 2018 年 2 月 **Power BI Desktop** 新增的更新：
 
@@ -2037,7 +2037,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * DirectQuery 效能改善  [[影片]](https://youtu.be/KeVB5RwMzJo?t=32m24s)  [[文章]](../connect-data/desktop-directquery-about.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * 開啟和儲存效能改善  [[影片]](https://youtu.be/KeVB5RwMzJo?t=33m40s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
 * 「顯示沒有資料的項目」改善  [[影片]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
-* 即將推出 **Power BI 服務**的持續篩選控制功能  [[影片]](https://youtu.be/KeVB5RwMzJo?t=34m56s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
+* 即將推出 **Power BI 服務** 的持續篩選控制功能  [[影片]](https://youtu.be/KeVB5RwMzJo?t=34m56s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
 
 
 
@@ -2067,7 +2067,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞本月的**最新更新**影片 (位於本文中)，方法是按一下更新清單下方視訊影像的**播放**圖示。
+您也可以從頭開始觀賞本月的 **最新更新** 影片 (位於本文中)，方法是按一下更新清單下方視訊影像的 **播放** 圖示。
 
 以下是 1 月 **Power BI Desktop** 新增的更新：
 
@@ -2108,7 +2108,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ## <a name="december-2017-update-2534954481"></a>2017 年 12 月更新 (2.53.4954.481)
 
-12 月已將大量更新帶至 **Power BI Desktop**，讓所有商業智慧志同道合人員盡情享受裝滿功能的禮物。
+12 月已將大量更新帶至 **Power BI Desktop** ，讓所有商業智慧志同道合人員盡情享受裝滿功能的禮物。
 
 旁邊的連結分別更新下列項目：
 
@@ -2163,7 +2163,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ## <a name="november-2017-update-2524921202"></a>2017 年 11 月更新 (2.52.4921.202)
 
-11 月已將大量更新帶至 **Power BI Desktop**。 
+11 月已將大量更新帶至 **Power BI Desktop** 。 
 
 旁邊的連結分別更新下列項目：
 
@@ -2429,7 +2429,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 ### <a name="data-connectivity"></a>資料連接：
 
 -   自訂資料連接器支援 [[影片]](https://youtu.be/YlNVE5dgcSI?t=25m53s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#customConnectors)
--   **Power BI 服務**對內部部署的 Live Connect 和發送串流資料集 [[影片]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
+-   **Power BI 服務** 對內部部署的 Live Connect 和發送串流資料集 [[影片]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
 -   Impala 連接器現已正式推出 [[影片]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)
 -   Amazon Redshift 連接器現已正式推出 [[影片]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#redshift)
 -   SAP BW 連接器 - DirectQuery 支援 [[影片]](https://youtu.be/YlNVE5dgcSI?t=27m45s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#sapBW)
@@ -2694,7 +2694,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 ### <a name="analytics"></a>分析
 
 -   叢集 (預覽) [[影片]](https://youtu.be/kERJ_WOLuLk?t=8m52s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#clustering)
--   預測 (現於 **Power BI 服務**) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
+-   預測 (現於 **Power BI 服務** ) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
 -   群組 (現於功能區) [[影片]](https://youtu.be/kERJ_WOLuLk?t=13m29s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#groups)
 
 
@@ -2822,7 +2822,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="other-improvements"></a>其他功能改進
 
--   **Power BI 社群**的產品內連結 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[影片]](https://youtu.be/0VvG7Eqoke8?t=16m9s)
+-   **Power BI 社群** 的產品內連結 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[影片]](https://youtu.be/0VvG7Eqoke8?t=16m9s)
 
 
 > [!NOTE]
@@ -3027,7 +3027,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   使用顯示結構描述資訊改善的關聯式資料庫連接器
 -   資料來源設定增強功能 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   進階的 [篩選資料列] 對話方塊模式 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
--   **查詢編輯器**中函式引動過程的內嵌輸入控制項 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   **查詢編輯器** 中函式引動過程的內嵌輸入控制項 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   查詢參數︰[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
     -   轉換查詢至參數的能力 (反之亦然)
     -   支援 **Web** 連接器中的 URL 參數化和多部分 URL
@@ -3061,7 +3061,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 -   更多的資料表、矩陣和多列卡片的其他樣式
 -   單一視覺效果的趨勢線
--   新的鑽研動作：**查看記錄**
+-   新的鑽研動作： **查看記錄**
 -   鑽研/篩選時對應自動縮放
 -   已展開檢視的內嵌階層標籤 (預覽 - [請參閱文章](../create-reports/desktop-inline-hierarchy-labels.md))
 
@@ -3265,7 +3265,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 -   視覺效果的增強功能：
     - **資料表** 視覺效果中排序狀態的視覺提示。
-    - 新的視覺效果：**堆疊區域**圖
+    - 新的視覺效果： **堆疊區域** 圖
     - 在 **區域** 圖與 **折線** 圖停留時出現的智慧工具提示
     - 可建立 **笛卡兒** 視覺效果的參考列/地區
     - 經改善的 **圓形** 圖與 **散佈** 圖資料標籤
@@ -3290,7 +3290,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   [SSAS 多維度支援 - 階層支援](../connect-data/desktop-ssas-multidimensional.md)
 -   Stripe Connector
 -   Smartsheet Connector
--   **輸入資料**：貼上或輸入資料來建立資料表
+-   **輸入資料** ：貼上或輸入資料來建立資料表
 -   DirectQuery 改進功能：支援 T-SQL 與 SAP HANA 所有的資料類型，促進效能改進
 -   ODBC Connector：支援選取使用者/系統 DSN
 -   CSV Connector：可在 [來源] 對話方塊中指定資料行分隔符號
@@ -3521,13 +3521,13 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 此更新已加入下列功能：
 
--   **新的資料連接器**：appFigures、Quickbooks Online、Zendesk、GitHub、Twilio 和 SweetIQ。
+-   **新的資料連接器** ：appFigures、Quickbooks Online、Zendesk、GitHub、Twilio 和 SweetIQ。
 
--   **新的轉換**：從文字資料行擷取第一個/最後一個/字元範圍、在 [合併的查詢] 對話方塊中指定聯結類型的選項、在 [依分隔符號分割資料行] 對話方塊中自訂引號樣式的功能。
+-   **新的轉換** ：從文字資料行擷取第一個/最後一個/字元範圍、在 [合併的查詢] 對話方塊中指定聯結類型的選項、在 [依分隔符號分割資料行] 對話方塊中自訂引號樣式的功能。
 
--   **報表撰寫改進**：新的視覺效果 (區域圖、瀑布、甜甜圈和矩陣)、新的視覺格式設定和自訂選項 (標籤、標題、背景、圖例、色彩等等)、在報表中插入文字方塊和圖片、在報表和報表資料表中支援超連結、復原/取消復原動作。
+-   **報表撰寫改進** ：新的視覺效果 (區域圖、瀑布、甜甜圈和矩陣)、新的視覺格式設定和自訂選項 (標籤、標題、背景、圖例、色彩等等)、在報表中插入文字方塊和圖片、在報表和報表資料表中支援超連結、復原/取消復原動作。
 
--   對 Analysis Services 表格式模型的**直接報表瀏覽**。
+-   對 Analysis Services 表格式模型的 **直接報表瀏覽** 。
 
 -   **資料模型化：** 新的資料檢視與關聯性檢視。
 
@@ -3537,7 +3537,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 -   支援 Exchange 連接器中的 Exchange UPN 認證。
 
-除了所有這些新功能，我們也正在**提供 42 種不同語言版本的 Power BI Desktop**。 從[我們的官方下載頁面](https://www.microsoft.com/download/details.aspx?id=45331)取得語言的完整清單，並安裝您要的語言。
+除了所有這些新功能，我們也正在 **提供 42 種不同語言版本的 Power BI Desktop** 。 從[我們的官方下載頁面](https://www.microsoft.com/download/details.aspx?id=45331)取得語言的完整清單，並安裝您要的語言。
 
 看看下列影片以取得詳細資訊：
 
@@ -3606,7 +3606,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 -   移除空白資料列
 
--   用於**群組依據**和**彙總資料行**的中間值作業
+-   用於 **群組依據** 和 **彙總資料行** 的中間值作業
 
 -   將 **DateTimeZone** 值轉換為「本地時間」 
 
@@ -3626,7 +3626,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 -   **Google Analytics** 連接器
 
--   用於**在查詢檢視中進行日期篩選**的其他運算子
+-   用於 **在查詢檢視中進行日期篩選** 的其他運算子
 
 -   **模型關聯性自動偵測**
 
@@ -3634,7 +3634,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 -   **報表頁面重新排序** (拖放)
 
--   ~ 40-50% **效能** **提升**，填滿沒有篩選/轉換的資料庫資料表
+-   ~ 40-50% **效能** **提升** ，填滿沒有篩選/轉換的資料庫資料表
 
 -   很多 Bug 修正
 

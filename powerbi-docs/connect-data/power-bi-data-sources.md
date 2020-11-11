@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297593"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397384"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 資料來源
 
-下表顯示 Power BI 針對資料集所支援的資料來源，包括 DirectQuery 與內部部署資料閘道的相關資訊。 如需資料流程的詳細資訊，請參閱[連線到 Power BI 資料流程的資料來源](../transform-model/service-dataflows-data-sources.md)。
+下表顯示 Power BI 針對資料集所支援的資料來源，包括 DirectQuery 與內部部署資料閘道的相關資訊。 如需資料流程的詳細資訊，請參閱[連線到 Power BI 資料流程的資料來源](../transform-model/dataflows/dataflows-configure-consume.md)。
 
 | 資料來源 | 從桌面連線 | 從服務連線並重新整理 | DirectQuery/即時連線限制 | 閘道 (支援) | 閘道 (必要) | Power BI 資料流程 |
 |---|---|---|---|---|---|---|---|
@@ -172,9 +172,6 @@ SSO 選項會在使用此資料來源的所有資料集中生效。 它不會影
 - Spark
 - SQL Server
 - Teradata
-
-> [!Note]
-> 不支援 Azure Multi-Factor Authentication (MFA)。 想要搭配 DirectQuery 使用 SSO 的使用者必須豁免於 MFA 之外。
 
 ## <a name="next-steps"></a>後續步驟
 

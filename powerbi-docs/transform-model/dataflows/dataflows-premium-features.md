@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ffd11a57267ef69aab7b999a29949c33163e52e8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637691"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397292"
 ---
 # <a name="premium-features-of-dataflows"></a>資料流程的進階功能
 
@@ -48,7 +48,7 @@ Power BI 中增強型計算引擎可讓 Power BI Premium 訂閱者使用其容�
 > [!IMPORTANT]
 > 增強型計算引擎僅適用於 A3 及更大的 Power BI 容量。
 
-開啟增強型計算引擎之後，請返回**資料流程**，您應該會在任何針對資料流程 (從相同容量的現有連結實體建立) 執行複雜作業 (例如「聯結」或「分組方式」作業) 的計算實體中觀察到效能改善。 
+開啟增強型計算引擎之後，請返回 **資料流程** ，您應該會在任何針對資料流程 (從相同容量的現有連結實體建立) 執行複雜作業 (例如「聯結」或「分組方式」作業) 的計算實體中觀察到效能改善。 
 
 若要充分利用計算引擎，請透過下列方式將 ETL 階段分割成兩個不同的資料流程：
 
@@ -100,7 +100,7 @@ Power BI 中增強型計算引擎可讓 Power BI Premium 訂閱者使用其容�
 搭配資料流程使用 DirectQuery 也有先決條件：
 
 * 資料流程必須位於啟用 Power BI Premium 的工作區內
-* 必須開啟**計算引擎**
+* 必須開啟 **計算引擎**
 
 ### <a name="enable-directquery-for-dataflows"></a>針對資料流程啟用 DirectQuery
 
@@ -124,7 +124,7 @@ DirectQuery 和資料流程有些已知限制：
 
 ## <a name="computed-entities"></a>計算實體
 
-您可以在搭配 Power BI Premium 訂用帳戶使用**資料流程**時，執行**儲存體內部計算**。 這讓您能夠在現有的資料流程上執行計算，並傳回可讓您專注於報表建立與分析的結果。
+您可以在搭配 Power BI Premium 訂用帳戶使用 **資料流程** 時，執行 **儲存體內部計算** 。 這讓您能夠在現有的資料流程上執行計算，並傳回可讓您專注於報表建立與分析的結果。
 
 ![計算實體](media/dataflows-premium-features/computed-entity.png)
 
@@ -146,7 +146,7 @@ DirectQuery 和資料流程有些已知限制：
 
 ![累加式重新整理](media/dataflows-premium-features/incremental-refresh.png)
 
-設定累加式重新整理會將參數新增至資料流程，以指定日期範圍。 如需如何設定累加式重新整理的詳細資訊，請參閱[累加式重新整理](https://docs.microsoft.com/power-query/dataflows/incremental-refresh) (英文) 一文。
+設定累加式重新整理會將參數新增至資料流程，以指定日期範圍。 如需如何設定累加式重新整理的詳細資訊，請參閱[累加式重新整理](/power-query/dataflows/incremental-refresh) (英文) 一文。
 
 ### <a name="considerations-for-when-not-to-set-incremental-refresh"></a>何時不設定累加式重新整理的考量
 

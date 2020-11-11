@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116446"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396786"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -52,7 +52,7 @@ ms.locfileid: "92116446"
 
 ### <a name="bookmarks"></a>書籤
 
-[書籤](../../consumer/end-user-bookmarks.md)可用來以特定設定儲存報表，包括已套用的篩選條件與報表視覺效果的狀態。 您可以透過兩種方式，使用 [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) \(英文\) API，以程式設計方式匯出報表的書籤：
+[書籤](../../consumer/end-user-bookmarks.md)可用來以特定設定儲存報表，包括已套用的篩選條件與報表視覺效果的狀態。 您可以透過兩種方式，使用 [exportToFile](/rest/api/power-bi/reports/exporttofile) \(英文\) API，以程式設計方式匯出報表的書籤：
 
 * **匯出現有的書籤**
 

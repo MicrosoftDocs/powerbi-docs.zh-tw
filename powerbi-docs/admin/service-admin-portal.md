@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 464fdce94b41c3dc413088da6395520fea32c601
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: eb7a2dfeb78e60c78b1b3f17306aec91a8a55330
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462619"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397016"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -477,7 +477,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ### <a name="create-and-use-dataflows"></a>建立及使用資料流程
 
-組織內的使用者可建立及使用資料流程。 如需資料流程的概觀，請參閱 [Power BI 的自助資料準備](../transform-model/service-dataflows-overview.md)。 若要啟用 Premium 容量中的資料流程，請參閱[設定工作負載](service-admin-premium-workloads.md)。
+組織內的使用者可建立及使用資料流程。 如需資料流程的概觀，請參閱 [Power BI 的自助資料準備](../transform-model/dataflows/dataflows-introduction-self-service.md)。 若要啟用 Premium 容量中的資料流程，請參閱[設定工作負載](service-admin-premium-workloads.md)。
 
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
@@ -534,7 +534,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ### <a name="tenant-level-storage-preview"></a>租用戶層級儲存體 (預覽)
 
-根據預設，搭配 Power BI 使用的資料儲存在 Power BI 提供的內部儲存體中。 透過整合資料流程與 Azure Data Lake Storage Gen2 (ADLS Gen2)，您可以在組織的 Azure Data Lake Storage Gen2 帳戶中儲存資料流程。 如需詳細資訊，請參閱[資料流程及 Azure Data Lake 整合 (預覽)](../transform-model/service-dataflows-azure-data-lake-integration.md)。
+根據預設，搭配 Power BI 使用的資料儲存在 Power BI 提供的內部儲存體中。 透過整合資料流程與 Azure Data Lake Storage Gen2 (ADLS Gen2)，您可以在組織的 Azure Data Lake Storage Gen2 帳戶中儲存資料流程。 如需詳細資訊，請參閱[資料流程及 Azure Data Lake 整合 (預覽)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)。
 
 ### <a name="workspace-level-storage-permissions-preview"></a>工作區層級儲存體權限 (預覽)
 

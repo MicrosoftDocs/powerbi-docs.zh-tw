@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681022"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396119"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
@@ -76,7 +76,7 @@ ms.locfileid: "92681022"
 - **閘道維護：** 可能需要在資料閘道上註冊 [新的資料來源](../connect-data/service-gateway-data-sources.md)。
 - **閘道驅動程式與連接器：** 新的專屬資料來源可能需要在閘道叢集中的每部伺服器上，安裝新的驅動程式或自訂連接器。
 - **建立新的 Premium 容量：** 您可能可以使用現有的 [Premium 容量](../admin/service-premium-capacity-manage.md)。 或者，當新的 Premium 容量需要批准時，可能會有某些情況。 若您刻意想要分隔部門工作負載，可能就會發生這種情況。
-- **設定 Power BI 資料流程：** 資料準備活動可以使用 Power Query Online，在 [Power BI 資料流程](../transform-model/service-dataflows-overview.md)中一次設定。 其有助於避免在許多不同的 Power BI Desktop 檔案中，複寫資料準備工作。
+- **設定 Power BI 資料流程：** 資料準備活動可以使用 Power Query Online，在 [Power BI 資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)中一次設定。 其有助於避免在許多不同的 Power BI Desktop 檔案中，複寫資料準備工作。
 - **註冊新的組織視覺效果：** 您可以在自訂視覺效果 (非源自 AppSource ) 的管理入口網站中，完成 [組織視覺效果](../developer/visuals/power-bi-custom-visuals-organization.md)註冊。
 - **設定功能內容：** 租用戶設定會控制哪些人可以在 Power BI 服務首頁中使用 [功能內容](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)。
 - **設定敏感度標籤：** Microsoft 資訊保護已整合所有的 [敏感度標籤](../admin/service-security-data-protection-overview.md)。

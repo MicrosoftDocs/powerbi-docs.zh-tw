@@ -10,12 +10,12 @@ ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132359"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396096"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
@@ -124,8 +124,8 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |[適用於資料驅動警示的 Power Automate 連線能力](../connect-data/power-bi-data-sources.md)|![可供使用](../media/yes.png)|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|
 |[Teams 中的 Power BI 索引標籤](../collaborate-share/service-collaborate-microsoft-teams.md) <sup>2</sup>|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 |[大型模型](service-premium-large-models.md) | 2020 年第 4 季 |2020 年第 4 季| ![無法使用](../media/no.png) |
-|[資料流程 - SQL 計算引擎最佳化](../transform-model/service-dataflows-enhanced-compute-engine.md) | 2020 年第 4 季 |2020 年第 4 季| ![無法使用](../media/no.png) |
-|[資料流程 - 直接查詢](../transform-model/service-dataflows-directquery.md) | 2020 年第 4 季 |2020 年第 4 季|![無法使用](../media/no.png)|
+|[資料流程 - SQL 計算引擎最佳化](../transform-model/dataflows/dataflows-premium-features.md) | 2020 年第 4 季 |2020 年第 4 季| ![無法使用](../media/no.png) |
+|[資料流程 - 直接查詢](../transform-model/dataflows/dataflows-configure-consume.md) | 2020 年第 4 季 |2020 年第 4 季|![無法使用](../media/no.png)|
 |[資料保護 (MIP 標籤)](service-security-sensitivity-label-overview.md)|2020 年第 4 季|2020 年第 4 季 |2020 年第 4 季|
 |[範本應用程式](../connect-data/service-template-apps-overview.md) <sup>3</sup>|2020 年第 4 季 |2020 年第 4 季| 2020 年第 4 季|
 |[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md) <sup>3</sup>|2020 年第 4 季 |2020 年第 4 季| 2020 年第 4 季|

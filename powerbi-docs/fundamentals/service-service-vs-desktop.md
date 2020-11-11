@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/07/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4118e5c009a8d7372d5cb58d1e1b9d033a70494e
-ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
+ms.openlocfilehash: 0b4a1275a3b50fbadd37d953b77316d6021c800c
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87988734"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397085"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 與 Power BI 服務的比較
 
@@ -25,9 +25,9 @@ ms.locfileid: "87988734"
 
 **Power BI Desktop** 是您在本機電腦上免費安裝的完整資料分析和報表建立工具。 其中包含查詢編輯器，您可以在其中連接到許多不同的資料來源，並將它們合併 (通常稱為「模型化」) 成為一個資料模型。 然後，您可以根據該資料模型來設計報表。 [Power BI Desktop 使用者入門指南](desktop-getting-started.md)會逐步介紹此程序。
 
-**Power BI 服務**是雲端式服務。 它支援小組與組織的輕量型報表編輯和共同作業。 您也可以連線到 Power BI 服務中的資料來源，但模型化會受到限制。
+**Power BI 服務** 是雲端式服務。 它支援小組與組織的輕量型報表編輯和共同作業。 您也可以連線到 Power BI 服務中的資料來源，但模型化會受到限制。
 
-大部分處理商業智慧專案的 Power BI 報表設計師都會使用 **Power BI Desktop** 來建立 Power BI 報表，然後使用 **Power BI 服務**來在其報表上進行共同作業及散發。
+大部分處理商業智慧專案的 Power BI 報表設計師都會使用 **Power BI Desktop** 來建立 Power BI 報表，然後使用 **Power BI 服務** 來在其報表上進行共同作業及散發。
 
 Power BI 服務也會在 Power BI Premium 容量所支援的工作區中裝載「編頁報表」。 您會使用 Power BI 報表產生器來建立編頁報表。 請參閱＜什麼是 Power BI Premium 中的編頁報表？＞一文中的[比較 Power BI 報表和編頁報表](../paginated-reports/paginated-reports-report-builder-power-bi.md#compare-power-bi-reports-and-paginated-reports)。 以取得詳細資訊。
 
@@ -55,7 +55,7 @@ Power BI Desktop 和服務中的報表編輯器很類似。 它們由三個區�
 
 ### <a name="self-service-data-prep-with-dataflows"></a>使用資料流程的自助資料準備
 
-資料流程可協助組織整合來自不同來源的資料，並為模型化做好準備。 分析師可以使用熟悉的自助工具，輕鬆地建立資料流程。 分析師可以使用資料流程，藉由定義資料來源連接、ETL 邏輯、重新整理排程及更多項目，來內嵌、轉換、整合及擴充巨量資料。 深入了解[使用資料流程的自助資料準備](../transform-model/service-dataflows-overview.md)。
+資料流程可協助組織整合來自不同來源的資料，並為模型化做好準備。 分析師可以使用熟悉的自助工具，輕鬆地建立資料流程。 分析師可以使用資料流程，藉由定義資料來源連接、ETL 邏輯、重新整理排程及更多項目，來內嵌、轉換、整合及擴充巨量資料。 深入了解[使用資料流程的自助資料準備](../transform-model/dataflows/dataflows-introduction-self-service.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

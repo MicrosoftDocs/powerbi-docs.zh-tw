@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b603c0a2ad300145db6342acac3473a2f4a567c6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 23ead6afd508cc0e61ae29d65926372561a6375a
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637591"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396280"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>資料流程和自助資料準備簡介
 
@@ -52,4 +52,4 @@ ms.locfileid: "91637591"
 
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Model - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Model - 概觀](/powerapps/common-data-model/overview)

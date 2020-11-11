@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cb68cdd0f7ca82c937b1a045055909582c0938d6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637607"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396373"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>設定及取用資料流程
 
@@ -53,13 +53,13 @@ ms.locfileid: "91637607"
 
 * 由來源重新整理完成進行觸發時，只會重新整理參考的實體。 若要排程所有實體，建議同時在連結的實體上設定排程重新整理。 請避免在連結的資料流程上設定重新整理排程，以避免重複進行重新整理。
 
-**取消重新整理**與資料集不同，資料流程支援取消重新整理。 若重新整理執行時間過長，您可選取資料流程選項 (資料流程旁邊的省略符號)，然後選取 [取消重新整理]。
+**取消重新整理** 與資料集不同，資料流程支援取消重新整理。 若重新整理執行時間過長，您可選取資料流程選項 (資料流程旁邊的省略符號)，然後選取 [取消重新整理]。
 
 **累加式重新整理 (僅限 Premium)** 資料流程也可以設定為累加式重新整理。 若要執行這項操作，請選取要設為累加式重新整理的資料流程，然後選取累加式重新整理圖示。
 
 ![資料流程累加式重新整理](media/dataflows-configure-consume/dataflow-created-entity.png)
 
-設定累加式重新整理會將參數新增至資料流程，以指定日期範圍。 如需如何設定累加式重新整理的詳細資訊，請參閱 [Power Query 中的累加式重新整理](https://docs.microsoft.com/power-query/dataflows/incremental-refresh) (英文) 一文。
+設定累加式重新整理會將參數新增至資料流程，以指定日期範圍。 如需如何設定累加式重新整理的詳細資訊，請參閱 [Power Query 中的累加式重新整理](/power-query/dataflows/incremental-refresh) (英文) 一文。
 
 在某些情況下，建議不要設定累加式重新整理：
 
@@ -77,7 +77,7 @@ ms.locfileid: "91637607"
 
 * 從外部工具建立連線，以從 CDM 格式進行讀取
 
-**從 Power BI Desktop 取用**若要取用資料流程，請執行 Power BI Desktop 並選取 [取得資料] 對話方塊中的 [Power BI 資料流程連接器]。
+**從 Power BI Desktop 取用** 若要取用資料流程，請執行 Power BI Desktop 並選取 [取得資料] 對話方塊中的 [Power BI 資料流程連接器]。
 
 > [!NOTE]
 > Power BI 資料流程連接器會使用與目前登入使用者不同的認證集。 這項設計旨在支援多租用戶使用者。

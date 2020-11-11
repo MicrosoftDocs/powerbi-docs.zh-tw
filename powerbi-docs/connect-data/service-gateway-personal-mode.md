@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/09/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ae41c393d6c2a7db869627eedea3dafe3b618a78
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632564"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483642"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>在 Power BI 中使用個人閘道
 
@@ -99,6 +99,7 @@ ms.locfileid: "91632564"
 
 ## <a name="next-steps"></a>後續步驟
 
+* [新增或移除閘道資料來源](service-gateway-data-sources.md)
 * [進行內部部署資料閘道的 Proxy 設定](/data-integration/gateway/service-gateway-proxy)  
 
 有其他問題嗎？ 試試 [Power BI 社群](https://community.powerbi.com/)。

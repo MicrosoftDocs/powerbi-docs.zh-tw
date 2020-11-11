@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: rien
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858914"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397522"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教學課程：在 Power BI 報表中內嵌 Power Apps 視覺效果
 
 在此教學課程中，您會使用 Power Apps 視覺效果來建立新的應用程式，並內嵌至 Power BI 範例報表中。 此應用程式會與該報表中的其他視覺效果互動。
 
-如果您還沒有 Power Apps 訂用帳戶，請先[建立免費帳戶](https://web.powerapps.com/signup?redirect=marketing&email=)後再開始進行。
+如果您還沒有 Power Apps 訂用帳戶，請先[建立免費帳戶](https://make.powerapps.com/signup?redirect=marketing&email=)後再開始進行。
 
 在本教學課程中，您會了解如何：
 > [!div class="checklist"]

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2020
 ms.author: v-pemyer
-ms.openlocfilehash: ad85ad56db907ca19af7dc14681eb34f8c2b9abc
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85398084"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396625"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中建立日期資料表
 
@@ -60,7 +60,7 @@ ms.locfileid: "85398084"
 - [在 Power Query 中產生日期維度資料表](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) \(英文\)，作者：Chris Webb
 
 > [!TIP]
-> 如果您的組織中沒有資料倉儲或其他一致的時間定義，請考慮使用 Power Query 來發佈[資料流程](../transform-model/service-dataflows-overview.md)。 然後，讓所有資料模組工具都連線到資料流程，以將日期資料表新增至其模型。 資料流程會成為組織中時間的單一事實來源。
+> 如果您的組織中沒有資料倉儲或其他一致的時間定義，請考慮使用 Power Query 來發佈[資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)。 然後，讓所有資料模組工具都連線到資料流程，以將日期資料表新增至其模型。 資料流程會成為組織中時間的單一事實來源。
 
 如果您需要產生日期資料表，請考慮使用 DAX 來進行。 您可能會發現這樣比較容易。 此外，可能更方便，因為 DAX 包含一些內建的智慧功能，可簡化建立及管理日期資料表的工作。
 
@@ -82,7 +82,7 @@ ms.locfileid: "85398084"
 - [Power BI Desktop 中的自動日期/時間](../transform-model/desktop-auto-date-time.md)
 - [Power BI Desktop 中的自動日期/時間指導方針](auto-date-time.md)
 - [在 Power BI Desktop 中設定和使用日期資料表](../transform-model/desktop-date-tables.md)
-- [Power BI 中的自助資料準備](../transform-model/service-dataflows-overview.md)
+- [Power BI 中的自助資料準備](../transform-model/dataflows/dataflows-introduction-self-service.md)
 - [CALENDAR 函式 (DAX)](/dax/calendar-function-dax)
 - [CALENDARAUTO 函式 (DAX)](/dax/calendarauto-function-dax)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

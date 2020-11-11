@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 7d4a548ab24e8493cef340026642021a2f923ee1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749038"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397407"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
 
@@ -25,16 +25,16 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 目前的 Power BI 工作區集合在有限的時間內仍會繼續提供服務。 Enterprise 合約的客戶在現有合約到期後仍可繼續存取服務；透過直接或 CSP 通路取得 Power BI 工作區集合的客戶，自 Power BI Embedded 正式發行一年內，仍可繼續存取服務。  本文會提供從 Power BI 工作區集合遷移至新 Power BI Embedded 體驗的指引，以及應用程式中預期變更的內容。
 
 > [!IMPORTANT]
-> 雖然遷移與 Power BI Embedded 相依，但是使用**內嵌權杖**時未與應用程式使用者的 Power BI 相依。 它們不需要註冊 Power BI，就能檢視您應用程式中內嵌的內容。 您可以使用 Embedded 的這個內嵌方法，來服務 Power BI 使用者。
+> 雖然遷移與 Power BI Embedded 相依，但是使用 **內嵌權杖** 時未與應用程式使用者的 Power BI 相依。 它們不需要註冊 Power BI，就能檢視您應用程式中內嵌的內容。 您可以使用 Embedded 的這個內嵌方法，來服務 Power BI 使用者。
 
 ![內嵌流程](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
 在您開始移轉至新 Power BI Embedded 之前，您可以快速瀏覽逐步解說，會使用 [Embedding setup tool](https://aka.ms/embedsetup) (內嵌安裝工具) 來協助您設定新 Power BI Embedded 環境。
 
 選擇最適合您的方案：
-* **對客戶進行內嵌** - 若您對 [app owns data](https://aka.ms/embedsetup/AppOwnsData) (應用程式擁有資料) 方案有興趣。 [對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 
+* **對客戶進行內嵌** - 若您對 *app owns data* (應用程式擁有資料) 方案有興趣。 [對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 
 
-* **對組織進行內嵌** - 若您對 [user owns data](https://aka.ms/embedsetup/UserOwnsData) (使用者擁有資料) 方案有興趣。 [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。
+* **對組織進行內嵌** - 若您對 *user owns data* (使用者擁有資料) 方案有興趣。 [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。
 
 ## <a name="prepare-for-the-migration"></a>準備移轉
 
@@ -81,7 +81,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 
 您必須在 Azure AD 中註冊應用程式，才能進行 REST API 呼叫。 這包括在 Power BI 應用程式註冊頁面以外，還要前往 Azure 入口網站套用其他設定。 如需詳細資訊，請參閱[註冊 Azure AD 應用程式以內嵌 Power BI 內容](register-app.md)。
 
-您應使用應用程式**主要**帳戶註冊應用程式。
+您應使用應用程式 **主要** 帳戶註冊應用程式。
 
 ## <a name="create-workspaces-required"></a>建立工作區 (必要)
 
@@ -99,7 +99,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 
 將內容從工作區集合移轉至 Power BI Embedded，可以同時移轉至目前解決方案，且不需要任何關機時間。
 
-有**遷移工具**可用來協助您將 Power BI 工作區集合的內容複製到 Power BI Embedded。 尤其是當您有許多內容時。 如需詳細資訊，請參閱 [Power BI Embedded 移轉工具](migrate-tool.md)。
+有 **遷移工具** 可用來協助您將 Power BI 工作區集合的內容複製到 Power BI Embedded。 尤其是當您有許多內容時。 如需詳細資訊，請參閱 [Power BI Embedded 移轉工具](migrate-tool.md)。
 
 內容移轉主要依賴兩個 API。
 

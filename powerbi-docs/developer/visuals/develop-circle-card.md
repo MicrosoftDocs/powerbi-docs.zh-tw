@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: 48a9196dbcf5106ed01e55be8285450ecfc7ca77
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 6c4b39fff9513143c946cc2e92294ae4cbe81427
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92050689"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397453"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>教學課程：開發 Power BI 圓形卡片視覺效果
 
@@ -35,7 +35,7 @@ ms.locfileid: "92050689"
 
 * [Visual Studio Code (VS Code)](https://www.visualstudio.com/)。 VS Code 是開發 JavaScript 和 TypeScript 應用程式的理想整合式開發環境 (IDE)。
 
-* [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell) 第 4 版或更新版本 (針對 Windows)。 或是[終端機](https://macpaw.com/how-to/use-terminal-on-mac) \(英文\) (針對 OSX)。
+* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) 第 4 版或更新版本 (針對 Windows)。 或是[終端機](https://macpaw.com/how-to/use-terminal-on-mac) \(英文\) (針對 OSX)。
 
 * 已可用於開發 Power BI 視覺效果的環境。 [設定環境以開發 Power BI 視覺效果](environment-setup.md)。
 
@@ -65,7 +65,7 @@ ms.locfileid: "92050689"
     pbiviz start
     ```
     >[!IMPORTANT]
-    >請不要關閉 PowerSell 視窗，直到教學課程結束為止。 若要停止執行視覺效果，請輸入 Ctrl+C；如果系統提示是否要終止批次作業，請輸入 Y，然後按 *Enter*。
+    >請不要關閉 PowerSell 視窗，直到教學課程結束為止。 若要停止執行視覺效果，請輸入 Ctrl+C；如果系統提示是否要終止批次作業，請輸入 Y，然後按 *Enter* 。
 
 ## <a name="view-the-circle-card-in-power-bi-service"></a>在 Power BI 服務中檢視圓形卡片
 
@@ -103,7 +103,7 @@ ms.locfileid: "92050689"
     這是非常簡單的視覺效果，其會顯示已呼叫其更新方法的次數。 在這個階段中，視覺效果尚未擷取任何資料。
 
     >[!NOTE]
-    >如果視覺效果顯示連線錯誤訊息，請在瀏覽器中開啟新索引標籤，瀏覽至 [https://localhost:8080/assets/status](https://localhost:8080/assets/status)，並為您的瀏覽器授權以使用此位址。
+    >如果視覺效果顯示連線錯誤訊息，請在瀏覽器中開啟新索引標籤，瀏覽至 `https://localhost:8080/assets/status`，並為您的瀏覽器授權以使用此位址。
     >
     >![新視覺效果顯示連線錯誤的螢幕擷取畫面。](media/develop-circle-card/connection-error.png)
 
@@ -192,9 +192,9 @@ ms.locfileid: "92050689"
 
 新增 D3 可縮放向量圖形 (SVG)。 這可讓您建立三種圖形：圓形，以及兩個文字元素。
 
-1. 在 VS Code 中開啟 **visual.ts**。
+1. 在 VS Code 中開啟 **visual.ts** 。
 
-2. 將下列程式碼新增到 *constructor*。
+2. 將下列程式碼新增到 *constructor* 。
 
     ```typescript
     this.svg = d3.select(options.element)
@@ -219,7 +219,7 @@ ms.locfileid: "92050689"
 
 設定視覺效果的寬度和高度，然後將視覺效果元素的屬性與樣式初始化。
 
-1. 在 VS Code 中開啟 **visual.ts**。
+1. 在 VS Code 中開啟 **visual.ts** 。
 
 2. 將下列程式碼新增到 *update* 方法。
 
@@ -365,7 +365,7 @@ export class Visual implements IVisual {
 
 1. 在 VS Code 中開啟您的專案 ([檔案] > [開啟資料夾])。
 
-2. 選取 [capabilities.json]**** 檔案。
+2. 選取 [capabilities.json] 檔案。
 
     >[!div class="mx-imgBorder"]
     >![在 VS Code 中存取 capabilities.json 檔案的螢幕擷取畫面。](media/develop-circle-card/capabilities-file.png)
@@ -378,7 +378,7 @@ export class Visual implements IVisual {
 
 停止視覺效果執行並加以重新啟動。
 
-1. 在執行視覺效果的 PowerShell 視窗中，輸入 Ctrl+C；如果系統提示是否要終止批次作業，請輸入 Y，然後按 *Enter*。
+1. 在執行視覺效果的 PowerShell 視窗中，輸入 Ctrl+C；如果系統提示是否要終止批次作業，請輸入 Y，然後按 *Enter* 。
 
 2. 在 PowerShell 中，啟動視覺效果。
 
@@ -427,7 +427,7 @@ export class Visual implements IVisual {
 
 * **定義資料角色**
 
-    以 *measure* 類型的單一資料角色來定義 *dataRoles* 陣列。 此資料角色稱為 *measure*，且會顯示為 *Measure*。 其可讓您傳遞量值欄位，或是加總之後的欄位。
+    以 *measure* 類型的單一資料角色來定義 *dataRoles* 陣列。 此資料角色稱為 *measure* ，且會顯示為 *Measure* 。 其可讓您傳遞量值欄位，或是加總之後的欄位。
 
     1. 在 VS Code 中開啟 **capabilities.json** 檔案。
 
@@ -492,12 +492,12 @@ export class Visual implements IVisual {
     >[!div class="mx-imgBorder"]
     >![在圓形卡片 [顯示資料檢視] 選項中顯示之 value 數值的螢幕擷取畫面。](media/develop-circle-card/value.png)
 
-5. 展開 **metadata**，然後展開 **columns** 陣列，並檢閱 **format** 和 **displayName** 值。
+5. 展開 **metadata** ，然後展開 **columns** 陣列，並檢閱 **format** 和 **displayName** 值。
 
     >[!div class="mx-imgBorder"]
     >![在圓形卡片 [顯示資料檢視] 選項中顯示之 format 和 displayName 值的螢幕擷取畫面。](media/develop-circle-card/colunms.png)
 
-6. 若要切換回到視覺效果，在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]****。
+6. 若要切換回到視覺效果，在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]。
 
 ### <a name="configure-the-visual-to-consume-data"></a>設定視覺效果以取用資料
 

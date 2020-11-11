@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b8811d9b869d4aa3592c9ed3531d067701b544a8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637679"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396579"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>資料流程限制與考量
 
@@ -24,7 +24,7 @@ ms.locfileid: "91637679"
 
 撰寫資料流程時，使用者應注意下列考量事項：
 
-* 撰寫資料流程是在 Power Query Online (PQO) 環境中執行的；請參閱 [Power Query 限制](https://docs.microsoft.com/power-query/power-query-online-limits)中描述的限制。
+* 撰寫資料流程是在 Power Query Online (PQO) 環境中執行的；請參閱 [Power Query 限制](/power-query/power-query-online-limits)中描述的限制。
 由於資料流程撰寫是在 Power Query Online (PQO) 環境中執行的，因此對資料流程工作負載設定執行的更新只會影響重新整理，而不會影響撰寫體驗
 
 * 資料流程只能由其擁有者修改
@@ -37,7 +37,7 @@ ms.locfileid: "91637679"
 
 ## <a name="api-considerations"></a>API 考量
 
-您可在 [REST API 參考](https://docs.microsoft.com/rest/api/power-bi/dataflows) (英文) 中找到支援資料流程 REST API 的詳細資訊。 以下是一些要記住的考量：
+您可在 [REST API 參考](/rest/api/power-bi/dataflows) (英文) 中找到支援資料流程 REST API 的詳細資訊。 以下是一些要記住的考量：
 
 * 匯出和匯入資料流程會提供該資料流程新的識別碼
 
@@ -111,4 +111,3 @@ ms.locfileid: "91637679"
 * [將資料流程儲存體設定為使用 Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [資料流程的進階功能](dataflows-premium-features.md)
 * [使用資料流程的 AI](dataflows-machine-learning-integration.md)
-

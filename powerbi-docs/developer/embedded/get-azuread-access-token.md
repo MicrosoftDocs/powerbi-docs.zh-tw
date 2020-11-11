@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 8b20ee4fbac3c4b22bd420e49df0bc1fbfd6e300
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746600"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396694"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>取得 Power BI 應用程式的 Azure AD 存取權杖
 
 本文說明如何在 Power BI 應用程式中驗證使用者，以及如何擷取存取權杖以與 [Power BI REST API](/rest/api/power-bi/) 搭配使用。
 
-您必須先取得 Azure Active Directory (Azure AD) **驗證存取權杖**，才能呼叫 REST API。 應用程式可使用權杖來存取 Power BI 儀表板、磚和報表。 若要深入了解，請參閱[使用 OAuth 2.0 授權碼授與流程，授權存取 Azure Active Directory Web 應用程式](/azure/active-directory/develop/v1-protocols-oauth-code)。
+您必須先取得 Azure Active Directory (Azure AD) **驗證存取權杖** ，才能呼叫 REST API。 應用程式可使用權杖來存取 Power BI 儀表板、磚和報表。 若要深入了解，請參閱[使用 OAuth 2.0 授權碼授與流程，授權存取 Azure Active Directory Web 應用程式](/azure/active-directory/develop/v1-protocols-oauth-code)。
 
 根據您內嵌內容的方式，擷取的存取權杖會有所不同。 本文說明兩種不同的方法。
 
@@ -29,7 +29,7 @@ ms.locfileid: "91746600"
 
 ### <a name="get-an-azure-ad-authorization-code"></a>取得 Azure AD 授權碼
 
-取得**存取權杖**的第一個步驟，是從 **Azure AD** 取得授權碼。 請利用下列屬性建構查詢字串，並重新導向至 **Azure AD**。
+取得 **存取權杖** 的第一個步驟，是從 **Azure AD** 取得授權碼。 請利用下列屬性建構查詢字串，並重新導向至 **Azure AD** 。
 
 #### <a name="authorization-code-query-string"></a>授權碼查詢字串
 
@@ -53,9 +53,9 @@ var @params = new NameValueCollection
 };
 ```
 
-建構查詢字串之後，請重新導向至 **Azure AD** 以取得**授權碼**。  以下是用於建構**授權碼**查詢字串和重新導向至 **Azure AD** 的完整 C# 方法。 然後，請使用**授權碼**以取得**存取權杖**。
+建構查詢字串之後，請重新導向至 **Azure AD** 以取得 **授權碼** 。  以下是用於建構 **授權碼** 查詢字串和重新導向至 **Azure AD** 的完整 C# 方法。 然後，請使用 **授權碼** 以取得 **存取權杖** 。
 
-在 redirect.aspx.cs 內，呼叫 [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 來產生權杖。
+在 redirect.aspx.cs 內，呼叫 [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 來產生權杖。
 
 #### <a name="get-authorization-code"></a>取得授權碼
 
@@ -97,7 +97,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>從授權碼取得存取權杖
 
-一旦 **Azure AD** 重新導向回您的 Web 應用程式並提供**授權碼**之後，您就可使用它來取得存取權杖。 以下是 C# 範例，可用於重新導向頁面及 default.aspx 的 `Page_Load` 事件。
+一旦 **Azure AD** 重新導向回您的 Web 應用程式並提供 **授權碼** 之後，您就可使用它來取得存取權杖。 以下是 C# 範例，可用於重新導向頁面及 default.aspx 的 `Page_Load` 事件。
 
 您可以從 [Active Directory 驗證程式庫](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet 套件中擷取 **Microsoft.IdentityModel.Clients.ActiveDirectory** 命名空間。
 
@@ -168,7 +168,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 ### <a name="access-token-with-a-master-account"></a>搭配主帳戶的存取權杖
 
-對於此方法，您可以使用單一*主*帳戶，即 Power BI Pro 使用者。 帳戶認證會儲存在應用程式中。 應用程式會使用這些儲存的認證來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
+對於此方法，您可以使用單一 *主* 帳戶，即 Power BI Pro 使用者。 帳戶認證會儲存在應用程式中。 應用程式會使用這些儲存的認證來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 ### <a name="access-token-with-service-principal"></a>搭配服務主體的存取權杖
 
@@ -177,7 +177,7 @@ protected void Page_Load(object sender, EventArgs e)
 #### <a name="embedservicecs"></a>EmbedService.cs
 
 ```csharp
-var AuthorityURL  = "https://login.microsoftonline.com/common/"
+var AuthorityURL  = "https://login.microsoftonline.com/<TenantId>/"
 var ResourceURL  = "https://analysis.windows.net/powerbi/api"
 var authenticationContext = new AuthenticationContext(AuthorityUrl);
        AuthenticationResult authenticationResult = null;
