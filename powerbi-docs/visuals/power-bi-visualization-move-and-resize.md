@@ -1,20 +1,20 @@
 ---
 title: 移動、調整大小及顯示視覺效果
 description: 在 Power BI 服務和 Power BI Desktop 中移動視覺效果及調整其大小
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 12/31/2018
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 976ba8661651cfa42cc52b07aae5fd665516f182
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dd7920afb8438e577f0d800ed56c2a577f18807e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239663"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412801"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>移動和調整報表中視覺效果的大小
 

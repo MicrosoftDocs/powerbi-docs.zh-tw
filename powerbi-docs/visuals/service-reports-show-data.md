@@ -1,20 +1,20 @@
 ---
 title: 顯示用於建立 Power BI 視覺效果的資料
 description: 本文件說明如何顯示用來在 Power BI 中建立視覺效果的資料，以及如何將該資料匯出為 .csv 檔案。
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 12/4/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c3e996da62b71c008f4f7a5929cc8b91d38cc26e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239383"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412778"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>顯示視覺效果的基礎資料
 

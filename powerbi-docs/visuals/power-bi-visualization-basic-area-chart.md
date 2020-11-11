@@ -1,20 +1,20 @@
 ---
 title: 基本的區域圖
 description: 基本的區域圖。
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/16/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd0cfbcb2b4e4d18a7aa69fb65063f9d81e0a14a
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 4cc08398821d019d55475e0d4ed66a7633c49ca1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354792"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411421"
 ---
 # <a name="create-and-use-basic-area-charts"></a>建立和使用基本區域圖
 
@@ -42,9 +42,9 @@ ms.locfileid: "85354792"
 
 1. 從功能表列的左上方區段中，選取 [檔案] > [開啟]
    
-2. 尋找您的**零售分析範例 PBIX 檔案**複本
+2. 尋找您的 **零售分析範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **零售分析範例 PBIX 檔案** 。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 

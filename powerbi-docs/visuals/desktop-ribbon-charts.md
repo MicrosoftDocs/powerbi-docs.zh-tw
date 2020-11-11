@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 中使用功能區圖表
 description: 在 Power BI Desktop 中建立和使用功能區圖表
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e89712dea5d9f932669141d8fe4129727166a342
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635761"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413101"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>在 Power BI 中建立功能區圖表
 
@@ -35,9 +35,9 @@ ms.locfileid: "91635761"
 
 1. 從功能表列的左上方區段中，選取 [檔案] > [開啟]
    
-2. 尋找您的**零售分析範例 PBIX 檔案**複本
+2. 尋找您的 **零售分析範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **零售分析範例 PBIX 檔案** 。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
@@ -66,10 +66,10 @@ ms.locfileid: "91635761"
 
 功能區圖表的這些格式設定選項可讓您進行調整。
 
-* **間距**可讓您調整多少空白字元出現在功能區之間。 數字是資料行最大高度的百分比。
-* **符合數列色彩**可讓您讓功能區色彩符合數列色彩。 當設定為 [關閉] 時，功能區是灰色。
-* **透明度**指定功能區的透明程度，預設值為 30。
-* **框線**可讓您在功能區的上方和底部放置深色框線。 根據預設，框線會關閉。
+* **間距** 可讓您調整多少空白字元出現在功能區之間。 數字是資料行最大高度的百分比。
+* **符合數列色彩** 可讓您讓功能區色彩符合數列色彩。 當設定為 [關閉] 時，功能區是灰色。
+* **透明度** 指定功能區的透明程度，預設值為 30。
+* **框線** 可讓您在功能區的上方和底部放置深色框線。 根據預設，框線會關閉。
 
 由於功能區圖表沒有 Y 軸標籤，因此您可能想要新增資料標籤。 從 [格式化] 窗格中，選取 [資料標籤]。 
 

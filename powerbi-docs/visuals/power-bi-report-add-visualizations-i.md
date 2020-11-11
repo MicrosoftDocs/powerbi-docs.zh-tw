@@ -1,21 +1,21 @@
 ---
 title: 第 1 部分：在 Power BI 報表中新增視覺效果
 description: 第 1 部分：在 Power BI 報表中新增視覺效果
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 439807717a91a22520969a85a3991b76f8115833
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3a2002c9f17428c84704d68f621cf18443252557
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232389"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411881"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>將視覺效果新增至 Power BI 報表 (第 1 部分)
 
@@ -31,9 +31,9 @@ ms.locfileid: "85232389"
 
 1. 從 Power BI Desktop 功能表列的左上方區段，選取 [檔案] > [開啟]
    
-2. 尋找您的**銷售與行銷範例 PBIX 檔案**複本
+2. 尋找您的 **銷售與行銷範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**銷售與行銷範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **銷售與行銷範例 PBIX 檔案** 。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
@@ -64,7 +64,7 @@ ms.locfileid: "85232389"
 
     ![[欄位] 窗格的螢幕擷取畫面，[值] 區也已標示。](media/power-bi-report-add-visualizations-i/power-bi-create-visual.png)
 
-1. 選取**堆疊直條圖**圖示將視覺效果變更為直條圖。
+1. 選取 **堆疊直條圖** 圖示將視覺效果變更為直條圖。
 
    ![標示堆疊直條圖圖示的 [視覺效果] 窗格螢幕擷取畫面。](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 

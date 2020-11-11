@@ -1,8 +1,8 @@
 ---
 title: 漏斗圖
 description: Power BI 中的漏斗圖
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0680df9a75d42f637632916bfd648943ba7517b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2719127825dc94f1f1bd83fe4d36dc47dfc355f7
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235842"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412893"
 ---
 # <a name="create-and-use-funnel-charts"></a>建立和使用漏斗圖
 
@@ -61,9 +61,9 @@ ms.locfileid: "85235842"
 
 1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
    
-2. 尋找您的**商機分析範例 PBIX 檔案**複本
+2. 尋找您的 **商機分析範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**商機分析範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **商機分析範例 PBIX 檔案** 。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 

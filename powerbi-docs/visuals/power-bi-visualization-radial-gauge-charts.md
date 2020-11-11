@@ -1,8 +1,8 @@
 ---
 title: Power BI 中的星形量測計圖表
 description: Power BI 中的星形量測計圖表
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: d7fcef8294d1e4ba4b3336d4a2456e0ccac787fb
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354884"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412318"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
 
@@ -50,9 +50,9 @@ ms.locfileid: "85354884"
 
 1. 從功能表列的左上方區段中，選取 [取得資料] > [Excel]
    
-2. 尋找**財務範例 Excel 檔案**的複本
+2. 尋找 **財務範例 Excel 檔案** 的複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**財務範例 Excel 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **財務範例 Excel 檔案** 。
 
 1. 選取 [財務] 和 [工作表 1]
 
@@ -80,7 +80,7 @@ ms.locfileid: "85354884"
 
     ![量測計圖表的螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/gauge-no-target.png)
 
-    由於下載**財務範例**檔案的時間點不同，您可能會看到不一樣的數字。
+    由於下載 **財務範例** 檔案的時間點不同，您可能會看到不一樣的數字。
 
     > [!TIP]
     > 根據預設，Power BI 會建立量測計圖表，其中假設目前值 (在此案例中為 [平均總銷售額]) 位於量測計的中點。 由於 [平均總銷售額] 值是美金 $182.76K 元，開始值 (最小值) 設定為 0 且結束值 (最大值) 設定為目前值的兩倍。
@@ -91,7 +91,7 @@ ms.locfileid: "85354884"
 
 1. 將彙總變更為 [平均] 。
 
-   Power BI 會加入指針來代表我們的目標值： **$145.48K**。
+   Power BI 會加入指針來代表我們的目標值： **$145.48K** 。
 
    ![已新增 [COGS 的平均] 的量測計圖表螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 

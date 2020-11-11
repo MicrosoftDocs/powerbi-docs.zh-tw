@@ -1,20 +1,20 @@
 ---
 title: 卡片視覺效果 (也稱為大數字磚)
 description: 在 Power BI 中建立卡片視覺效果
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: c8d9691ce515bc7c216c7d3f1bb764ca8b511971
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526807"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411030"
 ---
 # <a name="create-card-visualizations"></a>建立卡片視覺效果
 
@@ -35,9 +35,9 @@ ms.locfileid: "91526807"
 
 1. 從功能表列的左上方區段中，選取 [檔案]  \> [開啟] 
    
-2. 尋找您的**零售分析範例 PBIX 檔案**複本
+2. 尋找您的 **零售分析範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **零售分析範例 PBIX 檔案** 。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
@@ -62,7 +62,7 @@ ms.locfileid: "91526807"
 
 1. 從空白報表頁面開始
 
-1. 在視窗頂端，選取**詢問問題**圖示。 
+1. 在視窗頂端，選取 **詢問問題** 圖示。 
 
     Power BI 將會為您的問題建立卡片和方塊。 
 

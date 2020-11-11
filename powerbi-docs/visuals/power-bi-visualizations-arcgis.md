@@ -1,21 +1,21 @@
 ---
 title: 與已和您共用的 ArcGIS 地圖互動
 description: 在閱讀檢視中使用 ArcGIS Map for Power BI 視覺效果作為報表取用者
-author: mihart
+author: msftrien
 ms.reviewer: willt, lukasz
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 751d36489590b92c1e03804f100a711b44e028ff
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 7b81ecbc23418fec4bd264e5cb20126f871c7e52
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600288"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413104"
 ---
 # <a name="create-arcgis-maps-in-power-bi"></a>在 Power BI 中建立 ArcGIS 地圖
 
@@ -39,7 +39,7 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 ![ArcGIS 開啟影像](media/power-bi-visualizations-arcgis/arcgis-tutorial-01.png)
 
 > [!TIP]
-> 若要查看多個範例及閱讀見證，請瀏覽 [**Esri 的 ArcGIS Maps for Power BI 頁面**](https://www.esri.com/powerbi) \(英文\)。 另請檢視 Esri 的 **[ArcGIS Maps for Power BI 線上](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm)說明**。
+> 若要查看多個範例及閱讀見證，請瀏覽 [**Esri 的 ArcGIS Maps for Power BI 頁面**](https://www.esri.com/powerbi) \(英文\)。 另請檢視 Esri 的 **[ArcGIS Maps for Power BI 線上](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm)說明** 。
 
 ## <a name="user-consent"></a>使用者同意
 
@@ -50,7 +50,7 @@ ArcGIS Maps for Power BI 由 Esri ([https://www.esri.com](https://www.esri.com/)
 本教學課程使用 Power BI Desktop 及 PBIX [零售分析範例](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。 您也可以使用 Power BI 服務建立 ArcGIS Maps for Power BI。
 
 1. 從功能表列的左上方區段，選取 [檔案] > [開啟報表]。
-2. 尋找儲存在您本機電腦上的**零售分析範例 PBIX 檔案**。
+2. 尋找儲存在您本機電腦上的 **零售分析範例 PBIX 檔案** 。
 3. 在報表檢視![報表檢視圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-01.png)中開啟 [零售分析範例]。
 4. Select ![[新增頁面] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-02.png) 以在報表中新增頁面。
 
@@ -99,7 +99,7 @@ ArcGIS Maps for Power BI 由 Esri ([https://www.esri.com](https://www.esri.com/)
 在您將資料新增到地圖視覺效果之後，地圖工具就會變成可用。
 
 > [!NOTE]
-> 此教學課程只顯示 ArcGIS Maps for Power BI **標準**版本中可用的功能與選項。 如果您已登入具有適當授權的有效 [ArcGIS 帳戶](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm)，就可以存取更多功能。
+> 此教學課程只顯示 ArcGIS Maps for Power BI **標準** 版本中可用的功能與選項。 如果您已登入具有適當授權的有效 [ArcGIS 帳戶](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm)，就可以存取更多功能。
 
 展開地圖工具：
 
@@ -114,7 +114,7 @@ ArcGIS Maps for Power BI 由 Esri ([https://www.esri.com](https://www.esri.com/)
 
 #### <a name="change-the-base-map"></a>變更底圖
 
-底圖針對地圖中的資料提供背景或視覺效果內容。 例如，顯示街道的底圖可以為您的地址資料提供內容。 使用**標準**帳戶時，提供四個底圖：深灰畫布、淺灰畫布、OpenStreetMap 和街道名。
+底圖針對地圖中的資料提供背景或視覺效果內容。 例如，顯示街道的底圖可以為您的地址資料提供內容。 使用 **標準** 帳戶時，提供四個底圖：深灰畫布、淺灰畫布、OpenStreetMap 和街道名。
 
 若要變更底圖，請遵循下列步驟：
 
@@ -133,7 +133,7 @@ ArcGIS Maps for Power BI 由 Esri ([https://www.esri.com](https://www.esri.com/)
 
 若要顯示 [圖層] 清單，請按一下地圖工具中的 [圖層] ![[圖層] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-06.png) 按鈕。
 
-[圖層] 清單會顯示組成地圖的每個圖層，而且每個圖層都有自己的一組選項，可協助您自訂及處理地圖。 視選取的圖層類型而定，功能表中會出現不同的選項。例如，您可以針對使用 Power BI 資料所建立的圖層，變更其符號學與位置類型 (例如您為此範例建立的**城市**圖層)，但那些選項無法供參考或行駛時間圖層使用。
+[圖層] 清單會顯示組成地圖的每個圖層，而且每個圖層都有自己的一組選項，可協助您自訂及處理地圖。 視選取的圖層類型而定，功能表中會出現不同的選項。例如，您可以針對使用 Power BI 資料所建立的圖層，變更其符號學與位置類型 (例如您為此範例建立的 **城市** 圖層)，但那些選項無法供參考或行駛時間圖層使用。
 
 ![ArcGIS 圖層按鈕](media/power-bi-visualizations-arcgis/arcgis-tutorial-09.png)
 
@@ -236,10 +236,10 @@ ArcGIS Maps for Power BI 提供數種不同的選取工具，可協助您選取�
     
     | **工具** | **說明** |
     | --- | --- |
-    | ![單一選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-08.png) | **單一選取**：這是可用於按一下個別位置的單一選取工具；這是預設的選取工具。 按住 Ctrl 並按一下以選取多個位置。按一下地圖上的資料位置，就會加以取並觸發與其他視覺效果的互動。按一下參考圖層上的圖釘或位置以顯示其工具提示。 |
-    | ![方塊選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-09.png)  | **方塊選取**：拖曳矩形選取範圍以選取多個位置，或按一下個別位置加以選取。如同選取工具，按一下參考圖層上的圖釘或位置會顯示其工具提示。當方塊選取工具處於作用中狀態時，您無法移動瀏覽地圖。 |
-    | ![參考圖層選取圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-10.png)  | **參考圖層選取**：如果您已將[參考圖層](https://doc.arcgis.com/en/maps-for-powerbi/design/add-a-reference-layer.htm)新增到地圖，請使用此工具來選取位置，方法是按一下參考圖層上的區域。 參考上分隔區域內的位置會反白顯示；地圖其他區域中的位置無法使用。只有在地圖包含一或多個參考圖層，且參考圖層目前為作用中時，才會顯示此工具。 |
-    | ![行駛時間選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-11.png)  | **行駛時間選取**：如果您已在地圖上新增[行駛時間區域](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm)，請使用行駛時間區域選取工具來選取已定義區域內的資料位置。 |
+    | ![單一選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-08.png) | **單一選取** ：這是可用於按一下個別位置的單一選取工具；這是預設的選取工具。 按住 Ctrl 並按一下以選取多個位置。按一下地圖上的資料位置，就會加以取並觸發與其他視覺效果的互動。按一下參考圖層上的圖釘或位置以顯示其工具提示。 |
+    | ![方塊選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-09.png)  | **方塊選取** ：拖曳矩形選取範圍以選取多個位置，或按一下個別位置加以選取。如同選取工具，按一下參考圖層上的圖釘或位置會顯示其工具提示。當方塊選取工具處於作用中狀態時，您無法移動瀏覽地圖。 |
+    | ![參考圖層選取圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-10.png)  | **參考圖層選取** ：如果您已將 [參考圖層](https://doc.arcgis.com/en/maps-for-powerbi/design/add-a-reference-layer.htm)新增到地圖，請使用此工具來選取位置，方法是按一下參考圖層上的區域。 參考上分隔區域內的位置會反白顯示；地圖其他區域中的位置無法使用。只有在地圖包含一或多個參考圖層，且參考圖層目前為作用中時，才會顯示此工具。 |
+    | ![行駛時間選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-11.png)  | **行駛時間選取** ：如果您已在地圖上新增 [行駛時間區域](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm)，請使用行駛時間區域選取工具來選取已定義區域內的資料位置。 |
     
 2. 選取地圖上的一或多個位置。 您一次最多可選取 250 個資料點。
 
@@ -252,7 +252,7 @@ ArcGIS Maps for Power BI 提供數種不同的選取工具，可協助您選取�
 若要釘選位置，請遵循下列步驟：
 
 1. 從地圖工具，按一下 [搜尋] 按鈕 ![[搜尋] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-04.png) 以開啟 [搜尋] 窗格。
-2. 在 [搜尋] 方塊中，輸入**匹茲堡國際**關鍵字。
+2. 在 [搜尋] 方塊中，輸入 **匹茲堡國際** 關鍵字。
 
     關鍵字可以包含地址、地點或景點。 當您輸入時，會出現類似的最近搜尋或以類似關鍵字為基礎的建議。
 
@@ -300,7 +300,7 @@ ArcGIS Maps for Power BI 可讓您在 ArcGIS 上搜尋公開共用的功能層�
 
 1. 在 [參考] 窗格中，按一下 [ArcGIS] 索引標籤。
 
-2. 在 [搜尋] 欄位中，輸入**美國國會地區**，然後按 **Enter**。
+2. 在 [搜尋] 欄位中，輸入 **美國國會地區** ，然後按 **Enter** 。
 
     資源庫會填入數個可能的結果。
 

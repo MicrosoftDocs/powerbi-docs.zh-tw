@@ -1,21 +1,21 @@
 ---
 title: 開始設定 Power BI 視覺效果的格式
 description: 自訂視覺化標題、背景和圖例
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 03/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ef9aec1bf01120c8c7e765fe3c59c23da40ceab
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0d19d7366dce571e2d89ba5cbc6ffbe936ec50e2
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235859"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93410984"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>自訂視覺效果標題、背景和圖例
 

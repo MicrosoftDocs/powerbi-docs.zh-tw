@@ -1,8 +1,8 @@
 ---
 title: Power BI 中的散佈圖、泡泡圖與點圖
 description: Power BI 中的散佈圖、點圖與泡泡圖
-author: mihart
-ms.reviewer: amac
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b3b2dc8892b2b9b875621c6925c6f3c652da44c6
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632886"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412686"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
 
@@ -76,9 +76,9 @@ ms.locfileid: "91632886"
 
 1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
    
-2. 尋找您的**零售分析範例 PBIX 檔案**複本
+2. 尋找您的 **零售分析範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **零售分析範例 PBIX 檔案** 。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
@@ -103,7 +103,7 @@ ms.locfileid: "91632886"
 
 1. 將 [區域]  從 [詳細資料]  拖曳至 [圖例]  。
 
-    Power BI 會顯示沿著 Y 軸繪製**總銷售差異 %** 的散佈圖，以及沿著 X 軸繪製**每平方英呎的銷售**的散佈圖。 資料點色彩代表區域：
+    Power BI 會顯示沿著 Y 軸繪製 **總銷售差異 %** 的散佈圖，以及沿著 X 軸繪製 **每平方英呎的銷售** 的散佈圖。 資料點色彩代表區域：
 
     ![散佈圖的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
@@ -115,7 +115,7 @@ ms.locfileid: "91632886"
 
    ![藉由將銷售額的 [值] 新增至 [大小] 部分，讓散佈圖變成泡泡圖的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
-1. 暫留在泡泡圖上。 泡泡的大小反映 **本年度銷售額**的值。
+1. 暫留在泡泡圖上。 泡泡的大小反映 **本年度銷售額** 的值。
 
     ![顯示工具提示](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
@@ -155,7 +155,7 @@ ms.locfileid: "91632886"
 
 ## <a name="create-a-dot-plot-chart"></a>建立點圖
 
-若要建立點圖，請使用類別欄位取代數值 **X 軸**欄位。
+若要建立點圖，請使用類別欄位取代數值 **X 軸** 欄位。
 
 從 [X 軸]  窗格，移除 [每平方英呎的銷售]  ，並將它取代為 [區域]   > [區域經理]  。
 

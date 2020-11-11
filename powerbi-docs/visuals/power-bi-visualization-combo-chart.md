@@ -1,8 +1,8 @@
 ---
 title: Power BI 中的組合圖
 description: 這份關於組合圖的教學課程，說明組合圖使用時機，以及如何在 Power BI 服務與 Desktop 中建置。
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 90c721f6c2f555bd632d6c8fff56d05994b1444b
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 89fdd0852db9560a6e2b0d43e03b9f89c61dd33e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354769"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411559"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>在 Power BI 中建立和使用組合圖
 
@@ -44,9 +44,9 @@ ms.locfileid: "85354769"
 
 1. 從功能表列的左上方區段中，選取 [檔案] > [開啟]
    
-2. 尋找您的**零售分析範例 PBIX 檔案**複本
+2. 尋找您的 **零售分析範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **零售分析範例 PBIX 檔案** 。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
@@ -87,7 +87,7 @@ ms.locfileid: "85354769"
 ## <a name="create-a-combo-chart-with-two-axes"></a>建立具有兩軸的組合圖
 在這項工作中，我們會比較毛利率與銷售額。
 
-1. 建立依**會計月份**追蹤**去年毛利率 %** 的新折線圖。 選取省略符號，依 [月份] 和 [遞增] 排序。  
+1. 建立依 **會計月份** 追蹤 **去年毛利率 %** 的新折線圖。 選取省略符號，依 [月份] 和 [遞增] 排序。  
 一月的 GM% 為 35%，尖峰在 4 月為 45%，於 7 月下降並再次於 8 月達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
 
    ![組合圖範例銷售](media/power-bi-visualization-combo-chart/combo1-new.png)

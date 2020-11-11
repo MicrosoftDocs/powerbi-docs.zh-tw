@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f84527a189be0f78f73470cbc475f45206dd8cf1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748647"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412387"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>在為您的組織內嵌時，自動安裝 Power BI 應用程式
 
@@ -25,7 +25,7 @@ ms.locfileid: "91748647"
 
 ## <a name="embed-for-power-bi-users-user-owns-data"></a>為 Power BI 使用者內嵌 (使用者擁有資料)
 
-若要為您的使用者自動安裝應用程式，您必須在[註冊應用程式](register-app.md#register-with-the-power-bi-application-registration-tool)時提供應用程式「內容建立」權限，或新增此權限 (若您已註冊應用程式)。
+若要為您的使用者自動安裝應用程式，您必須在[註冊應用程式](register-app.md#register-an-azure-ad-app)時提供應用程式「內容建立」權限，或新增此權限 (若您已註冊應用程式)。
 
 ![註冊應用程式會建立內容](media/embed-auto-install-app/register-app-create-content.png)
 

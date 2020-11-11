@@ -2,19 +2,19 @@
 title: Power BI 中的交叉分析篩選器
 description: Power BI 交叉分析篩選器是一種替代的篩選方式，可縮小您設計之報表內其他視覺效果中顯示的資料集部分。
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 07/07/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1f68ed28a57f5dd52d447d48ea231e468dd5d02a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 75ecc28c703b083355646e1caa5a457cf60cc341
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747727"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412755"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的交叉分析篩選器
 
@@ -53,7 +53,7 @@ Power BI 交叉分析篩選器不支援：
 
 1. 開啟 Power BI Desktop，並從功能表列中選取 [檔案] > [開啟]。
    
-1. 瀏覽至**零售分析範例 PBIX.pbix** 檔案，然後選取 [開啟]。
+1. 瀏覽至 **零售分析範例 PBIX.pbix** 檔案，然後選取 [開啟]。
 
 1. 在左側窗格上，選取 [報表] 圖示 ![[報表] 圖示的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-report-view.png) 以在報表檢視中開啟檔案。
 
@@ -69,7 +69,7 @@ Power BI 交叉分析篩選器不支援：
 
 1. 選取交叉分析篩選器上的名稱，並注意對頁面上其他視覺效果造成的影響。 再次選取名稱以將其取消選取，或按住 **Ctrl** 鍵以選取多個名稱。 選取所有名稱與全部不選取的效果相同。 
 
-1. 或者，在 [視覺效果] 窗格中選取**格式** (油漆滾筒圖示) 來格式化交叉分析篩選器。 
+1. 或者，在 [視覺效果] 窗格中選取 **格式** (油漆滾筒圖示) 來格式化交叉分析篩選器。 
 
    我們將不會描述每個選項；請自行實驗並建立適合的交叉分析篩選器。 在下圖中，第一個交叉分析篩選器具有水平方向，並對項目使用彩色背景。 第二個交叉分析篩選器具有垂直方向和彩色文字，以提供更標準的外觀。
 
@@ -112,15 +112,15 @@ Power BI 交叉分析篩選器不支援：
 
 1. 在 [District Monthly Sales] \(區域每月銷售額\) 頁面上，選取 [District Manager] \(區經理\) 交叉分析篩選器。 
 
-    因為您已經在 [概觀] 頁面上建立了 [District Manager] \(區經理\) (**DM**) 交叉分析篩選器，所以 [同步交叉分析篩選器] 窗格會如下所示：
+    因為您已經在 [概觀] 頁面上建立了 [District Manager] \(區經理\) ( **DM** ) 交叉分析篩選器，所以 [同步交叉分析篩選器] 窗格會如下所示：
     
     ![同步 [District Monthly Sales] \(區域每月銷售額\) 交叉分析篩選器的螢幕擷取畫面。](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
-1. 在 [同步交叉分析篩選器] 窗格的**同步**資料行中，選取 [概觀]、[District Monthly Sales] \(區域每月銷售額\) 和 [New Stores] \(新商店\) 頁面。 
+1. 在 [同步交叉分析篩選器] 窗格的 **同步** 資料行中，選取 [概觀]、[District Monthly Sales] \(區域每月銷售額\) 和 [New Stores] \(新商店\) 頁面。 
 
     這項選擇會導致 [istrict Monthly Sales] \(區域每月銷售額\) 交叉分析篩選器在這三個頁面之間同步處理。 
     
-1. 在 [同步交叉分析篩選器] 窗格的**可見**資料行中，選取 [New Stores] \(新商店\) 頁面。 
+1. 在 [同步交叉分析篩選器] 窗格的 **可見** 資料行中，選取 [New Stores] \(新商店\) 頁面。 
 
     這項選擇會導致 [istrict Monthly Sales] \(區域每月銷售額\) 交叉分析篩選器顯示在這三個頁面中。 [同步交叉分析篩選器] 窗格現在會如下所示：
 
@@ -149,7 +149,7 @@ Power BI 交叉分析篩選器不支援：
 1. 選取每個類別旁的下拉式清單箭頭以顯示和編輯選項。 
 
 ### <a name="general-options"></a>一般選項
-1. 在 [格式] 下選取 [一般]，選取 [外框色彩] 下的紅色色彩，然後將 [外框寬度] 變更為 *2*。 
+1. 在 [格式] 下選取 [一般]，選取 [外框色彩] 下的紅色色彩，然後將 [外框寬度] 變更為 *2* 。 
 
     此設定會變更標頭和項目外框及底線的色彩和粗細。
 
@@ -189,10 +189,10 @@ Power BI 交叉分析篩選器不支援：
 [標題] 預設為 [開啟]。 此選項會在交叉分析篩選器的頂端顯示資料欄位名稱。 您也可以編輯標題，此功能特別適用於階層交叉分析篩選器。 請參閱《新增多個欄位到階層交叉分析篩選器》一文中的[變更標題](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md#change-the-title)以取得詳細資料。
 
 - 在本文中，請將標題文字格式化，如下所示： 
-   - **字型色彩**：紅色
-   - **文字大小**：**14 pt**
-   - **對齊方式**：**置中**
-   - **字型家族**：**Arial Black**
+   - **字型色彩** ：紅色
+   - **文字大小** ： **14 pt**
+   - **對齊方式** ： **置中**
+   - **字型家族** ： **Arial Black**
 
 
 ### <a name="items-options"></a>項目選項
@@ -200,10 +200,10 @@ Power BI 交叉分析篩選器不支援：
 項目選項僅適用於清單交叉分析篩選器。
 
 1. 在本文中，請將 [項目] 選項格式化，如下所示：
-    - **字型色彩**：黑色
-    - **背景**：淺紅色
-    - **文字大小**：**10 pt**
-    - **字型家族**：**Arial**
+    - **字型色彩** ：黑色
+    - **背景** ：淺紅色
+    - **文字大小** ： **10 pt**
+    - **字型家族** ： **Arial**
  
 1. 針對 [外框]，選擇 [框架]，以使用您在 [一般] 選項下所設定大小和色彩來繪製每個項目的框線。 
     
@@ -226,7 +226,7 @@ Power BI 交叉分析篩選器不支援：
 - [背景]：將背景色彩新增至交叉分析篩選器，並設定其透明度。
 - [鎖定長寬]：在調整交叉分析篩選器的大小時，保留其相對高度與寬度。
 - [框線]：在交叉分析篩選器週圍新增框線，並設定其色彩。 此交叉分析篩選器框線和 [一般] 設定不同，不受其影響。
-- **陰影**：將陰影新增至滑桿。
+- **陰影** ：將陰影新增至滑桿。
 
 ## <a name="next-steps"></a>後續步驟
 如需交叉分析篩選器的詳細資訊，請參閱下列文章：

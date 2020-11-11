@@ -2,25 +2,25 @@
 title: 在 Power BI 中使用相對日期交叉分析篩選器或篩選條件
 description: 深入了解如何在 在 Power BI 中使用交叉分析篩選器或篩選條件限制相對日期範圍。
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: rien
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 5599c26524ba296b7cd201467c48f124b9843b4d
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008788"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412824"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中建立相對日期交叉分析篩選器與篩選條件
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
-利用**相對日期交叉分析篩選器**或**相對日期篩選條件**，可以將時間篩選條件套用到資料模型中的任何日期資料行。 舉例來說，您可以使用**相對日期交叉分析篩選器**，只顯示過去 30 天 (或月、日曆月份等) 內產生的銷售資料。 當您重新整理資料時，相對時段會自動套用適當的相對日期限制式。
+利用 **相對日期交叉分析篩選器** 或 **相對日期篩選條件** ，可以將時間篩選條件套用到資料模型中的任何日期資料行。 舉例來說，您可以使用 **相對日期交叉分析篩選器** ，只顯示過去 30 天 (或月、日曆月份等) 內產生的銷售資料。 當您重新整理資料時，相對時段會自動套用適當的相對日期限制式。
 
 ![箭號指向相對日期交叉分析篩選器的報表螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
@@ -64,7 +64,7 @@ ms.locfileid: "90008788"
 * 年
 * 年 (日曆)
 
-若從該清單選取 [月]  並在中間設定中輸入 *2*，其結果會如下：
+若從該清單選取 [月]  並在中間設定中輸入 *2* ，其結果會如下：
 
 * 如果今天是 7 月 20 日：
 
@@ -79,7 +79,7 @@ ms.locfileid: "90008788"
 
 ![拖曳 [OrderDate] 欄位到 [頁面層級篩選] 井的螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
 
-到達目的地後，您就可以變更相對日期範圍。 類似自訂**相對日期交叉分析篩選器**的方法。 從 [篩選類型]  下拉式功能表選取 [相對日期篩選]  。
+到達目的地後，您就可以變更相對日期範圍。 類似自訂 **相對日期交叉分析篩選器** 的方法。 從 [篩選類型]  下拉式功能表選取 [相對日期篩選]  。
 
 ![顯示 [相對日期篩選] 之 [篩選器類型] 下拉式清單和滑鼠指標的螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
 
@@ -89,7 +89,7 @@ ms.locfileid: "90008788"
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 
-**相對日期範圍交叉分析篩選器**及篩選條件目前適用下列限制與考量。
+**相對日期範圍交叉分析篩選器** 及篩選條件目前適用下列限制與考量。
 
 * 交叉分析篩選器中欄位的資料類型必須是日期，而非文字的預設值。 否則，相對的選項就不會顯示在交叉分析篩選器中。
 * **Power BI** 中的資料模型不包含時區資訊。 模型可以儲存時間，但無法指出所在時區。

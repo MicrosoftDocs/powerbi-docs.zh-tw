@@ -1,20 +1,20 @@
 ---
 title: Power BI 中的矩形式樹狀結構圖
 description: Power BI 中的矩形式樹狀結構圖
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6331209d40defc4f97a2de670be207e86eaabfef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3cc14a9b873d86b3e9d62655d41d152cb3348252
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237411"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411444"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的矩形式樹狀結構圖
 
@@ -28,7 +28,7 @@ ms.locfileid: "85237411"
 
 例如，如果您要分析銷售額，最上層的分支可能是服裝類別：[都市]  、[鄉村]  、[青少年]  和 [混合]  。 Power BI 會將您的類別矩形分成多個分葉，代表該類別內的服裝製造商。 這些分葉會根據銷售數目，調整大小和陰影。
 
-在上述的 [都市]  分支，售出了許多 **VanArsdel** 服裝。 售出了較少 **Natura** 和 **Fama**。 只售出了少量 **Leo**。 因此，矩形式樹狀結構圖的 [都市]  分支會有：
+在上述的 [都市]  分支，售出了許多 **VanArsdel** 服裝。 售出了較少 **Natura** 和 **Fama** 。 只售出了少量 **Leo** 。 因此，矩形式樹狀結構圖的 [都市]  分支會有：
 
 * 在左上角有 **VanArsdel** 的最大矩形。
 
@@ -63,9 +63,9 @@ ms.locfileid: "85237411"
 
 1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
    
-2. 尋找您的**零售分析範例 PBIX 檔案**複本
+2. 尋找您的 **零售分析範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **零售分析範例 PBIX 檔案** 。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
@@ -111,9 +111,9 @@ ms.locfileid: "85237411"
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
 
-在矩形式樹狀結構圖中醒目提示某個**類別**或**詳細資料**，可交叉醒目提示及交叉篩選報表頁面上的其他視覺效果。 若要跟著做，請將一些視覺效果新增至此報表頁面或是將矩形式樹狀結構圖複製到此報表中其他頁面的其中一個。 以下樹狀圖已複製到 [概觀]  頁面上。 
+在矩形式樹狀結構圖中醒目提示某個 **類別** 或 **詳細資料** ，可交叉醒目提示及交叉篩選報表頁面上的其他視覺效果。 若要跟著做，請將一些視覺效果新增至此報表頁面或是將矩形式樹狀結構圖複製到此報表中其他頁面的其中一個。 以下樹狀圖已複製到 [概觀]  頁面上。 
 
-1. 在矩形式樹狀結構圖上，選取 [類別]  或 [類別]  中的 [鏈結]  。 這會交叉醒目提示頁面上的其他視覺效果。 例如，選取 [050-鞋子]  會顯示鞋子的去年銷售額美金 **$16,352,432** 元，這些銷售額中有美金 **$2,174,185** 元來自 **Fashions Direct**。
+1. 在矩形式樹狀結構圖上，選取 [類別]  或 [類別]  中的 [鏈結]  。 這會交叉醒目提示頁面上的其他視覺效果。 例如，選取 [050-鞋子]  會顯示鞋子的去年銷售額美金 **$16,352,432** 元，這些銷售額中有美金 **$2,174,185** 元來自 **Fashions Direct** 。
 
    ![顯示交叉醒目提示的 [銷售門市概觀] 報表螢幕擷取畫面。](media/power-bi-visualization-treemaps/treemaphiliting.png)
 

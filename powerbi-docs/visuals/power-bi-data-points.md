@@ -1,7 +1,7 @@
 ---
 title: 大型資料集、資料點限制及資料策略
 description: 適用於視覺效果和資料縮減策略的資料限制
-author: mihart
+author: msftrien
 ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857718"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412042"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型套用資料點限制與策略
 
@@ -31,12 +31,12 @@ ms.locfileid: "90857718"
 每個策略都有以所要視覺化之資料的形狀和類型為依據的預設值。 但您可以在 Power BI 的 [格式化] 窗格中覆寫這些預設值，以提供正確的使用者體驗。 
 
 * **資料視窗化** (分割)：能以漸進方式載入整體資料集的片段，讓使用者以捲動方式瀏覽視覺效果中的資料。
-* **前 N 項**：只顯示前 N 個項目
-* **簡單範例**：顯示第一個、最後一個，以及它們之間 N 個平均分佈的項目。
-* **後 N 項**：只顯示最後 N 個項目。  適用於監視經常更新的資料。
-* **高密度取樣**：一種更顧及極端值和/或曲線形狀的改良式取樣演算法。
-    * **量化線路取樣**：根據某個軸上各個量化中的極端值進行資料點取樣
-    * **重疊點取樣**：根據重疊值進行資料點取樣以保留極端值
+* **前 N 項** ：只顯示前 N 個項目
+* **簡單範例** ：顯示第一個、最後一個，以及它們之間 N 個平均分佈的項目。
+* **後 N 項** ：只顯示最後 N 個項目。  適用於監視經常更新的資料。
+* **高密度取樣** ：一種更顧及極端值和/或曲線形狀的改良式取樣演算法。
+    * **量化線路取樣** ：根據某個軸上各個量化中的極端值進行資料點取樣
+    * **重疊點取樣** ：根據重疊值進行資料點取樣以保留極端值
 
 ## <a name="statistics"></a>統計
 某些模型可以提供有關某些資料行之值數目的統計資料。 當有這類資訊存在時，如果視覺效果並未明確覆寫策略的值計數，我們就會運用該資訊在多個階層之間提供更好的平衡。
@@ -52,7 +52,7 @@ ms.locfileid: "90857718"
 
 * 在具有內部部署 SSAS 2016 版或更新版本，並[運用伺服器的 SuperDax 功能](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3) \(英文\) 的 Power BI Desktop 中
 
-* 在使用匯入的模型、Direct Query、即時連線至服務，或即時連線至 AS PaaS 的 Desktop 或 Power BI 服務中。 
+* 在使用匯入的模型、Direct Query、即時連線至服務，或即時連線至 AS PaaS 的 Desktop 或 Power BI 服務中。 
 
 * 在透過內部部署閘道連線至內部部署 SSAS 的 Power BI 服務中，我們無法使用動態限制。 內部部署閘道並不完全支援會從內部部署 SSAS 傳回不同結果集結構的動態限制策略。  
 
@@ -74,7 +74,7 @@ ms.locfileid: "90857718"
 - 值：使用一次顯示 200 個資料列的視窗進行虛擬化
 
 ### <a name="combo-chart"></a>組合圖
- 使用與直條圖相同的策略。 請注意，**組合圖**中的線路並不會使用**折線圖**所使用的高密度演算法。
+ 使用與直條圖相同的策略。 請注意， **組合圖** 中的線路並不會使用 **折線圖** 所使用的高密度演算法。
 
 ### <a name="power-bi-visuals"></a>Power BI 視覺效果
 最多 30,000 個，但需由視覺效果作者指示要使用的策略。 預設限制為 1000，但視覺效果建立者可加以變更，其上限為 30000。
