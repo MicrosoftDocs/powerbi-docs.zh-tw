@@ -277,6 +277,8 @@
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: 智慧型敘事
               href: ../visuals/power-bi-visualization-smart-narrative.md
+            - name: 異常偵測
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: 環圈圖
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: 區域分布圖 (分區著色圖)
