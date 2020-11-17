@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/12/2020
+ms.date: 11/01/2020
 ms.author: painbar
-ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
+ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026040"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "93355926"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -24,6 +24,10 @@ ms.locfileid: "92026040"
 
 >[!NOTE]
 >**使用 Windows 10 行動裝置版的手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日終止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="november-2020"></a>2020 年 11 月
+### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>使用全螢幕模式最大化檢視 (Android 平板電腦)
+我們已將新的按鈕新增至 Android 平板電腦的行動裝置應用程式，以便您移除應用程式的頁首及頁尾，讓您有最大的空間用來檢視內容。 只要點一下畫面右上角的全螢幕切換按鈕，即可切換模式。
 
 ## <a name="october-2020"></a>2020 年 10 月
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>現在已支援自動頁面重新整理 (Windows)
@@ -524,11 +528,11 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 **新的 iOS 問與答體驗 (預覽)** ：您現在除了能取得問題的解答之外，還能使用自然語言來取得相關深入解析。 即使您不太確定要尋找的項目，問與答也會主動顯示與您資料相關的見解。 新的行動裝置問與答體驗是與 Microsoft Research 小組共同作業研發而成，展現了我們產品的強大技術。 試用此教學課程，[詢問 iOS 行動裝置應用程式資料的相關問題](mobile-apps-ios-qna.md)。
 
 ### <a name="responsive-visuals"></a>回應式視覺效果
-適用於手機報表與儀表板的 **回應式視覺效果** ：您可以將儀表版或報表中的視覺效果設定為「回應式」，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。 閱讀[關於回應式視覺效果的部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
+適用於手機報表與儀表板的 **回應式視覺效果**：您可以將儀表版或報表中的視覺效果設定為「回應式」，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。 閱讀[關於回應式視覺效果的部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
 
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有裝置
-**將應用程式設為我的最愛** ：您原本已可將儀表板設為我的最愛。 最近，[Power BI 新增了應用程式](../../collaborate-share/service-create-distribute-apps.md)，而您現在也能將這些應用程式設為我的最愛。 
+**將應用程式設為我的最愛**：您原本已可將儀表板設為我的最愛。 最近，[Power BI 新增了應用程式](../../collaborate-share/service-create-distribute-apps.md)，而您現在也能將這些應用程式設為我的最愛。 
 
 ### <a name="may-2017"></a>2017 年 5 月
 #### <a name="all-devices"></a>所有裝置
@@ -539,7 +543,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 深入了解 [Power BI 內容的組織方式](mobile-apps-quickstart-view-dashboard-report.md)。
 
 #### <a name="ios-and-android-devices"></a>iOS 及 Android 裝置
-**Power BI 報表伺服器預覽** ：建立並發行內部部署 Power BI 報表。 然後[在您的 iOS 或 Android 行動裝置上檢視這些報表並與其互動](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。 
+**Power BI 報表伺服器預覽**：建立並發行內部部署 Power BI 報表。 然後[在您的 iOS 或 Android 行動裝置上檢視這些報表並與其互動](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。 
 
 ### <a name="april-2017"></a>2017 年 4 月
 請閱讀 [2017 年 4 月的行動裝置應用程式功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-april-2017/)
@@ -561,7 +565,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 我們改進了時間交叉分析篩選器的觸控互動。
 
 #### <a name="ios-devices"></a>iOS 裝置
-**透過問與答詢問資料的相關問題，並提供意見反應** ：請嘗試透過問與答詢問資料的相關問題，然後給我們笑臉或苦臉，讓我們知道表現如何。
+**透過問與答詢問資料的相關問題，並提供意見反應**：請嘗試透過問與答詢問資料的相關問題，然後給我們笑臉或苦臉，讓我們知道表現如何。
 
 **使用 3D 觸控執行常用動作** - 在 iPhone 6s 或更新版本的主畫面上按壓 Power BI 應用程式圖示，可存取通知、搜尋及最近使用的儀表板。
 
@@ -595,7 +599,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 **Power BI for Android 平板電腦行動裝置應用程式** 現已正式運作。 [開始在 Android 平板上使用 Power BI](mobile-android-app-get-started.md)。
 
 #### <a name="ios-and-android-devices"></a>iOS 及 Android 裝置
-**儀表板磚的新功能表** ：瀏覽到基礎報表、展開磚或管理警示，全都能直接在儀表板磚上的功能表執行。 
+**儀表板磚的新功能表**：瀏覽到基礎報表、展開磚或管理警示，全都能直接在儀表板磚上的功能表執行。 
 
 這個功能表對 iOS、橫向模式的 Android 手機及 Android 平板電腦而言是新的。 在 Windows 及縱向模式的 Android 手機則已經存在。
 
@@ -603,17 +607,17 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 閱讀 [January 2017 mobile apps blog feature summary](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-january-2017) (2017 年 1 月 mobile apps 部落格功能摘要)。
 
 #### <a name="all-devices"></a>所有裝置
-**在資料表和矩陣中載入超過 100 個資料列** ：現在，如果您在儀表板或報表上有大型資料表或矩陣，我們會在磚內盡可能地顯示資料。 然後在焦點模式中，您可以向下捲動以載入其他資料列。
+**在資料表和矩陣中載入超過 100 個資料列**：現在，如果您在儀表板或報表上有大型資料表或矩陣，我們會在磚內盡可能地顯示資料。 然後在焦點模式中，您可以向下捲動以載入其他資料列。
 
-**手機報表 - 正式運作** ：Power BI 手機報表目前已正式運作。 在 Power BI Desktop 中，您可以為行動裝置檢視器調整現有報表的縱向檢視。 深入了解[撰寫 Power BI Desktop 中的手機報表](../../create-reports/desktop-create-phone-report.md)和[手機上的報表體驗](mobile-apps-view-phone-report.md)。
+**手機報表 - 正式運作**：Power BI 手機報表目前已正式運作。 在 Power BI Desktop 中，您可以為行動裝置檢視器調整現有報表的縱向檢視。 深入了解[撰寫 Power BI Desktop 中的手機報表](../../create-reports/desktop-create-phone-report.md)和[手機上的報表體驗](mobile-apps-view-phone-report.md)。
 
 #### <a name="ios"></a>iOS
-**使用 Active Directory Federation Services (ADFS) Preview 的 SSRS 驗證** ：您現在可以在行動裝置上使用組織帳戶，登入內部部署 SQL Server Reporting Services 伺服器。 深入了解[使用 OAuth 連線至 SSRS 伺服器](mobile-oauth-ssrs.md)。
+**使用 Active Directory Federation Services (ADFS) Preview 的 SSRS 驗證**：您現在可以在行動裝置上使用組織帳戶，登入內部部署 SQL Server Reporting Services 伺服器。 深入了解[使用 OAuth 連線至 SSRS 伺服器](mobile-oauth-ssrs.md)。
 
 #### <a name="android"></a>Android
-**使用 Active Directory Federation Services (ADFS) Preview 的 SSRS 驗證** ：您現在可以在行動裝置上使用組織帳戶，登入內部部署 SQL Server Reporting Services 伺服器。 深入了解[使用 OAuth 連線至 SSRS 伺服器](mobile-oauth-ssrs.md)。
+**使用 Active Directory Federation Services (ADFS) Preview 的 SSRS 驗證**：您現在可以在行動裝置上使用組織帳戶，登入內部部署 SQL Server Reporting Services 伺服器。 深入了解[使用 OAuth 連線至 SSRS 伺服器](mobile-oauth-ssrs.md)。
 
-**全新和改善項目：加上註解並快速地共用見解** ：共用和註解現在可以在 Android 裝置上正常地運作。 改善的功能表可讓您更輕鬆且更快速地加上註釋及分享深入資訊，而且您也可以共用加上註解的報表或直接從 Power BI 應用程式。
+**全新和改善項目：加上註解並快速地共用見解**：共用和註解現在可以在 Android 裝置上正常地運作。 改善的功能表可讓您更輕鬆且更快速地加上註釋及分享深入資訊，而且您也可以共用加上註解的報表或直接從 Power BI 應用程式。
 
 ### <a name="december-2016"></a>2016 年 12 月
 閱讀 [December 2016 mobile apps blog feature summary](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016) (2016 年 12 月行動裝置應用程式部落格功能摘要)。
@@ -661,93 +665,93 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="android-devices"></a>Android 裝置
 **預覽：Intune 行動應用程式管理** - 對於 Microsoft Intune 行動應用程式管理員 (MAM) 的 Power BI 支援，現在針對 Android 裝置上的 Power BI Pro 使用者處於預覽狀態。 
 
-**我的最愛** ：在 Android 裝置上標記您最愛的儀表板，並在一個便利的位置集中查看您的所有 [最愛的 Power BI 儀表板和 Reporting Services 行動報表和 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports)。 
+**我的最愛**：在 Android 裝置上標記您最愛的儀表板，並在一個便利的位置集中查看您的所有 [最愛的 Power BI 儀表板和 Reporting Services 行動報表和 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports)。 
 
 #### <a name="ios-devices"></a>iOS 裝置
-**連結** ：磚和視覺效果中的 URL 現在都可以點選，並在瀏覽器中開啟。
+**連結**：磚和視覺效果中的 URL 現在都可以點選，並在瀏覽器中開啟。
 
 #### <a name="windows-devices"></a>Windows 裝置
-**地圖置中** ：聚焦於您位置附近的資料
+**地圖置中**：聚焦於您位置附近的資料
 
 ### <a name="septemberoctober-2016"></a>2016 年 9/10 月
 閱讀 [October 2016 Power BI mobile apps feature summary](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-october-2016/) (2016 年 10 月的 Power BI 行動裝置應用程式功能摘要)。
 
 #### <a name="all-devices"></a>所有裝置
-**將登陸頁面設為我的最愛** ：如果您已將任何儀表板標示為 [我的最愛]，則登陸頁面將會是您的 [我的最愛] 項目。 
+**將登陸頁面設為我的最愛**：如果您已將任何儀表板標示為 [我的最愛]，則登陸頁面將會是您的 [我的最愛] 項目。 
 
-**改進導覽** ：主要導覽有了全新的面貌，而且群組導覽已移至群組目錄。 
+**改進導覽**：主要導覽有了全新的面貌，而且群組導覽已移至群組目錄。 
 
-**改進報表與儀表板效能** ：改進在 Power BI 行動裝置應用程式中載入報表與儀表板的體驗
+**改進報表與儀表板效能**：改進在 Power BI 行動裝置應用程式中載入報表與儀表板的體驗
 
-**改進警示通知** ：因資料變化而產生之警示的通知，現已包含觸發該警示及觸發原因的詳細資訊。
+**改進警示通知**：因資料變化而產生之警示的通知，現已包含觸發該警示及觸發原因的詳細資訊。
 
 #### <a name="ios-on-iphones"></a>iPhone 上的 iOS
-**改進 Apple Watch 重新整理** ：Apple Watch 行動裝置應用程式已針對 Watch OS3 多所改進
+**改進 Apple Watch 重新整理**：Apple Watch 行動裝置應用程式已針對 Watch OS3 多所改進
 
 #### <a name="android-phones"></a>Android 手機
-**已新增手動更新磚** ：您現在可以手動重新整理儀表板磚。 DirectQuery 的磚會從資料集擷取最新的資料。
+**已新增手動更新磚**：您現在可以手動重新整理儀表板磚。 DirectQuery 的磚會從資料集擷取最新的資料。
 
 #### <a name="windows-10-phones"></a>Windows 10 手機
-**地理篩選** ：您現在可以在 Windows 10 手機上，根據您目前的位置來篩選您的報表，只顯示所需要的資料。
+**地理篩選**：您現在可以在 Windows 10 手機上，根據您目前的位置來篩選您的報表，只顯示所需要的資料。
 
-**SandDance 視覺化** ：現在已在 Surface Hub 上提供這個自訂視覺效果
+**SandDance 視覺化**：現在已在 Surface Hub 上提供這個自訂視覺效果
 
 ### <a name="august-2016"></a>2016 年 8 月
 #### <a name="all-phones"></a>所有手機
-**我的最愛** ：從所有 Power BI 行動裝置應用程式檢視您的最愛儀表板，以及從 iOS 與 Windows 10 裝置的 Power BI 行動裝置應用程式管理我的最愛清單。 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
+**我的最愛**：從所有 Power BI 行動裝置應用程式檢視您的最愛儀表板，以及從 iOS 與 Windows 10 裝置的 Power BI 行動裝置應用程式管理我的最愛清單。 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
 
-**儀表板資料分類** ：查看儀表板擁有者指派給儀表板的資料分類。 閱讀更多以了解如何[將儀表板分類](../../create-reports/service-data-classification.md)。
+**儀表板資料分類**：查看儀表板擁有者指派給儀表板的資料分類。 閱讀更多以了解如何[將儀表板分類](../../create-reports/service-data-classification.md)。
 
-**資料驅動的警示** ：在您的資料依照 KPI、量測計和卡片磚的預設方式變更時，收到警示通知。 深入了解：
+**資料驅動的警示**：在您的資料依照 KPI、量測計和卡片磚的預設方式變更時，收到警示通知。 深入了解：
 
 * [Power BI for Android 手機應用程式上的警示](mobile-set-data-alerts-in-the-mobile-apps.md)。 
 * [Power BI for iOS 手機應用程式上的警示](mobile-set-data-alerts-in-the-mobile-apps.md)。 
 * [Power BI for Windows 10 裝置應用程式上的警示](mobile-set-data-alerts-in-the-mobile-apps.md)。
 
 #### <a name="ios-on-iphones-and-ipads"></a>iPhone 和 iPad 上的 iOS
-**iPad 上焦點模式中全螢幕的磚** ：當您點選 iPad 上的磚時，磚現在會利用整個 iPad 螢幕大小，在焦點模式中以全螢幕開啟。
+**iPad 上焦點模式中全螢幕的磚**：當您點選 iPad 上的磚時，磚現在會利用整個 iPad 螢幕大小，在焦點模式中以全螢幕開啟。
 
-**手動重新整理磚** ：在 iOS 的 Power BI 行動裝置應用程式中開啟儀表板，然後從螢幕頂端下拉，以手動重新整理磚。 
+**手動重新整理磚**：在 iOS 的 Power BI 行動裝置應用程式中開啟儀表板，然後從螢幕頂端下拉，以手動重新整理磚。 
 
-**Intune MAM 的支援** ：新增 Microsoft Intune 行動應用程式管理 (MAM) 功能的支援。
+**Intune MAM 的支援**：新增 Microsoft Intune 行動應用程式管理 (MAM) 功能的支援。
 
 深入了解 [Power BI 行動裝置應用程式上的 Microsoft Intune](../../admin/service-admin-mobile-intune.md)。
 
 #### <a name="windows-10-devices"></a>Windows 10 裝置
-**全螢幕與簡報模式** ：您可以在 Surface Hub 上以簡報模式顯示報表，以及在 Windows 10 裝置上以全螢幕模式顯示儀表板、報表和磚。
+**全螢幕與簡報模式**：您可以在 Surface Hub 上以簡報模式顯示報表，以及在 Windows 10 裝置上以全螢幕模式顯示儀表板、報表和磚。
 
 ### <a name="july-2016"></a>2016 年 7 月
 #### <a name="all-phones"></a>所有手機
 在 Power BI 服務中，您可以直向模式[建立手機專用的儀表板檢視](../../create-reports/service-create-dashboard-mobile-phone-view.md)。 
 
 #### <a name="android-phones"></a>Android 手機
-**[我的最愛] 索引標籤** ：從單一位置即可存取您所有的最愛儀表板。
+**[我的最愛] 索引標籤**：從單一位置即可存取您所有的最愛儀表板。
 
-**改進安全性管理** ：為特定儀表板中顯示的商務資料選取風險分類。
+**改進安全性管理**：為特定儀表板中顯示的商務資料選取風險分類。
 
-**改進警告與橫幅** ：我們改進了行動應用程式的警告與橫幅。
+**改進警告與橫幅**：我們改進了行動應用程式的警告與橫幅。
 
-**報表頁面的 QR 代碼** ：服務中產生的 QR 代碼將會連結至特定頁面，而不是整份報表。
+**報表頁面的 QR 代碼**：服務中產生的 QR 代碼將會連結至特定頁面，而不是整份報表。
 
-**改進警示** ：現在會根據您裝置的地區設定來設定資料驅動警示的格式。
+**改進警示**：現在會根據您裝置的地區設定來設定資料驅動警示的格式。
 
 #### <a name="ios-on-iphones-and-ipads"></a>iPhone 和 iPad 上的 iOS
-**改進安全性管理** ：為特定儀表板中顯示的商務資料選取風險分類。
+**改進安全性管理**：為特定儀表板中顯示的商務資料選取風險分類。
 
-**行動裝置深入資訊** ：檢視群組直條圖磚上的摘要資料 (最大值、最小值和全部)。
+**行動裝置深入資訊**：檢視群組直條圖磚上的摘要資料 (最大值、最小值和全部)。
 
-**改進手動重新整理** ：您現在可以手動重新整理儀表板磚。 針對以直接查詢為基礎的磚，此動作會從資料模型擷取最新的資料。
+**改進手動重新整理**：您現在可以手動重新整理儀表板磚。 針對以直接查詢為基礎的磚，此動作會從資料模型擷取最新的資料。
 
-**改進警告與橫幅** ：我們改進了行動應用程式的警告與橫幅。
+**改進警告與橫幅**：我們改進了行動應用程式的警告與橫幅。
 
-**報表頁面的 QR 代碼** ：服務中產生的 QR 代碼將會連結至特定頁面，而不是整份報表。
+**報表頁面的 QR 代碼**：服務中產生的 QR 代碼將會連結至特定頁面，而不是整份報表。
 
-**一般增強功能** ：我們改進了行動應用程式中磚的錯誤訊息。
+**一般增強功能**：我們改進了行動應用程式中磚的錯誤訊息。
 
 #### <a name="windows-10-devices"></a>Windows 10 裝置
-**改進安全性管理** ：為特定儀表板中顯示的商務資料選取風險分類。
+**改進安全性管理**：為特定儀表板中顯示的商務資料選取風險分類。
 
-**改進警告與橫幅** ：我們改進了行動應用程式的警告與橫幅。
+**改進警告與橫幅**：我們改進了行動應用程式的警告與橫幅。
 
 ### <a name="june-2016"></a>2016 年 6 月
 如需詳細資料，請參閱[六月 Power BI 行動裝置應用程式部落格文章](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-june-2016/)。
@@ -770,10 +774,10 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 ### <a name="may-2016"></a>2016 年 5 月
 #### <a name="ios-devices-and-android-phones"></a>iOS 裝置和 Android 手機
-* **報表** 現在也可使用 **QR 代碼** 。 用 Power BI 應用程式掃描代碼，不必瀏覽或搜尋，即可直接前往相關報表。
-* 針對 SQL Server 2016 Reporting Services **改善的資料管理** ：已縮短及減少在裝置上的載入時間與資料取用。
-* **以 SQL Server 2016 為主題的行動報表** ：在裝置上看到行動報表的主題。
-* **地區篩選** ：按您目前的位置篩選報表。
+* **報表** 現在也可使用 **QR 代碼**。 用 Power BI 應用程式掃描代碼，不必瀏覽或搜尋，即可直接前往相關報表。
+* 針對 SQL Server 2016 Reporting Services **改善的資料管理**：已縮短及減少在裝置上的載入時間與資料取用。
+* **以 SQL Server 2016 為主題的行動報表**：在裝置上看到行動報表的主題。
+* **地區篩選**：按您目前的位置篩選報表。
 
 ### <a name="april-2016"></a>2016 年 4 月
 請參閱[四月 Power BI 行動應用程式部落格](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/)的詳細資訊。
@@ -783,13 +787,13 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 #### <a name="android-mobile-app"></a>Android 行動裝置應用程式
 * **SQL Server 2016 [Reporting Services 行動報表](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)** 現可用於 Android 手機。
-* **報表庫** ：直接在報表庫中開啟報表。
-* SQL Server 2016 Reporting Services 行動報表支援 **NTLM 驗證** 。
+* **報表庫**：直接在報表庫中開啟報表。
+* SQL Server 2016 Reporting Services 行動報表支援 **NTLM 驗證**。
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>適用於 Windows 10 裝置的 Power BI 應用程式
 * **簡報模式** 從 Power BI 應用程式將 Power BI 儀表板和報表以簡報模式顯示。
 * **SQL Server 2016 [Reporting Services 行動報表](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)** 現可用於 Windows 10 裝置。
-* 當您將滑鼠暫留在儀表板磚上時，會看到 **資料工具提示** 。
+* 當您將滑鼠暫留在儀表板磚上時，會看到 **資料工具提示**。
 
 ### <a name="march-2016"></a>2016 年 3 月
 請參閱 [2016 年 3 月的 Power BI 行動裝置應用程式部落格](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-march-2016/)。
@@ -797,27 +801,27 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 #### <a name="iphone-mobile-app"></a>iPhone 行動應用程式
 **Apple Watch** 在您的 [Apple Watch](mobile-apple-watch.md) 上檢視 Power BI 磚和 KPI。
 
-**iOS 9.0 和更新版本** ：為了保障 Power BI 的最佳體驗和新功能，目前僅支援執行 iOS 9.0 及更新版本的裝置。
+**iOS 9.0 和更新版本**：為了保障 Power BI 的最佳體驗和新功能，目前僅支援執行 iOS 9.0 及更新版本的裝置。
 
-**全域搜尋** ：加入了新的 [最近檢視] 清單與全域搜尋，以便您快速找到需要的資料。
+**全域搜尋**：加入了新的 [最近檢視] 清單與全域搜尋，以便您快速找到需要的資料。
 
-**報表庫** ：直接在報表庫中開啟報表。
+**報表庫**：直接在報表庫中開啟報表。
 
-**離線時的新資料** ：新的背景重新整理會在您上線時自動更新快取的資料，所以 [即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
+**離線時的新資料**：新的背景重新整理會在您上線時自動更新快取的資料，所以 [即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
 
-**Bing 和 R 磚** ：在焦點模式中開啟 Bing 和 R 磚。​
+**Bing 和 R 磚**：在焦點模式中開啟 Bing 和 R 磚。​
 
 #### <a name="android-mobile-app"></a>Android 行動裝置應用程式
 **SQL Server 2016 行動報表及 KPI** [檢視 SQL Server 2016 行動報表及 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，然後在 SSRS 資料夾之間巡覽。
 
 **檢視報表** 從儀表板上的磚開啟報表。
 
-**離線時的新資料** ：新的背景重新整理會在您上線時自動更新快取的資料，所以 [即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
+**離線時的新資料**：新的背景重新整理會在您上線時自動更新快取的資料，所以 [即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>適用於 Windows 10 裝置的 Power BI 應用程式
-**快速存取** ：使用新的 [最近檢視] 清單與全域搜尋快速存取您的儀表板、報表與群組，以便找到您需要的資料。
+**快速存取**：使用新的 [最近檢視] 清單與全域搜尋快速存取您的儀表板、報表與群組，以便找到您需要的資料。
 
-**Bing 和 R 磚** ：在焦點模式中開啟 Bing 和 R 磚。​
+**Bing 和 R 磚**：在焦點模式中開啟 Bing 和 R 磚。​
 
 **開始畫面上更多的動態磚** [在開始畫面上將 KPI 和資料列卡釘選](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)為動態磚，以便一眼即可看到所有的關鍵計量。
 
@@ -825,7 +829,7 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 **通知** 在資料集、報表和儀表板有新資料更新時收到通知。
 
-**報表庫** ：直接在報表庫中開啟報表。
+**報表庫**：直接在報表庫中開啟報表。
 
 ### <a name="february-2016"></a>2016 年 2 月
 #### <a name="android"></a>Android
@@ -849,7 +853,7 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 **Bing 儀表板** 在 Power BI 服務中，您現在可以 [使用 Bing 搜尋結果建立儀表板](../../connect-data/service-connect-to-services.md)，並在您的行動裝置上加以檢視。
 
-**將報表頁面釘選為儀表板上的磚** ：您現在可以將整個報表頁面釘選到 Power BI 服務中的儀表板。您可以您 iPhone 或 Android 手機的 Power BI 應用程式中檢視報表頁面。
+**將報表頁面釘選為儀表板上的磚**：您現在可以將整個報表頁面釘選到 Power BI 服務中的儀表板。您可以您 iPhone 或 Android 手機的 Power BI 應用程式中檢視報表頁面。
 
 ### <a name="december-2015"></a>2015 年 12 月
 Power BI 小組提供多個主要的新增與更新項目，強而有力地結束 2015 年。

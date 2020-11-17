@@ -2,19 +2,20 @@
 title: 智慧型敘事教學課程
 description: 教學課程：在 Power BI 中建立智慧型敘事摘要視覺效果
 author: aphilip94
-ms.reviewer: aphilip94
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/14/2020
+ms.date: 11/06/2020
 ms.author: anphil
+ms.custom: video
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4417d66b4afc3c3848667364bdca47150afdf04a
-ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
+ms.openlocfilehash: 92ebd3015296dc0b6a61f3b7dd2a8b0d163a4383
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862914"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397200"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>建立智慧型敘事摘要 (預覽)
 
@@ -33,9 +34,12 @@ ms.locfileid: "91862914"
 >
 >![顯示 Power BI 選項的螢幕擷取畫面。 已選取 [智慧型敘事視覺效果] 選項。](media/power-bi-visualization-smart-narratives/2.png)
 
-若要遵循此教學課程，請下載線上銷售案例的[範例檔案](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)。
+
 
 ## <a name="get-started"></a>開始使用 
+觀看 Justyna 示範如何使用智慧型敘事，然後利用影片下方的教學課程親自嘗試。  若要遵循此教學課程，請下載線上銷售案例的[範例檔案](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)。
+
+> [!VIDEO https://youtu.be/01UrT-z37sw]
 
 在 [視覺效果] 窗格中，選取 [智慧型敘事] 圖示以自動產生摘要。
 
@@ -95,9 +99,10 @@ ms.locfileid: "91862914"
 - 使用動態值和條件式格式設定 (例如，資料繫結標題)
 - Azure Analysis Services，內部部署 AS
 - KPI、卡片、多列卡片、對應、資料表、矩陣、R 視覺效果或 Python 視覺效果、自訂視覺效果 
-- 對於資料行會依其他資料行分組的視覺效果，以及建置於資料群組欄位上之視覺效果的摘要 
+- 對於資料行會依其他資料行分組的視覺效果，以及建置於資料群組欄位上之視覺效果的摘要 
 - 對視覺效果進行交叉篩選
 - 重新命名動態值，或編輯自動產生的動態值
 - 包含即時計算的視覺效果摘要，例如 QnA 算術和總計百分比 
+- [計算群組](/analysis-services/tabular-models/calculation-groups)
    
 

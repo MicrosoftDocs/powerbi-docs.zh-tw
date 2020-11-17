@@ -8,25 +8,46 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 65e00fa5311ea12c9fe0011c6aa7c3e779f33dc5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131127"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397476"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Power BI 視覺效果的提交測試
 
-在您將視覺效果發佈至 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 之前，其必須先通過這些測試案例。 請先測試您的視覺效果再提交。 如果您的視覺效果未通過必要的測試案例，則會予以拒絕。
+您的視覺效果在發佈至 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 之前，必須通過本文中所列出的測試。 請先測試您的視覺效果再提交。 如果您的視覺效果未通過必要的測試案例，則會予以拒絕。
 
 如需發佈程序的詳細資訊，請參閱[將 Power BI 視覺效果發佈至合作夥伴中心](./office-store.md)。
 
+## <a name="testing-a-new-version-of-a-published-visual"></a>測試已發行視覺效果的新版本
+
+如果您打算對已發行視覺效果的新版本進行測試或偵錯，您可以藉由在 Power BI Desktop 中啟用開發人員模式，使用本機檔案版本覆寫 AppSource 版本。
+
+請遵循下列步驟啟用開發人員模式：
+
+1. 開啟 Power BI Desktop。
+
+2.  選取 [檔案] > [選項及設定]。
+
+3.  選取 [選項]。
+
+4. 在 [選項] 視窗的 [目前檔案] 清單中，選取 [報表設定]。
+
+5. 在開發人員模式中，選取 [開啟此工作階段的開發人員模式] 選項。
+
+>[!NOTE]
+>在 Power BI Desktop 中，開發人員模式只能針對單一工作階段運作。 如果您開啟新的 Power BI Desktop 執行個體進行測試，就必須再次啟用開發人員模式。
+
 ## <a name="general-test-cases"></a>一般測試案例
+
+確認您的視覺效果是否通過一般測試案例。
 
 | 測試案例 | 預期的結果
 | --------- | ----------------
-| 使用 [類別] 與 [值] 建立**堆疊直條圖**。 將其轉換成您的視覺效果，然後轉換回直條圖。 | 進行這些轉換之後沒有出現錯誤。 |
-| 使用三個量值建立**量測計**。 將其轉換成您的視覺效果，然後轉換回**量測計**。 | 進行這些轉換之後沒有出現錯誤。 |
+| 使用 [類別] 與 [值] 建立 **堆疊直條圖**。 將其轉換成您的視覺效果，然後轉換回直條圖。 | 進行這些轉換之後沒有出現錯誤。 |
+| 使用三個量值建立 **量測計**。 將其轉換成您的視覺效果，然後轉換回 **量測計**。 | 進行這些轉換之後沒有出現錯誤。 |
 | 在您的視覺效果中進行選取。 | 其他視覺效果會反映選取。 |
 | 在其他視覺效果中選取元素。 | 您的視覺效果會根據其他視覺效果中的選取來顯示已篩選的資料。 |
 | 檢查最小值/最大值 **dataViewMapping** 條件。 | 欄位貯體可以接受多個欄位、單一欄位，或由其他貯體決定。 最小值/最大值 **dataViewMapping** 條件必須在您視覺效果的功能中正確設定。 |

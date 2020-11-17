@@ -1,20 +1,20 @@
 ---
 title: 開始使用格式化報表視覺效果
 description: 開始使用具有報表視覺效果的格式化選項
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/17/2020
-ms.author: mihart
+ms.date: 11/09/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 3e61521ec7ac518aaa374cec328639a849b21bd5
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354585"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483809"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>開始使用格式化窗格
 
@@ -41,6 +41,7 @@ ms.locfileid: "85354585"
 * Y 軸
 * 資料色彩
 * 資料標籤
+* 總計標籤
 * 圖形
 * 繪圖區
 * 標題
@@ -66,6 +67,7 @@ ms.locfileid: "85354585"
 2. 套用樣式    
 3. 變更軸屬性    
 4. 新增資料標籤    
+1. 新增總計標籤
 
 
 
@@ -135,13 +137,13 @@ ms.locfileid: "85354585"
 
     ![相同的直條圖，但對 Y 軸做出許多格式化](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-axis-changes.png)
 
-您可以切換 **X 軸**或 **Y 軸**旁的選項按鈕，將軸標籤整個移除。 也可以選取 [標題] 旁邊的選項按鈕，選擇開啟或關閉軸標題。  
+您可以切換 **X 軸** 或 **Y 軸** 旁的選項按鈕，將軸標籤整個移除。 也可以選取 [標題] 旁邊的選項按鈕，選擇開啟或關閉軸標題。  
 
 
 
 ## <a name="adding-data-labels"></a>新增資料標籤    
 
-這是我們在您開始自行探索之前，所會提供的最後一個格式化範例。  讓我們將資料標籤新增至區域圖。 
+讓我們將資料標籤新增至區域圖。 
 
 以下是「之前」的圖片。 
 
@@ -155,6 +157,27 @@ ms.locfileid: "85354585"
 我們已選取視覺效果來使其成為作用中，並開啟 [格式化] 索引標籤。我們已選取 [資料標籤] 並將其設定為 [開啟]。 然後我們將字型增加至 12，將字型系列變更為 Arial Black，將 [顯示背景] 設定為 [開啟]，然後將背景色彩設定為白色且透明度為 5%。
 
 這只是其中幾個可能的格式化工作。 在 [編輯] 模式中開啟報表並盡情探索 [格式化] 窗格，以建立美麗且富有資訊的視覺效果。
+
+## <a name="adding-total-labels"></a>新增總計標籤    
+
+這是我們在您開始自行探索之前，所會提供的最後一個格式化範例。  讓我們在堆疊直條圖中新增總計標籤。 總計標籤適用於堆疊圖、組合圖以及區域圖。
+
+當您開啟總計標籤時，Power BI 會顯示該資料的匯總值或總計。 以下舉例說明。 
+
+在此範例中，我們的堆疊直條圖具有資料標籤，顯示出每個完整堆疊中各部分的值。  這是預設檢視。 
+
+![包含資料標籤的直條圖](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-column-charts.png)
+
+
+您可以在 [編輯] 檢視中開啟視覺效果，藉此變更資料標籤與總計標籤的顯示與否。 選取要啟用的視覺效果，並開啟 [格式化] 窗格。 向下捲動至 [資料標籤] 與 [總計標籤]。 [資料標籤] 為開啟，而 [總計標籤] 為關閉。 
+
+![未格式化的直條圖](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-total-label.png)
+
+關閉 [資料標籤]，並開啟 [總計標籤]。 Power BI 現在會顯示每個直條的匯總值。    
+![已格式化的直條圖](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-totals.png)
+
+這只是其中幾個可能的格式化工作。 在 [編輯] 模式中開啟報表並盡情探索 [格式化] 窗格，以建立美麗且富有資訊的視覺效果。
+
 
 ## <a name="next-steps"></a>後續步驟
 如需詳細資訊，請參閱下列文章： 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: 6f4f083f7ec36fff13624b6b0d28ffd810e0d62b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: ae3f6b5f3026adf127b53dd07118fe05e4c06a00
+ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964817"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94348074"
 ---
 # <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>從 Power BI 服務直接共用到 Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "90964817"
     
       ![視覺效果操作功能表中 [共用到 Teams] 按鈕的螢幕擷取畫面。](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
-1. 在 [分享到 Microsoft Teams] 對話方塊中，選取您想要傳送連結的頻道或人員。 您可以視需要輸入訊息。 系統可能要求您先登入 Microsoft Teams。
+1. 在 [共用至 Microsoft Teams] 對話方塊中，選取您想要傳送連結的小組或頻道。 您可以視需要輸入訊息。 系統可能要求您先登入 Microsoft Teams。
 
     ![包含資訊和訊息之 [共用到 Microsoft Teams] 對話方塊的螢幕擷取畫面。](media/service-share-report-teams/service-teams-share-to-teams-dialog.png)
 

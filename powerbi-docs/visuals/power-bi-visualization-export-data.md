@@ -1,7 +1,7 @@
 ---
 title: 從 Power BI 視覺效果匯出資料
 description: 從報表視覺效果和儀表板視覺效果匯出資料，並在 Excel 中檢視。
-author: mihart
+author: msftrien
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bbeabcd3cbdc04378ea90908703744489371b11f
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861582"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412962"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -81,8 +81,8 @@ ms.locfileid: "90861582"
 
 現在我們已經準備好試用這兩個選項來匯出資料。
 
-### <a name="export-summarized-data"></a>匯出「摘要」資料
-如果您想要匯出在該視覺效果中所看到內容的資料，請選取此**摘要資料**的選項。  此類型匯出只會顯示用於建立視覺效果的資料 (資料行和量值)。  如果視覺效果具有彙總，則您會匯出彙總的資料。 例如，如果您有顯示四個橫條的橫條圖，就會取得四列 Excel 資料。 Power BI 服務以 *.xlsx* 和 *.csv* 提供摘要資料，Power BI Desktop 則以 .csv 提供。
+### <a name="export-_summarized__-data"></a>匯出「*_摘要_*」*_資料
+如果您想要匯出在該視覺效果中所看到內容的資料，請選取此「*摘要資料*」*_的選項。  此類型匯出只會顯示用於建立視覺效果的資料 (資料行和量值)。  如果視覺效果具有彙總，則您會匯出彙總的資料。 例如，如果您有顯示四個橫條的橫條圖，就會取得四列 Excel 資料。 Power BI 服務以 *.xlsx* 和 *.csv* 提供摘要資料，Power BI Desktop 則以 .csv 提供。
 
 1. 選取視覺效果右上角的省略符號。 選取 [匯出資料]。
 
@@ -115,11 +115,11 @@ ms.locfileid: "90861582"
 
     - 我們的匯出資料會進行彙總。 針對每個城市，我們會獲得一個資料列的總計。
 
-    - 由於我們已將篩選條件套用至視覺效果，因此匯出的資料會匯出為已篩選。 請注意，第一個資料列會顯示**套用的篩選條件：城市不是喬治亞州亞特蘭大**。 
+    - 由於我們已將篩選條件套用至視覺效果，因此匯出的資料會匯出為已篩選。 請注意，第一個資料列會顯示 **套用的篩選條件：城市不是喬治亞州亞特蘭大**。 
 
-### <a name="export-underlying-data"></a>匯出「基礎」資料
+### <a name="export-_underlying__-data"></a>匯出「*_基礎_*」*_資料
 
-如果您想要查看視覺效果中的資料「和」資料集中其他資料，請選取此選項 (如需詳細資料，請參閱以下圖表)。 如果您的視覺效果具有彙總，選取 [基礎資料] 會移除彙總。 在此範例中，Excel 匯出會為資料集裡的每個城市資料列顯示一個資料列，以及該單一項目的折扣百分比。 Power BI 會將資料扁平化，而不會將資料彙總。  
+如果您想要查看視覺效果中的資料「*_和_*」資料集中其他資料，請選取此選項 (如需詳細資料，請參閱以下圖表)。 如果您的視覺效果具有彙總，選取「*基礎資料*」*_將會移除彙總。 在此範例中，Excel 匯出會為資料集裡的每個城市資料列顯示一個資料列，以及該單一項目的折扣百分比。 Power BI 會將資料扁平化，而不會將資料彙總。  
 
 當您選取 [匯出] 時，Power BI 會將資料匯出到 *.xlsx* 檔案，且您的瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
 
@@ -152,11 +152,11 @@ ms.locfileid: "90861582"
     
     - 所有階層使用的資料都會進行匯出，而非只有視覺效果目前鑽研層級所使用的資料。 例如，我們已向下切入至城市層級，但我們的匯出也包含國家/地區資料。  
 
-    - 由於我們已將篩選條件套用至視覺效果，因此匯出的資料會匯出為已篩選。 請注意，第一個資料列會顯示**套用的篩選條件：城市不是喬治亞州亞特蘭大**。 
+    - 由於我們已將篩選條件套用至視覺效果，因此匯出的資料會匯出為已篩選。 請注意，第一個資料列會顯示 **套用的篩選條件：城市不是喬治亞州亞特蘭大**。 
 
 ## <a name="customize-the-export-data-user-experience"></a>自訂匯出資料使用者體驗
 
-除非[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 有所限制，否則獲得報表存取權的使用者即**獲得整個基礎資料集的存取權**。 報表作者和 Power BI 系統管理員可以使用下述功能自訂使用者體驗。
+除非 [資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 有所限制，否則獲得報表存取權的使用者即 **獲得整個基礎資料集的存取權**。 報表作者和 Power BI 系統管理員可以使用下述功能自訂使用者體驗。
 
 - 報表作者可以[決定使用者可使用哪些「匯出選項」](#set-the-export-options)。  
 
@@ -167,7 +167,7 @@ ms.locfileid: "90861582"
 - 報表作者可以隱藏資料行，使其不顯示於 [欄位] 清單中。 如需詳細資訊，請參閱[資料集屬性](../developer/automation/api-dataset-properties.md)
 
 
-**這些自訂的使用者體驗，不會限制使用者在資料集中可以存取的資料。請在資料集內使用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，讓每個人的認證判斷可以存取的資料。**
+**這些自訂的使用者體驗，不會限制使用者在資料集中可以存取的資料。請在資料集內使用 [資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，讓每個人的認證判斷可以存取的資料。**
 
 ## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>從 Power BI 匯出資料時加以保護
 
@@ -230,7 +230,7 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 - 若要從視覺效果匯出資料，您需要具有[基礎資料集的建置權限](../connect-data/service-datasets-build-permissions.md)。
 
--  **Power BI Desktop** 和 **Power BI 服務**可以從 [匯入模式報表] 匯出至 *.csv* 的資料列數上限為 30,000。
+-  **Power BI Desktop** 和 **Power BI 服務** 可以從 [匯入模式報表] 匯出至 *.csv* 的資料列數上限為 30,000。
 
 - 應用程式可以從 [匯入模式報表] 匯出至 *.xlsx* 檔案的資料列數上限為 150,000。
 

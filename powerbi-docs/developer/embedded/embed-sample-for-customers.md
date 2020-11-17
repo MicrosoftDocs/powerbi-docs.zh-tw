@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 9af0edbe63841f6fb0e0de2e628784c89a5e44f1
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 21f497a7c88134232a86afb9d16142719a6b711e
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983359"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483780"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
-使用 **Azure 中的 Power BI Embedded** 或**內嵌在 Office 的 Power BI**，可使用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV** 或**開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中報表、儀表板或磚的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 本教學課程示範如何使用 Power BI .NET SDK 搭配 Power BI JavaScript API，將報表整合至應用程式。
+使用 **Azure 中的 Power BI Embedded** 或 **內嵌在 Office 的 Power BI**，可使用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。 **應用程式擁有的資料** 即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV** 或 **開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中報表、儀表板或磚的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 本教學課程示範如何使用 Power BI .NET SDK 搭配 Power BI JavaScript API，將報表整合至應用程式。
 
 ![Power BI 內嵌報表](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
@@ -34,13 +34,13 @@ ms.locfileid: "91983359"
 * [Power BI Pro 帳戶](../../fundamentals/service-self-service-signup-for-power-bi.md) (主帳戶，即用來登入 Power BI Pro 帳戶的使用者名稱和密碼)，或[服務主體 (僅限應用程式權杖)](embed-service-principal.md)。
 * 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
 
-如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
+如果您尚未註冊 **Power BI Pro**，請先 [註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>設定您的內嵌分析開發環境
 
 在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定您的環境允許使用 Power BI 內嵌。
 
-您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/AppOwnsData)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。
+您可以瀏覽[內嵌設定工具](https://app.powerbi.com/embedsetup)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。
 
 不過，若您選擇手動設定環境，可以繼續進行下方步驟。
 
@@ -50,15 +50,15 @@ ms.locfileid: "91983359"
 
 根據您採取的方法，這會影響您在 Azure 中註冊的應用程式類型。
 
-如果您繼續使用主帳戶，請繼續註冊**原生**應用程式。 因為正在使用非互動式登入，所以您會使用原生應用程式。
+如果您繼續使用主帳戶，請繼續註冊 **原生** 應用程式。 因為正在使用非互動式登入，所以您會使用原生應用程式。
 
-不過，如果您繼續使用服務主體，則需要繼續註冊**伺服器端 Web 應用程式**。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。
+不過，如果您繼續使用服務主體，則需要繼續註冊 **伺服器端 Web 應用程式**。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。
 
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
 ### <a name="create-a-workspace"></a>建立工作區
 
-如果要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../../collaborate-share/service-create-workspaces.md)或[新工作區](../../collaborate-share/service-create-the-new-workspaces.md)。 如果您是使用*主要*帳戶，則您使用哪種類型的工作區都無所謂。 不過，如果您使用「[服務主體](embed-service-principal.md)」來登入應用程式，則需要使用新的工作區。 在任一案例中，「主」帳戶或「服務主體」都必須是應用程式隨附的工作區管理員。
+如果要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../../collaborate-share/service-create-workspaces.md)或[新工作區](../../collaborate-share/service-create-the-new-workspaces.md)。 如果您是使用 *主要* 帳戶，則您使用哪種類型的工作區都無所謂。 不過，如果您使用「[服務主體](embed-service-principal.md)」來登入應用程式，則需要使用新的工作區。 在任一案例中，「主」帳戶或「服務主體」都必須是應用程式隨附的工作區管理員。
 
 ### <a name="create-and-publish-your-reports"></a>建立並發佈報表
 
@@ -74,7 +74,7 @@ ms.locfileid: "91983359"
 
    ![PBI Desktop 報表](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. 發佈至**工作區**。 此程序視您是使用主帳戶 (Power Pro 授權) 還是服務主體而有所不同。 如果您是使用主帳戶，則可以透過 Power BI Desktop 發佈您的報表。  現在，如果您是使用服務主體，則必須使用 Power BI REST API。
+3. 發佈至 **工作區**。 此程序視您是使用主帳戶 (Power Pro 授權) 還是服務主體而有所不同。 如果您是使用主帳戶，則可以透過 Power BI Desktop 發佈您的報表。  現在，如果您是使用服務主體，則必須使用 Power BI REST API。
 
 ## <a name="embed-content-using-the-sample-application"></a>使用範例應用程式來內嵌內容
 
@@ -113,7 +113,7 @@ ms.locfileid: "91983359"
 
 這兩個 AuthenticationType (主帳戶和[服務主體](embed-service-principal.md)) 都需要此屬性。
 
-使用從 **Azure** 取得的**應用程式識別碼**填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。
+使用從 **Azure** 取得的 **應用程式識別碼** 填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。
 
 若要取得 **applicationId**，請遵循下列步驟：
 
@@ -127,7 +127,7 @@ ms.locfileid: "91983359"
 
     ![選擇應用程式](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
+4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此 **應用程式識別碼** 作為應用程式的 **applicationId**。
 
     ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
@@ -198,7 +198,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 5. 選取 [新增用戶端祕密]。
 
-6. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
+6. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的 **值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
 
     ![金鑰值](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
@@ -206,7 +206,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 僅[服務主體](embed-service-principal.md) AuthenticationType 需要此屬性。
 
-在**租用戶**資訊中，填入您的 Azure 租用戶識別碼。 您可以在登入 Power BI 服務時從 [Azure AD 系統管理中心](/onedrive/find-your-office-365-tenant-id)，或使用 Powershell 取得此資訊。
+在 **租用戶** 資訊中，填入您的 Azure 租用戶識別碼。 您可以在登入 Power BI 服務時從 [Azure AD 系統管理中心](/onedrive/find-your-office-365-tenant-id)，或使用 Powershell 取得此資訊。
 
 ### <a name="run-the-application"></a>執行應用程式
 
@@ -226,9 +226,9 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 即使使用 [Power BI REST API](/rest/api/power-bi/) 可以完成內嵌您內容的步驟，本文描述的範例程式碼仍是使用 **.NET SDK** 撰寫。
 
-在應用程式中為您的客戶內嵌項目，需要從 **Azure AD** 取得您主帳戶或[服務主體](embed-service-principal.md)的**存取權杖**。 您需要先為您的 Power BI 應用程式取得 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](/rest/api/power-bi/)。
+在應用程式中為您的客戶內嵌項目，需要從 **Azure AD** 取得您主帳戶或 [服務主體](embed-service-principal.md)的 **存取權杖**。 您需要先為您的 Power BI 應用程式取得 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](/rest/api/power-bi/)。
 
-為了使用**存取權杖**建立 Power BI 用戶端，您可以建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起來建立 Power BI 用戶端物件。
+為了使用 **存取權杖** 建立 Power BI 用戶端，您可以建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 **_Microsoft.Rest.TokenCredentials_* _ 物件包裝在一起來建立 Power BI 用戶端物件。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -250,7 +250,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 下列程式碼範例示範如何從指定工作區中擷取第一份報表。
 
-*取得您要內嵌的報表、儀表板或圖格的內容項目範例，位於[範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 檔案內。*
+「無論您想要內嵌報表、儀表板或磚，您都可以在[範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 檔案中，找到如何取得的該內容項目的範例。」_*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -356,7 +356,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 此範例使用 **EmbedConfig** 模型和 **TileEmbedConfig** 模型以及報表檢視。
 
-*新增報表、儀表板或圖格檢視的範例，位於[範例應用程式](#embed-content-using-the-sample-application)的 Views\Home\EmbedReport.cshtml、Views\Home\EmbedDashboard.cshtml 或 Views\Home\Embedtile.cshtml 檔案內。*
+*新增報表、儀表板或圖格檢視的範例，位於 [範例應用程式](#embed-content-using-the-sample-application)的 Views\Home\EmbedReport.cshtml、Views\Home\EmbedDashboard.cshtml 或 Views\Home\Embedtile.cshtml 檔案內。*
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>
@@ -443,9 +443,9 @@ Power BI 服務主體或主帳戶可產生的內嵌試用權杖數有所限制�
 
 若要使用[服務主體](embed-service-principal.md)將容量指派至工作區，請使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)。
 
-請遵循下列步驟，使用**主帳戶**將容量指派給工作區。
+請遵循下列步驟，使用 **主帳戶** 將容量指派給工作區。
 
-1. 在 **Power BI 服務**中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]。
+1. 在 **Power BI 服務** 中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]。
 
     ![編輯工作區](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
 
@@ -453,7 +453,7 @@ Power BI 服務主體或主帳戶可產生的內嵌試用權杖數有所限制�
 
     ![指派容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. 在選取 [儲存] 後，應該會在工作區名稱的旁邊看到一個**鑽石**。
+3. 在選取 [儲存] 後，應該會在工作區名稱的旁邊看到一個 **鑽石**。
 
     ![繫結至容量的工作區](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 

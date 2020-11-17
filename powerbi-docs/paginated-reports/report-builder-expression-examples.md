@@ -1,19 +1,19 @@
 ---
 title: Power BI 報表產生器中的運算式範例
 description: 在 Power BI Report Builder 的編頁報表中，經常使用運算式來控制內容和報表外觀。
-ms.date: 10/21/2019
+ms.date: 11/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 042221e3836aae72568df7eadaacfeeeac90d215
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 762949dcce178628d387cd8f88c60080f74c5bae
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297781"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397338"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 報表產生器中的運算式範例
 
@@ -180,7 +180,7 @@ ms.locfileid: "93297781"
   
      如果文字方塊只包含日期或數字，您應該使用文字方塊的 Format 屬性來套用格式，而非使用文字方塊中的 **Format** 函數。  
   
--   **Right** 、 **Len** 和 **InStr** 函式在傳回子字串時很有用；例如，將 *DOMAIN*\\*使用者名稱* 修改成只有使用者名稱。 下列運算式會從名為\\User *的參數傳回字串中反斜線 (* ) 字元右邊的字串部分：  
+-   **Right**、**Len** 和 **InStr** 函式在傳回子字串時很有用；例如，將 *DOMAIN*\\*使用者名稱* 修改成只有使用者名稱。 下列運算式會從名為\\User *的參數傳回字串中反斜線 (* ) 字元右邊的字串部分：  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -205,7 +205,7 @@ ms.locfileid: "93297781"
   
     ```  
   
--   來自 .NET Framework `xref:System.Text.RegularExpressions` 的 **Regex** 函式可用於變更現有字串的格式，例如設定電話號碼格式。 下列運算式使用 **Replace** 函數，將欄位中十位數電話號碼的格式從 " *nnn*-*nnn*-*nnnn* " 變更為 "( *nnn* ) *nnn*-*nnnn* "：  
+-   來自 .NET Framework `xref:System.Text.RegularExpressions` 的 **Regex** 函式可用於變更現有字串的格式，例如設定電話號碼格式。 下列運算式使用 **Replace** 函數，將欄位中十位數電話號碼的格式從 "*nnn*-*nnn*-*nnnn*" 變更為 "(*nnn*) *nnn*-*nnnn*"：  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -247,7 +247,7 @@ ms.locfileid: "93297781"
   
 ###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> 決策函式  
   
--   **lif** 函數會根據運算式是否評估為 true 而傳回兩個值之一。 當 **超過 100 時，下列運算式會使用** lif **函數來傳回布林值** True `LineTotal` ， 否則它會傳回 **False** ：  
+-   **lif** 函數會根據運算式是否評估為 true 而傳回兩個值之一。 當 **超過 100 時，下列運算式會使用** lif **函數來傳回布林值** True `LineTotal` ， 否則它會傳回 **False**：  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
@@ -275,13 +275,13 @@ ms.locfileid: "93297781"
     =IIF(DateDiff("d",Fields!ImportantDate.Value, Now())>7,"Red","Blue")  
     ```  
   
--   測試 `PhoneNumber` 欄位的值，如果為 **Null** (在 Visual Basic 中為 **Nothing** )，則傳回 "No Value"，否則傳回電話號碼值。 這個運算式可用來控制報表項目中文字方塊的值。  
+-   測試 `PhoneNumber` 欄位的值，如果為 **Null** (在 Visual Basic 中為 **Nothing**)，則傳回 "No Value"，否則傳回電話號碼值。 這個運算式可用來控制報表項目中文字方塊的值。  
   
     ```  
     =IIF(Fields!PhoneNumber.Value Is Nothing,"No Value",Fields!PhoneNumber.Value)  
     ```  
   
--   測試 `Department` 欄位的值，並傳回子報表名稱或 **Null** (在 Visual Basic 中為 **Nothing** )。 此運算式可用於條件式鑽研子報表。  
+-   測試 `Department` 欄位的值，並傳回子報表名稱或 **Null** (在 Visual Basic 中為 **Nothing**)。 此運算式可用於條件式鑽研子報表。  
   
     ```  
     =IIF(Fields!Department.Value = "Development", "EmployeeReport", Nothing)  
@@ -454,6 +454,9 @@ ms.locfileid: "93297781"
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
+> [!NOTE]
+>  Power BI 編頁報表不支援在 **Go To URL** 運算式中使用 JavaScript。  
+  
 ##  <a name="report-data"></a><a name="ReportData"></a> 報表資料  
  您可以使用運算式來操作用於報表中的資料。 您可以參考參數和其他的報表資訊。 您甚至可以變更用來擷取報表資料的查詢。  
   
@@ -466,7 +469,7 @@ ms.locfileid: "93297781"
     =User!UserID  
     ```  
   
--   若要在報表的查詢參數、篩選運算式、文字方塊或其他區域中參考參數，請使用 **Parameters** 全域集合。 這個範例假設參數的名稱是 *Department* ：  
+-   若要在報表的查詢參數、篩選運算式、文字方塊或其他區域中參考參數，請使用 **Parameters** 全域集合。 這個範例假設參數的名稱是 *Department*：  
   
     ```  
     =Parameters!Department.Value  
@@ -495,7 +498,7 @@ ms.locfileid: "93297781"
     =IIF(Field!B.Value=0, 0, Field!A.Value / IIF(Field!B.Value =0, 1, Field!B.Value))  
     ```  
   
--   使用自訂程式碼函數來傳回運算式的值。 下列範例會傳回目前值和上一個值之間的百分比差異。 這可用來計算任兩個連續值之間的差異，並處理第一個比較的邊緣案例 (沒有上一個值時)，以及上一個值或目前值是否為 **Null** (在 Visual Basic 中為 **Nothing** ) 的案例。  
+-   使用自訂程式碼函數來傳回運算式的值。 下列範例會傳回目前值和上一個值之間的百分比差異。 這可用來計算任兩個連續值之間的差異，並處理第一個比較的邊緣案例 (沒有上一個值時)，以及上一個值或目前值是否為 **Null** (在 Visual Basic 中為 **Nothing**) 的案例。  
   
     ```  
     Public Function GetDeltaPercentage(ByVal PreviousValue, ByVal CurrentValue) As Object  

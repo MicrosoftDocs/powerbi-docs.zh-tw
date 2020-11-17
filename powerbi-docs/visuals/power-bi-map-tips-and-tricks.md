@@ -1,21 +1,21 @@
 ---
 title: 地圖秘訣和訣竅 (包括 Bing 地圖服務整合)
 description: 'Power BI 地圖服務視覺效果、位置、經度和緯度，以及如何與 Bing 地圖服務整合運作的秘訣和訣竅。 '
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec2e097dd829760c331ff8f045af00176b0c302b
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860110"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411858"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI 地圖視覺效果的秘訣和訣竅
 
@@ -50,16 +50,16 @@ Power BI 服務和 Power BI Desktop 會將 Bing 建立地圖視覺效果所需�
 
 **1.在 Power BI Desktop 中分類地理位置欄位**
 
-在 Power BI Desktop 中，您可以設定資料欄位的 [資料類別]  ，以確保欄位的地理編碼正確。 在 [資料] 檢視中，選取所需的資料行。 從功能區中選取 [建立模型]  索引標籤，然後將 [資料類別]  設定為**地址**、**城市**、**洲**、**國家/地區**、**郡**、**郵遞區號**、**縣**或**市**。 這些資料類別可以協助 Bing 將該日期正確編碼。 若要深入了解，請參閱 [Power BI Desktop 中的資料分類](../transform-model/desktop-data-categorization.md)。 若您即時連線到 SQL Server Analysis Services，您必須使用 [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) 於 Power BI 外部設定資料分類。
+在 Power BI Desktop 中，您可以設定資料欄位的 [資料類別]  ，以確保欄位的地理編碼正確。 在 [資料] 檢視中，選取所需的資料行。 從功能區中選取 [建立模型]  索引標籤，然後將 [資料類別]  設定為 **地址**、**城市**、**洲**、**國家/地區**、**郡**、**郵遞區號**、**縣** 或 **市**。 這些資料類別可以協助 Bing 將該日期正確編碼。 若要深入了解，請參閱 [Power BI Desktop 中的資料分類](../transform-model/desktop-data-categorization.md)。 若您即時連線到 SQL Server Analysis Services，您必須使用 [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) 於 Power BI 外部設定資料分類。
 
 **2.使用多個位置資料行。**     
- 有時候，即使設定了地圖的資料分類，也不夠讓 Bing 正確猜出您的意圖。 某些指定由於位置存在於多個國家或地區而模稜兩可。 例如，英國、賓夕法尼亞州和紐約州都有「南安普敦」。
+ 有時候，即使設定了地圖的資料分類，也不夠讓 Bing 正確猜出您的意圖。 某些指定由於位置存在於多個國家或地區而模稜兩可。 例如，英國、賓夕法尼亞州和紐約州都有「*_南安普敦_*」*_。
 
 Power BI 會使用 Bing 的[非結構化 URL 範本服務](/bingmaps/rest-services/locations/find-a-location-by-address)，以根據任何國家/地區的地址值集合來取得緯度和經度座標。 如果您的資料未包含足夠的位置資料，請新增這些資料行並適當地分類。
 
  例如：如果您只有 [鄉/鎮/市/區] 資料行，Bing 可能很難進行地理編碼。 新增其他地理資料行，讓位置更明確。  有時只需要再將一個位置資料行新增至資料集，在本例中為州/省。 此外，別忘了將它正確分類，如上面第一項所述。
 
-請確定每個欄位只有一個位置分類。 例如：您的 [鄉/鎮/市/區] 位置欄位內容應該要是**南安普敦**，而非**南安普敦，紐約**。  地址位置欄位的內容應該要是 **1 Microsoft Way**，而非 **1 Microsoft Way，雷德蒙德，WA**。
+請確定每個欄位只有一個位置分類。 例如：您的 [鄉/鎮/市/區] 位置欄位內容應該要是_*南安普敦**，而非 **南安普敦，紐約**。  地址位置欄位的內容應該要是 **1 Microsoft Way**，而非 **1 Microsoft Way，雷德蒙德，WA**。
 
 **3.使用特定經度和緯度**
 

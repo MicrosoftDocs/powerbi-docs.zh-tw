@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3052119ed4abd4e752ab14a5eb9a2087148f4997
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525194"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397062"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
-請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
+請查看此頁面，以了解 **Power BI 服務** 中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
 
 - Microsoft 商務應用程式集團所推出的 [2018 年 10 月商業智慧最新功能](/business-applications-release-notes/October18/intelligence-platform/planned-features) (英文) 版本資訊：我們商務應用程式的最新更新。
 - [Power BI Desktop 的新功能](desktop-latest-update.md)  
@@ -97,7 +97,7 @@ ms.locfileid: "91525194"
 * 服務中 Power BI 報表的[註解](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)。
 
 ### <a name="april-2019"></a>2019 年 4 月
-* Power BI [資料流程](../transform-model/service-dataflows-overview.md)的正式推出。
+* Power BI [資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)的正式推出。
 * 新工作區體驗的正式推出。
 * 法國和南韓的新 Power BI 區域。
 * 已更新儀表板的問與答體驗。
@@ -120,12 +120,12 @@ ms.locfileid: "91525194"
 * 管理入口網站中的大量作業。
 * PPT 和 PDF 的已篩選匯出。
 * 管理入口網站中的[說明及支援設定](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) \(英文\)。
-* [資料流程](../transform-model/service-dataflows-overview.md)的資料歷程體驗。
+* [資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)的資料歷程體驗。
 * 管理入口網站中認證的 Power BI 視覺效果設定。
 
 ### <a name="january-2019"></a>2019 年 1 月
 * 在內部入口網站或網站中[內嵌安全的 Power BI 報表](../collaborate-share/service-embed-report-spo.md)。
-* 以新連接器更新[資料流程](../transform-model/service-dataflows-overview.md)編輯器，以及支援原生 SQL 查詢和 Power Query Online 轉換。
+* 以新連接器更新[資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)編輯器，以及支援原生 SQL 查詢和 Power Query Online 轉換。
 * Power BI 服務中的[個人書籤](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。
 * 以時間為基礎的電子郵件訂閱排程。
 
@@ -133,11 +133,11 @@ ms.locfileid: "91525194"
 ### <a name="december-2018"></a>2018 年 12 月
 * Power BI Home 中採用 AI 技術的[建議應用程式](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)。
 * 管理入口網站中的[工作區管理](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/)。
-* [資料流程](../transform-model/service-dataflows-overview.md)中的 Power BI 資料流程和 Azure Data Lake Storage Gen2 整合預覽。
+* [資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)中的 Power BI 資料流程和 Azure Data Lake Storage Gen2 整合預覽。
 * Power BI 解決方案範本已成為開放原始碼。
 
 ### <a name="november-2018"></a>2018 年 11 月
-* [資料流程](../transform-model/service-dataflows-overview.md)公開預覽提供 Power BI 資料準備。
+* [資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)公開預覽提供 Power BI 資料準備。
 * Power BI Premium 中的[編頁報表](../paginated-reports/paginated-reports-report-builder-power-bi.md)公開預覽。
 * [容量監視應用程式](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)記憶體中的資料大小和資料集計數。
 
@@ -283,46 +283,46 @@ ms.locfileid: "91525194"
 * 顯示[文字資料行作為工具提示](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/)。
 
 ### <a name="july-2016"></a>2016 年 7 月
-***RLS 正式告別預覽版***
+**RLS 正式告別預覽版***_
 
-* 資料列層級安全性 (RLS) 可讓您根據存取人員來限制資料存取權。 最近我們公開了 Power BI Desktop 中的角色和規則，藉此簡化設定 RLS 的程序。 今天，我們很高興地宣佈所有 Power BI Pro 使用者現在可正式使用 RLS。
+_ 資料列層級安全性 (RLS) 可讓您根據存取人員來限制資料存取權。 最近我們公開了 Power BI Desktop 中的角色和規則，藉此簡化設定 RLS 的程序。 今天，我們很高興地宣佈所有 Power BI Pro 使用者現在可正式使用 RLS。
 
-***資料分類***
+**資料分類***_
 
-* 您現在可以使用公司 IT 部門所定義的分類來標記儀表板，讓檢視您儀表板的使用者更清楚地了解所應使用的安全性層級。
+_ 您現在可以使用公司 IT 部門所定義的分類來標記儀表板，讓檢視您儀表板的使用者更清楚地了解所應使用的安全性層級。
 
-***在 Excel 中分析您的內部部署資料***
+**在 Excel 中分析您的內部部署資料***_
 
-* [使用 EXCEL 分析] 功能已擴充為支援內部部署資料集。 我們建立安全且直接的連接方式來連接到您的內部部署資料集，讓您可以在 Excel 中進行分析。 我們也引進了一項設定，讓系統管理員可以關閉內部部署來源的 [使用 Excel 分析] 功能。  
+_ [使用 EXCEL 分析] 功能已擴充為支援內部部署資料集。 我們建立安全且直接的連接方式來連接到您的內部部署資料集，讓您可以在 Excel 中進行分析。 我們也引進了一項設定，讓系統管理員可以關閉內部部署來源的 [使用 Excel 分析] 功能。  
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>2016 年 6 月
-***Quick Insights (深入資訊摘要)***
+**快速見解***_
 
-* 搭配複雜篩選條件使用的快速見解：我們很高興地宣布快速見解現在位於單一圖格範圍，且能了解複雜篩選條件。
+_ 搭配複雜篩選條件使用的快速見解：我們很高興地宣布快速見解現在位於單一圖格範圍，且能了解複雜篩選條件。
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
 ### <a name="may-2016"></a>2016 年 5 月
-***取得資料***
+**取得資料***_
 
-* 檔案大小限制增加到 1 GB：我們已將 Excel 活頁簿和 Power BI Desktop 檔案的檔案大小限制增加為 1 GB。
+_ 檔案大小限制增加到 1 GB：我們已將 Excel 活頁簿和 Power BI Desktop 檔案的檔案大小限制增加為 1 GB。
 * 尋找設定企業閘道的 SSAS 伺服器，以及其他閘道更新：設定企業閘道之後，您公司中的使用者現在能在 Power BI 中透過 [取得資料] 頁面來存取這些伺服器。 我們現在還支援使用閘道重新整理內含 SAP Business Warehouse 伺服器資料的資料集，以及在搭配使用 Analysis Services 與閘道時建立 UPN 對應規則。
 
-***資料列層級安全性 (RLS)***
+**資料列層級安全性 (RLS)** *_
 
-* Azure Active Directory (Azure AD) 群組支援：使用者現在可以將 Azure AD 群組 (安全性群組) 指派給角色。 這樣更容易同時將數個角色指派給大型的使用者群組。
+_ Azure Active Directory (Azure AD) 群組支援：使用者現在可以將 Azure AD 群組 (安全性群組) 指派給角色。 這樣更容易同時將數個角色指派給大型的使用者群組。
 * [根據現有 RLS 資料來測試您的 RLS 角色與報表](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop)：我們已在 RLS 預覽新增功能，可讓您以特定角色測試您的資料集。 如此可確保角色依您的預期運作，再讓其他使用者使用您的儀表板。
 * 以直接查詢為基礎，將定義和 RLS 套用到雲端模型：您現在可以為直接查詢資料來源建立及套用 RLS 規則。
 
-***儀表板***
+**儀表板***_
 
-* 我的最愛儀表板：為協助您連上最常使用的儀表板，我們新增了一個方法，讓您將這些儀表板加入我的最愛，從所有工作區都可以輕鬆存取。
+_ 我的最愛儀表板：為協助您連上最常使用的儀表板，我們新增了一個方法，讓您將這些儀表板加入我的最愛，從所有工作區都可以輕鬆存取。
 
-***使用 Excel 分析***
+**使用 EXCEL 分析***_
 
-* 改善的下載體驗：透過新的對話方塊體驗，輕鬆地將更新下載至 [使用 Excel 分析] 功能。
+_ 改善的下載體驗：透過新的對話方塊體驗，輕鬆地將更新下載至 [使用 Excel 分析] 功能。
 * 支援 RLS︰現在只要設定了 RLS，當使用者在 Excel 中分析資料時，您套用至資料的規則即發揮作用。
 * 改善內部部署 Analysis Services 資料庫的錯誤訊息：先前，如果您在 [使用 Excel 分析] 中選取不支援的資料來源，您不會收到錯誤訊息，直到您先下載 ODC 檔案並嘗試連線到 Power BI 時才會收到。 現在，只要您對不受支援的資料來源選取 [使用 Excel 分析]，就會看到一則訊息，讓您知道我們尚不支援該資料來源。
 
@@ -351,49 +351,49 @@ ms.locfileid: "91525194"
 
 **2016 年 4 月 14 日**
 
-***企業***
+*_企業_**_
 
-* [RLS 的內容套件支援](../admin/service-admin-rls.md) (預覽)：如果為當做內容套件一部分散發的儀表板和報表定義 RLS，則會遵守這些內容套件的安全性規則。
+_ [RLS 的內容套件支援](../admin/service-admin-rls.md) (預覽)：如果為當做內容套件一部分散發的儀表板和報表定義 RLS，則會遵守這些內容套件的安全性規則。
 
-***儀表板***
+**儀表板***_
 
-* [Vimeo 影片圖格](../create-reports/service-dashboard-add-widget.md)︰從儀表板新增包含內嵌 Vimeo 播放程式的圖格。
+_ [Vimeo 影片磚](../create-reports/service-dashboard-add-widget.md)︰從儀表板新增包含內嵌 Vimeo 播放程式的圖格。
 
-***使用 Excel 分析***
+**使用 Excel 分析***_
 
-* 所有使用者都可以[使用 Excel 分析](../collaborate-share/service-analyze-in-excel.md)︰在 Excel 中存取 Power BI 資料模型的能力已延伸到所有使用者，而不論獲指派的授權為何。
+_ 所有使用者都可以[使用 Excel 分析](../collaborate-share/service-analyze-in-excel.md)︰無論獲指派的授權為何，使用者皆能在 Excel 中存取 Power BI 資料模型。
 * 改善的多使用者帳戶體驗︰如果您有多個 Power BI 使用者帳戶，現在可以更輕鬆地登入。
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
 
 **2016 年 3 月 31 日** 在 Microsoft Data Insights Summit 宣佈了許多更新。
 
-***儀表板***
+*_儀表板_**_
 
-* 精選儀表板︰可讓您更輕鬆地連接到您最想要關注的儀表板。
+_ 精選儀表板︰可讓您更輕鬆地連接到您最想要關注的儀表板。
 * 篩選儀表板清單︰全部顯示、顯示您建立的內容、顯示與您共用的內容。
 
-***企業功能***
+**企業功能***_
 
-* 系統管理使用方式報告︰將使用方式報表加入 Power BI 系統管理中心。
+_ 系統管理使用方式報告︰將使用方式報表新增至 Power BI 系統管理中心。
 * 資料列層級安全性︰這是預覽功能，可讓您設定 Power BI 資料集的權限。
 * 停用匯出資料︰租用戶中的使用者無法再將磚和視覺資料匯出到 .csv 檔案。
 
-***問與答***
+**問與答***_
 
-* "is" 的自動完成：如果您輸入資料行名稱並在後面加上 "is"，問與答會建議值。
+_ "is" 自動完成：如果您輸入資料行名稱並在後面加上 "is"，問與答會建議值。
 
-***行動***
+**行動裝置***_
 
-* Apple Watch 上的 KPI：監視您的 KPI 和卡片磚，而不必開啟 Power BI 應用程式。
+_ Apple Watch 上的 KPI：監視您的 KPI 與卡片磚，而不必開啟 Power BI 應用程式。
 
-***Excel***
+***Excel** _
 
-* 使用 Excel 分析︰將 Power BI 資料模型連接到 Excel，然後在 Excel (而不是 Power BI) 中進行分析。
+_ 使用 Excel 分析︰將 Power BI 資料模型連接到 Excel，然後在 Excel (而非 Power BI) 中進行分析。
 
-***其他***
+**其他***_
 
-* 澳洲地區的 Power BI︰現在位於澳洲地區的所有人都可以個別或透過組織前往 powerbi.microsoft.com 並註冊 Power BI。
+_ 澳洲的 Power BI︰現在位於澳洲的所有人，都可以自行或透過組織前往 powerbi.microsoft.com 並註冊 Power BI。
 * 語言設定︰覆寫自動語言偵測並設定 Power BI 的語言。
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-service-march-update-part-two/)
@@ -402,19 +402,19 @@ ms.locfileid: "91525194"
 
 本月份我們對儀表板、深入資訊摘要及問與答做了一些更新。
 
-***儀表板***
+*_儀表板_**_
 
-* 全螢幕模式︰不須先結束全螢幕模式也能列印
+_ 全螢幕模式︰不須先結束全螢幕模式也能列印
 * 全螢幕模式︰展開您要填滿整個畫布的磚，然後選取 [符合寬度] 來移除多餘的空白字元
 * 使用磚流程將您的磚自動對齊畫布左上角。
 
-***Quick Insights (深入資訊摘要)***
+**快速見解***_
 
-* 趨勢與相互關聯見解現在有了趨勢線，讓您更輕鬆地查看資料中的模式。
+_ 趨勢與相互關聯見解現在有了趨勢線，讓您更輕鬆地查看資料中的模式。
 
-***問與答***
+**問與答***_
 
-* 您現在可以指定問與答中的量測計和區域圖
+_ 您現在可以指定問與答中的量測計和區域圖
 * 改良問與答的自動完成：只要輸入幾個字元，問與答就會開始自動完成，並為您建議視覺效果。
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-service-march-update/)
@@ -423,31 +423,31 @@ ms.locfileid: "91525194"
 
 我們今天發行了一長串呼聲最高的功能。 [閱讀部落格文章](https://powerbi.microsoft.com/blog/power-bi-february-service-update/).
 
-***共用***
+*_共用_**_
 
-* 與組織外部的使用者共用
+_ 與組織外部的使用者共用
 * 要求存取儀表板
 
-***管理入口網站***
+**管理入口網站***_
 
-* 使用 Microsoft 365 系統管理中心連結輕鬆管理使用者
+_ 使用 Microsoft 365 系統管理中心連結輕鬆管理使用者
 * 能夠停用發佈至 Web
 * 防止使用者對整個組織發行內容套件
 * 停用與外部使用者共用內容的功能
 
-***深入資訊摘要***
+**快速見解***_
 
-* 當您發行 Power BI Desktop 檔案時，即時掌握所有資訊
+_ 當您發佈 Power BI Desktop 檔案時，即時掌握所有資訊
 
-***儀表板***
+**儀表板***_
 
-* 將 Web 內容加入儀表板中 (透過 Widget)
+_ 將 Web 內容新增至儀表板 (透過 Widget)
 * 將視訊內容加入儀表板中 (透過 Widget)
 * 在儀表板上縮放
 
-***連線能力***
+**連線***_
 
-* 透過 URL 連接到小組 SharePoint 網站上的檔案
+_ 透過 URL 連線到小組 SharePoint 網站上的檔案
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-february-service-update/)
 
@@ -466,37 +466,37 @@ ms.locfileid: "91525194"
 
 Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)
 
-***儀表板***
+*_儀表板_**_
 
-* 匯出磚資料
+_ 匯出磚資料
 * 將影像或文字方塊 Widget 加入儀表板中
 * 列印儀表板
 * 重新整理磚上的時間
 * 儀表板磚上的工具提示
 
-***共同作業***
+**共同作業***_
 
-* 共用的儀表板通知
+_ 共用的儀表板通知
 * 請連絡共用儀表板或組織儀表板的擁有者
 
-***報表***
+**報表***_
 
-* 列印目前報表頁面
+_ 列印目前報表頁面
 * 匯出報表視覺化資料
 
-***連線能力***
+**連線***_
 
-* 連接至 SharePoint 小組網站上的檔案
+_ 連線至 SharePoint 小組網站上的檔案
 
-***Excel 報表***
+**Excel 報表***_
 
-* 在 Excel Desktop 中開啟 Excel 報表
+_ 在 Excel Desktop 中開啟 Excel 報表
 * 釘選 Excel 圖表
 * Excel 磚的格式增強功能
 
-***其他***
+**其他***_
 
-* 巴西的 Power BI
+_ 巴西的 Power BI
 * 希伯來文和阿拉伯文支援
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)
@@ -747,7 +747,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 5 月 13 日**
 
-* 您可以直接連接到儲存在 **Azure SQL Database**的資料。 我們以動態方式產生並將查詢傳送到來源，讓您能直接在資料庫上建立互動式報表。 如需詳細資訊，您可以閱讀[部落格文章](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/)和[文件](../connect-data/service-azure-sql-database-with-direct-connect.md)。
+* 您可以直接連接到儲存在 **Azure SQL Database** 的資料。 我們以動態方式產生並將查詢傳送到來源，讓您能直接在資料庫上建立互動式報表。 如需詳細資訊，您可以閱讀[部落格文章](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/)和[文件](../connect-data/service-azure-sql-database-with-direct-connect.md)。
 
 **2015 年 5 月 7 日**
 
@@ -764,7 +764,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 **2015 年 4 月 15 日**
 
 * 您現在可以用新的內容套件視覺化及瀏覽您的 **Google Analytics** 資料！ 使用 Google Analytics 內容套件，您將取得儀表板、報表和資料集，讓您取得最近 6 個月網站使用情形的深入解析。 您可以閱讀[我們的部落格文章](https://powerbi.microsoft.com/blog/visualize-and-explore-your-google-analytics-data-with-power-bi/)。
-* 您現在可以**釘選所有卡片**，但內含來自問答集和報表之 KPI 和影像者除外
+* 您現在可以 **釘選所有卡片**，但內含來自問答集和報表之 KPI 和影像者除外
 * 您現在可以藉由在查詢結尾使用 'as card' 片語，**在問答集中使用卡片**
 
 **2015 年 3 月 31 日**
@@ -772,7 +772,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * **GitHub** 儀表板具有著重在社群建置的新視覺效果、改進的計算和更佳的版面配置
 * **SendGrid** 儀表板具有新的視覺效果和新的版面配置，有助於您尋找更深入的解析
 * 您現在可以藉由在查詢結尾使用 'as treemap' 片語，**在問答集中使用矩形式樹狀結構圖**
-* 您現在可以從問答集和報表**釘選矩形式樹狀結構圖** 
+* 您現在可以從問答集和報表 **釘選矩形式樹狀結構圖** 
 * 修正了許多 Bug！
 
 **2015 年 2 月 25 日**

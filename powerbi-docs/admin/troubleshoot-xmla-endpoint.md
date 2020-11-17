@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI Premium (預覽) 中針對 XMLA 端點連線能力進行疑難排解
+title: 針對 Power BI 中的 XMLA 端點連線進行疑難排解
 description: 描述如何透過 Power BI Premium 中的 XMLA 端點，針對連線能力進行疑難排解。
 author: minewiskan
 ms.author: owend
@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116561"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483665"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>針對 XMLA 端點連線能力進行疑難排解
 
@@ -79,7 +79,7 @@ Power BI Premium 中的 XMLA 端點依賴原生的 Analysis Services 通訊協�
 
 若要避免處理失敗，請將 [部署選項] > [處理選項] 設定為 [不處理]，如下圖所示。 Visual Studio 接著就只會部署中繼資料。 然後，您可以設定資料來源認證，並在 Power BI 使用者介面中，針對資料集按一下 [立即重新整理]。 如需對處理問題進行疑難排解的相關資訊，請參閱此文章稍後的[重新整理資料集](#refreshing-a-dataset)一節。
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="模型部署錯誤":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="[不處理] 選項":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>從現有資料集新增專案
 
@@ -128,21 +128,21 @@ XMLA 端點可讓您針對表格式模型以及 Power BI Desktop 中建立的資
 
 您可以為提供者資料來源定義的模擬設定與 Power BI 無關。 Power BI 會使用以資料集設定為基礎的不同機制來管理資料來源認證。 基於這個理由，如果您要建立提供者資料來源，請務必選取 [服務帳戶]。
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="模型部署錯誤":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="模擬服務帳戶":::
 
 ### <a name="fine-grained-processing"></a>更精細的處理
 
 在 Power BI 中觸發已排程的重新整理或視需要重新整理時，Power BI 通常會重新整理整個資料集。 在許多情況下，以更有選擇性的方式再次執行重新整理會更有效率。 您可以在 SQL Server Management Studio (SSMS) 中 (如下所示)，或是使用協力廠商工具或指令碼，來執行更精細的處理工作。
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="模型部署錯誤":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="在 SSMS 中處理資料表":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 命令中的覆寫
 
-[Refresh 命令 (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) 中的覆寫，可供使用者選擇不同磁碟分割查詢定義或重新整理作業的資料來源定義。 目前，Power BI Premium 中**不支援覆寫**。 Power BI Premium 中不允許「非正規繫結」錯誤。 如需其他資訊，請參閱產品文件中的「XMLA 讀取/寫入支援」。 」錯誤訊息。
+[Refresh 命令 (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) 中的覆寫，可供使用者選擇不同磁碟分割查詢定義或重新整理作業的資料來源定義。 目前，Power BI Premium 中 **不支援覆寫**。 Power BI Premium 中不允許「非正規繫結」錯誤。 如需其他資訊，請參閱產品文件中的「XMLA 讀取/寫入支援」。 」錯誤訊息。
 
 ## <a name="see-also"></a>另請參閱
 
-[與 XMLA 端點的資料集連線能力](service-premium-connect-tools.md)   
-[使用服務主體將 Premium 工作區與資料集工作自動化](service-premium-service-principal.md)   
-[針對「使用 Excel 分析」進行疑難排解](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[表格式模型解決方案部署](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[使用 XMLA 端點連線至資料集](service-premium-connect-tools.md)  
+[使用服務主體將 Premium 工作區與資料集工作自動化](service-premium-service-principal.md)  
+[對 [使用 Excel 分析] 進行疑難排解](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)  
+[表格式模型解決方案部署](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current&preserve-view=true)

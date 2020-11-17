@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: ca9c18cbd51737a5e4b05f3504c6ac2760006281
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 447f73601362c9ee205fe64119d0c251e7b4eb9a
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92050648"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412272"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>設定環境以開發 Power BI 視覺效果
 
@@ -62,7 +62,7 @@ ms.locfileid: "92050648"
 此程序說明如何執行 PowerShell 命令來啟動 [憑證匯入精靈]。 請遵循下列步驟，以在精靈中設定憑證。
 
 >[!IMPORTANT]
->請勿在此程序期間關閉 PowerSell 視窗。
+>請勿在此程序執行期間關閉 PowerShell 視窗。
 
 1. 開啟 Windows PowerShell，然後輸入下列命令。
 

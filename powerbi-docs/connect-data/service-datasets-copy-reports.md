@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: 4fcfe4038b8fa14b0c1640680aaf7657e92bb9bb
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132313"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397361"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>複製其他工作區的報表
 
@@ -22,7 +22,7 @@ ms.locfileid: "93132313"
 
 ## <a name="prerequisites"></a>先決條件
 
-- 若要複製報表，您將需要 Pro 授權，即使原始報表位於 Premium 容量中的工作區也一樣。
+- 您將需要 Pro 授權才能複製報表，即使原始報表位於 Premium 容量中的工作區也一樣。
 - 若要複製報表，或根據其他工作區的資料集在某工作區中建立報表，則需要有該資料集的建置權限。 若是原始工作區中的資料集，具有系統管理員、成員和參與者角色的使用者可透過其工作區角色自動取得建置權限。 如需詳細資料，請參閱[新工作區中的角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。
 
 ## <a name="save-a-copy-of-a-report-in-a-workspace"></a>在工作區中儲存報表複本

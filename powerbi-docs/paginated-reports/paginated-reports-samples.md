@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.openlocfilehash: cf0e6a6e7cd40a5b8bb97560caf94b71c1b48e7a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/10/2020
+ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93324002"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483816"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>範例 Power BI 編頁報表
 
@@ -27,8 +27,25 @@ ms.locfileid: "93324002"
 - 您可在線上以現狀共用這些報表，而無需編輯。 但您需要有 Power BI Pro 授權才能執行此作業。 請註冊 [Power BI Pro 的免費試用版授權](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro)。
 - 您也需要存取 [Premium 容量](../admin/service-premium-what-is.md)中的 Power BI 工作區。
 - 若要編輯這些報表，您必須從 Microsoft 下載中心[安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)。
-- 現在可從 GitHub [下載這些範例編頁報表](https://github.com/microsoft/Reporting-Services/tree/master/PaginatedReportSamples)了！ 您不需要有 GitHub 帳戶。 
+- 現在可從 GitHub 下載這些範例編頁報表了！ 您不需要有 GitHub 帳戶。 
 
+## <a name="download-the-reports"></a>下載報表
+
+您必須將存放庫下載為 zip 檔案，然後解壓縮，才能成功下載報表。 編頁報表為 .rdl 檔案。
+
+1. 開啟 [Reporting Services GitHub 存放庫](https://github.com/microsoft/Reporting-Services)。
+1. 選取綠色 [Code] (程式碼) 按鈕上的箭號 > [Download ZIP] (下載 ZIP)。
+
+    :::image type="content" source="media/paginated-reports-samples/paginated-report-download-zip.png" alt-text="GitHub 存放庫的螢幕擷取畫面，包含範例 Power BI 編頁報表。":::
+    
+1. 開啟檔案，選取 [解壓縮全部]，然後選擇檔案的位置。 根據預設，資料夾名稱為 **Reporting-Services-master**。
+1. 開啟 **Reporting-Services-master** 資料夾，然後開啟 **PaginatedReportSamples** 資料夾。
+
+    >[!NOTE]
+    >您可以刪除 **Reporting-Services-master** 資料夾中的所有其他資料夾。 這些資料夾包含了您不需要的其他範例。
+
+1. 選取其中一個 .rdl 檔案，在 Power BI Report Builder 中開啟。
+1. 現在您可以[將編頁報表發佈至 Power BI 服務](paginated-reports-save-to-power-bi-service.md)了。
 
 ## <a name="invoice"></a>Invoice
 

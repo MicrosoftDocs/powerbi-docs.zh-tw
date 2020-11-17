@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 85622b457d1c2eda0af51e0c7190d2691c259a82
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916490"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397430"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -176,7 +176,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>我可以內嵌哪些內容套件資料類型？
 
-您「不能」  內嵌從內容套件資料集建置的 **儀表板** 和 **磚** 。 但是，您「可以」  內嵌從內容套件資料集建置的 **報表** 。
+您「不能」  內嵌從內容套件資料集建置的 **儀表板** 和 **磚**。 但是，您「可以」  內嵌從內容套件資料集建置的 **報表**。
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>使用資料列層級安全性 (RLS) 和 JavaScript篩選的差別在哪裡？
 
@@ -270,7 +270,7 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="what-is-power-bi-workspace-collection"></a>什麼是 Power BI 工作區集合？
 
-**Power BI 工作區集合** ( **Power BI Embedded** 第 1 版) 是一個以 **Power BI 工作區集合** Azure 資源為基礎的解決方案。 此解決方案可讓您透過使用「Power BI 工作區集合」  解決方案底下的 Power BI 內容、專用 API 與工作區集合金鑰來向 Power BI 驗證應用程式，為客戶建立 **Power BI Embedded** 應用程式。
+**Power BI 工作區集合** (**Power BI Embedded** 第 1 版) 是一個以 **Power BI 工作區集合** Azure 資源為基礎的解決方案。 此解決方案可讓您透過使用「Power BI 工作區集合」  解決方案底下的 Power BI 內容、專用 API 與工作區集合金鑰來向 Power BI 驗證應用程式，為客戶建立 **Power BI Embedded** 應用程式。
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>我是否可以從「Power BI 工作區集合」移轉至 Power BI Embedded？
 
@@ -312,12 +312,12 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="what-is-the-embedding-setup-tool"></a>什麼是內嵌安裝工具？
 
-[內嵌安裝工具](https://aka.ms/embedsetup)可讓您快速開始使用及下載應用程式範例，以開始使用 Power BI 進行內嵌。
+[內嵌安裝工具](https://app.powerbi.com/embedsetup)可讓您快速開始使用及下載應用程式範例，以開始使用 Power BI 進行內嵌。
 
 ### <a name="which-solution-should-i-choose"></a>我可以選擇什麼解決方案？
 
-* [對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 執行[對客戶進行內嵌](https://aka.ms/embedsetup/AppOwnsData)解決方案。
-* [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。 執行[對組織進行內嵌](https://aka.ms/embedsetup/UserOwnsData)解決方案。
+* [對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 在[內嵌安裝工具中](https://app.powerbi.com/embedsetup)，執行「對客戶進行內嵌」解決方案。
+* [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。 在[內嵌安裝工具中](https://app.powerbi.com/embedsetup)，執行「對組織進行內嵌」解決方案。
 
 ### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>我已經下載了應用程式範例，要選擇哪個解決方案？
 

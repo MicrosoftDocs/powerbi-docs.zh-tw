@@ -1,26 +1,26 @@
 ---
-title: 在報表中設定色彩格式的祕訣和訣竅
-description: 在 Power BI 報表中設定色彩格式的祕訣和訣竅
-author: mihart
-ms.reviewer: ''
+title: 在報表中設定格式的祕訣與訣竅
+description: 在 Power BI 報表中設定格式的祕訣與訣竅
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2020
-ms.author: mihart
+ms.date: 10/29/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633829"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483943"
 ---
-# <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>在 Power BI 中色彩格式化的秘訣和訣竅
+# <a name="tips-and-tricks-for-formatting-in-reports"></a>在報表中設定格式的祕訣與訣竅
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 本文詳細說明一系列秘訣，讓您的 Power BI 視覺效果更吸引人、更加有趣，且視您的需求自訂。
+Power BI 提供許多不同的方式，用來自訂您的報表。 本文詳細說明一系列秘訣，讓您的 Power BI 視覺效果更吸引人、更加有趣，且視您的需求自訂。
 
 這裡提供下列秘訣。 有其他絕佳的秘訣嗎？ 太棒了！ 請寄給我們，我們會考慮將您的秘訣加入這個清單。
 
@@ -36,7 +36,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 若要做出任何變更，您必須要有報表的編輯權限。 在 Power BI Desktop 中，於 [報表] 檢視中開啟報表。 在 Power BI 服務中，這代表您需要開啟報表並在功能表列中選取 [編輯]，如下圖所示。
 
-![哪裡可以找到 [編輯] 功能表](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
+![哪裡可以找到 [編輯] 功能表](media/service-tips-and-tricks-for-color-formatting/power-bi-editing-view.png)
 
 當 [篩選] 和 [視覺效果] 窗格顯示於報表畫布右側時，即可開始進行自訂。 如果窗格沒有顯示，請選取右上角的箭號予以開啟。
 
@@ -112,7 +112,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 ![依據數字的條件式格式設定](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-numbers.png)
 
-藉由設定這些值，漸層不再套用至 **最小值** 以下或 **最大值**以上的圖表；任何超過 **最大值** 的長條色彩皆以綠色顯示，而任何低於 **最小值** 的長條皆以紅色顯示。
+藉由設定這些值，漸層不再套用至 **最小值** 以下或 **最大值** 以上的圖表；任何超過 **最大值** 的長條色彩皆以綠色顯示，而任何低於 **最小值** 的長條皆以紅色顯示。
 
 ![依據數字的條件式格式設定結果](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional3.png)
 
@@ -143,7 +143,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 ## <a name="how-to-undo-in-power-bi"></a>如何在 Power BI 中復原
 如同許多其他 Microsoft 服務和軟體，Power BI 提供簡單的方法，用來復原您的上一個命令。 例如，讓我們假設您變更資料點或一系列資料點的色彩，但您不喜歡視覺效果中出現的色彩。 您不記得之前所用的色彩了，但知道您想要回復該色彩！
 
-若要**復原**上一個動作，或最後幾個動作，您只需要鍵入 CTRL+Z。
+若要 **復原** 上一個動作，或最後幾個動作，您只需要鍵入 CTRL+Z。
 
 若要捨棄您在 [格式化] 卡片上所做的所有變更，請選取 [還原為預設值]。
 

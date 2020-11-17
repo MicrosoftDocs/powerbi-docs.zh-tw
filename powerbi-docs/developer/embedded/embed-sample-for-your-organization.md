@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983106"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397269"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -36,7 +36,7 @@ ms.locfileid: "91983106"
 * 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
 * 若要內嵌編頁報表，您需要至少 P1 容量；請參閱[我需要針對編頁報表使用何種大小的 Premium 容量？](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
-如果您尚未註冊 **Power BI Pro** ，請先 [註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
+如果您尚未註冊 **Power BI Pro**，請先 [註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
 
 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
 
@@ -44,7 +44,7 @@ ms.locfileid: "91983106"
 
 在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定您的環境允許使用 Power BI 內嵌。
 
-您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。 在內嵌編頁報表的案例中，您需要指派至少 P1 容量給所建立的工作區。
+您可以瀏覽[內嵌設定工具](https://app.powerbi.com/embedsetup)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。 在內嵌編頁報表的案例中，您需要指派至少 P1 容量給所建立的工作區。
 
 若選擇手動設定環境，您可以繼續進行下列步驟。
 
@@ -52,9 +52,9 @@ ms.locfileid: "91983106"
 
 請向 Azure Active Directory [註冊您的應用程式](register-app.md)，以允許該應用程式存取 [Power BI REST API](/rest/api/power-bi/)。 註冊您的應用程式可讓您為應用程式建立身分識別，並指定對 Power BI REST 資源的權限。
 
-您必須繼續註冊 **伺服器端 Web 應用程式** 應用程式。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。
-
-在 Azure 中建立應用程式之後，請開啟 Azure 中的應用程式，巡覽至 [驗證] 並在 [重新導向 URI] 中將 **/Redirect** 新增至 [重新導向 URI]。
+>[!NOTE]
+>您必須在您自己的應用程式中，瀏覽至 [驗證] 然後在 [重新導向 URI] 欄位中插入重新導向位址。
+若要深入了解什麼是重新導向，請參閱[重新導向 URI (回覆 URL) 的限制與範圍](https://docs.microsoft.com/azure/active-directory/develop/reply-url) (機器翻譯)。
 
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
@@ -115,7 +115,7 @@ ms.locfileid: "91983106"
 
 使用從 **Azure** 取得的 **應用程式識別碼** 填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。
 
-若要取得 **applicationId** ，請遵循下列步驟：
+若要取得 **applicationId**，請遵循下列步驟：
 
 1. 登入[Azure 入口網站](https://portal.azure.com)。
 
@@ -125,7 +125,7 @@ ms.locfileid: "91983106"
 
     ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此 **應用程式識別碼** 作為應用程式的 **applicationId** 。
+4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此 **應用程式識別碼** 作為應用程式的 **applicationId**。
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
@@ -172,7 +172,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 若要以您的組織租用戶內嵌，請使用 URL - *https://login.microsoftonline.com/common/oauth2/authorize* 。
 
-若要以來賓內嵌，請使用 URL - `https://login.microsoftonline.com/report-owner-tenant-id` - 您可在其中新增報表擁有者的租用戶識別碼，以取代 *report-owner-tenant-id* 。
+若要以來賓內嵌，請使用 URL - `https://login.microsoftonline.com/report-owner-tenant-id` - 您可在其中新增報表擁有者的租用戶識別碼，以取代 *report-owner-tenant-id*。
 
 ### <a name="run-the-application"></a>執行應用程式
 

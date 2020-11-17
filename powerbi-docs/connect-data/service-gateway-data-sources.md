@@ -1,23 +1,23 @@
 ---
-title: 管理資料來源
-description: 了解如何管理 Power BI 中的資料來源。
+title: 新增或移除閘道資料來源
+description: 了解如何在 Power BI 中將資料來源新增至內部部署閘道。
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/22/2020
+ms.date: 11/03/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
-ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
+ms.openlocfilehash: 58fb6fbe48ef1552052f93fd56b35512b7bf84d7
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "87123480"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412421"
 ---
-# <a name="manage-data-sources"></a>管理資料來源
+# <a name="add-or-remove-a-gateway-data-source"></a>新增或移除閘道資料來源
 
 [!INCLUDE [gateway-rewrite](../includes/gateway-rewrite.md)]
 
@@ -25,45 +25,49 @@ Power BI 支援許多的[內部部署資料來源](power-bi-data-sources.md)，�
 
 大多數的資料來源管理作業也都可以使用 API 來執行。 如需詳細資訊，請參閱 [REST API (閘道)](/rest/api/power-bi/gateways)。
 
-## <a name="add-a-data-source"></a>新增資料來源
+如果您尚未安裝閘道，請先參閱[安裝內部部署資料閘道](/data-integration/gateway/service-gateway-install)。
 
-1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-data-sources/icon-gear.png) > [管理閘道]  。
+## <a name="add-a-data-source"></a>加入資料來源
+
+1. 從 Power BI 服務的頁首中，選取 [設定] ![設定齒輪圖示](media/service-gateway-data-sources/icon-gear.png) > [管理閘道]。
 
     ![管理閘道](media/service-gateway-data-sources/manage-gateways.png)
 
-2. 選取閘道，然後選取 [新增資料來源]  。 或者，前往 [閘道]   > [新增資料來源]  。
+2. 選取閘道，然後選取 [新增資料來源]  。 您可以選取 [新增資料來源] 標頭文字，或將游標移到閘道項目旁邊，顯示更多選項功能表會隨即顯示。
 
     ![新增資料來源](media/service-gateway-data-sources/add-data-source.png)
 
-3. 選取 [資料來源類型]  。
+3. 為您的資料來源指派名稱，然後選取 [資料來源類型]。 在此範例中，我們要選擇 SQL Server。
 
     ![選取 SQL Server](media/service-gateway-data-sources/select-sql-server.png)
 
-4. 輸入資料來源的資訊。 在本範例中，輸入的資訊有**伺服器**、**資料庫**和其他資訊。 
+4. 輸入資料來源的相關資訊。 若為 SQL Server，請提供 **伺服器** 與 **資料庫**。
 
     ![資料來源設定](media/service-gateway-data-sources/data-source-settings.png)
 
-5. 針對 SQL Server，您可以選擇 [Window]**s** 或 [基本] (SQL 驗證) **驗證方法**。 如果您選擇**基本**，請輸入資料來源的認證。
+5. 連線到資料來源時，請先選取要使用的 [驗證方法]。 若為 SQL Server，請選擇 [Windows] 或 [基本] (SQL 驗證)。 為您的資料來源輸入認證。
+
+   :::image type="content" source="media/service-gateway-data-sources/basic-auth.png" alt-text="基本驗證設定。":::
 
     > [!NOTE]
     > 如果選取的驗證方法是 OAuth，則所有執行時間超過 OAuth 權杖到期原則的查詢皆可能會失敗。
 
-6. 您可以在 [進階設定]  中，為資料來源設定[單一登入 (SSO)](service-gateway-sso-overview.md)。 
+6. 您可以在 [進階設定] 中，為資料來源設定[單一登入 (SSO)](service-gateway-sso-overview.md)。 
 
     ![進階設定](media/service-gateway-data-sources/advanced-settings-02.png)
 
-您可以針對以 DirectQuery 為基礎的報表，設定 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]  或 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  ；或針對以重新整理為基礎的報表，設定 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  。
+    您可以針對以 DirectQuery 為基礎的報表，設定 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢] 或 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]；或針對以重新整理為基礎的報表，設定 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]。
 
-如果您使用 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]  ，並將此資料來源用於以 DirectQuery 為基礎的報表，則其會使用對應至登入 Power BI 服務的 (Azure) Active Directory 使用者。 針對以重新整理為基礎的報表，其會使用您在 [使用者名稱]  與 [密碼]  欄位中所輸入的認證。
+    如果您使用 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]，並將此資料來源用於以 DirectQuery 為基礎的報表，則其會使用登入 Power BI 服務之使用者的認證。 若為以重新整理為基礎的報表，其會使用您在 [使用者名稱] 與 [密碼] 欄位中所輸入的認證。
 
-如果您使用 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  ，則不需要提供任何認證。 如果此資料來源用於以 DirectQuery 為基礎的報表，則其會使用對應至登入 Power BI 服務的 (Azure) Active Directory 使用者。  針對以重新整理為基礎的報表，其會使用資料集擁有者的安全性內容
+    若您使用 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]，則不需要提供任何認證。 如果此資料來源用於以 DirectQuery 為基礎的報表，則其會使用對應至登入 Power BI 服務的 (Azure) Active Directory 使用者。  針對以重新整理為基礎的報表，其會使用資料集擁有者的安全性內容
 
-> [!NOTE]
->匯入查詢的 SSO 僅適用於使用 [Kerberos 限制委派](service-gateway-sso-kerberos.md)的 SSO 資料來源清單。
+    > [!NOTE]
+    >匯入查詢的 SSO 僅適用於使用 [Kerberos 限制委派](service-gateway-sso-kerberos.md)的 SSO 資料來源清單。
 
 7. 在 [進階設定]  下方，選擇性地為您的資料來源設定[隱私權等級](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) (不適用於 [DirectQuery](desktop-directquery-about.md))。
 
-    ![進階設定](media/service-gateway-data-sources/advanced-settings.png)
+    :::image type="content" source="media/service-gateway-data-sources/privacy-level.png" alt-text="隱私權等級選項。":::
 
 8. 選取 [加入]  。 如果程序成功，您會看到 [連線成功]  。
 
@@ -75,16 +79,16 @@ Power BI 支援許多的[內部部署資料來源](power-bi-data-sources.md)，�
 
 如果您不再使用資料來源，您可以移除它。 移除資料來源的同時也會中斷依賴該資料來源的所有儀表板和報表。
 
-若要移除資料來源，請前往資料來源，然後選取 [移除]  。
+若要移除資料來源，請前往資料來源，然後從更多選項功能表中選取 [移除]。 當您將游標移至資料來源名稱的旁邊時，就會顯示更多選項功能表。
 
 ![移除資料來源](media/service-gateway-data-sources/remove-data-source.png)
 
 ## <a name="use-the-data-source-for-scheduled-refresh-or-directquery"></a>使用排程重新整理或 DirectQuery 的資料來源
 
-建立資料來源之後，您便可以搭配 DirectQuery 連線，或是透過已排程的重新整理來使用它。
+建立資料來源之後，您便可以搭配 DirectQuery 連線，或是透過已排程的重新整理來使用它。 您可以在[設定排程的重新整理](refresh-scheduled-refresh.md)中，深入了解如何為排程的重新整理進行設定。
 
 > [!NOTE]
->Power BI Desktop 和內部部署資料閘道內資料來源的伺服器和資料庫名稱必須相符。
+>對於 Power BI Desktop 與新增至內部部署資料閘道中的資料來源，其伺服器與資料庫名稱必須相符。
 
 您資料集和閘道內的資料來源連結，是以伺服器名稱和資料庫名稱為依據。 這些名稱必須相符。 例如，若您在 Power BI Desktop 中提供 IP 位址作為伺服器名稱，則必須使用該 IP 位址作為閘道設定的資料來源。 若您在 Power BI Desktop 中使用 *SERVER\INSTANCE*，則必須使用相同項目作為閘道設定的資料來源。
 
@@ -101,7 +105,7 @@ OAuth 驗證配置僅支援使用內部部署資料閘道的自訂連接器。 �
 
 ## <a name="manage-users"></a>管理使用者
 
-將資料來源新增至閘道後，您可以將特定資料來源 (非整個閘道) 存取權授與使用者和具電子郵件功能的安全性群組。 資料來源使用者清單能夠控制可以發行報表的人員，且這些報表可以包含來自資料來源的資料。 報表擁有者可以建立儀表板、內容套件和應用程式，然後與其他使用者共用這些項目。
+將資料來源新增至閘道後，您可以將特定資料來源 (非整個閘道) 存取權授與使用者和具電子郵件功能的安全性群組。 資料來源的存取清單能夠控制可以發行報表的人員，且這些報表可以包含來自資料來源的資料。 報表擁有者可以建立儀表板、內容套件和應用程式，然後與其他使用者共用這些項目。
 
 您也可以授與使用者和安全性群組對閘道的管理存取權。
 
@@ -110,15 +114,11 @@ OAuth 驗證配置僅支援使用內部部署資料閘道的自訂連接器。 �
 
 ### <a name="add-users-to-a-data-source"></a>將使用者加入至資料來源
 
-1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-data-sources/icon-gear.png) > [管理閘道]。
+1. 從 Power BI 服務的頁首中，選取 [設定] ![設定齒輪圖示](media/service-gateway-data-sources/icon-gear.png) > [管理閘道]。
 
 2. 選取您想新增使用者的資料來源。
 
-3. 選取 [使用者]，然後輸入組織中您想要授與所選取資料來源存取權的使用者。 例如，在下列畫面中，您會新增 Maggie 和 Adam。
-
-    ![[使用者] 索引標籤](media/service-gateway-data-sources/users-tab.png)
-
-4. 選取 [新增]，隨即在方塊中出現新增的成員名稱。
+3. 選取 [使用者]，然後輸入來自您組織的使用者與具有郵件功能的安全性群組，這些人員將會存取所選的資料來源。 選取 [新增]，新增的成員名稱就會新增至人員清單，這些人員能夠發佈使用此資料來源的報表。
 
     ![新增使用者](media/service-gateway-data-sources/add-user.png)
 

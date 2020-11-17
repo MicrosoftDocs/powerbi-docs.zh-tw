@@ -1,19 +1,19 @@
 ---
 title: 使用 Power BI 問與答視覺效果
 description: 如何設定 Power BI 問與答視覺效果
-author: rien
+author: msftrien
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 22ce23b408f87c8c792f75a543fd0c29a9d13281
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232288"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412341"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI 問與答視覺效果簡介
 
@@ -44,7 +44,7 @@ ms.locfileid: "85232288"
 
 1. 從 Power BI Desktop 功能表列的左上方區段，選取 [檔案] > [開啟]
    
-2. 尋找**銷售與行銷範例 PBIX 檔案**複本
+2. 尋找 **銷售與行銷範例 PBIX 檔案** 複本
 
 1. 在報表檢視中開啟檔案 ![報表檢視圖示的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
@@ -133,7 +133,7 @@ ms.locfileid: "85232288"
 
 此視覺效果不再是問與答視覺效果，而是標準直條圖。 您可以將其釘選至儀表板。 在報表中，此視覺效果的行為與其他標準視覺效果相同。 請注意，[視覺效果] 窗格會顯示已選取直條圖圖示，而不是問與答視覺效果圖示。
 
-如果您使用 ***Power BI 服務***，則現在可以選取釘選圖示來將視覺效果釘選至儀表板。 
+如果您使用 **_Power BI 服務_* _，則現在可以選取釘選圖示來將視覺效果釘選至儀表板。 
 
 
 ![已框選釘選圖示的 Power BI 服務](media/power-bi-visualization-q-and-a/power-bi-pin.png)
@@ -155,5 +155,5 @@ ms.locfileid: "85232288"
 
 您可以透過各種方式來整合自然語言。 如需詳細資訊，請參閱下列文章：
 
-* [問與答工具](../natural-language/q-and-a-tooling-intro.md)
+_ [問與答工具](../natural-language/q-and-a-tooling-intro.md)
 * [問與答最佳做法](../natural-language/q-and-a-best-practices.md)
