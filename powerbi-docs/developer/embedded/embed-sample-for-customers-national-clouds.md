@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: c831118a14c1dc453acb81b866013dcb085d9f6d
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: 0ef66f847485e066d6596c65b277f2d74699614d
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348189"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559773"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
 
@@ -43,7 +43,7 @@ Power BI 也支援[國家/地區雲端](/azure/active-directory/develop/authenti
 > [!NOTE]
 > 想要改為內嵌組織的內容嗎？ 請參閱[將儀表板整合到應用程式中](embed-sample-for-your-organization.md)。
 
-若要將儀表板整合到 Web 應用程式，請使用 **Power BI** API 和 Azure Active Directory (AD) 授權 **存取權杖** ，以取得儀表板。 然後，使用內嵌權杖載入儀表板。 **Power BI** API 可讓您以程式設計方式存取特定的 **Power BI** 資源。 如需詳細資訊，請參閱 [Power BI REST API](/rest/api/power-bi/)、[Power BI .NET SDK 與 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要將儀表板整合到 Web 應用程式，請使用 **Power BI** API 和 Azure Active Directory (AD) 授權 **存取權杖**，以取得儀表板。 然後，使用內嵌權杖載入儀表板。 **Power BI** API 可讓您以程式設計方式存取特定的 **Power BI** 資源。 如需詳細資訊，請參閱 [Power BI REST API](/rest/api/power-bi/)、[Power BI .NET SDK 與 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ## <a name="download-the-sample"></a>下載範例
 
@@ -78,7 +78,7 @@ Power BI 也支援[國家/地區雲端](/azure/active-directory/develop/authenti
 3. 在 web.config 中新增 DoDCON 參數，如下所示。
 
 ```xml
-<add key="authorityUrl" value="https://login.microsoftonlineS.us/common/" />
+<add key="authorityUrl" value="https://login.microsoftonline.us/common/" />
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
@@ -143,11 +143,11 @@ Power BI 也支援[國家/地區雲端](/azure/active-directory/develop/authenti
 
 * 適用於中國雲端的 Power BI - ```https://app.powerbi.cn/apps```
 
-若您已經下載 [對客戶進行內嵌範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)，就能使用取得的 **applicationId** 來設定範例，以向 Azure AD 驗證。 若要設定範例，請變更 *web.config* 檔案中的 **applicationId** 。
+若您已經下載 [對客戶進行內嵌範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)，就能使用取得的 **applicationId** 來設定範例，以向 Azure AD 驗證。 若要設定範例，請變更 *web.config* 檔案中的 **applicationId**。
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>步驟 2 - 從 Azure AD 取得存取權杖
 
-在您的應用程式中，您必須從 Azure AD 取得 **存取權杖** ，才能呼叫 Power BI REST API。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。 因為有不同的國家/地區雲端聯盟，所以取得應用程式存取權杖的 URL 不同。
+在您的應用程式中，您必須從 Azure AD 取得 **存取權杖**，才能呼叫 Power BI REST API。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。 因為有不同的國家/地區雲端聯盟，所以取得應用程式存取權杖的 URL 不同。
 
 * 政府社群雲端 (GCC)： ```https://login.microsoftonline.com```
 
@@ -238,7 +238,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>建立內嵌權杖
 
-使用 JavaScript API，您就可以產生內嵌權杖。 內嵌權杖專屬於您內嵌的項目。 每次您內嵌 Power BI 內容時，都必須為其建立一個新的內嵌權杖。 如需詳細資訊，包括要使用的 **accessLevel** ，請參閱 [Embed Token](/rest/api/power-bi/embedtoken) (內嵌權杖)。
+使用 JavaScript API，您就可以產生內嵌權杖。 內嵌權杖專屬於您內嵌的項目。 每次您內嵌 Power BI 內容時，都必須為其建立一個新的內嵌權杖。 如需詳細資訊，包括要使用的 **accessLevel**，請參閱 [Embed Token](/rest/api/power-bi/embedtoken) (內嵌權杖)。
 
 > [!IMPORTANT]
 > 因為內嵌權杖只適用於開發人員測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](./embedded-faq.md#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。

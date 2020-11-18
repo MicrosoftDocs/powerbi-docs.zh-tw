@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2d58fe71b7ceb27afe5d52a55ed57ae162622b06
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396579"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668158"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>資料流程限制與考量
 
@@ -111,3 +111,4 @@ ms.locfileid: "94396579"
 * [將資料流程儲存體設定為使用 Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [資料流程的進階功能](dataflows-premium-features.md)
 * [使用資料流程的 AI](dataflows-machine-learning-integration.md)
+* [資料流程最佳做法](dataflows-best-practices.md)

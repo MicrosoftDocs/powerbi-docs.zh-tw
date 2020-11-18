@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2020
+ms.date: 11/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: d84f6a4fcf7ff531b76b6e731f165aa6e0df764f
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638633"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512117"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>卓越中心內的 BI 方案架構
 
@@ -52,7 +52,7 @@ BI 平台可傳遞三種不同的模型類型：
 
 ### <a name="enterprise-models"></a>企業模型
 
-**企業模型**是由 IT 架構師所建置及維護。 有時候這種模型也稱為維度模型或資料超市。 通常，資料會作為維度和事實資料表儲存在關聯式格式中。 這些資料表會儲存合併自許多系統並經過清理和擴充的資料，且其代表用於報告和分析的權威來源。
+**企業模型** 是由 IT 架構師所建置及維護。 有時候這種模型也稱為維度模型或資料超市。 通常，資料會作為維度和事實資料表儲存在關聯式格式中。 這些資料表會儲存合併自許多系統並經過清理和擴充的資料，且其代表用於報告和分析的權威來源。
 
 企業模型可傳遞一致和單一的資料來源來用於報告和 BI。 這些模型只需要建置一次，並可作為企業標準共用。 治理原則可確保資料安全，因此會根據需求對敏感性資料集的存取 (例如客戶資訊或財務資訊) 進行限制。 這種模型採用確保一致性的命名慣例，因此可進一步建立資料的可信度和品質。
 
@@ -60,11 +60,11 @@ BI 平台可傳遞三種不同的模型類型：
 
 ### <a name="bi-semantic-models"></a>BI 語意模型
 
-**BI 語意模型**代表企業模型上的語意層。 這些模型由 BI 開發人員和商務使用者所建置及維護。 BI 開發人員會建立從企業模型取得來源資料的核心 BI 語意模型。 商務使用者可建立規模較小的獨立模型，或是使用部門或外部來源，延伸核心 BI 語意模型。 BI 語意模型通常會聚焦於單一主題領域，且通常會廣泛共用。
+**BI 語意模型** 代表企業模型上的語意層。 這些模型由 BI 開發人員和商務使用者所建置及維護。 BI 開發人員會建立從企業模型取得來源資料的核心 BI 語意模型。 商務使用者可建立規模較小的獨立模型，或是使用部門或外部來源，延伸核心 BI 語意模型。 BI 語意模型通常會聚焦於單一主題領域，且通常會廣泛共用。
 
 商務功能不單純是由資料啟用的，也是由描述概念、關係、規則和標準的 BI 語意模型所啟用。 透過這種方式，其可代表直覺且易於了解的結構，以定義資料關係並將商務規則作為計算封裝。 這些模型也可以強制施行細部資料權限，確保正確的人員能夠存取正確資料。 重要的是，這些模型可加速查詢效能，提供回應性極佳的互動分析，即使資料高達數 TB 也一樣。 與企業模型相似，BI 語意模型會採用命名慣例，確保一致性。
 
-在雲端 BI 平台中，BI 開發人員可將 BI 語意模型部署到 [Azure Analysis Service](/azure/analysis-services/) 或 [Power BI Premium 容量](../admin/service-premium-what-is.md#dedicated-capacities)。 若將其作為報告和分析層使用，則建議部署到 Power BI。 這些產品支援不同的儲存體模型，可供資料模型資料表快取資料或使用 [DirectQuery](directquery-model-guidance.md)，這是一種將查詢傳遞至基礎資料來源的技術。 當模型資料表代表大量資料，或需要傳遞近乎即時的結果時，DirectQuery 即為理想的儲存體模型。 您可合併兩個儲存體模式：[複合模型](composite-model-guidance.md)會在單一模型中合併使用不同儲存體模式的資料表。
+在雲端 BI 平台中，BI 開發人員可將 BI 語意模型部署到 [Azure Analysis Service](/azure/analysis-services/) 或 [Power BI Premium 容量](../admin/service-premium-what-is.md#reserved-capacities)。 若將其作為報告和分析層使用，則建議部署到 Power BI。 這些產品支援不同的儲存體模型，可供資料模型資料表快取資料或使用 [DirectQuery](directquery-model-guidance.md)，這是一種將查詢傳遞至基礎資料來源的技術。 當模型資料表代表大量資料，或需要傳遞近乎即時的結果時，DirectQuery 即為理想的儲存體模型。 您可合併兩個儲存體模式：[複合模型](composite-model-guidance.md)會在單一模型中合併使用不同儲存體模式的資料表。
 
 針對大量查詢的模型，您可使用 [Azure Load Balancer](/azure/load-balancer/load-balancer-overview) 來將查詢負載平均分散到模型複本。 其也可供調整應用程式大小，並建立高度可用的 BI 語意模型。
 
@@ -91,7 +91,7 @@ BI 平台的中心則是資料倉儲，資料倉儲會裝載企業模型。 這�
 
 ### <a name="business-rules-engine-framework"></a>商務規則引擎架構
 
-我們開發了一種**商務規則引擎** (BRE) 架構來分類任何可在資料倉儲層中實作的商務邏輯。 BRE 可代表許多事物，但在資料倉儲的內容中，其適用於在關聯式資料表中建立計算結果欄。 這些計算結果欄通常會以數學計算或使用條件陳述式的運算式來表示。
+我們開發了一種 **商務規則引擎** (BRE) 架構來分類任何可在資料倉儲層中實作的商務邏輯。 BRE 可代表許多事物，但在資料倉儲的內容中，其適用於在關聯式資料表中建立計算結果欄。 這些計算結果欄通常會以數學計算或使用條件陳述式的運算式來表示。
 
 其目的是要從核心 BI 程式碼分離商務邏輯。 傳統上，商務規則是硬式編碼在 SQL 預存程序中，因此經常會在需要變更商務時導致需要更多的工作來進行維護。 在 BRE 中，商務規則會定義一次，並在套用到不同的資料倉儲實體時使用多次。 若計算邏輯需要變更，其只需要在一個位置更新，而無須在多個預存程序中更新。 此外還有另外一項優點：BRE 架構可為實作的商務邏輯帶來透明度和可見度，並可透過建立自我更新文件的一組報表來公開。
 
@@ -115,7 +115,7 @@ BI 平台的中心則是資料倉儲，資料倉儲會裝載企業模型。 這�
 
 ### <a name="ingestion-framework"></a>擷取架構
 
-我們開發了**擷取架構**來作為一組設定資料表和程序。 其支援使用資料驅動方式快速取得大量資料，且僅需要極少的程式碼。 簡單而言，架構可簡化取得資料以載入資料倉儲的程序。
+我們開發了 **擷取架構** 來作為一組設定資料表和程序。 其支援使用資料驅動方式快速取得大量資料，且僅需要極少的程式碼。 簡單而言，架構可簡化取得資料以載入資料倉儲的程序。
 
 架構相依於儲存資料來源和資料目的地相關資訊 (例如來源類型、伺服器、資料庫、結構描述和資料表相關詳細資料) 的設定資料表。 這種設計方式表示無需開發特定 ADF 管線或 [SQL Server Integration Services (SSIS)](/sql/integration-services/sql-server-integration-services) 套件。 我們會改為以所選語言來撰寫的程序，以建立動態產生並在執行階段執行的 ADF 管線。 因此，資料擷取即成為可輕鬆作業化的設定練習。 傳統上，建立硬式編碼的 ADF 或 SSIS 套件需要大量的開發資源。
 
@@ -123,7 +123,7 @@ BI 平台的中心則是資料倉儲，資料倉儲會裝載企業模型。 這�
 
 ### <a name="orchestration-framework"></a>協調流程架構
 
-我們開發了**協調流程架構**來作業化和協調資料管線。 其使用相依於一組設定資料表的資料驅動設計。 這些資料表可儲存描述管線相依性的中繼資料，以及如何將來源資料對應到目標資料結構。 投資在開發這種調適性的架構顯然值回票價；現在已不再需要針對每個資料移動進行硬式編碼。
+我們開發了 **協調流程架構** 來作業化和協調資料管線。 其使用相依於一組設定資料表的資料驅動設計。 這些資料表可儲存描述管線相依性的中繼資料，以及如何將來源資料對應到目標資料結構。 投資在開發這種調適性的架構顯然值回票價；現在已不再需要針對每個資料移動進行硬式編碼。
 
 ## <a name="data-storage"></a>資料儲存體
 
@@ -147,9 +147,9 @@ ADLS Gen2 提供兩個世界的最佳選項：其是 BLOB 儲存體，也是高�
 
 一般而言，資料取用模式會因角色而不同：
 
-- **資料分析師**會直接連線到核心 BI 語意模型。 當核心 BI 語意模型包含所有其需要的資料和邏輯時，資料分析師會使用即時連線來建立 Power BI 報表和儀表板。 當其需要使用部門資料延伸模型時，資料分析師會建立 Power BI [複合模型](composite-model-guidance.md)。 若需要試算表樣式的報表，資料分析師即會根據核心 BI 語意模型或部門 BI 語意模型，使用 Excel 產生報表。
-- **BI 開發人員**和作業報表作者會直接連線到企業模型。 這些開發人員會使用 Power BI Desktop 建立即時連線分析報表。 開發人員也可將作業類型的 BI 報表作為 Power BI 編頁報表編寫、使用 T-SQL 撰寫原生 SQL 查詢來存取 Azure Synapse Analytics 企業模型的資料，或是使用 DAX 或 MDX 存取 Power BI 語意模型的資料。
-- **資料科學家**會直接連線到資料湖中的資料。 資料科學家會使用 Azure Databricks 和 Python notebook 來開發 ML 模型，這些模型通常是實驗性的，且需要特殊技術才能用於生產用途。
+- **資料分析師** 會直接連線到核心 BI 語意模型。 當核心 BI 語意模型包含所有其需要的資料和邏輯時，資料分析師會使用即時連線來建立 Power BI 報表和儀表板。 當其需要使用部門資料延伸模型時，資料分析師會建立 Power BI [複合模型](composite-model-guidance.md)。 若需要試算表樣式的報表，資料分析師即會根據核心 BI 語意模型或部門 BI 語意模型，使用 Excel 產生報表。
+- **BI 開發人員** 和作業報表作者會直接連線到企業模型。 這些開發人員會使用 Power BI Desktop 建立即時連線分析報表。 開發人員也可將作業類型的 BI 報表作為 Power BI 編頁報表編寫、使用 T-SQL 撰寫原生 SQL 查詢來存取 Azure Synapse Analytics 企業模型的資料，或是使用 DAX 或 MDX 存取 Power BI 語意模型的資料。
+- **資料科學家** 會直接連線到資料湖中的資料。 資料科學家會使用 Azure Databricks 和 Python notebook 來開發 ML 模型，這些模型通常是實驗性的，且需要特殊技術才能用於生產用途。
 
 :::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="圖片顯示搭配 Power BI、Excel 和 Azure Machine Learning 使用 Azure Synapse Analytics。":::
 
