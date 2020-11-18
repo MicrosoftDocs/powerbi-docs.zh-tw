@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 10b395cc14bf0aac97ead4b86c010109cfbc3703
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637658"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669193"
 ---
 # <a name="creating-a-dataflow"></a>建立資料流程
-**資料流程**是在 Power BI 服務中工作區內建立及管理的「實體」(類似於資料表的實體) 集合。 **實體/資料表**是一組用來儲存資料的欄位，類似於資料庫中的資料表。 您可直接從建立資料流程所在的工作區，在資料流程中新增及編輯實體/資料表，以及管理資料重新整理排程。
+**資料流程** 是在 Power BI 服務中工作區內建立及管理的「實體」(類似於資料表的實體) 集合。 **實體/資料表** 是一組用來儲存資料的欄位，類似於資料庫中的資料表。 您可直接從建立資料流程所在的工作區，在資料流程中新增及編輯實體/資料表，以及管理資料重新整理排程。
 
-若要建立資料流程，請在瀏覽器中啟動 Power BI 服務，然後從左側導覽窗格選取一個**工作區** (Power BI 服務的 *my-workspace* 中無法使用資料流程)，如下列畫面所示。 您也可以建立新的工作區，以在其中建立新的資料流程。
+若要建立資料流程，請在瀏覽器中啟動 Power BI 服務，然後從左側導覽窗格選取一個 **工作區** (Power BI 服務的 *my-workspace* 中無法使用資料流程)，如下列畫面所示。 您也可以建立新的工作區，以在其中建立新的資料流程。
 ![開始資料流程](media/dataflows-create/create-options.png)
 
 有多種方式可供建立或在新的資料流程上進行建置：
@@ -64,12 +64,12 @@ ms.locfileid: "91637658"
 ### <a name="how-to-create-computed-entities"></a>如何建立計算實體
 
 一旦您具有含實體清單的資料流程之後，就可在那些實體上執行計算。
-在 Power BI 服務的資料流程製作工具中，選取 [編輯實體]****，然後以滑鼠右鍵按一下您想要用來作為計算實體基礎且要在其上執行計算的實體。 在操作功能表中，選擇 [參考]****。
-如果是有資格作為計算實體的實體，就必須勾選 [啟用負載]**** 選項，如下圖所示。 以滑鼠右鍵按一下實體，以顯示此操作功能表。
+在 Power BI 服務的資料流程製作工具中，選取 [編輯實體]，然後以滑鼠右鍵按一下您想要用來作為計算實體基礎且要在其上執行計算的實體。 在操作功能表中，選擇 [參考]。
+如果是有資格作為計算實體的實體，就必須勾選 [啟用負載] 選項，如下圖所示。 以滑鼠右鍵按一下實體，以顯示此操作功能表。
 
 ![建立計算實體步驟 1](media/dataflows-create/computed-entity-step-1.png)
 
-藉由選取 [啟用負載]****，您會建立新實體，而其來源為參考實體。 此圖示會變更，並顯示**計算**圖示，如下圖所示。
+藉由選取 [啟用負載]，您會建立新實體，而其來源為參考實體。 此圖示會變更，並顯示 **計算** 圖示，如下圖所示。
 
 ![建立計算實體步驟 2](media/dataflows-create/computed-entity-step-2.png)
 
@@ -133,3 +133,4 @@ ms.locfileid: "91637658"
 * [資料流程的進階功能](dataflows-premium-features.md)
 * [使用資料流程的 AI](dataflows-machine-learning-integration.md)
 * [資料流程限制與考量](dataflows-features-limitations.md)
+* [資料流程最佳做法](dataflows-best-practices.md)

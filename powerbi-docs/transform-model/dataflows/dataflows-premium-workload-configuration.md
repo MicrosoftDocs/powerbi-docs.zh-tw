@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/13/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: e5d2e1f65ef326ac12f15ff14c8d07c22c2950fe
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397246"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94667974"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>設定 Power BI Premium 的資料流程工作負載
 
@@ -89,7 +89,7 @@ Power BI Premium 工作負載結合前端與後端核心，在各種不同工作
 
 回到我們的比喻，根據菜單種類與餐點複雜度的不同，在廚房中擁有較少名但更專心的廚師，可讓您更快速地準備餐點。 此處的取捨是廚師較少，但有更多時間專心準備餐點。 同樣地，將容器大小量值增加到 1200-1500 MB，表示較少但較複雜的 ETL 作業 (例如彙總、聯結、樞紐、資料列或資料行操作等活動) 能夠提升效能，因為我們為每個容器提供更多的記憶體，但在這種情況下，則會減少容器的數目。 正如其比喻所示，太多人點餐可能會使廚房出餐變慢，您可用這種方式來思考容器大小。當需要複雜的實體作業來完成工作，且您願意犧牲效能進行平行處理 (因為增加此資源會將記憶體分割給較少的容器) 時，就請這麼想。
 
-總而言之，您會希望根據使用中的查詢，將容器大小最佳化。 例如，將資料從來源載入至實體，並不需要提取資料並執行任何作業，只是將資料載入至儲存體而已。 您希望在這種情況下，盡可能使用更多的平行處理，因為您想要增加負載與重新整理作業的速度。 相反地，當新增更多轉換作業 (複雜的篩選、聯結、彙總) 時，記憶體需求可能會更高，因為我們可能需要在記憶體中處理一些轉換作業。 請注意，如果正在容量上執行其他資料流程作業，這麼做可能會使這些作業變慢，並強制其排入佇列，並在執行位置等候。 為此， **Power BI Premium 容量計量** 應用程式可為監視及管理資料流程、重新整理效能，以及整體容量提供協助。 您可以使用 [Power BI Premium 容量計量](../../admin/service-premium-capacity-optimize.md#what-content-is-using-up-my-capacity)應用程式依容量進行篩選，並檢閱工作區內容的效能計量。 您可檢閱儲存在 Premium 容量中所有內容在過去七天每小時的效能計量和資源使用狀況。所以，建議使用這個應用程式，開始調查資料流程效能。
+總而言之，您會希望根據使用中的查詢，將容器大小最佳化。 例如，將資料從來源載入至實體，並不需要提取資料並執行任何作業，只是將資料載入至儲存體而已。 您希望在這種情況下，盡可能使用更多的平行處理，因為您想要增加負載與重新整理作業的速度。 相反地，當新增更多轉換作業 (複雜的篩選、聯結、彙總) 時，記憶體需求可能會更高，因為我們可能需要在記憶體中處理一些轉換作業。 請注意，如果正在容量上執行其他資料流程作業，這麼做可能會使這些作業變慢，並強制其排入佇列，並在執行位置等候。 為此，**Power BI Premium 容量計量** 應用程式可為監視及管理資料流程、重新整理效能，以及整體容量提供協助。 您可以使用 [Power BI Premium 容量計量](../../admin/service-premium-capacity-optimize.md#what-content-is-using-up-my-capacity)應用程式依容量進行篩選，並檢閱工作區內容的效能計量。 您可檢閱儲存在 Premium 容量中所有內容在過去七天每小時的效能計量和資源使用狀況。所以，建議使用這個應用程式，開始調查資料流程效能。
 
 #### <a name="enhanced-compute-engine---an-opportunity-to-improve-performance"></a>增強型計算引擎 - 改善效能的機會
 

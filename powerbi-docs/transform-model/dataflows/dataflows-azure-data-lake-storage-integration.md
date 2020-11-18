@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 11/13/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: eb67336868bb3eb3cf4527660330219573b1553d
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: f38908645cdf7846d43f97485c7a2d3e9e2e9b7b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637586"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668089"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>將資料流程儲存體設定為使用 Azure Data Lake Gen 2 
 
@@ -50,7 +50,7 @@ ms.locfileid: "91637586"
 
 ## <a name="disabling-azure-data-lake-gen-2"></a>停用 Azure Data Lake Gen 2
 
-在**管理入口網站**中的 [資料流程] 下方，您可停用使用者存取此功能，也可以不允許工作區系統管理員帶入自己的 Azure 儲存體。
+在 **管理入口網站** 中的 [資料流程] 下方，您可停用使用者存取此功能，也可以不允許工作區系統管理員帶入自己的 Azure 儲存體。
 
 ## <a name="next-steps"></a>後續步驟
 下列文章提供資料流程和 Power BI 的詳細資訊：
@@ -61,3 +61,4 @@ ms.locfileid: "91637586"
 * [資料流程的進階功能](dataflows-premium-features.md)
 * [使用資料流程的 AI](dataflows-machine-learning-integration.md)
 * [資料流程限制與考量](dataflows-features-limitations.md)
+* [資料流程最佳做法](dataflows-best-practices.md)

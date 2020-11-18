@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 23ead6afd508cc0e61ae29d65926372561a6375a
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: d8315652883f644d5440c25e3203fdf004bac51c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396280"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669101"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>資料流程和自助資料準備簡介
 
@@ -49,6 +49,7 @@ ms.locfileid: "94396280"
 * [資料流程的進階功能](dataflows-premium-features.md)
 * [使用資料流程的 AI](dataflows-machine-learning-integration.md)
 * [資料流程限制與考量](dataflows-features-limitations.md)
+* [資料流程最佳做法](dataflows-best-practices.md)
 
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：

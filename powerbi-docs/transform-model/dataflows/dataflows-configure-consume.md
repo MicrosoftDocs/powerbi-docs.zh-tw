@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 82d5981d885f97d48dec180e692a4a44c0bbe781
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396373"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668250"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>設定及取用資料流程
 
@@ -106,3 +106,4 @@ ms.locfileid: "94396373"
 * [資料流程的進階功能](dataflows-premium-features.md)
 * [使用資料流程的 AI](dataflows-machine-learning-integration.md)
 * [資料流程限制與考量](dataflows-features-limitations.md)
+* [資料流程最佳做法](dataflows-best-practices.md)

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfb9a263b0e8fa1555cab9f0d2a0915c367fbd4c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2cd345baff9b03573773599f6026f0be48fdcab2
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235718"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718860"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>在 Power BI 服務中使用 R 套件建立視覺效果
 您可以使用功能強大的 [R 程式設計語言](https://www.r-project.org/)在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 R 套件 (有更多套件一直受到支援)，有些套件則不具支援。
@@ -23,7 +23,7 @@ ms.locfileid: "85235718"
 下列章節提供按照字母順序的表格，指出 Power BI 支援與不支援哪些 R 套件。 如需 Power BI 中的 R 詳細資訊，請參閱 [R 視覺效果](../visuals/service-r-visuals.md)文章。
 
 ## <a name="request-support-for-a-new-r-package"></a>要求新 R 套件的支援
-下節 (標題為＜支援的套件＞) 可以找到 **Power BI 服務**支援的 R 套件。 如果您想要求支援該清單中找不到的 R 套件，請將您的要求提交至 [Power BI Ideas](https://ideas.powerbi.com) \(英文\)。
+下節 (標題為＜支援的套件＞) 可以找到 **Power BI 服務** 支援的 R 套件。 如果您想要求支援該清單中找不到的 R 套件，請將您的要求提交至 [Power BI Ideas](https://ideas.powerbi.com) \(英文\)。
 
 ## <a name="requirements-and-limitations-of-r-packages"></a>R 套件的需求和限制
 有少數 R 套件的需求和限制：
@@ -39,7 +39,7 @@ ms.locfileid: "85235718"
 * 包含新 R 套件的核准程序具有樹狀結構的相依性；無法支援需要在服務中安裝的一些相依性。
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>Power BI 中支援的 R 套件
-下表顯示 Power BI 服務中**支援**的 R 套件。
+下表顯示 Power BI 服務中 **支援** 的 R 套件。
 
 
 |        套件        |   版本   |                                   連結                                   |
@@ -192,7 +192,6 @@ ms.locfileid: "85235718"
 |curl|3.2|https://cran.r-project.org/web/packages/curl/index.html|
 |CVST|0.2-1|https://cran.r-project.org/web/packages/CVST/index.html|
 |cvTools|0.3.2|https://cran.r-project.org/web/packages/cvTools/index.html|
-|d3heatmap|0.6.1.2|https://cran.r-project.org/web/packages/d3heatmap/index.html|
 |d3Network|0.5.2.1|https://cran.r-project.org/web/packages/d3Network/index.html|
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
@@ -976,7 +975,7 @@ ms.locfileid: "85235718"
 
 
 ## <a name="r-scripts-that-are-not-supported-in-power-bi"></a>Power BI 中不支援的 R 指令碼
-下表顯示 Power BI 服務中**不支援**的 R 套件。
+下表顯示 Power BI 服務中 **不支援** 的 R 套件。
 
 | 套件 | 要求日期 | 原因 |
 | --- | --- | --- |

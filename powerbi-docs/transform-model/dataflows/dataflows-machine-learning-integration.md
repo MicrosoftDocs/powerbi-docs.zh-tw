@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 703e87847f2f6dfb24040cc6532052b17d39086c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397499"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668526"
 ---
 # <a name="ai-with-dataflows"></a>使用資料流程的 AI
 
@@ -112,7 +112,7 @@ ms.locfileid: "94397499"
 
 Power BI 中的 AutoML 可讓資料分析師單純使用 Power BI 的技能，透過簡化體驗來使用資料流程建立機器學習模型。 Power BI 會將建立 ML 模型所需的大部分資料科學自動化。 其透過邊界來確保產生的模型具有良好品質，並讓您了解 ML 模型建立所用的程序。
 
-AutoML 支援建立資料流程的 **二元預測** 、 **分類** 和 **迴歸** 模型。 上述是監督式機器學習技術的類型，這表示其會從過去觀察的已知結果中學習，以預測其他觀察的結果。 您會使用一組含已知結果 **標示** 的記錄，作為定型 AutoML 模型的輸入資料集。
+AutoML 支援建立資料流程的 **二元預測**、**分類** 和 **迴歸** 模型。 上述是監督式機器學習技術的類型，這表示其會從過去觀察的已知結果中學習，以預測其他觀察的結果。 您會使用一組含已知結果 **標示** 的記錄，作為定型 AutoML 模型的輸入資料集。
 
 Power BI 中的 AutoML 會整合 [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml) 的[自動化 ML](/azure/machine-learning/service/concept-automated-ml)，以建立您的 ML 模型。 不過，您不需要 Azure 訂用帳戶，就能在 Power BI 中使用 AutoML。 ML 模型的定型和裝載程序完全由 Power BI 服務來管理。
 
@@ -200,7 +200,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 報表中用來描述模型效能的圖表和量值是依據模型類型而定。 下列各節將描述這些效能圖表和量值。
 
-報表中其他頁面可能會從資料科學角度來描述模型的相關統計量值。 例如， **二元預測** 報表包含模型的增益圖和 ROC 曲線。
+報表中其他頁面可能會從資料科學角度來描述模型的相關統計量值。 例如，**二元預測** 報表包含模型的增益圖和 ROC 曲線。
 
 這些報表也會包含 [定型詳細資料]  頁面，其中含有模型定型方式的描述，以及描述每個反覆運算執行下模型效能的圖表。
 
@@ -220,7 +220,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 若要套用 ML 模型，您必須指定要對其套用的實體名稱，以及要針對模型輸出新增至此實體的資料行前置詞。 資料行名稱的預設前置詞是模型名稱。 _Apply_ 函式可能包含模型類型特定的其他參數。
 
-套用 ML 模型會建立兩個新的資料流程實體，其中包含輸出實體中所評分每個資料列的預測和個別說明。 例如，如果您將 _PurchaseIntent_ 模型套用至 _OnlineShoppers_ 實體，則輸出將會產生 **OnlineShoppers enriched PurchaseIntent** 和 **OnlineShoppers enriched PurchaseIntent explanations** 實體。 針對擴充實體中的每個資料列， **Explanations** 會根據輸入功能細分成擴充說明實體中的多個資料列。 **ExplanationIndex** 有助於將擴充說明實體中資料列對應至擴充實體中資料列。
+套用 ML 模型會建立兩個新的資料流程實體，其中包含輸出實體中所評分每個資料列的預測和個別說明。 例如，如果您將 _PurchaseIntent_ 模型套用至 _OnlineShoppers_ 實體，則輸出將會產生 **OnlineShoppers enriched PurchaseIntent** 和 **OnlineShoppers enriched PurchaseIntent explanations** 實體。 針對擴充實體中的每個資料列，**Explanations** 會根據輸入功能細分成擴充說明實體中的多個資料列。 **ExplanationIndex** 有助於將擴充說明實體中資料列對應至擴充實體中資料列。
 
 ![查詢編輯器](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
@@ -234,7 +234,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 ### <a name="binary-prediction-models"></a>二元預測模型
 
-二元預測模型的正式名稱為 **二元分類模型** ，可用來將資料集分類成兩個群組。 這些模型是用來預測可能具有二元結果的事件。 例如，銷售商機是否轉換、帳戶是否會變換、發票是否能準時支付、交易是否為詐騙等。
+二元預測模型的正式名稱為 **二元分類模型**，可用來將資料集分類成兩個群組。 這些模型是用來預測可能具有二元結果的事件。 例如，銷售商機是否轉換、帳戶是否會變換、發票是否能準時支付、交易是否為詐騙等。
 
 二元預測模型的輸出是機率分數，可識別將達成目標結果的可能性。
 
@@ -272,7 +272,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 ![預測輸入](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-當您套用二元預測模型時，系統會將四個輸出資料行新增至擴充的輸出實體： **Outcome** 、 **PredictionScore** 、 **PredictionExplanation** 和 **ExplanationIndex** 。 實體中的資料行名稱會使用套用模型時所指定前置詞。
+當您套用二元預測模型時，系統會將四個輸出資料行新增至擴充的輸出實體：**Outcome**、**PredictionScore**、**PredictionExplanation** 和 **ExplanationIndex**。 實體中的資料行名稱會使用套用模型時所指定前置詞。
 
 **PredictionScore** 是機率百分比，可識別將達成目標結果的可能性。
 
@@ -314,7 +314,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 若要套用分類 ML 模型，您必須使用輸入資料和輸出資料行名稱前置詞來指定實體。
 
-當您套用分類模型時，系統會將五個輸出資料行新增至擴充的輸出實體： **ClassificationScore** 、 **ClassificationResult** 、 **ClassificationExplanation** 、 **ClassProbabilities** 和 **ExplanationIndex** 。 實體中的資料行名稱會使用套用模型時所指定前置詞。
+當您套用分類模型時，系統會將五個輸出資料行新增至擴充的輸出實體：**ClassificationScore**、**ClassificationResult**、**ClassificationExplanation**、**ClassProbabilities** 和 **ExplanationIndex**。 實體中的資料行名稱會使用套用模型時所指定前置詞。
 
 **ClassProbabilities** 資料行包含每個可能類別的記錄機率分數清單。
 
@@ -358,7 +358,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 ![套用迴歸](media/service-machine-learning-automated/automated-machine-learning-power-bi-19.png)
 
-當您套用迴歸模型時，系統會將三個輸出資料行新增至擴充的輸出實體： **RegressionResult** 、 **RegressionExplanation** 和 **ExplanationIndex** 。 實體中的資料行名稱會使用套用模型時所指定前置詞。
+當您套用迴歸模型時，系統會將三個輸出資料行新增至擴充的輸出實體：**RegressionResult**、**RegressionExplanation** 和 **ExplanationIndex**。 實體中的資料行名稱會使用套用模型時所指定前置詞。
 
 **RegressionExplanation** 資料行包含的記錄預測值是以輸入欄位為依據。 **RegressionExplanation** 資料行包含說明，以及輸入功能對 **RegressionResult** 的特定影響。
 
@@ -466,3 +466,4 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 * [將資料流程儲存體設定為使用 Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [資料流程的進階功能](dataflows-premium-features.md)
 * [資料流程限制與考量](dataflows-features-limitations.md)
+* [資料流程最佳做法](dataflows-best-practices.md)
