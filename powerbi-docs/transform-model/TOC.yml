@@ -99,6 +99,8 @@
           items:
             - name: 建立及使用資料流程
               href: ./dataflows/dataflows-create.md
+            - name: 資料流程最佳做法
+              href: ./dataflows/dataflows-best-practices.md
             - name: 在 Power BI 中使用資料流程的 DirectQuery 功能 (預覽)
               href: ./dataflows/dataflows-configure-consume.md
             - name: 將增強型計算引擎與資料流程搭配使用
