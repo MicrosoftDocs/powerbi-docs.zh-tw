@@ -99,8 +99,16 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 錯誤：在此 Excel 活頁簿中找不到任何資料
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-        - name: Power Automate 與 Power BI
-          href: service-flow-integration.md
+        - name: Power BI 與 Power Automate
+          items:
+            - name: 將資料警示與 Power Automate 整合
+              href: service-flow-integration.md
+            - name: 使用 Power Automate 匯出編頁報表
+              href: service-automate-paginated-integration.md
+            - name: 將編頁報表儲存到 OneDrive 或 SharePoint Online
+              href: service-automate-paginated-onedrive-sharepoint.md
+            - name: 從 Excel Online 或 SharePoint 清單匯出編頁報表
+              href: service-automate-paginated-excel-sharepoint-list.md
         - name: 使用協力廠商應用程式
           href: service-power-bi-get-started-third-party-apps.md
         - name: 組織的內容套件
