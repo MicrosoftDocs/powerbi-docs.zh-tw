@@ -8,14 +8,14 @@ ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
-ms.custom: subject-armqs
+ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 0f7a6c72a393aa398996f7b4e818d6288b746583
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: 42dfe1a2032c7afe9eff354829fcc564e69e0d36
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025948"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718929"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中建立 Power BI Embedded 容量
 
@@ -27,11 +27,11 @@ ms.locfileid: "92025948"
 
 * **Azure 訂用帳戶：** 請瀏覽 [Azure 免費試用版](https://azure.microsoft.com/free/)以建立帳戶。
 
-* **Azure Active Directory：** 訂用帳戶必須與 Azure Active Directory (Azure AD) 租用戶建立關聯。 此外，您必須使用該租用戶中的帳戶登入 Azure。 不支援 Microsoft 帳戶。 若要深入了解，請參閱[驗證和使用者權限](/azure/analysis-services/analysis-services-manage-users)。
+* **Azure Active Directory：** 訂用帳戶必須與 Azure Active Directory (Azure AD) 租用戶建立關聯。 此外，**_您必須使用該租用戶中的帳戶登入 Azure_* _。 不支援 Microsoft 帳戶。 若要深入了解，請參閱[驗證和使用者權限](/azure/analysis-services/analysis-services-manage-users)。
 
-* **Power BI 租用戶：** Azure AD 租用戶中至少有一個帳戶必須已註冊 Power BI。
+_ **Power BI 租用戶：** Azure AD 租用戶中至少有一個帳戶必須已註冊 Power BI。
 
-* **資源群組：** 使用您已擁有的資源群組或[建立新的資源群組](/azure/azure-resource-manager/resource-group-overview)。
+* **資源群組：** 使用您已擁有的資源群組或 [建立新的資源群組](/azure/azure-resource-manager/resource-group-overview)。
 
 ## <a name="create-a-capacity"></a>建立容量
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 11/13/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 624da63259dcb09d0ebbb35079ef0d8e1340b04c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256787"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668503"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>讓使用者個人化報表中的視覺效果
 
@@ -60,7 +60,7 @@ ms.locfileid: "92256787"
 
 請使用 [Tabular Editor](https://tabulareditor.com/) 建立檢視方塊，您可以從下列位置下載：下載 Tabular Editor
 
-在您安裝 **Tabular Editor** 之後，請在 **Power BI Desktop**  中開啟報表，並從功能區的 [外部工具] 索引標籤中啟動 **Tabular Editor** ，如下圖所示。
+在您安裝 **Tabular Editor** 之後，請在 **Power BI Desktop**  中開啟報表，並從功能區的 [外部工具] 索引標籤中啟動 **Tabular Editor**，如下圖所示。
 
 ![[外部工具] 功能區中的 Tabular Editor](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
 
@@ -96,23 +96,23 @@ ms.locfileid: "92256787"
 
 ## <a name="enable-personalization-in-a-report"></a>在報表中啟用個人化
 
-您可以在 Power BI Desktop 或 Power BI 服務中啟用此功能。
+您可以在 Power BI Desktop 或 Power BI 服務中啟用此功能。 您也可以在內嵌報表中加以啟用。
 
 ### <a name="in-power-bi-desktop"></a>在 Power BI Desktop 中
 
 若要在 Power BI Desktop 中啟用此功能，請前往 [檔案] > [選項及設定] > [選項] > [目前檔案] > [報表設定]。 確認已開啟 [個人化視覺效果]。
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="個人化視覺效果":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="在報表中啟用個人化":::
 
 ### <a name="in-the-power-bi-service"></a>在 Power BI 服務中
 
 若要改在 Power BI 服務中啟用此功能，請前往您報表的 [設定]。
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="個人化視覺效果":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Power BI 服務中的報表設定":::
 
 開啟 [個人化視覺效果] > [儲存]。
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="個人化視覺效果":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="在服務中開啟個人化視覺效果":::
 
 ## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>在頁面或視覺效果層級開啟或關閉此功能
 
@@ -122,7 +122,7 @@ ms.locfileid: "92256787"
 
 選取頁面索引標籤 > 在 [視覺效果] 窗格中選取 [格式]。
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="個人化視覺效果":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="針對頁面選取 [個人化視覺效果]。":::
  
 滑動 [個人化視覺效果] >  [開啟] 或 [關閉]。
 
@@ -130,7 +130,7 @@ ms.locfileid: "92256787"
 
 選取該視覺效果 > 選取 [視覺效果] 窗格中的 [格式] > 展開 [視覺效果標頭]。
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="個人化視覺效果":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="選取視覺效果標頭":::
  
 滑動 [個人化視覺效果] >  [開啟] 或 [關閉]。
 
