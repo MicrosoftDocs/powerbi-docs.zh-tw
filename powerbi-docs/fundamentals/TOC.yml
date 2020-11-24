@@ -39,6 +39,10 @@
               href: service-self-service-purchase-help.md
             - name: 取得註冊 Power BI 的協助
               href: service-self-service-sign-up-help.md
+        - name: 安全性
+          items:
+            - name: 安全性基準
+              href: security-baseline.md
     - name: 操作指南
       items:
         - name: 取得 Power BI Desktop
