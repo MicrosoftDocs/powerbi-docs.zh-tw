@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/13/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9331fe3e207162db0215b62aa89b04f2e4be3d95
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916145"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512692"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>攜帶您自己的加密金鑰以用於 Power BI
 
@@ -23,6 +23,9 @@ Power BI 會加密「待用」  與「處理中」  的資料。 根據預設，
 ## <a name="why-use-byok"></a>為何要使用 BYOK？
 
 BYOK 可更輕鬆地滿足透過雲端服務提供者 (在此案例中為 Microsoft) 指定金鑰排列的合規性需求。 使用 BYOK，您可以在應用程式層級提供並控制待用 Power BI 資料的加密金鑰。 如此一來，如果您決定結束服務，您可以控制並撤銷組織的金鑰。 撤銷金鑰後，服務在 30 分鐘內便會無法讀取資料。
+
+> [!IMPORTANT]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Preview Gen2 容量在預覽期間並 **無法** 支援 BYOK。
 
 ## <a name="data-source-and-storage-considerations"></a>資料來源和儲存體考量
 
@@ -202,3 +205,14 @@ Power BI 也提供其他的 Cmdlet 以協助您管理租用戶中的 BYOK：
 * [在 SharePoint Online 中嵌入報表網頁組件](../collaborate-share/service-embed-report-spo.md)
 
 * [從 Power BI 發佈至 Web](../collaborate-share/service-publish-to-web.md)
+
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

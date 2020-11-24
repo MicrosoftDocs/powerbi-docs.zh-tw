@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: b74c381bfddc638c1371d571492eedfc7cf82a65
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 50c10343487765f4f42c895ba605618b852415fd
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916398"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512232"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 計量應用程式
 
@@ -31,6 +31,8 @@ ms.locfileid: "92916398"
 > [!IMPORTANT]
 > 如果 Power BI Premium 容量遇到高資源使用量，因而發生效能或可靠性問題，您可收到通知電子郵件以找出問題並加以解決。 這是對超載容量進行疑難排解的簡單方式。 如需詳細資訊，請參閱[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
 
+> [!NOTE]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 特別是，其能大幅減少系統管理員必須監視以確保效能及使用者體驗的計量 (僅限 CPU)。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 
 ## <a name="premium-capacity-health-center"></a>Premium 容量健康情況中心
@@ -69,7 +71,7 @@ ms.locfileid: "92916398"
 
 ### <a name="scenario-one---current-load-is-too-high"></a>案例 1 - 目前的負載太高 
 
-若要判斷容量是否有足夠的記憶體可完成工作負載，請參閱頁面上的第一個視覺效果： **A：耗用記憶體百分比** ，會顯示目前處理中的資料集正在耗用，因此無法收回的記憶體。
+若要判斷容量是否有足夠的記憶體可完成工作負載，請參閱頁面上的第一個視覺效果：**A：耗用記憶體百分比**，會顯示目前處理中的資料集正在耗用，因此無法收回的記憶體。
 
 警示閾值是一條紅色虛線，會標示耗用 90% 記憶體容量的事件。
 
@@ -81,9 +83,9 @@ ms.locfileid: "92916398"
 
 當您看到這類情況時，應仔細查看頁面上的其他圖表，以更正確地判斷為何會耗用這麼多記憶體，以及如何進行負載平衡或最佳化，或視需要相應增加容量。 
 
-頁面上的第二個視覺效果， **B：每小時載入的作用中資料集** ，會顯示記憶體中載入的最高資料集數目 (以每小時的貯體數計算)。 
+頁面上的第二個視覺效果，**B：每小時載入的作用中資料集**，會顯示記憶體中載入的最高資料集數目 (以每小時的貯體數計算)。 
 
-第三個視覺效果， **C：資料集在記憶體中的原因** ，是一個資料表，其中會依工作區名稱、資料集名稱、記憶體中資料集未壓縮大小來列出資料集，並說明將其載入至記憶體的原因 (例如，因為重新整理或查詢，或兩者)。
+第三個視覺效果，**C：資料集在記憶體中的原因**，是一個資料表，其中會依工作區名稱、資料集名稱、記憶體中資料集未壓縮大小來列出資料集，並說明將其載入至記憶體的原因 (例如，因為重新整理或查詢，或兩者)。
 
 #### <a name="diagnosing-scenario-one"></a>診斷案例 1
 
@@ -95,7 +97,7 @@ ms.locfileid: "92916398"
 
     ![圖表 a，耗用記憶體百分比](media/service-premium-metrics-app/premium-metrics-app-04.png)
 
-    **b.** 標題為 *B：每小時載入的作用中資料集* ，會依每小時貯體數顯示記憶體中載入的最高唯一資料集數目。 選取視覺效果中的橫條，可交叉篩選資料集出現在記憶體視覺效果中的原因。  
+    **b.** 標題為 *B：每小時載入的作用中資料集*，會依每小時貯體數顯示記憶體中載入的最高唯一資料集數目。 選取視覺效果中的橫條，可交叉篩選資料集出現在記憶體視覺效果中的原因。  
 
     ![圖表 b，每小時耗用的記憶體](media/service-premium-metrics-app/premium-metrics-app-05.png)     
 
@@ -164,7 +166,7 @@ ms.locfileid: "92916398"
 * 最上方標題為 **A：較長等候時間** 的資料表會列出含有等候查詢的資料集。 
 * **B：每小時較長等候時間分佈** 會顯示等候時間較長的分佈。 
 * 標題為 **C：每小時長時間執行查詢計數** 的圖表，會顯示依每小時的貯體分割執行的長時間執行查詢計數。
-* 最後一個視覺效果，資料表 **D：長時間執行的查詢** ，會列出長時間執行的查詢和其統計資料。
+* 最後一個視覺效果，資料表 **D：長時間執行的查詢**，會列出長時間執行的查詢和其統計資料。
 
 ![查詢等候詳細資料頁面](media/service-premium-metrics-app/premium-metrics-app-10.png)
 
@@ -180,11 +182,11 @@ ms.locfileid: "92916398"
 
 ![較長等候時間分佈](media/service-premium-metrics-app/premium-metrics-app-12.png)
 
-當您按一下較長等候時間的資料行時， **圖表 C** 會進行篩選，以顯示在這段時間內長時間執行查詢的計數，如下圖所示：
+當您按一下較長等候時間的資料行時，**圖表 C** 會進行篩選，以顯示在這段時間內長時間執行查詢的計數，如下圖所示：
 
 ![每小時長時間查詢計數](media/service-premium-metrics-app/premium-metrics-app-13.png)
 
-此外，也會篩選 **圖表 D** ，以顯示在選取的時段內長時間執行的查詢。
+此外，也會篩選 **圖表 D**，以顯示在選取的時段內長時間執行的查詢。
 
 ![長時間執行的查詢](media/service-premium-metrics-app/premium-metrics-app-14.png)
 
@@ -213,11 +215,11 @@ ms.locfileid: "92916398"
 
 ![較長等候時間資料表](media/service-premium-metrics-app/premium-metrics-app-16.png)
 
-一旦您選取了較長等待時間的資料集， **圖表 B** 會經過篩選，以顯示在過去七天內，該資料集的查詢等候時間分佈。 接下來，選取 **圖表 B** 的其中一個資料行。
+一旦您選取了較長等待時間的資料集，**圖表 B** 會經過篩選，以顯示在過去七天內，該資料集的查詢等候時間分佈。 接下來，選取 **圖表 B** 的其中一個資料行。
 
 ![每小時較長等候時間分布圖](media/service-premium-metrics-app/premium-metrics-app-17.png)
 
-然後會篩選 **圖表 C** ，以顯示從圖表 B 選取的佇列時間長度。
+然後會篩選 **圖表 C**，以顯示從圖表 B 選取的佇列時間長度。
 
 ![每小時查詢佇列長度](media/service-premium-metrics-app/premium-metrics-app-18.png)
 
@@ -281,7 +283,7 @@ ms.locfileid: "92916398"
 
     ![圖表 C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. 最後，請檢查 **圖表 D** ，其中會顯示所發生的重新整理為排定的或隨選的類型。 任何同時執行的隨選重新整理都可能是導致發生節流的原因。
+3. 最後，請檢查 **圖表 D**，其中會顯示所發生的重新整理為排定的或隨選的類型。 任何同時執行的隨選重新整理都可能是導致發生節流的原因。
 
     ![圖表 D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
@@ -324,7 +326,7 @@ ms.locfileid: "92916398"
 
     ![圖表 C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. 最後，請檢查 **圖表 D** ，其中會顯示所發生的重新整理為排定的或隨選的類型。 任何同時執行的隨選重新整理都可能是導致發生節流的原因。
+3. 最後，請檢查 **圖表 D**，其中會顯示所發生的重新整理為排定的或隨選的類型。 任何同時執行的隨選重新整理都可能是導致發生節流的原因。
 
     ![圖表 D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
@@ -348,3 +350,13 @@ ms.locfileid: "92916398"
 * [Power BI Embedded 常見問題集](../developer/embedded/embedded-faq.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

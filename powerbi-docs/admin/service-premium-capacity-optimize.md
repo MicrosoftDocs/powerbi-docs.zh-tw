@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21aa643c82887ec9beaca659d9e2e97a0f1cdcc9
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ec9ef81a4a8f4da0ffdf651d08b307e13212635a
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599300"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512830"
 ---
 # <a name="optimizing-premium-capacities"></a>最佳化 Premium 容量
 
@@ -27,6 +27,11 @@ ms.locfileid: "91599300"
 - 新增 Premium 容量
 
 最後，本文將以測試方法和 Premium 容量大小調整作為總結。
+
+> [!NOTE]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+
+此文章中的建議與最佳做法能確保每個資料集與其他 Power BI 成品的 CPU 使用率都能夠最佳化。
 
 ## <a name="best-practices"></a>最佳作法
 
@@ -54,7 +59,7 @@ ms.locfileid: "91599300"
 
 ### <a name="what-content-is-using-up-my-capacity"></a>哪些內容耗盡我的容量？
 
-您可以使用 **Power BI Premium 容量計量**應用程式依容量進行篩選，並檢閱工作區內容的效能計量。 您可以檢閱儲存在 Premium 容量中所有內容在過去七天每小時的效能計量和資源使用狀況。 針對 Premium 容量效能的一般問題進行疑難排解時，第一個步驟通常是監視。
+您可以使用 **Power BI Premium 容量計量** 應用程式依容量進行篩選，並檢閱工作區內容的效能計量。 您可以檢閱儲存在 Premium 容量中所有內容在過去七天每小時的效能計量和資源使用狀況。 針對 Premium 容量效能的一般問題進行疑難排解時，第一個步驟通常是監視。
 
 要監視的關鍵計量包括：
 
@@ -67,7 +72,7 @@ ms.locfileid: "91599300"
 
 在 Power BI Premium 容量計量應用程式中，使用中記憶體顯示指定給報表的記憶體總量，由於其在三分鐘前為使用中，因此無法收回。 重新整理等候時間的高峰值可能與大型和/或使用中資料集相關。
 
-[Top 5 by Average Duration] \(依平均持續時間的前 5 名\)  圖表醒目提示容量資源使用量最高的前五名資料集、編頁報表和資料流程。 前五名清單中的內容是調查和最佳化 (如果可能的話) 的候選對象。
+[Top 5 by Average Duration] \(依平均持續時間的前 5 名\) 圖表醒目提示容量資源使用量最高的前五名資料集、編頁報表和資料流程。 前五名清單中的內容是調查和最佳化 (如果可能的話) 的候選對象。
 
 ### <a name="why-are-reports-slow"></a>為什麼報表速度很慢？
 
@@ -112,7 +117,7 @@ ms.locfileid: "91599300"
 
 如果只是偶爾才會發生此情況，這可能不會被視為高優先順序問題。 報表使用者會收到通知，指出服務忙碌中，稍後應該重試。 如果此情況太過頻繁發生，則可藉由相應增加 Premium 容量，或將內容指派給不同的容量來解決問題。
 
-容量管理員 (和 Power BI 服務管理員) 可以監視**查詢失敗**計量，以判斷何時發生此情況。 他們也可以重新啟動容量，並在系統超載時重設所有作業。
+容量管理員 (和 Power BI 服務管理員) 可以監視 **查詢失敗** 計量，以判斷何時發生此情況。 他們也可以重新啟動容量，並在系統超載時重設所有作業。
 
 ### <a name="why-are-refreshes-not-starting-on-schedule"></a>為什麼重新整理未按排程開始？
 
@@ -129,7 +134,7 @@ ms.locfileid: "91599300"
 
 如果直到下次排程的重新整理時間開始之前都無法開始，則排程重新整理會失敗。 從 UI 手動觸發的隨選重新整理會嘗試執行最多三次，之後會失敗。
 
-容量管理員 (和 Power BI 服務管理員) 可以監視**平均重新整理等候時間 (分鐘)** 計量，以判斷排程時間與作業開始之間的平均延遲。
+容量管理員 (和 Power BI 服務管理員) 可以監視 **平均重新整理等候時間 (分鐘)** 計量，以判斷排程時間與作業開始之間的平均延遲。
 
 雖然這通常不是影響資料準時重新整理的管理優先事項，但請確保有足夠的記憶體可用。 這可能需要將資料集隔離到已知有足夠資源的容量。 管理員也可與資料集擁有者協調，協助錯開或減少排程的資料重新整理時間，以將衝突降到最低。 請注意，管理員無法檢視重新整理佇列，也無法擷取資料集排程。
 
@@ -144,7 +149,7 @@ ms.locfileid: "91599300"
 - 非容量原因，包括資料來源系統回應性、網路延遲、權限無效或閘道輸送量。
 - 資料量 - 這是設定累加式重新整理的好理由，如下所述。
 
-容量管理員 (和 Power BI 服務管理員) 可以監視**平均重新整理持續時間 (分鐘)** 計量，以判斷一段時間內的比較基準，以及**平均重新整理等候時間 (分鐘)** 計量，以判斷排程時間與作業開始之間的平均延遲。
+容量管理員 (和 Power BI 服務管理員) 可以監視 **平均重新整理持續時間 (分鐘)** 計量，以判斷一段時間內的比較基準，以及 **平均重新整理等候時間 (分鐘)** 計量，以判斷排程時間與作業開始之間的平均延遲。
 
 累加式重新整理可以大幅減少資料重新整理持續時間，特別是針對大型模型資料表。 累加式重新整理有四個相關優點：
 
@@ -162,7 +167,7 @@ ms.locfileid: "91599300"
 - 記憶體不足，即使 Premium 容量中只有一個模型 (亦即模型大小非常大) 也一樣。
 - 非容量原因，包括資料來源系統中斷連線、權限無效或閘道錯誤。
 
-容量管理員 (和 Power BI 服務管理員) 可以監視**因記憶體不足而造成的重新整理失敗**計量。
+容量管理員 (和 Power BI 服務管理員) 可以監視 **因記憶體不足而造成的重新整理失敗** 計量。
 
 ## <a name="optimizing-models"></a>最佳化模型
 
@@ -258,7 +263,7 @@ Premium 容量的大小決定其可用記憶體和處理器資源，以及加諸
 
 若要產生更複雜的測試，請考慮開發模擬實際工作負載的負載測試應用程式。 如需詳細資訊，請參閱網路研討會 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (使用 Visual Studio 負載測試對 Power BI 應用程式進行負載測試)。
 
-## <a name="acknowledgements"></a>致謝
+## <a name="acknowledgments"></a>通知
 
 本文是由資料平台 MVP 暨 [Bitwise Solutions](https://www.bitwisesolutions.com.au/) 的獨立 BI 專家 Peter Myers 所撰寫。
 
@@ -268,3 +273,13 @@ Premium 容量的大小決定其可用記憶體和處理器資源，以及加諸
 > [Premium 容量案例](service-premium-capacity-scenarios.md)   
   
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

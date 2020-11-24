@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8ff1fe1657e22b1e0812bddf6a0842b3c32b8822
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396786"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668572"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -93,6 +93,9 @@ ms.locfileid: "94396786"
 `exportToFile` 支援並行匯出作業要求。 下表顯示您可以同時執行的作業數目，視您的報表所在的 SKU 而定。 並行要求會參考報表頁面。 例如，在 A6 SKU 上的一個匯出要求中，將同時處理 20 頁。 這與傳送 20 個匯出要求 (每個頁面一個) 的時間大致相同。
 
 超過其並行要求數目的作業不會終止。 例如，如果您在 A1 SKU 中匯出三個頁面，第一個作業將會執行，而後面兩個則會等候接下來的兩個執行循環。
+
+>[!NOTE]
+>[Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md) 不支援使用 `exporToFile` API 來將 Power BI 報表匯出至檔案。 
 
 |Azure SKU  |Office SKU  |並行報表頁面上限  |
 |-----------|------------|-----------|

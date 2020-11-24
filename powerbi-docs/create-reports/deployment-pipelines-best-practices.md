@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.date: 10/21/2020
+ms.openlocfilehash: 9d78a4cd8beb84402a4b3b586df6998810d1c8f7
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116469"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512991"
 ---
 # <a name="deployment-pipelines-best-practices"></a>部署管線最佳做法
 
@@ -93,26 +93,26 @@ ms.locfileid: "92116469"
 
 ### <a name="use-power-bi-desktop-to-edit-your-reports-and-datasets"></a>使用 Power BI Desktop 來編輯您的報表與資料集
 
-請考慮將 Power BI Desktop 作為您的本機開發環境。 Power BI Desktop 可讓您嘗試、探索及檢閱報表與資料集的更新。 完成工作之後，您可以將新版本上傳至開發階段。 基於下列原因，建議您在 Desktop (而不是在 Power BI 服務) 中編輯 .pbix 檔案：
+請考慮將 Power BI Desktop 作為您的本機開發環境。 Power BI Desktop 可讓您嘗試、探索及檢閱報表與資料集的更新。 完成工作之後，您可以將新版本上傳至開發階段。 基於下列原因，建議您在 Desktop (而不是在 Power BI 服務) 中編輯 PBIX 檔案：
 
-* 如果所有變更都是在相同工具上進行，則在相同 .pbix 檔案上與其他建立者共同作業比較容易。
+* 如果所有變更都在相同工具上進行，則在相同 PBIX 檔案上與共同建立者共同作業會比較容易。
 
- * 進行線上變更、下載 .pbix 檔案，然後再上傳一次，這會建立重複的報表與資料集。
+ * 進行線上變更，下載 PBIX 檔案，然後再次加以上傳，會建立重複的報表與資料集。
 
-* 您可以使用版本控制，讓 .pbix 檔案保持在最新狀態。
+* 您可以使用版本控制，讓 PBIX 檔案保持在最新狀態。
 
-### <a name="version-control-for-pbix-files"></a>.pbix 檔案的版本控制
+### <a name="version-control-for-pbix-files"></a>PBIX 檔案的版本控制
 
 如果您想要管理報表與資料集的版本歷程記錄，請使用 [Power BI 與 OneDrive 的自動同步處理](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md)。 這會讓您的檔案保持更新為最新版本。 如果需要，其也可讓您取得較舊的版本。
 
 >[!NOTE]
->只針對部署管線開發階段中的 .pbix 檔案使用與 OneDrive (或任何其他存放庫) 的自動同步處理。 請勿將 .pbix 檔案同步處理至部署管線的測試與生產階段。 這會導致在整個管線部署內容時發生問題。
+>只針對部署管線開發階段中的 PBIX 檔案，搭配 OneDrive (或任何其他存放庫) 使用自動同步處理。 請勿將 PBIX 檔案同步處理至部署管線的測試與實際執行階段。 這會導致在整個管線部署內容時發生問題。
 
 ### <a name="separate-modeling-development-from-report-and-dashboard-development"></a>將模型開發和報表與儀表板開發分開
 
 針對企業規模部署，建議您將資料集開發與報表與儀表板開發分開。 若只要將變更升級至報表或資料集，請使用部署管線選擇性部署選項。  
 
-這個方法應該從 Power BI Desktop 開始，方法是為資料集與報表建立個別的 .pbix 檔案。 例如，您可以建立資料集 .pbix 檔案，並將其上傳至開發階段。 之後，您的報表作者可以只為報表建立新的 .pbix，並使用即時連線[將其連線到已發行的資料集](../connect-data/service-datasets-discover-across-workspaces.md)。 此技術可讓不同的建立者個別處理模型與視覺效果，並將其部署到生產環境。
+這個方法應該從 Power BI Desktop 開始，方法是為資料集與報表建立個別的 PBIX 檔案。 例如，您可以建立資料集 PBIX 檔案，並將其上傳至開發階段。 之後，您的報表作者可以只為報表建立新的 PBIX，並使用即時連線來[將其連線到已發佈的資料集](../connect-data/service-datasets-discover-across-workspaces.md)。 此技術可讓不同的建立者個別處理模型與視覺效果，並將其部署到生產環境。
 
 若使用[共用資料集](../connect-data/service-datasets-share.md)，您也可以跨工作區使用此方法。
 
@@ -195,7 +195,7 @@ ms.locfileid: "92116469"
 
 ### <a name="quick-fixes-to-content"></a>快速修正內容
 
-如果生產環境中有需要快速修正的錯誤 (Bug)，請不要將新版 .pbix 直接上傳至生產階段，或在 Power BI 服務中進行線上變更。 當那些階段中已經有內容時，不可能回溯部署到測試與開發階段。 此外，部署修正程式而不先進行測試是不好的做法。 因此，處理這個問題的正確方式是在開發階段中實作修正程式，並將其推送至其餘的部署管線階段。 這可讓您在將修正程式部署至生產環境之前，先檢查其是否正常運作。 在整個管線部署只需要幾分鐘的時間。
+如果實際執行環境中有需要快速修正的錯誤 (Bug)，請不要將新版 PBIX 直接上傳至實際執行階段，或在 Power BI 服務中進行線上變更。 當那些階段中已經有內容時，不可能回溯部署到測試與開發階段。 此外，部署修正程式而不先進行測試是不好的做法。 因此，處理這個問題的正確方式是在開發階段中實作修正程式，並將其推送至其餘的部署管線階段。 這可讓您在將修正程式部署至生產環境之前，先檢查其是否正常運作。 在整個管線中進行部署只需幾分鐘的時間。
 
 ## <a name="next-steps"></a>後續步驟
 

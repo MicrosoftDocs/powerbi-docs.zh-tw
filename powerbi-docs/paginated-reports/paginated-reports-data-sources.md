@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/27/2020
-ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/12/2020
+ms.openlocfilehash: 263992e760afe01eb44f41b80c2297cbd4b34163
+ms.sourcegitcommit: 7ee9398b30ab4ba40459cbb97e129e7dc853c93c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298189"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94575299"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 編頁報表支援的資料來源
 
@@ -27,7 +27,7 @@ ms.locfileid: "93298189"
 
 | 資料來源 | 驗證 | 備忘稿 |
 | --- | --- | --- |
-| Azure SQL Database <br>Azure SQL 資料倉儲 | 基本、單一登入 (SSO)、OAuth2 | 您可使用企業閘道搭配 Azure SQL DB。 不過，在這些情況下，您可能不會使用 SSO 或 oAuth2 驗證。   |
+| Azure SQL Database <br>Azure SQL 資料倉儲 | 基本、單一登入 (SSO)、OAuth2 | 您可以將企業閘道與 Azure SQL Database 搭配使用。 不過，在這些情況下，您可能不會使用 SSO 或 oAuth2 驗證。   |
 | Azure SQL 受控執行個體 | 基本 | 透過公用或私人端點 (私人端點必須透過企業閘道路由)  |
 | Azure Analysis Services | SSO, OAuth2 | 在 BlackForest 地區，AAS 防火牆必須停用，或設定為允許所有 IP 範圍。 這僅適用於 BlackForest 地區。  不支援來自外部租用戶的 SSO。 |
 | Power BI 資料集 | SSO | Premium 和非 Premium Power BI 資料集。 需要讀取權限 |
@@ -40,14 +40,14 @@ ms.locfileid: "93298189"
 
 ## <a name="other-data-sources"></a>其他資料來源
 
-除了上述原生支援的資料來源之外，您還可以透過 [Power BI 資料閘道](../connect-data/service-gateway-onprem.md)來存取下列資料來源：
+除了上述原生支援的資料來源之外，您還可以透過 [Power BI 企業閘道](../connect-data/service-gateway-onprem.md)來存取下列資料來源：
 
 - SQL Server
 - SQL Server Analysis Services
 - Oracle
 - Teradata
 
-編頁報表目前無法透過 Power BI 資料閘道來存取 Azure SQL Database 和 Azure Analysis Services。
+針對編頁報表，目前無法透過 Power BI 企業閘道存取 Azure Analysis Services。
 
 ## <a name="azure-sql-database-authentication"></a>Azure SQL Database 驗證
 

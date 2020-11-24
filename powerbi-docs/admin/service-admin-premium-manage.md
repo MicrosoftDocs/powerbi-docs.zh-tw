@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8edc24e62524834e74fb8334875cc27a259207d1
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 5cce18c2ec4a24b06f4cf48d5fd2b542109d70c6
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916375"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512485"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>設定及管理 Power BI Premium 中的容量
 
@@ -25,6 +25,9 @@ ms.locfileid: "92916375"
 ![Power BI 的容量設定畫面](media/service-admin-premium-manage/premium-capacity-management.png)
 
 「容量」是 Power BI Premium 和 Power BI Embedded 供應項目的中心。 它是一組專門保留供組織使用的資源集。 擁有容量可讓您將儀表板、報表和資料集發佈給整個組織的使用者，而不必為使用者一一購買授權。 它也會為容量中所裝載內容提供可靠且一致的效能。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium-what-is.md)。
+
+> [!NOTE]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 ## <a name="manage-capacity"></a>管理容量
 
@@ -135,7 +138,7 @@ Power BI 管理員和 Microsoft 365 全域管理員可變更 Power BI Premium �
    | **The entire organization's workspaces (整個組織的工作區)** | 將整個組織的工作區指派給 Premium 容量，會將組織中的所有工作區和「我的工作區」指派給這個 Premium 容量。 此外，所有目前和未來使用者都有權將個別工作區重新指派給這個容量。 |
    | | |
 
-1. 選取 [ **套用** ]。
+1. 選取 [ **套用**]。
 
 ### <a name="assign-from-workspace-settings"></a>從工作區設定進行指派
 
@@ -172,3 +175,13 @@ Power BI 管理員和 Microsoft 365 全域管理員可變更 Power BI Premium �
 [管理 Premium 容量](service-premium-capacity-manage.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

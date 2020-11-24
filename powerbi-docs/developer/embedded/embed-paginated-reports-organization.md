@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 447fad076d9d171a2bdcb8e9f5aafe9c63555d79
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983384"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668664"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 編頁報表內嵌至應用程式
 
@@ -23,7 +23,7 @@ ms.locfileid: "91983384"
 編頁報表是設計用來進行高品質列印的報表。 這些報表通常會包含很多資料，並以可讓其符合列印頁面的方式呈現。
 若要了解 Power BI 支援編頁報表的方式，請參閱[什麼是 Power BI Premium 中的編頁報表？](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
 
-**使用者擁有資料**可讓應用程式延伸 Power BI 服務，使其可用內嵌式分析。 此教學課程示範如何將編頁報表整合至應用程式。
+**使用者擁有資料** 可讓應用程式延伸 Power BI 服務，使其可用內嵌式分析。 此教學課程示範如何將編頁報表整合至應用程式。
 
 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API，為組織將 Power BI 內嵌到應用程式中。
 
@@ -43,7 +43,10 @@ ms.locfileid: "91983384"
 
 * 至少有 P1 容量。 請參閱[我需要針對編頁報表使用何種大小的 Premium 容量？](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
-如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
+如果您尚未註冊 **Power BI Pro**，請先 [註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
+
+>[!NOTE]
+>支援 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md)。 不過，如果您使用的是 PPU，則只有組織中的 PPU 使用者能夠存取您的解決方案。
 
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
@@ -133,7 +136,7 @@ ms.locfileid: "91983384"
 
 ### <a name="application-id"></a>應用程式識別碼
 
-使用從 **Azure** 取得的**應用程式識別碼**填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。
+使用從 **Azure** 取得的 **應用程式識別碼** 填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。
 
 若要取得 **applicationId**，請遵循下列步驟：
 
@@ -145,7 +148,7 @@ ms.locfileid: "91983384"
 
     ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
+4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此 **應用程式識別碼** 作為應用程式的 **applicationId**。
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 

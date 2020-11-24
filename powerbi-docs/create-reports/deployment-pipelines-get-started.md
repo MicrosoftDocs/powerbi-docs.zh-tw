@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 11/11/2020
+ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855744"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669124"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>開始使用部署管線
 
@@ -23,11 +23,13 @@ ms.locfileid: "90855744"
 
 如果您符合下列條件，就能夠存取部署管線功能：
 
-* 您是 Power BI [Pro 使用者](../admin/service-admin-purchasing-power-bi-pro.md)
+* 您具有下列其中一個 Premium 授權：
 
-* 您所屬的組織有 Premium 容量
+    * 您是 Power BI [Pro 使用者](../admin/service-admin-purchasing-power-bi-pro.md)，而且所屬的組織具有 Premium 容量。
 
-* 您是[新工作區體驗](../collaborate-share/service-create-the-new-workspaces.md)的系統管理員
+    * [Premium Per User (PPU)](../admin/service-premium-per-user-faq.md)。
+
+* 您是[新工作區體驗](../collaborate-share/service-create-the-new-workspaces.md)的管理員。
 
 >[!NOTE]
 > 如果您先前已建立管線，或有與您共用的管線，則您也可以看到 [部署管線] 按鈕。
@@ -60,7 +62,7 @@ ms.locfileid: "90855744"
 2. 在 [建立部署管線] 對話方塊中，輸入管線的名稱與描述，然後選取 [建立]。
 
 >[!NOTE]
->如果工作區未指派給貴組織的 Premium 容量，您會收到[指派給容量](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)的通知。  
+>如果未將工作區指派至您組織的 Premium 容量，或指派至您的 PPU 容量，則您會收到[將工作區指派至容量](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)的通知。  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>步驟 2 - 將工作區指派至部署管線
 
@@ -87,7 +89,7 @@ ms.locfileid: "90855744"
 
 * 工作區未指派至任何其他管線。
 
-* 工作區必須位於  [Premium 容量](../admin/service-premium-what-is.md)。
+* 工作區必須位於  [Premium 容量](../admin/service-premium-what-is.md)上。
 
 * 您無法將具有 [Power BI 範例](../create-reports/sample-datasets.md)的工作區指派至管線階段。
 
@@ -124,7 +126,7 @@ ms.locfileid: "90855744"
 
 您可以選擇部署至先前的階段，例如，您將現有工作區指派至生產階段，然後加以回朔部署，先至測試階段，然後再至開發階段。
 
-只有當先前階段的內容是空白時，才能部署到先前的階段。 當部署到先前階段時，您無法選取特定項目。 系統將會部署階段中的所有內容。
+只有當先前階段是空的時，才能部署到先前階段。 部署到先前階段時，您無法選取特定項目。 系統將會部署階段中的所有內容。
 
 [![顯示 [部署至上一個階段] 按鈕的螢幕擷取畫面，其於 [測試] 或 [生產環境] 階段的功能表中提供。](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
@@ -134,7 +136,7 @@ ms.locfileid: "90855744"
 
 當您在管線階段之間部署內容時，設定資料集規則可讓您允許變更內容，同時保持某些設定的完整性。
 
-資料集規則是在每個資料集的資料來源與參數上定義的。 其決定特定資料集的資料來源值或參數值。 例如，如果您希望生產階段中的資料集指向生產資料庫，您可以為其定義規則。 規則是在生產階段中 (於適當資料集下) 定義的。 定義規則之後，從測試階段部署到生產階段的內容將會繼承資料集規則中所定義的值，而且只要規則未變更且有效，就一律會套用。
+資料集規則是在每個資料集的資料來源與參數上定義的。 其決定特定資料集的資料來源值或參數值。 例如，如果您希望生產階段中的資料集指向生產資料庫，您可以為其定義規則。 規則是在生產階段中 (於適當資料集下) 定義的。 定義規則之後，從測試階段部署到實際執行階段的內容將繼承資料集規則中所定義的值，而且只要該規則未變更且有效，就一律會套用。
 
 >[!NOTE]
 > 只有在來源與目標資料來源的類型相同時，資料集規則才有效。
@@ -178,7 +180,7 @@ ms.locfileid: "90855744"
 * 無法針對類型為 *Any* 或 *Binary* 的參數定義參數規則。 如需詳細資訊，請參閱[資料集更新參數限制](/rest/api/power-bi/datasets/updateparameters) \(英文\)。
 
 * 只能針對下列資料來源定義資料來源規則：
-    * Azure Analysis 服務
+    * Azure Analysis Services
     * SQL Server Analysis Services (SSAS)
     * Azure SQL Server
     * SQL Server

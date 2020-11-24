@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c1e6ec9c6f6195f69af67da4ffbf1d0428b0fc2
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7fcda945c374ba5384bd936b94db67a3ccd3ace1
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257045"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559796"
 ---
 # <a name="multi-select-data-elements-data-points-and-visuals-in-power-bi-desktop"></a>在 Power BI Desktop 中多重選取資料元素、資料點與視覺效果
 
@@ -46,9 +46,9 @@ ms.locfileid: "92257045"
 
 ### <a name="select-multiple-data-points-in-a-visual"></a>選取一個視覺效果中的多個資料點
 
-您可以使用相同的矩形套索步驟，在一個視覺效果中選取多個資料點。 按住 *Ctrl* 鍵時，在視覺效果中按一下並拖曳以選取多個資料點。 當您放開滑鼠按鍵時，即會選取與選取項目矩形重疊的所有點，而且也會保留任何先前的套索選取項目。 如果您在選取時使用 *Ctrl* ，透過套索選取一個區域，以合併先前選取的點，則不會取消選取那些資料點 (已關閉)；使用套索的效果相同，並以 *Ctrl* 個別按一下每個點。 
+您可以使用相同的矩形套索步驟，在一個視覺效果中選取多個資料點。 按住 *Ctrl* 鍵時，在視覺效果中按一下並拖曳以選取多個資料點。 當您放開滑鼠按鍵時，即會選取與選取項目矩形重疊的所有點，而且也會保留任何先前的套索選取項目。 如果您在選取時使用 *Ctrl*，透過套索選取一個區域，以合併先前選取的點，則不會取消選取那些資料點 (已關閉)；使用套索的效果相同，並以 *Ctrl* 個別按一下每個點。 
 
-當您在進行套索選取時使用 *Shift* 鍵，即會保留先前的選取項目，而已經選取的資料點會保持選取狀態。 因此，在執行套索選取時使用 *Shift* ，只會將資料點新增至您的選取項目，而不會切換所選區域中的資料點。
+當您在進行套索選取時使用 *Shift* 鍵，即會保留先前的選取項目，而已經選取的資料點會保持選取狀態。 因此，在執行套索選取時使用 *Shift*，只會將資料點新增至您的選取項目，而不會切換所選區域中的資料點。
 
 您可以按一下繪圖區上的空白處，而不需按鍵盤按鍵，即可清除目前的選取項目。
 
@@ -56,7 +56,7 @@ ms.locfileid: "92257045"
 
 在視覺效果內多重選取資料點有數個限制與考量：
 
-* 折線圖、區域圖、散佈圖與樹狀圖均支援套索選取
+* 折線圖、區域圖、散佈圖、樹狀圖及地圖均支援套索選取
 * 您可以一次選取的資料點數目上限為 300 個
 * 在 Power BI 服務中檢視報表時，只有當儲存並發佈報表時已啟用套索選取功能，才會啟用矩形選取
 

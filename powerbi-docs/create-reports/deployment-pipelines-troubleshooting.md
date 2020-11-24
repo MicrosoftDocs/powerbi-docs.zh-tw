@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.date: 11/11/2020
+ms.openlocfilehash: 141364664b6608b252fc2be8620226ae8d9ce39b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916812"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668618"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>部署管線疑難排解
 
@@ -20,7 +20,7 @@ ms.locfileid: "92916812"
 
 ## <a name="general"></a>一般
 
-### <a name="whats-deployment-pipelines-in-power-bi"></a>什麼是 Power BI 中的部署管線
+### <a name="whats-deployment-pipelines-in-power-bi"></a>什麼是 Power BI 中的部署管線？
 
 若要了解 Power BI 中的部署管線，請參閱[部署管線概觀](deployment-pipelines-overview.md)。
 
@@ -32,15 +32,15 @@ ms.locfileid: "92916812"
 
 如果不符合下列條件，則您無法看到 [部署管線] 按鈕。
 
-* 您是 Power BI [Pro 使用者](../admin/service-admin-purchasing-power-bi-pro.md)
+* 您具有下列其中一個 Premium 授權：
 
-* 您所屬的組織有 Premium 容量
+    * 您是 Power BI [Pro 使用者](../admin/service-admin-purchasing-power-bi-pro.md)，而且所屬的組織具有 Premium 容量。
 
-* 只能將工作區指派給單一管線
+    * [Premium Per User (PPU)](../admin/service-premium-per-user-faq.md)。
 
-* 您是新工作區的管理員
+* 您是[新工作區體驗](../collaborate-share/service-create-the-new-workspaces.md)的管理員。
 
-### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>為什麼無法在 [我的工作區] 中看到管線階段標籤
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>為什麼無法在 [我的工作區] 中看到管線階段標籤？
 
 部署管線會在指派給管線的工作區中顯示管線階段標籤。 「開發」和「測試」階段的標籤一律可見。 然而，如果您具有[管線的存取權](deployment-pipelines-process.md#user-with-pipeline-access)，或者身為[工作區管理員](deployment-pipelines-process.md#workspace-admin)，您只能看見「生產」標籤。
 
@@ -51,15 +51,24 @@ ms.locfileid: "92916812"
 
 ### <a name="what-licenses-are-needed-to-work-with-deployment-pipelines"></a>需要哪些授權才能使用部署管線？
 
-若要使用部署管線，您必須是具有 [Premium 容量](../admin/service-premium-what-is.md)的 [Pro 使用者](../admin/service-admin-purchasing-power-bi-pro.md)。 如需詳細資訊，請參閱[存取部署管線](deployment-pipelines-get-started.md#accessing-deployment-pipelines)。
+若要使用部署管線，您必須具有下列其中一個授權：
+
+* [Pro 使用者](../admin/service-admin-purchasing-power-bi-pro.md)授權，並具備位於 [Premium 容量](../admin/service-premium-what-is.md)上的工作區。
+
+* [Premium Per User (PPU)](../admin/service-premium-per-user-faq.md)。
+
+如需詳細資訊，請參閱[存取部署管線](deployment-pipelines-get-started.md#accessing-deployment-pipelines)。
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>我可以將哪些類型的容量指派給管線中的工作區？
 
 部署管線中的所有工作區都必須位於容量內，管線才能正常運作。 不過，您可以針對管線中的不同工作區使用不同的容量。 您也可以在相同管線中的不同工作區使用不同的容量類型。
 
-若要進行開發及測試，您可以針對每個使用者將 A 或 EM 容量與 Pro Power BI 帳戶一起使用。
+若要進行開發及測試，您可以針對每個使用者將 A 或 EM 容量與 Pro Power BI 帳戶一起使用。 您也可以在開發與測試階段針對每個使用者使用 PPU。
 
-針對生產環境工作區，您需要 P 容量。 如果您是透過內嵌應用程式發佈內容的 ISV，您也可以使用 A 或 EM 容量來進行生產。
+針對生產環境工作區，您需要 P 容量。 如果您是透過內嵌應用程式發佈內容的 ISV，您也可以使用 A 或 EM 容量來進行生產。 PPU 也可用於實際執行工作區。
+
+>[!NOTE]
+>當您使用 PPU 建立工作區時，只有其他 PPU 使用者能夠存取該工作區並取用其內容。
 
 ## <a name="technical"></a>技術
 
@@ -87,7 +96,7 @@ ms.locfileid: "92916812"
 
 |Error  |動作  |
 |---------|---------|
-|您沒有 [Premium 容量權限](deployment-pipelines-process.md#creating-a-premium-capacity-workspace)。     |若要取得 Premium 容量權限，請要求容量管理員將您的工作區新增至容量，或要求容量的指派權限。 工作區在容量中之後，請重新部署。        |
+|您沒有 [Premium 容量權限](deployment-pipelines-process.md#creating-a-premium-capacity-workspace)。     |如果您任職的組織具有 Premium 容量，請要求容量管理員將您的工作區新增至容量，或要求容量的指派權限。 工作區在容量中之後，請重新部署。</br></br>如果您任職的組織不具有 Premium 容量，請考慮購買 [Premium Per User (PPU)](../admin/service-premium-per-user-faq.md)。        |
 |您沒有工作區權限。     |若要進行部署，您必須是工作區成員。 請要求您的工作區管理員授與您適當的權限。         |
 |您的 Power BI 管理員已停用工作區的建立。     |請連絡您的 Power BI 管理員以尋求支援。         |
 |您的工作區不是[新的工作區體驗](../collaborate-share/service-create-the-new-workspaces.md)。     |在新的工作區體驗中建立您的內容。 如果您的內容位於傳統工作區中，您可以將其[升級](../collaborate-share/service-upgrade-workspaces.md)為新的工作區體驗。         |
@@ -152,9 +161,9 @@ ms.locfileid: "92916812"
 
 內容可以部署到空的階段或包含內容的階段。 內容必須位於 [Premium 容量](../admin/service-premium-what-is.md)。
 
-* **部署到空的階段** - 任何 [Pro 使用者](../admin/service-admin-purchasing-power-bi-pro.md) (來源工作區中的成員或管理員)。
+* **部署到空的階段**：身為來源工作區中成員或管理員的任何 [Pro](../admin/service-admin-purchasing-power-bi-pro.md) 或 [PPU](../admin/service-premium-per-user-faq.md) 使用者。
 
-* **部署到具有內容的階段** - 任何 [Pro 使用者](../admin/service-admin-purchasing-power-bi-pro.md) (來源與目標部署階段中兩個工作區的成員或管理員)。
+* **部署到具有內容的階段**：同時身為來源與目標部署階段中工作區之成員或管理員的任何 [Pro](../admin/service-admin-purchasing-power-bi-pro.md) 或 [PPU](../admin/service-premium-per-user-faq.md) 使用者。
 
 * **覆寫資料集** - 即使資料集並未變更，部署也會覆寫包含在目標階段中的每個資料集。 使用者必須是部署中指定之所有目標階段資料集的擁有者。
 

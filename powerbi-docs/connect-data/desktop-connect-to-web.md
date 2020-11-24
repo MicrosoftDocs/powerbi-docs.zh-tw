@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 618e2acb415d72870fd599142775720955e8ba88
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f2e61617e060d90a30aebd1ddc47a72b712c271c
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214718"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559828"
 ---
 # <a name="connect-to-webpages-from-power-bi-desktop"></a>從 Power BI Desktop 連線至網頁
 
@@ -23,27 +23,40 @@ ms.locfileid: "86214718"
 
 在 Power BI Desktop 中，從 [主資料夾]  功能區選取 [取得資料] > [Web]。
 
-![Power B I Desktop 的螢幕擷取畫面，其中顯示 [Web] 選取項目。](media/desktop-connect-to-web/connect-to-web_1.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [Web] 選取項目。](media/desktop-connect-to-web/connect-to-web-01.png)
 
 對話方塊隨即出現，並詢問您要從中匯入資料的網頁 URL。
 
-![[Web] 對話方塊的螢幕擷取畫面，其中顯示 [URL] 欄位。](media/desktop-connect-to-web/connect-to-web_2.png)
+![[Web] 對話方塊的螢幕擷取畫面，其中顯示 [URL] 欄位。](media/desktop-connect-to-web/connect-to-web-02.png)
 
-您輸入 (或貼上) URL 之後，選取 [確定]。 Power BI Desktop 會連接至該網頁上，然後在 [導覽] 視窗中顯示網頁的可用資料。 當您選取其中一個可用的資料元素，例如整個網頁的資料表，[導覽] 視窗會在視窗的右側顯示該資料的預覽。
+您輸入 (或貼上) URL 之後，選取 [確定]。 Power BI Desktop 會提示您指定存取 Web 內容的方式。
 
-![[導覽] 對話方塊的螢幕擷取畫面，其中顯示所選資料表資料的預覽。](media/desktop-connect-to-web/connect-to-web_3.png)
+![連線至 Web 時使用的認證](media/desktop-connect-to-web/connect-to-web-03.png)
 
-您可以選擇 [編輯] 按鈕，其會啟動 [查詢編輯器]，供您在匯入 Power BI Desktop 之前在網頁上修改或轉換資料。 或著您可以選取 [載入] 按鈕，然後匯入您在左窗格中選取的所有資料元素。
+Power BI Desktop 會連線至網頁，然後在 [導覽器] 視窗中顯示網頁的可用資料。 當您選取其中一個可用的資料元素，例如整個網頁的資料表，[導覽] 視窗會在視窗的右側顯示該資料的預覽。
+
+![[導覽] 對話方塊的螢幕擷取畫面，其中顯示所選資料表資料的預覽。](media/desktop-connect-to-web/connect-to-web-04.png)
+
+您可以選擇 [轉換資料] 按鈕，其會啟動 [查詢編輯器]，讓您可以先在網頁上將資料具體化並進行轉換，然後再將其匯入 Power BI Desktop。 或著您可以選取 [載入] 按鈕，然後匯入您在左窗格中選取的所有資料元素。
 
 當我們選取 [載入] 時，Power BI Desktop 會匯入選取的項目，並使其能夠在 [欄位] 窗格中使用，其會出現在 Power BI Desktop 中 [報表] 檢視的右側。
 
-![[欄位] 窗格的螢幕擷取畫面，其中顯示已選取資料表的清單。](media/desktop-connect-to-web/connect-to-web_4.png)
+![[欄位] 窗格的螢幕擷取畫面，其中顯示已選取資料表的清單。](media/desktop-connect-to-web/connect-to-web-05.png)
 
 這樣就可以連接到網頁，並將其資料帶入 Power BI Desktop。
 
 您可以從這裡將這些欄位拖曳到報表畫布上，並建立您想要的所有視覺效果。 您也可以從該網頁使用此資料，就像使用任何其他資料一樣：您可以加以修改、可以在模型中建立該資料與其他資料來源之間的關聯性，或是以您喜歡的方式建立您想要的 Power BI 報表。
 
 若要查看連接至網頁的深入探討，請看看 [Power BI Desktop 入門指南](../fundamentals/desktop-getting-started.md)。
+
+## <a name="certificate-revocation-check"></a>憑證撤銷檢查
+
+Power BI 會套用適用於 Web 連線的安全性，以保護您的資料。 在某些案例中 (例如，使用 Fiddler 來擷取 Web 要求)，Web 連線可能無法正常運作。 若要實現這類案例，您可以在 Power BI Desktop 中取消選取 [啟用憑證撤銷檢查] 選項，然後重新啟動 Power BI Desktop。 
+
+若要變更此選項，請選取 [檔案] > [選項]，然後選取左窗格中的 [安全性]。 下圖顯示此核取方塊。 取消選取此方塊，將會讓 Web 連線變得較不安全。 
+
+![啟用或停用憑證撤銷檢查](media/desktop-connect-to-web/connect-to-web-06.png)
+
 
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 連接至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰

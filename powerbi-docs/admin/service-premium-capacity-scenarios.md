@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 1bc11d94162ab2c6ed62de0825acd6e94db30291
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: a3835ff26bf86024b827edf69e19d6f603e66c2c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599401"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512876"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium 容量案例
 
@@ -28,6 +28,9 @@ ms.locfileid: "91599401"
 - [判斷是否有足夠的 CPU](#determining-whether-there-is-enough-cpu)
 
 步驟和圖表、資料表範例來自 **Power BI Premium 容量計量應用程式**，Power BI 管理員有權可存取。
+
+> [!NOTE]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 ## <a name="keeping-datasets-up-to-date"></a>將資料集保持在最新狀態
 
@@ -123,6 +126,9 @@ Power BI 系統管理員可使用應用程式中的 [查詢持續時間] 視覺�
 
 在遭遇記憶體壓力的容量中，同一視覺效果會清楚顯示使用中記憶體和總記憶體貼近，這表示無法再將其他資料集載入記憶體中。 在此情況下，Power BI 管理員可以按一下 [容量重新啟動]  (在管理入口網站的容量設定區域的 [進階選項]  中)。 重新啟動容量會將所有資料集從記憶體中清除，並允許它們視需要重新載入記憶體中 (藉由查詢或資料重新整理)。
 
+> [!NOTE]
+> 針對 Premium Gen2，系統並不需要追蹤記憶體使用量。 Premium Gen2 中的唯一限制，是針對單一成品的磁碟使用量。 磁碟使用量不能超過容量上可用的記憶體。 如需 Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+
 ![**使用中** 記憶體與 **所有** 記憶體貼近](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
 
 ## <a name="determining-whether-there-is-enough-cpu"></a>判斷是否有足夠的 CPU
@@ -141,6 +147,9 @@ CPU 飽和會表現在作業花費的時間比所需的更長，因為 CPU 嘗�
 
 在某些情況下，Power BI 管理員可以藉由建立儀表板 (會以任何資料集重新整理定期查詢快取的圖格) 而不是報表，來要求資料集擁有者建立較穩定的查詢工作負載。 這有助於避免儀表板載入時的尖峰。 對於指定的商務需求，此解決方案可能不一定可行，不過，它可以是不需要變更資料集就避免 CPU 飽和的有效方式。
 
+> [!NOTE]
+> 針對 Premium Gen2，系統會在每個成品的層級上追蹤 CPU 時間使用率，且會在容量使用率應用程式中加以顯示。 每個成品都會顯示其在指定時間範圍內的總 CPU 時間使用率。 如需 Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+
 ## <a name="acknowledgments"></a>通知
 
 本文是由資料平台 MVP 暨 [Bitwise Solutions](https://www.bitwisesolutions.com.au/) 的獨立 BI 專家 Peter Myers 所撰寫。
@@ -154,4 +163,13 @@ CPU 飽和會表現在作業花費的時間比所需的更長，因為 CPU 嘗�
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 
-||||||
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+

@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 36bbf9fcc8bcd74c46f15ebcf9bd04e86cc4a2c9
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396326"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512324"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
 本文描述如何啟用及設定 Power BI Premium 容量的工作負載。 根據預設，容量僅支援與執行 Power BI 查詢建立關聯的工作負載。 您也可以啟用及設定 **[AI (認知服務)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** 、 **[資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)** 和 **[分頁報表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** 的其他工作負載。
+
+> [!NOTE]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 ## <a name="default-memory-settings"></a>預設記憶體設定
 
@@ -31,7 +34,13 @@ ms.locfileid: "94396326"
 | **資料流程**         | 40% 預設值；40% 最小值  | 24% 預設值；24% 最小值  | 20% 預設值；12% 最小值  | 20% 預設值；5% 最小值  | 20% 預設值；3% 最小值  | 預設 20%；最小 2%   |
 | **編頁報表** | 不支援               | 不支援               | 不支援               | 20% 預設值；10% 最小值 | 20% 預設值；5% 最小值  | 20% 預設值；2.5% 最小值 |
 
+> [!NOTE]
+> 目前處於預覽狀態的 **Premium Gen2** 並不需要變更記憶體設定。 Premium Gen2 中的記憶體是由底層系統自動管理。 
+
+
 ## <a name="workload-settings"></a>工作負載設定
+
+下列各節會詳述上表中描述的工作負載設定。 
 
 ### <a name="ai-preview"></a>AI (預覽)
 
@@ -191,7 +200,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 
 1. 啟用一或多個工作負載，並設定 [最大記憶體] 及其他設定的值。
 
-1. 選取 [ **套用** ]。
+1. 選取 [ **套用**]。
 
 ### <a name="rest-api"></a>REST API
 
@@ -214,3 +223,13 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 [Power BI Desktop 自動重新整理頁面 (預覽)](../create-reports/desktop-automatic-page-refresh.md)
 
 有其他問題嗎？ [詢問 Power BI 社群](https://community.powerbi.com/)
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的調整
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

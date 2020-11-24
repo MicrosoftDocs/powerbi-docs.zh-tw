@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/20/2020
+ms.date: 11/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 5100a2a693bbabacd5659c6e805031339d188555
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483665"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668112"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>針對 XMLA 端點連線能力進行疑難排解
 
@@ -139,6 +139,36 @@ XMLA 端點可讓您針對表格式模型以及 Power BI Desktop 中建立的資
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 命令中的覆寫
 
 [Refresh 命令 (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) 中的覆寫，可供使用者選擇不同磁碟分割查詢定義或重新整理作業的資料來源定義。 目前，Power BI Premium 中 **不支援覆寫**。 Power BI Premium 中不允許「非正規繫結」錯誤。 如需其他資訊，請參閱產品文件中的「XMLA 讀取/寫入支援」。 」錯誤訊息。
+
+## <a name="errors-in-ssms---premium-gen-2"></a>SSMS 中的錯誤 - Premium Gen 2
+
+### <a name="query-execution"></a>查詢執行
+
+連線到 [Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview) 容量中的工作區時，SQL Server Management Studio 可能會顯示下列錯誤：
+
+```
+Executing the query ...
+Error -1052311437:
+```
+
+發生此錯誤的原因，是因為使用 SSMS v18.7.1 安裝的用戶端程式庫不支援工作階段追蹤。 這將會在即將推出的 SSMS 版本中解決。
+
+### <a name="refresh-operations"></a>重新整理作業
+
+使用 SSMS v18.7.1 或更低版本，在 Premium Gen2 容量中的資料集上執行長時間執行 (> 1 分鐘) 的重新整理作業時，SSMS 可能會顯示類似下列的錯誤，即使重新整理作業成功也一樣：
+
+```
+Executing the query ...
+Error -1052311437:
+The remote server returned an error: (400) Bad Request.
+
+Technical Details:
+RootActivityId: 3716c0f7-3d01-4595-8061-e6b2bd9f3428
+Date (UTC): 11/13/2020 7:57:16 PM
+Run complete
+```
+
+這是由用戶端程式庫中的已知問題所引發，其中系統並未正確追蹤重新整理要求的狀態。 這將會在即將推出的 SSMS 版本中解決。
 
 ## <a name="see-also"></a>另請參閱
 

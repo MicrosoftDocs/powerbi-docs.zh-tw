@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 41db895494c32918fedba7c27664354e45ae2f1c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92915892"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94511956"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 
@@ -30,6 +30,11 @@ Power BI Premium 是以容量為基礎的供應項目，其功能包括：
 * 比 Power BI 服務共用容量更大的規模和效能。
 * 能夠透過 Power BI 報表伺服器維護內部部署 BI 資產。
 * 一個 API 介面、一組一致的功能，並可存取內嵌式分析的最新功能。
+
+**什麼是 Power BI Premium 第 2 代？**
+
+Power BI Premium 最近已發行 **Premium Gen2**，其為新版本的 Power BI Premium，且目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需 Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+
 
 **Power BI Premium 的功能為何？它如何運作？**  
 Power BI Premium 是由 Power BI 服務中專門配置給每個組織的容量所組成。 此容量支援 Microsoft 完全受控的的專用硬體。 組織可選擇廣泛地套用容量，或根據使用者數目、工作負載需求或其他因素，將容量配置給指派的工作區，然後隨需求變更相應增加或減少。
@@ -59,7 +64,7 @@ Power BI Premium 是以容量為基礎的授權，而 Power BI Pro 是以使用�
 Power BI Premium 是根據虛擬核心數目來購買。 您可以參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)上的價格。 如需節點和虛擬核心的詳細資訊，請參閱 [Microsoft Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)。 您也可以使用此[計算機](https://powerbi.microsoft.com/calculator/)來估計可能需要多少 Premium 容量。
 
 **「容量」代表什麼意思？**  
-容量是管理員透過 Power BI Premium 容量管理入口網站佈建的一或多個節點群組。 如需詳細資訊，請參閱 [Microsoft Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)。
+容量是保留給您的組織以供應其 Power BI 使用量的計算能力數量。 其是由服務系統管理員在 Power BI Premium 系統管理入口網站的 [容量管理] 頁面中佈建。
 
 **Power BI Premium 如何計費？**  
 Power BI Premium 會依每年承諾用量按月付款。

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/10/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: def44a5cc7847d64daab466346f85f0b369d3634
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: cfde7ab3fb40885b298afeb8751525e417b487ea
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599410"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512853"
 ---
 # <a name="managing-premium-capacities"></a>管理 Premium 容量
 
@@ -24,6 +24,9 @@ ms.locfileid: "91599410"
 ## <a name="creating-and-managing-capacities"></a>建立和管理容量
 
 Power BI 管理入口網站的 [容量設定] 頁面會顯示已購買的 V 核心數目和可用的 Premium 容量。 此頁面可供全域管理員或 Power BI 服務管理員從可用的 V 核心建立 Premium 容量，或修改現有的 Premium 容量。
+
+> [!NOTE]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 建立 Premium 容量時，系統管理員必須定義：
 
@@ -57,7 +60,7 @@ Power BI 服務管理員和全域管理員可修改 Premium 容量。 具體來�
 
 需要有指派權限，才能將工作區指派給特定的 Premium 容量。 權限可以授與給整個組織、特定使用者或群組。
 
-根據預設，Premium 容量支援與執行中 Power BI 查詢相關聯的工作負載。 Premium 容量也支援額外的工作負載：**AI (認知服務)** 、**編頁報表**及**資料流程**。 每個工作負載都需要設定工作負載所能使用的最大記憶體 (以總可用記憶體百分比表示)。 請務必了解，增加的最大記憶體配置可能會影響可以裝載的作用中模型數目，以及重新整理的輸送量。 
+根據預設，Premium 容量支援與執行中 Power BI 查詢相關聯的工作負載。 Premium 容量也支援額外的工作負載：**AI (認知服務)** 、**編頁報表** 及 **資料流程**。 每個工作負載都需要設定工作負載所能使用的最大記憶體 (以總可用記憶體百分比表示)。 請務必了解，增加的最大記憶體配置可能會影響可以裝載的作用中模型數目，以及重新整理的輸送量。 
 
 記憶體會以動態方式配置給資料流程，但會以靜態方式配置給編頁報表。 以靜態方式配置最大記憶體的原因是，編頁報表是在容量的安全容納空間內執行。 設定編頁報表記憶體時應特別小心，因為它會減少用於載入模型的可用記憶體。 若要深入了解，請參閱[預設記憶體設定](service-admin-premium-workloads.md#default-memory-settings)。
 
@@ -103,7 +106,7 @@ Power BI 服務管理員和全域管理員可修改 Premium 容量。 具體來�
 
 若要深入了解每個工作負載的所有可用計量，請參閱[在管理入口網站中監視容量](service-admin-premium-monitor-portal.md)。
 
-Power BI 管理入口網站中的監視功能用來提供主要容量計量的快速摘要。 為了更詳細地監視，建議您使用 **Power BI Premium 容量計量**應用程式。
+Power BI 管理入口網站中的監視功能用來提供主要容量計量的快速摘要。 為了更詳細地監視，建議您使用 **Power BI Premium 容量計量** 應用程式。
 
 ### <a name="power-bi-premium-capacity-metrics-app"></a>Power BI Premium 容量計量應用程式
 
@@ -133,9 +136,9 @@ Power BI 管理入口網站中的監視功能用來提供主要容量計量的�
 
 一般來說，緩慢的報告可能表示容量過熱。 當報表無法載入時，這表示容量過熱。 在這兩種情況下，根本原因可能是由許多因素所造成，包括：
 
-- **失敗的查詢**清楚顯示出記憶體壓力，而且無法將模型載入記憶體中。 Power BI 服務會嘗試在失敗前載入模型 30 秒。
+- **失敗的查詢** 清楚顯示出記憶體壓力，而且無法將模型載入記憶體中。 Power BI 服務會嘗試在失敗前載入模型 30 秒。
 
-- **過多的查詢等候時間**可能是由於數個原因所造成：
+- **過多的查詢等候時間** 可能是由於數個原因所造成：
   - Power BI 服務需要先收回模型，再載入待查詢的模型 (請記得較高的資料集收回率本身並不表示容量壓力，除非伴隨著指出記憶體過度置換的長時間查詢等候時間)。
   - 模型載入時間 (尤其是等待將大型模型載入記憶體中)。
   - 長時間執行的查詢。
@@ -143,12 +146,12 @@ Power BI 管理入口網站中的監視功能用來提供主要容量計量的�
   - CPU 飽和度。
   - 頁面上具有過多視覺效果的複雜報表設計 (請記得每個視覺效果都是一個查詢)。
 
-- **查詢時間長**可能表示模型設計並未最佳化，特別是當多個資料集在容量中為使用中，而只有一個資料集的查詢時間長時。 這表明容量有足夠的資源，而所討論的資料集處於次佳狀況，或者只是緩慢。 長時間執行的查詢可能會造成問題，因為它們會阻礙其他處理程序對所需資源的存取。
-- **長時間重新整理等候時間**指出由於有許多耗用記憶體的使用中模型而導致記憶體不足，或是有問題的重新整理封鎖了其他重新整理 (超過平行重新整理限制)。
+- **查詢時間長** 可能表示模型設計並未最佳化，特別是當多個資料集在容量中為使用中，而只有一個資料集的查詢時間長時。 這表明容量有足夠的資源，而所討論的資料集處於次佳狀況，或者只是緩慢。 長時間執行的查詢可能會造成問題，因為它們會阻礙其他處理程序對所需資源的存取。
+- **長時間重新整理等候時間** 指出由於有許多耗用記憶體的使用中模型而導致記憶體不足，或是有問題的重新整理封鎖了其他重新整理 (超過平行重新整理限制)。
 
 [最佳化 Premium 容量](service-premium-capacity-optimize.md)一文涵蓋如何使用計量的詳細說明。
 
-## <a name="acknowledgements"></a>致謝
+## <a name="acknowledgments"></a>通知
 
 本文是由資料平台 MVP 暨 [Bitwise Solutions](https://www.bitwisesolutions.com.au/) 的獨立 BI 專家 Peter Myers 所撰寫。
 
@@ -161,3 +164,12 @@ Power BI 管理入口網站中的監視功能用來提供主要容量計量的�
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

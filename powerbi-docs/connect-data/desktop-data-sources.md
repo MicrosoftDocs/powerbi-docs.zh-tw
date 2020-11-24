@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 143d4a51a403563b337c753055fa56e9c25edc26
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256455"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560026"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -90,7 +90,6 @@ ms.locfileid: "92256455"
 * Snowflake
 * Essbase
 * AtScale Cube
-* BI 連接器 
 * Data Virtuality LDW (搶鮮版 (Beta))
 * Denodo
 * Dremio
@@ -100,8 +99,10 @@ ms.locfileid: "92256455"
 * Jethro (搶鮮版 (Beta))
 * Kyligence
 * Linkar PICK Style / MultiValue Databases (搶鮮版 (Beta))
-* MarkLogic
 * MariaDB (搶鮮版 (Beta))
+* MarkLogic
+* BI 連接器
+* Actian (搶鮮版 (Beta))
 
 > [!NOTE]
 > 某些資料庫連接器的啟用方式為選取 **[檔案] > [選項和設定] > [選項]** ，然後選取 [預覽功能] 並啟用該連接器。 如果您沒有看到上述連接器，但想要加以使用，請檢查您的 [預覽功能] 設定。 亦請注意，任何標示為 *Beta* 或「預覽」的資料來源，受到的支援和功能都有限制，不應該用在生產環境。
@@ -141,8 +142,8 @@ ms.locfileid: "92256455"
 * Azure HDInsight Spark
 * HDInsight 互動式查詢
 * Azure 成本管理
-* Azure 時間序列深入解析 (Beta)
 * Azure Databricks
+* Azure 時間序列深入解析 (Beta)
 
 
 下圖顯示 [Azure]  的 [取得資料] 視窗。
@@ -185,21 +186,21 @@ ms.locfileid: "92256455"
 * Emigo 資料來源
 * Entersoft 商務套件 (搶鮮版 (Beta))
 * FactSet Analytics
-* Hexagon PPM 智慧型 API
+* Palantir Foundry
+* 企業 App Store
 * Intune 資料倉儲 (搶鮮版 (Beta))
 * Microsoft Graph 安全性 搶鮮版 (Beta)
+* Projectplace for Power BI
 * Product Insights (搶鮮版 (Beta))
 * Quick Base
+* Spigit (搶鮮版 (Beta))
 * TeamDesk (搶鮮版 (Beta))
 * Webtrends 分析 (搶鮮版 (Beta))
 * Witivio (搶鮮版 (Beta))
 * 工作場所分析 (搶鮮版 (Beta))
 * Zoho Creator (搶鮮版 (Beta))
-* Palantir Foundry
-* 企業 App Store
-* Projectplace for Power BI
 * eWay-CRM (搶鮮版 (Beta))
-* Spigit (搶鮮版 (Beta))
+* Hexagon PPM 智慧型 API
 
 
 下圖顯示 [線上服務] 的 [取得資料] 視窗。
@@ -217,7 +218,7 @@ ms.locfileid: "92256455"
 * Microsoft Exchange
 * Hadoop 檔案 (HDFS)
 * Spark
-* Hive LLAP (搶鮮版 (Beta))
+* Hive LLAP
 * R 指令碼
 * Python 指令碼
 * ODBC
@@ -242,6 +243,8 @@ ms.locfileid: "92256455"
 * Vena (搶鮮版 (Beta))
 * Vessel 見解 (搶鮮版 (Beta))
 * Zucchetti HR Infinity (搶鮮版 (Beta))
+* Anaplan Connector v1.0 (搶鮮版 (Beta))
+* Starburst Enterprise Presto (搶鮮版 (Beta))
 * 空白查詢
 
 

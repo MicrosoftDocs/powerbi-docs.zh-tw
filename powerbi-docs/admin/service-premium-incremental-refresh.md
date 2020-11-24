@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 06/22/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 0e55aa6fbfc1fadb529c6c321d7d97d3f48d569d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 6ca4257f73837b68d76734ea503e8f83e0d5ba49
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599040"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512945"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的累加式重新整理
 
@@ -27,6 +27,10 @@ ms.locfileid: "91599040"
 
 > [!NOTE]
 > 累加式重新整理現在可供 Power BI Pro、Premium 及共用訂用帳戶與資料集使用。
+
+> [!NOTE]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 Premium Gen2 能透過啟用自動擴縮來避免重新整理衝突，來大幅改善排程的重新整理。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+
 
 ## <a name="configure-incremental-refresh"></a>設定累加式重新整理
 
@@ -248,3 +252,14 @@ pollingExpression 的目標是輕量 M 運算式或另一個 M 查詢的名稱�
 
 [與 XMLA 端點的資料集連線能力](service-premium-connect-tools.md)   
 [對重新整理進行疑難排解的案例](../connect-data/refresh-troubleshooting-refresh-scenarios.md)
+
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

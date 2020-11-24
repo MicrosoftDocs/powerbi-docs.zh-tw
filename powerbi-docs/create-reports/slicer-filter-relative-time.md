@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: a8268af76472c91474f2f67bc256fcc0ddcc9768
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409505"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669216"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相對時間交叉分析篩選器與篩選條件
 
@@ -90,10 +90,7 @@ ms.locfileid: "86409505"
 目前相對時間交叉分析篩選器和篩選條件都適用下列限制與考量。
 
 - **時區考量**：Power BI 中的資料模型不包含時區資訊。 模型可以儲存時間，但無法指出所在時區。 交叉分析篩選器和篩選條件一律以 UTC 時區為基礎。 若在報表中設定篩選條件，並將其傳送給不同時區的同事，則兩人會看到相同的資料。 除非您或您的同事位於 UTC 時區，否則雙方都必須將時間位移納入考量。 使用查詢編輯器將在本地時區中擷取到的資料轉換成 UTC。
-- Power BI Desktop、Power BI 服務、Power BI Embedded 和 Power BI 行動應用程式都支援這個新的篩選條件類型。 但是，仍有幾個已知的支援限制：
-
-    - 其無法透過內嵌 API 支援。
-    - 不支援發佈至 Web。
+- Power BI Desktop、Power BI 服務、Power BI Embedded 和 Power BI 行動應用程式都支援這個新的篩選條件類型。 不過，其不支援 [發行至 Web]。
 
 - **查詢快取**：我們會使用用戶端快取。 假設您指定「最後 1 分鐘」，然後指定「最後 5 分鐘」，最後又回到「最後 1 分鐘」。 此時，除非重新整理頁面或頁面自動重新整理，否則會看到與其第一次執行時相同的結果。
 

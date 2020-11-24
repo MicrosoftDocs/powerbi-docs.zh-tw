@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 2c06464999192e71c2d398f41b7b96e8fa4a169b
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983474"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668388"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式
 
-使用 **Azure 中的 Power BI Embedded** 或**內嵌在 Office 的 Power BI**，可利用應用程式擁有的資料，將編頁報表內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV** 或**開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中編頁報表的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 本教學課程示範如何使用 Power BI .NET SDK 搭配 Power BI JavaScript API，將編頁報表整合至應用程式。
+使用 **Azure 中的 Power BI Embedded** 或 **內嵌在 Office 的 Power BI**，可利用應用程式擁有的資料，將編頁報表內嵌至應用程式。 **應用程式擁有的資料** 即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV** 或 **開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中編頁報表的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 本教學課程示範如何使用 Power BI .NET SDK 搭配 Power BI JavaScript API，將編頁報表整合至應用程式。
 
 ![Power BI 內嵌報表](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
@@ -39,7 +39,8 @@ ms.locfileid: "91983474"
 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
 
 > [!IMPORTANT]
-> * 您必須使用**服務主體**。 不支援主要使用者。
+> * 您必須使用 **服務主體**。 不支援主要使用者。
+>* 不支援 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md)。 您可以使用 PPU 來搭配解決方案進行實驗，但您將無法[移至實際執行環境](embed-sample-for-customers.md#move-to-production)。
 > * 不支援需要單一登入 (SSO) 的資料來源。 如需支援的資料集和驗證方法清單，請參閱 [Power BI 編頁報表支援的資料來源](../../paginated-reports/paginated-reports-data-sources.md)。 
 > * 不支援將 Power BI 資料集作為[資料來源](../../connect-data/service-get-data.md)。
 
@@ -107,7 +108,7 @@ ms.locfileid: "91983474"
 
 ### <a name="application-id"></a>應用程式識別碼
 
-使用從 **Azure** 取得的**應用程式識別碼**填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。
+使用從 **Azure** 取得的 **應用程式識別碼** 填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。
 
 若要取得 **applicationId**，請遵循下列步驟：
 
@@ -121,7 +122,7 @@ ms.locfileid: "91983474"
 
     ![螢幕擷取畫面顯示應用程式的顯示名稱，並已選取需要應用程式識別碼的應用程式。](media/embed-paginated-reports-for-customers/display-name.png)
 
-4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
+4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此 **應用程式識別碼** 作為應用程式的 **applicationId**。
 
     ![applicationId](media/embed-paginated-reports-for-customers/application-id.png)
 
@@ -177,7 +178,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 5. 選取 [新增用戶端祕密]。
 
-6. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
+6. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的 **值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
 
     ![金鑰值](media/embed-paginated-reports-for-customers/client-secret.png)
 
@@ -205,7 +206,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 在應用程式中針對客戶內嵌 Power BI 編頁報表時，您必須先具有 **Azure AD** [服務主體](embed-service-principal.md)，並取得 Power BI 應用程式的 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，之後才能呼叫 [Power BI REST API](/rest/api/power-bi/)。
 
-為了使用**存取權杖**建立 Power BI 用戶端，請建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起來建立 Power BI 用戶端物件。
+為了使用 **存取權杖** 建立 Power BI 用戶端，請建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 **_Microsoft.Rest.TokenCredentials_* _ 物件包裝在一起來建立 Power BI 用戶端物件。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -227,7 +228,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 下列程式碼範例示範如何從指定工作區中擷取第一份報表。
 
-*取得您要內嵌的報表、儀表板或圖格的內容項目範例，位於[範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 檔案內。*
+「無論您想要內嵌報表、儀表板或磚，您都可以在[範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 檔案中，找到如何取得的該內容項目的範例。」_*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -244,7 +245,7 @@ Report report = reports.Value.FirstOrDefault();
 
 產生可從 JavaScript API 使用的內嵌權杖。 若要為內嵌 Power BI 編頁報表建立內嵌權杖，請使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) \(英文\) API。
 
-您可以在[範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples)的  *Services\EmbedService.cs* 檔案內取得建立內嵌權杖的範例。
+您可以在 [範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples) \(英文\) 的 *Services\EmbedService.cs* 檔案內取得建立內嵌權杖的範例。
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

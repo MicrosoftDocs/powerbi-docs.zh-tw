@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 908aa715c31396485bcebfaa7227f3241cb02fb8
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045132"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668549"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>將分頁報表匯出至檔案 (預覽)
 
@@ -122,6 +122,8 @@ ms.locfileid: "93045132"
       }
 }
 ```
+## <a name="ppu-concurrent-requests"></a>PPU 並行要求數
+使用 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md) 時，`exportToFile` API 允許在五分鐘時間範圍內發出一個要求。 若五分鐘時間範圍內有多個 (多於一個) 要求，將會導致「太多要求」(429) 錯誤。
 
 ## <a name="code-examples"></a>程式碼範例
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/29/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 6f64db7be452cf5873a862f378f558bc4f177c56
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483943"
+ms.locfileid: "94513037"
 ---
 # <a name="tips-and-tricks-for-formatting-in-reports"></a>在報表中設定格式的祕訣與訣竅
 
@@ -40,12 +40,12 @@ Power BI 提供許多不同的方式，用來自訂您的報表。 本文詳細�
 
 當 [篩選] 和 [視覺效果] 窗格顯示於報表畫布右側時，即可開始進行自訂。 如果窗格沒有顯示，請選取右上角的箭號予以開啟。
 
-![在 [編輯檢視] 中的報表畫布](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![在 [編輯檢視] 中的報表畫布](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-filter.png)
 
 ## <a name="apply-a-theme"></a>套用佈景主題
 透過報表主題，您可以將設計變更套用至整個報表，例如使用公司色彩、變更圖示集，或套用新的預設視覺效果格式。 當您套用報表主題時，報表中的所有視覺效果都會使用所選主題中的色彩和格式。 若要深入了解，請參閱[使用報表主題](../create-reports/desktop-report-themes.md)
 
-![功能表列中的切換主題圖示](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
+![功能表列中的切換主題圖示](media/service-tips-and-tricks-for-color-formatting/power-bi-themes.png)
 
 在這裡，我們已將 [創新] 主題套用至銷售與行銷報表。
 
@@ -56,13 +56,13 @@ Power BI 提供許多不同的方式，用來自訂您的報表。 本文詳細�
 
 下列視覺效果會依產品區段來排列單位銷售的次序。 
 
-![將資料色彩變更為灰色](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
+![將資料色彩變更為灰色](media/service-tips-and-tricks-for-color-formatting/power-bi-format.png)
 
 假設您想要使用色彩來凸顯 [Convenience] \(方便\) 區段，以強調這個全新區段的良好表現。 以下是步驟：
 
 展開 [資料色彩] 卡片並開啟 [全部顯示] 的滑桿。 這會顯示視覺效果中每個資料項目的色彩。 您現在可以修改任何資料點。
 
-![[全部顯示] 已設定為 [開啟] 的 [格式] 窗格](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![[全部顯示] 已設定為 [開啟] 的 [格式] 窗格](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
 將 [Convenience] \(方便\) 設為橘色。 
 
@@ -84,9 +84,9 @@ Power BI 提供許多不同的方式，用來自訂您的報表。 本文詳細�
 下列章節將說明不同的方式，用來依據數值設定色彩。
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>根據值設定資料點的色彩
-若要根據值變更色彩，請選取要啟用的視覺效果。 選取油漆滾筒圖示來開啟 [格式化] 窗格，然後開啟 [資料色彩] 卡片。 將滑鼠停留在卡片上，並選取出現的三個垂直點，然後選擇 [條件式格式設定]。  
+若要根據值變更色彩，請選取要啟用的視覺效果。 選取油漆滾筒圖示來開啟 [格式化] 窗格，然後選擇 [資料色彩] 卡片。 在 [預設色彩] 下方，選取 [fx] 圖示。  
 
-![按一下三個垂直點以選取 [條件式格式設定] 選項](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
+![按一下三個垂直點以選取 [條件式格式設定] 選項](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional.png)
 
 在 [預設色彩] 窗格中，使用下拉式清單來識別要用於條件式格式設定的欄位。 在此範例中，我們已選取 [銷售事實] > [總單位] 欄位，並為 [最小值] 選取淺藍色，以及為 [最大值] 選取深藍色。 
 

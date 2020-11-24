@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/17/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 8768801f2d704644c888a14caf9b930dcd27f8fa
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 183885336f6f76304ba051599efa48d81111264a
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501964"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718952"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -122,6 +122,7 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
 - 訂閱目前不支援書籤。
 - 當您編輯現有的訂閱時，一律會顯示啟用提供報表/儀表板存取權的選項。  如果您清除此選項並儲存訂閱，即會儲存該狀態。 不過，當您重新編輯報表時，預設又會勾選此選項。
 - 如果有備用電子郵件地址，但沒有主要電子郵件地址，Power BI 會使用備用電子郵件地址來傳遞訂閱。
+- 如果您為外部使用者訂閱報表或儀表板，則當您選取訂用帳戶窗格中的 [儲存後關閉] 之後，外部使用者將會立即收到共用通知。 此通知只會傳送給外部使用者，而不會傳送給內部使用者，因外部使用者需要邀請連結才能檢視報表或儀表板。 
 
 ### <a name="dashboards"></a>儀表板
 

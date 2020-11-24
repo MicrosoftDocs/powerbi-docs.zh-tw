@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 3ed27c97169c1b4a579dadb001555445fe8fc43f
-  ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+  ms.openlocfilehash: 9ef1261357bc5a41820fd4ad2e9eacd17d725bf8
+  ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/29/2020
-  ms.locfileid: "92916766"
+  ms.lasthandoff: 11/24/2020
+  ms.locfileid: "95513749"
 highlightedContent:
   items:
   - title: 搭配 Power BI 使用內嵌式分析
@@ -30,9 +30,9 @@ highlightedContent:
   - title: Power BI 的視覺效果
     itemType: overview
     url: visuals/power-bi-custom-visuals.md
-  - title: 開發人員可如何利用 Power BI API？
-    itemType: overview
-    url: automation/overview-of-power-bi-rest-api.md
+  - title: 自動化範本應用程式設定
+    itemType: concept
+    url: template-apps/template-apps-auto-install.md
 conceptualContent:
   items:
   - title: 內嵌式分析
@@ -97,7 +97,7 @@ additionalContent:
       summary: Power BI 範例與其程式碼程式庫的集合。
       url: visuals/samples.md
     - title: Power BI 程式庫
-      summary: Power BI 程式庫 (NuGets)。
+      summary: Power BI 程式庫 (NuGet)。
       url: https://www.nuget.org/profiles/powerbi
     - title: 內嵌安裝工具
       summary: 設定您的 Power BI 內嵌環境。

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/23/2020
+ms.date: 11/11/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 358d0575c2de3297614bfed0656d953945b2ed13
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 653ab67828c055d2846a698bf12f14eec304a2bf
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502148"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560098"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>設定 Power BI 報表中的篩選
 
@@ -246,13 +246,13 @@ Power BI Desktop 在預覽中有新的功能區。 在 [檢視] 索引標籤上�
 
     :::image type="content" source="media/power-bi-report-filter/power-bi-persistent-filters.png" alt-text="[不允許終端使用者儲存對此報表的篩選] 的螢幕擷取畫面。":::
 
-## <a name="apply-filters-apply-button-preview"></a>套用篩選的 [套用] 按鈕 (預覽)
+## <a name="apply-filters-button"></a>[套用篩選] 按鈕
 
 可新增單一 [套用] 按鈕至篩選窗格，以讓您和終端使用者一次套用所有篩選修改。 若要延遲套用篩選變更，此按鈕會很有用。 當準備好要將所有篩選變更套用至報表或視覺效果之後，只需要等候一次。
 
 :::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="[套用篩選] 按鈕":::
 
-### <a name="turn-on-apply"></a>開啟套用
+### <a name="turn-on-the-apply-button"></a>開啟 [套用] 按鈕
 
 您可在報表層級設定這項功能。 不過，此功能預設為關閉。
 
@@ -260,12 +260,13 @@ Power BI Desktop 在預覽中有新的功能區。 在 [檢視] 索引標籤上�
 
 1. 選取 [Add a single Apply button to the filter pane to apply changes at once] \(將一個 [套用] 按鈕新增到篩選窗格以一次套用變更\)。
 
-    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="開啟 [套用篩選] 按鈕":::
+    :::image type="content" source="media/power-bi-report-filter/apply-all-filters.png" alt-text="開啟 [套用篩選] 按鈕":::
 
 ### <a name="format-the-apply-button"></a>設定 [套用] 按鈕的格式
 
 目前，您可控制按鈕其 [套用] 文字的部分格式設定。 在 [格式] 窗格的 [篩選窗格] 區段中，設定下列選項：
 
+- [核取方塊及 [套用] 色彩] 可控制填滿色彩。 
 - [字型和圖示色彩] 可控制文字色彩。
 - [標頭文字大小] 可控制文字大小。
 - [字型系列] 可控制字型。

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 10/29/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 93d982c684014430009a80112da841820e7b0fc9
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: b0132996be1ed70f228ce96d413c4925dc1a3e48
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396376"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512761"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>設定 Power BI Premium 的多地理位置支援
 
@@ -35,9 +35,12 @@ ms.locfileid: "94396376"
 
 您現在也可以在 Power BI Embedded 中找到多地理位置功能。 如需詳細資訊，請參閱 [Power BI Embedded 中的多地理位置支援](../developer/embedded/embedded-multi-geo.md)。
 
+> [!NOTE]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+
 ## <a name="enable-and-configure"></a>啟用及設定
 
-針對新的容量，請從下拉式清單中選取預設區域以外的區域，以啟用多地理位置。  每個可用的容量都會顯示其目前所在的區域，例如 **美國中西部** 。
+針對新的容量，請從下拉式清單中選取預設區域以外的區域，以啟用多地理位置。  每個可用的容量都會顯示其目前所在的區域，例如 **美國中西部**。
 
 ![容量大小：選取一個區域。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
 
@@ -107,3 +110,13 @@ ms.locfileid: "94396376"
 - [Power BI Embedded 容量的多地理位置](../developer/embedded/embedded-multi-geo.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

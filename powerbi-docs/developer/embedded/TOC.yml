@@ -44,10 +44,10 @@
           href: embedded-faq.md
     - name: 如何
       items:
-        - name: 使用具有憑證的服務主體進行內嵌
-          href: embed-service-principal-certificate.md
-        - name: 使用具有應用程式祕密的服務主體進行內嵌
+        - name: 使用服務主體進行內嵌
           href: embed-service-principal.md
+        - name: 使用服務主體與憑證進行內嵌
+          href: embed-service-principal-certificate.md
         - name: 從應用程式內嵌
           href: embed-from-apps.md
         - name: 將報告匯出至檔案

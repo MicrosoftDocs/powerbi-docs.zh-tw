@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 58d1adef9a9b2a8a4f818f94da2cb34e6529db83
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/21/2020
+ms.openlocfilehash: b0b8d61224a91cd069caf48a2d321979ac2d291d
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855487"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513290"
 ---
 # <a name="introduction-to-deployment-pipelines"></a>部署管線的簡介
 
 在現今的世界中，分析是在幾乎每個組織中進行決策的重要部分。 Power BI 作為分析工具的用途日益增加，要求其使用更多的資料、吸引人且方便使用。 不過，在所有的情況下，Power BI 必須一律是可用且可靠的。 為了符合這些需求，BI 建立者必須有效率地共同作業。
 
-部署管線工具可供 BI 建立者管理組織內容的生命週期。 這項工具對於企業中具有 Premium 容量的建立者而言相當有效率，且可重複使用。 這項工具可供建立者在使用者使用 Power BI 內容之前，事先開發並測試內容。 內容的類型包括報表、儀表板以及資料集。
+部署管線工具可供 BI 建立者管理組織內容的生命週期。 其對具有 Premium 容量之企業中的建立者而言是相當有效率且可重複使用的工具。 部署管線讓建立者能夠在使用者取用 Power BI 內容之前，先開發並測試該內容。 內容的類型包括報表、儀表板以及資料集。
 
 此工具的設計是具有三個階段的管線：
 
@@ -29,7 +29,7 @@ ms.locfileid: "90855487"
 
 * **<a name="test"></a>測試**
 
-    您已準備好在對內容進行所有變更之後進入測試階段。 您要上傳已修改的內容，以便進入該內容的測試階段。 以下是在測試環境中可使用的三個範例：
+    在對內容進行所有必要變更之後，您已準備好進入測試階段。 您要上傳已修改的內容，以便進入該內容的測試階段。 以下是在測試環境中可使用的三個範例：
 
     * 與測試人員和檢閱者共用內容
 

@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 54ee992aa47d10801079aa7a2cdcc9dd6718fc21
-  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+  ms.openlocfilehash: 4661f77189c65100fac2f9dd916c2d3179fd3966
+  ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/06/2020
-  ms.locfileid: "91748326"
+  ms.lasthandoff: 11/24/2020
+  ms.locfileid: "95514577"
 landingContent:
 - title: 開始使用
   linkLists:
@@ -37,6 +37,8 @@ landingContent:
       url: walkthrough-push-data-get-datasets.md
     - text: 將資料列加入 Power BI 資料表
       url: walkthrough-push-data-add-rows.md
+    - text: 教學課程：自動化範本應用程式設定
+      url: ../template-apps/template-apps-auto-install-tutorial.md
 - title: 使用資料
   linkLists:
   - linkListType: concept
@@ -47,6 +49,8 @@ landingContent:
       url: api-rest-api-limitations.md
     - text: 資料集屬性
       url: api-dataset-properties.md
+    - text: 自動化範本應用程式設定
+      url: ../template-apps/template-apps-auto-install.md
   - linkListType: how-to-guide
     links:
     - text: 設定認證

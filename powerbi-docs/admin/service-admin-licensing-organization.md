@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/24/2020
+ms.date: 11/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 86a28c1d89537a59bf96d82fb3df87a4a0ccf391
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 46d620df1140d4fea8ffb9b4bdb9dd292e3659cd
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916076"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512278"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>將 Power BI 服務授權提供給組織中的使用者
 
-使用者可在 Power BI 服務中執行的動作取決於每位使用者所擁有授權類型。 其授權所提供的存取等級取決於所要存取工作區是否已指派給 Power BI Premium 容量。 Power BI 服務的所有使用者都必須具備授權。
+使用者可在 Power BI 服務中執行的動作取決於每位使用者所擁有授權類型。 其授權所提供的存取層級取決於所要存取工作區是否為 Premium 工作區。 Power BI 服務的所有使用者都必須具備授權。
 
-使用者可透過兩種方式取得授權。 使用者可以使用自助式註冊功能及其工作或學校帳戶，來取得自己的免費或 Pro 授權。 或是管理員可以取得 Power BI 訂用帳戶，然後將授權指派給使用者。
+使用者可透過兩種方式取得授權。 使用者可以使用自助式註冊功能與其公司或學校帳戶，來取得自己的免費或 Pro 或 Premium Per User 授權。 或者，管理員可以取得 Power BI 授權，然後將授權指派給使用者。
 
 此文章著重於從管理員觀點購買服務和個別使用者授權。 如需有關使用者如何取得自己授權的詳細資訊，請參閱[以個人身分註冊 Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)。
 
@@ -45,7 +45,7 @@ ms.locfileid: "92916076"
 
 ## <a name="about-self-service-sign-up"></a>關於自助式註冊
 
-個別使用者可以使用其工作或學校帳戶來進行註冊，以取得自己的 Power BI 授權。 使用免費授權時，使用者可使用 [我的工作區] 來探索 Power BI 以檢視個人資料分析和視覺效果，但無法與其他使用者共用。 必要具備 Power BI Pro 授權，才能共用內容。 如果組織使用商務雲端，則使用者可將其授權類型升級至 Pro 或直接註冊 Pro。 直接購買或升級至 Pro 並不適用於教育組織，或部署至 Azure Government、Azure 德國，或 Azure China 21Vianet 雲端的組織。
+個別使用者可以使用其工作或學校帳戶來進行註冊，以取得自己的 Power BI 授權。 使用免費授權時，使用者可使用 [我的工作區] 來探索 Power BI 以檢視個人資料分析和視覺效果，但無法與其他使用者共用。 必要具備 Power BI Pro 授權，才能共用內容。 Power BI Premium 授權能解除僅能透過 Premium 與內容類型的存取鎖定。 Premium Per User Premium 授權會將這些功能的存取限制為僅供其他具有 Premium Per User 授權的使用者使用，而容量型 Premium 授權則允許具有免費授權的使用者存取任何內容，同時只有具有 Pro 授權的使用者可以建立內容。 如果組織使用商務雲端，則使用者可將其授權類型升級至 Pro 或直接註冊 Pro。 直接購買或升級至 Pro 並不適用於教育組織，或部署至 Azure Government、Azure 德國，或 Azure China 21Vianet 雲端的組織。
 
 如果不想讓組織中的使用者使用自助式註冊，請參閱[啟用或停用自助式註冊](service-admin-disable-self-service.md)，以了解如何關閉此功能。
 
@@ -63,30 +63,30 @@ ms.locfileid: "92916076"
 
 ## <a name="license-types-and-capabilities"></a>授權類型與功能
 
-Power BI 個別使用者授權有兩種：免費和 Pro。 使用者需要哪種類型的授權，取決於內容的儲存位置及他們將與該內容互動的方式。 內容可儲存在哪裡，取決於您組織的[訂用帳戶類型](#subscription-types)。
+有兩種 Power BI 個別使用者授權：免費的 Pro 與 Premium。 使用者需要哪種類型的授權，取決於內容的儲存位置、他們將與該內容互動的方式，以及該內容是否使用 Premium 功能。 內容可儲存在哪裡，會取決於您組織的[授權類型](#license-types)。
 
-其中一種訂用帳戶類型 [Power BI Premium](service-admin-premium-purchase.md) 可讓具備免費授權的使用者操作已指派給 Premium 容量之工作區中的內容。 在 Premium 容量之外，具備免費授權的使用者則只能使用 Power BI 服務來連線到資料，然後在 [我的工作區] 中建立報表和儀表板。 這些使用者無法與其他人共用內容，或將內容發佈至其他工作區。 若要深入了解工作區類型，請參閱[工作區類型](../consumer/end-user-workspaces.md#types-of-workspaces)。
+其中一種授權類型是 [Power BI Premium](service-admin-premium-purchase.md) 容量型授權，其可讓具備免費授權的使用者操作已指派給 Premium 容量之工作區中的內容。 在 Premium 容量之外，具備免費授權的使用者則只能使用 Power BI 服務來連線到資料，然後在 [我的工作區] 中建立報表和儀表板。 這些使用者無法與其他人共用內容，或將內容發佈至其他工作區。 若要深入了解工作區類型，請參閱[工作區類型](../consumer/end-user-workspaces.md#types-of-workspaces)。
 
-標準 Power BI 訂用帳戶會使用共用容量。 如果內容儲存在共用容量中，則獲指派 Power BI Pro 授權的使用者只能與其他 Power BI Pro 使用者共同作業。 他們可以取用其他使用者所共用的內容、將內容發佈到應用程式工作區、共用儀表板，以及訂閱儀表板和報表。  當工作區在 Premium 容量中時，Pro 使用者可將內容散發給沒有 Power BI Pro 授權的使用者。
+具有免費及 Pro 個別使用者授權的 Power BI 授權，只能使用共用且受限的容量來處理內容。 如果內容儲存在該共用容量中，則獲指派 Power BI Pro 授權的使用者只能與其他 Power BI Pro 使用者共同作業。 他們可以取用其他使用者所共用的內容、將內容發佈到應用程式工作區、共用儀表板，以及訂閱儀表板和報表。  當工作區在 Premium 容量中時，Pro 使用者可將內容散發給沒有 Power BI Pro 授權的使用者。
 
-下表摘要說明每個授權類型的基本功能。 如需每一授權類型的詳細功能可用性明細，請參閱[依授權類型排列的功能](../fundamentals/service-features-license-type.md)。
+使用 Premium Per User 授權時，由具有 Premium Per User 授權的使用者所建立的內容，只能與其他具有 Premium 授權的使用者共用，除非該內容是特別置於裝載在 Premium 容量上的工作區中。 下表摘要說明每個授權類型的基本功能。 如需每一授權類型的詳細功能可用性明細，請參閱[依授權類型排列的功能](../fundamentals/service-features-license-type.md)。
 
 | 授權類型 | 工作區在共用容量中時的功能 | 工作區在 Premium 容量中時的額外功能 |
 | --------- | ----------- | ----------- |
 | Power BI (免費) | 存取我的工作區中的內容 | 取用與其共用的內容 |
 | Power BI Pro | 將內容發佈到其他工作區、共用儀表板、訂閱儀表板和報表、與具備 Pro 授權的使用者共用 | 將內容散發給具備免費授權的使用者 |
 
-## <a name="subscription-types"></a>訂用帳戶類型
+## <a name="license-types"></a>授權類型
 
-所有來自 Microsoft 的使用者型商業授權訂用帳戶都是以 Azure Active Directory 身分識別為基礎。 若要使用 Power BI 服務，則必須使用 Azure Active Directory 支援的商業授權身分識別來登入。 您可將 Power BI 新增至任何使用 Azure Active Directory 作為身分識別服務的 Microsoft 訂用帳戶。 某些訂用帳戶 (例如 Office 365 E5) 包含 Power BI Pro 授權，因此無須個別註冊 Power BI。
+所有來自 Microsoft 的使用者型商業授權都是以 Azure Active Directory 身分識別為基礎。 若要使用 Power BI 服務，則必須使用 Azure Active Directory 支援的商業授權身分識別來登入。 您可以將 Power BI 新增至任何使用 Azure Active Directory 作為識別服務的 Microsoft 授權。 某些授權 (例如 Office 365 E5) 包含 Power BI Pro 授權，因此無須個別註冊 Power BI。
 
-組織可使用兩種類型的 Power BI 訂用帳戶：標準版與進階版。
+組織可使用兩種類型的 Power BI 授權：標準版與進階版。
 
-使用標準自助 Power BI Pro 訂用帳戶時，管理員可以指派個別使用者授權。 Power BI Pro 授權會針對每位使用者按月收費。 此授權類型可進行共同作業、發佈、共用以及特定分析。 內容會儲存到完全由 Microsoft 管理的共用儲存體容量。
+使用標準的自助式 Power BI Pro 授權時，管理員可以指派個別使用者授權。 Power BI Pro 授權會針對每位使用者按月收費。 此授權類型可進行共同作業、發佈、共用以及特定分析。 內容會儲存到完全由 Microsoft 管理的共用儲存體容量。
 
-Power BI Premium 訂閱會為組織配置容量。 Premium 適用於企業 BI、巨量資料分析及雲端與內部部署報告，可提供進階的管理和部署控制。 專用計算與儲存體資源是由您組織中的容量管理員所管理。 此專用環境有每月費用。 除了其他 Premium 優點之外，儲存在 Premium 容量中的內容還可供沒有 Power BI Pro 授權的使用者存取，以及散發給這些使用者。 必須至少有一位使用者獲指派 Power BI Pro 授權，才能使用 Premium，而內容建立者與開發人員則仍然需要 Power BI Pro 授權。
+Power BI Premium 授權會為組織配置容量。 Premium 適用於企業 BI、巨量資料分析及雲端與內部部署報告，可提供進階的管理和部署控制。 專用計算與儲存體資源是由您組織中的容量管理員所管理。 此專用環境有每月費用。 除了其他 Premium 優點之外，儲存在 Premium 容量中的內容還可供沒有 Power BI Pro 授權的使用者存取，以及散發給這些使用者。 必須至少有一位使用者獲指派 Power BI Pro 授權，才能使用 Premium，而內容建立者與開發人員則仍然需要 Power BI Pro 授權。
 
-這兩種訂用帳戶類型並不互斥。 您可以同時具備 Power BI Premium 和 Power BI Pro。 在此組態中，儲存在 Premium 容量中的內容可以與所有使用者共用，且共用容量也可供使用。 如需有關容量限制的資訊，請參閱[管理 Power BI 工作區中的資料儲存體](service-admin-manage-your-data-storage-in-power-bi.md)。
+這兩種授權類型並不互斥。 您可以同時具備 Power BI Premium 和 Power BI Pro。 在此組態中，儲存在 Premium 容量中的內容可以與所有使用者共用，且共用容量也可供使用。 如需有關容量限制的資訊，請參閱[管理 Power BI 工作區中的資料儲存體](service-admin-manage-your-data-storage-in-power-bi.md)。
 
 若要比較產品功能與定價，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing)。
 
@@ -108,7 +108,7 @@ Power BI Premium 訂閱會為組織配置容量。 Premium 適用於企業 BI、
 
 在 Power BI Pro 授權到期後有一段寬限期。 若是屬於大量授權購買的授權，寬限期為 90 天。 如果您直接購買授權，則寬限期為 30 天。
 
-Power BI Pro 具有與 Microsoft 365 相同的訂用帳戶生命週期。 如需詳細資訊，請參閱[當 Microsoft 365 商務版訂閱結束時，我的資料與存取權會如何？](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)。
+Power BI Pro 具有與 Microsoft 365 相同的授權生命週期。 如需詳細資訊，請參閱[當 Microsoft 365 商務版訂閱結束時，我的資料與存取權會如何？](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)。
 
 
 ## <a name="next-steps"></a>後續步驟
@@ -117,3 +117,14 @@ Power BI Pro 具有與 Microsoft 365 相同的訂用帳戶生命週期。 如需
 - [商務訂閱與計費文件](/microsoft-365/commerce/?view=o365-worldwide)
 - [尋找已登入的 Power BI 使用者](service-admin-access-usage.md)
 - 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

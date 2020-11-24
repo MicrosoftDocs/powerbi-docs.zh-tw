@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 11/13/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: eb5b4b37e59a771d65917df5706a7ebbca488d21
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397292"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669078"
 ---
 # <a name="premium-features-of-dataflows"></a>資料流程的進階功能
 
@@ -37,7 +37,7 @@ Power BI 中增強型計算引擎可讓 Power BI Premium 訂閱者使用其容�
 * 大幅減少長時間執行的 ETL 步驟在計算實體上所需重新整理時間，例如執行「聯結」、「相異」、「篩選」和「分組方式」
 * 針對實體執行 DirectQuery 查詢
 
-接下來會描述啟用增強型計算引擎，以及常見問題的解答。
+增強型計算引擎預設為 [開啟]。 如果您尚未開啟增強型計算引擎，下一節將會說明如何啟用增強型計算引擎，並提供常見問題的解答。
 
 ### <a name="using-the-enhanced-compute-engine"></a>使用增強型計算引擎
 
@@ -48,7 +48,7 @@ Power BI 中增強型計算引擎可讓 Power BI Premium 訂閱者使用其容�
 > [!IMPORTANT]
 > 增強型計算引擎僅適用於 A3 及更大的 Power BI 容量。
 
-開啟增強型計算引擎之後，請返回 **資料流程** ，您應該會在任何針對資料流程 (從相同容量的現有連結實體建立) 執行複雜作業 (例如「聯結」或「分組方式」作業) 的計算實體中觀察到效能改善。 
+開啟增強型計算引擎之後，請返回 **資料流程**，您應該會在任何針對資料流程 (從相同容量的現有連結實體建立) 執行複雜作業 (例如「聯結」或「分組方式」作業) 的計算實體中觀察到效能改善。 
 
 若要充分利用計算引擎，請透過下列方式將 ETL 階段分割成兩個不同的資料流程：
 
@@ -124,7 +124,7 @@ DirectQuery 和資料流程有些已知限制：
 
 ## <a name="computed-entities"></a>計算實體
 
-您可以在搭配 Power BI Premium 訂用帳戶使用 **資料流程** 時，執行 **儲存體內部計算** 。 這讓您能夠在現有的資料流程上執行計算，並傳回可讓您專注於報表建立與分析的結果。
+您可以在搭配 Power BI Premium 訂用帳戶使用 **資料流程** 時，執行 **儲存體內部計算**。 這讓您能夠在現有的資料流程上執行計算，並傳回可讓您專注於報表建立與分析的結果。
 
 ![計算實體](media/dataflows-premium-features/computed-entity.png)
 
@@ -158,6 +158,8 @@ DirectQuery 和資料流程有些已知限制：
 ## <a name="next-steps"></a>後續步驟
 下列文章提供資料流程和 Power BI 的詳細資訊：
 
+* [資料流程最佳做法](dataflows-best-practices.md)
+* [設定 Power BI Premium 的資料流程工作負載](dataflows-premium-workload-configuration.md)
 * [資料流程和自助資料準備簡介](dataflows-introduction-self-service.md)
 * [建立資料流程](dataflows-create.md)
 * [設定及取用資料流程](dataflows-configure-consume.md)

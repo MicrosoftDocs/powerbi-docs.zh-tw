@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/17/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3f3dd39953ad382ab934bf87021123b949733fd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb61f752891205a0e8997592d522efb2022a562b
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237056"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719021"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理您的資料來源 - 匯入/排程重新整理
 
@@ -62,12 +62,11 @@ ms.locfileid: "85237056"
 
 ![顯示使用者](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
+> [!IMPORTANT]
+> 重新發佈之後，資料集擁有者必須再次將資料集重新關聯至閘道和對應的資料來源。 重新發佈之後，將不會繼續維持上一個關聯。 
+
 > [!WARNING]
 > 如果您的資料集包含多個資料來源，每個資料來源都必須新增至閘道中。 如果有一或多個資料來源未新增至閘道，您便無法選擇針對排程重新整理使用閘道。
-
-## <a name="limitations"></a>限制
-
-OAuth 不是內部部署資料閘道支援的驗證配置。 您無法新增需要 OAuth 的資料來源。 如果資料集有需要 OAuth 的資料來源，就無法針對已排程重新整理來使用閘道。
 
 ## <a name="next-steps"></a>後續步驟
 

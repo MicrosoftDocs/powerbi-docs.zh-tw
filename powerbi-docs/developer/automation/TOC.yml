@@ -20,6 +20,8 @@
           href: walkthrough-push-data-get-datasets.md
         - name: 將資料列加入資料表
           href: walkthrough-push-data-add-rows.md
+        - name: 自動化範本應用程式設定
+          href: ../template-apps/template-apps-auto-install-tutorial.md
     - name: 概念
       items:
         - name: 即時資料的自動保留原則
@@ -32,10 +34,14 @@
               href: api-dataset-properties.md
             - name: 資料模型版本設定
               href: api-data-model-versioning.md
+        - name: 自動化範本應用程式設定
+          href: ../template-apps/template-apps-auto-install.md
     - name: 如何
       items:
         - name: 設定認證
           href: configure-credentials.md
+        - name: 自動化範本應用程式設定
+          href: ../template-apps/template-apps-auto-install.md
     - name: 參考
       items:
         - name: REST API

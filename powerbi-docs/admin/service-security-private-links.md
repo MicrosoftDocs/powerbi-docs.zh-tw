@@ -7,19 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 10/21/2020
+ms.date: 11/12/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 0166e7a452c01f7b9dbec294d8087fcd035cb586
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7faa8a360a30091c599e8b633fa8f03dc008a3ed
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349429"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668181"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>使用私人連結存取 Power BI
 
-Azure 網路提供兩個安全性功能：Azure 私人連結和私人端點，其可讓 Power BI 提供安全存取。 使用 Azure 私人連結和私人端點時，會使用 Microsoft 的骨幹網路基礎結構私下傳送資料流量，因此資料不會周遊網際網路。 
+Azure 網路提供 Azure Private Link 功能，其能讓 Power BI 透過 Azure 網路私人端點提供安全存取。 使用 Azure 私人連結和私人端點時，會使用 Microsoft 的骨幹網路基礎結構私下傳送資料流量，因此資料不會周遊網際網路。 
 
 私人連結可確保 Power BI 使用者在進入 Power BI 服務的資源時，使用 Microsoft 私人網路骨幹。
 
@@ -177,7 +177,7 @@ Power BI 服務會實作私人端點，而不是服務端點。
     |-------------------|---------|
     |**專案詳細資料**||
     |訂用帳戶 | 選取您的 Azure 訂用帳戶 |
-    |資源群組 |   選取在前一節中建立的 **myResourceGroup** 。 |
+    |資源群組 |   選取在前一節中建立的 **myResourceGroup**。 |
     |**執行個體詳細資料** ||
     |名稱 | 輸入 **myVm** |
     |區域 | 選取 [美國中部] |
@@ -222,7 +222,7 @@ Power BI 服務會實作私人端點，而不是服務端點。
     |-------------------|---------|
     |**專案詳細資料** ||
     |訂用帳戶|  選取您的 Azure 訂用帳戶|
-    |資源群組|    選取 **myResourceGroup** 。 您已在上一區段中建立此項|
+    |資源群組|    選取 **myResourceGroup**。 您已在上一區段中建立此項|
     |**執行個體詳細資料** ||
     |名稱|  輸入 myPrivateEndpoint。 如果此名稱已被使用，請建立唯一名稱|
     |區域|    選取 [美國中部]|
@@ -264,7 +264,7 @@ Power BI 服務會實作私人端點，而不是服務端點。
 
 ## <a name="connect-to-a-vm-using-remote-desktop-rdp"></a>使用遠端桌面 (RDP) 連線到 VM
 
-當完成建立虛擬機器 ( **myVM** ) 時，請透過下列步驟從網際網路與其連線：
+當完成建立虛擬機器 (**myVM**) 時，請透過下列步驟從網際網路與其連線：
 
 1. 在入口網站的搜尋列中，輸入 myVm。
 2. 選取 [連線]  按鈕。 選取 [連線] 按鈕之後，隨即會開啟 [連線至虛擬機器]。
@@ -298,7 +298,7 @@ Power BI 服務會實作私人端點，而不是服務端點。
 
 最後，您必須停用 Power BI 的公用存取。 
 
-以系統管理員身分登入 app.powerbi.com，然後巡覽至 **管理入口網站** 。 選取 [租用戶設定]，並捲動至 [進階網路] 區段。 啟用 [封鎖公用網際網路存取] 區段中的切換按鈕，如下圖所示。 系統需要大約 15 分鐘時間，才能停用組織從公用網際網路來存取 Power BI。
+以系統管理員身分登入 app.powerbi.com，然後巡覽至 **管理入口網站**。 選取 [租用戶設定]，並捲動至 [進階網路] 區段。 啟用 [封鎖公用網際網路存取] 區段中的切換按鈕，如下圖所示。 系統需要大約 15 分鐘時間，才能停用組織從公用網際網路來存取 Power BI。
 
 大功告成，在完成這些步驟之後，您組織的 Power BI 便只能從私人連結存取，而無法從公用網際網路存取。 
 
@@ -310,6 +310,8 @@ Power BI 服務會實作私人端點，而不是服務端點。
 * 使用私人連結環境時，將無法使用匯出服務 (例如 [匯出至 PDF]、[從報表匯出至 Excel] 以及其他匯出服務)
 * SQL Server Reporting Services 報表，即 RDL 檔案(*.rdl 格式檔案) 無法在私人連結環境中進行轉譯
 * 如果已停用網際網路存取，而且資料集或資料流程已連線到 Power BI 資料集或資料流程做為資料來源，連線會失敗
+* 使用計量「無法」在啟用 Private Link 的情況下運作
+* 當您在 Power BI 中啟用 [封鎖公用網際網路存取] 時，將不會支援 [發行至 Web] \(其會呈現為灰色\)
 
 
 ## <a name="next-steps"></a>後續步驟

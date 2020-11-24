@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 22f70e393987552276cc19b90c8b360b1a1a1d80
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8e9205ca12efebbfa5c0338e2f501e59aed779e8
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049194"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718607"
 ---
 # <a name="power-bi-for-hololens-2-preview"></a>適用於 HoloLens 2 的 Power BI (預覽)
 適用於 HoloLens 2 的 Power BI 應用程式會將您的 Power BI 報表和儀表板與您的實體環境結合，建立 3D 沉浸式的免持體驗。您可以在現實世界中四處移動，在有需要時隨時隨地取得相關資料。
@@ -24,11 +24,13 @@ ms.locfileid: "92049194"
 
 適用於 HoloLens 2 的 Power BI 應用程式可在 [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=526478) 取得。
 
+應用程式使用單一登入，這表示應用程式會使用目前登入至 HoloLens 2 裝置的使用者身分識別，來對 Power BI 服務進行驗證。
+
 [深入了解](/hololens/holographic-store-apps)如何在 HoloLens 2 裝置上安裝應用程式。
 
 ## <a name="open-the-power-bi-app-on-your-hololens-2"></a>在 HoloLens 2 上開啟 Power BI 應用程式
 
-開啟 [開始] 功能表，並選取 [Power BI] 應用程式。 應用程式會隨即開啟，並將您設為最愛的報表和儀表板載入虛擬工具袋中，可在此選取查看。
+開啟 [開始] 功能表，並選取 [Power BI] 應用程式。 應用程式隨即開啟，並將您設為最愛的報表和儀表板全部載入虛擬工具袋，讓您可在此處加以選取來檢視。
 
 ## <a name="using-the-power-bi-app-for-hololens-2"></a>使用適用於 HoloLens 2 的 Power BI 應用程式
 

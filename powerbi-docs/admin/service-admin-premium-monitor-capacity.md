@@ -7,23 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: e13e3ec52ab9eecf3f98b5610df9d83243d7c092
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 46e2684b468e480da5db5287ffc40466d71c8f22
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599811"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512209"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用應用程式監視 Premium 容量
 
-監視您的容量對於明智地決定如何最有效地利用 Premium 容量資源至關重要。 您可以在系統管理入口網站中或使用 **Power BI Premium 容量計量**應用程式來監視容量。 本文說明如何使用 Premium 容量計量應用程式。 此應用程式提供您容量如何執行的最深入資訊。 如需過去七天平均使用計量的更高階概觀，您可以使用系統管理入口網站。 若要深入了解入口網站中的監視，請參閱[在系統管理入口網站中監視 Premium 容量](service-admin-premium-monitor-portal.md)。
+監視您的容量對於明智地決定如何最有效地利用 Premium 容量資源至關重要。 您可以在系統管理入口網站中或使用 **Power BI Premium 容量計量** 應用程式來監視容量。 本文說明如何使用 Premium 容量計量應用程式。 此應用程式提供您容量如何執行的最深入資訊。 如需過去七天平均使用計量的更高階概觀，您可以使用系統管理入口網站。 若要深入了解入口網站中的監視，請參閱[在系統管理入口網站中監視 Premium 容量](service-admin-premium-monitor-portal.md)。
 
 應用程式會定期更新，加入新特性和功能。 請確定您執行的是最新版本。 當新的版本推出時，您會收到[通知](../connect-data/service-template-apps-install-distribute.md#update-a-template-app)。
 
 > [!IMPORTANT]
 > 如果 Power BI Premium 容量遇到高資源使用量，因而發生效能或可靠性問題，您可收到通知電子郵件以找出問題並加以解決。 這是對超載容量進行疑難排解的簡單方式。 如需詳細資訊，請參閱[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
+
+> [!NOTE]
+> Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 ## <a name="install-the-app"></a>安裝應用程式
 
@@ -37,7 +40,7 @@ ms.locfileid: "91599811"
 
    ![前往應用程式工作區](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
-1. 按一下資料集行上的**排程重新整理**按鈕。
+1. 按一下資料集行上的 **排程重新整理** 按鈕。
 
    ![排程重新整理按鈕](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
 
@@ -149,7 +152,7 @@ ms.locfileid: "91599811"
 
 報告提供更多詳細計量。 若要查看報告以了解您為其系統管理員的容量，請在 [報告] 中按一下 [Power BI Premium 容量計量]。 或者，從儀表板按一下計量儲存格以移至底層報告。 
 
-報告底部有五個*索引標籤*：
+報告底部有五個 *索引標籤*：
 
 [**資料集**](#datasets) - 提供關於您容量中 Power BI 資料集健康情況的詳細計量。
 [**編頁報表**](#paginated-reports) - 提供關於您容量中編頁報表健康情況的詳細計量。
@@ -304,3 +307,15 @@ ms.locfileid: "91599811"
 
 > [!div class="nextstepaction"]
 > [將 Power BI Premium 容量最佳化](service-premium-capacity-optimize.md)
+
+有其他問題嗎？ [詢問 Power BI 社群](https://community.powerbi.com/)
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

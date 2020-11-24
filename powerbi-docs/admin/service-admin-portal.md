@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: eb7a2dfeb78e60c78b1b3f17306aec91a8a55330
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397016"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719067"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -146,17 +146,17 @@ ms.locfileid: "94397016"
 
 許多設定可具有下列三種狀態的其中一種：
 
-* **已為整個組織停用** ：組織中沒有人可以使用這項功能。
+* **已為整個組織停用**：組織中沒有人可以使用這項功能。
 
     ![已停用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **已為整個組織啟用** ：組織中每個人都可以使用這項功能。
+* **已為整個組織啟用**：組織中每個人都可以使用這項功能。
 
     ![已啟用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **已為組織子集合啟用** ：貴組織中的特定安全性群組可以使用這項功能。
+* **已為組織子集合啟用**：貴組織中的特定安全性群組可以使用這項功能。
 
-    您也可以為整個組織啟用功能，但 **特定安全性群組除外** 。
+    您也可以為整個組織啟用功能，但 **特定安全性群組除外**。
 
     ![已啟用子集合設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
@@ -180,13 +180,13 @@ ms.locfileid: "94397016"
 
 管理員可以指定內部 URL，以覆寫 Power BI [說明] 功能表上的連結目的地，以及進行授權升級。 如果設定了自訂 URL，組織中的使用者就會移至內部說明和支援資源，而非預設目的地。 您可以自訂下列資源目的地：
 
-* **Learn** 。 根據預設，此說明功能表連結會以[所有 Power BI 學習路徑和模組的清單](/learn/browse/?products=power-bi)為目標。 若要改為將此連結導向至內部訓練資源，請設定 [訓練文件] 的自訂 URL。
+* **Learn**。 根據預設，此說明功能表連結會以[所有 Power BI 學習路徑和模組的清單](/learn/browse/?products=power-bi)為目標。 若要改為將此連結導向至內部訓練資源，請設定 [訓練文件] 的自訂 URL。
 
-* **社群** 。 若要讓使用者從 [說明] 功能表前往內部論壇，而不是 [Power BI 社群](https://community.powerbi.com/) \(英文\)，請設定 [討論論壇] 的自訂 URL。
+* **社群**。 若要讓使用者從 [說明] 功能表前往內部論壇，而不是 [Power BI 社群](https://community.powerbi.com/) \(英文\)，請設定 [討論論壇] 的自訂 URL。
 
-* **授權升級** 。 具有 Power BI (免費) 授權的使用者在使用服務時，可能有機會將帳戶升級為 Power BI Pro。 如果您針對 [授權要求] 指定內部 URL，即可將使用者重新導向至內部要求並購買流程，以防止自助式購買。 如果您想要防止使用者購買授權，但要讓使用者開始試用 Power BI Pro，請參閱[允許使用者試用 Power BI Pro](#allow-users-to-try-power-bi-pro) 以區隔購買和試用體驗。
+* **授權升級**。 具有 Power BI (免費) 授權的使用者在使用服務時，可能有機會將帳戶升級為 Power BI Pro。 如果您針對 [授權要求] 指定內部 URL，即可將使用者重新導向至內部要求並購買流程，以防止自助式購買。 如果您想要防止使用者購買授權，但要讓使用者開始試用 Power BI Pro，請參閱[允許使用者試用 Power BI Pro](#allow-users-to-try-power-bi-pro) 以區隔購買和試用體驗。
 
-* **取得說明** 。 若要讓使用者從 [說明] 功能表前往內部技術支援中心，而不是 [Power BI 支援](https://powerbi.microsoft.com/support/)，請設定 [支援人員] 的自訂 URL。
+* **取得說明**。 若要讓使用者從 [說明] 功能表前往內部技術支援中心，而不是 [Power BI 支援](https://powerbi.microsoft.com/support/)，請設定 [支援人員] 的自訂 URL。
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收服務中斷或事件的電子郵件通知
 
@@ -297,7 +297,7 @@ ms.locfileid: "94397016"
 |---------|---------|---------|---------|
 |報表 [更多選項 (...)] 功能表下的 [發行至 Web]|針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
 |[設定] 下的 [管理內嵌程式碼]|針對全部啟用|針對全部啟用|針對全部啟用<br><br>[刪除]*  選項僅適用於經授權的使用者或群組。<br>針對全部啟用 [取得驗證碼]* 。|
-|系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示為 **受到侵害** 。|
+|系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示為 **受到侵害**。|
 |現有的已發佈報告|全部已啟用|全部已停用|報告會繼續針對全部項目呈現。|
 
 ### <a name="export-data"></a>匯出資料
@@ -460,6 +460,13 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
 
+### <a name="web-content-on-dashboard-tiles"></a>儀表板磚上的 Web 內容
+
+組織中的使用者可以在 Power BI 儀表板上新增及檢視 Web 內容。 [深入了解](../create-reports/service-dashboard-add-widget.md)
+
+> [!NOTE]
+> 這可能會透過惡意的 Web 內容讓您的組織暴露在安全性風險下。
+
 ## <a name="developer-settings"></a>開發人員設定
 
 ### <a name="embed-content-in-apps"></a>在應用程式中內嵌內容
@@ -554,7 +561,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 管理員也可以控制使用者建立新工作區體驗工作區，以及傳統工作區的能力。 如需詳細資訊，請參閱此文章中的[工作區設定](#workspace-settings)。 
 
-[工作區] 索引標籤上的資料表資料行會對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup** ，傳統工作區的類型為 **Group** ，新工作區體驗工作區的類型為 **Workspace** 。 如需詳細資訊，請參閱[在新的工作區中組織工作](../collaborate-share/service-new-workspaces.md)。
+[工作區] 索引標籤上的資料表資料行會對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup**，傳統工作區的類型為 **Group**，新工作區體驗工作區的類型為 **Workspace**。 如需詳細資訊，請參閱[在新的工作區中組織工作](../collaborate-share/service-new-workspaces.md)。
 
 在 [工作區] 索引標籤上，您會看到每個工作區的「狀態」。 下表提供有關這些狀態意義的更多詳細資料。
 
@@ -575,11 +582,11 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ![[自訂商標] 選項](media/service-admin-portal/power-bi-custom-branding.png)
 
-* **上傳標誌** ：為取得最佳結果，請上傳儲存為 .png、10 KB 或更小，且至少為 200 x 30 像素的標誌。
+* **上傳標誌**：為取得最佳結果，請上傳儲存為 .png、10 KB 或更小，且至少為 200 x 30 像素的標誌。
 
-* **上傳封面影像** ：為取得最佳結果，請上傳儲存為 .jpg 或 .png、1 MB 或更小，且至少為 1920 x 160 像素的封面影像。
+* **上傳封面影像**：為取得最佳結果，請上傳儲存為 .jpg 或 .png、1 MB 或更小，且至少為 1920 x 160 像素的封面影像。
 
-* **選取佈景主題色彩** ：您可以根據十六進位 #、RGB、值或從提供的調色盤中選取您的佈景主題。
+* **選取佈景主題色彩**：您可以根據十六進位 #、RGB、值或從提供的調色盤中選取您的佈景主題。
 
 
 如需詳細資訊，請參閱[為貴組織自訂商標](https://aka.ms/orgBranding)。

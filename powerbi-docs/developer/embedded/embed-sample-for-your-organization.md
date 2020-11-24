@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f84270d76265da2877ae5d2e16289373235271b6
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397269"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668687"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -39,6 +39,9 @@ ms.locfileid: "94397269"
 如果您尚未註冊 **Power BI Pro**，請先 [註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
 
 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
+
+>[!NOTE]
+>支援 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md)。 不過，如果您使用的是 PPU，則只有組織中的 PPU 使用者能夠存取您的解決方案。
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>設定您的內嵌分析開發環境
 

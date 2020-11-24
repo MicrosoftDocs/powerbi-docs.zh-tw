@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/07/2020
+ms.date: 11/17/2020
 ms.author: davidi
-ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 11f9db0282cd0b302c5293ca59dd44c87dcdb955
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397384"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719044"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 資料來源
 
@@ -62,7 +62,7 @@ ms.locfileid: "94397384"
 | 資料夾 | 是 | 是 | 否 | 是 | 是 | 是 |
 | GitHub | 是 | 是 | 否 | 否 | 否 | 否 |
 | Google Analytics | 是 | 是 | 否 | 否 | 否 | 否 |
-| Google BigQuery | 是 | 是 | 是 | 否 | 否 | 是 |
+| Google BigQuery | 是 | 是 | 是 | 是 | 否 | 是 |
 | Hadoop 檔案 (HDFS) | 是 | 否 | 否 | 否 | 否 | 否 |
 | Hive LLAP | 是 | 是 | 是 | 是 | 否 | 否 |
 | HDInsight 互動式查詢 | 是 | 是 | 是 | 否 | 否 | 否 |
@@ -148,7 +148,7 @@ ms.locfileid: "94397384"
 
 <sup>6</sup> .html、.xls 與 Access 資料庫需要
 
-<sup>7</sup> Power BI 服務不支援需要驗證的 OData 摘要。
+<sup>7</sup> Power BI 服務不支援泛型 OAuth2。
 
 <sup>8</sup> 已針對 Power BI 報表伺服器進行最佳化的 Power BI Desktop 版本中支援 Paxata。 已發佈至 Power BI 報表伺服器的 Power BI 報表中不支援此功能。 如需支援的資料來源清單，請參閱 [Power BI 報表伺服器中的 Power BI 報表資料來源](../report-server/data-sources.md)。
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/03/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3095cfbfd4ed1a965e0a54f1cee0907cb468170d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 57b1de80112e68849d21e7c34570d9754eaf0058
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598821"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512807"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型 (預覽)
 
@@ -114,7 +114,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 使用大型模型時，請記住下列限制：
 
-- **多地理位置支援**：啟用 Premium 檔案的資料集，在也啟用了[多地理位置](service-admin-premium-multi-geo.md)的容量上會失敗。
+- **多地理位置支援**：啟用 Premium 檔案的資料集，在也啟用了 [多地理位置](service-admin-premium-multi-geo.md)的容量上會失敗。
 
 - **下載至 Power BI Desktop**：如果資料集儲存在 Premium 檔案上，[下載為 .pbix](../create-reports/service-export-to-pbix.md) 檔案將會失敗。
 - **支援的區域**：大型模型在支援進階檔案儲存體的所有 Azure 區域中受到支援。 若要深入了解，請參閱[依區域提供的產品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)，並參閱下一節中的表格。
@@ -160,3 +160,14 @@ Power BI 中的大型模型僅適用於支援 [Azure Premium 檔案儲存體](/a
 * [攜帶您自己的加密金鑰以用於 Power BI](service-encryption-byok.md)
 * [容量的運作方式](service-premium-what-is.md#how-capacities-function)
 * [累加式重新整理](service-premium-incremental-refresh.md)。
+
+
+Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
+* 效能
+* 個別使用者授權
+* 範圍更大的擴縮
+* 改善的計量
+* 自動調整
+* 降低管理負擔
+
+如需 Power BI Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
