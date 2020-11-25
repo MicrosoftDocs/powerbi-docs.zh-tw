@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7fcef8294d1e4ba4b3336d4a2456e0ccac787fb
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: de9e2004d7802b5f3eb7684678984a84a077ce89
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412318"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893721"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
 
@@ -46,13 +46,13 @@ ms.locfileid: "93412318"
 
 ## <a name="prerequisites"></a>必要條件
 
-本教學課程使用[財務範例 Excel 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+本教學課程使用[財務範例 Excel 檔案](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
 1. 從功能表列的左上方區段中，選取 [取得資料] > [Excel]
    
 2. 尋找 **財務範例 Excel 檔案** 的複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **財務範例 Excel 檔案** 。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **財務範例 Excel 檔案**。
 
 1. 選取 [財務] 和 [工作表 1]
 
@@ -91,7 +91,7 @@ ms.locfileid: "93412318"
 
 1. 將彙總變更為 [平均] 。
 
-   Power BI 會加入指針來代表我們的目標值： **$145.48K** 。
+   Power BI 會加入指針來代表我們的目標值： **$145.48K**。
 
    ![已新增 [COGS 的平均] 的量測計圖表螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 

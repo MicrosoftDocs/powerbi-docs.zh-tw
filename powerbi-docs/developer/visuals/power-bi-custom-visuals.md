@@ -10,18 +10,18 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 62a88a8267ae38b1dbfc0bbb0ee1d9020e7f9408
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8ea72198ded59f3ce5dce1362ab9320fc119fac6
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049238"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514373"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
 Power BI 隨附許多現成的 Power BI 視覺效果。 這些視覺效果可在 [Power BI Desktop](https://powerbi.microsoft.com/desktop/) 和 [Power BI 服務](https://app.powerbi.com)的 [視覺效果] 窗格中取得，而且可用於建立和編輯 Power BI 內容。
 
-![Power BI [視覺效果] 窗格的螢幕擷取畫面，該窗格出現在 Power BI Desktop 和 Power BI 服務中。](media/power-bi-custom-visuals/power-bi-visualizations.png)
+:::image type="content" source="media/power-bi-custom-visuals/power-bi-visualizations.png" alt-text="Power BI [視覺效果] 窗格的螢幕擷取畫面，該窗格出現在 Power BI Desktop 和 Power BI 服務中。":::
 
 您可以從 Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) 或透過 Power BI，取得更多 Power BI 視覺效果。 這些視覺效果是由 Microsoft 和 Microsoft 合作夥伴所建立，並由 AppSource 驗證小組進行測試和驗證。
 
@@ -29,7 +29,7 @@ Power BI 隨附許多現成的 Power BI 視覺效果。 這些視覺效果可在
 
 ## <a name="default-power-bi-visuals"></a>預設 Power BI 視覺效果
 
-這些是現成的 Power BI 視覺效果，可從 *Power BI Desktop* 和 *Power BI 服務*中的 [視覺效果] 窗格取得。
+這些是現成的 Power BI 視覺效果，可從 *Power BI Desktop* 和 *Power BI 服務* 中的 [視覺效果] 窗格取得。
 
 若要從 [視覺效果] 窗格取消釘選 Power BI 視覺效果，請以滑鼠右鍵按一下該視覺效果並選取 [取消釘選]。
 

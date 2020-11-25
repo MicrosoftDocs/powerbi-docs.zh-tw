@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: a4ef051f4e4a24901599036c80a52bf200348df1
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375273"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893675"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 問與答中詢問問題的秘訣
 
@@ -30,7 +30,7 @@ ms.locfileid: "91375273"
 >  
 
 
-|類別  |關鍵字  |資料行3  |
+|類別  |關鍵字  |
 |---------|---------|---------|
 |**彙總**     | total、sum、amount、number、quantity、count、average、most、least、fewest、largest、smallest、highest、biggest、maximum、max、greatest、lowest、littlest、minimum、min          |
 |     |         |         

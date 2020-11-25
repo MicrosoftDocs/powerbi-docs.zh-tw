@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d08ddeddc0a0feee82b02549db819a901f944c2d
-ms.sourcegitcommit: 1b79577006a2f6583a0a249f1920ae1e2b6b0ace
+ms.openlocfilehash: 76dd059d59daed5916e9d28692ef018dd7465749
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94529020"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946970"
 ---
 # <a name="data-lineage"></a>資料譜系
 在新式商業智慧 (BI) 專案中，了解從資料來源到其目的地的資料流程，可能是一項挑戰。 如果您已建置跨多個資料來源、成品和相依性的進階分析專案，挑戰就會更加艱鉅。 「如果我變更此資料會發生什麼事？」 或「為什麼這份報表不是最新的？」 之類的問題，可能會變得難以回答。 您可能會需要一組專家或是進行深入調查，才能回答這些問題。 我們設計了資料譜系檢視來協助您回答這些問題。
@@ -24,6 +24,10 @@ ms.locfileid: "94529020"
 Power BI 有數個成品類型，例如儀表板、報表、資料集和資料流程。 許多資料集和資料流程會連線到外部資料來源 (例如 SQL Server) 和其他工作區中的外部資料集。 當資料集不位於您所擁有的工作區內時，則可能位於 IT 人員或其他分析師所擁有的工作區內。 最後，外部資料來源和資料集會讓您更難得知資料的來源。 針對複雜的專案，我們引入了譜系檢視。
 
 在譜系檢視中，您會看到工作區中所有成品之間的譜系關聯性以及其所有外部相依性。 它會顯示所有工作區成品之間的連線，包括上游和下游的資料流程連線。    
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rUj06dqB98g" frameborder="0" allowfullscreen></iframe>
+
+
 
 > [!VIDEO https://youtu.be/rUj06dqB98g]
 

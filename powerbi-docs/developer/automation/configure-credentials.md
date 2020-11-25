@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: df5e82af012f4d85fd81399d6e31fde3b7539ce6
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748946"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513818"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以程式設計的方式為 Power BI 設定認證
 
 請遵循此文章中的步驟，來以程式設計的方式為 Power BI 設定認證。
 
 >[!NOTE]
->* 呼叫的使用者必須是資料集擁有者，或閘道管理員。您也可以使用[服務主體](../embedded/embed-service-principal-certificate.md)。 例如，服務主體可以是資料集擁有者。
+>* 呼叫的使用者必須是資料集擁有者，或閘道管理員。您也可以使用[服務主體](../embedded/embed-service-principal.md)。 例如，服務主體可以是資料集擁有者。
 >* 雲端資料來源及其對應的認證會在使用者層級進行管理。
 
 ## <a name="update-credentials-flow-for-data-sources"></a>為資料來源更新認證流程
@@ -80,7 +80,7 @@ ms.locfileid: "91748946"
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
-    使用 AssymetricKeyEncriptor 類別搭配**步驟 3** 中擷取的公開金鑰。
+    使用 AssymetricKeyEncriptor 類別搭配 **步驟 3** 中擷取的公開金鑰。
 
     ```csharp
     var credentialDetails = new CredentialDetails(
@@ -122,7 +122,7 @@ ms.locfileid: "91748946"
     var gateway = gateways.First();
     ```
 
-3. 使用**步驟 2** 中擷取的閘道公開金鑰，以[為資料來源更新認證流程](#update-credentials-flow-for-data-sources)中所述的相同方式建置認證詳細資料。
+3. 使用 **步驟 2** 中擷取的閘道公開金鑰，以 [為資料來源更新認證流程](#update-credentials-flow-for-data-sources)中所述的相同方式建置認證詳細資料。
 
 4. 建置要求本文。
 
@@ -142,7 +142,7 @@ ms.locfileid: "91748946"
 
 ## <a name="credential-types"></a>認證類型
 
-當您在**企業內部部署閘道**下使用 [Power BI Rest API](/rest/api/power-bi/) 呼叫[建立資料來源](/rest/api/power-bi/gateways/createdatasource)或[更新資料來源](/rest/api/power-bi/gateways/updatedatasource)時，需要使用閘道的公用金鑰來加密認證值。
+當您在 **企業內部部署閘道** 下使用 [Power BI Rest API](/rest/api/power-bi/) 呼叫 [建立資料來源](/rest/api/power-bi/gateways/createdatasource)或 [更新資料來源](/rest/api/power-bi/gateways/updatedatasource)時，需要使用閘道的公用金鑰來加密認證值。
 
 >[!NOTE]
 >.NET SDK v3 也可以執行下面所列的 .NET SDK v2 範例。
