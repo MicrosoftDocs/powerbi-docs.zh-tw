@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/04/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 099e3aa11662232c5362895e93f0433620ce2ba9
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768837"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947039"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>在 Excel 中存取 Power BI 的精選表格 (預覽)
 
@@ -37,7 +37,7 @@ Power BI 資料集中精選表格會以「資料類型」型態出現在 [資料
 
 ## <a name="search-for-power-bi-data-in-the-data-types-gallery"></a>搜尋資料類型資源庫中的 Power BI 資料
 
-若要搜尋 Power BI 精選表格中的資料，請在 Excel 工作表中選取儲存格或範圍，其中所包含值符合精選表格中的值。 選取 [資料類型] 資源庫旁邊的**更多**箭號。
+若要搜尋 Power BI 精選表格中的資料，請在 Excel 工作表中選取儲存格或範圍，其中所包含值符合精選表格中的值。 選取 [資料類型] 資源庫旁邊的 **更多** 箭號。
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Excel 資料類型資源庫中更多圖示的螢幕擷取畫面。":::
 
@@ -71,13 +71,13 @@ Excel 會顯示所有可能的表格。 在 [資料選取器] 窗格的 [篩選]
 
 ### <a name="view-related-data-in-a-card"></a>檢視卡片中的相關資料 
  
-在儲存格中選取**卡片**圖示以顯示卡片，其包含精選表格中所有欄位與計算欄位的資料。 卡片標題會顯示精選表格中 [資料列標籤] 欄位的值。
+在儲存格中選取 **卡片** 圖示以顯示卡片，其包含精選表格中所有欄位與計算欄位的資料。 卡片標題會顯示精選表格中 [資料列標籤] 欄位的值。
  
 :::image type="content" source="media/service-excel-featured-tables/excel-linked-item-details.png" alt-text="連結項目詳細資料的螢幕擷取畫面。":::
 
 ### <a name="insert-related-data-from-power-bi"></a>插入 Power BI 中的相關資料 
 
-選取**插入資料**圖示，然後從欄位清單中選取欄位名稱，將其值新增至方格中。  
+選取 **插入資料** 圖示，然後從欄位清單中選取欄位名稱，將其值新增至方格中。  
 
 :::image type="content" source="media/service-excel-featured-tables/excel-select-field.png" alt-text="選取欄位名稱的螢幕擷取畫面。":::
 
@@ -132,7 +132,7 @@ Excel 會快取傳回的整列資料。 與您共用 Excel 檔案的所有人，
 
 ## <a name="administrative-control"></a>系統管理控制
 
-Power BI 系統管理員可管控組織中哪些人可使用 Excel 資料類型資源庫中的精選表格。 如需詳細資料，請參閱＜系統管理入口網站＞一文中的 [精選表格設定](../admin/service-admin-portal.md#featured-tables-settings)。 
+Power BI 系統管理員可管控組織中哪些人可使用 Excel 資料類型資源庫中的精選表格。 如需詳細資訊，請參閱系統管理中心中的[允許連線至精選資料表](../admin/service-admin-portal.md#allow-connections-to-featured-tables)。 
  
 ### <a name="auditing"></a>稽核
 
