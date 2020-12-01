@@ -2,28 +2,28 @@
 title: Power BI 的技術白皮書
 description: 技術白皮書可讓您更深入探索 Power BI 主題。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/03/2020
-ms.author: maggies
-ms.openlocfilehash: e514bf77900031af2f32bdad5717e82b33a88623
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 9b98e2a5e7cb881e1a58280b1cd6fe6851ec5057
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965283"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398514"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 的技術白皮書
 
 技術白皮書可讓您更深入探索 Power BI 主題。 您可以在這裡找到可用的 Power BI 技術白皮書清單。
 
-| 技術白皮書 | 描述 | Date |
+| 技術白皮書 | 說明 | Date |
 | --- | --- | --- |
 | [規劃 Power BI 企業部署](https://aka.ms/PBIEnterpriseDeploymentWP) |這份更新的技術白皮書概述了妥善執行和安全性群組織 Power BI 部署的考慮和最佳作法。 | 2020 年 6 月 |
 | [Power BI 和資料流程](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| 此白皮書會就技術層面詳述資料流程，並說明資料流程功能及能力背後的功能和前置作業。 | 2018 年 11 月 |
-| [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |描述啟動時存在的 Power BI Premium，同時描述其如何形成。 | 2017 年 10 月 |
+| [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |描述啟動時存在的 Power BI Premium，同時描述其如何形成。 | 2017年 10 月 |
 | [Power BI Premium 規劃和部署](whitepaper-powerbi-premium-deployment.md)| 本白皮書的內容已併入一般指引中。 如需規劃和部署妥善定義工作負載之 Premium 容量的指引和最佳作法，請參閱連結。| 2019 年 3 月 |
 | [Power BI 報表伺服器的容量規劃指引](../report-server/capacity-planning.md) |本文旨在提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對報表伺服器的各種工作負載所執行的多項負載測試結果。 | 2018 年 3 月 |
 | [安全性](../admin/service-admin-power-bi-security.md) |提供 Power BI 安全性的詳細說明。 | 2019 年 3 月 |

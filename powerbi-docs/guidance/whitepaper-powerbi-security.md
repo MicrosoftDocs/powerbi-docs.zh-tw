@@ -5,20 +5,20 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 879f931797786ee1bb9f12a56323c50642716afb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635692"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398583"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
-**摘要：** Power BI 是 Microsoft 提供的線上軟體服務 (*SaaS*或軟體即服務) 供應專案，可讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
+**摘要：** Power BI 是 Microsoft 提供的線上軟體服務 (*SaaS* 或軟體即服務) 供應專案，可讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
 
 **寫入器：** David Iseminger
 
@@ -27,11 +27,11 @@ ms.locfileid: "91635692"
 **適用于：** Power BI SaaS、Power BI Desktop Power BI Embedded、Power BI Premium
 
 > [!NOTE]
-> 您可以從瀏覽器中選取 [ **列印** ]，然後選取 [ **另存**新檔]，來儲存或列印本白皮書。
+> 您可以從瀏覽器中選取 [ **列印** ]，然後選取 [ **另存** 新檔]，來儲存或列印本白皮書。
 
 ## <a name="introduction"></a>簡介
 
-**Power BI** 是 Microsoft 提供的線上軟體服務 (_SaaS_或軟體即服務) 供應專案，可讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
+**Power BI** 是 Microsoft 提供的線上軟體服務 (_SaaS_ 或軟體即服務) 供應專案，可讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
 
 Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於 Microsoft 365 合規性架構的第 D 層。 深入瞭解 [Microsoft 信任中心](https://www.microsoft.com/trust-center/compliance/compliance-overview)的合規性。
 
@@ -39,13 +39,13 @@ Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolum
 
 ## <a name="power-bi-architecture"></a>Power BI 架構
 
-**Power BI** 服務是建置在 Microsoft 的[雲端運算平台](https://azure.microsoft.com/overview/what-is-azure/)**Azure** 上。 Power BI 目前部署在世界各地的許多資料中心，向這些資料中心服務的客戶提供許多主動部署，以及作為每個主動部署備份使用之同等數目的被動部署。
+**Power BI** 服務是建置在 Microsoft 的 [雲端運算平台](https://azure.microsoft.com/overview/what-is-azure/)**Azure** 上。 Power BI 目前部署在世界各地的許多資料中心，向這些資料中心服務的客戶提供許多主動部署，以及作為每個主動部署備份使用之同等數目的被動部署。
 
-每個 Power BI 部署均由兩個叢集組成：Web 前端 (**WFE**) 叢集和**後端**叢集。 這兩個叢集如下圖所示，為本文其餘部分的背景。 
+每個 Power BI 部署均由兩個叢集組成：Web 前端 (**WFE**) 叢集和 **後端** 叢集。 這兩個叢集如下圖所示，為本文其餘部分的背景。 
 
 ![WFE 和後端](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI 使用 Azure Active Directory (**AAD**) 來驗證與管理帳戶。 Power BI 也會使用 **Azure 流量管理員 (ATM) ** ，將使用者流量導向至嘗試連線之用戶端的 DNS 記錄所決定的最近資料中心，以便進行驗證程式及下載靜態內容和檔案。 Power BI 使用地理位置最接近的 WFE，有效率地將必要的靜態內容和檔案散發給使用者，但使用 **Azure 內容傳遞網路 (CDN) **傳遞的 Power BI 視覺效果除外。
+Power BI 使用 Azure Active Directory (**AAD**) 來驗證與管理帳戶。 Power BI 也會使用 **Azure 流量管理員 (ATM)** ，將使用者流量導向至嘗試連線之用戶端的 DNS 記錄所決定的最近資料中心，以便進行驗證程式及下載靜態內容和檔案。 Power BI 使用地理位置最接近的 WFE，有效率地將必要的靜態內容和檔案散發給使用者，但使用 **Azure 內容傳遞網路 (CDN)** 傳遞的 Power BI 視覺效果除外。
 
 ### <a name="the-wfe-cluster"></a>WFE 叢集
 
@@ -53,13 +53,13 @@ Power BI 使用 Azure Active Directory (**AAD**) 來驗證與管理帳戶。 Pow
 
 ![WFE 叢集](media/whitepaper-powerbi-security/powerbi-security-whitepaper_02.png)
 
-當使用者嘗試連線到 Power BI 服務時，用戶端的 DNS 服務可與 **Azure 流量管理員**通訊，尋找具有 Power BI 部署的最近資料中心。 如需此程序的詳細資訊，請參閱[適用於 Azure 流量管理員的效能流量路由方法](/azure/traffic-manager/traffic-manager-routing-methods#performance-traffic-routing-method)。
+當使用者嘗試連線到 Power BI 服務時，用戶端的 DNS 服務可與 **Azure 流量管理員** 通訊，尋找具有 Power BI 部署的最近資料中心。 如需此程序的詳細資訊，請參閱[適用於 Azure 流量管理員的效能流量路由方法](/azure/traffic-manager/traffic-manager-routing-methods#performance-traffic-routing-method)。
 
 距離使用者最近的 WFE 叢集負責管理登入和驗證序列 (本文稍後會加以描述)，並在驗證成功之後向使用者提供 AAD 權杖。 WFE 叢集內的 ASP.NET 元件會剖析要求，以判斷使用者所屬的組織，然後諮詢 Power BI **全域服務**。 全域服務是全球所有 WFE 和後端叢集間共用的單一 Azure 資料表，可將使用者和客戶組織對應到裝載其 Power BI 租用戶的資料中心。 WFE 可對瀏覽器指定應裝載組織租用戶的後端叢集。 驗證使用者後，後續的用戶端互動會直接在後端叢集進行，且 WFE 不需要充當這些要求的中間人。
 
 ### <a name="the-power-bi-back-end-cluster"></a>Power BI 後端叢集
 
-**後端**叢集是驗證過的用戶端與 Power BI 服務互動的方式。 **後端**叢集會管理視覺效果、使用者儀表板、資料集、報表、資料儲存體、資料連線、資料重新整理，以及與 Power BI 服務互動的其他層面。
+**後端** 叢集是驗證過的用戶端與 Power BI 服務互動的方式。 **後端** 叢集會管理視覺效果、使用者儀表板、資料集、報表、資料儲存體、資料連線、資料重新整理，以及與 Power BI 服務互動的其他層面。
 
 ![後端叢集](media/whitepaper-powerbi-security/powerbi-security-whitepaper_03.png)
 
@@ -67,7 +67,7 @@ Power BI 使用 Azure Active Directory (**AAD**) 來驗證與管理帳戶。 Pow
 
 **重要事項：** 請務必注意， _只有_ Azure API 管理 (**APIM**) 和閘道 (**GW**) 角色可透過公用網際網路存取。 這些角色提供驗證、授權、DDoS 保護、節流、負載平衡、路由及其他功能。
 
-上方**後端**叢集影像中的虛線清楚劃分使用者能夠存取的唯二角色 (虛線左側)，以及只有系統可以存取的角色。 當已驗證的使用者連線到 Power BI 服務時，用戶端的連線和任何要求 (由**閘道角色**和 **Azure API 管理**接受及管理) ，會代表使用者與 Power BI 服務的其餘部分互動。 例如，當用戶端嘗試檢視儀表板時， **閘道角色** 會接受該要求，然後另外傳送要求給 **簡報角色** ，以擷取瀏覽器呈現儀表板所需的資料。
+上方 **後端** 叢集影像中的虛線清楚劃分使用者能夠存取的唯二角色 (虛線左側)，以及只有系統可以存取的角色。 當已驗證的使用者連線到 Power BI 服務時，用戶端的連線和任何要求 (由 **閘道角色** 和 **Azure API 管理** 接受及管理) ，會代表使用者與 Power BI 服務的其餘部分互動。 例如，當用戶端嘗試檢視儀表板時， **閘道角色** 會接受該要求，然後另外傳送要求給 **簡報角色** ，以擷取瀏覽器呈現儀表板所需的資料。
 
 ![閘道角色](media/whitepaper-powerbi-security/powerbi-security-whitepaper_04.png)
 
@@ -87,7 +87,7 @@ Power BI 使用兩個主要的存放庫來存放及管理資料：使用者上�
 
 例如，當使用者將 Excel 活頁簿匯入 Power BI 服務時，會建立記憶體內部的 Analysis Services 表格式資料庫，而資料存放在記憶體內部不超過一小時 (或直到系統發生記憶體不足的壓力)。 資料也會傳送至 **Azure BLOb** 儲存體。
 
-有關使用者 Power BI 訂用帳戶的中繼資料，例如儀表板、報表、最近使用的資料來源、工作區、 組織資訊，租用戶資訊，以及有關系統的其他中繼資料，都存放在 **Azure SQL Database** 中並予以更新。 存放在 Azure SQL Database 中的所有資訊，使用 [Azure SQL 的透明資料加密](/azure/sql-database/transparent-data-encryption-azure-sql) (TDE) 技術完整加密。 所有存放在 Azure BLOb 儲存體中的資料也予以加密。 如需載入、存放及移動資料的程序詳細資訊，請參閱＜資料儲存和移動＞**** 一節。
+有關使用者 Power BI 訂用帳戶的中繼資料，例如儀表板、報表、最近使用的資料來源、工作區、 組織資訊，租用戶資訊，以及有關系統的其他中繼資料，都存放在 **Azure SQL Database** 中並予以更新。 存放在 Azure SQL Database 中的所有資訊，使用 [Azure SQL 的透明資料加密](/azure/sql-database/transparent-data-encryption-azure-sql) (TDE) 技術完整加密。 所有存放在 Azure BLOb 儲存體中的資料也予以加密。 如需載入、存放及移動資料的程序詳細資訊，請參閱＜資料儲存和移動＞一節。
 
 ## <a name="tenant-creation"></a>建立租用戶
 
@@ -99,7 +99,7 @@ Power BI 租使用者會在視為最接近國家/地區 (或) 區域的資料中
 
 ### <a name="multiple-geographies-multi-geo"></a>多地理位置 (Multi-Geo)
 
-有些組織需要 Power BI 根據業務需求存在多個地理位置或區域。 例如，企業可能會在美國 Power BI 租使用者，但也可以在其他地理區域（例如澳大利亞）中進行業務，並需要某些 Power BI 資料在該遠端區域保持待用狀態，以符合當地法規。 從2018的下半年開始，在某個地理位置具有其 home 租使用者的組織也可以布建及存取位於另一個地理位置的 Power BI 資源。 為此功能稱為**多地理位置**，以便在本文件中參考。
+有些組織需要 Power BI 根據業務需求存在多個地理位置或區域。 例如，企業可能會在美國 Power BI 租使用者，但也可以在其他地理區域（例如澳大利亞）中進行業務，並需要某些 Power BI 資料在該遠端區域保持待用狀態，以符合當地法規。 從2018的下半年開始，在某個地理位置具有其 home 租使用者的組織也可以布建及存取位於另一個地理位置的 Power BI 資源。 為此功能稱為 **多地理位置**，以便在本文件中參考。
 
 多地理位置資訊的最新和主要文章是 [設定 Power BI Premium 文章的多地理位置支援](../admin/service-admin-premium-multi-geo.md) 。 
 
@@ -125,7 +125,7 @@ Power BI 僅於特定區域提供，根據區域資料中心部署 Power BI 叢�
 
 Microsoft 也為各國政府提供資料中心。 如需國家/地區雲端的 Power BI 服務可用性詳細資訊，請參閱 [Power BI 國家/地區雲端](https://powerbi.microsoft.com/clouds/)。
 
-如需資料存放位置和使用方式的詳細資訊，請參閱 [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where) (Microsoft 信任中心)。 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的**資料處理條款**會指定客戶待用資料的相關位置。
+如需資料存放位置和使用方式的詳細資訊，請參閱 [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where) (Microsoft 信任中心)。 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的 **資料處理條款** 會指定客戶待用資料的相關位置。
 
 ## <a name="user-authentication"></a>使用者驗證
 
@@ -137,7 +137,7 @@ Power BI 服務的使用者驗證順序如下列步驟中所述，請見下列�
 
 1. 使用者可以從瀏覽器起始與 Power BI 服務的連線，方法是在網址列中輸入 Power BI 位址 (例如 `https://app.powerbi.com`) ，或從 Power BI 登陸頁面 (中選取 [登 _入_ ] https://powerbi.microsoft.com) 。 連線是使用 TLS 1.2 和 HTTPS 來建立，而瀏覽器和 Power BI 服務之間所有後續的通訊則使用 HTTPS。 要求傳送至 **Azure 流量管理員**。
 
-2. **Azure 流量管理員**會檢查使用者的 DNS 記錄，以判斷已部署 Power BI 的最近資料中心，並以應傳送使用者之目標 WFE 叢集的 IP 位址來回應 DNS。
+2. **Azure 流量管理員** 會檢查使用者的 DNS 記錄，以判斷已部署 Power BI 的最近資料中心，並以應傳送使用者之目標 WFE 叢集的 IP 位址來回應 DNS。
 
 3. 然後 WFE 會將使用者重新導向至 Microsoft Online Services 登入頁面。
 
@@ -145,13 +145,13 @@ Power BI 服務的使用者驗證順序如下列步驟中所述，請見下列�
 
 1. 使用者驗證之後，登入頁面會將使用者導向到之前判斷的最近 Power BI 服務 **WFE 叢集**。
 
-2. 瀏覽器提交取自於成功登入 Microsoft Online Services 的 Cookie，由 **WFE 叢集**內的 **ASP.NET 服務**檢查。
+2. 瀏覽器提交取自於成功登入 Microsoft Online Services 的 Cookie，由 **WFE 叢集** 內的 **ASP.NET 服務** 檢查。
 
 3. WFE 叢集會使用 **Azure Active Directory** (**AAD**) 服務進行檢查，以驗證使用者的 Power BI 服務訂用帳戶，並取得 AAD 安全性權杖。 當 AAD 傳回使用者成功驗證及 AAD 安全性權杖時，WFE 叢集會諮詢 **Power BI**** 全域服務**，如此可維護租用戶及其 Power BI 後端叢集位置的清單，判斷哪一個 Power BI 服務叢集包含使用者的租用戶。 然後，WFE 叢集將使用者導向至其租用戶所在的 Power BI 叢集，將項目集合傳回至使用者的瀏覽器：
 
       - **AAD 安全性權杖**
       - **會話資訊**
-      - 使用者可與其通訊及互動的**後端**叢集網址
+      - 使用者可與其通訊及互動的 **後端** 叢集網址
 
 1. 然後，使用者瀏覽器會連絡指定的 Azure CDN，或針對某些 WFE 檔案，下載指定通用檔案的集合，它們是啟用瀏覽器與 Power BI 服務互動所需的檔案。 瀏覽器頁面接著會包含 Power BI 服務瀏覽器工作階段期間的 AAD 權杖、工作階段資訊、相關的後端叢集位置，以及從 Azure CDN 和 WFE 叢集下載的檔案集合。
 
@@ -161,13 +161,13 @@ Power BI 服務的使用者驗證順序如下列步驟中所述，請見下列�
 
 ## <a name="data-storage-and-movement"></a>資料儲存和移動
 
-在 Power BI 服務中，資料狀態為「待用」__ (目前未處理可供 Power BI 使用者使用的資料) 或「正在處理」__(例如：正在執行查詢、正在處理資料連線和模型、正將資料及/或模型上傳至 Power BI 服務，以及使用者或 Power BI 服務會對正在存取或更新之資料採取的其他動作)。 正在處理的資料稱為「正在處理的資料」__。 Power BI 中的待用資料已加密。 正在傳輸的資料，表示 Power BI 服務正在傳送或接收的資料也會加密。
+在 Power BI 服務中，資料狀態為「待用」 (目前未處理可供 Power BI 使用者使用的資料) 或「正在處理」(例如：正在執行查詢、正在處理資料連線和模型、正將資料及/或模型上傳至 Power BI 服務，以及使用者或 Power BI 服務會對正在存取或更新之資料採取的其他動作)。 正在處理的資料稱為「正在處理的資料」。 Power BI 中的待用資料已加密。 正在傳輸的資料，表示 Power BI 服務正在傳送或接收的資料也會加密。
 
 Power BI 服務管理資料的方式，也會依是否使用 **DirectQuery** 存取資料或匯入而不同。 Power BI 的使用者資料有兩種：由 DirectQuery 存取的資料和不由 DirectQuery 存取的資料。
 
-**DirectQuery** 是資料來源的原生資料語言 (例如 T-SQL 或其他原生資料庫語言) 中，已從 Microsoft 資料分析運算式 (DAX) 語言轉譯的 Power BI 使用者查詢，DAX 是 Power BI 和其他 Microsoft 產品建立查詢所用的語言。 與 DirectQuery 建立關聯的資料僅依參考儲存，這表示當 DirectQuery 不在作用中時，來源資料不會存放在 Power BI 中 (用來顯示儀表板和報表的視覺效果資料除外，如後文＜正在處理的資料 (資料移動)＞__ 一節所述)。 之所以儲存 DirectQuery 資料的參考，是為了在執行 DirectQuery 時允許存取該資料。 DirectQuery 包含執行查詢的所有必要資訊，包括連接字串和用來存取資料來源的認證，讓 DirectQuery 連線到包含的資料來源以自動重新整理。 使用 DirectQuery，基礎資料模型資訊會併入 DirectQuery。
+**DirectQuery** 是資料來源的原生資料語言 (例如 T-SQL 或其他原生資料庫語言) 中，已從 Microsoft 資料分析運算式 (DAX) 語言轉譯的 Power BI 使用者查詢，DAX 是 Power BI 和其他 Microsoft 產品建立查詢所用的語言。 與 DirectQuery 建立關聯的資料僅依參考儲存，這表示當 DirectQuery 不在作用中時，來源資料不會存放在 Power BI 中 (用來顯示儀表板和報表的視覺效果資料除外，如後文＜正在處理的資料 (資料移動)＞一節所述)。 之所以儲存 DirectQuery 資料的參考，是為了在執行 DirectQuery 時允許存取該資料。 DirectQuery 包含執行查詢的所有必要資訊，包括連接字串和用來存取資料來源的認證，讓 DirectQuery 連線到包含的資料來源以自動重新整理。 使用 DirectQuery，基礎資料模型資訊會併入 DirectQuery。
 
-匯入資料集的查詢包含「不」__ 直接轉譯成任何基礎資料來源原生語言的 DAX 查詢集合。 匯入查詢不包含基礎資料的認證，除非它是透過 [Power BI Gateway](../connect-data/service-gateway-onprem.md) 存取的內部部署資料，查詢僅儲存內部部署資料的參考，否則基礎資料會載入 Power BI 服務。
+匯入資料集的查詢包含「不」直接轉譯成任何基礎資料來源原生語言的 DAX 查詢集合。 匯入查詢不包含基礎資料的認證，除非它是透過 [Power BI Gateway](../connect-data/service-gateway-onprem.md) 存取的內部部署資料，查詢僅儲存內部部署資料的參考，否則基礎資料會載入 Power BI 服務。
 
 下表會根據使用的查詢類型描述 Power BI 資料。 **X** 會在使用相關查詢類型時，表示 Power BI 資料是否存在。
 
@@ -307,14 +307,14 @@ Power BI 以下列方式提供資料完整性監視：
 
     c. 推送的資料 – 無 (不適用)
 
-    d. ETL – 無 (無任何內容存放在計算節點上，也和前文＜待用資料＞**** 一節所述一致)
+    d. ETL – 無 (無任何內容存放在計算節點上，也和前文＜待用資料＞一節所述一致)
 4. 資料
 
     有些資料成品可在計算節點的磁碟上存放一段限定時間。
 
 ### <a name="data-in-process"></a>正在處理的資料
 
-正在處理之資料是正被使用者使用或存取的資料。 例如，當使用者存取資料集、修訂或修改儀表板或報表時，重新整理、或可能發生其他資料存取活動時，資料狀態即為正在處理。 發生前述任一事件並正在處理資料時，Power BI 服務的**資料角色**會建立記憶體內部 Analysis Services (AS) 資料庫，而資料集會載入至記憶體內部 Analysis Services 資料庫。 無論此資料集是否以 DirectQuery 為基礎，載入 AS 資料庫的資料都不加密，以允許**資料角色**存取，並保存在記憶體中供日後存取，直到 Power BI 服務不再需要此資料集為止。 針對使用 Power BI Premium 訂用帳戶的客戶，Power BI 會在客戶另行佈建的 Power BI 虛擬機器集合中，建立記憶體內部 Analysis Services (AS) 資料庫。
+正在處理之資料是正被使用者使用或存取的資料。 例如，當使用者存取資料集、修訂或修改儀表板或報表時，重新整理、或可能發生其他資料存取活動時，資料狀態即為正在處理。 發生前述任一事件並正在處理資料時，Power BI 服務的 **資料角色** 會建立記憶體內部 Analysis Services (AS) 資料庫，而資料集會載入至記憶體內部 Analysis Services 資料庫。 無論此資料集是否以 DirectQuery 為基礎，載入 AS 資料庫的資料都不加密，以允許 **資料角色** 存取，並保存在記憶體中供日後存取，直到 Power BI 服務不再需要此資料集為止。 針對使用 Power BI Premium 訂用帳戶的客戶，Power BI 會在客戶另行佈建的 Power BI 虛擬機器集合中，建立記憶體內部 Analysis Services (AS) 資料庫。
 
 開始處理資料後，包括一開始將資料載入 Power BI，Power BI 服務就會快取加密 **Azure SQL Database** 中的視覺效果資料，不論資料集是否以 DirectQuery 為基礎。
 
@@ -328,11 +328,11 @@ Power BI 以下列方式提供資料完整性監視：
 
 如果基礎資料來源能因應 **Power BI 的***角色層級安全性 (RLS)**，則 Power BI 服務會套用該角色層級安全性，而認證不足無法存取基礎資料 (可能是用於儀表板、報表或其他資料成品的查詢) 的使用者，看不到需要足夠使用者權限的資料。 如果使用者存取基礎資料之方式不同於儀表板或報表建立者的方式，則視覺效果和其他成品只會根據此使用者所擁有的資料存取層級顯示資料。
 
-如果資料來源**不**適用 RLS，則基礎資料來源會套用 Power BI 登入認證；或者，如果在連線期間提供其他認證，則套用這些提供的認證。 當使用者從非 RLS 資料來源將資料載入 Power BI 服務時，資料會存放在 Power BI 中，如本文件的＜資料儲存和移動＞**** 一節所述。 針對非 RLS 資料來源，當與其他使用者共用資料 (例如透過儀表板或報表)，或重新整理資料時，即會使用原始的認證存取或顯示資料。
+如果資料來源 **不** 適用 RLS，則基礎資料來源會套用 Power BI 登入認證；或者，如果在連線期間提供其他認證，則套用這些提供的認證。 當使用者從非 RLS 資料來源將資料載入 Power BI 服務時，資料會存放在 Power BI 中，如本文件的＜資料儲存和移動＞一節所述。 針對非 RLS 資料來源，當與其他使用者共用資料 (例如透過儀表板或報表)，或重新整理資料時，即會使用原始的認證存取或顯示資料。
 
 ![角色層級安全性 (RLS)](media/whitepaper-powerbi-security/powerbi-security-whitepaper_10.png)
 
-如需對比 RLS 及非 RLS 資料來源的快速範例，請想像 Sam 建立了報表和儀表板，然後與 Abby 和 Ralph 共用它們。 如果報表和儀表板中使用的資料來源來自**不**支援 RLS 的資料來源，則 Abby 和 Ralph 都可以看到 Sam 包含在儀表板中的資料 (已上傳到 Power BI 服務)，且 Abby 和 Ralph 都能夠資料互動。 相反地，如果 Sam 使用不支援 RLS 的資料來源建立報表和儀表板，然後與 Abby 和 Ralph 共用它，則當 Abby 嘗試檢視儀表板時，會發生下列狀況：
+如需對比 RLS 及非 RLS 資料來源的快速範例，請想像 Sam 建立了報表和儀表板，然後與 Abby 和 Ralph 共用它們。 如果報表和儀表板中使用的資料來源來自 **不** 支援 RLS 的資料來源，則 Abby 和 Ralph 都可以看到 Sam 包含在儀表板中的資料 (已上傳到 Power BI 服務)，且 Abby 和 Ralph 都能夠資料互動。 相反地，如果 Sam 使用不支援 RLS 的資料來源建立報表和儀表板，然後與 Abby 和 Ralph 共用它，則當 Abby 嘗試檢視儀表板時，會發生下列狀況：
 
 1. 因為儀表板來自 RLS 資料來源；所以，當 Power BI 服務查詢資料來源以擷取與儀表板基礎查詢建立關聯之連接字串中指定的最新資料集時，儀表板視覺效果會短暫顯示「正在載入」訊息。
 
@@ -349,7 +349,7 @@ Power BI 行動版是專為三個主要行動平臺設計的應用程式集合�
 * 裝置通訊
 * 裝置上的應用程式和資料
 
-針對**裝置通訊**，所有 Power BI 行動版應用程式都與 Power BI 服務通訊，並使用與瀏覽器所使用的相同連線與驗證順序 (如本技術白皮書前述的詳細描述)。 iOS 和 Android Power BI 行動應用程式會在應用程式本身啟動瀏覽器工作階段，而 Windows 行動應用程式會啟動代理來與 Power BI 建立通訊通道。
+針對 **裝置通訊**，所有 Power BI 行動版應用程式都與 Power BI 服務通訊，並使用與瀏覽器所使用的相同連線與驗證順序 (如本技術白皮書前述的詳細描述)。 iOS 和 Android Power BI 行動應用程式會在應用程式本身啟動瀏覽器工作階段，而 Windows 行動應用程式會啟動代理來與 Power BI 建立通訊通道。
 
 下表列出基於行動裝置平台之 Power BI 行動版憑證型驗證 (CBA) 的支援：
 
@@ -360,7 +360,7 @@ Power BI 行動版是專為三個主要行動平臺設計的應用程式集合�
 
 Power BI 行動版應用程式會主動與 Power BI 服務通訊。 遙測用於收集行動應用程式使用量統計資料和類似資料，這些資料會傳輸至用於監視使用量和活動的服務；個人資料不會使用遙測資料傳送。
 
-Power BI **裝置上的應用程式**在裝置上儲存的資料有助於使用應用程式：
+Power BI **裝置上的應用程式** 在裝置上儲存的資料有助於使用應用程式：
 
 * Azure Active Directory 和重新整理權杖使用業界標準安全措施來以安全機制儲存在裝置上。
 
@@ -380,11 +380,11 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **使用 Power BI 時，使用者如何連線至資料來源並存取？**
 
-* **Power BI 認證和網域認證：** 使用者使用電子郵件地址登入 Power BI;當使用者嘗試連線到資料資源時，Power BI 會將 Power BI 登入電子郵件地址作為認證傳遞。 針對網域連線資源 (內部部署或雲端式)，目錄服務會將登入電子郵件與「使用者主體名稱」__ ([UPN](/windows/win32/secauthn/user-name-formats)) 比對，以判斷是否有足夠的認證允許存取。 如果組織使用以工作為基礎的電子郵件地址來登入 Power BI (他們用來登入工作資源的相同電子郵件，例如 _david@contoso.com_) ，則該對應可順暢地進行; 針對未使用以工作為基礎的電子郵件地址 (例如) 的組織 _david@contoso.onmicrosoft.com_ ，必須建立目錄對應，才能以 Power BI 的登入認證來存取內部部署資源。
+* **Power BI 認證和網域認證：** 使用者使用電子郵件地址登入 Power BI;當使用者嘗試連線到資料資源時，Power BI 會將 Power BI 登入電子郵件地址作為認證傳遞。 針對網域連線資源 (內部部署或雲端式)，目錄服務會將登入電子郵件與「使用者主體名稱」 ([UPN](/windows/win32/secauthn/user-name-formats)) 比對，以判斷是否有足夠的認證允許存取。 如果組織使用以工作為基礎的電子郵件地址來登入 Power BI (他們用來登入工作資源的相同電子郵件，例如 _david@contoso.com_) ，則該對應可順暢地進行; 針對未使用以工作為基礎的電子郵件地址 (例如) 的組織 _david@contoso.onmicrosoft.com_ ，必須建立目錄對應，才能以 Power BI 的登入認證來存取內部部署資源。
 
-* **SQL Server Analysis Services 和 Power BI：** 針對使用內部部署 SQL Server Analysis Services 的組織，Power BI 提供 Power BI 的內部部署資料閘道 (**閘道**，如先前章節中所述) 。  Power BI 內部部署資料閘道可以對資料來源 (RLS) 實施角色層級安全性。 如需 RLS 的詳細資訊，請參閱本文件稍早所述的**資料來源的使用者驗證**。 如需閘道的詳細資訊，請參閱內部 [部署資料閘道](../connect-data/service-gateway-onprem.md)。
+* **SQL Server Analysis Services 和 Power BI：** 針對使用內部部署 SQL Server Analysis Services 的組織，Power BI 提供 Power BI 的內部部署資料閘道 (**閘道**，如先前章節中所述) 。  Power BI 內部部署資料閘道可以對資料來源 (RLS) 實施角色層級安全性。 如需 RLS 的詳細資訊，請參閱本文件稍早所述的 **資料來源的使用者驗證**。 如需閘道的詳細資訊，請參閱內部 [部署資料閘道](../connect-data/service-gateway-onprem.md)。
 
-  此外，組織也可以使用 Kerberos 來進行**單一登入** (SSO)，並從 Power BI 順暢地連線至內部部署資料來源，例如 SQL Server、SAP HANA 和 Teradata。 如需詳細資訊和特定設定需求，請參閱[**使用 Kerberos 進行 SSO，從 Power BI 到內部部署資料來源**](../connect-data/service-gateway-sso-overview.md)。
+  此外，組織也可以使用 Kerberos 來進行 **單一登入** (SSO)，並從 Power BI 順暢地連線至內部部署資料來源，例如 SQL Server、SAP HANA 和 Teradata。 如需詳細資訊和特定設定需求，請參閱 [**使用 Kerberos 進行 SSO，從 Power BI 到內部部署資料來源**](../connect-data/service-gateway-sso-overview.md)。
 
 * **非網域連接**：適用于未加入網域且無法 (RLS) 角色層級安全性的資料連線，使用者必須在連接順序期間提供認證，然後 Power BI 接著傳遞至資料來源來建立連接。 如果具有足夠的權限，資料會從資料來源載入 Power BI 服務。
 
@@ -394,7 +394,7 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **Power BI 如何快取報表、儀表板或模型資料，且其是否安全？**
 
-* 存取資料來源時，Power BI 服務會遵循本文件先前＜資料儲存和移動＞**** 一節中概述的程序。
+* 存取資料來源時，Power BI 服務會遵循本文件先前＜資料儲存和移動＞一節中概述的程序。
 
 **用戶端是在本機快取網頁資料嗎？**
 
@@ -402,11 +402,11 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **什麼是以角色為基礎的安全性、共用報表或儀表板，以及資料連線？如何在資料存取、儀表板視圖、報表存取或重新整理方面運作？**
 
-* 針對已啟用**非角色層級安全性 (RLS)** 的資料來源，如果透過 Power BI 與其他使用者共用儀表板、報表或資料模型，則該資料即可供與其共用的使用者檢視和互動。 Power BI 「不會」** 針對資料的原始來源重新驗證使用者；資料一旦上傳至 Power BI 後，對來源資料進行驗證的使用者需負責管理哪些其他使用者和群組可以檢視資料。
+* 針對已啟用 **非角色層級安全性 (RLS)** 的資料來源，如果透過 Power BI 與其他使用者共用儀表板、報表或資料模型，則該資料即可供與其共用的使用者檢視和互動。 Power BI 「不會」針對資料的原始來源重新驗證使用者；資料一旦上傳至 Power BI 後，對來源資料進行驗證的使用者需負責管理哪些其他使用者和群組可以檢視資料。
 
   當與支援 **RLS** 的資料來源 (例如 Analysis Services 資料來源) 建立資料連線時，只有儀表板資料會在 Power BI 中快取。 每次在 Power BI 中檢視或存取報表或資料集 (使用支援 RLS 之資料來源的資料) 時，Power BI 服務都會存取資料來源，根據使用者的認證來取得資料；如果有足夠的權限，則資料會為載入至該使用者的報表或資料模型中。 如果驗證失敗，使用者會看到錯誤。
 
-  如需詳細資訊，請參閱本文件稍早所述的＜資料來源的使用者驗證＞**** 一節。
+  如需詳細資訊，請參閱本文件稍早所述的＜資料來源的使用者驗證＞一節。
 
 **我們的使用者會隨時連線到相同的資料來源，其中有些需要與網域認證不同的認證。如何避免在每次建立資料連線時都必須輸入這些認證？**
 
@@ -416,7 +416,7 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 * Power BI 群組可讓使用者在已建立的小組中快速且輕鬆地共同建立儀表板、報表和資料模型。 例如，如果您有 Power BI 群組，其中包含您所屬小組的每個人，則您可以從 Power BI 中選取群組來輕鬆與小組中的每個人共同作業。 Power BI 群組相當於 Office 365 萬用群組 (您可以[了解](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)、[建立](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7) 並 [管理](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a))，並使用與 Azure Active Directory 所使用的相同驗證機制來保護資料。 您可以[在Power BI 中建立群組](https://support.powerbi.com/knowledgebase/articles/654250)，或在 Microsoft 365 系統管理中心建立萬用群組，兩者對於在 Power BI 中建立群組都具有相同的結果。
 
-  請注意，與 Power BI 群組共用的資料，會遵循與 Power BI 中任何共用資料相同的安全性考量。 針對**非 RLS** 資料來源，Power BI **不會**針對資料的原始來源重新驗證使用者，且資料一旦上傳至 Power BI 後，對來源資料進行驗證的使用者需負責管理哪些其他使用者和群組可以檢視資料。 如需詳細資訊，請參閱本文件稍早所述的＜資料來源的使用者驗證＞**** 一節。
+  請注意，與 Power BI 群組共用的資料，會遵循與 Power BI 中任何共用資料相同的安全性考量。 針對 **非 RLS** 資料來源，Power BI **不會** 針對資料的原始來源重新驗證使用者，且資料一旦上傳至 Power BI 後，對來源資料進行驗證的使用者需負責管理哪些其他使用者和群組可以檢視資料。 如需詳細資訊，請參閱本文件稍早所述的＜資料來源的使用者驗證＞一節。
 
   您可以取得 [Power BI 中群組](https://support.powerbi.com/knowledgebase/articles/654247)的詳細資訊。
 
@@ -426,7 +426,7 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **使用內部部署資料閘道時，如何使用修復金鑰以及它們儲存在哪裡？什麼是安全的認證管理？**
 
-* 在閘道安裝和設定期間，系統管理員會鍵入閘道**修復金鑰**。 該 **修復金鑰** 是用來產生強式 **AES** 對稱金鑰。 同時也會建立 **RSA** 非對稱金鑰。
+* 在閘道安裝和設定期間，系統管理員會鍵入閘道 **修復金鑰**。 該 **修復金鑰** 是用來產生強式 **AES** 對稱金鑰。 同時也會建立 **RSA** 非對稱金鑰。
 
     這些產生的金鑰 (**RSA** 和 **AES**) 會儲存於本機電腦上的檔案中。 此外，該檔案也會受到加密。 只有該特定的 Windows 電腦，以及該特定的閘道服務帳戶，才能解密該檔案的內容。
 
@@ -442,9 +442,9 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **Power BI 中 Azure CDN 的角色是什麼？**
 
-* 如先前所述，Power BI 使用 **Azure 內容傳遞網路** (CDN)，以根據地理的地區設定有效率地散發必要的靜態內容和檔案給使用者。 為了探索進一步的詳細資料，Power BI 服務會使用多個 **CDN**，透過公用網際網路有效率地將必要的靜態內容和檔案散發給使用者。 這些靜態檔案包括產品下載 (例如 **Power BI Desktop**、**內部部署資料閘道**或來自不同獨立服務提供者的 Power BI 應用程式)、用來起始及建立任何與 Power BI 服務後續連線的瀏覽器設定檔，以及初始的安全 Power BI 登入頁面。
+* 如先前所述，Power BI 使用 **Azure 內容傳遞網路** (CDN)，以根據地理的地區設定有效率地散發必要的靜態內容和檔案給使用者。 為了探索進一步的詳細資料，Power BI 服務會使用多個 **CDN**，透過公用網際網路有效率地將必要的靜態內容和檔案散發給使用者。 這些靜態檔案包括產品下載 (例如 **Power BI Desktop**、**內部部署資料閘道** 或來自不同獨立服務提供者的 Power BI 應用程式)、用來起始及建立任何與 Power BI 服務後續連線的瀏覽器設定檔，以及初始的安全 Power BI 登入頁面。
 
-  根據初始連線至 Power BI 服務期間提供的資訊，使用者瀏覽器會連絡指定的 Azure **CDN** (對某些檔案則是 **WFE**) 下載指定通用檔案的集合，其為啟用瀏覽器與 Power BI 服務互動所需的檔案。 然後，瀏覽器頁面會包含 Power BI 服務瀏覽器工作階段期間的 AAD 權杖、工作階段資訊、相關的**後端**叢集位置，以及從 Azure **CDN** 和 **WFE** 叢集下載的檔案集合。
+  根據初始連線至 Power BI 服務期間提供的資訊，使用者瀏覽器會連絡指定的 Azure **CDN** (對某些檔案則是 **WFE**) 下載指定通用檔案的集合，其為啟用瀏覽器與 Power BI 服務互動所需的檔案。 然後，瀏覽器頁面會包含 Power BI 服務瀏覽器工作階段期間的 AAD 權杖、工作階段資訊、相關的 **後端** 叢集位置，以及從 Azure **CDN** 和 **WFE** 叢集下載的檔案集合。
 
 **針對 Power BI 視覺效果，Microsoft 是否會在將專案發行至資源庫之前，執行自訂視覺效果程式碼的任何安全性或隱私權評量？**
 
@@ -452,13 +452,13 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **有其他 Power BI 視覺效果會在客戶網路外傳送資訊嗎？**
 
-* 可以。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
+* 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
 
 **針對範本應用程式，Microsoft 是否會在將專案發行至資源庫之前，對範本應用程式執行任何安全性或隱私權評定？**
 * 否。 應用程式發行者負責處理內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
 
 **是否有範本應用程式可以將資訊傳送到客戶網路之外？**
-* 可以。 客戶必須負責檢查發行者的隱私權原則，並判斷是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
+* 是。 客戶必須負責檢查發行者的隱私權原則，並判斷是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
 
 **什麼是資料主權？我們可以在位於特定地理位置的資料中心布建租使用者，以確保資料不會離開國家/地區框線？**
 
