@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/12/2020
+ms.date: 11/20/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: fe1714fd0249bba429c705b70e9eb157bffae44b
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668204"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012031"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
-您可以使用 Power BI Premium 來存取只在 Premium 中提供的功能 (Feature) 和功能 (Capability)，並為組織中的 Power BI 內容提供更大的規模與更好的效能。 Power BI Premium 能讓組織中更多的使用者以更佳的效能和回應性充分利用 Power BI。 例如，透過使用 Power BI Premium，您和組織的使用者均可取得下列優點：
+您可以使用 Power BI Premium 來存取只在 Premium 中提供的功能 (Feature) 和功能 (Capability)，並為組織中的 Power BI 內容提供更大的規模與更好的效能。 Power BI Premium 能讓組織中更多的使用者以更佳的效能和回應性充分利用 Power BI。 例如，使用 Power BI Premium，您和組織的使用者即可取得下列功能：
 
 > [!div class="checklist"]
 > * 針對 Power BI 報表取得更大的規模與更好的效能
@@ -43,23 +43,23 @@ Premium Gen2 提供下列更新或改進的體驗：
 
 * 除了依容量，還能夠透過 **Premium Per User**，為個別使用者提供 Premium 授權。
 
-* 強化的 **效能**，無論容量大小或時段為何：Premium Gen2 上分析作業的執行速度已提高 16 倍。 作業將一律以最快速度執行，而且不會在容量上的負載接近容量限制時變慢。
+* 無論容量大小或時段為何，皆獲得強化的 **效能**：Premium Gen2 上分析作業的執行速度已提高 16 倍。 作業將一律以最快速度執行，且不會在容量上的負載接近容量限制時變慢。
 
 * **更大的規模**：
     * 重新整理並行「沒有任何限制」，因此您不再需要追蹤在容量上重新整理之資料集的排程
     * 較少的記憶體限制
     * 將報表互動和排程的重新整理完全分隔開來
 
-* **改進的計量**，提供清楚且正規化的容量使用率資料，其只取決於容量執行之分析作業的複雜度，而不是其大小、加以執行時系統的負載層級等。 透過改進的計量，內建報告便能清楚顯示使用率分析、預算規劃、退款，以及升級需求。 在整個預覽期間，將提供改進的計量並對其進行增強。 
+* **改善的計量**，其具有清楚且正規化的容量使用率資料，且只取決於容量執行分析作業時的複雜度，而非容量大小、執行分析時系統的負載層級，或其他因素。 透過改善的計量，內建報告可清楚顯示使用率分析、預算規劃、退款，以及升級需求。 改善的計量將在預覽期間開放使用並增強。
 
-* **自動調整** 允許在容量上的負載超過其限制的 24 小時期間內「自動新增」1 個虛擬核心，進而防止因多載所造成的速度變慢。 偵測到閒置時間時，系統即會自動移除虛擬核心。 額外的虛擬核心會以隨用隨付的方式，向您的 Azure 訂用帳戶收費。 預覽期間將會提供自動調整。 
+* **自動調整** 允許在容量上負載超過其限制的 24 小時期間內「自動新增」一個虛擬核心，以防止因多載所造成的速度變慢。 偵測到閒置時間時，系統即會自動移除虛擬核心。 額外的虛擬核心會以隨用隨付的方式，向您的 Azure 訂用帳戶收費。 預覽期間將會提供自動調整。 
 
-* 透過關於容量使用率層級及負載增加的可設定主動管理通知，大幅 **降低管理負擔**。
+* 透過關於容量使用率層級及負載增加的可設定主動管理通知，藉此 **降低管理負擔**。
 
 
 ### <a name="using-premium-gen2"></a>使用 Premium Gen2
 
-您必須啟用 Premium Gen2，才能利用其更新。 若要啟用 Premium Gen2，請採取下列步驟：
+啟用 Premium Gen2 以利用其更新。 若要啟用 Premium Gen2，請採取下列步驟：
 
 1. 在管理入口網站中，瀏覽至 [容量設定]。
 2. 選取 [Power BI Premium]。
@@ -74,14 +74,19 @@ Premium Gen2 提供下列更新或改進的體驗：
 
 下列已知限制目前適用於 Premium Gen2：
 
-1.  無法在計量應用程式中追蹤 Premium Gen2 容量使用率。
+1.  計量應用程式中無法追蹤 Premium Gen2 容量使用率。
 
-2.  在管理入口網站的 [Premium Gen2 capacity] \(Premium Gen2 容量\) 設定頁面中，尚未顯示適用於特定工作負載的 Premium Gen2 容量設定。 若要變更設定，請將容量轉換成 Premium 的原始版本，變更設定，然後再次將容量設定為使用 Premium Gen2。 記憶體配置設定不適用 Premium Gen2 容量。
+2.  在管理入口網站的 [Premium Gen2 容量] 設定頁面中，尚未顯示適用於特定工作負載的 Premium Gen2 容量設定。 若要變更設定，請將容量轉換成 Premium 的原始版本，變更設定，然後再次將容量設定為使用 Premium Gen2。 記憶體配置設定不適用於 Premium Gen2 容量。
 
-3.  具有 ADLS Gen2 資料來源的資料流程目前無法在 Premium Gen2 容量上運作。  
+3.  如果您在 Premium Gen2 上使用 XMLA，請確定您使用的是最新版本的[資料模型化和管理工具](service-premium-connect-tools.md#data-modeling-and-management-tools)。 
 
-4.  如果您在 Premium Gen2 上使用 XMLA，請確定您使用的是最新版本的[資料模型化和管理工具](service-premium-connect-tools.md#data-modeling-and-management-tools)。 
+4.  只有最新的用戶端程式庫才支援 Premium Gen2 中 Analysis 服務功能。 支援這項需求的相依工具其預估發行日期如下：
 
+    |工具|需要的最低版本|預估發行日期|
+    |---|---|---|
+    |SQL Server Management Studio (SSMS)|18.8|2020 年 12 月 8 日|
+    |SQL Server Data Tools (SSDT)|2.9.15|2020 年 11 月 30 日正式推出|
+    | AS PowerShell| 高於 21.1.18229|2020 年 11 月 26 日|
 
 ## <a name="subscriptions-and-licensing"></a>訂閱和授權
 
@@ -92,7 +97,7 @@ Power BI Premium 是可供兩個 SKU (庫存單位) 系列使用的租用戶層�
 - **EM** SKU (EM1-EM3) 用於「組織」內嵌、需要年度履約承諾，且按月計費。 EM1 和 EM2 SKU 只能透過大量授權方案提供。 您無法直接購買。
 
 ### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 (預覽) 的更新
-Premium Gen2 目前僅供作為 **P** 和 **EM** SKU 的完全支援預覽功能。 **A** SKU 容量尚未提供 Premium Gen2 預覽更新所引進的所有額外權益。
+Premium Gen2 目前僅供作為 **P** 與 **EM** SKU 的完全支援預覽功能。 **A** SKU 容量尚未提供 Premium Gen2 預覽更新所引進的所有額外權益。
 
 
 ### <a name="purchasing"></a>購買
@@ -101,12 +106,12 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 #### <a name="power-bi-premium-per-user-preview"></a>Power BI Premium Per User (預覽)
 
-Power BI **Premium Per User** 可讓組織以個別使用者為基礎，對 Premium 功能進行授權。 Premium Per User (PPU) 包含所有 Power BI Pro 授權功能，同時新增了編頁報表、AI 及其他僅供 Premium 訂閱者使用等功能。 Premium Per User 目前為預覽狀態。 如需有關 Premium Per User 的詳細資訊，包括功能比較及關於其預覽版本的其他資訊，請參閱 [Power BI Premium Per User 常見問題集 (預覽)](service-premium-per-user-faq.md) 一文。 
+Power BI **Premium Per User** 可讓組織以個別使用者為基礎，對 Premium 功能進行授權。 Premium Per User (PPU) 包含所有 Power BI Pro 授權功能，並新增如編頁報表、AI 與其他僅供 Premium 訂閱者使用的功能。 Premium Per User 目前為預覽狀態。 如需有關 Premium Per User 的詳細資訊，包括功能比較及關於其預覽版本的其他資訊，請參閱 [Power BI Premium Per User 常見問題集 (預覽)](service-premium-per-user-faq.md) 一文。 
 
 
 ## <a name="reserved-capacities"></a>保留容量
 
-透過 Power BI Premium，您可以取得「保留容量」。 相對於共用容量 (其中工作負載的分析處理會在與其他客戶共用的計算資源上執行)，保留容量僅供組織使用。 其會與保留計算資源一起隔離，以便為裝載的內容提供可靠且一致的效能。 請注意，下列 Power BI 內容類型的處理會儲存於共用容量中，而不是您的保留容量中：
+透過 Power BI Premium，您可以取得「保留容量」。 相對於共用容量 (其中工作負載的分析處理會在與其他客戶共用的計算資源上執行)，保留容量僅供組織使用。 其會與保留計算資源一起隔離，以便為裝載的內容提供可靠且一致的效能。 請注意，下列 Power BI 內容類型的處理會儲存於共用容量中，而非保留容量中：
 
 * Excel 活頁簿 (除非資料先匯入 Power BI Desktop)
 * [推送資料集](/rest/api/power-bi/pushdatasets)

@@ -1,18 +1,18 @@
 ---
 title: 使用 Power BI 共用資料集建立編頁報表 - Power BI Report Builder
 description: 根據 Power BI 共用資料集，在 Power BI Report Builder 中建立編頁報表。
-ms.date: 07/08/2020
+ms.date: 11/18/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 44f1c1280e176d99ab909402a77804074e7d8cbd
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 9b8e7ac37b42e74835cde120ad1465df586a8fe3
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298110"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893698"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>建立以 Power BI 共用資料集為基礎的編頁報表
 
@@ -222,6 +222,7 @@ ms.locfileid: "93298110"
 ## <a name="limitations-and-considerations"></a>限制與考量 
 
 - 對於使用即時連線連接到 Analysis Services 的資料集，您可以使用基礎 Analysis Services 連線 (而不是共用資料集) 來直接連接。
+- 若您想要使用在 Power BI 報表產生器中使用 DirectQuery 的 Power BI 資料集，即使您不打算在報表中呈現量值，資料集也必須包含量值。 若沒有此量值，資料集將不會傳回適當的資料結果。
 - 具有已升級或已認證簽署的資料集會出現在可用資料集清單中，但不會將其標記為可用資料集。 
 - 您無法在「應用程式擁有資料」案例中，內嵌以 Power BI 共用資料集為基礎的編頁報表。
 

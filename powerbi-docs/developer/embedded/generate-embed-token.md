@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 10/15/2020
-ms.openlocfilehash: 24442f20a0c713deb489cd2461839f2b5da39a30
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: cea97f16cf06e80b7b16ef7740fcf3103b2f1eb4
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197694"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513772"
 ---
 # <a name="considerations-when-generating-an-embed-token"></a>產生內嵌權杖時的考量
 
@@ -82,7 +82,7 @@ Power BI 具有兩種工作區版本，「傳統」工作區，以及「新」�
 
 * **Edit** - 授與使用者檢視及編輯權限 (僅適用於為報表產生內嵌權杖)。
 
-    如果您是使用[為多份報表產生權杖](/rest/api/power-bi/embedtoken/generatetoken) API，請使用 *allowEdit* 參數來為使用者授與檢視及編輯權限。
+    如果您是使用 [為多份報表產生權杖](/rest/api/power-bi/embedtoken/generatetoken) API，請使用 *allowEdit* 參數來為使用者授與檢視及編輯權限。
 
 * **Create** - 授與使用者建立報表的權限 (僅適用於為建立報表產生內嵌權杖)。
 
@@ -131,4 +131,4 @@ Power BI 具有兩種工作區版本，「傳統」工作區，以及「新」�
 >[搭配服務主體使用內部部署資料閘道的資料列層級安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
 
 >[!div class="nextstepaction"]
->[使用服務主體和憑證內嵌 Power BI 內容](embed-service-principal-certificate.md)
+>[使用服務主體內嵌 Power BI 內容](embed-service-principal.md)

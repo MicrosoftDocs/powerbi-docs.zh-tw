@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 178b79ba4ae76288794f7bb67afba11c0595de7f
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680997"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513841"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -136,7 +136,7 @@ $activities[0]
 
 Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog)取得。 此外，也有 Power BI 管理入口網站的連結：
 
-1. 在 Power BI 中，選取右上角的 **齒輪圖示** ，然後選取 [管理入口網站]。
+1. 在 Power BI 中，選取右上角的 **齒輪圖示**，然後選取 [管理入口網站]。
 
    ![齒輪下拉式功能表已標示 [管理入口網站] 選項的螢幕擷取畫面。](media/service-admin-auditing/powerbi-admin.png)
 
@@ -276,6 +276,9 @@ Remove-PSSession $Session
 | 已建立 Power BI 閘道                          | CreateGateway                               |                                          |
 | 已建立 Power BI 群組                            | CreateGroup                                 |                                          |
 | 已建立 Power BI 報表                           | CreateReport <sup>1</sup>                                |                                          |
+| 建立 Power BI 範本應用程式工作區 | CreateTemplateApp   |
+| 建立 Power BI 範本應用程式安裝票證 | CreateTemplateAppInstallTicket |
+| 建立 Power BI 範本應用程式套件 | CreateTemplateAppPackage |
 | 自訂視覺效果要求的 Azure AD 存取權杖                           | GenerateCustomVisualAADAccessToken                                |                                          |
 | 自訂視覺效果要求的 Office Web Apps 存取權杖                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | 已將資料流程移轉至外部儲存體帳戶     | DataflowMigratedToExternalStorageAccount    | 目前未使用                       |
@@ -294,6 +297,8 @@ Remove-PSSession $Session
 | 已刪除 Power BI 閘道                          | DeleteGateway                               |                                          |
 | 已刪除 Power BI 群組                            | DeleteGroup                                 |                                          |
 | 已刪除 Power BI 報表                           | DeleteReport                                |                                          |
+| 已刪除 Power BI 範本應用程式工作區 | DeleteTemplateApp |
+| 已刪除 Power BI 範本應用程式套件 | DeleteTemplateAppPackage |
 | 已部署至管線階段                           | DeployAlmPipeline                                |                                          |
 | 已探索到 Power BI 資料集資料來源          | GetDatasources                              |                                          |
 | 下載 Power BI 報表                        | DownloadReport                              |                                          |
@@ -306,6 +311,7 @@ Remove-PSSession $Session
 | 已匯出 Power BI 資料流程                        | ExportDataflow                              |                                          |
 | 已匯出 Power BI 報表視覺效果資料              | ExportReport                                |                                          |
 | 已匯出 Power BI 磚資料                       | ExportTile                                  |                                          |
+| 已解壓縮 Power BI 範本應用程式套件至工作區 | ExtractTemplateAppPackage |
 | 無法新增資料流程權限                | FailedToAddDataflowPermissions              | 目前未使用                       |
 | 無法移除資料流程權限             | FailedToRemoveDataflowPermissions           | 目前未使用                       |
 | 已產生 Power BI 資料流程 SAS 權杖             | GenerateDataflowSasToken                    |                                          |
@@ -313,10 +319,12 @@ Remove-PSSession $Session
 | 產生螢幕擷取畫面                       | GenerateScreenshot |                     |
 | 已將檔案匯入 Power BI                         | 匯入                                      |                                          |
 | 已安裝 Power BI 應用程式                            | InstallApp                                  |                                          |
+| 已安裝 Power BI 範本應用程式 | InstallTemplateApp |
 | 已將工作區移轉至容量                  | MigrateWorkspaceIntoCapacity                |                                          |
 | 已張貼 Power BI 註解                           | PostComment                                 |                                          |
 | 已列印 Power BI 儀表板                        | PrintDashboard                              |                                          |
 | 已列印 Power BI 報表頁面                      | PrintReport                                 |                                          |
+| 已升級 Power BI 範本應用程式套件 | PromoteTemplateAppPackage |
 | 已將 Power BI 報表發佈到 Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | 已發佈或更新的精選資料表 | UpdateFeaturedTables <sup>3</sup>   | |
 | 已從金鑰保存庫收到 Power BI 資料流程密碼  | ReceiveDataflowSecretFromKeyVault           |                                          |
@@ -348,6 +356,7 @@ Remove-PSSession $Session
 | 已更新容量顯示名稱                     | UpdateCapacityDisplayName                   |                                          |
 | 已更新資料流程的儲存體指派權限   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | 已更新部署管線存取   | UpdateAlmPipelineAccess |                                          |
+| 已更新安裝的 Power BI 範本應用程式參數 | UpdateInstalledTemplateAppParameters |
 | 已更新部署管線設定   | SetConfigurationAlmPipeline |                                          |
 | 已更新組織的 Power BI 設定          | UpdatedAdminFeatureSwitch                   |                                          |
 | 已更新 Power BI 應用程式                              | UpdateApp                                   |                                          |
@@ -358,6 +367,8 @@ Remove-PSSession $Session
 | 已更新 Power BI 資料夾                           | UpdateFolder                                |                                          |
 | 已更新 Power BI 資料夾存取權                    | UpdateFolderAccess                          |                                          |
 | 已更新 Power BI 閘道資料來源認證  | UpdateDatasourceCredentials                 |                                          |
+| 已更新 Power BI 範本應用程式設定 | UpdateTemplateAppSettings |
+| 已更新 Power BI 範本應用程式測試存取權限 | UpdateTemplateAppTestPackagePermissions |
 | 已檢視 Power BI 儀表板                         | ViewDashboard                               |                                          |
 | 已檢視 Power BI 資料流程                          | ViewDataflow                                |                                          |
 | 已檢視 Power BI 報表                            | ViewReport                                  |                                          |

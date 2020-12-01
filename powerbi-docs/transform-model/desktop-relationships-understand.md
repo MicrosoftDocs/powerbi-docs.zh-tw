@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 472f2ecce2e28fcb7d50356ec1322f67f2395411
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: d162f4c4bb481eadc01fc1fac09c8b25e084fdbf
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91135997"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946927"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop 中的模型關聯性
 
@@ -32,7 +32,7 @@ ms.locfileid: "91135997"
 
 讓我們透過動畫範例來看看關聯性如何傳播篩選。
 
-![關聯性篩選傳播的動畫範例](media/desktop-relationships-understand/animation-filter-propagation.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-filter-propagation.gif" alt-text="關聯性篩選傳播的動畫範例。":::
 
 在此範例中，模型包含四個資料表：**Category**、**Product**、**Year** 和 **Sales**。 **Category** 資料表與 **Product** 資料表相關，而 **Product** 資料表與 **Sales** 資料表相關。 **Year** 資料表也與 **Sales** 資料表相關。 所有關聯性都是一對多 (本文稍後會描述其詳細資料)。
 
@@ -49,7 +49,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 一個模型關聯性會將資料表中的一個資料行與另一個資料表中的一個資料行產生關聯。 (有一個特殊案例，其中此需求未滿足，而其僅適用 DirectQuery 模型中的多重資料行關聯性。 如需詳細資訊，請參閱 [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 函式一文)。
 
 > [!NOTE]
-> 您無法將某個資料行與_相同資料表_中的不同資料行相關聯。 這有時會與定義資料表自我參考的關聯式資料庫外部索引鍵條件約束的功能混淆。 此關聯式資料庫概念可以用來儲存父子式關聯性 (例如，每個員工記錄會與某個「主管」員工相關聯)。 根據此類型的關聯性產生的模型階層，無法透過建立模型關聯性解析。 若要達成此目的，請參閱 [Parent 和 Child 函數](/dax/parent-and-child-functions-dax)一文。
+> 您無法將某個資料行與 _相同資料表_ 中的不同資料行相關聯。 這有時會與定義資料表自我參考的關聯式資料庫外部索引鍵條件約束的功能混淆。 此關聯式資料庫概念可以用來儲存父子式關聯性 (例如，每個員工記錄會與某個「主管」員工相關聯)。 根據此類型的關聯性產生的模型階層，無法透過建立模型關聯性解析。 若要達成此目的，請參閱 [Parent 和 Child 函數](/dax/parent-and-child-functions-dax)一文。
 
 ### <a name="cardinality"></a>基數
 
@@ -150,7 +150,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 讓我們看看「複合」模型範例。
 
-![由兩個島組成的複合模型範例](media/desktop-relationships-understand/data-island-example.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="由兩座島組成的複合模型範例。":::
 
 在此範例中，複合模型包含兩個島：Vertipaq 資料島和 DirectQuery 來源資料島。 Vertipaq 資料島包含三個資料表，而 DirectQuery 來源資料島包含兩個資料表。 有一個跨島關聯性存在，以將 Vertipaq 資料島中的資料表與 DirectQuery 來源資料島中的資料表相關聯。
 
@@ -158,13 +158,13 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 當查詢引擎可以判斷關聯性的「一」端時，模型關聯性為「一般」。 它已確認「一」端資料行包含唯一值。 所有的一對多島內關聯性都是一般關聯性。
 
-在下列範例中，有兩個一般關聯性，兩者都標示為 **S**。關聯性包括 Vertipaq 島內包含的一對多關聯性，以及 DirectQuery 來源內包含的一對多關聯性。
+在下列範例中，有兩個一般關聯性，兩者都標示為 。關聯性包括 Vertipaq 島內包含的一對多關聯性，以及 DirectQuery 來源內包含的一對多關聯性。
 
-![由兩個島組成並標示一般關聯性的複合模型範例](media/desktop-relationships-understand/data-island-example-strong.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="由兩個島組成並標示一般關聯性的複合模型範例。":::
 
 針對所有資料都儲存在 Vertipaq 快取中的匯入模型，則會在資料重新整理時，為每個一般關聯性建立資料結構。 資料結構是由所有資料行對資料行值的索引對應所組成，而其目的是在查詢時加速聯結資料表。
 
-查詢時，一般關聯性允許進行「資料表展開」。 資料表展開會藉由包含基底資料表的原生資料行，然後展開到相關資料表來建立虛擬資料表。 針對「匯入」資料表，這會在查詢引擎中完成；針對 DirectQuery 資料表，則會在傳送至來源資料庫的原生查詢中完成 (只要未啟用**採用參考完整性**屬性)。 然後，查詢引擎會在展開的資料表上採取動作，套用篩選，並依展開的資料表資料行中的值進行分組。
+查詢時，一般關聯性允許進行「資料表展開」。 資料表展開會藉由包含基底資料表的原生資料行，然後展開到相關資料表來建立虛擬資料表。 針對「匯入」資料表，這會在查詢引擎中完成；針對 DirectQuery 資料表，則會在傳送至來源資料庫的原生查詢中完成 (只要未啟用 **採用參考完整性** 屬性)。 然後，查詢引擎會在展開的資料表上採取動作，套用篩選，並依展開的資料表資料行中的值進行分組。
 
 > [!NOTE]
 > 也會展開非作用中的關聯性，即使關聯性未由計算使用也一樣。 雙向關聯性對資料表展開沒有任何影響。
@@ -177,7 +177,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 讓我們透過動畫範例來看看資料表展開如何運作。
 
-![資料表展開的動畫範例](media/desktop-relationships-understand/animation-expanded-table.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-expanded-table.gif" alt-text="資料表延伸模組的動畫範例。":::
 
 在此範例中，模型包含三個資料表：**Category**、**Product** 和 **Sales**。 **Category** 資料表與 **Product** 資料表具有一對多關聯性，而 **Product** 資料表與 **Sales** 資料表具有一對多關聯性。 **Category** 資料表包含兩個資料列，**Product** 資料表包含三個資料列，而 **Sales** 資料表包含五個資料列。 所有關聯性的兩端都有相符的值，這表示沒有參考完整性違規。 查詢時間展開資料表顯示。 資料表包含來自這三個資料表的資料行。 它實際上是三個資料表中所含資料的反正規化檢視。 新的資料列會新增至 **Sales** 資料表，而且它具有的生產識別碼值 (9)在 **Product** 中沒有相符值。 這是參考的完整性違規。 在展開的資料表中，新的資料列具有 **Category** 和 **Product** 資料表資料行的 (空白) 值。
 
@@ -188,9 +188,9 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 - 關聯性使用多對多基數類型 (即使其中一個或兩個資料行包含唯一值)
 - 關聯性是跨島 (這只會是「複合」模型的案例)
 
-在下列範例中，有兩個有限關聯性，兩者都標示為 **W**。這兩個關聯性包括 Vertipaq 島內包含的多對多關聯性，以及一對多跨島關聯性。
+在下列範例中，有兩個有限關聯性，兩者都標示為 **L**。這兩個關聯性包括 Vertipaq 島內包含的多對多關聯性，以及一對多跨島關聯性。
 
-![由兩個島組成並標示有限關聯性的複合模型範例](media/desktop-relationships-understand/data-island-example-weak.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="由兩個島組成並標示有限關聯性的複合模型範例。":::
 
 針對匯入模型，永遠都不會為有限關聯性建立資料結構。 這表示必須在查詢時解析資料表聯結。
 

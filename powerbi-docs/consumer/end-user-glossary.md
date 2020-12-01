@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: reference
-ms.date: 08/24/2020
+ms.date: 11/21/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: 47526e06da24f720f273c45616a012483f077ed5
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: c2da54406a01d5216355b8e0abc30ea63a6b2f5e
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916582"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514255"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI 服務企業用戶詞彙    
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」及其連線方式的高階概觀。
@@ -31,7 +31,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 Power BI 系統管理員管理組織中 Power BI 使用者、功能及設定的位置。 (注意︰Microsoft 365、Azure 和 PowerApps 使用系統管理中心。)
 
 **aggregates (彙總)**     
-將多個資料列值組成群組，根據準則作為輸入，形成更具重要意義或量值的單一值。
+將多個資料列值組成群組，根據準則作為輸入，形成更具重要意義或量值的單一值。 只能彙總隱含量值 (請參閱下方定義)。
 
 **aggregation (彙總)**     
 減少基礎資料來源中的資料列，以符合模型。 其結果即是彙總值。
@@ -50,9 +50,6 @@ Power BI 系統管理員管理組織中 Power BI 使用者、功能及設定的�
 
 **ArcGIS for Power BI (適用於 Power BI 的 ArcGIS)**     
 ArcGIS 是由 ESRI 公司建立的對應及分析平台。 包含在 Power BI 視覺效果程式庫中的視覺效果名稱為 ArcGIS for PowerBI。
-
-**assign (指派)**     
-[Power BI Premium] 動詞，用於將工作區移入或移出容量。 將工作區移到容量請不要使用「升階」一詞，因為這特指移至上層的共用容量。 
 
 **Auto Insights (自動見解)**     
 現在稱為「快速見解」。
@@ -73,7 +70,7 @@ Power BI Desktop 或服務中於報表 [書籤] 窗格內擷取到的資料檢�
 一項事物大小或數量的數學判定。
 
 **Capacity (容量)**     
-[Power BI Premium] 在 Microsoft 雲端資料中心內專用硬體上執行的資料模型，可協助確定大規模的一致效能。 BI 解決方案會傳遞給整個組織，無論 Power BI 的授權為何。
+[Power BI Premium] 於 Microsoft 雲端資料中心內，在完全由 Microsoft 所管理硬體上執行的資料模型，可協助確保大規模效能的一致性。 BI 解決方案會傳遞給整個組織，無論 Power BI 的授權為何。
 
 **card (卡片)** (視覺效果類型)    
 Power BI [視覺效果類型](end-user-visual-type.md)。
@@ -122,7 +119,7 @@ Power BI 服務的內容通常是儀表板、報表與應用程式。 也可以�
 ## <a name="d"></a>D
 
 **dashboard (儀表板)**     
-視覺效果的選取項目，其會與狀態及計量通訊。 儀表板會整理並將資料以讓人能一目了然的方式呈現。
+在 Power BI 服務中，儀表板是使用視覺效果來訴說故事的單一頁面，通常稱為畫布。 由於它受限為一頁，因此，設計良好的儀表板只會包含該故事的最重要元素。 儀表板只能在 Power BI 服務中建立與檢視，無法在 Power BI Desktop 中執行這些作業。 如需詳細資訊，請參閱[基本概念：儀表板](end-user-basic-concepts.md)。
 
 **data classification (資料分類)**     
 請參閱 classification (分類)
@@ -178,6 +175,9 @@ Power BI Premium。 圖示的圖形，表示該工作區為 Premium 容量工作
 
 [Power BI Desktop、Power BI 行動版、Power BI 服務等] 參考其中一個 Power BI 工具的其他方式。 若能協助熟悉「租用戶」一詞的商務分析師了解兩者為同一事物，則在文件中便可以使用「Power BI 環境 (租用戶)」一詞。
 
+**明確量值**    
+Power BI 使用明確量值與隱含量值 (請參閱下方定義)。 明確量值是由報表設計師所建立，並與資料集一起儲存。 明確量值會以欄位的形式顯示在 Power BI 中，因此可重複使用。 例如，報表設計師會建立明確量值 *TotalInvoice* 來加總所有發票金額。 使用該資料集且具有報表編輯權限的其他同事可選取該欄位，並將其用於建立視覺效果。 當新增或拖曳明確量值至報表畫布時，Power BI 無法套用彙總。  建立明確量值需要資料集的編輯存取權。 
+
 ## <a name="f"></a>F
 
 **favorite、unfavorite (我的最愛、移除最愛)**
@@ -216,6 +216,9 @@ Power BI 服務使用者的預設登陸頁面。 未修改任何項目。 可以
 
 ## <a name="i"></a>I
 
+**隱含量值**    
+Power BI 使用隱含量值與明確量值 (請參閱上方定義)。 隱含量值是以動態方式建立。  例如，當將欄位拖曳到報表畫布上來建立視覺效果時。 Power BI 會使用其中一個內建的標準彙總方法 (SUM、COUNT、MIN、AVG 等) 來自動彙總值。 建立隱含量值需要報表的編輯存取權。 
+
 **insights (見解)**     
 請參閱 **quick insights (快速見解)** 。
 
@@ -241,7 +244,7 @@ Power BI 服務使用者的預設登陸頁面。 未修改任何項目。 可以
 
 授權會指派給使用者，且可以是免費或 Pro 授權。 根據取得授權的方式而定，可能為已付費或未付款。 帳戶可以是每個使用者帳戶或組織帳戶。 每個使用者帳戶以「免費」或 *Pro* 提供。  Power BI 其「免費」使用者正在使用的為獨立 Power BI Desktop、或獨立 Power BI 服務，或具有 Premium 組織訂閱的組織內 Power BI 服務。 Power BI 每個使用者 *Pro* 帳戶是付費的每月訂用帳戶，可讓您與其他 *Pro* 使用者共同作業及共用內容。 
 
-組織的 *Premium* (也稱為「Premium 容量」) 訂閱會在每個使用者授權上新增一層功能。 例如，在組織內擁有 *Premium* 訂閱的「免費」每個使用者帳戶持有人，能夠使用 Power BI 做的事，比沒有 *Premium* 的「免費」使用者更多。 例如， *Premium* 組織帳戶中的「免費」使用者可與同事共同作業，並可檢視 Power BI Premium 容量中所託管的內容。 
+組織的 *Premium* (也稱為「Premium 容量」) 訂閱會在每個使用者授權上新增一層功能。 例如，在組織內擁有 *Premium* 訂閱的「免費」每個使用者帳戶持有人，能夠使用 Power BI 做的事，比沒有 *Premium* 的「免費」使用者更多。 例如，*Premium* 組織帳戶中的「免費」使用者可與同事共同作業，並可檢視 Power BI Premium 容量中所託管的內容。 
 
 **list page (清單頁面)** 或 **content list (內容清單)**     
 功能窗格中項目的其中一個區段頁面。 例如：我的最愛、最近項目、我的工作區等。
@@ -315,17 +318,17 @@ Power BI Desktop 檔案的副檔名。
 **pin、unpin (釘選、取消釘選)**     
 報表「設計師」所採取將視覺效果 (通常來自報表) 放置到儀表板上的動作。
 
-**Power BI** 、 **Power BI service (Power BI 服務)** 、 **Power BI Desktop** 、 **Power BI mobile (Power BI 行動版)**     
+**Power BI**、**Power BI service (Power BI 服務)** 、**Power BI Desktop**、**Power BI mobile (Power BI 行動版)**     
 一些 Power BI 供應項目。 Power BI 是通用詞彙。 它通常用於在第一次提及完整的產品名稱後代指完整產品名稱，例如「Power BI 服務」和「Power BI 行動版」。
 
 **Power BI Desktop**    
-也稱為 *Desktop* 。 可以安裝在本機電腦上的免費 Power BI Windows 應用程式，可讓您連線和轉換資料，以及將資料視覺化。 適合報表設計師和系統管理員使用。 如需詳細資訊，請參閱[什麼是 Power BI](../fundamentals/power-bi-overview.md)。
+也稱為 *Desktop*。 可以安裝在本機電腦上的免費 Power BI Windows 應用程式，可讓您連線和轉換資料，以及將資料視覺化。 適合報表設計師和系統管理員使用。 如需詳細資訊，請參閱[什麼是 Power BI](../fundamentals/power-bi-overview.md)。
 
 **Power BI Embedded**    
 開發人員所使用的產品，用於將 Power BI 儀表板與報表內嵌到其應用程式、網站及工具。
 
 **Power BI Premium**    
-Power BI Pro 授權的附加元件，其可讓組織透過購買專用硬體，以預測性地調整 BI 解決方案的大小。 請參閱「帳戶」。
+Power BI Pro 授權的附加元件，其可讓組織透過在 Microsoft 雲端中購買保留的硬體，以預測性地調整 BI 解決方案的大小。 請參閱「帳戶」。
 
 **Power BI Pro**    
 一種每月每個使用者的授權，可提供建置報表與儀表板、在共用資料上共同作業、自動將資料保持在最新狀態、稽核及治理資料存取及使用方式的能力，以及封裝內容以進行分散 (Power BI 應用程式) 的能力。 請參閱「帳戶」。
@@ -431,7 +434,7 @@ Power BI 使用者管理其一般設定 (例如是否要預覽新功能、設定
 **streaming data (串流資料)**     
 請參閱「real-time streaming (即時串流)」。
 
-**subscriptions (訂閱)** 、 **Subscribe (訂閱)**      
+**subscriptions (訂閱)** 、**Subscribe (訂閱)**      
 您可以訂閱報表頁面、應用程式和儀表板，並接收包含快照集的電子郵件。 需要 Power BI Pro 授權。
 
 **summarization (摘要)**     

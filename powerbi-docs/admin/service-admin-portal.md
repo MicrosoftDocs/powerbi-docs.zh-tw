@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 0abdaab48516b91624a0945d32c4f81ed024a468
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719067"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947095"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -272,6 +272,16 @@ ms.locfileid: "94719067"
 
 若要邀請外部使用者到組織，使用者也需要 Azure Active Directory 來賓邀請者角色。 此設定只會控制透過 Power BI 邀請的能力。 
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>允許外部來賓使用者編輯和管理組織中的內容
+
+Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](service-admin-azure-ad-b2b.md)
+
+以下影像顯示可讓外部來賓使用者編輯及管理組織中內容的選項。
+
+![允許外部來賓使用者編輯和管理組織中的內容](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+在管理入口網站中，您也可控制哪些使用者有權邀請外部使用者加入組織。 如需詳細資訊，請參閱本文中的[與外部使用者共用內容](#export-and-sharing-settings)。
+
 ### <a name="publish-to-web"></a>發行至 Web
 
 身為 Power BI 系統管理員，[發佈到 Web] 設定會提供讓使用者建立內嵌程式碼來將報表發佈到 Web 的選項。 這個功能可將報表及其資料提供網上所有人使用。 深入了解[發行至 Web](../collaborate-share/service-publish-to-web.md)。
@@ -300,60 +310,73 @@ ms.locfileid: "94719067"
 |系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示為 **受到侵害**。|
 |現有的已發佈報告|全部已啟用|全部已停用|報告會繼續針對全部項目呈現。|
 
-### <a name="export-data"></a>匯出資料
+### <a name="copy-and-paste-visuals"></a>複製並貼上視覺效果
 
-組織中的使用者可以從磚或視覺效果匯出資料。 此設定可控制使用 Excel 分析、匯出為 .csv、資料集下載 (.pbix) 和 Power BI 服務 Live Connect 功能。 深入了解[從磚或視覺效果匯出資料](../visuals/power-bi-visualization-export-data.md)。
+組織中的使用者可以從磚或報表視覺效果複製視覺效果，並將其貼入外部應用程式中作為靜態影像。
 
->[!NOTE]
-> 在引進 [匯出至 Excel] 設定之前，這項設定也控制了將資料匯出至 Excel 檔案。 請參閱[匯出至 Excel 下方的備註](#export-to-excel)以取得詳細資料。
-
-![匯出資料設定](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
-
-下圖顯示從圖格匯出資料的選項。
-
-![從圖格匯出資料](media/service-admin-portal/powerbi-admin-export-data.png)
-
-> [!NOTE]
-> 停用 [匯出資料] 會讓使用者無法使用[「在 Excel 中進行分析」](../collaborate-share/service-analyze-in-excel.md)功能，也無法使用 Power BI 服務即時連線。
+![複製貼上視覺效果啟用切換的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-copy-paste-visuals-setting.png)
 
 ### <a name="export-to-excel"></a>匯出至 Excel
 
 組織中的使用者可以將資料從視覺效果匯出至 Excel 檔案。
 
-![匯出至 Excel 設定](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+![匯出至 Excel 設定的螢幕擷取畫面](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
->[!IMPORTANT]
-> 在引進 [匯出至 Excel] 設定之前，匯出至 Excel 檔案是由 [匯出資料] 設定所控制。 因此，在引進 [匯出至 Excel] 設定前已存在的租用戶上，當 Power BI 系統管理員第一次查看 [匯出至 Excel] 設定時，Power BI 系統管理員將會看到其具有「未套用的變更」。 租用戶系統管理員必須套用這些變更，才能使新設定生效。 否則，匯出至 Excel 檔案將會繼續由 [匯出資料] 設定控制。
+### <a name="export-to-csv"></a>匯出至 .csv
+
+組織中的使用者可以從磚、視覺效果或 .csv 檔案的編頁報表匯出資料。
+
+![匯出至 .csv 設定的螢幕擷取畫面](media/service-admin-portal/powerbi-admin-portal-export-to-csv-setting.png)
+
+### <a name="download-reports"></a>下載報表
+
+組織中的使用者可以下載 .pbix 檔案與編頁報表。
+
+![下載報表設定的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-download-reports-setting.png)
+
+### <a name="allow-live-connections"></a>允許即時連線
+
+組織中的使用者可以使用 Power BI 服務即時連線。 這包括 [使用 Excel 分析]。
+
+![允許即時連線設定的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>將報表匯出成 PowerPoint 簡報或 PDF 文件
 
-組織中的使用者可將 Power BI 報表匯出成 PowerPoint 檔案或 PDF 文件。 [深入了解](../consumer/end-user-powerpoint.md)
+組織中的使用者可以將報表匯出成 PowerPoint 檔案或 PDF 文件。
 
-下圖顯示當啟用 [Export reports as PowerPoint presentations or PDF documents] \(將報表匯出為 PowerPoint 簡報或 PDF 文件\) 設定時，報表的 [檔案] 功能表。
+![將報表匯出成 PowerPoint 或 PDF 文件的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-export-pptx-pdf-setting.png)
 
-![將報表匯出為 PowerPoint 簡報](media/service-admin-portal/powerbi-admin-powerpoint.png)
+### <a name="export-reports-as-mhtml-documents"></a>將報表匯出成 MHTML 文件
+
+組織中的使用者可以將編頁報表匯出成 MHTML 文件。
+
+![匯出至 MHTML 設定的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-export-mhtml-setting.png)
+
+### <a name="export-reports-as-word-documents"></a>將報表匯出成 Word 文件
+
+組織中的使用者可以將編頁報表匯出成 Word 文件。
+
+![匯出至 Word 設定的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-export-word-setting.png)
+
+### <a name="export-reports-as-xml-documents"></a>將報表匯出成 XML 文件
+
+組織中的使用者可以將編頁報表匯出成 XML 文件。
+
+![匯出至 XML 設定的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-export-xml-setting.png)
+
+### <a name="export-reports-as-image-files-preview"></a>將報表匯出成影像檔案 (預覽)
+
+組織中的使用者可以使用 [將報表匯出至檔案 API]，將報表匯出成影像檔案。
+
+![匯出成影像設定的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-export-as-image-setting.png)
 
 ### <a name="print-dashboards-and-reports"></a>列印儀表板與報表
 
-組織中的使用者可以列印儀表板和報表。 [深入了解](../consumer/end-user-print.md)
 
-下圖顯示列印儀表板的選項。
+![列印儀表板與報表設定的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-print-dashboards-reports-setting.png)
 
-![列印儀表板](media/service-admin-portal/powerbi-admin-print-dashboard.png)
-
-下圖顯示當啟用 [列印儀表板與報表] 設定時，報表的 [檔案] 功能表。
-
-![列印報告](media/service-admin-portal/powerbi-admin-print-report.png)
-
-### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>允許外部來賓使用者編輯和管理組織中的內容
-
-Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](service-admin-azure-ad-b2b.md)
-
-以下影像顯示可讓外部來賓使用者編輯及管理組織中內容的選項。
-
-![允許外部來賓使用者編輯和管理組織中的內容](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
-
-在管理入口網站中，您也可控制哪些使用者有權邀請外部使用者加入組織。 如需詳細資訊，請參閱本文中的[與外部使用者共用內容](#export-and-sharing-settings)。
+### <a name="certification"></a>認證
+可供此組織中的使用者認證資料集、資料流程、報表與應用程式。 如需詳細資料，請參閱[啟用內容認證](service-admin-setup-certification.md)。
 
 ### <a name="email-subscriptions"></a>電子郵件訂閱
 組織中的使用者可建立電子郵件訂閱。 深入了解[訂閱](../collaborate-share/service-publish-to-web.md)。
@@ -367,6 +390,25 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 建議先從一小組推廣者開始。 如果讓整個組織在首頁提供內容，可能會讓您難以追蹤所有推廣的內容。 
 
 啟用精選內容之後，您也可以在系統管理員入口網站中進行管理。 請參閱本文中的[管理精選內容](#manage-featured-content)，以了解如何在網域中控制精選內容。
+
+### <a name="allow-connections-to-featured-tables"></a>允許精選資料表的連線
+
+此設定可讓 Power BI 系統管理員控制組織中哪些人可使用 Excel 資料類型資源庫中的精選資料表。 
+
+![允許連線至精選資料表設定的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-allow-connections-featured-tables-setting.png)
+
+>[!NOTE]
+>若將 [[允許即時連線]](#allow-live-connections) 設定設為 [停用]，則也會停用對精選資料表的連線。
+
+深入閱讀 [Excel 中的 Power BI 精選資料表](../collaborate-share/service-excel-featured-tables.md)。
+
+### <a name="share-to-teams"></a>共用到 Teams
+
+此設定可供組織在 Power BI 服務中隱藏 [共用到 Teams] 按鈕。 設定為停用時，使用者在 Power BI 服務中檢視報表和儀表板時，不會在動作列或操作功能表中看見 [共用到 Teams] 按鈕。
+
+![Power BI 管理入口網站中 [共用到 Teams] 租用戶設定的螢幕擷取畫面。](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+深入了解[將 Power BI 內容共用到 Teams](../collaborate-share/service-share-report-teams.md)。
 
 ## <a name="content-pack-and-app-settings"></a>內容套件及應用程式設定
 
@@ -388,12 +430,9 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ## <a name="integration-settings"></a>整合設定
 
-### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>以內部部署資料集使用「使用 EXCEL 分析」
+### <a name="allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets"></a>允許內部部署資料集的 XMLA 端點，以及在 Excel 中進行分析
 
-組織中的使用者可以使用 Excel 來檢視內部部署 Power BI 資料集，並與其互動。 [深入了解](../collaborate-share/service-analyze-in-excel.md)
-
-> [!NOTE]
-> 停用 [匯出資料] 也會讓使用者無法使用「在 Excel 中進行分析」功能。
+組織中的使用者可以使用 Excel 來檢視內部部署 Power BI 資料集，並與其互動。 這也允許 XMLA 端點的連線。 [深入了解](../collaborate-share/service-analyze-in-excel.md)
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
@@ -402,24 +441,6 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 ### <a name="use-global-search-for-power-bi-preview"></a>為 Power BI 使用全域搜尋 (預覽)
 
 組織中的使用者可以使用依賴 Azure 搜尋的外部搜尋功能。
-
-## <a name="featured-tables-settings"></a>精選資料表設定
-
-在 [租用戶設定] 下，[允許連線至精選資料表] 設定可讓 Power BI 系統管理員控制組織中哪些人員可使用 Excel 資料類型資源庫中的精選資料表。 
-
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="精選資料表的所有連線":::
-
-如果 [匯出資料] 設定設為 [停用]，則也會停用對精選資料表的連線。
-
-深入閱讀 [Excel 中的 Power BI 精選資料表](../collaborate-share/service-excel-featured-tables.md)。
-
-## <a name="share-to-teams-tenant-setting"></a>[共用到 Teams] 租用戶設定
-
-[共用到 Teams] 設定位於 Power BI 管理入口網站的 [租用戶設定] 區段中。 此設定可供組織將 [共用到 Teams] 按鈕隱藏在 Power BI 服務中。 設定為停用時，使用者在 Power BI 服務中檢視報表和儀表板時，不會在動作列或操作功能表中看見 [共用到 Teams] 按鈕。
-
-![Power BI 管理入口網站中 [共用到 Teams] 租用戶設定的螢幕擷取畫面。](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
-
-深入了解[將 Power BI 內容共用到 Teams](../collaborate-share/service-share-report-teams.md)。
 
 ## <a name="r-visuals-settings"></a>R 視覺效果設定
 

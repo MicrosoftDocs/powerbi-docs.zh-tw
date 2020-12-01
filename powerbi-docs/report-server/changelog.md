@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 11/18/2020
+ms.openlocfilehash: 2989436c2a501447cab2d95e0ac1d3fad1fd99b6
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044769"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947016"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -23,6 +23,12 @@ ms.locfileid: "93044769"
 
 ## <a name="october-2020"></a>2020 年 10 月
 - **Power BI 報表伺服器**
+    - *版本：1.9.7627.11028 (組建 15.0.1104.264)，發行日期：2020 年 11 月 18 日*
+        - Bug 修正
+            - 修正導致使用者無法透過入口網站變更網站設定內欄位的問題。
+            - 已修正使用 'EnterData' 資料來源時，重新整理 Power BI 報表的問題。
+            - 已修正使用增強資料集中繼資料重新整理某些模型的問題。
+            - 已修正某些 Power BI 報表無法發佈至報表伺服器的問題。
     - *版本：1.9.7604.41261 (組建 15.0.1104.239)，發行日期：2020 年 10 月 27 日*
          - 特性
             - 在 Power BI 報表伺服器中啟用對增強型資料集中繼資料的支援。
