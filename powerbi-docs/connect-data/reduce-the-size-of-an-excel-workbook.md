@@ -2,22 +2,22 @@
 title: 減少 Excel 活頁簿的大小以在 Power BI 中檢視
 description: 減少 Excel 活頁簿的大小以在 Power BI 中檢視
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/10/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7755834f5d76392f7212073f958d3c4070dcaca7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9996b8e3f571a04dc41d138947532f3ab402057a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234771"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404080"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>減少 Excel 活頁簿的大小以在 Power BI 中檢視
-所有小於 1 GB 的 Excel 活頁簿都可上傳至 Power BI。 Excel 活頁簿可以包含兩個部分：資料模型和報表的其他部分 — 核心工作表內容。 如果報表符合下列大小限制，您就可以將它儲存到**商務用 OneDrive**，然後從 Power BI 連接到它並於 Excel Online 中檢視：
+所有小於 1 GB 的 Excel 活頁簿都可上傳至 Power BI。 Excel 活頁簿可以包含兩個部分：資料模型和報表的其他部分 — 核心工作表內容。 如果報表符合下列大小限制，您就可以將它儲存到 **商務用 OneDrive**，然後從 Power BI 連接到它並於 Excel Online 中檢視：
 
 * 整份活頁簿的上限是 1 GB。
 * 核心工作表內容的上限是 30 MB。

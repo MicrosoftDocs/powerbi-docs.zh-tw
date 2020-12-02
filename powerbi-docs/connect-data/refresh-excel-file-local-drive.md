@@ -2,19 +2,19 @@
 title: 重新整理建立自 Excel 活頁簿的資料集 - 本機
 description: 重新整理建立自本機磁碟上 Excel 活頁簿的資料集
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 11/28/2018
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: d2dd08d087b8c4f878d9f74946c77e84dd8ba9e0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216341"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403942"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>重新整理建立自本機磁碟上 Excel 活頁簿的資料集
 ## <a name="whats-supported"></a>支援的項目有哪些？

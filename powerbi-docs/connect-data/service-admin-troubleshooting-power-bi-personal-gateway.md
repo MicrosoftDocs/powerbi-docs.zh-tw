@@ -2,19 +2,19 @@
 title: 針對 Power BI 閘道進行疑難排解 (個人模式)
 description: 針對 Power BI 閘道進行疑難排解 (個人模式)
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 5/06/2019
-ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: caac528c707066a8d49072eee647737f43953a15
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861490"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403804"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>針對 Power BI 閘道進行疑難排解 (個人模式)
 
@@ -93,7 +93,7 @@ ms.locfileid: "90861490"
 
 您可能仍在使用舊版閘道 (個人模式)。 
 
-**解決方案：** 如需詳細資訊，請參閱[安裝最新版本的 Power BI 閘道 (個人模式)](https://powerbi.microsoft.com/gateway/)。
+**解決方案：** 如需詳細資訊，請參閱 [安裝最新版本的 Power BI 閘道 (個人模式)](https://powerbi.microsoft.com/gateway/)。
 
 **錯誤：在您針對使用 ACE OLEDB 的資料來源選取 Windows 驗證時發生登入錯誤：** 若您在針對使用 ACE OLEDB 提供者的資料來源輸入資料來源認證時，收到以下錯誤：
 
@@ -108,7 +108,7 @@ Power BI 目前針對使用 ACE OLEDB 提供者的資料來源不支援 Windows 
 
 ## <a name="tools-for-troubleshooting"></a>疑難排解的工具
 ### <a name="refresh-history"></a>重新整理歷程記錄
-透過**重新整理歷程記錄**，您可以查看發生的錯誤並在您需要建立支援要求時尋找有用資料。 您可以檢視排程及隨選重新整理。 以下是取得**重新整理歷程記錄**的方法。
+透過 **重新整理歷程記錄**，您可以查看發生的錯誤並在您需要建立支援要求時尋找有用資料。 您可以檢視排程及隨選重新整理。 以下是取得 **重新整理歷程記錄** 的方法。
 
 1. 在 Power BI 導覽窗格的 [資料集] 中，選取資料集。 開啟功能表，然後選取 [排程重新整理]。
 
@@ -120,9 +120,9 @@ Power BI 目前針對使用 ACE OLEDB 提供者的資料來源不支援 Windows 
    ![重新整理歷程記錄資訊](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
 
 ### <a name="event-logs"></a>事件記錄檔
-有數個事件記錄檔可以提供資訊。 若您是電腦的系統管理員，前兩個是**資料管理閘道**和 **PowerBIGateway**。 若您不是系統管理員，且若您正在使用資料閘道 (個人模式)，您會在 [應用程式] 記錄中看到記錄項目。
+有數個事件記錄檔可以提供資訊。 若您是電腦的系統管理員，前兩個是 **資料管理閘道** 和 **PowerBIGateway**。 若您不是系統管理員，且若您正在使用資料閘道 (個人模式)，您會在 [應用程式] 記錄中看到記錄項目。
 
-**Data Management Gateway** 和 **PowerBIGateway** 記錄檔位於 **Application and Services Logs**下。
+**Data Management Gateway** 和 **PowerBIGateway** 記錄檔位於 **Application and Services Logs** 下。
 
 ![資料管理閘道及 PowerBIGateway 記錄](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 

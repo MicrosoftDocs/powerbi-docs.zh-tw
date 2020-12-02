@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: dd119abd50450d6090d952d0727f672dc7072abf
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 024f3f3b37555a45b1c0d216b0de4f29d65da2bc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749429"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403597"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 
@@ -66,4 +66,4 @@ Power BI 具有各種可用的 Azure 連接，而且您可以使用這些服務�
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>您可以使用 Azure 和 Power BI 做什麼？
 
-其中有各種結合 **Azure** 和 **Power BI** 的案例 - 種種可能和機會就如同您的企業一樣獨一無二。 如需 **Azure 服務**的詳細資訊，請簽出這個[概觀頁面](/azure/machine-learning/team-data-science-process/plan-your-environment)，其中描述**使用 Azure 的資料分析案例**，並了解如何將資料來源轉換成商業智慧，引領您的企業向前邁進。
+其中有各種結合 **Azure** 和 **Power BI** 的案例 - 種種可能和機會就如同您的企業一樣獨一無二。 如需 **Azure 服務** 的詳細資訊，請簽出這個 [概觀頁面](/azure/machine-learning/team-data-science-process/plan-your-environment)，其中描述 **使用 Azure 的資料分析案例**，並了解如何將資料來源轉換成商業智慧，引領您的企業向前邁進。

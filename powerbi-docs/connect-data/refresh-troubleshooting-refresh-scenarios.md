@@ -2,19 +2,19 @@
 title: 重新整理疑難排解案例
 description: 重新整理疑難排解案例
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
+ms.subservice: pbi-data-sources
+ms.topic: troubleshooting
 ms.date: 05/28/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a92314891b4738fc5da735adc361e5c215e83351
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7f8193971176a738b46f628e11736ac6016ec83e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222210"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403758"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>重新整理疑難排解案例
 
@@ -70,11 +70,11 @@ ms.locfileid: "85222210"
 
 Microsoft 正在調查解決方案，以允許資料載入程序重新整理權杖，然後繼續。 不過，如果您的 Dynamics CRM Online 或 SharePoint Online 執行個體 (或其他 AAD OAuth 資料來源) 太大，而超過兩小時資料載入閾值，您也可能會發生 Power BI 服務的資料載入逾時。
 
-另請注意，為了讓重新整理正常運作，在使用 AAD OAuth 連線至 **SharePoint Online** 資料來源時，您必須使用與登入 **Power BI 服務**所使用的相同帳戶。
+另請注意，為了讓重新整理正常運作，在使用 AAD OAuth 連線至 **SharePoint Online** 資料來源時，您必須使用與登入 **Power BI 服務** 所使用的相同帳戶。
 
 ## <a name="uncompressed-data-limits-for-refresh"></a>重新整理時未壓縮的資料限制
 
-匯入 **Power BI 服務**中的資料集大小上限為 1 GB。 這些資料集會極度壓縮以確保高效能。 此外，在共用的容量中，服務會將重新整理期間處理的未壓縮資料量限制為 10 GB。 這項限制已考量壓縮，因此比 1 GB 高出許多。 Power BI Premium 中的資料集不受此限制。 如果 Power BI 服務中的重新整理因此而失敗，請減少資料匯入 Power BI 中的資料，然後再試一次。
+匯入 **Power BI 服務** 中的資料集大小上限為 1 GB。 這些資料集會極度壓縮以確保高效能。 此外，在共用的容量中，服務會將重新整理期間處理的未壓縮資料量限制為 10 GB。 這項限制已考量壓縮，因此比 1 GB 高出許多。 Power BI Premium 中的資料集不受此限制。 如果 Power BI 服務中的重新整理因此而失敗，請減少資料匯入 Power BI 中的資料，然後再試一次。
 
 ## <a name="scheduled-refresh-timeout"></a>排定的重新整理逾時
 
