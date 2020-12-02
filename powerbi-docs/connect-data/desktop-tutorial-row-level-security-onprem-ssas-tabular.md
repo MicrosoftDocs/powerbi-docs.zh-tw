@@ -2,20 +2,20 @@
 title: 動態資料列層級安全性與 Analysis Services 表格式模型
 description: 動態資料列層級安全性與內部部署 Analysis Services 表格式模型
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/17/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: b1e95bc7494e1de9a8eae82578e73382081037dc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349590"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410911"
 ---
 # <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>在內部部署 Analysis Services 表格式模型中實作資料列層級安全性
 
@@ -119,7 +119,7 @@ ms.locfileid: "92349590"
 
 1. 啟動 Power BI Desktop 並選取 [取得資料]   > [資料庫]  。
 
-1. 從資料來源清單中，選取 **SQL Server Analysis Services 資料庫** ，然後選取 [連線]  。
+1. 從資料來源清單中，選取 **SQL Server Analysis Services 資料庫**，然後選取 [連線]  。
 
    ![連線至 SQL Server Analysis Services 資料庫](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
 
@@ -135,7 +135,7 @@ ms.locfileid: "92349590"
 
 1. 在 [欄位]  窗格上，選取 [FactInternetSales]  資料表的 [SalesAmount]  量值，以及 [SalesTerritory]  資料表的 [SalesTerritoryRegion]  維度。
 
-1. 為了將這份報表保持簡潔，我們現在不會新增任何其他的欄位。 為了讓資料以更能表達意義的方式呈現，請將視覺效果變更為 **環圈圖** 。
+1. 為了將這份報表保持簡潔，我們現在不會新增任何其他的欄位。 為了讓資料以更能表達意義的方式呈現，請將視覺效果變更為 **環圈圖**。
 
    ![環圈圖視覺效果](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 

@@ -5,20 +5,20 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a7f8c6d52acff8cbaaa00004448a3fae300afb9b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633691"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411900"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
-使用 Power BI 報表的全新 [內嵌] 選項，您可以輕鬆且安全地在內部入口網站中內嵌報表。 這些入口網站可以是**雲端式**或**託管內部部署**，例如 SharePoint 2019。 內嵌報表會透過[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 遵守所有項目權限和資料安全性。 它們會提供不使用程式碼內嵌至任何接受 URL 或 iFrame 入口網站的功能。 
+使用 Power BI 報表的全新 [內嵌] 選項，您可以輕鬆且安全地在內部入口網站中內嵌報表。 這些入口網站可以是 **雲端式** 或 **託管內部部署**，例如 SharePoint 2019。 內嵌報表會透過[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 遵守所有項目權限和資料安全性。 它們會提供不使用程式碼內嵌至任何接受 URL 或 iFrame 入口網站的功能。 
 
 [內嵌] 選項支援 [URL 篩選](service-url-filters.md)及 URL 設定。 它可以讓您幾乎不使用任何程式碼來與入口網站整合，而只需要基本的 HTML 和 JavaScript 知識。
 
@@ -42,7 +42,7 @@ ms.locfileid: "91633691"
 
     ![內嵌報告](media/service-embed-secure/secure-embed-report.png)
 
-5. 使用 iFrame 時，您可能需要編輯**高度**和**寬度**，使其符合入口網站中的網頁。
+5. 使用 iFrame 時，您可能需要編輯 **高度** 和 **寬度**，使其符合入口網站中的網頁。
 
     ![設定高度與寬度](media/service-embed-secure/secure-embed-size.png)
 

@@ -2,19 +2,19 @@
 title: 使用 Power BI 中的 DirectQuery
 description: 了解如何搭配 Power BI 使用 DirectQuery，以及如何和何時使用 DirectQuery 或其他選項的最佳做法
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 11/17/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f6f4cdb221773218c945e7f800d569c73a9a130
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 39b6a95a9a5140e1013d3eaa400c968c40b3063c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718975"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411302"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>如何在 Power BI 中使用 DirectQuery
 

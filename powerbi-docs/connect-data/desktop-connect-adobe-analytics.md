@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中連線至 Adobe Analytics
 description: 輕鬆連線到 Adobe Analytics Power BI Desktop 並加以使用
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/07/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bc6b40754e12531c57dfcab2923fdf999aee5481
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 89376902f1c37526ddf9376461871bcf27c2566d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224817"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411486"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Adobe Analytics 
 在 **Power BI Desktop** 中，您可以連線至 **Adobe Analytics** 並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
@@ -34,7 +34,7 @@ ms.locfileid: "85224817"
 
 ![使用導覽器選取資料](media/desktop-connect-adobe-analytics/connect-adobe-analytics_04.png)
 
-您可以**載入**選取的資料表，將整個資料表帶入 **Power BI Desktop** 中，也可以**編輯**查詢以開啟**查詢編輯器**，以便您篩選並縮小搜尋範圍到一組您想要使用的資料，然後將該組精簡的資料載入 **Power BI Desktop** 中。
+您可以 **載入** 選取的資料表，將整個資料表帶入 **Power BI Desktop** 中，也可以 **編輯** 查詢以開啟 **查詢編輯器**，以便您篩選並縮小搜尋範圍到一組您想要使用的資料，然後將該組精簡的資料載入 **Power BI Desktop** 中。
 
 ![使用導覽器載入或編輯資料](media/desktop-connect-adobe-analytics/connect-adobe-analytics_05.png)
 

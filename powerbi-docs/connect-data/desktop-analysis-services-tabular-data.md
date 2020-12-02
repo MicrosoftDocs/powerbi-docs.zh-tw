@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中連線至 Analysis Services 表格式資料
 description: 使用 Power BI Desktop，您可使用即時連線或選取項目來將其匯入至 Power BI Desktop，以連線到 SQL Server Analysis Services 表格式模型來取得資料。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6c31079bc0ad517a1b2bb37f8da0c0ed5240595f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858684"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411509"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Analysis Services 表格式資料
 使用 Power BI Desktop 時，有兩種方式可以連線到 SQL Server Analysis Services 表格式模型並從中取得資料：使用即時連線瀏覽，或選取項目並將其匯入至 Power BI Desktop。
@@ -37,7 +37,7 @@ ms.locfileid: "90858684"
 1. 依序選取 [SQL Server Analysis Services 資料庫]  和 [連線]  。
    
    ![選取 [SQL Server Analysis Services 資料庫]](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as.png)
-3. 在 [SQL Server Analysis Services 資料庫]  視窗中，輸入**伺服器**名稱並選擇連線模式，然後選取 [確定]  。
+3. 在 [SQL Server Analysis Services 資料庫]  視窗中，輸入 **伺服器** 名稱並選擇連線模式，然後選取 [確定]  。
    
    ![[SQL Server Analysis Services 資料庫] 視窗](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_server.png)
 4. 在 [導覽器]  視窗中，這個步驟取決於您選取的連線模式：
@@ -90,7 +90,7 @@ ms.locfileid: "90858684"
 
 1. 從 [常用]  索引標籤選取 [編輯查詢]  。
 
-2. 在 [SQL Server Analysis Services 資料庫]  視窗中，輸入新的**伺服器**名稱，然後選取 [確定]  。
+2. 在 [SQL Server Analysis Services 資料庫]  視窗中，輸入新的 **伺服器** 名稱，然後選取 [確定]  。
 
    
 ## <a name="troubleshooting"></a>疑難排解 

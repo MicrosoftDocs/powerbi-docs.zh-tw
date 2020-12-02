@@ -1,21 +1,21 @@
 ---
 title: 在 Excel 中對 Power BI 進行分析
 description: 在 Microsoft Excel 中分析 Power BI 資料集
-author: davidiseminger
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/22/2020
-ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 2f0d9dbec6c40b43a3b47f9cd698efed4a2899f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020059"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412084"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 透過 [使用 Excel 分析]，即可將 Power BI 資料集帶入 Excel 中，然後使用樞紐分析表、圖表、交叉分析篩選器和其他 Excel 功能加以查看並進行互動。 若要使用 [使用 Excel 分析]，則必須先從 Power BI 下載此功能、加以安裝，然後選取要在 Excel 中使用的一或多個資料集。 
@@ -42,7 +42,7 @@ ms.locfileid: "91020059"
 
 ![從 Power BI 首頁下載 [使用 Excel 分析]](media/service-analyze-in-excel/analyze-excel-02.png)
 
-或者，您可在 Power BI 服務中巡覽至所要分析的資料集，然後針對資料集、報表或其他 Power BI 項目選取**更多選項**項目。 從出現的功能表中，選取 [使用 Excel 分析] 選項，如下圖所示。
+或者，您可在 Power BI 服務中巡覽至所要分析的資料集，然後針對資料集、報表或其他 Power BI 項目選取 **更多選項** 項目。 從出現的功能表中，選取 [使用 Excel 分析] 選項，如下圖所示。
 
 ![從資料集在 Excel 中進行分析](media/service-analyze-in-excel/analyze-excel-01.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "91020059"
     
     ![正在下載 Excel 檔案](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
-    檔案名稱符合從中衍生檔案名稱的資料集 (或報表或其他資料來源)。 因此，如果報表先前稱為「季報表」，則下載的檔案就會是**季報表.xlsx**。
+    檔案名稱符合從中衍生檔案名稱的資料集 (或報表或其他資料來源)。 因此，如果報表先前稱為「季報表」，則下載的檔案就會是 **季報表.xlsx**。
 
     >[!Note]
     >[在 Excel 中進行分析] 現在會下載 Excel 檔案，而非 ODC 檔案。 這可讓您對從 Power BI 匯出的資料進行資料保護。 下載的 Excel 檔案會繼承針對 [在 Excel 中進行分析] 所選擇之資料集的敏感度標籤。
@@ -104,7 +104,7 @@ ms.locfileid: "91020059"
 
 ## <a name="use-excel-to-analyze-the-data"></a>使用 Excel 分析資料
 
-啟用編輯及內容後，Excel 即會顯示空的**樞紐分析表**和 Power BI 資料集的 [欄位] 清單，並準備開始分析。
+啟用編輯及內容後，Excel 即會顯示空的 **樞紐分析表** 和 Power BI 資料集的 [欄位] 清單，並準備開始分析。
 
 ![已連接資料的 Excel](media/service-analyze-in-excel/analyze-in-excel-connected.png)
 
@@ -127,7 +127,7 @@ Excel 檔案的 MSOLAP 連接字串會連接到您在 Power BI 中資料集。 �
 即使您已經在瀏覽器中登入了 Power BI，但第一次在 Excel 中開啟新的 Excel 檔案時，系統可能仍會要求使用 Power BI 帳戶登入 Power BI。 這會驗證從 Excel 到 Power BI 的連線。
 
 ### <a name="users-with-multiple-power-bi-accounts"></a>使用多個 Power BI 帳戶的使用者
-有些使用者有多個 Power BI 帳戶。 如果是這樣，您可能會使用其中一個帳戶登入 Power BI，但另一個帳戶可存取 [使用 Excel 分析] 中使用的資料集。 在這種情況下，若嘗試存取用於 [使用 EXCEL 分析] 活頁簿中的資料集，可能會看到**禁止**錯誤或登入失敗。
+有些使用者有多個 Power BI 帳戶。 如果是這樣，您可能會使用其中一個帳戶登入 Power BI，但另一個帳戶可存取 [使用 Excel 分析] 中使用的資料集。 在這種情況下，若嘗試存取用於 [使用 EXCEL 分析] 活頁簿中的資料集，可能會看到 **禁止** 錯誤或登入失敗。
 
 如果發生這種情況，您將有機會再次登入，屆時即可使用用於 [使用 EXCEL 分析] 所存取資料集的 Power BI 帳戶登入。 您也可以在 Excel 的頂端功能區中選取姓名，以識別目前已登入的帳戶。 請登出並以另一個帳戶重新登入。
 
@@ -157,7 +157,7 @@ Excel 檔案的 MSOLAP 連接字串會連接到您在 Power BI 中資料集。 �
 
 如需如何以這種方式將資料放入 Excel 的詳細資訊，請參閱 Excel 文件中的[從 Power BI 資料集建立樞紐分析表](https://support.office.com/article/31444a04-9c38-4dd7-9a45-22848c666884)。
 
-您也可以在 [資料類型] 資源庫中，存取 Excel 的**精選資料表**。 若要深入了解精選資料表及其存取方式，請參閱[在 Excel 中存取 Power BI 的精選資料表 (預覽)](service-excel-featured-tables.md)。
+您也可以在 [資料類型] 資源庫中，存取 Excel 的 **精選資料表**。 若要深入了解精選資料表及其存取方式，請參閱[在 Excel 中存取 Power BI 的精選資料表 (預覽)](service-excel-featured-tables.md)。
 
 ## <a name="requirements"></a>需求
 使用 [使用 EXCEL 分析] 有幾項要求：
@@ -166,7 +166,7 @@ Excel 檔案的 MSOLAP 連接字串會連接到您在 Power BI 中資料集。 �
 
 * Excel 樞紐分析表不支援數值欄位的拖放功能彙總。 您在 Power BI 中的資料集 *必須有預先定義的量值* 。 深人了解[建立量值](../transform-model/desktop-measures.md)。
 * 某些組織可能會有防止安裝 [使用 EXCEL 分析] 必要更新的群組原則規則。 如果您無法安裝更新，請洽詢您的系統管理員。
-* **使用 Excel 分析**需要資料集位於 Power BI Premium 中，或使用者具有 Power BI Pro 授權。 若要深入了解授權類型之間的功能差異，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」一節。
+* **使用 Excel 分析** 需要資料集位於 Power BI Premium 中，或使用者具有 Power BI Pro 授權。 若要深入了解授權類型之間的功能差異，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」一節。
 * 使用者若有基礎資料集的權限，就能透過 [使用 Excel 分析] 連線到資料集。  使用者有多種方式可取得此權限，例如在包含資料集的工作空間擁有成員角色、與使用資料集的人共用報表或儀表板，或在包含該資料集的工作空間或應用程式中擁有資料集建置權限。 深入了解資料集的[建置權限](../connect-data/service-datasets-build-permissions.md)。
 * 來賓使用者無法針對傳送自 (源自) 另一個租用戶的資料集使用 [使用 Excel 分析]。 
 * [使用 Excel 分析] 是 Power BI 服務的功能，Power BI 報表伺服器或 Power BI Embedded 不提供此功能。 

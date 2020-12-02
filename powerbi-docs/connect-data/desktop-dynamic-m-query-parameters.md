@@ -2,23 +2,23 @@
 title: Power BI Desktop 中的動態 M 查詢參數 (預覽)
 description: 在 Power BI Desktop 中建立動態 M 查詢參數
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7f7dd319c69291f690dae5cd18b95285618df07b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349636"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411187"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Power BI Desktop 中的動態 M 查詢參數 (預覽)
 
-透過 **動態 M 查詢參數** ，模型作者可以讓 **報表檢視者** 使用篩選條件或交叉分析篩選器來設定 [M 查詢參數](/power-query/power-query-query-parameters)的值，這對查詢效能最佳化特別有用。 使用動態 M 查詢參數，模型作者可以進一步控制篩選選取項目併入 DirectQuery 來源查詢的方式。 
+透過 **動態 M 查詢參數**，模型作者可以讓 **報表檢視者** 使用篩選條件或交叉分析篩選器來設定 [M 查詢參數](/power-query/power-query-query-parameters)的值，這對查詢效能最佳化特別有用。 使用動態 M 查詢參數，模型作者可以進一步控制篩選選取項目併入 DirectQuery 來源查詢的方式。 
 
 當模型作者了解其篩選條件的預期語意時，通常會知道如何針對其資料來源撰寫有效率的查詢，從而可以確保在正確的位置將篩選選取項目併入來源查詢，以達到其預期的結果，並提升效能。
 
@@ -35,7 +35,7 @@ ms.locfileid: "92349636"
 
 讓我們逐步執行一個範例，以動態方式將 **單一值** 傳遞給某個參數：
 
-1. 在 Power BI Desktop 中，從 [資料] 索引標籤啟動 **Power Query** ，然後選取功能區中 [管理參數] 按鈕底下的 [新增參數]。
+1. 在 Power BI Desktop 中，從 [資料] 索引標籤啟動 **Power Query**，然後選取功能區中 [管理參數] 按鈕底下的 [新增參數]。
 
     ![功能區功能表](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-02.png)
 
@@ -115,7 +115,7 @@ Products
  | project ReleaseDate, Name, Category, Region```
 ```
 
-對於傳遞適當參數值的友好使用者可能沒有問題，例如， *Games* ：
+對於傳遞適當參數值的友好使用者可能沒有問題，例如，*Games*：
 
 ```
 | where Category == 'Games' & HasReleased == 'True'

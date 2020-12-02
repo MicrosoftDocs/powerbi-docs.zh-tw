@@ -2,20 +2,20 @@
 title: 在 Power Query 編輯器中使用 R
 description: 在 Power BI Desktop 的 Power Query 編輯器中使用 R 以進行進階分析。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e45f8b84fd0c6b0d2c38b8849a12743d4d8e109e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c70422cc9f02566612cf67a9a5ee1b1b4b033063
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223139"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411095"
 ---
 # <a name="use-r-in-power-query-editor"></a>在 Power Query 編輯器中使用 R
 
@@ -67,7 +67,7 @@ ms.locfileid: "85223139"
 
    ![選取 [編輯查詢]](media/desktop-r-in-query-editor/r-in-query-editor_4.png)
 
-1. 在 [轉換]  索引標籤中，選取 [執行 R 指令碼]  。 隨即出現**執行 R 指令碼**編輯器。 資料列 15 和 20 包含遺漏資料，其他您在影像中看不到的資料列也包含遺漏資料。 下列步驟會示範 R 如何為您完成這些資料列。
+1. 在 [轉換]  索引標籤中，選取 [執行 R 指令碼]  。 隨即出現 **執行 R 指令碼** 編輯器。 資料列 15 和 20 包含遺漏資料，其他您在影像中看不到的資料列也包含遺漏資料。 下列步驟會示範 R 如何為您完成這些資料列。
 
    ![選取 [執行 R 指令碼]](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 
@@ -113,7 +113,7 @@ ms.locfileid: "85223139"
 
 在將 .pbix 檔案上傳到 Power BI 服務後，您需要採取額外步驟來啟用服務資料重新整理和更新後的視覺效果：  
 
-* **針對資料集啟用排程的重新整理**：若要使用 R 指令碼為包含資料集的活頁簿啟用排程的重新整理，請參閱[設定排程的重新整理](refresh-scheduled-refresh.md)。 本文也包含個人閘道的相關資訊。
+* **針對資料集啟用排程的重新整理**：若要使用 R 指令碼為包含資料集的活頁簿啟用排程的重新整理，請參閱 [設定排程的重新整理](refresh-scheduled-refresh.md)。 本文也包含個人閘道的相關資訊。
 
 * **安裝個人閘道**：您需要在檔案和 R 所在的電腦上安裝個人閘道。 Power BI 服務會存取該活頁簿，並重新轉譯任何更新後的視覺效果。 如需詳細資訊，請參閱[在 Power BI 中使用個人閘道](service-gateway-personal-mode.md)。
 

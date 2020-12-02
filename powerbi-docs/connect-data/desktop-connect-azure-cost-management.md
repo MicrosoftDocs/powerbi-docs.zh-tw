@@ -2,20 +2,20 @@
 title: 在 Power BI Desktop 中連線到 Azure 成本管理資料
 description: 輕鬆地連線到 Azure，並使用 Power BI Desktop 取得 Azure 成本和使用方式相關見解
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599888"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411463"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Azure 成本管理連接器建立視覺效果和報表
 
@@ -35,24 +35,24 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 若要在 Power BI Desktop 中使用 **Azure 成本管理連接器**，請採取下列步驟：
 
 1.  在 [常用] 功能區中，選取 [取得資料]。
-2.  從資料類別清單選取 [Azure]****。
-3.  選取 [Azure 成本管理]****。
+2.  從資料類別清單選取 [Azure]。
+3.  選取 [Azure 成本管理]。
 
     ![取得資料](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
 
-4. 在出現的對話方塊中，輸入 **Microsoft 客戶合約**的 **帳單設定檔識別碼**，或 **Enterprise 合約 (EA)** 的**註冊號碼**。 
+4. 在出現的對話方塊中，輸入 **Microsoft 客戶合約** 的 **帳單設定檔識別碼**，或 **Enterprise 合約 (EA)** 的 **註冊號碼**。 
 
 
 ## <a name="connect-to-a-microsoft-customer-agreement-account"></a>連線到 Microsoft 客戶合約帳戶 
 
-若要與 **Microsoft 客戶合約**帳戶連線，您可以從 Azure 入口網站取得您的**帳單設定檔識別碼**：
+若要與 **Microsoft 客戶合約** 帳戶連線，您可以從 Azure 入口網站取得您的 **帳單設定檔識別碼**：
 
 1.  在 [Azure 入口網站](https://portal.azure.com/)中，瀏覽到 [成本管理 + 計費]。
 2.  選取您的帳單設定檔。 
-3.  在功能表的 [設定]**** 下，選取側邊欄中的 [屬性]****。
-4.  在 [帳單設定檔]**** 下，複製**識別碼**。 
-5.  針對 [選擇範圍]****，請選取 [帳單設定檔識別碼]**** 並貼上上一個步驟中的帳單設定檔識別碼。 
-6.  輸入月份數，然後選取 [確定]****。
+3.  在功能表的 [設定] 下，選取側邊欄中的 [屬性]。
+4.  在 [帳單設定檔] 下，複製 **識別碼**。 
+5.  針對 [選擇範圍]，請選取 [帳單設定檔識別碼] 並貼上上一個步驟中的帳單設定檔識別碼。 
+6.  輸入月份數，然後選取 [確定]。
 
     ![顯示 Azure 成本管理屬性的螢幕擷取畫面，其中包含帳單設定檔識別碼的範圍。](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
@@ -65,9 +65,9 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 
 1.  在 [Azure 入口網站](https://portal.azure.com/)中，瀏覽到 [成本管理 + 計費]。
 2.  選取您的計費帳戶。
-3.  在 [概觀]**** 功能表上，複製**帳單帳戶識別碼**。
-4.  針對 [選擇範圍]****，請選取 [註冊號碼]**** 並貼上上一個步驟中的帳單帳戶識別碼。 
-5.  輸入月份數，然後選取 [確定]****。
+3.  在 [概觀] 功能表上，複製 **帳單帳戶識別碼**。
+4.  針對 [選擇範圍]，請選取 [註冊號碼] 並貼上上一個步驟中的帳單帳戶識別碼。 
+5.  輸入月份數，然後選取 [確定]。
 
     ![顯示 Azure 成本管理屬性的螢幕擷取畫面，其中包含註冊號碼範圍。](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
@@ -75,7 +75,7 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 
 ## <a name="data-available-through-the-connector"></a>透過連接器提供的資料
 
-成功驗證之後，[導覽器]**** 視窗隨即出現，其中包含下列可用資料表：
+成功驗證之後，[導覽器] 視窗隨即出現，其中包含下列可用資料表：
 
 
 
@@ -95,13 +95,13 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 | **使用量詳細資料** | 所指定帳單設定檔 (在 EA 註冊上) 的取用量明細和估計費用。 |
 | **已分攤的使用量詳細資料** | 所指定帳單設定檔 (在 EA 註冊上) 的取用量明細和估計攤銷費用。 |
 
-您可以選取資料表來查看預覽對話方塊。 您可以透過選取資料表名稱旁邊的方塊來選取一或多個資料表，然後選取 [載入]****。
+您可以選取資料表來查看預覽對話方塊。 您可以透過選取資料表名稱旁邊的方塊來選取一或多個資料表，然後選取 [載入]。
 
 ![[導覽器] 對話方塊的螢幕擷取畫面。](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
 
 當您選取 [載入] 時，資料會載入到 Power BI Desktop。 
 
-您選取的資料載入後，資料表與欄位會顯示在 [欄位]**** 窗格中。
+您選取的資料載入後，資料表與欄位會顯示在 [欄位] 窗格中。
 
 
 ## <a name="next-steps"></a>後續步驟

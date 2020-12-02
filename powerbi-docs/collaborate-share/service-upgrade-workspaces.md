@@ -2,19 +2,19 @@
 title: 將傳統工作區升級至新的工作區
 description: 了解如何將傳統工作區升級至新的工作區體驗。 您可以升級任何工作區，但您可能需要留意並規劃一些變更。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633047"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411601"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>將傳統工作區升級至 Power BI 中的新工作區
 
@@ -67,7 +67,7 @@ ms.locfileid: "91633047"
 - 新的工作區體驗中不支援內容套件。 請閱讀[已發佈的內容套件](#published-content-packs)或[已安裝的內容套件](#installed-content-packs)的相關章節，以了解如何在升級期間處理它們。 我們建議您先刪除工作區中已安裝或已發佈的內容套件，然後再進行升級。
 - Power BI 中工作區升級不會影響到傳統工作區的 Microsoft 365 群組。 任何小組、SharePoint 網站、信箱或由 Microsoft 365 管理的其他資源都不會變更。 升級 Power BI 工作區之後，它們會保持不變。 Microsoft 365 群組會繼續以先前的方式存在。
 - 在升級之後，您的工作區受到保護的方式有所變更。 如需詳細資訊，請參閱[升級後的工作區權限](#permissions-after-upgrade)一節。
-- 如果需要，可以選擇**返回傳統工作區**。 但是，它在升級之前無法完全還原工作區的某些層面。 如果您開始使用僅在新的工作區體驗中可用的功能，則將無法返回。 升級之後，返回選項會提供 30 天的時間。
+- 如果需要，可以選擇 **返回傳統工作區**。 但是，它在升級之前無法完全還原工作區的某些層面。 如果您開始使用僅在新的工作區體驗中可用的功能，則將無法返回。 升級之後，返回選項會提供 30 天的時間。
 
 ## <a name="permissions-after-upgrade"></a>升級後的權限
 
@@ -77,8 +77,8 @@ ms.locfileid: "91633047"
 
 每個 Microsoft 365 群組擁有者都會分別新增到已升級工作區的系統管理員角色。 Microsoft 365 群組本身會新增至工作區角色。 其新增的角色取決於傳統工作區是「唯讀」或「讀寫」：
 
-- 當工作區設定為 [成員可以編輯 Power BI 內容] 時，升級後，Microsoft 365 群組就會新增至具有**成員**角色的工作區存取清單。
-- 當工作區設定為 [Members can only read Power BI content] \(成員僅能讀取 Power BI 內容\) 時，升級後，Microsoft 365 群組就會新增至具有**檢視人員**角色的工作區存取清單。
+- 當工作區設定為 [成員可以編輯 Power BI 內容] 時，升級後，Microsoft 365 群組就會新增至具有 **成員** 角色的工作區存取清單。
+- 當工作區設定為 [Members can only read Power BI content] \(成員僅能讀取 Power BI 內容\) 時，升級後，Microsoft 365 群組就會新增至具有 **檢視人員** 角色的工作區存取清單。
 
 因為 Microsoft 365 群組已在工作區中獲得角色，所以在升級後新增至 Microsoft 365 群組的任何使用者，都具有工作區的該角色。 不過，如果在升級後將新的擁有者新增至 Microsoft 365 群組，則其不會擁有工作區的系統管理員角色。
 
@@ -87,8 +87,8 @@ ms.locfileid: "91633047"
 
 傳統和新的工作區中的工作區角色是不同的。 新的工作區體驗可供將工作區角色提供給 Microsoft 365 群組、安全性群組或通訊群組清單。
 
-- **成員**可以共用個別的項目，並透過「成員」、「參與者」或「檢視人員」角色，提供整個工作區的存取權
-- **檢視人員**只能查看內容，不能匯出基礎資料或在 Excel 中分析任何工作區資料集，除非他們擁有建置權限。
+- **成員** 可以共用個別的項目，並透過「成員」、「參與者」或「檢視人員」角色，提供整個工作區的存取權
+- **檢視人員** 只能查看內容，不能匯出基礎資料或在 Excel 中分析任何工作區資料集，除非他們擁有建置權限。
 
 任何可透過共用或應用程式權限存取工作區中項目的使用者，都會繼續擁有這些項目的存取權。 具有工作區存取權的任何人也都可以存取從工作區發佈的應用程式。 這些使用者不會列在應用程式存取清單中。
 

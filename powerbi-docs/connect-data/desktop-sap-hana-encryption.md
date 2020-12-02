@@ -2,20 +2,20 @@
 title: 啟用 SAP HANA 的加密
 description: 了解如何在使用 SAML SSO 從 Power BI 連線到 HANA 伺服器時加密連線。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: b6d3362f75a0267dc680e3e54d2f92e44a98598a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501895"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410934"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>啟用 SAP HANA 的加密
 
@@ -43,7 +43,7 @@ ms.locfileid: "92501895"
 
 1. 使用 SSH，以 \<sid\>adm 身分連線到 HANA 伺服器執行所在的 Linux 機器。
 
-1. 移至主目錄 _/_ _usr/sap/\<sid\>/home_ 。
+1. 移至主目錄 _/_ _usr/sap/\<sid\>/home_。
 
 1. 建立名為 _.__ssl_ 的隱藏目錄 (如果尚不存在的話)。
 

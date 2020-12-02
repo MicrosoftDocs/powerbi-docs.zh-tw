@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中執行 Python 指令碼
 description: 在 Power BI Desktop 中執行 Python 指令碼
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/02/2020
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f97bde6b6754283ca13ff9dd3db3682183f74e26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eae2a6710d38547aeb13e9a77db8123def74e836
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223206"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410980"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中執行 Python 指令碼
 
@@ -124,7 +124,7 @@ Power BI 會以使用者所提供目錄 (透過設定頁面提供) 中的 python
 
 ## <a name="known-limitations"></a>已知的限制
 
-目前您無法在已啟用**增強型中繼資料 (預覽)** 功能的報表中使用 Python 指令碼。 現有的報表將會繼續運作。 如需詳細資訊，請參閱[使用增強型資料集中繼資料 (預覽)](desktop-enhanced-dataset-metadata.md)。 
+目前您無法在已啟用 **增強型中繼資料 (預覽)** 功能的報表中使用 Python 指令碼。 現有的報表將會繼續運作。 如需詳細資訊，請參閱[使用增強型資料集中繼資料 (預覽)](desktop-enhanced-dataset-metadata.md)。 
 
 ## <a name="next-steps"></a>後續步驟
 

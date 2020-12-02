@@ -2,18 +2,18 @@
 title: 背書 - 推廣及認證 Power BI 內容
 description: 了解如何透過推廣或認證讓高品質內容可更容易找到
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: af222d1ebedf8e9afa2529d3d433da5d003a8059
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681795"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411831"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>背書 - 推廣及認證 Power BI 內容
 
@@ -21,17 +21,17 @@ ms.locfileid: "92681795"
 
 組織通常會有大量的 Power BI 內容，可供其 Power BI 使用者共用及重複使用，但識別值得信任的權威內容可能很困難。 背書方法可讓使用者更輕鬆地找到所需的高品質內容。 在 Power BI 和使用者尋找 Power BI 內容的其他位置 (例如 Excel) 中，已背書的內容均已清楚標示。 其在某些搜尋中也具有較高的優先順序，而您可在某些清單中對其進行排序。
 
-有兩種類型的背書： **推廣** 和 **認證** 。
+有兩種類型的背書：**推廣** 和 **認證**。
 
-* **升級** ：推廣可讓使用者醒目提示其認為有價值、值得且準備好供其他人使用的內容。 這可鼓勵人員在組織內合作將內容進行散佈。
+* **升級**：推廣可讓使用者醒目提示其認為有價值、值得且準備好供其他人使用的內容。 這可鼓勵人員在組織內合作將內容進行散佈。
 
     任何內容擁有者，或內容所在工作區上具有寫入權限的任何成員，只要認為該內容值得共用，就可以推廣該內容。
 
-* **認證** ：認證表示內容符合組織的品質標準，且可視為能夠在整個組織中使用的可靠權威內容。
+* **認證**：認證表示內容符合組織的品質標準，且可視為能夠在整個組織中使用的可靠權威內容。
 
     只有選定的一組檢閱者 (由 Power BI 系統管理員定義) 已獲授權可認證內容。 內容擁有者若想要看到其內容經過認證，但未獲授權無法自行認證內容，則必須遵循其組織對於取得其內容認證的指導方針。
 
-    **只有在 Power BI 系統管理員已針對組織啟用並設定認證時，才能使用認證** 。
+    **只有在 Power BI 系統管理員已針對組織啟用並設定認證時，才能使用認證**。
 
 下圖說明當在搜尋建置報表所依據的資料集時，如何清楚識別已背書的內容 (推廣及認證)。
 

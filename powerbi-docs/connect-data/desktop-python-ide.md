@@ -2,19 +2,19 @@
 title: 與 Power BI 搭配使用外部 Python IDE
 description: 您可以透過 Power BI 啟動並使用外部的 IDE
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/18/2018
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8fdc0ecb4dfa1d35077e773ff7f568106168009c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c93c358f79b77a9cdda51eb815c35e674150cc39
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215349"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411072"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>與 Power BI 搭配使用外部 Python IDE
 透過 **Power BI Desktop**，您可以使用您的外部 Python IDE (整合式開發環境) 來建立並精簡 Python 指令碼，然後在 Power BI 中使用這些指令碼。
@@ -42,7 +42,7 @@ ms.locfileid: "86215349"
 
 根據預設，**Power BI Desktop** 將會啟動 **Visual Studio Code** 作為外部 Python IDE (如果它安裝在本機電腦上)；如果未安裝 **Visual Studio Code**，而您具有 **Visual Studio**，則會改為啟動該項目。 如果上述所有 Python IDE 皆未安裝，就會啟動與 **.PY** 檔案建立關聯的應用程式。
 
-如果 **.PY** 檔案關聯未存在，則可以在 [選項] 對話方塊的 [瀏覽至您慣用的 Python IDE] 區段中指定自訂 IDE 的路徑。 您也可以啟動不同的 Python IDE，方法是選取 **Power BI Desktop** 中**啟動 Python IDE** 箭號圖示旁邊的**設定**齒輪圖示。
+如果 **.PY** 檔案關聯未存在，則可以在 [選項] 對話方塊的 [瀏覽至您慣用的 Python IDE] 區段中指定自訂 IDE 的路徑。 您也可以啟動不同的 Python IDE，方法是選取 **Power BI Desktop** 中 **啟動 Python IDE** 箭號圖示旁邊的 **設定** 齒輪圖示。
 
 ## <a name="launch-a-python-ide-from-power-bi-desktop"></a>從 Power BI Desktop 啟動 Python IDE
 若要從 **Power BI Desktop** 啟動 Python IDE，請採取下列步驟：

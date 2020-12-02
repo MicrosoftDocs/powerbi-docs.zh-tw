@@ -2,19 +2,19 @@
 title: 資料保護計量報表
 description: 了解資料保護計量報表
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 08/16/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea4aa1772712fbfff67ab749a379638ba698f554
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a5aa410e6624c5cb50be055533c698afe938f0ef
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854498"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412176"
 ---
 # <a name="data-protection-metrics-report"></a>資料保護計量報表
 
@@ -38,7 +38,7 @@ ms.locfileid: "90854498"
 ![保護計量系統管理入口網站](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  
  
-第一次開啟資料保護計量報表時，可能需要幾秒鐘的時間載入。 系統會在 [我的工作區] 下方的私人環境中，建立名為**資料保護計量 (自動產生)** 的報表和資料集。 我們不建議您在此處檢視，因為這不是具有完整功能的報表。 請改為在系統管理員入口網站中檢視報表，如上所述。
+第一次開啟資料保護計量報表時，可能需要幾秒鐘的時間載入。 系統會在 [我的工作區] 下方的私人環境中，建立名為 **資料保護計量 (自動產生)** 的報表和資料集。 我們不建議您在此處檢視，因為這不是具有完整功能的報表。 請改為在系統管理員入口網站中檢視報表，如上所述。
 
 > [!CAUTION]
 > 請勿以任何方式變更報表或資料集，因為新版本的報表會隨時推出，您對原始報表所做的任何變更都會在更新至新版本時遭到覆寫。

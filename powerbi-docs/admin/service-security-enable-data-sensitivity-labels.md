@@ -2,18 +2,18 @@
 title: 在 Power BI 中啟用敏感度標籤
 description: 了解如何在 Power BI 中啟用敏感度標籤
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 08/10/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96e51d41c39ccc11d4e3816883193132531bb730
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: eb2afe2e7fa21bc0583185cfc8a160b20f56236c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374307"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412107"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>在 Power BI 中啟用敏感度標籤
 
@@ -59,7 +59,7 @@ ms.locfileid: "91374307"
 ![啟用敏感度標籤](media/service-security-enable-data-sensitivity-labels/enable-data-sensitivity-labels-02.png)
 
 > [!IMPORTANT]
-> 只有有權*建立*及*編輯*資產的 Power BI Pro 使用者，以及隸屬於您先前在此區段中設定之相關安全性群組的使用者，才能設定及編輯敏感度標籤。 不屬於此群組的使用者無法設定或編輯此標籤。  
+> 只有有權 *建立* 及 *編輯* 資產的 Power BI Pro 使用者，以及隸屬於您先前在此區段中設定之相關安全性群組的使用者，才能設定及編輯敏感度標籤。 不屬於此群組的使用者無法設定或編輯此標籤。  
 
 ## <a name="troubleshooting"></a>疑難排解
 

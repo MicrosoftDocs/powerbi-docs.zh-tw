@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: fb79358bb9149498a39cca32db618cb6971121de
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 866ef0776a9332cbe88c5e9775fb872bae04892b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964778"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411532"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>在 Microsoft Teams 中取得 Power BI 連結預覽
 
@@ -43,7 +43,7 @@ ms.locfileid: "90964778"
 
     ![基本連結預覽的螢幕擷取畫面。](media/service-teams-link-preview/service-teams-link-preview-basic.png)
 
-1. 選取**展開**圖示，以顯示豐富的預覽卡片。
+1. 選取 **展開** 圖示，以顯示豐富的預覽卡片。
 
     ![展開圖示的螢幕擷取畫面。](media/service-teams-link-preview/service-teams-link-preview-expand-icon.png)
 

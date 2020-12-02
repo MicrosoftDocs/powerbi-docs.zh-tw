@@ -2,19 +2,19 @@
 title: 從 Power BI Desktop 連線到 Power BI 服務中的資料集
 description: 在多個工作區中使用多個 Power BI Desktop 報表的通用資料集，以及管理報表生命週期
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5701e94991f64d1f05a867da189c814dd1484370
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: e177eb9e124a26e62d392b7dd97562c11c8f9d5a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680447"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411026"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 
@@ -91,7 +91,7 @@ Anna 可以從該處選擇報表和資料集要發佈的工作區目的地。 �
 
 如果您尚未登入，Power BI 會提示您登入。 登入之後，Power BI 會顯示您所隸屬的工作區。 您可以選取哪個工作區包含您要建立 Power BI 服務即時連線所在的資料集。
 
-清單中資料集是您在任何工作區中具備「建置」權限的所有共用資料集。 您可以搜尋特定資料集並查看其名稱、擁有者、所在的工作區，以及最後重新整理的時間。 在清單的頂端，也會為經過認證或升階的資料集顯示 **簽署** 。
+清單中資料集是您在任何工作區中具備「建置」權限的所有共用資料集。 您可以搜尋特定資料集並查看其名稱、擁有者、所在的工作區，以及最後重新整理的時間。 在清單的頂端，也會為經過認證或升階的資料集顯示 **簽署**。
 
 ![可用資料集的清單](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 

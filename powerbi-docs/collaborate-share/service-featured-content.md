@@ -2,19 +2,19 @@
 title: 為同事的 Power BI [首頁] 頁面添加精選內容
 description: 如何為組織中同事的 Power BI [首頁] 頁面添加精選的 Power BI 儀表板與報表。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: nikhilga
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: c45eb2afdf028f9e3a4b213333a0028924858a09
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462436"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411808"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>為同事的 Power BI [首頁] 頁面添加精選內容
 

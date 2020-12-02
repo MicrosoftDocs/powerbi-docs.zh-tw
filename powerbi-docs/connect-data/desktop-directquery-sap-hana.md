@@ -2,19 +2,19 @@
 title: Power BI 中的 DirectQuery for SAP HANA
 description: 搭配使用 DirectQuery 與 SAP HANA 時的考量
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/10/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4d2c48f39fff9cd55243848b2ee62d05f9d5db00
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f6cb4fa1ee35754d8ffe468ddb845089f26045a9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216395"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411164"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery 以連線到 SAP HANA 資料來源
 您可以使用 **DirectQuery** 來直接連線到 **SAP HANA** 資料來源。 連線到 SAP HANA 時有兩個選項：
@@ -35,7 +35,7 @@ ms.locfileid: "86216395"
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>將 SAP HANA 視為多維度來源 (預設值)
 
-所有新的 SAP HANA 連線預設都會使用這個連線方法，將 SAP HANA 視為多維度來源。 若要將連至 SAP HANA 的連線視為關聯來源，您必須選取 [檔案] > [選項及設定] > [選項]，然後選取 [Direct Query] > [將 SAP HANA 視為關聯來源] 底下的方塊。 由於此功能目前為**預覽版**，因此您「無法」將使用多維度方法建立的報表發佈至 Power BI 服務，如果這麼做，將會導致在 Power BI 服務內開啟報表時發生錯誤。  
+所有新的 SAP HANA 連線預設都會使用這個連線方法，將 SAP HANA 視為多維度來源。 若要將連至 SAP HANA 的連線視為關聯來源，您必須選取 [檔案] > [選項及設定] > [選項]，然後選取 [Direct Query] > [將 SAP HANA 視為關聯來源] 底下的方塊。 由於此功能目前為 **預覽版**，因此您「無法」將使用多維度方法建立的報表發佈至 Power BI 服務，如果這麼做，將會導致在 Power BI 服務內開啟報表時發生錯誤。  
 
 以多維度來源形式連線到 SAP HANA 時，適用下列考量事項：
 
@@ -82,7 +82,7 @@ ms.locfileid: "86216395"
 * 當 SAP HANA 檢視包含非加法類量值 (例如相異計數或平均值，而非簡單總和) 時，結果會如預期。
 * 產生的查詢有效。
 
-當 [取得資料] 或**查詢編輯器** 中所定義的查詢會執行彙總時，從釐清關聯來源 (例如 SQL Server) 的行為開始著手相當有用。 在接下來的範例中，**查詢編輯器**中所定義的查詢會依 *ProductID* 傳回平均價格。  
+當 [取得資料] 或 **查詢編輯器** 中所定義的查詢會執行彙總時，從釐清關聯來源 (例如 SQL Server) 的行為開始著手相當有用。 在接下來的範例中，**查詢編輯器** 中所定義的查詢會依 *ProductID* 傳回平均價格。  
 
 ![此圖表顯示查詢編輯器中定義的查詢，其會依 ProductID 傳回平均價格。](media/desktop-directquery-sap-hana/directquery-sap-hana_01.png)
 
@@ -97,7 +97,7 @@ ms.locfileid: "86216395"
 
 * 在視覺效果中，會再次從查詢對該邏輯資料表執行任何後續彙總 (*Sum*、*Average*、*Min* 等)。 同樣地，包含 *AveragePrice* 之 *Average* 的視覺效果一樣會傳回 4.56。
   
-現在，我們將考量將連線視為關聯來源時的 SAP HANA。 Power BI 可以在 SAP HANA 中使用「分析檢視」和「計算檢視」，這兩者都可以包含量值。 不過，現今 SAP HANA 的方法依循本節中先前所述的相同原則：[取得資料] 或**查詢編輯器**中定義的查詢會判斷可用的資料，然後視覺效果中的任何後續彙總都會針對該資料，相同的原則也適用於 Import 和 DirectQuery。  
+現在，我們將考量將連線視為關聯來源時的 SAP HANA。 Power BI 可以在 SAP HANA 中使用「分析檢視」和「計算檢視」，這兩者都可以包含量值。 不過，現今 SAP HANA 的方法依循本節中先前所述的相同原則：[取得資料] 或 **查詢編輯器** 中定義的查詢會判斷可用的資料，然後視覺效果中的任何後續彙總都會針對該資料，相同的原則也適用於 Import 和 DirectQuery。  
 不過，基於 SAP HANA 的本質，初始 [取得資料] 對話方塊或 [查詢編輯器] 中所定義的查詢一律是彙總查詢，而且一般會包括將使用 SAP HANA 檢視所定義之實際彙總的量值。
 
 上述 SQL Server 範例的對等項就是有一個 SAP HANA 檢視包含 *ID*、*ProductID*、*DepotID*，以及數個包含 *AveragePrice* 的量值 (檢視中定義為「平均價格」)。  

@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b5f4d615c04583e59b618b415c8c239c9295c8a8
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: e9247e16704ccbbee466a5f85f3a2814bdfc521f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299587"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411624"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>監視 Power BI 儀表板和報表的使用計量
 
@@ -43,7 +43,7 @@ ms.locfileid: "85299587"
 ## <a name="view-a-usage-metrics-report"></a>檢視使用計量報表
 
 1. 在包含儀表板或報表的工作區中啟動。
-2. 從工作區內容清單或從儀表板或報表中，選取**使用計量**圖示![使用計量圖示](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)。
+2. 從工作區內容清單或從儀表板或報表中，選取 **使用計量** 圖示![使用計量圖示](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)。
 
     ![[儀表板] 索引標籤](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
 
@@ -175,7 +175,7 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供和 Po
 
 **問：**  使用計量是否會從內嵌的儀表板和報表擷取檢視？
 
-**答：**  使用計量目前不支援擷取內嵌儀表板、報表及[發佈至 Web](service-publish-to-web.md) 流程的使用量。 在這些情況下，我們建議使用現有的 Web 分析平台來追蹤主控應用程式或入口網站的使用方式。
+**答：**  使用計量目前不支援擷取內嵌儀表板、報表及 [發佈至 Web](service-publish-to-web.md) 流程的使用量。 在這些情況下，我們建議使用現有的 Web 分析平台來追蹤主控應用程式或入口網站的使用方式。
 
 **問：**  我完全無法對任何內容執行使用計量。
 

@@ -2,18 +2,18 @@
 title: Power BI Pro 和 Power BI Premium 支援選項
 description: 此文章說明適用於 Power BI Pro 和 Power BI Premium 客戶的支援選項。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
-ms.author: kfollis
-ms.openlocfilehash: 3ec6e3f060b495efd6b961a7a16d8e1cf68f44c9
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 3071d9034883c61837370348b2047c1874d0c977
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120633"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412038"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 和 Power BI Premium 支援選項
 

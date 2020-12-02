@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中連線到 LinkedIn Sales Navigator
 description: 在 Power BI Desktop 中輕鬆連線並使用來自 LinkedIn 的資料
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 11/11/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dd8e453a0cec6c404cad077a85f68044fa57ba1f
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 9baa0d6f05f62efcc453983d53f50335db2bc4b9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600235"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411440"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 LinkedIn Sales Navigator
 
@@ -64,7 +64,7 @@ ms.locfileid: "91600235"
 
 ## <a name="using-the-linkedin-sales-navigator-template-app"></a>使用 LinkedIn Sales Navigator 範本應用程式
 
-若要盡可能輕鬆使用 **LinkedIn Sales Navigator**，您可以使用此[範本應用程式](service-template-apps-overview.md)，從 LinkedIn Sales Navigator 資料自動建立現成的報表。
+若要盡可能輕鬆使用 **LinkedIn Sales Navigator**，您可以使用此 [範本應用程式](service-template-apps-overview.md)，從 LinkedIn Sales Navigator 資料自動建立現成的報表。
 
 ![適用於 LinkedIn Sales Navigator 的範本](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-10.png)
 

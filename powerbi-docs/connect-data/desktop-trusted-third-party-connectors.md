@@ -1,20 +1,20 @@
 ---
 title: Power BI 中受信任的第三方連接器
 description: 如何在 Power BI 中信任已簽署的第三方連接器
-author: cpopell
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 04/3/2019
-ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06b117a271671092a94aa8e7994269344b444178
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: aa135853119615c8be626699daffca88c03633fb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859604"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410865"
 ---
 # <a name="trusted-third-party-connectors"></a>受信任的第三方連接器
 

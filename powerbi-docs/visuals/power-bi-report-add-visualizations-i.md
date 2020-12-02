@@ -1,21 +1,21 @@
 ---
 title: 第 1 部分：在 Power BI 報表中新增視覺效果
 description: 第 1 部分：在 Power BI 報表中新增視覺效果
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3a2002c9f17428c84704d68f621cf18443252557
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 4d4b04b10e45d67fdd4d7cb183e300587d4f2cc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411881"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412475"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>將視覺效果新增至 Power BI 報表 (第 1 部分)
 
@@ -33,7 +33,7 @@ ms.locfileid: "93411881"
    
 2. 尋找您的 **銷售與行銷範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **銷售與行銷範例 PBIX 檔案** 。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **銷售與行銷範例 PBIX 檔案**。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 

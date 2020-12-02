@@ -1,21 +1,21 @@
 ---
 title: 在 Power BI Desktop 中連線至 Microsoft Graph 安全性 API
 description: 在 Power BI Desktop 中輕鬆連線至 Microsoft Graph 安全性 API
-author: preetikr
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.custom: seojan19
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/29/2019
-ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7f08d75ecc9386dc2329c6564448023dfbfb3b9b
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: b3aa9be7be6e2769367cd3337b78030d52bde0c7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374951"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411417"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Microsoft Graph 安全性 API
 
@@ -41,7 +41,7 @@ Microsoft Graph 安全性 API 連線 Microsoft 的[多個安全性解決方案](
 
 * 透過[應用程式同意體驗](/azure/active-directory/develop/application-consent-experience)回應邏輯應用程式在第一次執行期間所提交的要求
    
-登入 Microsoft Graph 安全性連接器的使用者帳戶，**如果**不是「安全性系統管理員」角色的成員，就必須已獲指派「Azure AD 安全性讀取者」角色。 請參閱 [Assign Azure AD roles to users](/graph/security-authorization#assign-azure-ad-roles-to-users) (將 Azure AD 角色指派給使用者)。
+登入 Microsoft Graph 安全性連接器的使用者帳戶，**如果** 不是「安全性系統管理員」角色的成員，就必須已獲指派「Azure AD 安全性讀取者」角色。 請參閱 [Assign Azure AD roles to users](/graph/security-authorization#assign-azure-ad-roles-to-users) (將 Azure AD 角色指派給使用者)。
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph 安全性連接器
 
@@ -53,7 +53,7 @@ Microsoft Graph 安全性 API 連線 Microsoft 的[多個安全性解決方案](
 
     ![[取得資料] 對話方塊](media/desktop-connect-graph-security/GetData.PNG)
     
-4. 在 [Microsoft Graph 安全性] 視窗中選取要查詢的 Microsoft Graph API 版本：**v1.0** 或**搶鮮版 (Beta)** 。
+4. 在 [Microsoft Graph 安全性] 視窗中選取要查詢的 Microsoft Graph API 版本：**v1.0** 或 **搶鮮版 (Beta)** 。
 
     ![選取版本對話方塊](media/desktop-connect-graph-security/selectVersion.PNG)
     

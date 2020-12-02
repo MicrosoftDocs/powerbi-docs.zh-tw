@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 93ccb8c02e71165dfd23bcd82b21ae2758e03d43
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396188"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411785"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>在 Power BI 中共同作業和共用的方式
 

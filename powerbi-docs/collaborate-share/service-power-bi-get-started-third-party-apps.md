@@ -1,21 +1,21 @@
 ---
 title: Power BI 開始使用協力廠商應用程式
 description: Power BI 開始使用協力廠商應用程式
-ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
+ms.service: powerbi
+ms.subservice: pbi-collaborate-share
+ms.topic: how-to
 ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 9e83d8689564471365666f9b4adfe2c3b9d1c05e
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 4b2ce1624bcbbc352ab4f4eaaeb97927c09c2d78
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526735"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411647"
 ---
 # <a name="get-started-with-third-party-apps"></a>開始使用協力廠商應用程式
 

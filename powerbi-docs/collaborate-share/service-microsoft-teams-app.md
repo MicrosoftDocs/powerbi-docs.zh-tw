@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 09/15/2020
-ms.openlocfilehash: 4b3e628c2a8cd3c90d44ae2a6c8f3f9967b22d9a
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: b85be8e4b231e714b4b9aba8cdf88b404c8bda74
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965587"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411762"
 ---
 # <a name="add-the-power-bi-app-to-microsoft-teams"></a>將 Power BI 應用程式新增至 Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "90965587"
 
 在左側導覽列中，選取 [其他新增的應用程式 (...)]，然後選取 [Power BI]。 如果沒看見此項目，請在 [尋找應用程式] 方塊中，輸入 [Power BI]。
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-app.png" alt-text="Microsoft Teams 中 Power BI 應用程式的螢幕擷取畫面。":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-app.png" alt-text="在 Microsoft Teams 中安裝 Power BI 應用程式的螢幕擷取畫面。":::
 
 這樣就完成了！ Power BI 應用程式已安裝在 Microsoft Teams 中。
 
@@ -52,11 +52,11 @@ ms.locfileid: "90965587"
 
 您甚至可以從 Microsoft Teams 中的 Power BI 應用程式將報表分享給 Microsoft Teams 的同事。
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-app-share-teams.png" alt-text="Microsoft Teams 中 Power BI 應用程式的螢幕擷取畫面。":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-app-share-teams.png" alt-text="以 Microsoft Teams 應用程式在 Microsoft Teams 中進行共用的螢幕擷取畫面。":::
 
 Microsoft Teams 中的 Power BI 應用程式也具有訓練中心。 請選取 [學習] 以檢視 [學習中心]。
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-learn-tab.png" alt-text="Microsoft Teams 中 Power BI 應用程式的螢幕擷取畫面。":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-learn-tab.png" alt-text="Microsoft Teams 中 Power BI 應用程式的學習中心螢幕擷取畫面。":::
 
 ### <a name="differences-in-interactions"></a>互動的差異
 
@@ -64,11 +64,11 @@ Teams 應用程式中少許互動與瀏覽器不同
 
 - 當查看儀表板或報表時，看不到 [Power BI] 瀏覽窗格。 請選取 [關閉] 按鈕，返回 [首頁] 或工作區。
 
-    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-close-report.png" alt-text="Microsoft Teams 中 Power BI 應用程式的螢幕擷取畫面。":::
+    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-close-report.png" alt-text="Microsoft Teams 中的 Power BI 應用程式 [關閉] 按鈕螢幕擷取畫面。":::
 
 - 您可以選擇改為在 Power BI 服務中開啟報表，而非在 Microsoft Teams 中檢視。 選取 [在網頁版開啟]。
 
-    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-open-web.png" alt-text="Microsoft Teams 中 Power BI 應用程式的螢幕擷取畫面。":::
+    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-open-web.png" alt-text="Microsoft Teams 中 Power BI 應用程式的 [在網頁版開啟] 按鈕螢幕擷取畫面。":::
 
 ## <a name="known-issues-and-limitations"></a>已知的問題及限制
 

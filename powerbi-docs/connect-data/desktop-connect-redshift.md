@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中連線至 Amazon Redshift 資料庫
 description: 在 Power BI Desktop 中輕鬆連接到 Amazon Redshift 資料庫並加以使用
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b832e96b795b38133939296a15dcab6ece3996be
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 60bf73e4500785c766a485fffc92a25bd8f2c852
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214898"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411348"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Amazon Redshift 資料庫
 在 **Power BI Desktop** 中，您可以連接至 **Amazon Redshift** 資料庫並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。
@@ -39,7 +39,7 @@ ms.locfileid: "86214898"
 當您在 [導覽器] 視窗完成選取後，就可以 [匯入] 或 [編輯] 資料。
 
 * 如果選擇 [載入] 資料，系統會提示您使用 [匯入] 或 [DirectQuery] 模式載入資料。 如需詳細資訊，請查看這篇[說明 DirectQuery 的文章](desktop-use-directquery.md)。
-* 如果選擇 [編輯] 資料，**Query Editor**隨即顯示，您可以從中將各種轉換及篩選條件套用到資料，其中有多種適用於基礎 **Amazon Redshift** 本身 (如受支援)。
+* 如果選擇 [編輯] 資料，**Query Editor** 隨即顯示，您可以從中將各種轉換及篩選條件套用到資料，其中有多種適用於基礎 **Amazon Redshift** 本身 (如受支援)。
 
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 連接至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰

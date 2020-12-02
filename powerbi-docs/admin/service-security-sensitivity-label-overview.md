@@ -2,19 +2,19 @@
 title: Power BI 中的 Microsoft 資訊保護敏感度標籤
 description: 了解 Power BI 中 Microsoft 資訊保護敏感度標籤的運作方式
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 08/16/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 04be21e368c74029e1e720a02b92d00448282138
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 27d650fbe9415c2e771931801f5b573770eda5b2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374367"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412130"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI 中的敏感度標籤
 
@@ -36,9 +36,9 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 
 ## <a name="important-considerations"></a>重要考量
 
-敏感度標籤**不會**影響對 Power BI 內容的存取，存取 Power BI 中的內容僅透過 Power BI 權限進行管理。 顯示標籤時，不會套用任何相關聯的加密設定 (在 [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)內設定)。 套用範圍僅限於透過匯出為 Excel、PowerPoint 或 PDF 檔案的方式，或其他支援的匯出路徑而離開 Power BI 的資料。
+敏感度標籤 **不會** 影響對 Power BI 內容的存取，存取 Power BI 中的內容僅透過 Power BI 權限進行管理。 顯示標籤時，不會套用任何相關聯的加密設定 (在 [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)內設定)。 套用範圍僅限於透過匯出為 Excel、PowerPoint 或 PDF 檔案的方式，或其他支援的匯出路徑而離開 Power BI 的資料。
 
-敏感度標籤和檔案加密**不**適用於不受支援的匯出路徑。 Power BI 系統管理員可封鎖從不受支援匯出路徑進行的匯出：
+敏感度標籤和檔案加密 **不** 適用於不受支援的匯出路徑。 Power BI 系統管理員可封鎖從不受支援匯出路徑進行的匯出：
 
 >[!NOTE]
 > 除非[資料列層級安全性 (RLS)](./service-admin-rls.md) 限制其存取，否則獲得授與存取報表的使用者也能夠存取整個基礎資料集。 報表作者可使用敏感度標籤分類和為報表加上標籤。 若敏感度標籤具有保護設定，當將報表資料匯出到 Excel、PowerPoint 或 PDF 檔案時，Power BI 即會套用這些保護設定。 只有授權的使用者可開啟受保護檔案。
@@ -73,7 +73,7 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 ![顯示敏感度標籤繼承的動畫 GIF](media/service-security-sensitivity-label-overview/InheritanceUponCreation.gif)
 
 >[!NOTE]
->如果基於任何原因導致無法在新報表或儀表板上套用敏感度標籤，Power BI **將不會**封鎖建立新項目。
+>如果基於任何原因導致無法在新報表或儀表板上套用敏感度標籤，Power BI **將不會** 封鎖建立新項目。
 
 ## <a name="sensitivity-labels-and-protection-on-exported-data"></a>已匯出資料上的敏感度標籤和保護
 
