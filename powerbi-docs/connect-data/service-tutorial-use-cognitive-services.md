@@ -2,20 +2,20 @@
 title: 教學課程：在 Power BI 中使用認知服務 (預覽)
 description: 您會在此教學課程中使用 Power BI 中的認知服務與資料流程。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/20/2020
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f647bcafe035515a1d5d1438ed580cabea579134
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397177"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401481"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教學課程：在 Power BI 中使用認知服務
 
@@ -146,7 +146,7 @@ in
 
 ![顯示 [輸入認證] 對話方塊的螢幕擷取畫面，可於其中指定組織帳戶。](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-選取「標記影像」函式，在資料行欄位中輸入 _[Binary]_ ，並在文化特性資訊欄位中輸入 _en_ 。 
+選取「標記影像」函式，在資料行欄位中輸入 _[Binary]_ ，並在文化特性資訊欄位中輸入 _en_。 
 
 > [!NOTE]
 > 您目前無法使用下拉式清單挑選資料行，我們會盡快在個人預覽版發佈期間解決這個問題。

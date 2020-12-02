@@ -2,19 +2,19 @@
 title: 在 Power BI 服務中複製並貼上視覺效果
 description: 在 Power BI 服務中複製並貼上視覺效果
 author: mihart
+ms.author: mihart
 ms.reviewer: maggie.tsang
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/25/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6e1850e281c58bd89597af2bbd9ade0a769071ae
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: a0ac7760b766681a70aae3662059256ecffbf07f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040239"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400630"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>將視覺效果以圖片形式複製到剪貼簿
 
@@ -41,7 +41,7 @@ ms.locfileid: "89040239"
 
     ![具有 [複製至剪貼簿] 選項的對話方塊](media//end-user-copy-paste/power-bi-copied.png)
 
-4. 複製視覺效果之後，使用 **Ctrl + V** 或**按一下滑鼠右鍵** > [貼上]，將其貼到另一個應用程式。 在下方螢幕擷取畫面中，我們已將視覺效果貼到 Microsoft Word 中。 
+4. 複製視覺效果之後，使用 **Ctrl + V** 或 **按一下滑鼠右鍵** > [貼上]，將其貼到另一個應用程式。 在下方螢幕擷取畫面中，我們已將視覺效果貼到 Microsoft Word 中。 
 
     ![已貼入 Microsoft Word 的視覺效果](media//end-user-copy-paste/power-bi-paste-word.png)
 
@@ -58,7 +58,7 @@ ms.locfileid: "89040239"
     ![具有 [複製至剪貼簿] 選項的對話方塊](media//end-user-copy-paste/power-bi-copied.png)
 
 
-4. 複製視覺效果之後，使用 **Ctrl + V** 或**按一下滑鼠右鍵** > [貼上]，將其貼到另一個應用程式。 在下方螢幕擷取畫面中，我們已將視覺效果貼到電子郵件中。
+4. 複製視覺效果之後，使用 **Ctrl + V** 或 **按一下滑鼠右鍵** > [貼上]，將其貼到另一個應用程式。 在下方螢幕擷取畫面中，我們已將視覺效果貼到電子郵件中。
 
     ![貼到 Outlook 中的視覺效果](media//end-user-copy-paste/power-bi-copy-email.png)
 

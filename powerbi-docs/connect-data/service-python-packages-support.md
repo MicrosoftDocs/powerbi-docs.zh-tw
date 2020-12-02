@@ -2,20 +2,20 @@
 title: 了解支援哪些 Python 套件
 description: Power BI 中支援與不支援的 Python 套件
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 06/26/2020
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1dc77d2ebf0803430ceeace7e14bfa62a6d2a60
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 07b16bb90b548f071472f9f7d22095ccdff78f56
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85785180"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401711"
 ---
 # <a name="create-visuals-by-using-python-packages-in-the-power-bi-service"></a>在 Power BI 服務中使用 Python 套件建立視覺效果
 您可以使用功能強大的 [Python 程式設計語言](https://www.python.org/) \(英文\)，在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 Python 套件，而且一直都可支援更多套件。
@@ -23,7 +23,7 @@ ms.locfileid: "85785180"
 後續小節將提供一個按照字母順序的表格，指出 Power BI 支援哪些 Python 套件。 
 
 ## <a name="request-support-for-a-new-python-package"></a>要求支援新的 Python 套件
-您可以在下節 (標題為**支援的套件**) 中找到 **Power BI 服務**支援的 Python 套件。 如果您想要求支援該清單中找不到的 Python 套件，請將您的要求提交至 [Power BI Ideas](https://ideas.powerbi.com) \(英文\)。
+您可以在下節 (標題為 **支援的套件**) 中找到 **Power BI 服務** 支援的 Python 套件。 如果您想要求支援該清單中找不到的 Python 套件，請將您的要求提交至 [Power BI Ideas](https://ideas.powerbi.com) \(英文\)。
 
 ## <a name="requirements-and-limitations-of-python-packages"></a>Python 套件的需求和限制
 有少數 Python 套件的需求和限制：
@@ -36,7 +36,7 @@ ms.locfileid: "85785180"
 * 包含新 Python 套件的核准程序具有樹狀結構的相依性；無法支援需要在服務中安裝的一些相依性。
 
 ## <a name="python-packages-that-are-supported-in-power-bi"></a>Power BI 中支援的 Python 套件
-下表顯示 Power BI 服務中**支援**的 R 套件。
+下表顯示 Power BI 服務中 **支援** 的 R 套件。
 
 
 |        套件        |   版本   |                                   連結                                   |

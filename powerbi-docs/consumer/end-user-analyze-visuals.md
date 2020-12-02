@@ -2,25 +2,25 @@
 title: 使用分析功能來說報表視覺效果中的波動
 description: 使用 Power BI 服務輕鬆獲得增減情況的見解
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 9d66ec405ebec8c2da59a37cd986098444979c4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635876"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401389"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>使用分析功能來說報表視覺效果中的波動
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-在視覺效果中，您經常會看到值大幅增加，然後急遽下降，並想知道造成此類波動的原因。 使用 **Power BI 服務**中的 [分析]，您只要按幾下滑鼠就可以找到原因。
+在視覺效果中，您經常會看到值大幅增加，然後急遽下降，並想知道造成此類波動的原因。 使用 **Power BI 服務** 中的 [分析]，您只要按幾下滑鼠就可以找到原因。
 
 例如，請考慮下列視覺效果，其依 [月份] 與 [製造商] 顯示 [總單位]。 VanArsdel 的表現優於其競爭者，但在 2014 年 6 月以後不是這樣了。 在此情況下，您可以探索資料來協助說明發生的變更。 
 
@@ -101,7 +101,7 @@ Power BI 接著會對資料執行其機器學習演算法，並於視窗中填�
 
 ![顯示已選取之瀑布圖圖示的小型螢幕擷取畫面](media/end-user-analyze-visuals/power-bi-waterfall-icon.png)
 
-第四個視覺效果是瀑布圖，其顯示不同時段之間的實際增減情況。 此視覺效果清楚地顯示在 2014 年 6 月減少的一個重要參與者 -- 在此案例中為 [州]。 而**州**的細節對整體單位的影響，就是路易斯安那州、德克薩斯州與科羅拉多州的衰退扮演了最重要的角色。      
+第四個視覺效果是瀑布圖，其顯示不同時段之間的實際增減情況。 此視覺效果清楚地顯示在 2014 年 6 月減少的一個重要參與者 -- 在此案例中為 [州]。 而 **州** 的細節對整體單位的影響，就是路易斯安那州、德克薩斯州與科羅拉多州的衰退扮演了最重要的角色。      
 
 ![瀑布圖](media/end-user-analyze-visuals/power-bi-insight.png)
 
@@ -115,7 +115,7 @@ Power BI 接著會對資料執行其機器學習演算法，並於視窗中填�
 
 [分析]  不適用於所有類型的視覺效果。 
 
-下列清單是**分析 - 說明增加情形/說明減少情形/說明差異**目前不支援的案例集合：
+下列清單是 **分析 - 說明增加情形/說明減少情形/說明差異** 目前不支援的案例集合：
 
 * TopN 篩選
 * 包含/排除篩選

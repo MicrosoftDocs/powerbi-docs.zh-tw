@@ -1,21 +1,21 @@
 ---
 title: 教學課程：使用 Power BI 連線到 GitHub 存放庫
 description: 在本教學課程中，您使用 Power BI 連線至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 10/30/2020
-ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: d8b6277c64f2f6c55f1ab622d129556fdfc4c600
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132612"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401619"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教學課程：使用 Power BI 連線到 GitHub 存放庫
 在本教學課程中，您會連線到實際的資料：GitHub 服務中的 Power BI 內容公用存放庫 (也稱為「存放庫」)。 Power BI 會自動建立具有資料的儀表板和報表。 您會看到如下問題的答案：Power BI 公用存放庫的參與人數有多少？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題。 
@@ -60,7 +60,7 @@ ms.locfileid: "93132612"
 
     ![開始使用您的新應用程式](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. 輸入該儲存機制的儲存機制名稱和儲存機制擁有者。 此存放庫的 URL 是 https://github.com/MicrosoftDocs/powerbi-docs，因此 [存放庫擁有者] 是 **MicrosoftDocs** ，而 [存放庫] 是 **powerbi-docs** 。 
+7. 輸入該儲存機制的儲存機制名稱和儲存機制擁有者。 此存放庫的 URL 是 https://github.com/MicrosoftDocs/powerbi-docs，因此 [存放庫擁有者] 是 **MicrosoftDocs**，而 [存放庫] 是 **powerbi-docs**。 
    
     ![Power BI GitHub 存放庫名稱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
@@ -77,7 +77,7 @@ ms.locfileid: "93132612"
 
     ![導覽窗格中的應用程式](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. 選取儀表板名稱旁邊的 [更多選項] (...) > [重新命名] > 鍵入 **GitHub 儀表板** 。
+10. 選取儀表板名稱旁邊的 [更多選項] (...) > [重新命名] > 鍵入 **GitHub 儀表板**。
  
     ![Power BI GitHub 磚](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
@@ -95,7 +95,7 @@ ms.locfileid: "93132612"
 
 ## <a name="ask-a-question"></a>詢問問題
 
-1. 將您的游標放在 [詢問一個與資料相關的問題] 中。 Power BI 提供 **使用者入門問題** 。 
+1. 將您的游標放在 [詢問一個與資料相關的問題] 中。 Power BI 提供 **使用者入門問題**。 
 
 1. 選取 [有多少位使用者]。
  
@@ -108,7 +108,7 @@ ms.locfileid: "93132612"
     ![每一位使用者各有多少提取要求](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
-13. 選取圖釘來將它釘選到您的儀表板，然後 **離開問與答** 。
+13. 選取圖釘來將它釘選到您的儀表板，然後 **離開問與答**。
 
 ## <a name="view-the-github-report"></a>檢視 GitHub 報表 
 

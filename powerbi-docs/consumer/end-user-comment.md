@@ -2,20 +2,20 @@
 title: 將註解新增至儀表板和報表
 description: 本文件示範如何將註解新增至儀表板、報表或視覺效果，以及如何使用註解來與共同作業者交談。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6f7e640669b53d67a635083d3ae48e23720c9e61
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: ee053fe000ad85b768ce3d451984f987e3c79e6f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375032"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400745"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>將註解新增至儀表板或報表
 
@@ -23,7 +23,7 @@ ms.locfileid: "91375032"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-新增個人註解，或是和您的同事開始儀表板或報表相關交談。 **註解**功能只是「企業用戶」可與其他人進行共同作業的其中一種方法。 
+新增個人註解，或是和您的同事開始儀表板或報表相關交談。 **註解** 功能只是「企業用戶」可與其他人進行共同作業的其中一種方法。 
 
 ![註解影片](media/end-user-comment/comment.gif)
 
@@ -72,7 +72,7 @@ ms.locfileid: "91375032"
 除了將註解新增至整個儀表板或整個報表頁面之外，您還可以將註解新增至個別儀表板磚和個別報表視覺效果。 處理程序很類似，且我們在本範例中使用報表。
 
 1. 將滑鼠暫留在視覺效果上並選取 [其他動作] \(...\)。    
-2. 從下拉式清單中，選取 [新增註解]****。
+2. 從下拉式清單中，選取 [新增註解]。
 
     ![新增註解是第一個選項](media/end-user-comment/power-bi-comment-reports.png)  
 

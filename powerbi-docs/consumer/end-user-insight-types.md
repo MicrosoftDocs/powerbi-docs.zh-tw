@@ -2,19 +2,19 @@
 title: Power BI 支援的深入解析類型
 description: 使用 Power BI 快速深入解析和檢視深入解析。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53074b44457abcf4cae6ffc3cffab2be6e8b95bb
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045310"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400124"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支援的深入解析類型
 

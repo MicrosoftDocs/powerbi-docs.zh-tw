@@ -1,21 +1,21 @@
 ---
 title: 針對 Power BI 服務中以文字傳回的巢狀值進行疑難排解
 description: 了解如何修正使用不正確的資料來源隱私權設定時，巢狀值會轉換成字串的問題
-author: cpopell
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 6/4/2019
-ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b34f6ae838122b0b2036a953296d5032bdfe76b8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332766"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401366"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>針對 Power BI 服務中以文字傳回的巢狀值進行疑難排解
 

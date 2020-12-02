@@ -2,19 +2,19 @@
 title: 了解按鈕在 Power BI 服務中的運作方式
 description: 按鈕可用來啟動各種動作，包括報表內瀏覽、鑽研，以及跨報表鑽研
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/10/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f0ddbbbce93a14c3468eacca130163758ca85c45
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982142"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400952"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 服務中的按鈕
 在從同事收到的報表中，您可能會注意到其中包含按鈕，且會好奇如何使用這些按鈕。 有些按鈕包含單字，有些則包含箭號，其他則包含圖形，甚至有些還有下拉式功能表。 本文會教導您如何辨識按鈕，以及如何釐清這些按鈕的使用方式。
@@ -28,7 +28,7 @@ ms.locfileid: "91982142"
 ### <a name="back-buttons"></a>返回按鈕 
 [返回] 按鈕可能會有一個箭號圖示，當您選取時，Power BI 將會帶您回到上一個頁面。  返回按鈕通常會搭配鑽研使用。 以下是搭配鑽研使用 [返回] 按鈕的範例。
 
-1. 使用者已在橫條圖中選取 **Word** ，並鑽研至 **購物籃分析** 。
+1. 使用者已在橫條圖中選取 **Word**，並鑽研至 **購物籃分析**。
 
     ![[鑽研] 按鈕的螢幕擷取畫面。](media/end-user-buttons/power-bi-drillthrough.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "91982142"
 ## <a name="bookmark-buttons"></a>[書籤] 按鈕
 報表「設計師」通常會在其報表中包含書籤。 您可以透過選取位於右上角的 [書籤] 來檢視報表書籤的清單。 當報表設計人員新增 [書籤] 按鈕時，其只不過是巡覽至與該書籤建立關聯特定報表頁面的另一種方式。 頁面將會包含書籤所擷取到的已套用篩選條件及設定。 [深入了解 Power BI 中的書籤](end-user-bookmarks.md)。 
 
-在本範例中，按鈕具備書籤圖示以及書籤的名稱 ( *Urban* )。 
+在本範例中，按鈕具備書籤圖示以及書籤的名稱 (*Urban*)。 
 
 ![[書籤] 按鈕的螢幕擷取畫面](media/end-user-buttons/power-bi-bookmark.png)
 
@@ -61,7 +61,7 @@ ms.locfileid: "91982142"
 
 ![[鑽研] 按鈕的螢幕擷取畫面，且具有暫留工具提示。](media/end-user-buttons/power-bi-drill-two-selections.png)
 
-現在已選取一項產品 ( **Word** )，以及一間商店 ( **Leo** )，按鈕會變更色彩，讓我們知道按鈕現在已處於作用中狀態。
+現在已選取一項產品 (**Word**)，以及一間商店 (**Leo**)，按鈕會變更色彩，讓我們知道按鈕現在已處於作用中狀態。
 
 ![[鑽研至市集詳細資料] 按鈕的螢幕擷取畫面。](media/end-user-buttons/power-bi-select-both.png)
 

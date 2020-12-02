@@ -2,20 +2,20 @@
 title: 使用 Power BI 中的儀表板和報表安裝並使用應用程式
 description: 在 Power BI 服務中尋找、安裝及使用應用程式。
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: e0089d2492ad7a68aa2043cce4ca8677a0d276bb
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 7ee51cee6c79b55f746a4275fea5bb00a134e9c7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982223"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401320"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 
@@ -58,9 +58,9 @@ ms.locfileid: "91982223"
    ![Power BI 應用程式市集](./media/end-user-app-view/power-bi-app-marketplace.png)
 
    有三個索引標籤可供您使用：
-   * **所有應用程式** ：瀏覽可供您使用的範本應用程式和所有組織應用程式。 範本應用程式可以利用其磚右上角的購物袋圖示來區分。
-   * **組織應用程式** ：瀏覽已與您共用的組織應用程式。 
-   * **範本應用程式** ：瀏覽裝載於 AppSource 上的範本應用程式。
+   * **所有應用程式**：瀏覽可供您使用的範本應用程式和所有組織應用程式。 範本應用程式可以利用其磚右上角的購物袋圖示來區分。
+   * **組織應用程式**：瀏覽已與您共用的組織應用程式。 
+   * **範本應用程式**：瀏覽裝載於 AppSource 上的範本應用程式。
 
    或者，您可以使用搜尋方塊來取得篩選出的應用程式選取項目。 輸入部分應用程式名稱或類別名稱 (例如財務、分析、行銷等)，將能更輕鬆地找到您正在尋找的項目。 
 
