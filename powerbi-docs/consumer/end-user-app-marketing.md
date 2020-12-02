@@ -2,19 +2,19 @@
 title: 在 Power BI 服務中安裝和使用「銷售與行銷」應用程式
 description: Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處。 從 Power BI 應用程式市集安裝「銷售與行銷」應用程式。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ba9b0f461d609cea2efd6d737f86b00554e9c0f1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635807"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391752"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>在 Power BI 服務中安裝和使用範例「銷售與行銷」應用程式
 
@@ -29,7 +29,7 @@ ms.locfileid: "91635807"
 
    ![開啟 AppSource 網站  ](./media/end-user-app-marketing/power-bi-appsource.png)
 
-1. 在搜尋方塊中，輸入**行銷**，然後勾選 [依產品縮小搜尋範圍] > [Power BI 應用程式]。 
+1. 在搜尋方塊中，輸入 **行銷**，然後勾選 [依產品縮小搜尋範圍] > [Power BI 應用程式]。 
 
     ![取得應用程式  ](./media/end-user-app-marketing/power-bi-search-appsource.png)
 

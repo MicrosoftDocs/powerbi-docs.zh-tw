@@ -1,20 +1,20 @@
 ---
 title: Power BI 服務中的編頁報表
 description: 描述編頁報表及如何在 Power BI 服務中檢視的文件
-author: mihart
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: christopher.finlan
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 15482b575d7fc923059964ea47a173fda6c7f600
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 2be1c325d876c944c31d62a67771308d80dca69d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983145"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390487"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 服務中的編頁報表
 

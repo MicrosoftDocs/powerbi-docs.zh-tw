@@ -2,18 +2,18 @@
 title: 更新、刪除及擷取 Power BI 範本應用程式
 description: 如何更新、刪除及擷取範本應用程式。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2eb4df96db51ccbf3308315130fdaa2de85df240
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634933"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392120"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、刪除及擷取範本應用程式
 
@@ -74,7 +74,7 @@ ms.locfileid: "91634933"
 範本工作區是使用中分散式範本應用程式的來源。 為了保護範本應用程式使用者，若未先移除工作區中建立的所有應用程式版本，便無法刪除工作區。
 刪除應用程式版本時，也會刪除無法再運作的應用程式 URL。
 
-1. 在 [發行管理] 窗格中，按下選取省略符號 [(...)]****，然後按 [刪除]****。
+1. 在 [發行管理] 窗格中，按下選取省略符號 [(...)]，然後按 [刪除]。
  ![顯示 [版本管理] 窗格的螢幕擷取畫面，其中已選取功能表中的 [刪除]。](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
  ![顯示確認刪除此應用程式訊息的螢幕擷取畫面。](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 

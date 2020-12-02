@@ -2,19 +2,19 @@
 title: 內部部署資料閘道常見問題集 - Power BI
 description: 本文是 Power BI 內部部署資料閘道的常見問題集。 本文會將 Power BI 中所使用閘道的常見問題集整合至同一個地方。
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: c4fe9f20e2b6b978479cfdad0651a96d6d322056
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: f9a51e6150c7ae351cea968c0d7ea39d2d0d6c32
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485637"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392212"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>內部部署資料閘道常見問題集 - Power BI
 
@@ -62,7 +62,7 @@ ms.locfileid: "85485637"
 
 **問：** 如何知道哪些有效使用者名稱已傳遞至我的內部部署 Analysis Services 伺服器？ 
 
-**答：** 我們已在[疑難排解文章](service-gateway-onprem-tshoot.md)中回答這個問題。
+**答：** 我們已在 [疑難排解文章](service-gateway-onprem-tshoot.md)中回答這個問題。
 
 ## <a name="next-steps"></a>後續步驟
 

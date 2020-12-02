@@ -2,19 +2,19 @@
 title: 在 Power BI 服務首頁中尋找內容
 description: 在 [首頁] 畫布上啟動，然後尋找並開啟報表、儀表板和應用程式。
 author: mihart
+ms.author: mihart
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 11/13/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ee9fe651c886b41dfb913ccd20874432a8b4f1d7
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668749"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390602"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>尋找您的儀表板、報表和應用程式
 

@@ -2,19 +2,19 @@
 title: Power BI 服務報表中的書籤概觀
 description: Power BI 服務中書籤的文件概觀主題。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/26/2020
-ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937660"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391476"
 ---
 # <a name="what-are-bookmarks"></a>什麼是書籤？
 
@@ -36,7 +36,7 @@ ms.locfileid: "88937660"
 
 ![報表畫布的螢幕擷取畫面，其中 [書籤] 窗格已開啟。](media/end-user-bookmarks/power-bi-show-bookmarks.png)
 
-若要返回報表的原始發佈檢視，請選取**重設**圖示。
+若要返回報表的原始發佈檢視，請選取 **重設** 圖示。
 
 ![已選取還原圖示的螢幕擷取畫面](media/end-user-bookmarks/power-bi-revert.png)
 
@@ -63,7 +63,7 @@ ms.locfileid: "88937660"
 * 排列順序
 * 鑽研位置
 * 可見度 (使用 [選取] 窗格之物件的可見度)
-* 任何可見物件的焦點或**聚焦**模式
+* 任何可見物件的焦點或 **聚焦** 模式
 
 以您想要在書籤中顯示的方式來設定報表頁面。 在此範例中：
 
@@ -168,7 +168,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 
 
 ## <a name="limitations-and-considerations"></a>限制與考量
-在此版本的**書籤**中，有幾點限制和考量要留意。
+在此版本的 **書籤** 中，有幾點限制和考量要留意。
 
 * 大部分的 Power BI 視覺效果都可以和書籤搭配使用。 如果在使用書籤和 Power BI 視覺效果時遇到問題，請連絡該 Power BI 視覺效果的建立者，並請他們將書籤的支援新增到其視覺效果。
 * 如果您在建立書籤之後將視覺效果新增至報表頁面，視覺效果就會以其預設狀態顯示。 換句話說，如果您在先前建立書籤的頁面中引進交叉分析篩選器，交叉分析篩選器就會以其預設狀態運作。

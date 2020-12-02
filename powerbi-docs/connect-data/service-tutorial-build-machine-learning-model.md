@@ -2,24 +2,24 @@
 title: 教學課程：在 Power BI 中建置機器學習模型
 description: 在本教學課程中，您會在 Power BI 中建置機器學習模型。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 08/03/2020
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 49f1b46e89fd05d05928de631b0ea42832801a05
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 31b56f4888393c12f94eb4e6d8f819d992a04029
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397223"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392327"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>教學課程：在 Power BI 中建置機器學習模型
 
-在本教學課程文章中，您會使用 **自動化機器學習服務** ，在 Power BI 中建立二進位預測模型並且套用。 教學課程包含建立 Power BI 資料流程，以及使用資料流程中所定義的實體，直接在 Power BI 中定型及驗證機器學習模型的指導。 我們接著會使用該模型來為新資料評分以產生預測。
+在本教學課程文章中，您會使用 **自動化機器學習服務**，在 Power BI 中建立二進位預測模型並且套用。 教學課程包含建立 Power BI 資料流程，以及使用資料流程中所定義的實體，直接在 Power BI 中定型及驗證機器學習模型的指導。 我們接著會使用該模型來為新資料評分以產生預測。
 
 首先，您會建立二進位預測機器學習模型，根據線上顧客的一組線上工作階段屬性，預測他們的購買意圖。 效能評定機器學習服務資料集會用於此演練。 定型模型後，Power BI 會自動產生驗證報表，解釋模型結果。 您接著可以檢視驗證報表，並將模型套用到您的資料以進行評分。
 

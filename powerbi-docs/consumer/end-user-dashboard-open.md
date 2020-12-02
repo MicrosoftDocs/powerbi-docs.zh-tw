@@ -2,19 +2,19 @@
 title: 檢視 Power BI 儀表板
 description: 儀表板是 Power BI 服務的重要功能，請了解如何開啟及檢視儀表板。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/27/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7e431b6a94b7cd881adba27597aa9cbfa6a54425
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633928"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391200"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
 
@@ -22,7 +22,7 @@ ms.locfileid: "91633928"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI *商務使用者*花很多的時間在檢視儀表板。 儀表板的目的是從醒目提示基礎報表和資料集中的特定資訊。 而 Power BI 商務使用者使用該資訊來追蹤、監視、回答問題、測試等，以制定資料驅動的商務決策。
+Power BI *商務使用者* 花很多的時間在檢視儀表板。 儀表板的目的是從醒目提示基礎報表和資料集中的特定資訊。 而 Power BI 商務使用者使用該資訊來追蹤、監視、回答問題、測試等，以制定資料驅動的商務決策。
 
 ![儀表板](media/end-user-dashboard-open/power-bi-new-dashboard.png)
 
@@ -42,10 +42,10 @@ Power BI *商務使用者*花很多的時間在檢視儀表板。 儀表板的�
 ![顯示可以找到儀表板之所有位置的影片](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **首頁** 
-- **我的最愛** - 若您已[將儀表板設為我的最愛](end-user-favorite.md)
+- **我的最愛** - 若您已 [將儀表板設為我的最愛](end-user-favorite.md)
 - **最近** - 若您最近瀏覽過儀表板
 - **應用程式** - 大部分的應用程式同時包含儀表板和報表
-- **與我共用** - 若您的同事已經[與您共用儀表板](end-user-shared-with-me.md)
+- **與我共用** - 若您的同事已經 [與您共用儀表板](end-user-shared-with-me.md)
 - **我的工作區** - 若您已經下載任何 [Power BI 範例](../create-reports/sample-datasets.md)
 
 

@@ -1,20 +1,20 @@
 ---
 title: 控制跨工作區使用資料集 - Power BI
 description: 了解如何限制 Power BI 租用戶中的資訊流程。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6cc602b96207b1662f0738c0936ca816bbfd0a03
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: d94be70bd61988f009900432e3bc77756a3821df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681065"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392557"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>控制跨工作區使用資料集
 

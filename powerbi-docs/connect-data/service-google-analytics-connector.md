@@ -2,20 +2,20 @@
 title: 第三方服務：Google Analytics 連接器
 description: 第三方服務：Power BI Desktop 的 Google Analytics 連接器
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec290ce53155f24a9213a4849ecb82abd6cfc592
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 383f69bd371e4b0f635ff2b64c7fae0523c360e4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263648"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392258"
 ---
 # <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>使用 Power BI Desktop 的 Google Analytics 連接器
 > [!NOTE]

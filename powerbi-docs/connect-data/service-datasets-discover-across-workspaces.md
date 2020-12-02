@@ -1,20 +1,20 @@
 ---
 title: 以不同工作區的資料集為基礎建立報表 - Power BI
 description: 了解如何與整個組織的使用者共用資料集。 然後他們可以您的資料集為基礎，在自己的工作區中建置報表。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 59fc2d4be1336d9476c86e4204eeb23564ebe64e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3f1f689aa272ac98f4a3dd4aef7c2b2728fce41e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681136"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392488"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>以不同工作區的資料集為基礎建立報表
 
@@ -29,7 +29,7 @@ ms.locfileid: "92681136"
 
 ![選取資料集](media/service-datasets-across-workspaces/power-bi-select-dataset.png)
 
-您注意到第一個標示為 **已升級** 。 我們會在本文稍後的[尋找已認可的資料集](#find-an-endorsed-dataset)中討論。
+您注意到第一個標示為 **已升級**。 我們會在本文稍後的[尋找已認可的資料集](#find-an-endorsed-dataset)中討論。
 
 您在此清單中看到的資料集，至少符合下列條件之一：
 

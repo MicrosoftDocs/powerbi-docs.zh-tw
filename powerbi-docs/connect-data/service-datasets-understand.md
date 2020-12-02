@@ -1,19 +1,19 @@
 ---
 title: Power BI 服務中的資料集
 description: 了解 Power BI 服務資料集，它代表可供用於報告及視覺效果的資料來源。
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: ecd683cf55b6198aed1bbc76f87646846bbf222f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bff238fa0845c28f508a9abdda21b24f73dfb99f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284765"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392419"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Power BI 服務中的資料集
 
@@ -32,7 +32,7 @@ Power BI 資料集代表可供用於報告及視覺效果的資料來源。 有�
 串流資料集以外的資料集會代表資料模型，它能利用 [Analysis Services](/analysis-services/analysis-services-overview) 的成熟模型化技術。
 
 > [!NOTE]
-> 在我們的文件中，有時會混合使用「資料集」  和「模型」  這兩個詞彙。 一般而言，從 Power BI 服務的觀點會將它稱為**資料集**，而從開發觀點則會將它稱為**模型**。 在我們文件的內容中，它們基本上具有相同的意義。
+> 在我們的文件中，有時會混合使用「資料集」  和「模型」  這兩個詞彙。 一般而言，從 Power BI 服務的觀點會將它稱為 **資料集**，而從開發觀點則會將它稱為 **模型**。 在我們文件的內容中，它們基本上具有相同的意義。
 
 ### <a name="external-hosted-models"></a>外部裝載的模型
 
@@ -48,7 +48,7 @@ Power BI 資料集代表可供用於報告及視覺效果的資料來源。 有�
 
 Power BI Desktop (適用於 Power BI 開發的用戶端應用程式) 可以用來開發模型。 該模型基本上便是 Analysis Services 表格式模型。 可以透過從資料流程匯入資料來開發模型，然後進一步將它與外部資料來源整合。 雖然達成模型化的細節已超出此文章的範圍，請務必了解使用 Power BI Desktop 可以開發出三種不同類型 (或「模式」  ) 的模型。 這些模式會決定資料會匯入到模型中，或是保留在資料來源中。 這三個模式為：匯入、DirectQuery 及複合。 如需每個模式的詳細資訊，請參閱 [Power BI 服務中的資料集模式](service-dataset-modes-understand.md)一文。
 
-外部裝載的模型和 Power BI Desktop 模型可以強制執行資料列層級安全性 (RLS)，以限制為特定使用者擷取的資料。 例如，指派至**銷售人員**安全性群組的使用者只能檢視其所屬銷售區域的報表資料。 RLS 角色可以是「動態」  或「靜態」  。 動態角色會依報表使用者進行篩選，而靜態角色會針對指派至某個角色的所有使用者套用相同的篩選。 如需詳細資訊，請參閱 [Power BI 的資料列層級安全性 (RLS)](../admin/service-admin-rls.md)。
+外部裝載的模型和 Power BI Desktop 模型可以強制執行資料列層級安全性 (RLS)，以限制為特定使用者擷取的資料。 例如，指派至 **銷售人員** 安全性群組的使用者只能檢視其所屬銷售區域的報表資料。 RLS 角色可以是「動態」  或「靜態」  。 動態角色會依報表使用者進行篩選，而靜態角色會針對指派至某個角色的所有使用者套用相同的篩選。 如需詳細資訊，請參閱 [Power BI 的資料列層級安全性 (RLS)](../admin/service-admin-rls.md)。
 
 ### <a name="excel-workbook-models"></a>Excel 活頁簿模型
 

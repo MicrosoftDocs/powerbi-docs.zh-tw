@@ -2,20 +2,20 @@
 title: 教學課程：為 Power BI 服務儀表板上的資料設定警示
 description: 在此教學課程中，您將了解如何設定警示，以便在儀表板中的資料變更超出您在 Microsoft Power BI 服務中所設定的限制時通知您。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: removed
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/05/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: be3ed6d8a836b626ba26e5e9acce7f0f2df3c6ea
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525289"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391982"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>教學課程：設定 Power BI 儀表板的警示
 
@@ -105,7 +105,7 @@ ms.locfileid: "91525289"
 1. 您如有設定傳送電子郵件警示，將會在收件匣中看到類似如下所述的狀況。 這是我們為 [情緒] 卡片所設定的警示。
    
    ![警示電子郵件](media/end-user-alerts/power-bi-email.png)
-2. Power BI 也會將訊息新增至您的**通知中心**。
+2. Power BI 也會將訊息新增至您的 **通知中心**。
    
    ![Power BI 服務中的通知圖示](media/end-user-alerts/power-bi-task.png)
 3. 若要查看警示詳細資料，請開啟您的通知中心。

@@ -2,20 +2,20 @@
 title: 從 Power BI 視覺效果匯出資料
 description: 從報表視覺效果和儀表板視覺效果匯出資料，並在 Excel 中檢視。
 author: mihart
+ms.author: mihart
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 671bef8f00b79db87b11a059438d873a0641ef91
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 13d8eda142896b406269f940823e702b2ca7cb3e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462479"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391016"
 ---
 # <a name="export-data-from-a-visual"></a>匯出視覺效果的資料
 
@@ -30,7 +30,7 @@ ms.locfileid: "92462479"
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>從 Power BI 儀表板上的視覺效果
 
-1. 從 Power BI 儀表板上開始。 在這裡，我們使用來自 * **行銷與銷售範例** _應用程式的儀表板。 您可以[從 AppSource.com 下載此應用程式](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
+1. 從 Power BI 儀表板上開始。 在這裡，我們使用來自 ***行銷與銷售範例** _應用程式的儀表板。 您可以[從 AppSource.com 下載此應用程式](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 )。
 
     ![應用程式儀表板](media/end-user-export/power-bi-dashboards.png)
@@ -73,10 +73,10 @@ ms.locfileid: "92462479"
 
 4. 您會看到要匯出 [摘要的資料] 或 [基礎資料] 的選項。 如果您使用的是「銷售與行銷範例」應用程式，將會停用 [基礎資料]。 但是，您可能會發現已啟用兩個選項的報表。 以下是差異的說明。
 
-    **摘要的資料** ：如果您想要匯出在該視覺效果中目前所看到內容的資料，請選取此選項。  此類型匯出只會顯示用來建立視覺效果目前狀態的資料。 如果視覺效果已套用篩選，則您匯出的資料也會經過篩選。 例如，針對此視覺效果，您的匯出只會包含 2014 年和中部區域的資料，且只有四個製造商的資料：VanArsdel、Natura、Aliqui 和 Pirum。 如果視覺效果具有彙總 (加總、平均值等)，則匯出也會彙總。 
+    **摘要的資料**：如果您想要匯出在該視覺效果中目前所看到內容的資料，請選取此選項。  此類型匯出只會顯示用來建立視覺效果目前狀態的資料。 如果視覺效果已套用篩選，則您匯出的資料也會經過篩選。 例如，針對此視覺效果，您的匯出只會包含 2014 年和中部區域的資料，且只有四個製造商的資料：VanArsdel、Natura、Aliqui 和 Pirum。 如果視覺效果具有彙總 (加總、平均值等)，則匯出也會彙總。 
   
 
-    **基礎資料** ：如果您想要匯出視覺效果中所見的資料 **和** 來自基礎資料集的其他資料，請選取此選項。  這可能包括資料集所包含但未在視覺效果中使用的資料。 如果視覺效果已套用篩選，則您匯出的資料也會經過篩選。  如果您的視覺效果有彙總 (加總、平均值等)，則匯出將會移除彙總；基本上會將資料扁平化。 
+    **基礎資料**：如果您想要匯出視覺效果中所見的資料 **和** 來自基礎資料集的其他資料，請選取此選項。  這可能包括資料集所包含但未在視覺效果中使用的資料。 如果視覺效果已套用篩選，則您匯出的資料也會經過篩選。  如果您的視覺效果有彙總 (加總、平均值等)，則匯出將會移除彙總；基本上會將資料扁平化。 
 
     ![選擇基礎或摘要的功能表](media/end-user-export/power-bi-export-underlying.png)
 
@@ -88,7 +88,7 @@ ms.locfileid: "92462479"
     > 如果您沒有資料的權限，就無法以 Excel 匯出或開啟。  
 
 
-6. 在 Excel 中開啟檔案。 將資料數量與在儀表板上從相同視覺效果匯出的資料比較。 差別在於此匯出包含 **基礎資料** 。 
+6. 在 Excel 中開啟檔案。 將資料數量與在儀表板上從相同視覺效果匯出的資料比較。 差別在於此匯出包含 **基礎資料**。 
 
     ![範例 Excel](media/end-user-export/power-bi-underlying.png)
 

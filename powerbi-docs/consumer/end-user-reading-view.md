@@ -1,25 +1,25 @@
 ---
 title: Power BI 服務中的 Power BI 取用者功能
-description: 在本快速入門中，**取用者**將能了解 Power BI、應用程式、報表及儀表板。
+description: 在本快速入門中，**取用者** 將能了解 Power BI、應用程式、報表及儀表板。
+author: mihart
+ms.author: mihart
 services: powerbi
 documentationcenter: ''
-author: mihart
 ms.reviewer: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/30/2020
-ms.author: mihart
-ms.openlocfilehash: fbff6f202d6bdd3a4bffc031f23399869f08bc5c
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: ff5ffe959372952841cc41d92624b27f2d958f62
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780529"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390165"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-business-users"></a>快速入門：了解適用於「商務使用者」的 Power BI 功能
 
@@ -163,7 +163,7 @@ Easily navigate between the visualizations on the report page.
     ![report Selection pane](media/end-user-reading-view/power-bi-selection-pane-new.png) -->
 
 ### <a name="zoom-in-on-individual-visuals"></a>放大個別視覺效果
-將滑鼠暫留在視覺效果上，然後選取**焦點模式**圖示 ![從功能表中選取焦點模式](media/end-user-reading-view/pbi_popouticon.jpg)。 當您以焦點模式檢視視覺效果時，其會展開並填滿整個報表畫布，如下所示。
+將滑鼠暫留在視覺效果上，然後選取 **焦點模式** 圖示 ![從功能表中選取焦點模式](media/end-user-reading-view/pbi_popouticon.jpg)。 當您以焦點模式檢視視覺效果時，其會展開並填滿整個報表畫布，如下所示。
 
 ![有箭號指向焦點模式圖示的螢幕擷取畫面。](media/end-user-reading-view/power-bi-fullscreen.png)
 
