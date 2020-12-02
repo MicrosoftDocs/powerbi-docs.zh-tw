@@ -1,20 +1,20 @@
 ---
 title: 設定報表與儀表板的連絡人資訊
 description: 了解如何設定報表與儀表板的連絡人資訊。
-author: LukaszPawlowski-MS
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/08/2019
-ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 6e8f605f7c0d9e66d8931a0420e356c38f9083c4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4518ac8eff4b4f52ab2eeb715c0c460bb478678f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219060"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388325"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服務中設定報表與儀表板的連絡人資訊
 此文章說明如何在 Power BI 服務中為報表與儀表板設定連絡人資訊。

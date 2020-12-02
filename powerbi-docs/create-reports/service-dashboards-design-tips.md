@@ -2,19 +2,19 @@
 title: 設計絕佳 Power BI 儀表板的秘訣
 description: 設計絕佳 Power BI 儀表板的秘訣
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30c0600e835ad7088d6d867e9d1f4de24550c8cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d1e2a3b304d7d92ee6443e288d77599cb734ff1a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237190"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388693"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將突顯最重要的資訊，讓它簡潔且整齊。

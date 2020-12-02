@@ -2,19 +2,19 @@
 title: 顯示與我共用的報表與儀表板
 description: Power BI 中已與我共用的文件
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0e13a7bd273121429cd186c99ef8110b38e839fb
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 44f9d26e5f6ebe8723d5f5269bc66a38590a9b36
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983336"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389590"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>顯示與我共用的報表與儀表板
 

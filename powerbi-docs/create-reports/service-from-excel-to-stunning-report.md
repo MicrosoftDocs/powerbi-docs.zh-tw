@@ -2,19 +2,19 @@
 title: 教學課程：從 Excel 活頁簿到 Power BI 服務，再到 Teams
 description: 本文說明如何從 Excel 活頁簿的 Power BI 服務中，快速建立出色的報表，並在 Teams 中加以共用。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
 ms.date: 07/30/2020
-ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478122"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388854"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>教學課程：從 Excel 活頁簿到 Power BI 服務，再到 Microsoft Teams
 管理員想要在一天結束時，查看最新銷售與收益圖表的報表。 但最新資料都在各種第三方系統與您膝上型電腦的檔案上。 在過去，需要好幾個小時的時間才能建立視覺效果並將報表格式化，所以您覺得有點焦慮。
@@ -76,7 +76,7 @@ Power BI 服務可連接至許多資料來源，包括您電腦上的 Excel 檔�
 
 ## <a name="build-your-report"></a>建立報表
  
-報表會以 [編輯] 檢視開啟，並顯示空白報表畫布。 右側為 [視覺效果]、[篩選] 與 [欄位] 窗格。 Excel 活頁簿資料表資料會出現在 [欄位] 窗格中。 最上方是**財務**資料表的名稱。 Power BI 會在底下列出資料行標題，作為個別的欄位。
+報表會以 [編輯] 檢視開啟，並顯示空白報表畫布。 右側為 [視覺效果]、[篩選] 與 [欄位] 窗格。 Excel 活頁簿資料表資料會出現在 [欄位] 窗格中。 最上方是 **財務** 資料表的名稱。 Power BI 會在底下列出資料行標題，作為個別的欄位。
 
 您有在 [欄位] 清單中看到 Σ 符號嗎？ Power BI 已偵測到這些欄位為數值。 其也表示具有地球符號的地理欄位。
 

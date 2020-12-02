@@ -2,19 +2,19 @@
 title: 從 Power BI 服務將報表下載到 Power BI Desktop (預覽)
 description: 從 Power BI 服務將報表下載到 Power BI Desktop 檔案
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cd9295e26de50714a15afb672814893317fb8e3b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83b7d1e52a0d443c52348bec91f935e288830d4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861398"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388670"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>從 Power BI 服務將報表下載到 Power BI Desktop (預覽)
       

@@ -2,19 +2,19 @@
 title: 儀表板資料分類
 description: 了解儀表板資料分類，包括系統管理員應如何設定分類，以及儀表板擁有者應如何才能變更分類。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/10/2017
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d8c7a8532122487bdf3bcd718eb4089cb7c67008
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: e576cb5c0092d61d8c4b30fd180f66cef2922b0e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86262796"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388785"
 ---
 # <a name="dashboard-data-classification"></a>儀表板資料分類
 每個儀表板各不相同，而且隨著您所連接的資料來源不同，您可能會發現您和與您一起共用儀表板的同事，必須依據資料敏感性的不同，而採取不同的預防措施。 有一些儀表板應禁止與公司外部的人員共用或禁止列印，有一些則可任意共用。 透過儀表板資料分類，您就能提醒共用您儀表板的使用者，注意其應遵守的安全性層級。 您可以使用您公司 IT 部門所定義的分類來標記儀表板，讓檢視內容的每個人對於該資料的敏感性都能有相同的認知。
@@ -46,7 +46,7 @@ ms.locfileid: "86262796"
 
 若要變更分類類型，請執行下列作業：
 
-1. 選取儀表板名稱旁的**省略符號**，然後選取 [設定]，以前往儀表板設定。
+1. 選取儀表板名稱旁的 **省略符號**，然後選取 [設定]，以前往儀表板設定。
    
     ![儀表板的螢幕擷取畫面，其中顯示 [設定] 選項。](media/service-data-classification/dashboard_settings.png)
 2. 您可以在儀表板設定下，查看儀表板目前的分類，並使用下拉式清單變更分類類型。
@@ -70,7 +70,7 @@ ms.locfileid: "86262796"
 
 ![表單的螢幕擷取畫面，其中顯示組織中各種分類的欄位項目。](media/service-data-classification/blank_classification_form.png)
 
-每個分類在儀表板上都有其**名稱**與**簡稱**。 您可以選取 [顯示標記]，指定是否要在儀表板上顯示標記的簡稱。 若決定不在儀表板上顯示分類類型，儀表板擁有者仍能透過查看儀表板設定來檢視類型。 此外還可選擇是否要新增 **URL**，將組織的分類方針與使用需求的詳細資訊加入其中。  
+每個分類在儀表板上都有其 **名稱** 與 **簡稱**。 您可以選取 [顯示標記]，指定是否要在儀表板上顯示標記的簡稱。 若決定不在儀表板上顯示分類類型，儀表板擁有者仍能透過查看儀表板設定來檢視類型。 此外還可選擇是否要新增 **URL**，將組織的分類方針與使用需求的詳細資訊加入其中。  
 
 最後，您必須決定預設的分類類型。  
 

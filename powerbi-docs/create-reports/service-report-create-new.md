@@ -2,19 +2,19 @@
 title: '在 Power BI 服務中從 Excel 檔案建立報表 '
 description: 在 Power BI 服務中從 Excel 檔案建立 Power BI 報表。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d6a52fd72ab96541eee621d6be6cb50005f293e2
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 806198b783785a06562411b53f7bd6f644b16918
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462673"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388187"
 ---
 # <a name="create-a-report-from-an-excel-file-in-the-power-bi-service"></a>在 Power BI 服務中從 Excel 檔案建立報表
 您已閱讀 [Power BI 中的報表](../consumer/end-user-reports.md)，現在想要建立自己的報表。 有很多方式可以建立報表。 在本文中，我們會透過在 Power BI 服務中從 Excel 檔案建立基礎報表開始。 了解建立報表的基本概念之後，請查看底部的[後續步驟](#next-steps)以取得更進階的報表主題。  

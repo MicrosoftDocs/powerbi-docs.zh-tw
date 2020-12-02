@@ -2,19 +2,19 @@
 title: 將儀表板的圖格釘選到另一個儀表板
 description: 將儀表板的圖格釘選到另一個儀表板
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/01/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: baf48e1cfa2bc37652880c9ab4201f2f49ff3c32
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26da094f7ef7519d29faf4edea1574b6b15dddb1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218646"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388279"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>將儀表板的圖格釘選到另一個儀表板
 加入新[儀表板磚](../consumer/end-user-tiles.md)的一種方法是從另一個儀表板複製過來。 每個圖格都是一個連結，按一下就會返回其建立位置，問與答或報表。 

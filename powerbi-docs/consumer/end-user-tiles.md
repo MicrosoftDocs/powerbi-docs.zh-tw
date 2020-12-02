@@ -2,19 +2,19 @@
 title: 適用於商務使用者之 Power BI 服務中的儀表板圖格
 description: 適用於商務使用者之 Power BI 中儀表板圖格的所有相關資訊。 這包括從 SQL Server Reporting Services (SSRS) 建立的磚。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab8cfefab74d3120451b56c3ea30518e538ad543
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: 67291ca77b161fab289ee0520287d832cce838f8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830542"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389498"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
 
@@ -27,7 +27,7 @@ ms.locfileid: "91830542"
 ![Power BI 儀表板](./media/end-user-tiles/power-bi-dash.png)
 
 
-除了從報表中釘選的圖格， *設計工具* 也可以使用 [新增圖格]  直接在儀表板上新增獨立圖格。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。
+除了從報表中釘選的圖格，*設計工具* 也可以使用 [新增圖格]  直接在儀表板上新增獨立圖格。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。
 
 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](end-user-basic-concepts.md)。
 

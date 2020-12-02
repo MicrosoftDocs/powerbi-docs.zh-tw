@@ -2,18 +2,18 @@
 title: Power BI 行動裝置應用程式中我的最愛項目
 description: 了解如何在行動應用程式中建立及檢視我的最愛 Power BI 儀表板、報表和應用程式，以及「Power BI 報表伺服器」和 Reporting Services 報表與 KPI。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.author: painbar
-ms.openlocfilehash: 3a89f6e050684e193ea915b2d6bd26acb7fd85ab
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e86a4cd8298feaa045ed363ecf8b4da47f051d8b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635899"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389222"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 行動應用程式中建立及檢視我的最愛項目
 適用於︰
@@ -23,7 +23,7 @@ ms.locfileid: "91635899"
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 了解如何在行動應用程式中建立及檢視我的最愛 Power BI 儀表板、報表和應用程式，以及我的最愛內部部署「Power BI 報表伺服器」和 Reporting Services KPI 與報表。
 

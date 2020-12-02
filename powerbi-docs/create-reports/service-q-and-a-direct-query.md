@@ -2,19 +2,19 @@
 title: 透過 Power BI 中的即時連線使用問與答
 description: 有關透過 Analysis Services 資料的即時連線和內部部署資料閘道來使用 Power BI 問與答自然語言查詢的文件。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8137fa6bb10e20992547746bc6e91e001767c679
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e64121fdac63abe22d77818a0f91a860cac316f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218853"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388141"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>針對 Power BI 中的即時連線啟用問與答
 

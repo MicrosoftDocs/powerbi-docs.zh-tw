@@ -2,19 +2,19 @@
 title: 建立 Power BI 問與答的精選問題
 description: 說明如何建立 Power BI 問與答的精選問題
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 65ed1806491f281bcc4d8adc365e5d286b6204ec
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3587c019f6b460774efca3db2229f315adcbded3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218830"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388164"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>建立 Power BI 問與答的精選問題
 如果您擁有自己的資料集，則可將自己的精選問題新增至該資料集。 Power BI 問與答會向取用根據該資料集之報表的同事顯示這些問題。  精選問題可讓您的同事有些概念，知道要針對資料集詢問哪類問題。 您可自行決定要新增什麼精選問題 -- 新增熱門問題、會顯示有趣結果的問題，或難以簡短說明的問題。
@@ -39,7 +39,7 @@ ms.locfileid: "85218830"
    ![精選問與答問題面板](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. 瀏覽回零售分析範例的 Power BI 儀表板，並將您的游標放在 [問與答] 問題方塊中。   
    ![問與答問題方塊與精選問題](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
-7. 清單中的第一個新精選問題為**依地區銷售額，以地圖表示**。 請加以選取。  
+7. 清單中的第一個新精選問題為 **依地區銷售額，以地圖表示**。 請加以選取。  
 8. Power BI 會建立答案，並將其顯示為區域分布圖視覺效果。  
    ![問與答精選問題回答：地圖視覺效果](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
