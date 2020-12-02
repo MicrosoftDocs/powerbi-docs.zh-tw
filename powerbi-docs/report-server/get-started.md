@@ -1,20 +1,20 @@
 ---
 title: 什麼是 Power BI 報表伺服器？
 description: 取得「Power BI 報表伺服器」的概觀，以了解它如何與 SQL Server Reporting Services (SSRS) 及其餘 Power BI 搭配運作。
-keywords: ''
 author: maggiesMSFT
 ms.author: maggies
+keywords: ''
 ms.date: 05/28/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 3f44353fc562793037d80a2aa7f0a1d42d207bc6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: eba3038e654192ca0ae0ec381323762f80cf711a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634036"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397801"
 ---
 # <a name="what-is-power-bi-report-server"></a>什麼是 Power BI 報表伺服器？
 

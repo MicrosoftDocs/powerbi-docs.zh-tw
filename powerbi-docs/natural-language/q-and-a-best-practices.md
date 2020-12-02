@@ -2,17 +2,17 @@
 title: 將問與答最佳化的最佳做法
 description: 如何將 Power BI 問與答最佳化並改善其運作方式
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/23/2019
-ms.author: mohaali
-ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: c9588aab87bda0755e5de931cd9bdfcde808d49c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635784"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398744"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>將 Power BI 問與答最佳化的最佳做法
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答，就更厲害了，而 Power BI 的問與答就有這樣的能耐。
@@ -90,7 +90,7 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 
 「資料類別」  提供其資料類型以外之資料行內容的其他語意知識。 例如，您可以將整數資料行標示為「郵遞區號」，並將字串資料行標示為「縣/市」、「國家/地區」等。 問與答會透過兩個重要方式使用這項資訊：視覺效果選取和語言偏差。
 
-首先，問與答會使用**資料類別**資訊，協助選擇要使用的視覺效果顯示類型。 例如，它會辨識具有日期或時間「資料類別」  的資料行通常是折線圖水平軸或泡泡圖播放軸的不錯選擇。 而且，它假設包含具有地理位置**資料類別**之資料行的結果在地圖上可能可呈現不錯的效果。
+首先，問與答會使用 **資料類別** 資訊，協助選擇要使用的視覺效果顯示類型。 例如，它會辨識具有日期或時間「資料類別」  的資料行通常是折線圖水平軸或泡泡圖播放軸的不錯選擇。 而且，它假設包含具有地理位置 **資料類別** 之資料行的結果在地圖上可能可呈現不錯的效果。
 
 其次，問與答會對使用者可能如何討論日期和地理位置資料行進行有根據的猜測，有助於了解特定類型的問題。 例如，“When was John Smith hired?” 中的 “when” 幾乎確定是對應至日期資料行，而 “Count customers in Brown” 中的 “Brown” 最可能是縣 (市)，而不是頭髮顏色。
 

@@ -6,16 +6,16 @@ ms.author: mihart
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/06/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e6ab41b7a9330ff1c99bb0dcc963608485cc3f94
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: 3ecd7e5c231be74e69cb2c6074f08794beec547f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830588"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398882"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 
@@ -33,7 +33,7 @@ ms.locfileid: "91830588"
 
 
 ## <a name="requirements"></a>需求
-為您自己 **建立** 訂用帳戶需要特定類型的 [授權](end-user-license.md)。 如果您無法建立訂用帳戶，請連絡您的 Power BI 系統管理員或 IT 技術支援中心。 只有儀表板擁有者或報表擁有者可以 **訂閱其他內容** 。 訂閱編頁報表則略有不同。 如需詳細資訊，請參閱[為您自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)。 
+為您自己 **建立** 訂用帳戶需要特定類型的 [授權](end-user-license.md)。 如果您無法建立訂用帳戶，請連絡您的 Power BI 系統管理員或 IT 技術支援中心。 只有儀表板擁有者或報表擁有者可以 **訂閱其他內容**。 訂閱編頁報表則略有不同。 如需詳細資訊，請參閱[為您自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)。 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>訂閱儀表板或報表頁面
 不論您是要訂閱儀表板或報表，程序都很相似。 同樣的按鈕可讓您訂閱 Power BI 服務的儀表板與報表。

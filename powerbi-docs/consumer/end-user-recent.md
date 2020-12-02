@@ -2,20 +2,20 @@
 title: 在 Power BI 服務中顯示最近瀏覽過的內容
 description: Power BI 中最近的文件
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/24/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 39904a0fc577ca11ae73c5bb9840232b4345e47b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e11b1823c45e681d6a555bd5a4a9a751704419b2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527309"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399227"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI 服務中的 [最近]  內容
 
@@ -47,7 +47,7 @@ ms.locfileid: "91527309"
 
 ![顯示搜尋欄位與排序箭號的螢幕擷取畫面](./media/end-user-recent/power-bi-recent-sort-search.png)
 
-觀看 Amanda 示範如何填入 Power BI 服務 [最近]**** 內容清單，接著遵循影片下的逐步指示，自己試試看。
+觀看 Amanda 示範如何填入 Power BI 服務 [最近] 內容清單，接著遵循影片下的逐步指示，自己試試看。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 

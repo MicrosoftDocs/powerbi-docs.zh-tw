@@ -2,20 +2,20 @@
 title: 從 Power BI 服務列印
 description: 從 Power BI 服務列印儀表板、磚或報表頁面。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/19/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 600b8d1447d50a1647097d94df9077299f00cccf
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d861bbc32584ccbc95d7bcc13701938f671f0c73
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860355"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399549"
 ---
 # <a name="printing-from-the-power-bi-service"></a>從 Power BI 服務列印
 
@@ -72,14 +72,14 @@ ms.locfileid: "90860355"
 
 4. 選取列印圖示 ![列印圖示](./media/end-user-print/print-icon.png).     
 
-5. 您瀏覽器的 [列印] 視窗會隨即開啟。 選擇這些設定。 例如，如果磚不符合頁面，您可能會想要將比例變更為 75%。 選取 [列印]****。
+5. 您瀏覽器的 [列印] 視窗會隨即開啟。 選擇這些設定。 例如，如果磚不符合頁面，您可能會想要將比例變更為 75%。 選取 [列印]。
 
     ![[列印] 視窗](./media/end-user-print/power-bi-scale.png) 
 
 > [!TIP]
 > 如已遵循上述所有步驟，但磚仍未依您想要的方式顯示，請嘗試下列方法。
 > 1. 開啟 [列印] 視窗，變更您認為會得到最佳列印成品的列印設定。 例如，變更版面配置、邊界和比例。 
-> 2. 但不要選取 [列印]，而是選取 [取消]****。 
+> 2. 但不要選取 [列印]，而是選取 [取消]。 
 > 3. 再次執行步驟 1-5。 您的磚會調整為新 [列印] 視窗設定，並可供列印。
 
 ## <a name="print-a-report-page"></a>列印報表頁面
@@ -90,7 +90,7 @@ ms.locfileid: "90860355"
     ![Power BI [檔案] 功能表](./media/end-user-print/power-bi-print-report.png)
 2. 您瀏覽器的 [列印] 視窗會隨即開啟。
 
-3. 遵循上述**列印儀表板**的列印步驟執行作業。
+3. 遵循上述 **列印儀表板** 的列印步驟執行作業。
    
 
 
@@ -105,7 +105,7 @@ ms.locfileid: "90860355"
     ![Power BI [檔案] 功能表的螢幕擷取畫面](./media/end-user-print/power-bi-visual-print.png)
 
 
-3. 遵循上述**列印儀表板**的列印步驟執行作業。
+3. 遵循上述 **列印儀表板** 的列印步驟執行作業。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
@@ -113,7 +113,7 @@ ms.locfileid: "90860355"
 * 答︰是的。 一次只能列印一頁報表。
 * 問：我無法列印到 PDF。    
 * 答︰如果您已在瀏覽器中設定 PDF 驅動程式，則只會看到此選項。    
-* 問︰當我選取 [列印]**** 時，看到與您在此所示不同的畫面。    
+* 問︰當我選取 [列印] 時，看到與您在此所示不同的畫面。    
 * 答︰[列印] 畫面會因瀏覽器與軟體版本而異。
 * 問︰我的列印成品未正確地縮放。  我的儀表板無法容納在此頁面上。 其他縮放和方向問題。    
 * 答：我們無法保證列印的複本會與出現在 Power BI 服務中正本完全相同。 縮放、邊界、視覺效果詳細資料、方向和大小等項目不是由 Power BI 所控制。 嘗試調整瀏覽器列印設定。 上述建議中有部分是頁面方向 (直向或橫向)、邊界大小和比例。 如果這些內容沒有幫助，請參閱特定瀏覽器的相關文件。      

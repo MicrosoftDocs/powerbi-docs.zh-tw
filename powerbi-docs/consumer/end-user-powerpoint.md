@@ -2,20 +2,20 @@
 title: 將整份報表匯出至 PowerPoint
 description: 了解如何將 Power BI 報表匯出至 PowerPoint。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 61c084dca6d80a5e609f642ed6fc6894bef9e63c
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a01b140f368ec04111f1273e3afb57ff8e6a8aee
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527433"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399733"
 ---
 # <a name="export-reports-to-powerpoint"></a>將報表匯出至 PowerPoint
 
@@ -29,14 +29,14 @@ ms.locfileid: "91527433"
 * 您可以保留新增至報表的篩選條件和交叉分析篩選器設定。
 * PowerPoint 中會建立連結回 Power BI 報表的連結。
 
-將 **Power BI 報表**匯出到 **PowerPoint** 的程序非常簡單快速。 請遵循下一節中概述的步驟。
+將 **Power BI 報表** 匯出到 **PowerPoint** 的程序非常簡單快速。 請遵循下一節中概述的步驟。
 
-您也可以從 Power BI 服務一次複製一個視覺效果並貼入至 PowerPoint (或支援貼上的任何其他程式)。 選取**複製成影像**圖示，將視覺效果複製到剪貼簿。 然後，開啟 PowerPoint 並貼上視覺效果。 如需詳細資訊，請參閱[將視覺效果複製為靜態影像](../visuals/power-bi-visualization-copy-paste.md)。
+您也可以從 Power BI 服務一次複製一個視覺效果並貼入至 PowerPoint (或支援貼上的任何其他程式)。 選取 **複製成影像** 圖示，將視覺效果複製到剪貼簿。 然後，開啟 PowerPoint 並貼上視覺效果。 如需詳細資訊，請參閱[將視覺效果複製為靜態影像](../visuals/power-bi-visualization-copy-paste.md)。
 
 ![選取複製成影像圖示](media/end-user-powerpoint/power-bi-copy.png)
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>將 Power BI 報表匯出至 PowerPoint
-在 **Power BI 服務**中，選取要顯示在畫布上的報表。 您也可以從瀏覽窗格的 [首頁]、[應用程式] 或任何其他容器中選取報表。
+在 **Power BI 服務** 中，選取要顯示在畫布上的報表。 您也可以從瀏覽窗格的 [首頁]、[應用程式] 或任何其他容器中選取報表。
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -71,7 +71,7 @@ ms.locfileid: "91527433"
 
 ![PowerPoint 開啟](media/end-user-powerpoint/power-bi-powerpoint-numbered.png)
 
-1. 投影片組的第一頁包含報表名稱及連結，讓您能夠**在 Power BI 中檢視**作為投影片組基礎的報表。
+1. 投影片組的第一頁包含報表名稱及連結，讓您能夠 **在 Power BI 中檢視** 作為投影片組基礎的報表。
 2. 您也可以取得有關報表的一些實用資訊。 [上次資料重新整理] 會顯示匯出報表所依據的日期和時間。 [下載於] 則顯示將 Power BI 報表匯出至 PowerPoint 檔案時的日期和時間。 將 [下載於] 時間設定為匯出時的電腦時區。
 
 

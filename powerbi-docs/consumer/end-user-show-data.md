@@ -2,19 +2,19 @@
 title: 顯示用於建立報表視覺效果的資料
 description: 此文件說明 Power BI 商務使用者如何「查看」用於建立報表視覺效果的資料。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/6/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 3ab587e3467f929ac7b318c2225b4f734a70e1a2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780260"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399089"
 ---
 # <a name="show-data-with-power-bi-reports"></a>使用 Power BI 報表顯示資料
 

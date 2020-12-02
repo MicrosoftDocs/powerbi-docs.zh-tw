@@ -2,20 +2,20 @@
 title: 合作夥伴售前學習目錄
 description: 尋找適用於售前專家的所有 Power Apps 訓練選項，從最基礎到最進階。
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: bdc42b263e274983e5bcf85dde4d733c94d5d82d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8364e0a795aff5821d67b314b569bb0292c80ea3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747681"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398261"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>合作夥伴售前學習目錄
 
-您負責向客戶展示主要功能嗎？ 
+您負責向客戶展示主要功能嗎？ 
 
 下列目錄已整理成從核心知識開始到特定領域，以及從最基礎到最進階。 如果內容有多種格式，我們將告知您，讓您可以選擇最符合您需求的訓練格式。
 

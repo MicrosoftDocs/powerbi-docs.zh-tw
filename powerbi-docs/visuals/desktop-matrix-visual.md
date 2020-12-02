@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 中建立矩陣視覺效果
 description: 了解矩陣視覺效果如何在 Power BI 中提供分層式配置和細微的醒目提示。
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bf3210982380a0a3aa498dea8038366733182d7e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412295"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398054"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中建立矩陣視覺效果
 
@@ -118,7 +118,7 @@ ms.locfileid: "93412295"
 
 ![資料行向下切入一個層級的矩陣](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
-其餘功能表項目在資料行上的運作方式與資料列相同 (請參閱上一節： **資料列標頭的向下切入** )。 您可以 [顯示下一個層級]，並對資料行 [展開至下一個層級]，就像是處理資料列一樣。
+其餘功能表項目在資料行上的運作方式與資料列相同 (請參閱上一節：**資料列標頭的向下切入**)。 您可以 [顯示下一個層級]，並對資料行 [展開至下一個層級]，就像是處理資料列一樣。
 
 > [!NOTE]
 > 矩陣視覺效果左上角的向下切入圖示和向上切入圖示只適用於資料列。 若要在資料行上向下切入，您必須使用右鍵功能表。

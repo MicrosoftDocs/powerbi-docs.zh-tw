@@ -2,20 +2,20 @@
 title: 如何在工作區中組織內容
 description: 了解工作區和工作區角色
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: 7e16b01508b74b8a91cc956be8a2942b2c0e89bc
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 2341306672da4c1923dc5bc97f0d1537604a1a7c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983713"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398698"
 ---
 # <a name="collaborate-in-workspaces"></a>在工作區中共同作業
 
@@ -38,7 +38,7 @@ ms.locfileid: "91983713"
 
 ## <a name="permissions-in-the-workspaces"></a>工作區中的權限
 
-存取權限可決定您可以在工作區中做什麼，因此小組可以共同作業。  授與新工作區的存取權時，設計師會將個人或群組新增至其中一個工作區角色： **檢視人員** 、 **成員** 、 **參與者** 或 **管理員** 。 
+存取權限可決定您可以在工作區中做什麼，因此小組可以共同作業。  授與新工作區的存取權時，設計師會將個人或群組新增至其中一個工作區角色：**檢視人員**、**成員**、**參與者** 或 **管理員**。 
 
 
 身為 Power BI 的「商務使用者」，您在工作區中互動時一般會使用 **檢視者** 角色。 但是「設計工具」也可能將您指派給 **成員** 或 **參與者** 角色。 檢視者角色可供檢視由其他人建立並與您共用的互動內容 (儀表板、報表、應用程式)。 而且因為檢視者角色不能存取基礎資料集，所以這是與內容互動的安全方式，不必擔心會「傷害」基礎資料。

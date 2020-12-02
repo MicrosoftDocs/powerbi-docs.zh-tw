@@ -2,16 +2,16 @@
 title: 功能性應用程式顧問學習目錄
 description: 尋找適用於商務領域之實作專家的所有 Power Apps 訓練選項，從最基礎到最進階。
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: d31cdab393535609e8e12de97b2b784f55a3d9a2
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e891bccd4840d67a400943a84f024c433f75af1a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749199"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398307"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>功能性應用程式顧問學習目錄
 

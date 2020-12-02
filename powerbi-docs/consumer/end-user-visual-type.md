@@ -2,20 +2,20 @@
 title: Power BI 中適用於商務使用者的視覺效果類型
 description: Power BI 服務中的視覺效果類型
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/07/2020
-ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: e944cabc72e60825f286fd86e96257a780b121b6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830664"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399204"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的視覺效果類型
 
@@ -110,7 +110,7 @@ Power BI 未自動包含的視覺效果稱為「自訂視覺效果」。 自訂�
 
 關鍵影響因素圖表顯示出所選結果或值的主要成因。
 
-關鍵影響因素是協助您了解影響關鍵計量之因素的最佳選擇。 例如，什麼原因讓客戶簽下第二張訂單 **，或者為什麼去年六月的銷售額如此亮眼** 。 
+關鍵影響因素是協助您了解影響關鍵計量之因素的最佳選擇。 例如，什麼原因讓客戶簽下第二張訂單 **，或者為什麼去年六月的銷售額如此亮眼**。 
 
 ### <a name="kpis"></a>KPI
 ![KPI](media/end-user-visual-type/power-bi-kpi.png)
