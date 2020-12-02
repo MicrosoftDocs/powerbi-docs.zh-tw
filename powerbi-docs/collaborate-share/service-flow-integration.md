@@ -2,19 +2,19 @@
 title: 將資料警示與 Power Automate 整合
 description: 了解如何建立由 Power BI 資料警示觸發的 Power Automate 流程。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/09/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a394b94f4fa62a147d9abe160ef93d0b22e6d316
-ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
+ms.openlocfilehash: 65c7c00a705ed95c26c32a4fc5bcb9e0c18c13bf
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94893606"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407162"
 ---
 # <a name="integrate-data-alerts-with-power-automate"></a>將資料警示與 Power Automate 整合
 

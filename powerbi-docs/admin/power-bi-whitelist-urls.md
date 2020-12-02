@@ -5,25 +5,25 @@ author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: e4aec179b298c5a8ca52cf73ac5fdceed7e8602a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 433b3d53ccb653e1a945a83176ab9ebc19ccac5d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857672"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409232"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>將 Power BI URL 新增至允許清單
 [//]: # "suparnap、miwehnia 和 natham 是維護這份清單的連絡人"
 
 Power BI 服務需要連線到網際網路。 此文章中表格所列的端點應該可供使用 Power BI 服務的客戶存取。
 
-若要使用 Power BI 服務，您必須能夠連線到下列表格中標記為**必要**的端點，以及在連結的網站上標記為**必要**的所有端點。 若外部網站的連結是某個特定區域，您就只需要檢閱該區段中的端點。
+若要使用 Power BI 服務，您必須能夠連線到下列表格中標記為 **必要** 的端點，以及在連結的網站上標記為 **必要** 的所有端點。 若外部網站的連結是某個特定區域，您就只需要檢閱該區段中的端點。
 
-標記為**選擇性**的端點，也可以新增至允許清單，讓特定功能得以運作。
+標記為 **選擇性** 的端點，也可以新增至允許清單，讓特定功能得以運作。
 
 Power BI 服務只需為列出的端點開啟 TCP 連接埠 443。
 

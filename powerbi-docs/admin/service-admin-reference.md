@@ -2,19 +2,19 @@
 title: 系統管理員適用的 PowerShell Cmdlet、REST API 和 .NET 用戶端程式庫
 description: 了解透過指令碼和程式設計 API 管理 Power BI 的方式。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c26d169a4c8ef876d1fe92e4967b07c982f510db
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6afc49e0d2fe67c89d906d4715959892868b0027
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856867"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408082"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Power BI 系統管理員適用的 PowerShell Cmdlet、REST API 和 .NET 用戶端程式庫
 Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指令碼。 其同時公開 REST API 並提供 .NET 用戶端程式庫來開發管理解決方案。 本主題說明 Cmdlet 清單以及對應的 API 和 REST API 端點。 如需詳細資訊，請參閱：

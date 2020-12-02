@@ -2,19 +2,19 @@
 title: 將您的 Power BI 訂用帳戶移轉至新的當地德文區域
 description: 提供現有 Microsoft Cloud Germany (Microsoft Cloud Deutschland) 客戶如何將其 Power BI 使用者移轉至新的當地德文區域的相關資訊。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 978483407176b9902989b8feb0f41f577d4ed14f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 7ce58c58934503e51531d204c02c976e244e57e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668221"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408472"
 ---
 # <a name="migrate-your-subscription-to-the-new-local-german-regions"></a>將您的訂用帳戶移轉至新的當地德文區域
 

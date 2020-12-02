@@ -2,19 +2,19 @@
 title: 在傳統工作區共同作業
 description: 了解如何使用 Microsoft 365 服務，以在工作區的 Power BI Desktop 檔案上共同作業，例如共用商務用 OneDrive 上的檔案、Exchange 中的交談、行事曆及工作等。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 07/25/2019
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fdfe212825cc522aa7965f46d112ece4a1db35c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9017d5c938ec0382e2fb27b00e7fe08945e10a5b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226806"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407622"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>在傳統工作區共同作業
 Power BI 工作區是與您同事共同作業以使用儀表板、報表和資料集來建立「應用程式」的絕佳地方。 本文是關於原始的「典型」工作區。  

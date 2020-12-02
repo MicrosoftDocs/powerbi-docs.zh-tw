@@ -2,20 +2,20 @@
 title: 為組織取得 Power BI 服務訂用帳戶
 description: 如何以管理員身分註冊 Power BI 服務訂用帳戶並大量購買授權。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 99d1f9543625ab564db305b50b196b1e6fcdebef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7db1b6c2df9a8ad32b76ae452ee76828df5823c0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857235"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408496"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>為組織取得 Power BI 服務訂用帳戶
 

@@ -2,19 +2,19 @@
 title: 整理有序的內容套件：存取及複製
 description: 閱讀以了解如何建立 Power BI 中組織內容套件的複本，以及對存取權疑難排解
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f89459b9d1e930fe429467b566d0813030fb43ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: eccc60c4f26502ea2249c378efbdb910bd7c8a30
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034512"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406725"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>整理有序的內容套件：複製、重新整理及取得存取權
 
@@ -45,7 +45,7 @@ ms.locfileid: "86034512"
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>請幫我！  我不再能夠存取內容套件了
 這種情形可能由幾種原因所造成：
 
-* **成員資格變更**：內容套件會發佈至電子郵件通訊群組、安全性群組和[以 Microsoft 365 為基礎的 Power BI 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。  如果群組已將您移除，您就不再有內容套件的存取權。
+* **成員資格變更**：內容套件會發佈至電子郵件通訊群組、安全性群組和 [以 Microsoft 365 為基礎的 Power BI 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。  如果群組已將您移除，您就不再有內容套件的存取權。
 * **通訊群組變更**：內容套件建立者變更通訊群組。 例如，內容套件最初發佈至整個組織，但建立者重新將它發佈給較少的對象，而您可能不再隸屬此對象。
 * **安全性設定變更**：如果儀表板和報表連接至內部部署 SSAS 資料來源，且變更了安全性設定，您對該伺服器的權限可能會遭撤銷。
 

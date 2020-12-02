@@ -2,19 +2,19 @@
 title: 在 Power BI 和 Microsoft 365 中管理工作區
 description: Power BI 中工作區是建置在 Microsoft 365 群組上的共同作業體驗。 在 Power BI 以及 Microsoft 365 中管理工作區。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: bd1a5b0aaf694f41fdbfe4764e77c1138a57b082
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526712"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407024"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>在 Power BI 和 Microsoft 365 中管理工作區
 

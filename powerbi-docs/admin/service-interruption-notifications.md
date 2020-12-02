@@ -2,18 +2,18 @@
 title: 服務中斷通知
 description: 了解如何在 Power BI 服務中斷時，接收電子郵件通知。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2020
-ms.author: kfollis
-ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: e5d8f43a8edb6dc05b58cb62836e98cf209c8b5c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916122"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407806"
 ---
 # <a name="service-interruption-notifications"></a>服務中斷通知
 

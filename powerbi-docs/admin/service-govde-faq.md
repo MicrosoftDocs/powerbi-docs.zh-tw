@@ -2,23 +2,23 @@
 title: 德國政府客戶的常見問題集
 description: 適用於德國政府客戶，回答 Power BI 德國政府服務的常見問題
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 97164fe1db72cac28096b1fde5130cfccec29be2
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 4c8eb2766a234287e79497eba4f46e9adcac224d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374792"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407944"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>德國雲端客戶的 Power BI 常見問題集
-**Power BI 服務**為歐盟/歐洲自由貿易協定 (EU/EFTA) 客戶提供一個版本，通常稱為 Microsoft Cloud Deutschland (MCD)。 本文所討論的 **Power BI 服務**版本為 EU/EFTA 客戶專屬，獨立且不同於商用版本的 **Power BI 服務**，或提供給政府客戶的 Power BI 服務。
+**Power BI 服務** 為歐盟/歐洲自由貿易協定 (EU/EFTA) 客戶提供一個版本，通常稱為 Microsoft Cloud Deutschland (MCD)。 本文所討論的 **Power BI 服務** 版本為 EU/EFTA 客戶專屬，獨立且不同於商用版本的 **Power BI 服務**，或提供給政府客戶的 Power BI 服務。
 
 ![Microsoft Power BI 德國首頁的螢幕擷取畫面。](media/service-govde-faq/govde-faq_01.png)
 

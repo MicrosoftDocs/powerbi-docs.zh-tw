@@ -2,19 +2,19 @@
 title: 匯出 Excel 網頁版資料表或 SharePoint 清單中每個資料列的編頁報表
 description: 在本文中，您將使用 Power Automate 自動匯出 Excel 網頁版資料表或 SharePoint Online 清單中每個資料列的編頁報表。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: acb90e65d63871925fe39c38d2141b85652fd68a
-ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
+ms.openlocfilehash: 74d61d40c4447f2649f5cce5fbcdcba68cd31afe
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94904855"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407990"
 ---
 # <a name="export-a-paginated-report-for-each-row-in-an-excel-online-table-or-sharepoint-list"></a>匯出 Excel 網頁版資料表或 SharePoint 清單中每個資料列的編頁報表
 

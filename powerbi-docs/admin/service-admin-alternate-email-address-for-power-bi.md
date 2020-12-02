@@ -1,20 +1,20 @@
 ---
 title: 使用備用電子郵件地址
 description: 使用備用電子郵件地址
-author: kfollis
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/23/2019
-ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0cc691e8987bf45f6c3028a5006955db1da72b0b
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: b03ecff1bcb74789adfea640c0279b568a09ffc7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638788"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409071"
 ---
 # <a name="use-an-alternate-email-address"></a>使用備用電子郵件地址
 
@@ -57,7 +57,7 @@ Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.co
 
 * UserPrincipalName (UPN) 電子郵件地址
 
-* *其他電子郵件地址*陣列屬性
+* *其他電子郵件地址* 陣列屬性
 
 Power BI 會根據下列順序選取要使用的電子郵件：
 

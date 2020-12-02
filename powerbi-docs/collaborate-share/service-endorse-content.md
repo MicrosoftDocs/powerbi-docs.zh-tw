@@ -2,28 +2,28 @@
 title: 為內容簽署
 description: 了解如何推廣及認證 Power BI 內容。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95e4f2e560ebbb7d97d011944e35344239d048f2
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681791"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407047"
 ---
 # <a name="endorse-your-content"></a>為內容簽署
 
-Power BI 提供兩種方式來為有價值的高品質內容簽署，以增加其曝光率： **推廣** 與 **認證** 。
+Power BI 提供兩種方式來為有價值的高品質內容簽署，以增加其曝光率：**推廣** 與 **認證**。
 
-* **升級** ：推廣是一種將您認為有價值、值得供其他人使用的內容醒目提示的方式。 這可鼓勵人員在組織內合作，將內容進行運用和散佈。
+* **升級**：推廣是一種將您認為有價值、值得供其他人使用的內容醒目提示的方式。 這可鼓勵人員在組織內合作，將內容進行運用和散佈。
 
     任何內容擁有者，以及內容所在工作區上具有寫入權限的任何成員，在認為該內容值得共用時，就可以推廣該內容。
 
-* **認證** ：認證表示內容符合組織的品質標準，且可視為能夠在整個組織中使用的可靠權威內容。
+* **認證**：認證表示內容符合組織的品質標準，且可視為能夠在整個組織中使用的可靠權威內容。
 
     只有授權的檢閱者可認證內容。 內容擁有者若想要看到內容經過認證，但未獲授權無法自行認證內容，則必須遵循其組織對於取得其內容認證的指導方針。
 
@@ -50,7 +50,7 @@ Power BI 提供兩種方式來為有價值的高品質內容簽署，以增加�
 
     ![選取 [已升級] 和 [套用]](media/service-endorse-content/power-bi-promote-content.png)
 
-1. 選取 [ **套用** ]。
+1. 選取 [ **套用**]。
 
 ## <a name="certify-content"></a>認證內容
 
@@ -91,7 +91,7 @@ Power BI 提供兩種方式來為有價值的高品質內容簽署，以增加�
 
 [簽署] 對話方塊是透過所要簽署內容的設定來進行存取。 請遵循下列指示以移至每個內容類型的設定。
 
-* **資料集** ：在清單檢視中，將滑鼠暫留在所要簽署的資料集上方，按一下 [更多選項 (...)]，然後從出現的功能表中選擇 [設定]。
+* **資料集**：在清單檢視中，將滑鼠暫留在所要簽署的資料集上方，按一下 [更多選項 (...)]，然後從出現的功能表中選擇 [設定]。
 * **資料流程** (預覽)：在清單檢視中，將滑鼠暫留在所要簽署的資料流程上方，按一下 [更多選項 (...)]，然後從出現的功能表中選擇 [設定]。
 
 

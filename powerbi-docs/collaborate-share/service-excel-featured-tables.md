@@ -2,19 +2,19 @@
 title: 在 Excel 中存取 Power BI 的精選表格 (預覽)
 description: 在 Excel 中，可在資料類型資源庫的 Power BI 資料集中，從精選表格中尋找資料。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/04/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: 95ccc80a37ad9703c60c82ce928d35b5e301947b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947039"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407300"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>在 Excel 中存取 Power BI 的精選表格 (預覽)
 

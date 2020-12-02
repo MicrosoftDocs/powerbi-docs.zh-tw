@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 9331fe3e207162db0215b62aa89b04f2e4be3d95
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: fd4ca0d87530c6421321e10ed97c3ea4e9a32c8d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512692"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408013"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>攜帶您自己的加密金鑰以用於 Power BI
 

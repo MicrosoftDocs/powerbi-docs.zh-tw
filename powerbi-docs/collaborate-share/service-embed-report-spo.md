@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 06/28/2020
-ms.openlocfilehash: 44e82a3f51af606d4e5cd6f70b13b9a8db4641fe
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 6a1f8a69db20d44fc814c7e63e4ad13ed5fc955c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91135882"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407369"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -67,7 +67,7 @@ ms.locfileid: "91135882"
 
     ![SP 新報表](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)  
 
-4. 將先前複製的報表 URL 貼入 **Power BI 報表連結**窗格中。 報表會自動載入。
+4. 將先前複製的報表 URL 貼入 **Power BI 報表連結** 窗格中。 報表會自動載入。
 
     ![SP 新增網頁組件屬性](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "91135882"
 > [!IMPORTANT]
 > 請務必檢閱可以看到 Power BI 服務內報表的成員，並將存取權授與未列出的成員。
 
-有兩種方式可提供 Power BI 的報表存取權。 如果使用 Microsoft 365 群組來建置 SharePoint Online 小組網站，第一種方式是將使用者列為 **Power BI 服務內工作區**及 **SharePoint 頁面**的成員。 如需詳細資訊，請參閱如何[管理工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
+有兩種方式可提供 Power BI 的報表存取權。 如果使用 Microsoft 365 群組來建置 SharePoint Online 小組網站，第一種方式是將使用者列為 **Power BI 服務內工作區** 及 **SharePoint 頁面** 的成員。 如需詳細資訊，請參閱如何[管理工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 第二種方式是在應用程式中內嵌報表，並將其直接與使用者共用：  
 

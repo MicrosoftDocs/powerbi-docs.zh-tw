@@ -2,20 +2,20 @@
 title: 管理您工作區中的資料儲存體
 description: 了解如何管理個人或工作區中的資料儲存空間，以確保您可以繼續發佈報表和資料集。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 07/27/2020
-ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: eb59359497dec351c960ce0c6a3ce11b4f6eab0d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf9cc65cc5dc18d72ced490b18683a6a1af32ff
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252099"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408703"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作區中的資料儲存體
 

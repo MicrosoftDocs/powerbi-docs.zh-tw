@@ -2,19 +2,19 @@
 title: Power BI 的高可用性、容錯移轉和災害復原常見問題集
 description: 了解 Power BI 服務如何為其使用者提供高可用性，以及提供商務持續性和災害復原。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: ff41f702edc605ee346aa10a759e633377597504
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374215"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408956"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 

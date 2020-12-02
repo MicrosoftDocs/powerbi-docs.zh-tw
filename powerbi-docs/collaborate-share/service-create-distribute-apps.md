@@ -2,22 +2,22 @@
 title: 使用 Power BI 發佈應用程式
 description: 了解如何發佈新的應用程式，亦即儀表板與內建瀏覽功能的報表集合。
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 09ac807b6823c8d9e8c0b44ad941365eb3ffb766
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: f15508f030a1fa2ee0112134faf71e94e752984c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526436"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407691"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
-在 Power BI 中，您可以建立正式封裝的內容，然後將它以*應用程式*的形態散發給廣大群眾。 您可以在 [工作區] 中建立應用程式，且在該處與您的同事在 Power BI 內容上共同作業。 然後，您可以將已完成的應用程式發佈到組織中的大型人員群組。 
+在 Power BI 中，您可以建立正式封裝的內容，然後將它以 *應用程式* 的形態散發給廣大群眾。 您可以在 [工作區] 中建立應用程式，且在該處與您的同事在 Power BI 內容上共同作業。 然後，您可以將已完成的應用程式發佈到組織中的大型人員群組。 
 
 ![Power BI 應用程式](media/service-create-distribute-apps/power-bi-new-apps.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "91526436"
 ## <a name="publish-your-app"></a>發佈您的應用程式
 當工作區中的儀表板和報表就緒時，您可以選擇想要發佈的儀表板和報表，然後將它們發佈為應用程式。 
 
-1. 在 [工作區] 清單檢視中，決定您想要**包含在應用程式中**的儀表板和報表。
+1. 在 [工作區] 清單檢視中，決定您想要 **包含在應用程式中** 的儀表板和報表。
 
     ![選取要發佈的儀表板](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
@@ -116,10 +116,10 @@ ms.locfileid: "91526436"
 * 使用向上/向下鍵重新排列項目。 
 * 重新命名 [報告詳細資料]、[儀表板詳細資料] 和 [活頁簿詳細資料] 中的項目。
 * 隱藏瀏覽中的特定項目。
-* 使用 [新增] 選項將**各節**新增至群組相關內容。
+* 使用 [新增] 選項將 **各節** 新增至群組相關內容。
 * 使用 [新增] 選項將「連結」新增至導覽窗格的外部資源。 
 
-當您新增**連結**時，您可在 [連結詳細資料] 中選擇在何處開啟該連結。 根據預設，連結會在 [目前索引標籤] 中開啟，但您可以選取 [新索引標籤] 或 [內容區域]。 
+當您新增 **連結** 時，您可在 [連結詳細資料] 中選擇在何處開啟該連結。 根據預設，連結會在 [目前索引標籤] 中開啟，但您可以選取 [新索引標籤] 或 [內容區域]。 
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>使用 [新瀏覽產生器] 選項的考量
 使用 [新瀏覽產生器] 時，請牢記以下一般事項：
@@ -142,7 +142,7 @@ ms.locfileid: "91526436"
 如果管理員授與您權限，您可以自動安裝應用程式，將它們「推播」給終端使用者。 這項推播功能，可讓您更容易向適當的人員或群組散發正確應用程式。 應用程式會自動出現在您終端使用者的應用程式內容清單中。 他們不必從 Microsoft AppSource 中尋找，或追蹤安裝連結。 請參閱 Power BI 管理入口網站文章，了解管理員如何[向終端使用者推播應用程式](../admin/service-admin-portal.md#push-apps-to-end-users)。
 
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>如何向使用者自動推播應用程式
-系統管理員為您指派權限之後，您有新的選項用來**自動安裝應用程式**。 當您核取此方塊並選取 [發佈應用程式] (或 [更新應用程式]) 後，就會將應用程式推播至在 [存取] 索引標籤之應用程式 [權限] 區段中定義的所有使用者或羣組。
+系統管理員為您指派權限之後，您有新的選項用來 **自動安裝應用程式**。 當您核取此方塊並選取 [發佈應用程式] (或 [更新應用程式]) 後，就會將應用程式推播至在 [存取] 索引標籤之應用程式 [權限] 區段中定義的所有使用者或羣組。
 
 ![顯示 Power BI [發佈應用程式] 選項的螢幕擷取畫面，其中已選取 [自動安裝應用程式]。](media/service-create-distribute-apps//power-bi-apps-access.png)
 

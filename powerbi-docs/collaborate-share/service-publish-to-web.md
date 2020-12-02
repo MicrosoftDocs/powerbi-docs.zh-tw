@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/02/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7980057ae35637f06aeec3d241b074fcc41564b7
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297644"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406771"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -30,7 +30,7 @@ ms.locfileid: "93297644"
 
 您可以在個人和群組工作區中可編輯的報表使用 [發佈至 Web] 功能。  此功能不適用於與您共用的報表，也不適用於依賴資料列層級安全性保護資料的報表。 請參閱下面的 [**限制**](#limitations)一節以取得不支援 [發佈至 Web] 的完整案例清單。 使用 [發佈至 Wb] 之前，請先檢閱本文中稍早的＜警告＞。
 
-下列步驟說明如何使用 [ **發佈至網路** ]。
+下列步驟說明如何使用 [ **發佈至網路**]。
 
 1. 在工作區中開啟您可以編輯的報表，依序選取 [更多選項 (...)]  > [內嵌] > [發佈到 Web (公開)]。
 
@@ -71,7 +71,7 @@ ms.locfileid: "93297644"
 
 | 檢視模式 | 內嵌時的外觀 |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |[符合一頁大小] 會遵循報表頁面的高度與寬度。 如果頁面設定為 16:9 或 4:3 之類的「動態」外觀比例，您的內容就會調整成適合 iFrame 大小。 當內嵌在 iFrame 中時，使用 [調整成一頁] 會造成 *letterboxing* ：當內容調整成符合 iFrame 大小後，iFrame 區域會出現灰色背景。 若要將上下黑邊縮到最小，請適當地設定 iFrame 的高度與寬度。 |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |[符合一頁大小] 會遵循報表頁面的高度與寬度。 如果頁面設定為 16:9 或 4:3 之類的「動態」外觀比例，您的內容就會調整成適合 iFrame 大小。 當內嵌在 iFrame 中時，使用 [調整成一頁] 會造成 *letterboxing*：當內容調整成符合 iFrame 大小後，iFrame 區域會出現灰色背景。 若要將上下黑邊縮到最小，請適當地設定 iFrame 的高度與寬度。 |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |[實際大小] 可確保報表維持您在報表頁面上設定的大小。 這會導致 iFrame 中出現捲軸。 設定 iFrame 的高度和寬度以避免出現捲軸。 |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |[符合寬度] 可確保內容能填滿 iFrame 的水平區域。 框線仍會顯示，但是內容會調整為使用所有的可用水平空間。 |
 
@@ -158,7 +158,7 @@ ms.locfileid: "93297644"
 
 ## <a name="licensing"></a>授權
 
-您必須是 Microsoft Power BI 使用者才能使用 [ **發佈至網路** ]。 您的報表檢視者不需要是 Power BI 使用者。
+您必須是 Microsoft Power BI 使用者才能使用 [ **發佈至網路**]。 您的報表檢視者不需要是 Power BI 使用者。
 
 <a name="howitworks"></a>
 ## <a name="how-it-works-technical-details"></a>運作方式 (技術性詳細資料)

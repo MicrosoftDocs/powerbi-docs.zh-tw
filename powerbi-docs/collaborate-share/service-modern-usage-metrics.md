@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c4f9d83d612d8f8d442fc5267be66a2a5cf288a2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: c5690492d3a54ae244e0104d0134414f1b6d9c96
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116607"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407323"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>在新的工作區體驗中監視使用計量 (預覽)
 
@@ -371,7 +371,7 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供和 Po
 
     ![試用 REST API](media/service-modern-usage-metrics/power-bi-rest-api-try-it.png)
 
-1. 在 [執行] 按鈕下，確認服務傳回回應碼 **200** 。 該代碼表示已成功刪除資料集及其相關聯的使用計量報表。
+1. 在 [執行] 按鈕下，確認服務傳回回應碼 **200**。 該代碼表示已成功刪除資料集及其相關聯的使用計量報表。
 
     ![回應碼 200](media/service-modern-usage-metrics/power-bi-response-code-200.png)
 

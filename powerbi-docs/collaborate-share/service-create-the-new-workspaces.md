@@ -2,20 +2,20 @@
 title: 建立新工作區 - Power BI
 description: 了解如何建立新工作區：儀表板集合、報表與編頁報表，這些是為了傳遞重要計量給組織而建置。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/04/2020
-ms.author: maggies
 ms.custom: contperfq1, contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: c75d4d911bb53ef0f9804996bbc1d78db3f787f5
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 41f58d6561b76aa747f521b98477af3bc8492a8f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89511937"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407507"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中建立新工作區
 
@@ -32,7 +32,7 @@ ms.locfileid: "89511937"
    
      ![建立工作區的螢幕擷取畫面。](media/service-create-the-new-workspaces/power-bi-workspace-create.png)
 
-2. 您會自動建立已升級的工作區，除非您選擇**還原至典型**。
+2. 您會自動建立已升級的工作區，除非您選擇 **還原至典型**。
    
      ![新工作區體驗的螢幕擷取畫面。](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
@@ -44,11 +44,11 @@ ms.locfileid: "89511937"
    
 1. 以下是您可以為工作區設定的一些選擇性項目：
 
-    - 上傳**工作區影像**。 檔案可為 .png 或 .jpg 格式。 檔案大小必須小於 45 KB。 
+    - 上傳 **工作區影像**。 檔案可為 .png 或 .jpg 格式。 檔案大小必須小於 45 KB。 
     - [指定工作區 OneDrive](#set-a-workspace-onedrive) 以使用 Microsoft 365 群組檔案儲存位置。    
     - [新增連絡人清單](#create-a-contact-list)。 根據預設，工作區系統管理員是連絡人。 
     - [允許參與者更新工作區的應用程式](#allow-contributors-to-update-the-app)
-    - 若要將工作區指定為**專用容量**，請在 [Premium] 索引標籤上，選取 [專用容量]。
+    - 若要將工作區指定為 **專用容量**，請在 [Premium] 索引標籤上，選取 [專用容量]。
 
         ![專用容量的螢幕擷取畫面。](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
 

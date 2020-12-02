@@ -2,20 +2,20 @@
 title: 適用於美國政府客戶的 Power BI - 概觀
 description: 美國政府客戶可以將 Power BI Pro 訂用帳戶新增至其 Microsoft 365 政府方案。 了解如何在此服務描述中註冊、連線及檢閱功能可用性。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/17/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 8fa83bfc0dc19e4c60094b0ee3c26eb8f7bab12d
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: e8cf03d90165463fd1e59bf4c4394c1da94e995e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718883"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407852"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
