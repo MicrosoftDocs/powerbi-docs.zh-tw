@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 08/04/2020
 ms.openlocfilehash: 97b93f23c8070af1b514032cea122b257097d664
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297938"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120637"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 報表產生器中的報表資料
 
@@ -34,7 +34,7 @@ ms.locfileid: "93297938"
     > [!NOTE]
     > 資料來源連接字串不能以運算式為基礎。
   
-- **內嵌資料來源。** 也稱為 *「報表特定資料來源」* (report-specific data source)。 在報表中定義而且僅供該報表使用的資料來源。  
+- **內嵌資料來源。** 也稱為 *「報表特定資料來源」*(report-specific data source)。 在報表中定義而且僅供該報表使用的資料來源。  
   
 - **認證。** 認證是驗證資訊，您必須提供這項資訊才能存取外部資料。  
   

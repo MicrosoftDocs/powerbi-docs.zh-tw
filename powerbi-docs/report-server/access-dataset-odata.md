@@ -2,18 +2,18 @@
 title: 在 Power BI 報表伺服器中存取共用資料集作為 OData 摘要
 description: Power BI 報表可以連線到不同的資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/05/2018
-ms.author: maggies
-ms.openlocfilehash: ff4e8f35cdc4c65b749d13a492f2e86ce7d71576
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8db19a56d4d1b845f0caf54ba4e9b07c33dfb131
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239493"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387359"
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>在 Power BI 報表伺服器中存取共用資料集作為 OData 摘要
 您可以從 Power BI Desktop 使用 OData 摘要存取共用資料集。

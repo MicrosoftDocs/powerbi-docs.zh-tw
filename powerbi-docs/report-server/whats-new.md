@@ -9,11 +9,11 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/30/2020
 ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132405"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120753"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -352,11 +352,11 @@ Power BI 報表伺服器現在支援 Power BI 報表伺服器目錄資料庫 (En
 
 Power BI 報表伺服器的 2019 年 9 月更新包含了許多 Power BI 報表功能。 以下是一些重點：
 
-- **交叉分析篩選器的視覺效果層級篩選** ：您可以將視覺效果層級篩選新增至交叉分析篩選器。 它的運作方式就像任何其他視覺效果層級的篩選一樣，但只是篩選交叉分析篩選器本身，而不是其他視覺效果。 這項篩選對於篩選出空白，或您要使用量值篩選時很有用。
+- **交叉分析篩選器的視覺效果層級篩選**：您可以將視覺效果層級篩選新增至交叉分析篩選器。 它的運作方式就像任何其他視覺效果層級的篩選一樣，但只是篩選交叉分析篩選器本身，而不是其他視覺效果。 這項篩選對於篩選出空白，或您要使用量值篩選時很有用。
 - **資料表和矩陣的圖示集** 使用 KPI 圖示，您可以設定規則，以在資料表和矩陣中顯示不同的圖示集，類似於 Excel 中的圖示集。
 - **群組視覺效果** 現在，您可以在報表頁面上將視覺效果、圖形、文字方塊、影像及按鈕群組在一起，就像在 PowerPoint 中一樣。 當您將物件群組在一起時，可以一起移動這些物件並調整其大小。 群組可讓您更輕鬆地在每個頁面上有許多物件的報表中工作。
 - **新的預設佈景主題** 為了與新的佈景主題 JSON 選項一起使用，我們正在更新可用於報表的佈景主題，以及變更新報表的預設佈景主題。 新預設佈景主題會更妥善地配合 Microsoft 的設計語言，並遵循視覺效果的最佳設計做法。 
-- **更新的窗格設計** ：我們重新整理了大部分的介面。 我們已將所有窗格、頁尾和檢視切換器更新為較淺的色彩、已更新間距，並引進了新的圖示。 新設計是重新整理整個介面的第一個步驟。
+- **更新的窗格設計**：我們重新整理了大部分的介面。 我們已將所有窗格、頁尾和檢視切換器更新為較淺的色彩、已更新間距，並引進了新的圖示。 新設計是重新整理整個介面的第一個步驟。
 
 以下是完整的功能清單。 
 
@@ -473,7 +473,7 @@ Power BI 報表是互動式報表。 很明顯，報表中的標題會是動態�
 
 #### <a name="improved-security-features"></a>改善的安全性功能
 
-**RestrictedResourceMimeTypeForUpload** ，系統管理員可用來指定以逗號分隔的禁用 mime 類型清單，例如 text/html。
+**RestrictedResourceMimeTypeForUpload**，系統管理員可用來指定以逗號分隔的禁用 mime 類型清單，例如 text/html。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -487,7 +487,7 @@ Power BI 報表中支援下列功能：
 
 [**智慧對齊輔助線**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides)：當您在報表頁面上移動物件時，會看到智慧對齊輔助線 (如同您在 PowerPoint 中看到的一樣)，可協助您對齊頁面上的所有物件。 當您在頁面上拖曳物件或調整其大小時，都會看到智慧輔助線。 當您將某物件移近另一個物件時，它會貼齊該物件。
 
-**協助工具功能** ：要列出的協助工具功能非常多，例如 [欄位清單窗格協助工具支援](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 欄位清單窗格完全可供存取。 您只需要使用鍵盤和螢幕助讀程式即可瀏覽窗格，並可使用操作功能表將欄位新增到報表頁面。
+**協助工具功能**：要列出的協助工具功能非常多，例如 [欄位清單窗格協助工具支援](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 欄位清單窗格完全可供存取。 您只需要使用鍵盤和螢幕助讀程式即可瀏覽窗格，並可使用操作功能表將欄位新增到報表頁面。
 
 #### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
@@ -497,9 +497,9 @@ Power BI 報表中支援下列功能：
 
 系統管理員可以在伺服器陣列的 SSMS 進階屬性中設定下列屬性：
 
-**AllowedResourceExtensionsForUpload** ：設定可上傳到報表伺服器之資源的延伸模組。 內建檔案類型 (像是 &ast;.rdl 和 &ast;.pbix) 的延伸模組不需要包含在內。 預設為「&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx」。 
+**AllowedResourceExtensionsForUpload**：設定可上傳到報表伺服器之資源的延伸模組。 內建檔案類型 (像是 &ast;.rdl 和 &ast;.pbix) 的延伸模組不需要包含在內。 預設為「&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx」。 
 
-**SupportedHyperlinkSchemes** ：設定允許對可轉譯超連結動作定義的 URI 配置逗點分隔清單，或設定 "&ast;" 啟用所有超連結配置。 例如，設定 "http, https" 會允許 "https://www.contoso.com" 的超連結， 但是會移除 “mailto:bill@contoso.com” 或 “javascript:window.open(‘ www.contoso.com’, ‘_blank’)” 的超連結。 預設為 "&ast;"。
+**SupportedHyperlinkSchemes**：設定允許對可轉譯超連結動作定義的 URI 配置逗點分隔清單，或設定 "&ast;" 啟用所有超連結配置。 例如，設定 "http, https" 會允許 "https://www.contoso.com" 的超連結， 但是會移除 “mailto:bill@contoso.com” 或 “javascript:window.open(‘ www.contoso.com’, ‘_blank’)” 的超連結。 預設為 "&ast;"。
 
 ## <a name="august-2018"></a>2018 年 8 月
 
@@ -694,7 +694,7 @@ SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正�
 
 #### <a name="export-to-accessible-pdf"></a>匯出至可存取的 PDF
 
-當您將編頁報表 (RDL) 匯出至 PDF 時，您現在可以取得可存取/標記的 PDF 檔案。 雖然其大小更大，但更方便螢幕助讀程式和其他輔助技術讀取和巡覽。 您可以將 **AccessiblePDF** 裝置資訊設定設為 **True** ，來啟用可存取的 PDF。 請參閱 [PDF 裝置資訊設定](/sql/reporting-services/pdf-device-information-settings)和[變更裝置資訊設定](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
+當您將編頁報表 (RDL) 匯出至 PDF 時，您現在可以取得可存取/標記的 PDF 檔案。 雖然其大小更大，但更方便螢幕助讀程式和其他輔助技術讀取和巡覽。 您可以將 **AccessiblePDF** 裝置資訊設定設為 **True**，來啟用可存取的 PDF。 請參閱 [PDF 裝置資訊設定](/sql/reporting-services/pdf-device-information-settings)和[變更裝置資訊設定](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
 
 ### <a name="other-improvements"></a>其他功能改進
 
@@ -715,7 +715,7 @@ Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源�
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>編輯來自伺服器的 Power BI 報表
 
-您可以從伺服器開啟和編輯 Power BI 報表 (.pbix) 檔案，但是您會回到您上傳的原始檔案。 **如果資料已由伺服器重新整理，當您第一次開啟檔案時，不會重新整理資料** 。 您必須手動在本機重新整理，才能看到變更。
+您可以從伺服器開啟和編輯 Power BI 報表 (.pbix) 檔案，但是您會回到您上傳的原始檔案。 **如果資料已由伺服器重新整理，當您第一次開啟檔案時，不會重新整理資料**。 您必須手動在本機重新整理，才能看到變更。
 
 ### <a name="large-file-uploaddownload"></a>大型檔案上傳/下載
 

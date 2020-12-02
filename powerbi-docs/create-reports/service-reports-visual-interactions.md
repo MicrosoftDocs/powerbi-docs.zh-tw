@@ -1,21 +1,21 @@
 ---
 title: 變更報表中的視覺效果互動方式
 description: 說明如何設定 Microsoft Power BI 服務報表和 Power BI Desktop 報表中的視覺效果互動。
-author: mihart
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 02/04/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3646518cdf9575d73ccfc39a859b9c7211db8678
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0070e8e997178a07c93bef4b80403f55aff9ae1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218669"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387612"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>變更 Power BI 報表中的視覺效果互動方式
 如果您有報表的編輯權限，可以使用 [視覺效果互動]  變更報表頁面上視覺效果相互影響的方式。 
@@ -25,7 +25,7 @@ ms.locfileid: "85218669"
 例如，選取地圖視覺效果的狀態，會醒目提示直條圖，並將折線圖篩選為只顯示適用於該狀態的資料。
 請參閱[關於篩選及醒目提示](power-bi-reports-filters-and-highlighting.md)。 而如果您有支援[切入](../consumer/end-user-drill.md)的視覺效果，根據預設，切入某個視覺效果不會影響報表頁面上的其他視覺效果。 但您可依每個視覺效果覆寫這兩種預設行為，及設定其互動。
 
-本文會示範如何在 Power BI Desktop 中使用**視覺效果互動**。 此程序在 Power BI 服務[編輯檢視](service-interact-with-a-report-in-editing-view.md)中是相同的。 如果您僅具有 [閱讀] 檢視存取權，或者已與您共用報表，您就不能變更視覺效果互動設定。
+本文會示範如何在 Power BI Desktop 中使用 **視覺效果互動**。 此程序在 Power BI 服務[編輯檢視](service-interact-with-a-report-in-editing-view.md)中是相同的。 如果您僅具有 [閱讀] 檢視存取權，或者已與您共用報表，您就不能變更視覺效果互動設定。
 
 「交叉篩選」  與「交叉醒目提示」  這兩個詞彙用於區分本文所述，當您使用 [篩選]  窗格來篩選  視覺效果及將其醒目提示  時的這兩項行為。  
 
@@ -61,13 +61,13 @@ ms.locfileid: "85218669"
 藉由在報表頁面上一次選取一個視覺效果，熟悉視覺效果的互動方式。  選取資料點或橫條圖或圖形，並監看對其他視覺效果的影響。 如果您所看到的行為不是您想要的，您可以變更互動。 這些變更會與報表一起儲存，因此您和您的報表取用者將會有相同的視覺效果互動體驗。
 
 
-一開始請選取視覺效果來加以啟用。  請注意，頁面上所有其他視覺效果現在都會顯示互動圖示。 粗體圖示是要套用的項目。 接下來，請決定**所選視覺效果**會對其他視覺效果產生什麼影響。  並也對報表頁面上所有其他視覺效果重複執行動作 (選用)。
+一開始請選取視覺效果來加以啟用。  請注意，頁面上所有其他視覺效果現在都會顯示互動圖示。 粗體圖示是要套用的項目。 接下來，請決定 **所選視覺效果** 會對其他視覺效果產生什麼影響。  並也對報表頁面上所有其他視覺效果重複執行動作 (選用)。
 
 如果選取的視覺效果應該要：
    
-   * 交叉篩選頁面上的其中一個其他視覺效果，請選取該視覺效果右上角的**篩選**圖示 ![篩選圖示](media/service-reports-visual-interactions/power-bi-filter-icon.png)。
-   * 交叉醒目提示頁面上的其中一個其他視覺效果，請選取**醒目提示**圖示 ![醒目提示圖示](media/service-reports-visual-interactions/power-bi-highlight-icon.png)。
-   * 不影響頁面上的其中一個其他視覺效果，請選取**沒有影響**圖示 ![沒有影響圖示](media/service-reports-visual-interactions/power-bi-no-impact.png)。
+   * 交叉篩選頁面上的其中一個其他視覺效果，請選取該視覺效果右上角的 **篩選** 圖示 ![篩選圖示](media/service-reports-visual-interactions/power-bi-filter-icon.png)。
+   * 交叉醒目提示頁面上的其中一個其他視覺效果，請選取 **醒目提示** 圖示 ![醒目提示圖示](media/service-reports-visual-interactions/power-bi-highlight-icon.png)。
+   * 不影響頁面上的其中一個其他視覺效果，請選取 **沒有影響** 圖示 ![沒有影響圖示](media/service-reports-visual-interactions/power-bi-no-impact.png)。
 
 ## <a name="change-the-interactions-of-drillable-visualizations"></a>變更可切入視覺效果的互動
 [某些 Power BI 視覺效果可以切入](../consumer/end-user-drill.md)。 根據預設，當您切入視覺效果時，不會影響報表頁面上的其他視覺效果。 但是，您可以變更該行為。 

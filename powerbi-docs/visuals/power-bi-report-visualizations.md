@@ -1,21 +1,21 @@
 ---
 title: Power BI 服務和 Desktop 中的報表視覺效果概觀
 description: Microsoft Power BI 中的報表視覺效果概觀。
-author: msftrien
-ms.author: rien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be7249411f4e90d99dde38a1da3b6a6656674ea0
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: b6b4ebb7d07ec73f8b2c51b7b2fabb75b197d91f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411329"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387428"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 報表的視覺效果
 
@@ -23,7 +23,7 @@ ms.locfileid: "93411329"
 
 視覺效果會顯示在資料中探索到的見解。 Power BI 報表可能需要有一個視覺效果的單一頁面，或是它可能會有充滿視覺效果的頁面。 在 Power BI 服務中，視覺效果可以[從報表釘選至儀表板](../create-reports/service-dashboard-pin-tile-from-report.md)。
 
-請務必區隔報表「設計師」和報表「取用者」。  如果您是建置或修改報表的人，您就是設計師。  設計師具有報表及其基礎資料集的編輯權限。 在 Power BI Desktop 中，這表示您可以在資料檢視中開啟資料集，並在報表檢視建立視覺效果。 在 Power BI 服務中，這表示您可以用[編輯檢視](../consumer/end-user-reading-view.md)在報表編輯器中開啟資料集或報表。 如果報表或儀表板已 [與您共用](../consumer/end-user-shared-with-me.md)，您就是報表 *取用者* 。 您可以檢視報表及其視覺效果並與其互動，但無法與「設計工具」一樣進行許多變更。
+請務必區隔報表「設計師」和報表「取用者」。  如果您是建置或修改報表的人，您就是設計師。  設計師具有報表及其基礎資料集的編輯權限。 在 Power BI Desktop 中，這表示您可以在資料檢視中開啟資料集，並在報表檢視建立視覺效果。 在 Power BI 服務中，這表示您可以用[編輯檢視](../consumer/end-user-reading-view.md)在報表編輯器中開啟資料集或報表。 如果報表或儀表板已 [與您共用](../consumer/end-user-shared-with-me.md)，您就是報表 *取用者*。 您可以檢視報表及其視覺效果並與其互動，但無法與「設計工具」一樣進行許多變更。
 
 有許多不同的視覺效果類型可以直接從 Power BI 的 [視覺效果] 窗格使用。
 

@@ -1,18 +1,19 @@
 ---
 title: 適用於 Power BI 的 Azure 安全性基準
 description: Power BI 的安全性基準提供程式指引和資源，可用來實作 Azure 安全性效能評定中所指定的安全性建議。
-author: msmbaldwin
-ms.service: security
+author: mbaldwin
+ms.author: margoc
+ms.service: powerbi
+ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
-ms.author: mbaldwin
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: b0eb2906463efa95615fa76f3f7dda2a91ef126a
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 9e7aefba7a2e47fbf5249feaab3ac56057ac867c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550346"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386255"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>適用於 Power BI 的 Azure 安全性基準
 

@@ -2,20 +2,20 @@
 title: 在 Power BI 服務中設定資料警示
 description: 了解如何在 Microsoft Power BI 服務中設定儀表板，以在資料變更超出您所設定的限制時通知您。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/02/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: cce9e351d468289b37f000159f846a5b2942b36a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635071"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387727"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服務中的資料警示
 
@@ -52,7 +52,7 @@ ms.locfileid: "91635071"
 
    ![在 [管理警示] 視窗中設定 [臨界值]](media/service-set-data-alerts/power-bi-set-alert-details.png)
 
-    警示會出現在您的**通知中心**內。 如果您選取此核取方塊，Power BI 也會傳送警示的相關電子郵件給您。
+    警示會出現在您的 **通知中心** 內。 如果您選取此核取方塊，Power BI 也會傳送警示的相關電子郵件給您。
 
 1. 選取 [儲存並關閉]  。
 
@@ -60,17 +60,17 @@ ms.locfileid: "91635071"
 
 當追蹤的資料達到您所設定其中一個閾值時，會出現一些連鎖反應。 首先，Power BI 會檢查自上次警示起，是否已超過 1 小時或 24 小時 (取決於您選取的選項)。 如果資料超過閾值，您將會收到警示。
 
-接下來，Power BI 會傳送警示到您的**通知中心**，並選擇性寄送電子郵件。 每個警示都包含資料的直接連結。 選取連結可以查看相關的磚，您可以在其中探索、共用以及深入了解。  
+接下來，Power BI 會傳送警示到您的 **通知中心**，並選擇性寄送電子郵件。 每個警示都包含資料的直接連結。 選取連結可以查看相關的磚，您可以在其中探索、共用以及深入了解。  
 
 * 您如有設定傳送電子郵件警示，將會在收件匣中看到類似如下所述的狀況。
 
    ![警示電子郵件](media/service-set-data-alerts/powerbi-alerts-email.png)
 
-* Power BI 會在您的**通知中心**新增一則訊息，並將新的警示圖示加入適用的磚 。
+* Power BI 會在您的 **通知中心** 新增一則訊息，並將新的警示圖示加入適用的磚 。
 
    ![Power BI 服務中的通知圖示](media/service-set-data-alerts/powerbi-alert-notifications.png)
 
-* 您的**通知中心**會顯示警示詳細資料。
+* 您的 **通知中心** 會顯示警示詳細資料。
 
     ![讀取警示](media/service-set-data-alerts/powerbi-alert-notification.png)
 

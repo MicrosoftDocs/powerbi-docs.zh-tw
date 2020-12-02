@@ -2,19 +2,19 @@
 title: 了解 Power BI Desktop 隱私權等級
 description: Power BI Desktop 隱私權等級
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-admin
 ms.topic: reference
 ms.date: 09/09/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 7dc5554844bafac1f8877ef7e2e8627d8078e981
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86033776"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386803"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隱私權等級
 在 **Power BI Desktop** 中，隱私權等級會指定某個資料來源與其他資料來源隔離程度的隔離等級。 雖然嚴格的隔離等級能夠阻擋資料來源交換資訊，卻可能會降低功能並影響效能。
@@ -30,7 +30,7 @@ ms.locfileid: "86033776"
 | --- | --- | --- |
 | **私人資料來源** |[私人]  資料來源包含敏感或機密資訊，而且可以限制只有授權的使用者才能看到資料來源。 私人資料來源與其他資料來源完全隔離。 |Facebook 資料、包含股票獎酬的文字檔案或包含員工績效考核資訊的活頁簿。 |
 | **組織資料來源** |[組織]  資料來源限制只有受信任的一群人才能看到資料來源。 [組織]  資料來源與所有 [公用]  資料來源相隔離，但與其他 [組織]  資料來源可彼此互見。 |內部網路 SharePoint 網站上啟用了信任群組權限的 **Microsoft Word** 文件。 |
-| **公用資料來源** |[公用]  資料來源允許所有人看到資料來源中所包含的資料。 只有檔案、網際網路資料來源或活頁簿資料可以標示為**公用**。 |Microsoft Azure Marketplace 的可用資料、維基百科頁面的可用資料，或包含從公開網頁複製之資料的本機檔案。 |
+| **公用資料來源** |[公用]  資料來源允許所有人看到資料來源中所包含的資料。 只有檔案、網際網路資料來源或活頁簿資料可以標示為 **公用**。 |Microsoft Azure Marketplace 的可用資料、維基百科頁面的可用資料，或包含從公開網頁複製之資料的本機檔案。 |
 
 ## <a name="configure-privacy-level-settings"></a>設定隱私權等級設定
 每個資料來源的 [隱私權] 設定對話方塊皆位於 [檔案] > [選項及設定] > [資料來源設定] 中。

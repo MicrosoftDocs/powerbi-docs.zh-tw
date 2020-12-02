@@ -2,19 +2,19 @@
 title: 在 Power BI 報表中將標籤的使用最佳化
 description: 在 Power BI Desktop 或 Power BI 服務中，於 Power BI 報表視覺效果中將標籤的使用最佳化的四個提示。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: ywx5xUN5VQM
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 4cec50eb39c4ccef793e215766069558debd15c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 13678d2163096413c1571f85690e58e8ace1cc20
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272725"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96385895"
 ---
 # <a name="tips-to-optimize-the-use-of-labels-in-power-bi-reports"></a>在 Power BI 報表中將標籤的使用最佳化的提示
 

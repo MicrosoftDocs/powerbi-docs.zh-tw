@@ -1,20 +1,20 @@
 ---
 title: 分解樹狀結構
 description: 教學課程：在 Power BI 中建立分解樹狀結構視覺效果
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a8bc86217dac8f0c2b70e300f08b1667ee63568
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: fd4f984be74c0408eae5c476fa30994de55961a0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413077"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386358"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>在 Power BI 中建立和檢視分解樹狀結構視覺效果
 
@@ -43,8 +43,8 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 視覺效果需要兩種類型的輸入：
 
- - **分析** ：您想要分析的計量。 這必須是量值或彙總。  
- - **說明依據** ：您想要向下切入到其中的一或多個維度。
+ - **分析**：您想要分析的計量。 這必須是量值或彙總。  
+ - **說明依據**：您想要向下切入到其中的一或多個維度。
 
 一旦您將量值成功拖曳到欄位之後，視覺效果就會更新以展示彙總的量值。 在下列範例中，我們會將缺貨產品的平均百分比 (5.07%) 視覺化。
 
@@ -78,8 +78,8 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 根據您的喜好設定而定，分析可以兩種方式進行。 以下為預設行為：
 
- - **最高值** ：考慮所有可用欄位，並決定要向內切入到其中以取得要分析之量值的最高值。  
- - **最低值** ：考慮所有可用欄位，並決定要向內切入到其中以取得要分析之量值的最低值。  
+ - **最高值**：考慮所有可用欄位，並決定要向內切入到其中以取得要分析之量值的最高值。  
+ - **最低值**：考慮所有可用欄位，並決定要向內切入到其中以取得要分析之量值的最低值。  
 
 在延期交貨範例中選取 [最高值]，會產生下列結果：
 
@@ -95,11 +95,11 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 ![分解樹狀結構絕對分割](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
-在上述螢幕擷取畫面中，我們正在查看視訊遊戲的北美洲銷售量。 我們先依 **發行者名稱** 分割樹狀結構，然後向下切入到 Nintendo。 選取 [最高值] 即會展開 **平台為 Nintendo** 。 因為 Nintendo (發行者) 僅針對 Nintendo 主控台進行開發，所以僅存在一個值，因此，該值毫無疑問是最高值。
+在上述螢幕擷取畫面中，我們正在查看視訊遊戲的北美洲銷售量。 我們先依 **發行者名稱** 分割樹狀結構，然後向下切入到 Nintendo。 選取 [最高值] 即會展開 **平台為 Nintendo**。 因為 Nintendo (發行者) 僅針對 Nintendo 主控台進行開發，所以僅存在一個值，因此，該值毫無疑問是最高值。
 
 儘管如此，比較有趣的分割是查看哪一個高值相對於相同資料行中的其他值而言特別突出。 如果我們將分析類型從 [絕對] 變更為 [相對]，則會針對 Nintendo 取得下列結果：![分解樹狀結構相對分割](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
 
-這次，建議的值是 **遊戲類型中的平台** 。  平台不會產生比 Nintendo 還高的絕對值 ($19,950,000 與 $46,950,000)。 不過，這是一個特別突出的值。
+這次，建議的值是 **遊戲類型中的平台**。  平台不會產生比 Nintendo 還高的絕對值 ($19,950,000 與 $46,950,000)。 不過，這是一個特別突出的值。
 
 更精確地說，由於有 10 個遊戲類型值，因此，如果要平均分割這些值，平台的預期值是 $460 萬。 因為平台有個接近 $2000 萬的值，所以這是一個有趣的結果，因為它比預期結果高出四倍。
 
@@ -133,7 +133,7 @@ Nintendo 的北美洲銷售量/Abs(Avg(平台的北美洲銷售量))
 
 ![螢幕擷取畫面顯示已選取所有月份的根本原因分析。](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
-但是，如果我們在橫條圖中選取 [四月]，則最高值會變更為 **產品類型是先進的外科** 。 在此案例中，不僅已將節點重新排序，還選擇了完全不同的資料行。 
+但是，如果我們在橫條圖中選取 [四月]，則最高值會變更為 **產品類型是先進的外科**。 在此案例中，不僅已將節點重新排序，還選擇了完全不同的資料行。 
 
 ![螢幕擷取畫面顯示只選取四月的根本原因分析。](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 

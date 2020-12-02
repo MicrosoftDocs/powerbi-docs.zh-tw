@@ -2,18 +2,18 @@
 title: Power BI Desktop 中的 DirectQuery 模型指南
 description: 開發 DirectQuery 模型的指導。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 10/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: d32d931a2778cc1041da327eee323c8b44914f0f
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 2f6ae0508ca7d1c1e22f7437ffab11590c365a41
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965313"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387382"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指南
 
@@ -77,7 +77,7 @@ DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符�
     本指導有一項例外，與使用 [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 函式有關。 此函式的目的是支援多資料行模型關聯性。 這個函式會產生多資料行 SQL 聯結述詞，而非產生關聯性使用的運算式。
 - **避免在「唯一識別碼」資料行上包含關聯性：** Power BI 並不原生支援唯一識別碼 (GUID) 資料類型。 在此類型的資料行間定義關聯性時，Power BI 將會使用涉及轉換的聯結來產生來源查詢。 此查詢時間資料轉換經常導致效能不佳。 在此案例經過最佳化之前，唯一因應措施是將資料行具體化為基礎資料庫中的替代資料類型。
 - **隱藏關聯性的單側資料行：** 關聯性的單側資料行應進行隱藏。 (這通常是維度類型資料表的主索引鍵資料行。)隱藏時，即無法在 [欄位] 窗格中使用，因此無法用來設定視覺效果。 若可以使用多側資料行來根據資料行的值分組或篩選報表，即可以將多側資料行維持在可見狀態。 例如，考慮在 **Sales** 和 **Product** 資料表間存在關聯性的模型。 關聯性資料行包含產品的 SKU (庫存單位) 值。 若必須將產品的 SKU 新增至視覺效果，該 SKU 便應只在 **Sales** 資料表中可見。 當使用此資料行來篩選或在視覺效果中進行分組時，Power BI 將會產生不需要將 **Sales** 和 **Product** 資料表進行聯結的查詢。
-- **設定關聯性來強制實行完整性：** DirectQuery 關聯性的**假設參考完整性**屬性會決定 Power BI 是否將會使用內部聯結，而非外部聯結來產生來源查詢。 這通常可以改善查詢效能，不過其確實取決於關聯式資料庫來源的詳細規格。 如需詳細資訊，請參閱 [Power BI Desktop 中的採用參考完整性設定](../connect-data/desktop-assume-referential-integrity.md)。
+- **設定關聯性來強制實行完整性：** DirectQuery 關聯性的 **假設參考完整性** 屬性會決定 Power BI 是否將會使用內部聯結，而非外部聯結來產生來源查詢。 這通常可以改善查詢效能，不過其確實取決於關聯式資料庫來源的詳細規格。 如需詳細資訊，請參閱 [Power BI Desktop 中的採用參考完整性設定](../connect-data/desktop-assume-referential-integrity.md)。
 - **避免使用雙向關聯性篩選：** 使用雙向關聯性篩選可能會導致執行效能不佳的查詢陳述式。 只有在必要時才使用此關聯性功能，這通常是跨橋接資料表實作多對多關聯性的情況。 如需詳細資訊，請參閱 [Power BI Desktop 中的多對多基數關聯性](../transform-model/desktop-many-to-many-relationships.md)。
 - **限制平行查詢：** 您可以設定 DirectQuery 為每個基礎資料來源開啟的連線數量上限。 這會控制同時傳送到資料來源的查詢數。
 

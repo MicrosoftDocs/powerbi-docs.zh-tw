@@ -2,20 +2,20 @@
 title: 報表編輯器導覽
 description: 在 Power BI Desktop 和 Power BI 服務中，您可以在報表編輯器內設計終端使用者所看到的報表。 這兩個環境中的報表編輯器很類似。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635186"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387773"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
 
@@ -54,11 +54,11 @@ Power BI 報表編輯器分成數個主要區段：
 
 ![Power BI 報表編輯器](media/service-the-report-editor-take-a-tour/power-bi-report-editor-panes.png)
 
-**[篩選] 窗格**會顯示視覺效果、頁面或所有頁面上的任何篩選。 在此情況下，有頁面層級的篩選，但沒有視覺效果層級的篩選。
+**[篩選] 窗格** 會顯示視覺效果、頁面或所有頁面上的任何篩選。 在此情況下，有頁面層級的篩選，但沒有視覺效果層級的篩選。
 
-**[視覺效果] 窗格上方**會指出使用中的視覺效果類型。 在此範例中，是群組直條圖。 
+**[視覺效果] 窗格上方** 會指出使用中的視覺效果類型。 在此範例中，是群組直條圖。 
 
-**[視覺效果] 窗格底部**有三個索引標籤：
+**[視覺效果] 窗格底部** 有三個索引標籤：
 
 ![視覺效果中的欄位](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) [欄位]  會顯示視覺效果中的欄位。 您可能必須向下捲動才能查看所有詳細資料。 此圖表使用 [StoreNumberName] 和 [今年銷售額]。
 
@@ -66,7 +66,7 @@ Power BI 報表編輯器分成數個主要區段：
 
 ![放大鏡圖示](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) [分析]  若要顯示 [分析] 窗格，請選取放大鏡圖示。
 
-**[欄位] 窗格**會列出資料模型中所有可用的資料表。 當您展開資料表時，您會看到該資料表中的欄位。 黃色核取記號可讓您了解該資料表至少有一個欄位位於視覺效果中。
+**[欄位] 窗格** 會列出資料模型中所有可用的資料表。 當您展開資料表時，您會看到該資料表中的欄位。 黃色核取記號可讓您了解該資料表至少有一個欄位位於視覺效果中。
 
 請繼續閱讀以取得每個窗格的詳細資料。
 

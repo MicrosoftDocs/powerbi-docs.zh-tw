@@ -2,19 +2,19 @@
 title: 在 Power BI 中使用相對時間交叉分析篩選器或篩選條件
 description: 深入了解如何在 Power BI 中使用交叉分析篩選器或篩選條件來限制相對時間範圍。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: a8268af76472c91474f2f67bc256fcc0ddcc9768
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 4b12760584df2471bf02029be0fb428d1ab21e4c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669216"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387543"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相對時間交叉分析篩選器與篩選條件
 
