@@ -2,18 +2,18 @@
 title: 連線到 Power BI Premium 容量計量
 description: 如何取得及安裝 Power BI Premium 容量計量範本應用程式，以及如何連線到資料
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/18/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: f7bb6cdd3279ac15b2952d5e20b9c36a66a0c518
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375227"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410589"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>連線到 Power BI Premium 容量計量
 
@@ -32,7 +32,7 @@ ms.locfileid: "91375227"
 
 1. 按一下下列連結以取得應用程式：[Power BI Premium 容量計量範本應用程式](https://app.powerbi.com/groups/me/getapps/services/pbi_pcmm.capacity-metrics-dxt)
 
-1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]** ](https://app.powerbi.com/groups/me/getapps/services/pbi_pcmm.capacity-metrics-dxt)。
+1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]**](https://app.powerbi.com/groups/me/getapps/services/pbi_pcmm.capacity-metrics-dxt)。
 
     [![AppSource 中的 Power BI Premium 容量計量應用程式](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_pcmm.capacity-metrics-dxt)
 

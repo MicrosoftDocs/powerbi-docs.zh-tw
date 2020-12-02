@@ -1,21 +1,21 @@
 ---
 title: Power BI 管理入口網站
 description: 此管理入口網站可讓您設定適用於 Power BI 的全組織設定。 您可以檢視使用計量、設定租用戶設定、處理容量、檢視工作區、組織視覺效果與精選內容。
-author: kfollis
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 0abdaab48516b91624a0945d32c4f81ed024a468
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: c83efa55cc1c35bb7e6fa8e62de3bca228553fe3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947095"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409393"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 

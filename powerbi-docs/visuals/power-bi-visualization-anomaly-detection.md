@@ -2,19 +2,19 @@
 title: 異常偵測教學課程
 description: 教學課程：偵測 Power BI 中的異常
 author: aphilip94
+ms.author: anphil
 ms.reviewer: aphilip94
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/10/2020
-ms.author: anphil
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5431590e428351e81da98625294df70f617a608a
-ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
+ms.openlocfilehash: cd08d5e6196c1cd321efbe89ec0727d314eff4ce
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94571403"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409853"
 ---
 # <a name="anomaly-detection-preview"></a>異常偵測 (預覽)
 

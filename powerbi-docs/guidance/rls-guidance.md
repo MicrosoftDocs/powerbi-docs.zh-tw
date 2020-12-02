@@ -1,19 +1,19 @@
 ---
 title: Power BI Desktop 中的資料列層級安全性 (RLS) 指導方針
 description: 使用 Power BI Desktop 在您的資料模型中強制執行資料列層級安全性 (RLS) 的指導方針。
-author: peter-myers
+author: paulinbar
+ms.author: painbar
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 644e4499a335f18febadf33c371bd15e01499701
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 3c8290391d549f4510b4f6ea6ee0fd596500045e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349613"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410083"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的資料列層級安全性 (RLS) 指導方針
 

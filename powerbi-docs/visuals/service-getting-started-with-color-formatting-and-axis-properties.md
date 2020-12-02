@@ -1,20 +1,20 @@
 ---
 title: 開始使用格式化報表視覺效果
 description: 開始使用具有報表視覺效果的格式化選項
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 11/09/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3e61521ec7ac518aaa374cec328639a849b21bd5
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 5ab8a9fdb0a7cdd373aad500950280ddaef655e4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483809"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409830"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>開始使用格式化窗格
 

@@ -2,19 +2,19 @@
 title: 從 Microsoft Excel 發佈至 Power BI
 description: 了解如何將 Excel 活頁簿發佈至 Power BI 網站。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 108c7cea815475c98a7529a53b9a177ff5fbf405
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 1473cdace4a1c6435ea7c2cf405785f144616d87
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600162"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410175"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>從 Microsoft Excel 發佈至 Power BI
 在 Microsoft Excel 2016 和更新版本中，您可以將 Excel 活頁簿直接發佈至 [Power BI](https://powerbi.microsoft.com) 工作區，並在此根據活頁簿的資料建立互動性極高的報表和儀表板。 然後，您就可以與組織中的其他人分享深入解析。
@@ -66,7 +66,7 @@ Excel 支援發佈本機 Excel 檔案。 您不需要將這些檔案儲存至商
 
 您無法在 Power BI 中編輯活頁簿。 如果您需要對資料進行一些變更，您可以按一下 [編輯]，然後選擇在 Excel Online 中編輯活頁簿，或在電腦上以 Excel 開啟活頁簿。 您所做的任何變更都會儲存到商務用 OneDrive 上的活頁簿。
 
-**上傳**時，不會在 Power BI 中建立任何資料集。 您的活頁簿會顯示在工作區導覽窗格的 [報表] 中。 上傳至 Power BI 的活頁簿會有特殊的 Excel 圖示，將其識別為已上傳的 Excel 活頁簿。
+**上傳** 時，不會在 Power BI 中建立任何資料集。 您的活頁簿會顯示在工作區導覽窗格的 [報表] 中。 上傳至 Power BI 的活頁簿會有特殊的 Excel 圖示，將其識別為已上傳的 Excel 活頁簿。
 
 如果您只有工作表中的資料，或是有想要在 Power BI 中查看的樞紐分析表和圖表，請選擇 [上傳]。
 

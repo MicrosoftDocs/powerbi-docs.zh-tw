@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用商務用 OneDrive
 description: 在 Power BI Desktop 中使用商務用 OneDrive
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/27/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 20271b1e165fea894404a77bf19bbcc735703907
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 70607632dd4e93d1b0d5e53f19ef697c6599128d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214548"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410842"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用商務用 OneDrive
 許多人都將 Excel 活頁簿儲存在可與 Power BI Desktop 完美搭配的商務用 OneDrive 中。 有了 Power BI Desktop，您可以使用儲存在商務用 OneDrive 中的 Excel 檔案線上連結來建立報表和視覺效果。 您可以使用商務用 OneDrive 群組帳戶，或您個人的商務用 OneDrive 帳戶。

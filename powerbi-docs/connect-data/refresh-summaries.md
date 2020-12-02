@@ -2,19 +2,19 @@
 title: Power BI 的重新整理摘要
 description: 了解如何使用 Power BI 中的重新整理摘要
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/27/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 469e2de86d18b9adeb4a7c8aeabeaae1db2a28de
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 285bc76ddb0a0afa571fba06096358c22781a121
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600445"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410773"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI 的重新整理摘要
 

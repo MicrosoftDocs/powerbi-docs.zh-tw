@@ -2,19 +2,19 @@
 title: 在 Power BI 中使用個人閘道
 description: 可提供 Power BI 的內部部署資料閘道 (個人模式) 相關資訊，以供個人用於連線至內部部署資料。
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 11/09/2020
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: ae41c393d6c2a7db869627eedea3dafe3b618a78
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 8f69f81d988393e9be2682164933037b2904a396
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483642"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410244"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>在 Power BI 中使用個人閘道
 

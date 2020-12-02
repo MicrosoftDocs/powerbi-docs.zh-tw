@@ -1,19 +1,20 @@
 ---
 title: 使用 Power BI 連接到所用服務
 description: 連接到執行業務所用的多個服務，例如 Salesforce、Microsoft Dynamics CRM 和 Google Analytics。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/29/2019
-ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a2151f80a9c8da7230338355fb10b9a0820286a1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860708"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410497"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 連接到所用服務
 您可以使用 Power BI 連接到執行業務所用的多個服務，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 Power BI 首先會使用您的認證來連接至服務。 它會建立 Power BI「工作區」  ，內含儀表板和一組 Power BI 報表，可自動顯示資料並提供業務相關的視覺見解。

@@ -2,18 +2,18 @@
 title: 使用 Power BI 連接到 GitHub
 description: 適用於 GitHub 的 Power BI
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/19/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e482c6efd60352721e1788a7929128af1b8cf89
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e92afdbad41f212ac93245583430ae44fe0abaf9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633622"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410635"
 ---
 # <a name="connect-to-github-with-power-bi"></a>使用 Power BI 連接到 GitHub
 本文將逐步引導您使用 Power BI 範本應用程式從 GitHub 帳戶提取資料。 範本應用程式會產生由儀表板、一組報表與資料集組成的工作區，可讓您探索 GitHub 資料。 適用於 Power BI 的 GitHub 應用程式會顯示 GitHub 存放庫 (也稱為 repo) 中的見解，以及參與、問題、提取要求和作用中使用者的相關資料。
@@ -35,7 +35,7 @@ ms.locfileid: "91633622"
 
 1. 按一下下列連結以取得應用程式：[GitHub 範本應用程式](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]** ](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)。
+1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)。
 
     [![AppSource 中的 GitHub 範本應用程式](media/service-connect-to-github/service-github-template-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 

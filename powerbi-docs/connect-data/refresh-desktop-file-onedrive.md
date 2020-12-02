@@ -2,20 +2,20 @@
 title: 重新整理來自 OneDrive 或 SharePoint Online 的資料集
 description: 重新整理建立自 OneDrive 或 SharePoint Online 上 Power BI Desktop 檔案的資料集
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e2144cc7460ea2eff84bbcc1e93f02c99d650b35
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 317b879e8e9d70019aa60b60a6586ac747dcc185
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216369"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410819"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>重新整理 OneDrive 或 SharePoint Online 上儲存的資料集
 將檔案從 OneDrive 或 SharePoint Online 匯入至 Power BI 服務，是確定您在 Power BI Desktop中的工作與 Power BI 服務保持同步的好方法。

@@ -2,19 +2,19 @@
 title: 教學課程：連線到 SQL Server 中的內部部署資料
 description: 了解如何使用 SQL Server 作為閘道資料來源，包括如何重新整理資料。
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba518991145b727e141e1441f30ea73819bddb31
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83283500"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410267"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>從內部部署 SQL Server 資料庫重新整理資料
 
@@ -134,7 +134,7 @@ ms.locfileid: "83283500"
 
 現在您已將 Power BI 中的資料集透過資料閘道連線到 SQL Server 資料庫內部部署，請遵循這些步驟來設定重新整理排程。 以排程作為基礎重新整理您的資料集，可協助確保您的報表和儀表板皆具備最新資料。
 
-1. 在瀏覽窗格中，開啟 [我的工作區]  \> [資料集]  。 選取 **AdventureWorksProducts** 資料集的省略符號 ( **. . .** )，然後選取 [排程重新整理]  。
+1. 在瀏覽窗格中，開啟 [我的工作區]  \> [資料集]  。 選取 **AdventureWorksProducts** 資料集的省略符號 (**. . .**)，然後選取 [排程重新整理]。
 
     > [!NOTE]
     > 確認您選取的是 **AdventureWorksProducts** 資料集的省略符號，而非具備相同名稱報表的省略符號。 **AdventureWorksProducts** 報表的操作功能表不包含 [排程重新整理]  選項。
@@ -174,7 +174,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     請注意右上角，Power BI 正在準備執行所要求的重新整理。
 
-3. 選取 [我的工作區  **報表 \> AdventureWorksProducts]\>** 。 查看更新資料流經的方式，且現在定價最高的產品為 **Road-250 Red, 58**。
+3. 選取 [我的工作區 \> 報表 \> AdventureWorksProducts]。 查看更新資料流經的方式，且現在定價最高的產品為 **Road-250 Red, 58**。
 
     ![更新直條圖](./media/service-gateway-sql-tutorial/updated-column-chart.png)
 
@@ -190,7 +190,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     ![重新整理歷程記錄連結](./media/service-gateway-sql-tutorial/refresh-history-link.png)
 
-4. 在 [已排程]  索引標籤上，注意過去的已排程及隨選重新整理，以及它們的 [開始]  和 [結束]  時間，以及 [已完成]  的 [狀態]  ，其指出 Power BI 是否已成功執行重新整理。 針對失敗的重新整理，您可以查看錯誤訊息並檢查錯誤詳細資料。
+4. 在 [已排程] 索引標籤上，注意過去的已排程及隨選重新整理，以及它們的 [開始] 和 [結束] 時間，以及 [已完成] 的 [狀態]，其指出 Power BI 是否已成功執行重新整理。 針對失敗的重新整理，您可以查看錯誤訊息並檢查錯誤詳細資料。
 
     ![重新整理歷程記錄詳細資料](./media/service-gateway-sql-tutorial/refresh-history-details.png)
 

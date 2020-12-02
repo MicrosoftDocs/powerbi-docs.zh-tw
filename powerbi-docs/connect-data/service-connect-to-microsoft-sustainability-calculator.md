@@ -1,19 +1,19 @@
 ---
 title: 連線 Microsoft Sustainability Calculator
 description: 適用於 Power BI 的 Microsoft Sustainability Calculator
-author: joshthor3222
+author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 01/06/2020
-ms.author: v-tikid
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cffb7ecc195f5ce803ec2dfc81c794bac75c9448
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 00c8ee0ff77d2253b1240c943261ab053f29765a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230028"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410520"
 ---
 # <a name="connect-the-microsoft-sustainability-calculator"></a>連線 Microsoft Sustainability Calculator
 取得 IT 基礎結構的碳排放量見解，以作出更永續性的運算決策
@@ -34,12 +34,12 @@ Microsoft Sustainability Calculator 會針對與 Azure 服務相關聯的碳排�
 
     ![開始使用您的新應用程式](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
 
-1. 輸入**公司名稱、使用者註冊號碼**和**月份數 \> [登入]** 。 請參閱以下關於[尋找這些參數](#finding-parameters)的詳細資料。
+1. 輸入 **公司名稱、使用者註冊號碼** 和 **月份數 \> [登入]** 。 請參閱以下關於[尋找這些參數](#finding-parameters)的詳細資料。
 
     ![公司註冊](media/service-connect-to-microsoft-sustainability-calculator/company-enrollment.png)
 
 1. 針對 [驗證方法] 選取 [金鑰]，並針對 [隱私權等級] 選取 [組織]。
-1. 針對 [金鑰] 輸入您的**存取金鑰 \> [登入]** 。
+1. 針對 [金鑰] 輸入您的 **存取金鑰 \> [登入]** 。
 
     ![輸入存取金鑰](media/service-connect-to-microsoft-sustainability-calculator/access-key-entry.png)
 
@@ -47,9 +47,9 @@ Microsoft Sustainability Calculator 會針對與 Azure 服務相關聯的碳排�
 
 ## <a name="finding-parameters"></a>尋找參數
 
-若要尋找您的公司**註冊識別碼**和**存取金鑰**，請與您的 Azure 管理員合作以取得所需資訊。 您的管理員將
+若要尋找您的公司 **註冊識別碼** 和 **存取金鑰**，請與您的 Azure 管理員合作以取得所需資訊。 您的管理員將
 
-1. 登入 [Azure 企業版入口網站](https://ea.azure.com)，然後按一下左側功能區上的 [管理]，並取得**註冊號碼**，如下所示
+1. 登入 [Azure 企業版入口網站](https://ea.azure.com)，然後按一下左側功能區上的 [管理]，並取得 **註冊號碼**，如下所示
 2. 從 [Azure 企業版入口網站](https://ea.azure.com)中，按一下 [報表]，然後按一下 API 存取金鑰 (如下所示)，以取得主要註冊帳戶金鑰
 
 ## <a name="using-the-app"></a>使用應用程式

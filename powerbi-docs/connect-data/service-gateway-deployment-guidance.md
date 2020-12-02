@@ -2,19 +2,19 @@
 title: 部署 Power BI 之資料閘道的指引
 description: 了解部署 Power BI 之閘道的最佳做法和考量。
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3cb11f3faf9b9da5872cf2dba67222760c720f23
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a3921590787895d20ff03781de2efa93c08f71d0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83329960"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410313"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 之資料閘道的指引
 

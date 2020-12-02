@@ -1,20 +1,20 @@
 ---
 title: 共用資料集
 description: 身為資料集擁有者，您可以建立和共用您的資料集，讓其他人也可以使用。 了解如何共用它們。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fd31c3b97eef80b0e4457fe6e61c1a8bf101db7b
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c73c5b1b803b73742f6f13456b07a2060f5757e4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252651"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410405"
 ---
 # <a name="share-a-dataset"></a>共用資料集
 

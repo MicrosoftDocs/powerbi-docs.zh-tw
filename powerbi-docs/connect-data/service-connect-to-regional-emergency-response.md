@@ -2,18 +2,18 @@
 title: 連線到區域緊急狀況回應儀表板
 description: 如何取得及安裝區域緊急狀況回應範本應用程式的新型冠狀病毒 (COVID-19) 決策支援儀表板，以及如何連線至資料
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/24/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: b8cb2be15d084bba3fc2a70152165ce3b2909dab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860731"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410543"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>連線到區域緊急狀況回應儀表板
 區域緊急狀況回應儀表板是 [Microsoft Power Platform 區域緊急狀況回應解決方案](/powerapps/sample-apps/regional-emergency-response/overview)的報告元件。 區域組織系統管理員可在其 Power BI 租用戶中檢視儀表板，以快速檢視有利於做出有效率決策的重要資料和計量。
@@ -36,7 +36,7 @@ ms.locfileid: "90860731"
 
 1. 按一下下列連結以取得應用程式：[區域緊急狀況回應儀表板範本應用程式](https://appsource.microsoft.com/product/power-bi/powerapps_cxo.regional_response)
 
-1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]** ](https://appsource.microsoft.com/product/power-bi/powerapps_cxo.regional_response)。
+1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]**](https://appsource.microsoft.com/product/power-bi/powerapps_cxo.regional_response)。
 
     [![AppSource 中的區域緊急狀況回應儀表板應用程式](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-appsource-get-it-now.png)](https://appsource.microsoft.com/product/power-bi/powerapps_cxo.regional_response)
 

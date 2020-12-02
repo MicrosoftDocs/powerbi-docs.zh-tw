@@ -2,24 +2,24 @@
 title: 從 Power BI Desktop 檔案取得資料
 description: 了解如何從 Power BI Desktop 取得資料和報表並放入 Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3022c43f4c1af3098b24148ccb0bdadf6e0da521
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: e89f45d302216af8193029cb613b4e7a54365b8d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363977"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410382"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>從 Power BI Desktop 檔案取得資料
 ![Power BI Desktop 檔案圖示](media/service-desktop-files/pbid_file_icon.png)
 
-**Power BI Desktop** 讓商業智慧和報表變得容易。 不論您是要連接到許多不同的資料來源、查詢和轉換資料、建立資料模型，還是建立強大的動態報表，**Power BI Desktop** 都讓商業智慧工作變得直接易懂又快速。 如果您不熟悉 **Power BI Desktop**，請參閱[開始使用 Power BI Desktop](../fundamentals/desktop-getting-started.md)。
+**Power BI Desktop** 讓商業智慧和報表變得容易。 不論您是要連接到許多不同的資料來源、查詢和轉換資料、建立資料模型，還是建立強大的動態報表，**Power BI Desktop** 都讓商業智慧工作變得直接易懂又快速。 如果您不熟悉 **Power BI Desktop**，請參閱 [開始使用 Power BI Desktop](../fundamentals/desktop-getting-started.md)。
 
 當您將資料放入 **Power BI Desktop**，並建立一些報表後，您就能夠將儲存的檔案放入 **Power BI 服務**。
 

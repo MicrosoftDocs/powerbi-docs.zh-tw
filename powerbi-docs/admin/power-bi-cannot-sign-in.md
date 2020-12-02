@@ -5,22 +5,22 @@ author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/25/2020
-ms.openlocfilehash: 00e1586b0b02167ee953ccd91237c71b0bb7c40d
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 2f6ed46060d9346342aa8469cf22072986f59aab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374675"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409347"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>對 Power BI 的登入問題進行疑難排解
 
 本文描述系統管理員如何連絡支援人員，以解決 Power BI 登入問題。 若為發生登入問題的 Power BI 使用者，請先洽詢組織的內部支援小組以取得協助。
 
-不過，若為組織的**系統管理員**，且仍無法登入 Power BI，請繼續閱讀以下資訊。
+不過，若為組織的 **系統管理員**，且仍無法登入 Power BI，請繼續閱讀以下資訊。
 
 ## <a name="contact-microsoft-support"></a>連絡 Microsoft 支援服務
 

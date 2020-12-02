@@ -2,20 +2,20 @@
 title: 教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型 (預覽)
 description: 在本教學課程中，您要在 Power BI 中叫用 Machine Learning Studio (傳統) 模型。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 03/12/2019
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: c59e0fff95f611fbe84586af64db7a532285d72b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397108"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410198"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型 (預覽)
 
@@ -79,7 +79,7 @@ ms.locfileid: "94397108"
 
 ![資料流程 (預覽)](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_05.png)
 
-選取 [新增實體]  ，如此會在瀏覽器中啟動 **Power Query 編輯器** 。
+選取 [新增實體]  ，如此會在瀏覽器中啟動 **Power Query 編輯器**。
 
 ![新增實體](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_06.png)
 
@@ -93,18 +93,18 @@ ms.locfileid: "94397108"
 
 ![連線至資料來源](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
-Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功能區選取 [轉換資料表]  ，然後選取 [使用第一個資料列作為標頭]  。  這會將 [已升階標頭]  查詢步驟新增到右側的 [套用的步驟]  窗格。 您也可以使用右側的窗格，將查詢重新命名為更容易記得的名稱，例如 _Automobile Pricing_ 。
+Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功能區選取 [轉換資料表]  ，然後選取 [使用第一個資料列作為標頭]  。  這會將 [已升階標頭]  查詢步驟新增到右側的 [套用的步驟]  窗格。 您也可以使用右側的窗格，將查詢重新命名為更容易記得的名稱，例如 _Automobile Pricing_。
 
 ![Power Query 編輯器的螢幕擷取畫面，其中顯示了資料預覽。](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
-我們的來源資料集將未知的值設定為 '?'。  若要清除這種情況，我們可以將 '?' 取代為 '0'，以避免稍後為求簡化而發生的錯誤。  若要這樣做，按一下資料行標頭的名稱，選取 *normalized-losses* 、 *bore* 、 *stroke* 、 *compression-ratio* 、 *horsepower* 、 *peak-rpm* 和 *price* 資料行，然後按一下 [轉換資料行]，並選取 [取代值]。  將 '?' 取代為 '0'。
+我們的來源資料集將未知的值設定為 '?'。  若要清除這種情況，我們可以將 '?' 取代為 '0'，以避免稍後為求簡化而發生的錯誤。  若要這樣做，按一下資料行標頭的名稱，選取 *normalized-losses*、*bore*、*stroke*、*compression-ratio*、*horsepower*、*peak-rpm* 和 *price* 資料行，然後按一下 [轉換資料行]，並選取 [取代值]。  將 '?' 取代為 '0'。
 
 ![取代值](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_10.png)
 
 文字/CSV 來源資料表中的所有資料行都會被視為文字資料行。  接著，我們需要將數值資料行變更為正確的資料類型。  方法是，在 Power Query 中按一下資料行標頭中的資料類型符號。  將資料行變更為以下類型：
 
-- **整數** ：symboling、normalized-losses、curb-weight、engine-size、horsepower、peak-rpm、city-mpg、highway-mpg、price
-- **十進位數字** ：wheel-base、length、width、height、bore、stroke、compression-ratio
+- **整數**：symboling、normalized-losses、curb-weight、engine-size、horsepower、peak-rpm、city-mpg、highway-mpg、price
+- **十進位數字**：wheel-base、length、width、height、bore、stroke、compression-ratio
 
 ![變更資料行](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 

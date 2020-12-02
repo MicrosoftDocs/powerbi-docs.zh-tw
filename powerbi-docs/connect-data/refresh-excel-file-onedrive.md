@@ -2,19 +2,19 @@
 title: 重新整理建立自 Excel 活頁簿的資料集 - 雲端
 description: 重新整理建立自 OneDrive 或 SharePoint Online 上 Excel 活頁簿的資料集
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/06/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c550cace73cff4b37da4e68693c0b46175156890
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ed4ba65da4c4b027d5e789844a86e57c2a9c478c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222378"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410796"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>重新整理建立自 OneDrive 或 SharePoint Online 上 Excel 活頁簿的資料集
 

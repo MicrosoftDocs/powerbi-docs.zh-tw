@@ -2,25 +2,25 @@
 title: 在 Power BI 中撰寫範本應用程式的提示
 description: 有關如何撰寫查詢、資料模型、報表和儀表板，來製作高品質範本應用程式的提示
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: 4530a6579a3109a2696c77a79a3a5a1c6b8092dd
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348051"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410106"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
 當您在 Power BI 中[撰寫自己的範本應用程式](service-template-apps-create.md)時，有一部分重點是建立工作區、進行測試和生產的邏輯。 而另一個重點則明顯是撰寫報表和儀表板。 撰寫程序可以細分成四大部分。 在這幾個部分投入心力能讓您建立最佳的範本應用程式：
 
 * 您可利用 **查詢** 來將資料 [連線](desktop-connect-to-data.md)和 [轉換](../transform-model/desktop-query-overview.md)，以及定義 [參數](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)。 
-* 您可在 **資料模型** 中建立 [關聯性](../transform-model/desktop-create-and-manage-relationships.md)、 [量值](../transform-model/desktop-measures.md)和問與答改善項目。  
+* 您可在 **資料模型** 中建立 [關聯性](../transform-model/desktop-create-and-manage-relationships.md)、[量值](../transform-model/desktop-measures.md)和問與答改善項目。  
 * **[報表頁面](../create-reports/desktop-report-view.md)** 包含可提供資料見解的視覺效果和篩選。  
 * **[儀表板](../consumer/end-user-dashboards.md)** 和 [磚](../create-reports/service-dashboard-create.md)能為包含的見解提供概觀。
 * 在安裝應用程式後，範例資料可立即供您探索。

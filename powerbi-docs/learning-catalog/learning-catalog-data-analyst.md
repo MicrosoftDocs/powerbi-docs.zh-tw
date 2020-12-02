@@ -2,16 +2,16 @@
 title: 資料分析師學習目錄
 description: 尋找適用於資料分析師的所有 Power BI 訓練選項，從最基礎到最進階
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: 711cb902eed3eee22eb117f9c2fe1f772291671b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c7d0d57fe0c4184a529a6c8e30b0bcb9b187059e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746554"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410060"
 ---
 # <a name="data-analyst-learning-catalog"></a>資料分析師學習目錄
 

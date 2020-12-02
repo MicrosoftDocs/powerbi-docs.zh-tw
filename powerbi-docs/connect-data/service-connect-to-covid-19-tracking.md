@@ -2,18 +2,18 @@
 title: 連線至 COVID-19 美國追蹤報表
 description: 如何取得並安裝 COVID-19 美國案例範本應用程式，以及如何連線至資料。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349483"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410612"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>連線至 COVID-19 美國追蹤報表
 本文示範如何安裝 COVID-19 追蹤報表的範本應用程式，以及如何連線至資料來源。
@@ -54,7 +54,7 @@ ms.locfileid: "92349483"
 
    ![[COVID-19 美國追蹤報表] 驗證對話方塊的螢幕擷取畫面。](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-authentication-dialog.png)
 
-1. 按一下 [ **登入** ]。
+1. 按一下 [ **登入**]。
 
    ![[COVID-19 美國追蹤報表] 登入對話方塊的螢幕擷取畫面。](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
  

@@ -2,26 +2,26 @@
 title: 尋找已登入的 Power BI 使用者
 description: 若為管理員，且想要查看誰已登入 Power BI，則可使用 Azure Active Directory 存取和使用情況報表。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e278918fdcf19a8de5cd5af1995bbc050dd765ec
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 84d4b0ab295f003c34937084bd93dd6f27992c31
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374704"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409278"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>尋找已登入的 Power BI 使用者
 
 若為組織的管理員，且想要查看誰已登入 Power BI，則可使用 [Azure Active Directory 存取和使用情況報表](/azure/active-directory/reports-monitoring/concept-sign-ins)。
 
 > [!NOTE]
-> **登入**報表可提供有用的資訊，但無法識別每名使用者的授權類型。 請使用 Microsoft 365 系統管理中心來檢視授權。
+> **登入** 報表可提供有用的資訊，但無法識別每名使用者的授權類型。 請使用 Microsoft 365 系統管理中心來檢視授權。
 
 ## <a name="requirements"></a>需求
 
