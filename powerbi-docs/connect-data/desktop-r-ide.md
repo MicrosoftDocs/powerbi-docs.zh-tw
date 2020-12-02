@@ -2,20 +2,20 @@
 title: 搭配使用外部 R IDE 與 Power BI
 description: 您可以啟動外部 IDE，然後搭配 Power BI 使用它
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 58e23ecca37b9019ed007c60fe7aaa7e6b4d4515
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 21b46a0c7637509fa54c3d7ed2b5551cde05f784
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216421"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404862"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>搭配使用外部 R IDE 與 Power BI
 透過 **Power BI Desktop**，您可以使用您的外部 R IDE (整合式開發環境) 來建立並精簡 R 指令碼，然後在 Power BI 中使用這些指令碼。
@@ -25,7 +25,7 @@ ms.locfileid: "86216421"
 ## <a name="enable-an-external-r-ide"></a>啟用外部 R IDE
 先前，您得在 **Power BI Desktop** 中使用 R 指令碼編輯器才能建立和執行 R 指令碼。 發行後，您就可以從 **Power BI Desktop** 啟動外部 R IDE，並將您的資料自動匯入及顯示在 R IDE 中。 您可以在該處修改外部 R IDE 中的指令碼，然後將其貼回 **Power BI Desktop** 以建立 Power BI 視覺效果和報表。
 
-自 2016 年 9 月發行的 **Power BI Desktop** (版本 2.39.4526.362) 起，您可以指定想要使用的 R IDE，並使其自動從 **Power BI Desktop**啟動。
+自 2016 年 9 月發行的 **Power BI Desktop** (版本 2.39.4526.362) 起，您可以指定想要使用的 R IDE，並使其自動從 **Power BI Desktop** 啟動。
 
 ### <a name="requirements"></a>需求
 若要使用這項功能，您需要在本機電腦上安裝 **R IDE**。 **Power BI Desktop** 不會包含、部署或安裝 R 引擎，所以您必須在本機電腦上個別安裝 **R**。 您可以使用下列選項選擇要使用哪項 R IDE︰
@@ -43,7 +43,7 @@ ms.locfileid: "86216421"
 
 根據預設，**Power BI Desktop** 將會啟動 **R Studio** 作為外部 R IDE (如果它安裝在本機電腦上)；如果未安裝 **R Studio**，而您具有 **Visual Studio 2015** 與 **R Tools for Visual Studio**，則會改為啟動該項。 如果上述所有 R IDE 皆未安裝，就會啟動與 **.R** 檔案相關聯的應用程式。
 
-如果沒有 **.R** 檔案關聯存在，可以在 [選項] 對話方塊的 [瀏覽至您慣用的 R IDE] 區段中指定自訂 IDE 的路徑。 您也可以啟動不同的 R IDE，方法是選取 **Power BI Desktop** 中**啟動 R IDE** 箭號圖示旁邊的**設定**齒輪圖示。
+如果沒有 **.R** 檔案關聯存在，可以在 [選項] 對話方塊的 [瀏覽至您慣用的 R IDE] 區段中指定自訂 IDE 的路徑。 您也可以啟動不同的 R IDE，方法是選取 **Power BI Desktop** 中 **啟動 R IDE** 箭號圖示旁邊的 **設定** 齒輪圖示。
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>從 Power BI Desktop 啟動 R IDE
 請執行下列步驟，以從 **Power BI Desktop** 啟動 R IDE：
@@ -74,7 +74,7 @@ ms.locfileid: "86216421"
    > **Power BI Desktop** 新增會指令碼的前三行，以便在您執行指令碼之後從 **Power BI Desktop** 匯入您的資料。
    > 
    > 
-7. 您在 **Power BI Desktop** **R 指令碼編輯器窗格**中建立的任何指令碼，會從 R IDE 的第 4 行開始出現。 此時，您可以在 R IDE 中建立 R 指令碼。 在 R IDE 中完成 R 指令碼之後，您需要將其複製並貼回 **Power BI Desktop** 的 [R 指令碼編輯器] 窗格中，**Power BI Desktop** 自動產生的前三行指令碼「除外」。 請勿將指令碼前三行複製回 **Power BI Desktop**，這幾行只用於將資料從 **Power BI Desktop** 匯入 R IDE 中。
+7. 您在 **Power BI Desktop** **R 指令碼編輯器窗格** 中建立的任何指令碼，會從 R IDE 的第 4 行開始出現。 此時，您可以在 R IDE 中建立 R 指令碼。 在 R IDE 中完成 R 指令碼之後，您需要將其複製並貼回 **Power BI Desktop** 的 [R 指令碼編輯器] 窗格中，**Power BI Desktop** 自動產生的前三行指令碼「除外」。 請勿將指令碼前三行複製回 **Power BI Desktop**，這幾行只用於將資料從 **Power BI Desktop** 匯入 R IDE 中。
 
 ### <a name="known-limitations"></a>已知的限制
 從 Power BI Desktop 直接啟動 R IDE 有一些限制︰

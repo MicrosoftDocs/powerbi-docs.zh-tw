@@ -2,28 +2,28 @@
 title: 在 Power BI Desktop 中使用泛型介面連接到資料
 description: 了解如何在 Power BI Desktop 中使用泛型介面連接不同資料來源
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 106b2e4f9b829190cff8269342c3239429b41f24
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b7e0ec270ad70be91d5aea598148e69e88df09f9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214727"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405552"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>使用 Power BI Desktop 泛型介面連線到資料 
 
-您可以使用內建資料連接器，在 **Power BI Desktop** 中連接到多種不同的資料來源，連接器會顯示在 [取得資料] 視窗中，從 **Access 資料庫**到 **Zendesk** 資源皆涵蓋在內。 您也可以使用 **Power BI Desktop** 內建的泛型介面 (例如 **ODBC** 或 **REST API**) 連線到「其他」各式各樣的資料來源，進一步擴充您的連線選項。
+您可以使用內建資料連接器，在 **Power BI Desktop** 中連接到多種不同的資料來源，連接器會顯示在 [取得資料] 視窗中，從 **Access 資料庫** 到 **Zendesk** 資源皆涵蓋在內。 您也可以使用 **Power BI Desktop** 內建的泛型介面 (例如 **ODBC** 或 **REST API**) 連線到「其他」各式各樣的資料來源，進一步擴充您的連線選項。
 
 ![[取得資料] 對話方塊的螢幕擷取畫面，其中顯示 ODBC 選取項目。](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop 資料介面
-**Power BI Desktop** 包含一系列資料連接器，專為連接到特定資料來源而打造，而且數量持續增加。 例如，如果在您選取 [取得資料] > [更多...] \(如上圖所示) 時，顯示的視窗中出現了其他資料來源，**SharePoint 清單**資料連接器會在 **SharePoint 清單**專用的連線順序期間提供特定欄位和支援資訊。
+**Power BI Desktop** 包含一系列資料連接器，專為連接到特定資料來源而打造，而且數量持續增加。 例如，如果在您選取 [取得資料] > [更多...] \(如上圖所示) 時，顯示的視窗中出現了其他資料來源，**SharePoint 清單** 資料連接器會在 **SharePoint 清單** 專用的連線順序期間提供特定欄位和支援資訊。
 
 此外，**Power BI Desktop** 還可讓您使用下列其中一個泛型資料介面，連接到 [取得資料] 清單中未指出的資料來源：
 
@@ -40,11 +40,11 @@ ms.locfileid: "86214727"
 找不到想在 **Power BI Desktop** 使用的資料來源嗎？ 向 Power BI 小組的[想法和要求清單](https://ideas.powerbi.com/)提交您的想法。
 
 ## <a name="data-sources-accessible-through-odbc"></a>可透過 ODBC 存取的資料來源
-**Power BI Desktop** 中的 **ODBC** 連接器讓您只要指定**資料來源名稱 (DSN)** 或「連接字串」，即可從任何協力廠商 ODBC 驅動程式匯入資料。 您也可以選擇指定要對 ODBC 驅動程式執行的 SQL 陳述式。
+**Power BI Desktop** 中的 **ODBC** 連接器讓您只要指定 **資料來源名稱 (DSN)** 或「連接字串」，即可從任何協力廠商 ODBC 驅動程式匯入資料。 您也可以選擇指定要對 ODBC 驅動程式執行的 SQL 陳述式。
 
 ![[ODBC 連接器] 對話方塊的螢幕擷取畫面，其中顯示 DSN 與 [進階] 選項。](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_2.png)
 
-下列清單詳列了幾個 **Power BI Desktop**可以使用泛型 **ODBC** 介面來連接的資料來源範例。
+下列清單詳列了幾個 **Power BI Desktop** 可以使用泛型 **ODBC** 介面來連接的資料來源範例。
 
 | Power BI Desktop 泛型連接器 | 外部資料來源 | 連結取得詳細資訊 |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ ms.locfileid: "86214727"
 
 ![[OLEDB 連接器] 對話方塊的螢幕擷取畫面，其中顯示連接字串與 [進階] 選項。](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_3.png)
 
-下列清單詳列了幾個 **Power BI Desktop**可以使用泛型 **OLE DB** 介面來連接的資料來源範例。
+下列清單詳列了幾個 **Power BI Desktop** 可以使用泛型 **OLE DB** 介面來連接的資料來源範例。
 
 | Power BI Desktop 泛型連接器 | 外部資料來源 | 連結取得詳細資訊 |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ ms.locfileid: "86214727"
 
 ![[OData 摘要] 對話方塊的螢幕擷取畫面，其中顯示 URL 部分與預覽欄位。](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_4.png)
 
-下列清單詳列了幾個 **Power BI Desktop**可以使用泛型 **ata** 介面來連接的資料來源範例。
+下列清單詳列了幾個 **Power BI Desktop** 可以使用泛型 **ata** 介面來連接的資料來源範例。
 
 | Power BI Desktop 泛型連接器 | 外部資料來源 | 連結取得詳細資訊 |
 | --- | --- | --- |
@@ -87,18 +87,18 @@ ms.locfileid: "86214727"
 
 ![[查詢] 對話方塊的螢幕擷取畫面，其中顯示資料來源。](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_5.png)
 
-下列清單詳列了幾個 **Power BI Desktop**可以使用泛型 **REST API** 介面來連接的資料來源範例。
+下列清單詳列了幾個 **Power BI Desktop** 可以使用泛型 **REST API** 介面來連接的資料來源範例。
 
 | Power BI Desktop 泛型連接器 | 外部資料來源 | 連結取得詳細資訊 |
 | --- | --- | --- |
 | REST API |Couchbase DB |[Couchbase REST API 資訊](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>可透過 R 指令碼存取的資料來源
-您可以使用 **R 指令碼**存取資料來源，然後在 **Power BI Desktop** 中使用該資料。
+您可以使用 **R 指令碼** 存取資料來源，然後在 **Power BI Desktop** 中使用該資料。
 
 ![[R 指令碼] 對話方塊的螢幕擷取畫面，其中顯示執行指令碼。](media/desktop-connect-using-generic-interfaces/r-scripts-2.png)
 
-下列清單詳列了幾個 **Power BI Desktop**可以使用泛型 **R 指令碼**介面來連接的資料來源範例。
+下列清單詳列了幾個 **Power BI Desktop** 可以使用泛型 **R 指令碼** 介面來連接的資料來源範例。
 
 | Power BI Desktop 泛型連接器 | 外部資料來源 | 連結取得詳細資訊 |
 | --- | --- | --- |

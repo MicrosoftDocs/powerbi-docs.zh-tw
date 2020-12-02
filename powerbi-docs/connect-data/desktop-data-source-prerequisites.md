@@ -2,19 +2,19 @@
 title: Power BI 資料來源必要條件
 description: Power BI 資料來源必要條件
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 373249061f39c40ec3a78ba9541575721bd60022
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 55e219ff5da73774adaec768b48a0aedd90c1748
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859627"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405368"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 資料來源必要條件
 針對每個資料提供者，Power BI 會在物件上支援特定的提供者版本。 如需 Power BI 可用資料來源的詳細資訊，請參閱[資料來源](desktop-data-sources.md)。 下表說明這些需求。

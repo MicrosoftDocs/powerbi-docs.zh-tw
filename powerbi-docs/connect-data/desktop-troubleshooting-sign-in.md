@@ -2,22 +2,22 @@
 title: 在 Power BI Desktop 中對登入問題進行疑難排解
 description: 登入 Power BI Desktop 常見問題的解決方案
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 03/05/2020
-ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1358cb8cbe37e0b44cd6a60069ad9ec707d12d8
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 4a825c2e3bcfdbe637c59fde9c33dc23ad326b0e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485499"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404403"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>對 Power BI Desktop 的登入進行疑難排解
-當您嘗試登入 **Power BI Desktop** 時，有時可能會遇到錯誤。 登入問題有兩個主要原因：**Proxy 驗證錯誤**和**非 HTTPS URL 重新導向錯誤**。 
+當您嘗試登入 **Power BI Desktop** 時，有時可能會遇到錯誤。 登入問題有兩個主要原因：**Proxy 驗證錯誤** 和 **非 HTTPS URL 重新導向錯誤**。 
 
 若要判斷造成您登入問題的原因，首先請連絡您的系統管理員並提供診斷資訊，以便他們判斷問題的原因。 藉由追蹤與您登入問題相關聯的問題，系統管理員可以判斷適用於您的錯誤是以下哪一個。 
 
@@ -102,7 +102,7 @@ Power BI Desktop 發出的 Web 要求不會使用 Web Proxy 認證。 在使用 
 
 為用戶端啟用這項功能時，應遵循下列建議：
 
-* 僅使用**協商**作為 Proxy 伺服器上的驗證配置，以確保用戶端僅使用加入至 Active Directory 網路的 Proxy 伺服器。 
+* 僅使用 **協商** 作為 Proxy 伺服器上的驗證配置，以確保用戶端僅使用加入至 Active Directory 網路的 Proxy 伺服器。 
 * 請勿在使用這項功能的用戶端上使用 **NTLM 後援**。
 * 當此功能依照本節的建議啟用及設定時，如果使用者不在具有 Proxy 的網路上，則不會使用嘗試連至 Proxy 伺服器和使用預設系統認證的程序。
 

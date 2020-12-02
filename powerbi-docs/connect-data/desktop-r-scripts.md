@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中執行 R 指令碼
 description: 在 Power BI Desktop 中執行 R 指令碼
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/14/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 69b56323e3c7864cf4adae09bb32493cf1acc852
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 604e90cf2f2c1010559c70df67a6cd54ac08fa36
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222969"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404540"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中執行 R 指令碼
 

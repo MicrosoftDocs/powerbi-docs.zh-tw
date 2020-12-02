@@ -2,19 +2,19 @@
 title: Power BI 的資料重新整理
 description: 本文描述 Power BI 資料重新整理功能及其在概念層級的相依性。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/16/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c5be2a9fa87b55d0a1b98e284ec4b6b7e1dd9c0c
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 212aa0648a2677536912c15a17ba6916bb871313
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633369"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404494"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -118,7 +118,7 @@ Power BI 會根據 OneDrive 中的項目識別碼執行重新整理，因此在�
 
 ![重新整理歷程記錄](media/refresh-data/refresh-history.png)
 
-如上方螢幕擷取畫面所示，Power BI 將此 OneDrive 重新整理識別為**排程**重新整理，但無法設定重新整理間隔。 您只能在資料集的設定中停用 OneDrive 重新整理。 如果您不希望 Power BI 中的資料集和報表自動從來源檔案選取任何變更，則停用重新整理會很有用。
+如上方螢幕擷取畫面所示，Power BI 將此 OneDrive 重新整理識別為 **排程** 重新整理，但無法設定重新整理間隔。 您只能在資料集的設定中停用 OneDrive 重新整理。 如果您不希望 Power BI 中的資料集和報表自動從來源檔案選取任何變更，則停用重新整理會很有用。
 
 請注意，如果資料集連接到 OneDrive 或 SharePoint Online 中的檔案，資料集設定頁面只會顯示 [OneDrive 認證] 和 [OneDrive 重新整理] 區段，如下列螢幕擷取畫面所示。 未連接到 OneDrive 或 SharePoint Online 中來源檔案的資料集不會顯示這些區段。
 

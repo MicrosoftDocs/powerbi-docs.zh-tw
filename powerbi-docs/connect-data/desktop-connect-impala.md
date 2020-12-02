@@ -2,25 +2,25 @@
 title: 在 Power BI Desktop 中連線至 Impala 資料庫
 description: 在 Power BI Desktop 中輕鬆連接到 Impala 資料庫並加以使用
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 41d65bd78ecbc2c918b2da41e26b307cec38c7a1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 88b31cfc63369838eff0beb50e4512adfa667ad7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224456"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405851"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Impala 資料庫
-在 Power BI Desktop 中，您可以連線至 **Impala 資料庫**並使用基礎資料，就像在 Power BI Desktop 中使用任何其他資料來源。
+在 Power BI Desktop 中，您可以連線至 **Impala 資料庫** 並使用基礎資料，就像在 Power BI Desktop 中使用任何其他資料來源。
 
 ## <a name="connect-to-an-impala-database"></a>連接到 Impala 資料庫
-若要連線到 **Impala**資料庫，請執行下列步驟： 
+若要連線到 **Impala** 資料庫，請執行下列步驟： 
 
 1. 從 Power BI Desktop 的 [常用]  功能區選取 [取得資料]  。 
 

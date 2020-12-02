@@ -1,19 +1,19 @@
 ---
 title: Power BI Desktop 中的 DirectQuery 模型疑難排解
 description: 疑難排解 DirectQuery 模型的問題。
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 10/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 943c8283d48b4281d2ddb5d7eeed0e69db4ee6fc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485545"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405299"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>針對 Power BI Desktop 中的 DirectQuery 模型開發問題進行疑難排解
 
@@ -107,7 +107,7 @@ SalesAmount = SUMX(Web_Sales, [ws_sales_price] * [ws_quantity])
 
 ![Power BI Desktop .report 由堆疊直條圖組成，會依類別顯示銷售金額。 [篩選] 窗格會在 2000 年上顯示篩選。](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-example-report.png)
 
-重新整理該圖表將會產生下一個段落中所示的 T-SQL 查詢。 如您所見，**Web_Sales**、**Item**和 **Date_dim** 模型資料表共有三個子查詢。 即使圖表實際只參考四個資料行，但每一個資料表都會傳回所有模型資料表的資料行。 這些子查詢 (被遮蔽) 才是 Power Query 查詢的真正定義。 因為 DirectQuery 還能支援目前的這些資料來源，所以尚未發現以此方式使用子查詢會對效能造成影響。 SQL Server 一類的資料來源會不理會對未使用之資料行的參考而進行最佳化。
+重新整理該圖表將會產生下一個段落中所示的 T-SQL 查詢。 如您所見，**Web_Sales**、**Item** 和 **Date_dim** 模型資料表共有三個子查詢。 即使圖表實際只參考四個資料行，但每一個資料表都會傳回所有模型資料表的資料行。 這些子查詢 (被遮蔽) 才是 Power Query 查詢的真正定義。 因為 DirectQuery 還能支援目前的這些資料來源，所以尚未發現以此方式使用子查詢會對效能造成影響。 SQL Server 一類的資料來源會不理會對未使用之資料行的參考而進行最佳化。
 
 Power BI 採用此模式的原因之一，是您可以定義 Power Query 查詢使用特定的查詢陳述式。 因此，其用法將如現狀提供，沒有計劃加以重寫。 請注意，此模式禁止使用採用通用資料表運算式 (CTE) 及預存程序的查詢陳述式。 子查詢中無法使用這些陳述式。
 

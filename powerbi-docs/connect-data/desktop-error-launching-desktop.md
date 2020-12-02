@@ -2,23 +2,23 @@
 title: 解決啟動 Power BI Desktop 時發生的問題
 description: 解決啟動 Power BI Desktop 時發生的問題
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 01/14/2020
-ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 8d33973f1a11050d104399c98866fdae0ffb1f8a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485430"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404885"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>針對 Power BI Desktop 的開啟問題進行疑難排解
 
-在 Power BI Desktop 中，因為 Power BI 內部部署閘道在本機電腦的具名管道上設置了系統管理原則限制，所以會封鎖安裝並執行舊版 *Power BI 內部部署資料閘道*的使用者，讓他們無法開啟 Power BI Desktop。
+在 Power BI Desktop 中，因為 Power BI 內部部署閘道在本機電腦的具名管道上設置了系統管理原則限制，所以會封鎖安裝並執行舊版 *Power BI 內部部署資料閘道* 的使用者，讓他們無法開啟 Power BI Desktop。
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>解決內部部署資料閘道和 Power BI Desktop 的問題
 

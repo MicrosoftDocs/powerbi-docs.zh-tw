@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的資料類型
 description: Power BI Desktop 中的資料類型
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: reference
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 40f85c40abd543e4f90a1f571ce648bfc4af7d9e
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 5376bcf589c2193b408b705b814be69145ac52fe
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216472"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405460"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的資料類型
 本文描述 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
@@ -36,7 +36,7 @@ ms.locfileid: "86216472"
 
 [查詢編輯器] 中的 [資料類型] 下拉式清單有兩個資料類型目前未在 [資料檢視] 或 [報表檢視] 檢視中呈現：[日期/時間/時區] 和 [持續時間]。 當您將具有這些資料類型的資料行載入模型，再於 [資料檢視] 或 [報表檢視] 中進行檢視時，具有 [日期/時間/時區] 資料類型的資料行會轉換成 [日期/時間]，而具有 [持續時間] 資料類型的資料行則會轉換成 [十進位數字]。
 
-目前不支援查詢編輯器以外的**二進位**資料類型。 如果您先將二進位資料檔案轉換成其他資料類型，才載入 Power BI 模型，則在查詢編輯器中，您可以在載入這些檔案時使用此類型。 為與舊版相容，[資料檢視] 與 [報表檢視] 功能表保存此選項，但如果您嘗試將二進位資料行載入 Power BI 模型，可能會發生錯誤。  
+目前不支援查詢編輯器以外的 **二進位** 資料類型。 如果您先將二進位資料檔案轉換成其他資料類型，才載入 Power BI 模型，則在查詢編輯器中，您可以在載入這些檔案時使用此類型。 為與舊版相容，[資料檢視] 與 [報表檢視] 功能表保存此選項，但如果您嘗試將二進位資料行載入 Power BI 模型，可能會發生錯誤。  
 
 ### <a name="number-types"></a>數字類型
 Power BI Desktop 支援三種數字類型：

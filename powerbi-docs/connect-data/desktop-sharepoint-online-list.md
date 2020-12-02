@@ -2,19 +2,19 @@
 title: 在 SharePoint 清單上建立報表
 description: 本教學課程說明如何將 SharePoint 清單資料轉換成 Power BI 報表。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 5347405c13f71fa0932c48eb218618b28a9f03c8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598668"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404517"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>在 SharePoint 清單上建立報表
 
@@ -58,14 +58,14 @@ ms.locfileid: "91598668"
 
 ## <a name="part-2-create-a-report"></a>第 2 部分：建立報表
 
-1. 在左側選取**資料**圖示，以查看 SharePoint 清單資料是否已載入。
+1. 在左側選取 **資料** 圖示，以查看 SharePoint 清單資料是否已載入。
 
 2. 在右側的 [欄位] 窗格中，確認包含數字的清單資料行顯示總和或 Sigma 圖示。  針對任何未顯示總和或 Sigma 圖示的清單資料行，請選取 [資料表] 檢視中的資料行標頭、[模型] 索引標籤，然後視資料而定，將 [資料類型] 變更為 [十進位數] 或 [整數]。  如果系統提示您確認變更，請選取 [是]。  如果數字是特殊格式 (例如貨幣)，您也可以設定 [格式] 來加以選擇。
 
    觀看此步驟的說明影片：
    <iframe width="400" height="300" src="https://www.youtube.com/embed/OZO3x2NF8Ak?start=147&end=204" frameborder="0" allowfullscreen></iframe>
 
-3. 選取左側的**報表**圖示。
+3. 選取左側的 **報表** 圖示。
 4. 選取要進行視覺化的資料行，方法是在右側 [欄位] 窗格中選取這些資料行旁的核取方塊。
 
    觀看此步驟的說明影片：

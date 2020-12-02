@@ -2,25 +2,25 @@
 title: 藉由 Power BI Desktop 中的範例從網頁擷取資料
 description: 提供所要提取內容的範例，以便從網頁擷取資料
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/21/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 95d3de9adbe8ea1111af5094f2c1993ee189fcdd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632429"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405598"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>提供範例以取得網頁資料
 
 從網頁取得資料讓使用者輕鬆就能從網頁擷取資料，並將該資料匯入 *Power BI Desktop*。 不過，網頁上資料通常不在可輕鬆擷取的整齊資料表中。 即使資料是結構化且一致的，但從這類頁面取得資料可能還是很困難。
 
-有一個解決方案。 您可以使用「藉由範例從 Web 取得資料」  功能，在連接器對話方塊中提供一或多個範例，以便向 Power BI Desktop 顯示您想要擷取的資料。 Power BI Desktop 會收集頁面上符合您範例的其他資料。 使用此解決方案，您可以從網頁擷取各種資料，包括在表格中的資料*和*其他非表格的資料。
+有一個解決方案。 您可以使用「藉由範例從 Web 取得資料」  功能，在連接器對話方塊中提供一或多個範例，以便向 Power BI Desktop 顯示您想要擷取的資料。 Power BI Desktop 會收集頁面上符合您範例的其他資料。 使用此解決方案，您可以從網頁擷取各種資料，包括在表格中的資料 *和* 其他非表格的資料。
 
 ![藉由範例從 Web 取得資料](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 

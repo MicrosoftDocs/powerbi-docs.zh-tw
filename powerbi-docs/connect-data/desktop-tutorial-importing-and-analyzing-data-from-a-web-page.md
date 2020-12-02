@@ -2,20 +2,20 @@
 title: 教學課程：從網頁匯入並分析資料
 description: 教學課程：使用 Power BI Desktop 從網頁匯入並分析資料
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2a8c27029a494898849cab39c8bf843d3afc09a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d407da8e11473180f21e62c94f0ab440050beedc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853234"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404816"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 來分析網頁資料
 
@@ -56,7 +56,7 @@ Web 連線只會使用基本驗證來建立。 需要驗證的網站可能無法
 
 1. 選取 [導覽器]  清單中的 **Results[edit]** 資料表，然後選取 [轉換資料]  。
 
-   **Power Query 編輯器**中會開啟資料表的預覽，您可以在其中套用各種轉換來清除資料。
+   **Power Query 編輯器** 中會開啟資料表的預覽，您可以在其中套用各種轉換來清除資料。
 
    ![Power Query 編輯器](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
 
@@ -147,7 +147,7 @@ Web 連線只會使用基本驗證來建立。 需要驗證的網站可能無法
 
 根據您的資料建立視覺效果：
 
-1. 選取 [欄位]  窗格中的 [Country]  \(國家/地區\) 欄位，或將它拖曳至報表畫布。 Power BI Desktop 會將資料辨識為國家/地區名稱，並自動建立**地圖**視覺效果。
+1. 選取 [欄位]  窗格中的 [Country]  \(國家/地區\) 欄位，或將它拖曳至報表畫布。 Power BI Desktop 會將資料辨識為國家/地區名稱，並自動建立 **地圖** 視覺效果。
 
    ![地圖視覺效果](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
 

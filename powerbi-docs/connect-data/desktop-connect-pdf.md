@@ -2,28 +2,28 @@
 title: 在 Power BI Desktop 中連接到 PDF 檔案
 description: 輕鬆連線並使用 Power BI Desktop 中的 PDF 檔案
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 07/16/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: ba0c1c6babe63c02ef0cd96a7cb5695e2c916c68
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459615"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405759"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>連線至 Power BI Desktop 中的 PDF 檔案
-在 Power BI Desktop 中，您可以連線至 **PDF 檔案**並使用此檔案內附的資料，如同使用 Power BI Desktop 中的任何其他資料來源。
+在 Power BI Desktop 中，您可以連線至 **PDF 檔案** 並使用此檔案內附的資料，如同使用 Power BI Desktop 中的任何其他資料來源。
 
 ![連線至 PDF 檔案中的資料](media/desktop-connect-pdf/connect-pdf-04.png)
 
 下列各節描述如何連線到 **PDF 檔案**、選取資料，並將該資料帶入 **Power BI Desktop**。
 
-一律建議升級為最新版本的 **Power BI Desktop**，您可以從[取得 Power BI Desktop](../fundamentals/desktop-get-the-desktop.md) 中的連結取得。 
+一律建議升級為最新版本的 **Power BI Desktop**，您可以從 [取得 Power BI Desktop](../fundamentals/desktop-get-the-desktop.md) 中的連結取得。 
 
 ## <a name="connect-to-a-pdf-file"></a>連線到 PDF 檔案
 若要連線至 **PDF** 檔案，請從 Power BI Desktop 的 [首頁]  功能區選取 [取得資料]  。 從左側類別中選取 [檔案]  ，您就會看到 [PDF]  。

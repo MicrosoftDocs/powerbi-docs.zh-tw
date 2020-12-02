@@ -2,19 +2,19 @@
 title: Power BI 中多維度模型的預設成員
 description: 了解 Power BI 在搭配多維度模型中的預設成員運作時的行為
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/10/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 75753886930a4b9c2e109f36b5cc01ccbaec49e6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 333651ad89e50a3debe73dfdafc0dced865553a5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858316"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405437"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>使用 Power BI 中的多維度模型
 
@@ -58,19 +58,19 @@ ms.locfileid: "90858316"
 
 現在讓我們看看在 Power BI 中使用每個資料行時會發生什麼事。 當視覺效果在下列資料行上進行群組時，會產生下列結果：
 
-* **City** \(縣/市\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 的所有*預設成員*，但保留 [Population]  \(人口\) 的*預設成員*來顯示所有縣/市；Power BI 會清除 [City]  \(縣/市\) 的整個 ARP。
+* **City** \(縣/市\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 的所有 *預設成員*，但保留 [Population]  \(人口\) 的 *預設成員* 來顯示所有縣/市；Power BI 會清除 [City]  \(縣/市\) 的整個 ARP。
     > [!NOTE]
     > [Population]  \(人口\) 並沒有位於 [City]  \(縣/市\) 的 ARP 路徑中，它單純只與 [State]  \(州/省\) 相關，因此 Power BI 不會清除它。
-* **State** \(州/省\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 和 [Population]  \(人口\) 的所有*預設成員*，來顯示所有「州/省」  。
-* **Country** \(國家/地區\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\) 和 [Country]  \(國家/地區\) 的所有*預設成員*，但保留 [Population]  \(人口\) 的*預設成員*來顯示所有縣/市。
-* **City and State** \(縣/市和州/省\)：Power BI 會清除所有資料行的所有**預設成員**。
+* **State** \(州/省\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 和 [Population]  \(人口\) 的所有 *預設成員*，來顯示所有「州/省」  。
+* **Country** \(國家/地區\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\) 和 [Country]  \(國家/地區\) 的所有 *預設成員*，但保留 [Population]  \(人口\) 的 *預設成員* 來顯示所有縣/市。
+* **City and State** \(縣/市和州/省\)：Power BI 會清除所有資料行的所有 **預設成員**。
 
 針對顯示於視覺效果中的群組，系統會清除它們的整個 ARP 路徑。 
 
 如果群組未顯示於視覺效果中，但為另一個已群組資料行之 ARP 路徑的一部分，則會套用下列動作：
 
 * 系統不會自動清除 ARP 路徑的所有分支。
-* 該群組仍會依那個未清除的**預設成員**進行篩選。
+* 該群組仍會依那個未清除的 **預設成員** 進行篩選。
 
 ### <a name="slicers-and-filter-cards"></a>交叉分析篩選器和篩選卡片
 
@@ -78,7 +78,7 @@ ms.locfileid: "90858316"
 
 * 當交叉分析篩選器或篩選卡片已載入資料時，Power BI 會針對視覺效果中的資料行進行群組，因此其顯示行為和上一節所描述的相同。
 
-由於交叉分析篩選器和篩選卡片經常被用來與其他視覺效果進行互動，針對被影響視覺效果清除**預設成員**，會依下表所說明的方式發生。 
+由於交叉分析篩選器和篩選卡片經常被用來與其他視覺效果進行互動，針對被影響視覺效果清除 **預設成員**，會依下表所說明的方式發生。 
 
 針對此表格，我們會使用本文先前所用的相同範例資料：
 
@@ -86,7 +86,7 @@ ms.locfileid: "90858316"
 
 Power BI 在這些情況下的運作方式會遵循下列規則。
 
-在下列情況下，Power BI 會清除特定資料行的**預設成員**：
+在下列情況下，Power BI 會清除特定資料行的 **預設成員**：
 
 * Power BI 在該資料行上進行群組
 * Power BI 在與該資料行相關聯的資料行 (可位於 ARP 中的任何位置，上或下) 上進行群組
@@ -94,7 +94,7 @@ Power BI 在這些情況下的運作方式會遵循下列規則。
 * 資料行具有擁有 [全部]  狀態的篩選卡片
 * 資料行具有已選取任何值的篩選卡片 (Power BI 會針對該資料行接收到篩選)
 
-在下列情況下，Power BI 不會清除特定資料行的**預設成員**：
+在下列情況下，Power BI 不會清除特定資料行的 **預設成員**：
 
 * 資料行具有擁有預設狀態的篩選卡片，且 Power BI 在其 ARP 中的資料行上進行群組。
 * 資料行位於 ARP 中的另一個資料行上方，且 Power BI 具有適用於該資料行且處於預設狀態的篩選卡片。

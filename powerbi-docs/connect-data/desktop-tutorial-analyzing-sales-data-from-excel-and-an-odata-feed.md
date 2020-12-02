@@ -2,19 +2,19 @@
 title: 教學課程：在 Power BI Desktop 中結合來自 Excel 和 OData 摘要的資料
 description: 教學課程：結合來自 Excel 和 OData 摘要的資料
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/17/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 0401fecc91aef03c0b9e0767bfb241cd701ff50b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 391c8fef1e95aa39ff6dfcd8aab8088f692504e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853739"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404908"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>教學課程：分析來自 Excel 和 OData 摘要的銷售資料
 
@@ -88,7 +88,7 @@ Power Query 編輯器中會開啟資料表預覽，您可以在其中套用各�
 
 ## <a name="expand-the-order-data"></a>展開訂單資料
 
-當連接的資料來源擁有多個資料表時 (例如關聯式資料庫或 Northwind OData 摘要)，您可以使用資料表參考來建置查詢。 **訂單**資料表包含數個關聯資料表的參考。 您可以使用展開作業，將 **ProductID**、**UnitPrice** 和 **Quantity** 資料行，從相關的 **Order_Details** 資料表新增至主題 (**Orders**) 資料表。
+當連接的資料來源擁有多個資料表時 (例如關聯式資料庫或 Northwind OData 摘要)，您可以使用資料表參考來建置查詢。 **訂單** 資料表包含數個關聯資料表的參考。 您可以使用展開作業，將 **ProductID**、**UnitPrice** 和 **Quantity** 資料行，從相關的 **Order_Details** 資料表新增至主題 (**Orders**) 資料表。
 
 1. 往 **Orders** 資料表右方捲動，直到看到 **Order_Details** 資料行為止。 它包含另一個資料表而不是資料的參考。
 
@@ -165,9 +165,9 @@ Power Query 編輯器可讓您建立各種計算式和自訂的欄位，讓您�
 
 ## <a name="review-the-query-steps"></a>檢閱查詢步驟
 
-系統會記錄塑造和轉換資料的 Power Query 編輯器動作。 每個動作都會出現在 [查詢設定]  窗格右側的 [套用的步驟]  下。 您可以反向逐步執行**套用的步驟**來檢閱您的步驟，並視需要編輯、刪除或重新排列這些步驟。 不過，變更前面的步驟具有風險，因為這可能會中斷接下來的步驟。
+系統會記錄塑造和轉換資料的 Power Query 編輯器動作。 每個動作都會出現在 [查詢設定]  窗格右側的 [套用的步驟]  下。 您可以反向逐步執行 **套用的步驟** 來檢閱您的步驟，並視需要編輯、刪除或重新排列這些步驟。 不過，變更前面的步驟具有風險，因為這可能會中斷接下來的步驟。
 
-在 Power Query 編輯器左側的 [查詢]  清單中選取每一個查訽，然後在 [查詢設定]  中重新檢查 [套用的步驟]  。 套用之前的資料轉換後，兩個查詢的**所套用步驟**應該如下所示：
+在 Power Query 編輯器左側的 [查詢]  清單中選取每一個查訽，然後在 [查詢設定]  中重新檢查 [套用的步驟]  。 套用之前的資料轉換後，兩個查詢的 **所套用步驟** 應該如下所示：
 
 ![產品查詢套用的步驟](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/products-query-applied-steps.png) &nbsp;&nbsp; ![訂單查詢套用的步驟](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orders-query-applied-steps.png)
 
@@ -208,7 +208,7 @@ Power BI Desktop 不需要您結合查詢來建立報表。 不過，您可以�
 
 ![關聯性檢視](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
 
-若要從 [模型]  檢視回到 [報表]  檢視，請選取**報表**圖示。
+若要從 [模型]  檢視回到 [報表]  檢視，請選取 **報表** 圖示。
 
 ![報表檢視圖示](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
 
@@ -257,7 +257,7 @@ Power BI Desktop 不需要您結合查詢來建立報表。 不過，您可以�
 
 因為您的查詢之間存在關聯性，所以與某一個視覺效果的互動會影響頁面上所有其他視覺效果。
 
-在地圖視覺效果中，選取以**加拿大**為中心的圓圈。 其他兩個視覺效果會篩選以醒目提示加拿大地區的商品總計和訂單數量。
+在地圖視覺效果中，選取以 **加拿大** 為中心的圓圈。 其他兩個視覺效果會篩選以醒目提示加拿大地區的商品總計和訂單數量。
 
 ![篩選出加拿大地區的銷售資料](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/sales-data-filtered-for-canada.png)
 

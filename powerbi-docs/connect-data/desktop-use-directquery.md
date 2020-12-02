@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用 DirectQuery
 description: 在 Power BI Desktop 使用 DirectQuery，也稱為即時連接
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 4619219705a80b53883a9b0578791a60a853125e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092306"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404218"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 *Power BI Desktop*，當連線到資料來源時，隨時可將資料的複本匯入 Power BI Desktop。 對於某些資料來源，可用的替代方式是：使用 DirectQuery 直接連線到資料來源。
@@ -65,7 +65,7 @@ ms.locfileid: "89092306"
 
 - **效能和負載**：所有 DirectQuery 要求都會傳送到來源資料庫，因此所需視覺效果重新整理時間取決於該後端來源以一或多個查詢結果進行回應所花費的時間。 針對視覺效果使用 DirectQuery 的建議回應時間 (正在傳回要求的資料) 為 5 秒以下；建議的時間上限為 30 秒。 超過此時間會讓取用報表的使用者體驗低落至無法接受的程度。 將報表發佈到 Power BI 服務之後，超過數分鐘的任何查詢都會逾時，且使用者會收到錯誤。
   
-    您也必須考慮來源資料庫上的負載，這會視取用已發行報表的 Power BI 使用者數目而定。 使用**資料列層級安全性** (RLS) 可能也會有顯著的影響。 由多位使用者共用的非 RLS 儀表板磚會導致產生資料庫的單一查詢。 不過，在儀表板磚上使用 RLS，通常表示重新整理磚需要「每個使用者」執行一個查詢，進而大幅增加源資料庫的負載，且可能會影響效能。
+    您也必須考慮來源資料庫上的負載，這會視取用已發行報表的 Power BI 使用者數目而定。 使用 **資料列層級安全性** (RLS) 可能也會有顯著的影響。 由多位使用者共用的非 RLS 儀表板磚會導致產生資料庫的單一查詢。 不過，在儀表板磚上使用 RLS，通常表示重新整理磚需要「每個使用者」執行一個查詢，進而大幅增加源資料庫的負載，且可能會影響效能。
   
     Power BI 會建立盡可能有效率的查詢。 不過在特定情況下，產生的查詢可能效率不足，而無法避免重新整理失敗。 這種情況的其中一個範例是，產生的查詢會從後端資料來源擷取非常大量資料列。 在此情況下，會發生下列錯誤：
 
@@ -87,10 +87,10 @@ ms.locfileid: "89092306"
 ## <a name="publish-to-the-power-bi-service"></a>發行至 Power BI 服務
 使用 DirectQuery 建立的報表可以發佈至 Power BI 服務。
 
-如果使用的資料來源不需要**內部部署資料閘道** (**Azure SQL Database**、**Azure SQL 資料倉儲**或 **Redshift**)，就必須先提供認證，Power BI 服務才會顯示已發佈的報表。 請遵循下列指示來提供認證：
+如果使用的資料來源不需要 **內部部署資料閘道** (**Azure SQL Database**、**Azure SQL 資料倉儲** 或 **Redshift**)，就必須先提供認證，Power BI 服務才會顯示已發佈的報表。 請遵循下列指示來提供認證：
 
 1. 登入 [Power BI](https://www.powerbi.com/)。
-2. 在 Power BI 服務中，選取**設定**齒輪圖示，然後選擇 [設定] 功能表項目。
+2. 在 Power BI 服務中，選取 **設定** 齒輪圖示，然後選擇 [設定] 功能表項目。
 
     ![Power BI 服務、設定](media/desktop-use-directquery/directquery_pbiservicesettings.png)
 
@@ -98,7 +98,7 @@ ms.locfileid: "89092306"
 
 4. 新增認證。 否則，當您開啟已發佈的報表或探索以 DirectQuery 連線所建立資料集時，就會發生錯誤。
 
-若要在使用 DirectQuery 的 **Azure SQL Database**、**Azure SQL 資料倉儲**、**Redshift** 或 **Snowflake 資料倉儲**之外建立其他資料來源的資料連線，請安裝**內部部署資料閘道**，並註冊資料來源。 如需詳細資訊，請參閱[什麼是內部部署資料閘道？](service-gateway-onprem.md)
+若要在使用 DirectQuery 的 **Azure SQL Database**、**Azure SQL 資料倉儲**、**Redshift** 或 **Snowflake 資料倉儲** 之外建立其他資料來源的資料連線，請安裝 **內部部署資料閘道**，並註冊資料來源。 如需詳細資訊，請參閱[什麼是內部部署資料閘道？](service-gateway-onprem.md)
 
 ## <a name="next-steps"></a>後續步驟
 如需 DirectQuery 的詳細資訊，請參閱下列資源：

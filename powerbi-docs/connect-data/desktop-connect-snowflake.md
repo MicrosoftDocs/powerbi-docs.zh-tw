@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中連接到 Snowflake 運算倉儲
 description: 在 Power BI Desktop 中輕鬆連接並使用 Snowflake 運算倉儲
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d6de937f4be3c503c146c31a32c56b67ee97a8c4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 115fba44c69fceb3a4f309cd92358ef5bc2eff42
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214806"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405736"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 Snowflake 計算倉庫
 在 Power BI Desktop 中，您可以連接至 **Snowflake** 運算倉儲並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
@@ -46,7 +46,7 @@ ms.locfileid: "86214806"
 
 ![ODBC 錯誤 28000 導致連線失敗。](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
-您可以**載入**選取的資料表，將整個資料表帶入 **Power BI Desktop** 中，也可以**編輯**查詢以開啟**查詢編輯器**，以便您篩選並縮小搜尋範圍到一組您想要使用的資料，然後將該組精簡的資料載入 **Power BI Desktop** 中。
+您可以 **載入** 選取的資料表，將整個資料表帶入 **Power BI Desktop** 中，也可以 **編輯** 查詢以開啟 **查詢編輯器**，以便您篩選並縮小搜尋範圍到一組您想要使用的資料，然後將該組精簡的資料載入 **Power BI Desktop** 中。
 
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 連接至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰
