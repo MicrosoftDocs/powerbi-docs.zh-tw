@@ -1,19 +1,19 @@
 ---
 title: 租用戶設定指引
 description: Power BI 租用戶設定的指導。
-author: peter-myers
+author: paulinbar
+ms.author: painbar
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/10/2020
-ms.author: v-pemyer
-ms.openlocfilehash: fdde090d4fe6e154482e1223b16215fdeca9f56f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 66d721670f90efb17f6167aba3c074bdf6ea0ae1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528336"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394857"
 ---
 # <a name="tenant-settings-guidance"></a>租用戶設定指引
 
@@ -39,7 +39,7 @@ ms.locfileid: "91528336"
 這些 URL 會在 Power BI 說明功能表中提供連結。
 
 > [!NOTE]
-> 提供**授權要求** URL，可防止個別使用者購買 Power BI Pro 授權。 而是改為將使用者導向至您的內部網站，並提供如何取得授權的相關資訊。 預設會啟用 [允許使用者試用 Power BI Pro] 設定，並將購買和試用體驗分開。 若要深入了解這些設定如何搭配使用，請參閱[允許使用者試用 Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro)。
+> 提供 **授權要求** URL，可防止個別使用者購買 Power BI Pro 授權。 而是改為將使用者導向至您的內部網站，並提供如何取得授權的相關資訊。 預設會啟用 [允許使用者試用 Power BI Pro] 設定，並將購買和試用體驗分開。 若要深入了解這些設定如何搭配使用，請參閱[允許使用者試用 Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro)。
 >
 >
 

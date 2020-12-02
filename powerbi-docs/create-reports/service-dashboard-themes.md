@@ -2,22 +2,22 @@
 title: 在 Power BI 服務中使用儀表板
 description: 了解如何在 Power BI 服務中使用自訂調色盤，並將其套用到整個儀表板
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/22/2018
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 57331a49d5020308ebc39fbcb42a1728e6167593
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9167a5931976cdcec710ee79b347fcd0f33ba378
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236994"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395294"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服務中使用儀表板佈景主題
-透過**儀表板主題**，您可以將某個色彩佈景主題套用到整個儀表板，例如公司色彩、季節性色彩，或是您可能想要套用的任何其他色彩佈景主題。 當您套用 [儀表板主題]  時，儀表板中的所有視覺效果都會使用您選擇的佈景主題色彩 (但有些例外，本文稍後會加以說明)。
+透過 **儀表板主題**，您可以將某個色彩佈景主題套用到整個儀表板，例如公司色彩、季節性色彩，或是您可能想要套用的任何其他色彩佈景主題。 當您套用 [儀表板主題]  時，儀表板中的所有視覺效果都會使用您選擇的佈景主題色彩 (但有些例外，本文稍後會加以說明)。
 
 ![使用佈景主題的範例儀表板](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 

@@ -2,20 +2,20 @@
 title: '如何將整份報表頁面釘選至 Power BI 儀表板 '
 description: 說明如何將整份動態報表頁面從報表釘選至 Power BI 儀表板。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 157fc47050d7210e1424bb922782c8a3af6e61fb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 29a0521620b335add8256c87e1e354c58f58584d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219244"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395179"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>將整份報表頁面釘選到 Power BI 儀表板上，做為動態磚
 另一種新增[儀表板磚](../consumer/end-user-tiles.md)的方式是釘選整份報表頁面。 這是可以一次輕鬆地釘選多個視覺效果的方法。  此外，當您釘選整個頁面時，磚即為 *動態* ；您可以直接在儀表板上與之互動。 且您對報表編輯器中任何視覺效果所做的變更 (如加入篩選或變更圖表中所使用的欄位) 也會反映在儀表板磚中。  

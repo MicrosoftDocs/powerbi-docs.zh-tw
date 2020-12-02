@@ -2,22 +2,22 @@
 title: 在 Power BI 報表中進行篩選和醒目提示
 description: 在 Power BI 報表中進行篩選和醒目提示的相關事項
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/23/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 708d57f6092029b3c82412336b54fce1ae0ca441
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9a793ff966f7560924f53357ce7518f0ede65c56
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280740"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393569"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示
- 本文介紹如何在 Power BI 服務中進行篩選和醒目提示。 其體驗幾乎與 Power BI Desktop 完全相同。 *篩選*會保留您最關切的資料，而將其他所有資料移除。 「醒目提示」  與篩選不同。 它不會移除資料，而是將一部分可見資料醒目提示，未醒目提示的資料仍保持可見但會變暗。
+ 本文介紹如何在 Power BI 服務中進行篩選和醒目提示。 其體驗幾乎與 Power BI Desktop 完全相同。 *篩選* 會保留您最關切的資料，而將其他所有資料移除。 「醒目提示」  與篩選不同。 它不會移除資料，而是將一部分可見資料醒目提示，未醒目提示的資料仍保持可見但會變暗。
 
 若要篩選 Power BI 中的報表並將其醒目提示，有許多種不同的方式。 將所有該類資訊放在同篇文章中會容易混淆，因此我們已加以細分成這些小節︰
 

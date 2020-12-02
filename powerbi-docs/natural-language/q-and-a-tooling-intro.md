@@ -2,17 +2,17 @@
 title: 用於訓練 Power BI 問與答 (預覽) 的問與答工具簡介
 description: Power BI 問與答工具簡介
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 08/31/2020
-ms.author: maggies
-ms.openlocfilehash: edcdd31a1b76aa823b11dd134467975acd77f3f4
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: e83a823908a89a300f9bbe97cfaaef19ede77fc8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764325"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393753"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>用於訓練 Power BI 問與答 (預覽) 的問與答工具簡介
 
@@ -62,13 +62,13 @@ ms.locfileid: "90764325"
 
 ### <a name="review-questions"></a>檢閱問題
 
-選取 [檢閱問題]**** 以查看租用戶 Power BI 服務中所使用的資料集清單。 [檢閱問題]**** 頁面也會顯示資料集擁有者、工作區和上次重新整理日期。 您可以從這裡選取資料集，然後查看使用者已詢問的問題。 此資料也會顯示無法辨識的字組。 這裡顯示的所有資料都是過去 28 天內資料。
+選取 [檢閱問題] 以查看租用戶 Power BI 服務中所使用的資料集清單。 [檢閱問題] 頁面也會顯示資料集擁有者、工作區和上次重新整理日期。 您可以從這裡選取資料集，然後查看使用者已詢問的問題。 此資料也會顯示無法辨識的字組。 這裡顯示的所有資料都是過去 28 天內資料。
 
 ![問與答的 [檢閱問題]](media/q-and-a-tooling-intro/qna-tooling-review-questions.png)
 
 ### <a name="teach-qa"></a>教導問與答
 
-[教學 Q&A]**** 區段可讓您訓練問與答來辨識字組。 若要開始進行，請鍵入一個問題，其中包含問與答無法辨識的一或多個字組。 問與答會提示您輸入該字詞的定義。 請輸入對應至該字組所代表內容的篩選條件或欄位名稱。 然後，問與答會重新解譯原始問題。 如果您對結果感到滿意，您可以儲存輸入。 若要深入了解，請參閱[教學 Q&A](q-and-a-tooling-teach-q-and-a.md)
+[教學 Q&A] 區段可讓您訓練問與答來辨識字組。 若要開始進行，請鍵入一個問題，其中包含問與答無法辨識的一或多個字組。 問與答會提示您輸入該字詞的定義。 請輸入對應至該字組所代表內容的篩選條件或欄位名稱。 然後，問與答會重新解譯原始問題。 如果您對結果感到滿意，您可以儲存輸入。 若要深入了解，請參閱[教學 Q&A](q-and-a-tooling-teach-q-and-a.md)
 
 ![Q&A 教學同義字預覽](media/q-and-a-tooling-intro/qna-tooling-teach-fixpreview.png)
 
@@ -101,13 +101,13 @@ ms.locfileid: "90764325"
 
 ### <a name="set-a-row-label"></a>設定資料列標籤
 
-資料列標籤可讓您定義哪一個資料行 (或「欄位」**) 最能識別資料表中的單一資料列。 例如，對於名為「客戶」的資料表，資料列標籤通常是「顯示名稱」。 提供此額外的中繼資料可讓問與答在使用者鍵入「依客戶顯示我的銷售額」時，繪製更有用的視覺效果。 問與答不會將「客戶」視為資料表，而是改用「顯示名稱」，並以橫條圖顯示每個客戶的銷售額。 您只能設定資料列標籤模型檢視。 
+資料列標籤可讓您定義哪一個資料行 (或「欄位」) 最能識別資料表中的單一資料列。 例如，對於名為「客戶」的資料表，資料列標籤通常是「顯示名稱」。 提供此額外的中繼資料可讓問與答在使用者鍵入「依客戶顯示我的銷售額」時，繪製更有用的視覺效果。 問與答不會將「客戶」視為資料表，而是改用「顯示名稱」，並以橫條圖顯示每個客戶的銷售額。 您只能設定資料列標籤模型檢視。 
 
 1. 在 Power BI Desktop 中，選取模型檢視。
 
-2. 選取一個資料表以顯示 [屬性]**** 窗格。
+2. 選取一個資料表以顯示 [屬性] 窗格。
 
-3. 在 [資料列標籤]**** 方塊中，選取一個欄位。
+3. 在 [資料列標籤] 方塊中，選取一個欄位。
 
 ## <a name="configure-the-linguistic-schema-advanced"></a>設定語言結構描述 (進階)
 

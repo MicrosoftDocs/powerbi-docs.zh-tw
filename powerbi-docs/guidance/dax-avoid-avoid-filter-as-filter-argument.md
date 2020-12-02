@@ -2,18 +2,18 @@
 title: DAX：避免使用 FILTER 作為篩選引數
 description: 使用 FILTER 函式作文篩選引數的指導。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.author: v-pemyer
-ms.openlocfilehash: abff4eafc741ea776180752147019cae3c744e2c
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 651b4f1323738809e19c0ee42f1dbe71f7bc3998
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964973"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394328"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX：避免使用 FILTER 作為篩選引數
 
@@ -85,7 +85,7 @@ CALCULATE(
 )
 ```
 
-在此範例中，也必須使用 FILTER 函式。 這是因為其需要評估**收益**量值，以排除未達到收益的月份。 當布林運算式當作篩選引數使用時，不可能使用量值。
+在此範例中，也必須使用 FILTER 函式。 這是因為其需要評估 **收益** 量值，以排除未達到收益的月份。 當布林運算式當作篩選引數使用時，不可能使用量值。
 
 ## <a name="recommendations"></a>建議
 

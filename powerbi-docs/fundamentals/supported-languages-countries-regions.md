@@ -1,20 +1,20 @@
 ---
 title: Power BI 支援的語言和國家 (地區)
 description: 請參閱 Power BI 服務、Power BI Desktop 和 Power BI 文件的支援語言和國家/地區清單。
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/23/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: da1ec0ec3a10adbd9771e13a97bcb17dcdf73273
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9bd968676e2e9413c0d366cc22980e0a6355e4f9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216904"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395018"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支援的語言和國家 (地區)
 
@@ -82,7 +82,7 @@ Power BI 會將功能表、按鈕、訊息和其他體驗項目翻譯成您的�
 我們正致力於將額外功能帶入其他語言，敬請期待。 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>選擇 Power BI 服務的語言
-1. 在 Power BI 服務中，選取**設定**圖示 ![Power BI 服務的螢幕擷取畫面，其中顯示設定圖示。](media/supported-languages-countries-regions/pbi_settings_icon.png) > [設定]。
+1. 在 Power BI 服務中，選取 **設定** 圖示 ![Power BI 服務的螢幕擷取畫面，其中顯示設定圖示。](media/supported-languages-countries-regions/pbi_settings_icon.png) > [設定]。
 2. 在 **一般** 索引標籤 > **語言**。
 3. 選取您的語言 > **套用**。
 

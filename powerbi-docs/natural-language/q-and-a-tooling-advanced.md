@@ -2,17 +2,17 @@
 title: 編輯問與答語言結構描述和新增片語 - Power BI Desktop
 description: 如何使用 Power BI Desktop 編輯 Power BI 問與答所使用的語言結構描述。
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/18/2019
-ms.author: mohaali
-ms.openlocfilehash: 9499dd99d89619d096d86ac676c54ebb214c3a55
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: ce01fc6c4dc34c614ac024240855301b3fb66968
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841840"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393661"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>編輯問與答語言結構描述和新增片語 - Power BI Desktop 
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答就更厲害了。 Power BI 問與答在您提出問題時，會盡力正確回答。 但如果想要得到更好的問與答互動，您可以改善答案。 其中一種方式是編輯語言結構描述。 

@@ -1,20 +1,20 @@
 ---
 title: 為報表建立 QR 代碼以用於 Power BI 行動裝置應用程式
 description: Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要搜尋即可直接連接到 Power BI 行動應用程式中的相關 BI 資訊。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/13/2018
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b13ad1c50e62351c693adee1026a0d78aafd2daa
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 7d163519162c6e7ab2cd1a13b10320d5c66796a8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264699"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395271"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>為 Power BI 的報表建立 QR 代碼以用於行動裝置應用程式
 Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽或搜尋即可直接連接到相關的 BI 資訊。

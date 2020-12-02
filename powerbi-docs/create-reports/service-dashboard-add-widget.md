@@ -2,20 +2,20 @@
 title: 將影像、影片和其他項目新增至儀表板
 description: 有關如何使用 [新增磚] 小工具將影像、影片、文字方塊、Web 程式碼和資料流資料磚新增至儀表板的文件。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 72306a6269df91a75b750628e3534bf5891fe6b0
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 27c5dba205ee396a2415259163e5dbfb8df11037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916904"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395432"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>將影像、影片和其他項目新增至儀表板
 
@@ -191,7 +191,7 @@ ms.locfileid: "92916904"
    ![含有四個磚的儀表板](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ### <a name="tips-for-embedding-web-content"></a>內嵌 Web 內容的提示
-* 若為 Iframe，請使用安全的來源。 如果您輸入 Iframe 內嵌程式碼並取得空白磚，則請確認 Iframe 來源未使用 *http* 。 如果使用的話，請將其變更為 *https* 。
+* 若為 Iframe，請使用安全的來源。 如果您輸入 Iframe 內嵌程式碼並取得空白磚，則請確認 Iframe 來源未使用 *http*。 如果使用的話，請將其變更為 *https*。
   
   ```html
   <iframe src="https://xyz.com">

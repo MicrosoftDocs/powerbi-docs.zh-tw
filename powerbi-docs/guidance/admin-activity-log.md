@@ -2,18 +2,18 @@
 title: 存取 Power BI 活動記錄
 description: 適用於 Power BI 活動記錄的指引與範例 PowerShell 指令碼。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: sample
 ms.date: 09/03/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 12d3bcdaa3e81318d5b5db4655c2e93ee0f11674
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 18ce155419f712cce2c4973949cd02ffbd870724
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525079"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394650"
 ---
 # <a name="access-the-power-bi-activity-log"></a>存取 Power BI 活動記錄
 

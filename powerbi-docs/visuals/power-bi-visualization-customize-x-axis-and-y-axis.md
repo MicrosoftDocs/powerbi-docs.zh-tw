@@ -1,21 +1,21 @@
 ---
 title: 自訂 X 軸和 Y 軸屬性
 description: 自訂 X 軸和 Y 軸屬性
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b327ca5f4c19638f4afe72abce763601e68fc943
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 24c10880d76fbe2bbdbf5e20d24f6f52e1262eb5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413146"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393914"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自訂 X 軸和 Y 軸屬性
 
@@ -81,13 +81,13 @@ X 軸標籤會顯示在圖表中的直條下方。 現在，它們是淺灰色�
 
 4. 設定文字色彩、大小和字型的格式：
 
-    - **色彩** ：選取 [黑色]
+    - **色彩**：選取 [黑色]
 
-    - **文字大小** ：輸入 *14*
+    - **文字大小**：輸入 *14*
 
-    - **字型家族** ：選取 [Arial Black]
+    - **字型家族**：選取 [Arial Black]
 
-    - **內部邊框間距** ：輸入 40%
+    - **內部邊框間距**：輸入 40%
 
         ![傾斜標籤的螢幕擷取畫面](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
     
@@ -107,17 +107,17 @@ X 軸標籤會顯示在圖表中的直條下方。 現在，它們是淺灰色�
 
     ![標題滑桿](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-title-on.png)
 
-    您會注意到的第一件事，就是您的視覺效果現在有了預設的 X 軸標題。  在本例中是 **FiscalMonth** 。
+    您會注意到的第一件事，就是您的視覺效果現在有了預設的 X 軸標題。  在本例中是 **FiscalMonth**。
 
    ![底部顯示標題的圖表](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-title.png)
 
 1. 設定標題文字色彩、大小和字型的格式：
 
-    - **標題色彩** ：選取 [橙色]
+    - **標題色彩**：選取 [橙色]
 
-    - **軸標題** ：輸入「會計月份」
+    - **軸標題**：輸入「會計月份」
 
-    - **標題文字大小** ：輸入 18
+    - **標題文字大小**：輸入 18
 
     完成自訂之後，堆疊直條圖看起來像這樣：
 
@@ -145,9 +145,9 @@ Y 軸標籤預設會顯示在左邊。 現在，它們是淺灰色、小字，�
 
 1. 設定文字色彩、大小和字型的格式：
 
-    - **色彩** ：選取 [黑色]
+    - **色彩**：選取 [黑色]
 
-    - **文字大小** ：輸入 10
+    - **文字大小**：輸入 10
 
     - [顯示單位]：選取 [百萬]
 
@@ -159,9 +159,9 @@ Y 軸標籤預設會顯示在左邊。 現在，它們是淺灰色、小字，�
 ### <a name="customize-the-gridlines"></a>自訂格線
 變更色彩並增加筆觸，讓格線更明顯：
 
-- **色彩** ：選取 [橙色]
+- **色彩**：選取 [橙色]
 
-- **筆觸** ：輸入 *2*
+- **筆觸**：輸入 *2*
 
 在進行所有自訂之後，直條圖看起來應該類似這樣：
 
@@ -217,7 +217,7 @@ Y 軸標籤預設會顯示在左邊。 現在，它們是淺灰色、小字，�
    ![自訂的雙重 Y 軸圖表螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-titles-on.png)
 
 1. 格式化標題。 在此範例中，我們將其中一個標題縮短，並減小兩個標題的字型大小。 
-    - 字型大小： **9**
+    - 字型大小：**9**
     - 縮短第一個 Y 軸 (直條圖) 的 [軸標題]：去年與今年的銷售額。 
     
      ![完整標題的組合圖螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
