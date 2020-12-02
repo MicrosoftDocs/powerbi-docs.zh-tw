@@ -5,22 +5,22 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 35c118171ef5202e24e5997e321b698e3b137387
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634979"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396467"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 支援的 Power BI 視覺效果
 
-在 **Power BI Desktop** 與 **Power BI 服務**中，您不必具備任何 R 的知識或撰寫任何 R 指令碼，就能使用 R 提供技術的 Power BI 視覺效果。 這讓您能夠充分運用 R 視覺效果的分析與視覺效果功能及 R 指令碼，而不必親自學習 R 或設計程式。
+在 **Power BI Desktop** 與 **Power BI 服務** 中，您不必具備任何 R 的知識或撰寫任何 R 指令碼，就能使用 R 提供技術的 Power BI 視覺效果。 這讓您能夠充分運用 R 視覺效果的分析與視覺效果功能及 R 指令碼，而不必親自學習 R 或設計程式。
 
-若要使用 R 提供技術的 Power BI 視覺效果，您必須先從 [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 的 Power BI **Power BI 視覺效果**資源庫選取並下載想要使用的 R 自訂視覺效果。
+若要使用 R 提供技術的 Power BI 視覺效果，您必須先從 [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 的 Power BI **Power BI 視覺效果** 資源庫選取並下載想要使用的 R 自訂視覺效果。
 
 ![R 視覺效果 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
@@ -28,7 +28,7 @@ ms.locfileid: "91634979"
 
 ## <a name="use-r-power-bi-visuals"></a>使用 R Power BI 視覺效果
 
-若要使用 R 提供技術的 Power BI 視覺效果，您必須先從 **Power BI 視覺效果**資源庫下載每個視覺效果，然後就可以像使用 **Power BI Desktop** 中任何其他類型的視覺效果一樣地使用它。 取得 Power BI 視覺效果的方法有兩種：您可以從線上 **AppSource** 網站下載，或在 **Power BI Desktop** 中瀏覽並取得。 
+若要使用 R 提供技術的 Power BI 視覺效果，您必須先從 **Power BI 視覺效果** 資源庫下載每個視覺效果，然後就可以像使用 **Power BI Desktop** 中任何其他類型的視覺效果一樣地使用它。 取得 Power BI 視覺效果的方法有兩種：您可以從線上 **AppSource** 網站下載，或在 **Power BI Desktop** 中瀏覽並取得。 
 
 ### <a name="get-power-bi-visuals-from-appsource"></a>從 AppSource 取得 Power BI 視覺效果
 
@@ -42,14 +42,14 @@ ms.locfileid: "91634979"
 
    ![R 視覺效果 2b](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2b.png)
 
-3. 從資源庫選取您想要使用的**視覺效果**，就會前往視覺效果的說明頁面。 選取 [立即取得]  按鈕即可下載。
+3. 從資源庫選取您想要使用的 **視覺效果**，就會前往視覺效果的說明頁面。 選取 [立即取得]  按鈕即可下載。
 
    > [!NOTE]
-    > 若要在 **Power BI Desktop** 中撰寫，您必須將 R 安裝在本機電腦上。 但當使用者想要在 **Power BI 服務**中檢視 R 提供技術的視覺效果時，則不需要將 R 安裝在本機。
+    > 若要在 **Power BI Desktop** 中撰寫，您必須將 R 安裝在本機電腦上。 但當使用者想要在 **Power BI 服務** 中檢視 R 提供技術的視覺效果時，則不需要將 R 安裝在本機。
 
    ![R 視覺效果 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   您無須先安裝 R 才能在 **Power BI 服務**中使用 R 提供技術的 Power BI 視覺效果，但是如果您要在 **Power BI Desktop** 中使用 R 提供技術的 Power BI 視覺效果，則「必須」  於本機上安裝 R。 您可以從下列位置下載 R：
+   您無須先安裝 R 才能在 **Power BI 服務** 中使用 R 提供技術的 Power BI 視覺效果，但是如果您要在 **Power BI Desktop** 中使用 R 提供技術的 Power BI 視覺效果，則「必須」  於本機上安裝 R。 您可以從下列位置下載 R：
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
@@ -74,7 +74,7 @@ ms.locfileid: "91634979"
 
     ![R 視覺效果 10](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
 
-    如同其他任何 **Power BI Desktop** 視覺效果，您可以將此報表及其 R 提供技術的視覺效果一併發佈至 **Power BI 服務**並與其他人分享。
+    如同其他任何 **Power BI Desktop** 視覺效果，您可以將此報表及其 R 提供技術的視覺效果一併發佈至 **Power BI 服務** 並與其他人分享。
 
     由於視覺效果不斷增加，請時常查看資源庫。
 
@@ -90,7 +90,7 @@ ms.locfileid: "91634979"
 
 ## <a name="contribute-r-powered-power-bi-visuals"></a>貢獻 R 支援的 Power BI 視覺效果
 
-如果您自行建立 R 視覺效果以用於報表中，您可在 **Power BI 視覺效果資源庫**中提供您的自訂視覺效果，進而與各地使用者共用。 貢獻會透過 GitHub 進行，程序概述於下列位置：
+如果您自行建立 R 視覺效果以用於報表中，您可在 **Power BI 視覺效果資源庫** 中提供您的自訂視覺效果，進而與各地使用者共用。 貢獻會透過 GitHub 進行，程序概述於下列位置：
 
 * [ R 支援的 Power BI 視覺效果資源庫](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 

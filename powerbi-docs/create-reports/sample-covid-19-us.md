@@ -1,21 +1,21 @@
 ---
 title: 適用於美國州和地方政府的 COVID-19 追蹤範例
 description: 下載並修改具有 COVID-19 全球大流行美國州和地方資料的範例報表。
-author: LukaszPawlowski-MS
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: e6f8e02efa7dc2e56a945aaffcf22d8497052404
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83277885"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396007"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>適用於美國州和地方政府的 COVID-19 追蹤範例
 
@@ -145,7 +145,7 @@ USAFacts 資料是以需要歸屬的「創用 CC 授權條款 (Creative Commons 
 
     本文[從 Power BI Desktop 連線到網頁](../connect-data/desktop-connect-to-web.md)，提供從 Web 載入資料的詳細資訊。
     
-然後，您可以使用 Power BI Desktop 將資料視覺化。 最後，使用**選項 2：** [將您的報表發佈至 Power BI 服務](#publish-your-report-to-the-power-bi-service)中的步驟，發佈報表並且建立自訂內嵌程式碼。 
+然後，您可以使用 Power BI Desktop 將資料視覺化。 最後，使用 **選項 2：** [將您的報表發佈至 Power BI 服務](#publish-your-report-to-the-power-bi-service)中的步驟，發佈報表並且建立自訂內嵌程式碼。 
 
 ## <a name="option-4-use-the-covid-19-us-tracking-template-app"></a>選項 4：使用 COVID-19 美國追蹤報表範本應用程式
 

@@ -2,24 +2,24 @@
 title: 使用見解來說明視覺效果中的增減情況 (預覽)
 description: 使用 Power BI Desktop 輕鬆獲得增減情況的深入解析
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 02/21/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a0ba50405605495ed819ab8264050882be9a47
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e8b483af507aa175e6d804bf0af70bdd0da5372
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239120"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396674"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>在 Power BI Desktop 中套用見解以說明視覺效果中的波動 (預覽)
 
-在視覺效果中，您經常會看到值大幅增加，然後急遽下降，並想知道造成此波動的原因。 使用 **Power BI Desktop** 中的**見解**，只要按幾下就能了解原因。
+在視覺效果中，您經常會看到值大幅增加，然後急遽下降，並想知道造成此波動的原因。 使用 **Power BI Desktop** 中的 **見解**，只要按幾下就能了解原因。
 
 例如，假設下列視覺效果依「年」  和「季」  顯示「銷售額」  。 銷售額在 2014 年大幅減少，並在「第 1 季」  與「第 2 季」  之間急遽下降。 在此情況下，您可以探索資料來協助說明發生的變更。 
 
@@ -108,7 +108,7 @@ ms.locfileid: "85239120"
 ## <a name="considerations-and-limitations"></a>考量與限制
 因為這些見解都是以先前的資料點變更為依據，所以選取視覺效果中的第一個資料點時，就無法使用此功能。 
 
-下列清單是目前不支援的**增減情況說明**案例集合：
+下列清單是目前不支援的 **增減情況說明** 案例集合：
 
 * TopN 篩選
 * 包含/排除篩選

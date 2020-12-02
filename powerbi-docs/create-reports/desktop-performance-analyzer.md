@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用效能分析器檢查報表元素效能
 description: 了解視覺效果和報表元素在資源使用量和回應性方面執行的情況
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/23/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 58cf8d2339663e4c02fda732fd4abd9c4c498576
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6168a1fb8d64444b703c6acac21c3bac67c4219a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239092"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396490"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>使用效能分析器檢查報表元素效能
 

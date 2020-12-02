@@ -2,19 +2,19 @@
 title: 變更 Power BI 報表的設定
 description: 變更 Power BI 服務中報表的設定
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dd87501a6865b9ea450e3154ee2ac56e0710a067
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92463027"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396168"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>變更 Power BI 報表的設定
 
@@ -69,7 +69,7 @@ ms.locfileid: "92463027"
 
 報表 [設定] 窗格中有三個設定，其用來控制讀者與報表篩選的互動。 下列連結會連接到[設計 Power BI 報表中的篩選](power-bi-report-filter.md)一文，以取得每個設定的詳細資料。
 
-- **永續性篩選** 允許讀者[在報表上儲存篩選](power-bi-report-filter.md#allow-saving-filters)。
+- **永續性篩選** 允許讀者 [在報表上儲存篩選](power-bi-report-filter.md#allow-saving-filters)。
 - **篩選體驗** 還有兩個設定：
     
     允許報表讀者[變更篩選類型](power-bi-report-filter.md#restrict-changes-to-filter-type)。
@@ -78,7 +78,7 @@ ms.locfileid: "92463027"
 
 ## <a name="export-data"></a>匯出資料
 
-根據預設，從報表的視覺效果中，[報表讀者可匯出摘要或基礎資料](../consumer/end-user-export.md)。 有了 **匯出資料** ，您就可以讓讀者只匯出摘要資料，或完全不從報表中匯出資料。
+根據預設，從報表的視覺效果中，[報表讀者可匯出摘要或基礎資料](../consumer/end-user-export.md)。 有了 **匯出資料**，您就可以讓讀者只匯出摘要資料，或完全不從報表中匯出資料。
 
 ## <a name="personalize-visuals"></a>將視覺效果個人化
 

@@ -2,18 +2,18 @@
 title: 在 Power BI 行動裝置應用程式中離線檢視資料
 description: 閱讀以了解在行動裝置應用程式中 (而非行動瀏覽器中) 檢視 Power BI 的優點：即使未連線到網路，您仍可以查看資料。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
-ms.author: painbar
-ms.openlocfilehash: 3b7f578040a49438ccca89fd9112a3ca5079a20a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: addf608d6a3d7d51203dc22534eb8e9b9777ce49
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856016"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397134"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中離線檢視資料
 適用於︰
@@ -23,7 +23,7 @@ ms.locfileid: "90856016"
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 在行動應用程式中 (而非行動瀏覽器中) 檢視 Power BI 的其中一個優點，就是即使未連接到網路，您仍可以查看資料。 
 

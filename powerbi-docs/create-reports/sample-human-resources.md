@@ -2,19 +2,19 @@
 title: 人力資源範例：觀看導覽
 description: 適用於 Power BI 的人力資源範例：觀看導覽
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b663e9a43235b98907d496c2a6ad881ccc54edf
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 94cb0d7f5ac83220f3b37f878add4f5bfa2caaf6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349716"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395869"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的人力資源範例：觀看導覽
 
@@ -78,7 +78,7 @@ ms.locfileid: "83349716"
 3. 查看以下感興趣的項目：
 
     * [新進員工、新進員工 SPLY 和依月份在職員工 YoY % 變更]  組合圖表顯示，比起去年，我們今年每個月份都雇用更多員工。 有幾個月更是大幅成長。
-    * 在 [ 依地區和民族的新進員工和在職員工]  組合圖中，可以注意到我們在**東部**地區雇用的員工變少了。
+    * 在 [ 依地區和民族的新進員工和在職員工]  組合圖中，可以注意到我們在 **東部** 地區雇用的員工變少了。
     * [依年齡群組的新進員工 YoY Var]  瀑布圖顯示我們雇用的主要是年輕員工。 此趨勢可能是因為這些工作大部分是兼職性質。
     * [依性別的新進員工]  圓形圖顯示性別分配大略平均。
 

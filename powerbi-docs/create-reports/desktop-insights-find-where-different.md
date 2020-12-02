@@ -2,24 +2,24 @@
 title: 使用見解來找出分佈的不同之處 (預覽)
 description: 在 Power BI Desktop 中輕鬆獲得見解，找出圖表中所顯示分佈的不同之處
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 86f369efe5cb5159cd2d073e411f52945c194691
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632518"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396628"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>套用 Power BI Desktop 中的見解以找出分佈的不同之處 (預覽)
 
-在視覺效果中，您經常會看到資料點，並想知道不同類別的分佈是否會相同。 使用 **Power BI Desktop** 中的**見解**，只要按幾下就能查明。
+在視覺效果中，您經常會看到資料點，並想知道不同類別的分佈是否會相同。 使用 **Power BI Desktop** 中的 **見解**，只要按幾下就能查明。
 
 假設下列視覺效果依「國家/地區」  顯示「總銷售額」  。 如圖表所示，銷售額大部分來自美國，佔總銷售額的 57%，而來自其他國家/地區的比重則相對較少。 在此情況下，探索不同子母體擴展中是否會看到相同的分佈通常會很有趣。 例如，這在所有年份、所有銷售管道及所有產品類別是否都相同？  雖然您可以套用不同的篩選並以視覺方式比較結果，但這樣做可能相當耗時且容易出錯。 
 
@@ -126,7 +126,7 @@ Channel = Store
 * [通道] = [直接] (若其影像程度遠大於 [儲存]，則只會列出 [直接])
 
 ## <a name="considerations-and-limitations"></a>考量與限制
-下列清單是目前「深入解析」**** 不支援的案例集合：
+下列清單是目前「深入解析」不支援的案例集合：
 
 * TopN 篩選
 * 量值篩選

@@ -2,18 +2,18 @@
 title: 快速入門：在行動裝置應用程式中探索儀表板及報表
 description: 在此快速入門中，您將探索 Power BI 行動裝置應用程式中的範例儀表板和報表。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
-ms.author: painbar
-ms.openlocfilehash: 52728d6cb2daa1bb2753454e8b19a7e06800d080
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 35a942826c76ed1c202bcc5a3450c65374402c46
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668497"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397548"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入門：在 Power BI 行動裝置應用程式中探索儀表板和報表
 在本快速入門中，您可快速瀏覽 Power BI 行動裝置應用程式，以及探索範例儀表板和報表。 您會看到 iOS 版 Power BI 應用程式，但在其他裝置上也可以輕鬆掌握。
@@ -25,7 +25,7 @@ ms.locfileid: "91668497"
 | iPhone | iPad | Android | Windows 10 |
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 儀表板是您公司生命週期和流程的入口網站。 儀表板是總覽，用於監控企業目前狀態的單一位置。 報表是資料的互動式檢視，以視覺效果顯示資料的各種發現與見解及需要深入了解的事項。 
 
@@ -33,7 +33,7 @@ ms.locfileid: "91668497"
 
 ## <a name="prerequisites"></a>必要條件
 
-* **註冊 Power BI**：如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
+* **註冊 Power BI**：如果您尚未註冊 Power BI，請先進行 [免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 * **為裝置安裝 Power BI 應用程式**：從 [App store](https://apps.apple.com/app/microsoft-power-bi/id929738808) (iOS) 或 [Google play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409) (Android) 下載 Power BI 行動裝置應用程式**。
 * **下載零售分析範例**：本快速入門的第一個步驟是下載 Power BI 服務中的零售分析範例。 [了解如何下載範例](./mobile-apps-download-samples.md)到您的 Power BI 帳戶以開始使用。 請務必選擇零售分析範例。
 
@@ -42,7 +42,7 @@ ms.locfileid: "91668497"
 ## <a name="view-a-dashboard-on-your-mobile-device"></a>在行動裝置上檢視儀表板
 1. 在裝置上開啟 Power BI 應用程式並使用 Power BI 帳戶認證登入，這與您在瀏覽器的 Power BI 服務中所使用認證相同。
  
-1. 現在，點選**工作區**圖示 ![工作區圖示](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-workspaces-button.png)，選擇 [我的工作區]，然後點選開啟 [零售分析範例]。
+1. 現在，點選 **工作區** 圖示 ![工作區圖示](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-workspaces-button.png)，選擇 [我的工作區]，然後點選開啟 [零售分析範例]。
 
     ![[我的工作區] 中的儀表板](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    

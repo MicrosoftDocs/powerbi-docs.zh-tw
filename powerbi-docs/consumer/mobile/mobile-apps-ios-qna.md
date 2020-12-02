@@ -2,18 +2,18 @@
 title: iOS 應用程式中的問與答虛擬分析師 - Power BI
 description: 請嘗試用您自己的文字，在 iOS 裝置上向 Power BI 行動裝置應用程式的問與答虛擬分析師詢問這份範例資料的相關問題。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2422e747fc47f9e9b51f723f5e7beeeceaf91baa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634404"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397318"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 應用程式中的問與答虛擬分析師 - Power BI
 

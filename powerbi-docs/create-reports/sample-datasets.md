@@ -2,20 +2,20 @@
 title: 取得 Power BI 範例
 description: 適用於 Power BI 的範例內容套件、應用程式、.pbix 檔案及 Excel 資料集
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953045"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396192"
 ---
 # <a name="get-samples-for-power-bi"></a>取得 Power BI 範例
 您是否剛接觸 Power BI 並想要試用，但沒有任何資料；  或者，您可能想要查看說明 Power BI 功能的報表。 交給我們吧。
@@ -56,7 +56,7 @@ Power BI 報表設計師 Miguel Myers 和 Chris Hamill 建立銷售與退貨 .pb
 
 :::image type="content" source="media/sample-datasets/power-bi-sales-marketing-app.png" alt-text="銷售與行銷應用程式圖格":::
 
-當您開啟時，請選取**探索範例資料**。 
+當您開啟時，請選取 **探索範例資料**。 
 
 :::image type="content" source="media/sample-datasets/power-bi-explore-app.png" alt-text="探索應用程式":::
 
@@ -76,7 +76,7 @@ Power BI 報表設計師 Miguel Myers 和 Chris Hamill 建立銷售與退貨 .pb
 
 :::image type="content" source="media/sample-datasets/power-bi-update-app.png" alt-text="更新應用程式按鈕":::
 
-完成 [設定]  索引標籤，包括選擇**應用程式佈景主題色彩**。 
+完成 [設定]  索引標籤，包括選擇 **應用程式佈景主題色彩**。 
 
 :::image type="content" source="media/sample-datasets/power-bi-app-setup.png" alt-text="選取應用程式設定":::
 
@@ -245,7 +245,7 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
 
 ### <a name="explore-excel-samples-inside-excel"></a>探索 Excel 內的 Excel 範例
 
-(選擇性) 想了解 Excel 活頁簿中的資料如何轉換為 Power BI 資料集和報表嗎？ *在 Excel 中*開啟 Excel 範例，瀏覽工作表就會得到一些答案。
+(選擇性) 想了解 Excel 活頁簿中的資料如何轉換為 Power BI 資料集和報表嗎？ *在 Excel 中* 開啟 Excel 範例，瀏覽工作表就會得到一些答案。
 
 - 第一次在 Excel 中開啟範例活頁簿時，您可能會看到兩個警告。 第一個警告說明活頁簿是在受保護的檢視中。 選取 [啟用編輯]  。 第二個警告可能指出活頁簿具有外部資料連線。 選取 [啟用內容]  。
 - 每個活頁簿都包含數個 Power View 工作表。 如果您想要在 Excel 中查看 Power View 工作表，您需要下載封裝的登錄機碼來[啟用 Power View 增益集](https://support.office.com/article/flash-silverlight-and-shockwave-controls-blocked-in-microsoft-office-55738f12-a01d-420e-a533-7cef1ff6aeb1)。

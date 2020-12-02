@@ -2,19 +2,19 @@
 title: 適用於 Power BI 的商機分析範例：觀看導覽
 description: 適用於 Power BI 的商機分析範例：觀看導覽
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 93ad6136362f81c7dedf25cbe23e251fbb8ac92f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 63bbbedd24facfdd485f14b96eb608efc001dd55
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348957"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395800"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的商機分析範例：觀看導覽
 
@@ -96,7 +96,7 @@ ms.locfileid: "83348957"
 * 東部是我們商機計數最大的地區。  
 * 在 [依區域劃分的商機計數]  圓形圖中，依次選取每個區域，以依區域篩選頁面。 在每個地區中，請注意合作夥伴都會更積極追求大商機。   
 * [由夥伴帶動和商機大小劃分的商機計數]  直條圖顯示，大部分的大型商機都是夥伴帶動，而大部分的中小型商機則不是如此。
-* 在 [依銷售階段劃分的商機計數]  橫條圖中，依次選取每個**銷售階段**，以查看區域計數中的差異。 請注意，雖然東部區域擁有最大的商機計數，但解決方案、提案和定案銷售階段中的所有三個區域會有為數相當的計數。 此結果表示我們在中部和西部區域有更高的成交率。
+* 在 [依銷售階段劃分的商機計數]  橫條圖中，依次選取每個 **銷售階段**，以查看區域計數中的差異。 請注意，雖然東部區域擁有最大的商機計數，但解決方案、提案和定案銷售階段中的所有三個區域會有為數相當的計數。 此結果表示我們在中部和西部區域有更高的成交率。
 
 ### <a name="revenue-analysis-page"></a>[營收分析] 頁面
 此頁會採取類似的資料檢視方式，但改由營收的角度而不是計數的角度來看。  

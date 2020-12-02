@@ -2,19 +2,19 @@
 title: 適用於 Power BI 的銷售與行銷範例：觀看導覽
 description: 適用於 Power BI 的銷售與行銷範例：觀看導覽
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 95f9ebd689f06fcacde9819789e1240f2dd6c3d3
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: bf24a42e49585fb560fcddec316ab8f218878f86
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025971"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395685"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的銷售與行銷範例：觀看導覽
 
@@ -65,10 +65,10 @@ VanArsdel 有許多競爭對手，但仍是該產業的市場領導者。 CMO �
 讓我們開始瀏覽儀表板並查看 CMO 已釘選的圖格。 我們可以看到我們的市場佔有率、銷售和人氣的相關資訊。 這些資料是依區域、時間和競爭對手細分。
 
 * 左欄的數字磚顯示去年產業銷售量 (50,000)、市場佔有率 (32.86%)、銷售量 (16,000)、人氣指數 (68)、人氣落差 (4) 及售出單位總量 (100 萬)。
-* 最上方折線圖 ( **% 單位市場佔有率與連續 12 個月的 % 單位市場佔有率** ) 顯示市場佔有率隨時間波動的情況。 注意 6 月份的大幅下滑。 我們之前已上升一段時間的連續 12 個月 (R12M) 市佔率現在開始停滯。
-* 我們最大的競爭對手是 Aliqui，如中間直條圖磚 ( **年初迄今單位總量差異 %** ) 中所示。
+* 最上方折線圖 ( **% 單位市場佔有率與連續 12 個月的 % 單位市場佔有率**) 顯示市場佔有率隨時間波動的情況。 注意 6 月份的大幅下滑。 我們之前已上升一段時間的連續 12 個月 (R12M) 市佔率現在開始停滯。
+* 我們最大的競爭對手是 Aliqui，如中間直條圖磚 (**年初迄今單位總量差異 %** ) 中所示。
 * 我們大多數的業務都在東部和中部地區。
-* 底部折線圖 ( **2014 年單位總量** ) 顯示我們在 6 月份的下滑不是季節性情況；沒有任何競爭對手顯示相同的趨勢。
+* 底部折線圖 (**2014 年單位總量**) 顯示我們在 6 月份的下滑不是季節性情況；沒有任何競爭對手顯示相同的趨勢。
 * 右側的 [整體單位總量]  和 [年初迄今單位總量]  磚會依市場區隔和區域/製造商顯示銷售單位數。 我們產業最大的市場區隔是 [生產力]  和 [便利性]  。
 
 ## <a name="use-qa-to-dig-a-little-deeper"></a>使用問與答更深入鑽研
@@ -77,7 +77,7 @@ VanArsdel 有許多競爭對手，但仍是該產業的市場領導者。 CMO �
 
 ### <a name="which-segments-drive-our-sales-do-they-match-the-industry-trend"></a>哪些市場區隔可帶動銷售？ 它們符合產業趨勢嗎？
 1. 選取 [依市場區隔的整體單位總量]  磚以開啟問與答，然後填入查詢「依市場區隔的單位總量」  。
-2. 在現有查詢的結尾，新增： *for VanArsdel* 。 問與答可解譯問題，並顯示答案與已更新的圖表。 請注意，我們產品量大部分是來自 [便利性]  和 [合適性]  市場區隔。
+2. 在現有查詢的結尾，新增：*for VanArsdel*。 問與答可解譯問題，並顯示答案與已更新的圖表。 請注意，我們產品量大部分是來自 [便利性]  和 [合適性]  市場區隔。
 
    ![問與答的問題：VanArsdel 依市場區隔的單位總量](media/sample-sales-and-marketing/sales2.png)
 3. 我們在 [合適性]  和 [便利性]  兩個類別的市佔率很高；這些都是我們具競爭力的市場區隔。

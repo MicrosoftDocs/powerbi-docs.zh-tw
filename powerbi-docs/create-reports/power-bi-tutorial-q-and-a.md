@@ -2,18 +2,18 @@
 title: 使用 Power BI 問與答來探索及建立視覺效果
 description: 如何使用 Power BI 問與答在儀表板和報表中建立新視覺效果。
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 01ab8e63785680ea4fcd30cee170297f1cf1d674
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633484"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396122"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>使用 Power BI 問與答來探索您的資料及建立視覺效果
 
@@ -31,7 +31,7 @@ ms.locfileid: "91633484"
 
 ![檢視相關的報表和資料集](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-問與答問題方塊位於儀表板的左上角，這也是您用自然語言輸入問題的地方。 看不到問與答方塊嗎？ 請參閱**取用者問與答**文章中的[考量與疑難排解](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting)。  問與答會辨識您輸入的文字，然後找出哪裡 (哪個資料集) 可尋找解答。 問與答也可以用自動完成、重新描述，和其他文字及視覺輔助工具，協助您建立問題。
+問與答問題方塊位於儀表板的左上角，這也是您用自然語言輸入問題的地方。 看不到問與答方塊嗎？ 請參閱 **取用者問與答** 文章中的 [考量與疑難排解](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting)。  問與答會辨識您輸入的文字，然後找出哪裡 (哪個資料集) 可尋找解答。 問與答也可以用自動完成、重新描述，和其他文字及視覺輔助工具，協助您建立問題。
 
 ![顯示 Power BI 儀表板的螢幕擷取畫面，其中包含詢問與資料相關問題的選項。](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 

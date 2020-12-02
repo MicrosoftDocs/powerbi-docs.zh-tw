@@ -2,25 +2,25 @@
 title: 在 Power BI Desktop 中使用內嵌階層標籤
 description: 在 Power BI Desktop 中使用內嵌階層標籤
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c840565e39e344011588f8d47925e435eb019b37
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e9938c1c65e8e5a69f59365b89a10a449c3cf39
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233728"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396789"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>在 Power BI Desktop 中使用內嵌階層標籤
-**Power BI Desktop** 支援**內嵌階層標籤**，這是兩個階層式切入加強功能的其中一個。 目前處於開發階段的第二個功能，能夠使用巢狀的階層標籤 (敬請期待，我們會經常更新)。   
+**Power BI Desktop** 支援 **內嵌階層標籤**，這是兩個階層式切入加強功能的其中一個。 目前處於開發階段的第二個功能，能夠使用巢狀的階層標籤 (敬請期待，我們會經常更新)。   
 
 ## <a name="how-inline-hierarchy-labels-work"></a>內嵌階層標籤的運作方式
-有了內嵌階層標籤，使用 [全部展開]  功能展開視覺效果時，就可以查看階層標籤。 查看這些階層標籤的一大好處是，展開您的階層式資料時，可以選擇依照不同階層標籤來**排序**。
+有了內嵌階層標籤，使用 [全部展開]  功能展開視覺效果時，就可以查看階層標籤。 查看這些階層標籤的一大好處是，展開您的階層式資料時，可以選擇依照不同階層標籤來 **排序**。
 
 ### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>使用內建的 [展開] 功能 (不含依階層標籤排序)
 觀看內嵌階層標籤如何運作之前，讓我們先複習 [Expand to next level] \(展開至下一個層級\)  功能的預設行為。 這樣有助於我們了解內嵌階層標籤有多麼好用。
@@ -68,7 +68,7 @@ ms.locfileid: "85233728"
 
 可能造成視覺效果卡在展開狀態的步驟：
 
-1. 啟用**內嵌階層標籤**功能
+1. 啟用 **內嵌階層標籤** 功能
 2. 您建立具有階層的視覺效果
 3. 然後 [全部展開]  並儲存檔案
 4. 接著 *停用***內嵌階層標籤** 功能，並重新啟動 Power BI Desktop
@@ -76,10 +76,10 @@ ms.locfileid: "85233728"
 
 如果您不巧執行了這些步驟，而且視覺效果卡在展開的模式，您可以採取以下動作來針對這些錯誤進行疑難排解：
 
-1. 重新啟用**內嵌階層標籤**功能，並重新啟動 Power BI Desktop
+1. 重新啟用 **內嵌階層標籤** 功能，並重新啟動 Power BI Desktop
 2. 重新開啟您的檔案，並向上切入至受影響的視覺效果頂端
 3. 儲存檔案
-4. 停用**內嵌階層標籤**功能，然後重新啟動 Power BI Desktop
+4. 停用 **內嵌階層標籤** 功能，然後重新啟動 Power BI Desktop
 5. 重新開啟檔案
 
 或者，您可以刪除視覺效果再重新建立。

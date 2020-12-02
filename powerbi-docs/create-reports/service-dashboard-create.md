@@ -2,19 +2,19 @@
 title: 從報表建立 Power BI 儀表板
 description: 從報表建立 Power BI 儀表板
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/17/2019
-ms.author: maggies
-ms.openlocfilehash: f1892af9d943df1f4abf39aa55ae99c5e6ee1b34
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4482fc3317b1ca10589645f19c22af31c8f8a80a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633415"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395547"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>從報表建立 Power BI 儀表板
 您已閱讀 [Power BI 的儀表板簡介](service-dashboards.md)，現在想要建立自己的儀表板。 建立儀表板的方式有很多種。 例如，您可以建立儀表板：從報表、從頭建立、從資料集、或複製現有的儀表板。  
@@ -78,7 +78,7 @@ ms.locfileid: "91633415"
 4. 因為要建立新的儀表板，所以選取 [新增儀表板]  選項並為其命名。
 
     ![顯示 [釘選到儀表板] 視窗的螢幕擷取畫面。](media/service-dashboard-create/power-bi-pin-tile.png)
-5. 當您選取 [釘選]  時，Power BI 會在目前的工作區中建立新的儀表板。 在**已釘選到儀表板**訊息出現後，請選取 [移至儀表板]  。 如果系統提示您儲存報表，請選擇 [儲存]  。
+5. 當您選取 [釘選]  時，Power BI 會在目前的工作區中建立新的儀表板。 在 **已釘選到儀表板** 訊息出現後，請選取 [移至儀表板]  。 如果系統提示您儲存報表，請選擇 [儲存]  。
 
     ![顯示成功訊息的螢幕擷取畫面，其中已彈出 [前往儀表板] 選項。](media/service-dashboard-create/power-bi-pin-success.png)
 

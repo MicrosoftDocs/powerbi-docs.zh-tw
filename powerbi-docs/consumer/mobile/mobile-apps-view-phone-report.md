@@ -2,18 +2,18 @@
 title: 檢視為手機最佳化的 Power BI 報表
 description: 了解與報表頁面進行互動，該頁面已針對在 Power BI 手機應用程式中檢視進行最佳化。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: painbar
-ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6b2f8a7f7197d4027115266e8456cee01eb12a9f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856127"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397065"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -66,8 +66,8 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 
 有鑑於螢幕大小限制，某些動作只有在焦點模式中才可進行︰
 
-* **向下切入**視覺效果中顯示的資訊。 在下方深入了解如何在手機報表中[向下和向上切入](mobile-apps-view-phone-report.md#drill-down-in-a-visual)。
-* **排序**視覺效果中的值。
+* **向下切入** 視覺效果中顯示的資訊。 在下方深入了解如何在手機報表中[向下和向上切入](mobile-apps-view-phone-report.md#drill-down-in-a-visual)。
+* **排序** 視覺效果中的值。
 * **還原**︰清除您已在視覺效果上執行的探索步驟，並還原至報表建立時設定的定義。
   
     若要清除視覺效果中的所有探索，請點選省略符號 ( **...** ) > [還原]  。

@@ -2,19 +2,19 @@
 title: 適用於 Power BI 的零售分析範例：觀看導覽
 description: 適用於 Power BI 的零售分析範例：觀看導覽
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 373e5bfe3d52bf319ad68d766f268518a167012f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a3a4bc467299f7baeb12ca68af1d2730d5839f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349072"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395984"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的零售分析範例：觀看導覽
 
@@ -75,7 +75,7 @@ ms.locfileid: "83349072"
 
    ![[總銷售差異百分比] 圖表](media/sample-retail-analysis/pbi_sample_retanlbubbles.png)  
 
-   **FD-01** 區有**每平方英呎最高的平均銷售額**，FD-02 區與去年相比的**總銷售額差異**最低。 FD-03 區和 FD-04 區的整體表現最差。
+   **FD-01** 區有 **每平方英呎最高的平均銷售額**，FD-02 區與去年相比的 **總銷售額差異** 最低。 FD-03 區和 FD-04 區的整體表現最差。
 4. 選取個別泡泡或其他圖表，即可查看交叉醒目提示，呈現您選取範圍的影響。
 5. 若要返回儀表板，請從頂端導覽窗格選取 [零售分析範例]  。
 
@@ -91,10 +91,10 @@ ms.locfileid: "83349072"
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>檢閱為 Power BI 問與答所建立的磚
 讓我們詳加說明。
 
-1. 將問題變更為「**依區域**劃分的本年度銷售量」  。 觀察結果：問與答會將答案自動呈現在橫條圖中，並建議其他片語：
+1. 將問題變更為「**依區域** 劃分的本年度銷售量」  。 觀察結果：問與答會將答案自動呈現在橫條圖中，並建議其他片語：
 
    ![問與答中的依區域劃分的本年度銷售量](media/sample-retail-analysis/retail8.png)
-2. 現在將問題變更為「**依郵遞區號和連鎖店**劃分的本年度銷售量」  。
+2. 現在將問題變更為「**依郵遞區號和連鎖店** 劃分的本年度銷售量」  。
 
    請注意當您輸入並顯示適當的圖表時，Power BI 會如何回答問題。
 3. 實驗更多問題，看看會得到何種結果。

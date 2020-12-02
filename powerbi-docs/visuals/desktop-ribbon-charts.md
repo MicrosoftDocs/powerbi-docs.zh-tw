@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 中使用功能區圖表
 description: 在 Power BI Desktop 中建立和使用功能區圖表
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e89712dea5d9f932669141d8fe4129727166a342
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9fea98f30403d9325ed2c6826418220cdd29ade8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413101"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397594"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>在 Power BI 中建立功能區圖表
 
@@ -37,7 +37,7 @@ ms.locfileid: "93413101"
    
 2. 尋找您的 **零售分析範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **零售分析範例 PBIX 檔案** 。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **零售分析範例 PBIX 檔案**。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
