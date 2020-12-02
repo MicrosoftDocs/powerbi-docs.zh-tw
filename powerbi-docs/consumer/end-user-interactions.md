@@ -2,19 +2,19 @@
 title: 了解報表中的視覺效果互動方式
 description: 適用於 Power BI 終端使用者的文件，說明視覺效果在報表頁面上的互動方式。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/11/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: bfb96a6c4d078744bdd285f07ea5cf88a55aab25
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763957"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399871"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>如何在 Power BI 報表中相互進行視覺效果交叉篩選
 
@@ -42,9 +42,9 @@ Power BI 的其中一項絕佳功能，是報表頁面上所有視覺效果互�
 
     ![選取環圈圖 [審核] 區段後的報表頁面](media/end-user-interactions/power-bi-interactions-after.png)
 
-2. **交叉篩選**會移除不適用的資料。 選取環圈圖的 [審核]  會交叉篩選折線圖。 折線圖現在只顯示 [審核] 區段的資料點。 
+2. **交叉篩選** 會移除不適用的資料。 選取環圈圖的 [審核]  會交叉篩選折線圖。 折線圖現在只顯示 [審核] 區段的資料點。 
 
-3. **交叉醒目提示**會保留所有原始資料點，但會讓不適用所選範圍的部分變暗。 選取環圈圖的 [審核]  會交叉醒目提示直條圖。 直條圖會讓所有適用 [便利性] 區段的資料變暗，並醒目提示適用 [審核] 區段的所有資料。 
+3. **交叉醒目提示** 會保留所有原始資料點，但會讓不適用所選範圍的部分變暗。 選取環圈圖的 [審核]  會交叉醒目提示直條圖。 直條圖會讓所有適用 [便利性] 區段的資料變暗，並醒目提示適用 [審核] 區段的所有資料。 
 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解

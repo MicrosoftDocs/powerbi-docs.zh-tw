@@ -2,20 +2,20 @@
 title: 檢視通知中心的訊息
 description: 通知中心是按時間排列的 Power BI 體驗相關資訊摘要。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dda0b61f1b74624f13003f57ffb29d99165f126c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 598cbca7756ab6f929180da0c3a95b68643abf00
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763850"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399756"
 ---
 # <a name="view-power-bi-notifications"></a>檢視 Power BI 通知
 
@@ -36,7 +36,7 @@ ms.locfileid: "90763850"
 1. 當您登入 Power BI 時，所有在您離線時傳來的通知都會加入摘要中。 如果您有新通知，Power BI 會顯示有新項目數目的黃色泡泡。
    
    ![新通知圖示](./media/end-user-notification-center/power-bi-new-notifications.png)
-2. 在 Power BI 功能表列選取**通知**圖示。
+2. 在 Power BI 功能表列選取 **通知** 圖示。
    
    ![已選取通知圖示的頂端功能表列](./media/end-user-notification-center/power-bi-notification-icon.png)
 3. 最新通知會列在頂端，而且未讀取的訊息會有醒目提示。 通知會保留 90 天，除非您將其刪除，或是達到 100 則上限。
