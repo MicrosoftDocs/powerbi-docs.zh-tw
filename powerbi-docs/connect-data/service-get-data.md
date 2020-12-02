@@ -2,19 +2,19 @@
 title: Power BI 的資料來源
 description: Power BI 的資料來源
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 08/29/2019
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 427fb322a9f9226bd85da2ae1fc0657c77ca1cf5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264408"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402217"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服務的資料來源
 資料是 Power BI 的核心。 假設您正在探索資料。 您可能會先建立圖表與儀表板，或利用 [問與答] 提出問題，以執行上述作業。 系統顯示的視覺效果和解答會從資料集擷取其基礎資料。 但是，該資料集又來自何處？ 資料集是由資料來源而來。
@@ -86,9 +86,9 @@ Power BI 可以搭配使用數百種不同的資料來源。 無論您由何處�
 ## <a name="some-more-details"></a>其他一些詳細資料
 Power BI 中經常使用資料集與資料來源等詞彙。 這兩個詞彙通常會用來表示相同意義， 但實際上卻是兩個相關的不同項目。
 
-當您使用 [取得資料] 時，即會自動在 Power BI 中建立**資料集**。 [取得資料] 可讓您從內容套件連接資料、檔案並加以匯入；或者，您可以連接即時資料來源。 資料集包含資料來源和資料來源認證的相關資訊。 在許多情況下，它也會包含從資料來源複製的資料子集。 當您在報表與儀表板中建立視覺效果時，所看到的資料通常就是來自資料集。
+當您使用 [取得資料] 時，即會自動在 Power BI 中建立 **資料集**。 [取得資料] 可讓您從內容套件連接資料、檔案並加以匯入；或者，您可以連接即時資料來源。 資料集包含資料來源和資料來源認證的相關資訊。 在許多情況下，它也會包含從資料來源複製的資料子集。 當您在報表與儀表板中建立視覺效果時，所看到的資料通常就是來自資料集。
 
-**資料來源**是指資料集資料的實際來源處。 例如，資料可能來自：
+**資料來源** 是指資料集資料的實際來源處。 例如，資料可能來自：
 
 * Google Analytics 或 QuickBooks 等線上服務
 * Azure SQL Database 等雲端資料庫

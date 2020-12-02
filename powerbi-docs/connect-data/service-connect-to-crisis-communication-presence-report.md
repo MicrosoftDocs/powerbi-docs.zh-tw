@@ -2,18 +2,18 @@
 title: 連線至危機通訊狀態報表
 description: 如何取得及安裝 COVID-19 危機通訊狀態報表範本應用程式，以及如何連線至資料
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 97501fe6e5a3e12e1b6773ce1b3fd67b503bf0f1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860294"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403160"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>連線至危機通訊狀態報表
 
@@ -37,7 +37,7 @@ ms.locfileid: "90860294"
 
 1. 按一下下列連結以取得應用程式：[危機通訊狀態報表範本應用程式](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.crisiscomms)
 
-1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]** ](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.crisiscomms)。
+1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.crisiscomms)。
 
     [![AppSource 中的危機通訊狀態報表應用程式](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.crisiscomms)
 

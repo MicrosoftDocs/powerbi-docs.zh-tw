@@ -2,18 +2,18 @@
 title: 連線至醫院緊急回應決策支援儀表板
 description: 如何取得並安裝醫療保健緊急狀況範本應用程式的 COVID-19 決策支援儀表板，以及如何連線至資料
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 823c8429c95a0b4d858540b2cf1183ca1c7caac7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854222"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403137"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>連線至醫院緊急回應決策支援儀表板
 醫院緊急回應決策支援儀表板範本應用程式，是 [Microsoft Power Platform 醫療保健緊急回應解決方案](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)的報表元件。 儀表板會向緊急狀況管理員顯示其醫療系統的彙總資料，以協助其做出及時且正確的決策。
@@ -34,7 +34,7 @@ ms.locfileid: "90854222"
 
 1. 按一下下列連結以取得應用程式：[醫院緊急回應決策支援儀表板範本應用程式](https://aka.ms/AppSource_Hospital_offer)
 
-1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]** ](https://aka.ms/AppSource_Hospital_offer)。
+1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]**](https://aka.ms/AppSource_Hospital_offer)。
 
     [![AppSource 中的醫院緊急回應決策支援儀表板應用程式](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 

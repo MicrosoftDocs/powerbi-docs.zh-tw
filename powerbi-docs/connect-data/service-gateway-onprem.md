@@ -5,16 +5,16 @@ author: arthiriyer
 ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 1d91792d544854d5a98b1966b2561196249ff7c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d0b5ff4bbf14012eb0a60759007fa0d021befea
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302843"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402148"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>什麼是內部部署的資料閘道？
 
@@ -32,7 +32,7 @@ ms.locfileid: "83302843"
 
 閘道有兩種不同的類型，分別適用於不同案例：
 
-* **內部部署的資料閘道**允許多個使用者連線到多個內部部署資料來源。 您可以透過單一閘道安裝來使用具備所有支援服務的內部部署的資料閘道。 此閘道非常適合用於多人存取多個資料來源的更複雜情節。
+* **內部部署的資料閘道** 允許多個使用者連線到多個內部部署資料來源。 您可以透過單一閘道安裝來使用具備所有支援服務的內部部署的資料閘道。 此閘道非常適合用於多人存取多個資料來源的更複雜情節。
 
 * **內部部署的資料閘道 (個人模式)** 可讓一位使用者連線至來源，但不能與其他人共用。 內部部署的資料閘道 (個人模式) 僅能搭配 Power BI 使用。 此閘道非常適合您是建立報表的唯一人員，且不需要與其他人共用任何資料來源的案例。
 

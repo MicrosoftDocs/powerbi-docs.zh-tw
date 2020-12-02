@@ -2,19 +2,19 @@
 title: 管理您的資料來源 - SAP HANA
 description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文為 SAP HANA 專用。
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/16/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9dc436fea9c53e631fb038d3603983fe104fb999
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e06f990c7b14cd27b182ebfd6bec2bba9741c99d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237076"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402700"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>管理您的資料來源 - SAP HANA
 
@@ -60,7 +60,7 @@ ms.locfileid: "85237076"
 
 請確定在 Power BI Desktop 和針對閘道所設定資料來源之間具有相符的伺服器和資料庫名稱。 您也必須確定資料來源的 [使用者]  索引標籤已列出使用者，才能發佈 DirectQuery 資料集。 當您第一次匯入資料時，Power BI Desktop 內會出現 DirectQuery 的選取項目。 如需如何使用 DirectQuery 的詳細資訊，請參閱[在 Power BI Desktop 中使用 DirectQuery](desktop-use-directquery.md)。
 
-發佈之後，您的報表會從 Power BI Desktop 或**取得資料**開始工作。 建立閘道內的資料來源之後，可能需要幾分鐘的時間才能使用連線。
+發佈之後，您的報表會從 Power BI Desktop 或 **取得資料** 開始工作。 建立閘道內的資料來源之後，可能需要幾分鐘的時間才能使用連線。
 
 ### <a name="use-the-data-source-with-scheduled-refresh"></a>使用已排程的重新整理使用資料來源
 

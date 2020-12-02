@@ -1,20 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Project Online
 description: Project Online for Power BI
-author: SarinaJoan
+author: paulinbar
+ms.author: painbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 07/25/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e5d97da4d643512396a17e95fb7cae2e841d7521
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527738"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403275"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>使用 Power BI 連線到 Project Web App
 Microsoft Project Web App 是針對專案組合管理 (PPM) 與日常工作的靈活線上解決方案。 Project Web App 可讓組織開始著手專案組合的投資、排定優先順序，並提供預期的商業價值。 Power BI 的 Project Web App 範本應用程式可讓您解鎖 Project Web App 的見解，協助管理專案、組合和資源。

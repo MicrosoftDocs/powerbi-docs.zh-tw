@@ -1,24 +1,24 @@
 ---
 title: 在 Power BI 服務中編輯 SAP 變數
 description: Azure 和 Power BI
-author: Sujata994
-ms.author: sunaraya
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: d1e3037bdc26af35d4b8392e151575049f85fa70
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 179e8740bed71d3d295cfc2fe5f103744e9dbd07
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284466"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402723"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>在 Power BI 服務中編輯 SAP 變數
 
-報表作者現在在搭配使用 DirectQuery 與 SAP Business Warehouse 或 SAP HANA 時，可以允許終端使用者在 **Power BI 服務**中，編輯 Premium 及共用工作區的 SAP 變數。 請注意，此功能「不適用」[我的工作區] 的 [與我共用] 索引標籤中的報表，也「不適用」從 V1 工作區建立的應用程式。 
+報表作者現在在搭配使用 DirectQuery 與 SAP Business Warehouse 或 SAP HANA 時，可以允許終端使用者在 **Power BI 服務** 中，編輯 Premium 及共用工作區的 SAP 變數。 請注意，此功能「不適用」[我的工作區] 的 [與我共用] 索引標籤中的報表，也「不適用」從 V1 工作區建立的應用程式。 
 
 ![[編輯變數] 對話方塊](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
@@ -28,7 +28,7 @@ ms.locfileid: "83284466"
 
 使用 SAP 編輯變數功能有幾項需求。 下列清單描述這些需求。
 
-**需要新的篩選體驗** - 您必須為報表啟用[新的篩選體驗](../create-reports/power-bi-report-filter.md)。 以下示範如何在 Power BI Desktop 中為報表啟用新的篩選體驗：
+**需要新的篩選體驗** - 您必須為報表啟用 [新的篩選體驗](../create-reports/power-bi-report-filter.md)。 以下示範如何在 Power BI Desktop 中為報表啟用新的篩選體驗：
 - 在 Power BI Desktop 中，選取 [檔案]   > [選項及設定]   > [選項] 
 - 在導覽窗格的 [目前檔案]  底下，選取 [報表設定]  。
 - 在 [篩選體驗]  下，選取 [啟用更新的篩選窗格]  。
@@ -62,7 +62,7 @@ ms.locfileid: "83284466"
 
 1. 在 Power BI 服務中，選取工作區內容清單中的 [資料集]  索引標籤。
 
-2. 尋找您需要重新整理的資料集，然後選取**重新整理**圖示。
+2. 尋找您需要重新整理的資料集，然後選取 **重新整理** 圖示。
 
     ![編輯變數](media/service-edit-sap-variables/sap-edit-variables-link.png)
 

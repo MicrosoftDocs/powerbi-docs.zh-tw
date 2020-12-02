@@ -2,20 +2,20 @@
 title: 免費授權使用者可使用的功能
 description: 顯示取用者和與免費使用者可用功能的說明與圖表。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: reference
-ms.date: 09/16/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668480"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390717"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>「取用者」  與其他免費授權使用者可使用的 Power BI 功能清單
 
@@ -67,7 +67,7 @@ ms.locfileid: "94668480"
 
 - 免費使用者授權
 - 屬於具有 Premium 容量訂用帳戶組織的成員
-- 取得 Pro 使用者在專用的 Premium 容量中，使用應用程式工作區共用的內容 (應用程式、儀表板、報表)。
+- 當 Pro 使用者在 Premium 容量中使用應用程式工作區共用內容時，取用者能夠取得該內容 (應用程式、儀表板、報表)。
 - 接受指派為這些應用程式工作區的 **檢視者** 角色。 
 
 ### <a name="legend"></a>圖例

@@ -1,20 +1,20 @@
 ---
 title: 複製其他應用程式或工作區的報表 - Power BI
 description: 了解如何建立報表的複本，並將其儲存到您自己的工作區。
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4fcfe4038b8fa14b0c1640680aaf7657e92bb9bb
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 3b635719fdce8f8b194593a2114808e08f34420f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397361"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402884"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>複製其他工作區的報表
 
