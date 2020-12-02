@@ -1,19 +1,19 @@
 ---
 title: 將 SQL Server Reporting Services 報表移轉到 Power BI
 description: 協助您將 SQL Server Reporting Services (SSRS) 報表遷移至 Power BI 的指導。
-author: peter-myers
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/03/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 06bff0a199db9955f11487a05ba78268bb8a942d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f1b9b710c9f9e4ade80866026f728ddbe3ae6971
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561585"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393178"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>將 SQL Server Reporting Services 報表移轉到 Power BI
 
@@ -62,8 +62,8 @@ ms.locfileid: "83561585"
 
 * 檢查[不支援的資料來源](../paginated-reports/paginated-reports-data-sources.md)和[不支援的報表功能](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
 * 將任何「共用」  資源轉換為「內嵌」  資源：
-  * 共用**資料來源**成為內嵌資料來源
-  * 共用**資料集**成為內嵌資料集
+  * 共用 **資料來源** 成為內嵌資料來源
+  * 共用 **資料集** 成為內嵌資料集
 * 將報表 (通過檢查) 以編頁報表形式發佈至指定的 Power BI 工作區 (在 Premium 容量上)
 
 其不會修改或移除現有的報表。 完成時，此工具會輸出所有已完成動作 (成功或失敗) 的摘要。
@@ -72,7 +72,7 @@ ms.locfileid: "83561585"
 
 ## <a name="pre-migration-stage"></a>移轉前階段
 
-確認貴組織符合必要條件之後，您就可以開始_移轉前_階段。 這個階段有三個階段：
+確認貴組織符合必要條件之後，您就可以開始 _移轉前_ 階段。 這個階段有三個階段：
 
 1. 探索
 1. 評定
@@ -106,7 +106,7 @@ ms.locfileid: "83561585"
 
 如果您的 RDL 報表需要從內部部署資料來源  擷取資料，其無法使用單一登入 (SSO)。 目前，從這些來源進行的所有資料擷取都會使用閘道資料來源使用者帳戶  的安全性內容來完成。 SQL Server Analysis Services (SSAS) 無法以每個使用者為基礎來強制執行資料列層級安全性 (RLS)。
 
-一般而言，Power BI 編頁報表已針對**列印**或 **PDF 產生**進行最佳化。 Power BI 報表已針對**探索和互動**進行最佳化。 如需詳細資訊，請參閱[何時使用 Power BI 中的編頁報表](report-paginated-or-power-bi.md)。
+一般而言，Power BI 編頁報表已針對 **列印** 或 **PDF 產生** 進行最佳化。 Power BI 報表已針對 **探索和互動** 進行最佳化。 如需詳細資訊，請參閱[何時使用 Power BI 中的編頁報表](report-paginated-or-power-bi.md)。
 
 ### <a name="prepare"></a>準備
 
@@ -161,7 +161,7 @@ ms.locfileid: "83561585"
 
 ## <a name="post-migration-stage"></a>移轉後階段
 
-成功完成移轉之後，您就可以開始進行_移轉後_階段。 這個階段牽涉到執行一系列的移轉後工作，以確保一切都正確且有效率地運作。
+成功完成移轉之後，您就可以開始進行 _移轉後_ 階段。 這個階段牽涉到執行一系列的移轉後工作，以確保一切都正確且有效率地運作。
 
 ### <a name="configure-data-sources"></a>設定資料來源
 

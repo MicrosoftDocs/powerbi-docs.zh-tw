@@ -2,26 +2,26 @@
 title: 在 Power BI Desktop 中連線到 Power Platform 資料流程所建立的資料
 description: 輕鬆連線並使用 Power BI Desktop 中的資料流程
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 24635df4a07f0f73a701fcb9d30b5db3ef678666
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 5d9f477c8b058dbe9a71eec1307b4a32863307a1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668451"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392948"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Power Platform 資料流程所建立的資料
-在 **Power BI Desktop** 中，您可以連線至 **Power Platform 資料流程**建立的資料，就像連線到 Power BI Desktop 中的任何其他資料來源一樣。
+在 **Power BI Desktop** 中，您可以連線至 **Power Platform 資料流程** 建立的資料，就像連線到 Power BI Desktop 中的任何其他資料來源一樣。
 
 ![連線到資料流程](media/desktop-connect-dataflows/connect-dataflows_01.png)
 
-**Power Platform 資料流程**連接器可讓您在 Power BI 服務中連線到資料流程所建立的實體。 
+**Power Platform 資料流程** 連接器可讓您在 Power BI 服務中連線到資料流程所建立的實體。 
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

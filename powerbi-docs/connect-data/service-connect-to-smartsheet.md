@@ -2,19 +2,19 @@
 title: 使用 Power BI 連接到 Smartsheet
 description: Smartsheet for Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a1cf9c96b976acbfd9a5cefe4d413b4aa0fac9bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 446c9dd1af2322cca164762ae212ba247b8916ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236265"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392902"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>使用 Power BI 連接到 Smartsheet
 此文章將逐步引導您使用 Power BI 範本應用程式，從 Smartsheet 帳戶提取資料。 Smartsheet 提供一個簡單的平台，供共同作業與檔案共用使用。 適用於 Power BI 的 Smartsheet 範本應用程式會提供儀表板、報表與資料集，以顯示 Smartsheet 帳戶的概觀。 您也可以使用 [Power BI Desktop](desktop-connect-to-data.md) 直接連線到您帳戶中的個別工作表。 

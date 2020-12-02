@@ -2,19 +2,19 @@
 title: 在 Power BI 中監視報表效能
 description: 如何在 Power BI 中監視報表效能的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216588"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393020"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中監視報表效能
 
@@ -77,7 +77,7 @@ ms.locfileid: "86216588"
 
 ## <a name="monitor-premium-metrics"></a>監視 Premium 計量
 
-針對 Power BI Premium 容量，可以使用 **Power BI Premium 計量應用程式**來監視 Power BI Premium 訂用帳戶的健康情況與容量。 如需詳細資訊，請參閱 [Power BI Premium 計量應用程式](../admin/service-premium-metrics-app.md)。
+針對 Power BI Premium 容量，可以使用 **Power BI Premium 計量應用程式** 來監視 Power BI Premium 訂用帳戶的健康情況與容量。 如需詳細資訊，請參閱 [Power BI Premium 計量應用程式](../admin/service-premium-metrics-app.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

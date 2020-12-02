@@ -2,20 +2,20 @@
 title: 重新整理建立自 OneDrive 上 .csv 檔案的資料集
 description: 重新整理建立自 OneDrive 上逗點分隔值 (.csv) 檔案的資料集
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/12/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 765e21aae6c68741ecba41ef24b691deeb2a403f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fabb694caadcd108c009471897738da6f403b49c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235313"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392742"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>重新整理建立自 OneDrive 或 SharePoint Online 上 .CSV 檔案的資料集
 ## <a name="what-are-the-advantages"></a>有哪些優點？
