@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7015eb1298649534a6e93cb9d6671250c6c77b94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632992"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406357"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -39,16 +39,16 @@ ms.locfileid: "91632992"
 
 ![包含篩選條件 URL 的螢幕擷取畫面。](media/service-url-filters/power-bi-filter-urls7b.png)
 
-* **資料表**和**欄位**名稱區分大小寫，**值**則無。
+* **資料表** 和 **欄位** 名稱區分大小寫，**值** 則無。
 * 從報表檢視中隱藏的欄位仍可篩選。
 
 ### <a name="field-types"></a>欄位類型
 
 欄位類型可以是數字、日期時間或字串，而且使用的類型必須符合資料集中設定的類型。  例如，如果您想要將資料集資料行中的日期時間或數值設定為日期，指定「字串」類型的資料表資料行將無法運作 (例如 Table/StringColumn eq 1)。
 
-* **字串**的前後必須加上單引號，例如 'manager name'。
-* **數字**不需要特殊格式設定。 如需詳細資訊，請參閱本文中的[數值資料類型](#numeric-data-types)。
-* **日期和時間**請參閱本文中的[日期資料類型](#date-data-types)。 
+* **字串** 的前後必須加上單引號，例如 'manager name'。
+* **數字** 不需要特殊格式設定。 如需詳細資訊，請參閱本文中的[數值資料類型](#numeric-data-types)。
+* **日期和時間** 請參閱本文中的 [日期資料類型](#date-data-types)。 
 
 如果仍感到困惑，請繼續閱讀，我們會詳加解說。  
 
@@ -172,17 +172,17 @@ Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![轉譯 Power 
 
 - `?filter=Table/Name eq 'Lee''s Summit'` 會變成：
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="名稱為 O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
 
 - `in` 運算子也支援此逸出：`?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` 會變成：
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="名稱為 O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit 或 O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 篩選多個值
 
 篩選多個欄位的另一種方法是建立計算結果欄，將兩個欄位串連成單一值。 接著您就可以篩選該值。
 
-例如，我們有兩個欄位：Territory 和 Chain。 在 Power BI Desktop 中[建立新的計算結果欄](../transform-model/desktop-tutorial-create-calculated-columns.md) (欄位)，名稱為 TerritoryChain。 請記住，**欄位**名稱不能有任何空格。 以下是該資料行的 DAX 公式。
+例如，我們有兩個欄位：Territory 和 Chain。 在 Power BI Desktop 中[建立新的計算結果欄](../transform-model/desktop-tutorial-create-calculated-columns.md) (欄位)，名稱為 TerritoryChain。 請記住，**欄位** 名稱不能有任何空格。 以下是該資料行的 DAX 公式。
 
 TerritoryChain = [Territory] & " - " & [Chain]
 

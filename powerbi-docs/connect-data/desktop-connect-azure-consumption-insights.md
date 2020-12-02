@@ -2,20 +2,20 @@
 title: 在 Power BI Desktop 中連線到 Azure 使用量見解資料
 description: 輕鬆地連線到 Azure，並使用 Power BI Desktop 深入了解耗用量和使用
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/14/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d400684358e5992d9c29e2c5838ca777e3695cf5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632587"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406081"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Azure 使用量見解資料
 
@@ -30,9 +30,9 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
 在本節中，您會了解如何使用 Azure 企業版連接器取得您需要遷移的資料。 您也可以在 **ACI** (Azure 使用量見解) API 中找到可用的「使用量詳細資料資料行」對應。
 
-若要成功使用 **Azure 使用量見解**連接器，您需要存取 Azure 入口網站企業版的功能。
+若要成功使用 **Azure 使用量見解** 連接器，您需要存取 Azure 入口網站企業版的功能。
 
-在 **Power BI Desktop** 中使用 **Azure 使用量見解**連接器： 
+在 **Power BI Desktop** 中使用 **Azure 使用量見解** 連接器： 
 
 1. 從 [常用] 功能區選取 [取得資料]。
 
@@ -94,9 +94,9 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 ![從 [導覽] 視窗載入資料表後欄位窗格的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>使用 Azure 使用深入解析
-若要使用 **Azure 使用量見解**連接器，您可以存取 Azure 入口網站企業版的功能。
+若要使用 **Azure 使用量見解** 連接器，您可以存取 Azure 入口網站企業版的功能。
 
-使用 **Azure 使用量見解**連接器成功載入資料後，您可以使用 [查詢編輯器] 建立您自己的自訂量值和資料行。 您也可以建立視覺效果、報表和儀表板，以在 **Power BI 服務**中共用。
+使用 **Azure 使用量見解** 連接器成功載入資料後，您可以使用 [查詢編輯器] 建立您自己的自訂量值和資料行。 您也可以建立視覺效果、報表和儀表板，以在 **Power BI 服務** 中共用。
 
 使用空白查詢，您可以擷取範例 Azure 自訂查詢集合。 您可以透過兩種方式進行此種擷取： 
 
@@ -125,13 +125,13 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
 ## <a name="migrate-from-the-azure-enterprise-connector"></a>從 Azure 企業版連接器遷移
 
-有些客戶已使用「Azure 企業版連接器 (搶鮮版 (Beta))」來建立視覺效果。 該連接器最終會由 **Azure 使用量見解**連接器取代。 新的連接器具備的功能和加強功能包括：
+有些客戶已使用「Azure 企業版連接器 (搶鮮版 (Beta))」來建立視覺效果。 該連接器最終會由 **Azure 使用量見解** 連接器取代。 新的連接器具備的功能和加強功能包括：
 
 * 適用於 *Balance Summary* 和 *Marketplace Purchases* 的其他資料來源
 * 新參數和進階參數，例如 *startBillingDataWindow* 和 *endBillingDataWindow*
 * 較佳的效能和回應
 
-接下來的步驟會示範如何轉換到 **Azure 使用量見解**連接器。 這些步驟可以保留您在建立自訂儀表板或報表時已完成的工作。
+接下來的步驟會示範如何轉換到 **Azure 使用量見解** 連接器。 這些步驟可以保留您在建立自訂儀表板或報表時已完成的工作。
 
 ### <a name="step-1-connect-to-azure-using-the-new-connector"></a>步驟 1：使用新的連接器連線到 Azure
 第一個步驟是使用本文稍早所詳述的 **Azure 使用量見解**。 在此步驟中，從 **Power BI Desktop** 的 [首頁] 功能區選取 **[取得資料] > [空的查詢]** 。
@@ -167,7 +167,7 @@ in
 ### <a name="step-4-relink-tables-that-had-relationships"></a>步驟 4：重新連結具有關聯性的資料表
 許多儀表板有其他用來查閱或篩選的資料表，例如日期資料表或用於自訂專案的資料表。 重新建立這些關聯性，可以解決大部分剩餘的問題。 以下說明如何執行這項作業。
 
-- 在 **Power BI Desktop**的 [模型] 索引標籤中，選取 [管理關聯性]，以顯示視窗讓您管理模型內的關聯性。 視需要重新連結您的資料表。
+- 在 **Power BI Desktop** 的 [模型] 索引標籤中，選取 [管理關聯性]，以顯示視窗讓您管理模型內的關聯性。 視需要重新連結您的資料表。
 
     ![[建立關聯性] 對話方塊的螢幕擷取畫面。 選取 [管理關聯性]。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 

@@ -2,19 +2,19 @@
 title: 與組織內容套件中斷連接 - Power BI
 description: 了解如何藉由刪除 Power BI 中內容套件的資料集來移除組織內容套件的連線。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 031feb65d3a99dd18a7d47b44af1f346859d32d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd1ebd1502241cf07e7de8cff5f0eb769a1b59f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225793"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406403"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>移除與 Power BI 組織內容套件的連接
 
