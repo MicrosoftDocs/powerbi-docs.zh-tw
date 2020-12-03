@@ -2,18 +2,18 @@
 title: 在 Power BI 行動裝置應用程式中設定資料警示
 description: 了解如何在 Power BI 行動裝置應用程式中設定警示，以在儀表板中的資料變更超出您設定的限制時通知您。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
-ms.author: painbar
-ms.openlocfilehash: 71fb659ba102e139c7a1679b0c58c07c47a38bf0
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 4e9820b8ebff411434d9d6c408f36a36a644ea9d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668658"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417995"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中設定資料警示
 適用於︰
@@ -105,7 +105,7 @@ ms.locfileid: "91668658"
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 裝置上的資料警示
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>在 Windows 裝置上設定資料警示
 1. 點選儀表板中的數字磚或量測計磚，以開啟該卡片與量測計。  
@@ -156,7 +156,7 @@ ms.locfileid: "91668658"
 3. Power BI 會將訊息新增至[通知中心](mobile-apps-notification-center.md)，並在標題列上的鈴鐺圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: (iOS 和 Android) 或全域導覽按鈕 ![全域導覽按鈕](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (Windows 10 裝置) 上新增一個黃點。
 
 
-4. 點選鈴鐺圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: 或全域導覽按鈕 ![全域導覽按鈕](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)，以[開啟**通知中心**](mobile-apps-notification-center.md)並查看警示詳細資訊。
+4. 點選鈴鐺圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: 或全域導覽按鈕 ![全域導覽按鈕](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)，以 [開啟 **通知中心**](mobile-apps-notification-center.md)並查看警示詳細資訊。
    
      
 

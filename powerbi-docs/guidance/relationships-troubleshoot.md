@@ -2,18 +2,18 @@
 title: 關聯性疑難排解指導方針
 description: 對模型關聯性問題進行疑難排解的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 9588b608e3d3ab33f87de13cd415e14cd1f5e920
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: e8f76bf1e1947815176a1b24be2b758489093071
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136112"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418524"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>關聯性疑難排解指導方針
 

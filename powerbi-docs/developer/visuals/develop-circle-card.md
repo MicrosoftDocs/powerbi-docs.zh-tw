@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
+ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: 6c4b39fff9513143c946cc2e92294ae4cbe81427
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397453"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418708"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>教學課程：開發 Power BI 圓形卡片視覺效果
 
@@ -65,7 +65,7 @@ ms.locfileid: "94397453"
     pbiviz start
     ```
     >[!IMPORTANT]
-    >請不要關閉 PowerSell 視窗，直到教學課程結束為止。 若要停止執行視覺效果，請輸入 Ctrl+C；如果系統提示是否要終止批次作業，請輸入 Y，然後按 *Enter* 。
+    >請不要關閉 PowerSell 視窗，直到教學課程結束為止。 若要停止執行視覺效果，請輸入 Ctrl+C；如果系統提示是否要終止批次作業，請輸入 Y，然後按 *Enter*。
 
 ## <a name="view-the-circle-card-in-power-bi-service"></a>在 Power BI 服務中檢視圓形卡片
 
@@ -192,9 +192,9 @@ ms.locfileid: "94397453"
 
 新增 D3 可縮放向量圖形 (SVG)。 這可讓您建立三種圖形：圓形，以及兩個文字元素。
 
-1. 在 VS Code 中開啟 **visual.ts** 。
+1. 在 VS Code 中開啟 **visual.ts**。
 
-2. 將下列程式碼新增到 *constructor* 。
+2. 將下列程式碼新增到 *constructor*。
 
     ```typescript
     this.svg = d3.select(options.element)
@@ -219,7 +219,7 @@ ms.locfileid: "94397453"
 
 設定視覺效果的寬度和高度，然後將視覺效果元素的屬性與樣式初始化。
 
-1. 在 VS Code 中開啟 **visual.ts** 。
+1. 在 VS Code 中開啟 **visual.ts**。
 
 2. 將下列程式碼新增到 *update* 方法。
 
@@ -378,7 +378,7 @@ export class Visual implements IVisual {
 
 停止視覺效果執行並加以重新啟動。
 
-1. 在執行視覺效果的 PowerShell 視窗中，輸入 Ctrl+C；如果系統提示是否要終止批次作業，請輸入 Y，然後按 *Enter* 。
+1. 在執行視覺效果的 PowerShell 視窗中，輸入 Ctrl+C；如果系統提示是否要終止批次作業，請輸入 Y，然後按 *Enter*。
 
 2. 在 PowerShell 中，啟動視覺效果。
 
@@ -427,7 +427,7 @@ export class Visual implements IVisual {
 
 * **定義資料角色**
 
-    以 *measure* 類型的單一資料角色來定義 *dataRoles* 陣列。 此資料角色稱為 *measure* ，且會顯示為 *Measure* 。 其可讓您傳遞量值欄位，或是加總之後的欄位。
+    以 *measure* 類型的單一資料角色來定義 *dataRoles* 陣列。 此資料角色稱為 *measure*，且會顯示為 *Measure*。 其可讓您傳遞量值欄位，或是加總之後的欄位。
 
     1. 在 VS Code 中開啟 **capabilities.json** 檔案。
 
@@ -492,7 +492,7 @@ export class Visual implements IVisual {
     >[!div class="mx-imgBorder"]
     >![在圓形卡片 [顯示資料檢視] 選項中顯示之 value 數值的螢幕擷取畫面。](media/develop-circle-card/value.png)
 
-5. 展開 **metadata** ，然後展開 **columns** 陣列，並檢閱 **format** 和 **displayName** 值。
+5. 展開 **metadata**，然後展開 **columns** 陣列，並檢閱 **format** 和 **displayName** 值。
 
     >[!div class="mx-imgBorder"]
     >![在圓形卡片 [顯示資料檢視] 選項中顯示之 format 和 displayName 值的螢幕擷取畫面。](media/develop-circle-card/colunms.png)

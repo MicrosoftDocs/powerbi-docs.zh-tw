@@ -2,18 +2,18 @@
 title: 在 Power BI Desktop 中將報表與模型分開
 description: 在 Power BI Desktop 中將報表與模型分開的指引。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 04/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a45299015883615b4773fe5db1c9864e01a47c4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525930"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418342"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>在 Power BI Desktop 中將報表與模型分開
 
@@ -26,7 +26,7 @@ ms.locfileid: "91525930"
 
 ## <a name="single-file-solution"></a>單一檔案解決方案
 
-當只有一個以模型為基礎的報表時，_單一檔案解決方案_可順利運作。 在此情況下，模型與報表可能都是同一人的工作成果。 我們將其定義為「個人 BI」  解決方案，但報表可以與其他人共用。 這類解決方案可代表角色範圍報表或業務挑戰的單次評量 — 通常描述為「臨機操作」  報表。
+當只有一個以模型為基礎的報表時，_單一檔案解決方案_ 可順利運作。 在此情況下，模型與報表可能都是同一人的工作成果。 我們將其定義為「個人 BI」  解決方案，但報表可以與其他人共用。 這類解決方案可代表角色範圍報表或業務挑戰的單次評量 — 通常描述為「臨機操作」  報表。
 
 :::image type="content" source="media/report-separate-from-model/single-file-solution.png" alt-text="一個單一檔案包含由同一人所開發的模型與報表。" border="true":::
 
@@ -37,7 +37,7 @@ ms.locfileid: "91525930"
 - 資料模型製造者與報表作者為不同人。
 - 已知模型將在現在或未來成為多個報表的來源。
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="一個單一檔案包含由同一人所開發的模型與報表。" border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="PBIX 檔案有三個。第一個只包含模型。其他兩個只包含報表，且即時連線到 Power BI 服務中所裝載的模型。報表由不同人所開發。" border="true":::
 
 資料模型製造者仍可使用 Power BI Desktop 報表製作體驗來測試及驗證其模型設計。 不過，在將其檔案發佈至 Power BI 服務之後，他們就應立即將報表自工作區中移除。 並且在每次重新發佈和覆寫資料集時，都必須記得移除報表。
 

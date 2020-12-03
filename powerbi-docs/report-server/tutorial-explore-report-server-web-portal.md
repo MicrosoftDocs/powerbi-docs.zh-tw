@@ -2,18 +2,18 @@
 title: 教學課程：探索 VM 中的 Power BI 報表伺服器
 description: 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的虛擬機器並探索入口網站。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.author: maggies
-ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207014"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418409"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教學課程：探索 VM 中的 Power BI 報表伺服器入口網站
 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的 Azure 虛擬機器，以便體驗如何檢視、編輯和管理範例 Power BI 及編頁報表與 KPI。
@@ -67,7 +67,7 @@ ms.locfileid: "79207014"
 
 10. 在 [步驟 4 購買]  中，檢閱使用者規定和隱私權原則 > [建立]  。
 
-    **提交 Power BI 報表伺服器的部署**程序需要數分鐘的時間。
+    **提交 Power BI 報表伺服器的部署** 程序需要數分鐘的時間。
 
 ## <a name="connect-to-your-virtual-machine"></a>連線至虛擬機器
 
@@ -75,7 +75,7 @@ ms.locfileid: "79207014"
 
 2. 在 [依名稱篩選]  方塊中，輸入 "report"。 
 
-3. 選取名為 **REPORTSERVERVM**的 VM。
+3. 選取名為 **REPORTSERVERVM** 的 VM。
 
     ![檢視虛擬機器](media/tutorial-explore-report-server-web-portal/power-bi-report-server-view-virtual-machine.png)
 
@@ -89,7 +89,7 @@ ms.locfileid: "79207014"
 
 6. 輸入您為 VM 建立的名稱和密碼 > [確定]  。
 
-7. 下一個對話方塊會指出**無法識別遠端電腦的身分識別**。 請選取 [是]  。
+7. 下一個對話方塊會指出 **無法識別遠端電腦的身分識別**。 請選取 [是]  。
 
    您看，新的 VM 開啟了。
 

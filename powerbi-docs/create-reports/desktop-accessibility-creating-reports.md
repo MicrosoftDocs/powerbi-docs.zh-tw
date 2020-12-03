@@ -2,19 +2,19 @@
 title: 在 Power BI 中建立可存取的報表
 description: 如何建立可存取的 Power BI Desktop 報表
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/30/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13223b2ba9d5b50654c952da6b2517717103a724
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: d8ca43556cd01c5658574e8b42084c9db15d9206
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600218"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417719"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>針對協助工具設計 Power BI 報表
 您可以設計和建立具視覺吸引力的報表，同時針對協助工具進行設計。 建置報表時，無論您的對象為何都建議盡可能地將報表建置為可供更多人使用，而無須針對某種特殊設計進行調整。
@@ -214,7 +214,7 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 * 確保標題、軸標籤和資料標籤文字及背景的色彩對比至少為 4.5:1。
 * 避免使用色彩作為傳達資訊的唯一方式。 使用文字或圖示來補充或取代色彩。
 * 取代不必要的術語或縮寫。
-* 確保已將**替代文字**新增至頁面上所有非裝飾性的視覺效果。
+* 確保已將 **替代文字** 新增至頁面上所有非裝飾性的視覺效果。
 * 檢查報表頁面適用於具有色彩視覺缺陷的使用者。
 
 ### <a name="slicers"></a>交叉分析篩選器
@@ -246,16 +246,16 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 ### <a name="shapes"></a>圖形
 * 確保任何裝飾性的圖形都在定位順序中標記為隱藏，以避免螢幕助讀程式唸出這些圖形。
 * 避免使用太多裝飾性的圖形，造成分心。
-* 使用圖形來呼叫資料點時，請使用**替代文字**來解釋所呼叫的內容。
+* 使用圖形來呼叫資料點時，請使用 **替代文字** 來解釋所呼叫的內容。
 
 ### <a name="images"></a>影像
-* 使用影像來呼叫資料點時，請使用**替代文字**來解釋所呼叫的內容。
+* 使用影像來呼叫資料點時，請使用 **替代文字** 來解釋所呼叫的內容。
 * 請確認任何裝飾性的影像都已在定位順序中標記為隱藏，以避免螢幕助讀程式唸出這些影像。
 * 避免使用太多裝飾性的影像來造成分心。
 
 ### <a name="power-bi-visuals"></a>Power BI 視覺效果
 * 檢查 Power BI 視覺效果的可存取 [顯示資料]  表格。 若顯示的資訊不足，請尋找其他視覺效果。
-* 若您正在使用*播放軸*自訂視覺效果，請確認其不會自動播放。 請明顯地讓使用者知道其必須按下 [播放/暫停] 按鈕才能開始/停止變更的值。
+* 若您正在使用 *播放軸* 自訂視覺效果，請確認其不會自動播放。 請明顯地讓使用者知道其必須按下 [播放/暫停] 按鈕才能開始/停止變更的值。
 
 ### <a name="across-visuals-on-the-page"></a>頁面上的視覺效果
 * 請在任何裝飾性的項目上設定定位順序及關閉定位順序 (將其標記為隱藏)。

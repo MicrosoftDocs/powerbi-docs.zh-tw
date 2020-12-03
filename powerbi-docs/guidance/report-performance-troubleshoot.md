@@ -2,18 +2,18 @@
 title: 疑難排解 Power BI 報表效能的問題
 description: 診斷 Power BI 報表效能變慢的疑難排解指南。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: troubleshooting
 ms.date: 04/15/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 2c7ba0ce8e41281e89e2bb31f9bc6db751b95dad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 97af45ea90db1f0ccd2fdab7eba67ec91e580983
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485959"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417857"
 ---
 # <a name="troubleshoot-report-performance-in-power-bi"></a>疑難排解 Power BI 報表效能的問題
 

@@ -2,18 +2,18 @@
 title: 避免在列印編頁報表時出現空白頁面
 description: 設計分頁報表以避免列印時顯示空白頁面的指引。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0fa886973105bdb4bc8a35f145168c1775ca12cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920797"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418455"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>避免在列印編頁報表時出現空白頁面
 
@@ -23,7 +23,7 @@ ms.locfileid: "78920797"
 
 報表頁面的大小屬性會決定頁面方向、維度和邊界。 存取這些報表屬性的方式：
 
-- 使用報表的**屬性頁面**：以滑鼠右鍵按一下報表畫布外部的暗灰色區域，然後選取 [報表屬性]  。
+- 使用報表的 **屬性頁面**：以滑鼠右鍵按一下報表畫布外部的暗灰色區域，然後選取 [報表屬性]  。
 - 使用 [[屬性]  ](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane) 窗格：按一下報表畫布外部的暗灰色區域以選取報表屬性。 確認 [屬性]  窗格已開啟。
 
 在報表的 [屬性]  頁面中，[版面設定]  頁面會提供一個容易使用的介面，供您查看及更新版面設定屬性。

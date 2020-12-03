@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
+ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 2a557f1e84e8102df6b22121c7f0b79d761ce49e
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ec3ba601eb6cd5db4fbc19298d76ce0cd7346f53
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739314"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418731"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>教學課程：將格式設定選項新增到 Power BI 視覺效果
 
@@ -168,7 +168,7 @@ ms.locfileid: "84739314"
 
     ![Radius 變數](media/custom-visual-develop-tutorial-format-options/radius.png)
 
-11. 針對 **circle 元素**，將傳遞到 **fill 樣式**的值修改為下列運算式。
+11. 針對 **circle 元素**，將傳遞到 **fill 樣式** 的值修改為下列運算式。
 
     ```typescript
     this.visualSettings.circle.circleColor
@@ -176,7 +176,7 @@ ms.locfileid: "84739314"
 
     ![填滿 circle 元素](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
-12. 針對 **circle 元素**，將傳遞至 **stroke-width 樣式**的值修改為下列運算式。
+12. 針對 **circle 元素**，將傳遞至 **stroke-width 樣式** 的值修改為下列運算式。
 
     ```typescript
     this.visualSettings.circle.circleThickness

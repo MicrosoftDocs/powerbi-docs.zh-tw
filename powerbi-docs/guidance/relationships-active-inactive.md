@@ -2,18 +2,18 @@
 title: 作用中與非作用中關聯性指導方針
 description: 使用作用中或非作用中模型關聯性的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: df9405dcf65eb39095f711edbcaf2a35e4a1f6aa
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 9fcded0f898f450b5de43686effa115f6163ae21
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136227"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417880"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>作用中與非作用中關聯性指導方針
 
@@ -31,7 +31,7 @@ ms.locfileid: "91136227"
 
 ![此圖顯示包含兩個資料表的模型：Flight 與 Airport。 下列段落描述關聯性設計。](media/relationships-active-inactive/flight-model-1.png)
 
-**Flight** 與 **Airport** 資料表之間有兩個模型關聯性。 在 **Flight** 資料表中，**DepartureAirport** 和 **ArrivalAirport** 資料行與 **Airport** 資料表的 **Airport** 資料行相關。 在星狀結構描述設計中，**Airport** 資料表是描述為[角色扮演維度](star-schema.md#role-playing-dimensions)。 在此模型中，這兩個角色是「起飛機場」與「抵達機場」。
+**Flight** 與 **Airport** 資料表之間有兩個模型關聯性。 在 **Flight** 資料表中，**DepartureAirport** 和 **ArrivalAirport** 資料行與 **Airport** 資料表的 **Airport** 資料行相關。 在星狀結構描述設計中，**Airport** 資料表是描述為 [角色扮演維度](star-schema.md#role-playing-dimensions)。 在此模型中，這兩個角色是「起飛機場」與「抵達機場」。
 
 雖然這種設計適用於關聯式星狀結構描述設計，但不適用於 Power BI 模型。 這是因為模型關聯性是篩選條件傳播的路徑，且這些路徑必須具確定性。 基於這個理由，模型在兩個資料表之間不能有多個作用中關聯性。 因此，一個關聯性為作用中，而另一個為非作用中 (以虛線表示)，如此範例中所述。 具體而言，作用中的是 **ArrivalAirport** 資料行的關聯性。 這表示套用至 **Airport** 資料表的篩選條件會自動傳播至 **Flight** 資料表的 **ArrivalAirport** 資料行。
 

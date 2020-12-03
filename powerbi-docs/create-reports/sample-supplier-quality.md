@@ -2,19 +2,19 @@
 title: Power BI 的供應商品質分析範例：觀看導覽
 description: Power BI 的供應商品質分析範例：觀看導覽
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 18827ef29282e33a1527be0812b3c0a6971201df
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4b4cfa78a01ec628f5d396ea6a267abe7598998c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348704"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417604"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供應商品質分析範例：觀看導覽
 
@@ -84,7 +84,7 @@ ms.locfileid: "83348704"
  我們想要找出最差的八家供應商，並決定他們的停工時間百分比責任歸屬。 我們可以將 [依廠商的停工時間 (分鐘)]  區域圖變更為矩形式樹狀結構圖，以進行這項作業。  
 
 1. 在報表的 [停工時間分析]  頁面中，選取左上角的 [編輯報表]  。  
-2. 選取 [依廠商的停工時間 (分鐘)]  區域圖，並在 [視覺效果]  窗格中選取**矩形式樹狀結構圖**圖示。  
+2. 選取 [依廠商的停工時間 (分鐘)]  區域圖，並在 [視覺效果]  窗格中選取 **矩形式樹狀結構圖** 圖示。  
 
    ![選取矩形式樹狀結構圖圖示](media/sample-supplier-quality/supplier4.png)  
 
@@ -143,7 +143,7 @@ ms.locfileid: "83348704"
     2014 年的原料瑕疵品數量比 2013 年高很多。  
 
     ![問與答的問題：顯示物料類型、年度和瑕疵品總數](media/sample-supplier-quality/supplier12.png)  
-6. 接下來，將問題變更為：「顯示物料類型、年度和**停工時間總分鐘數」**  。  
+6. 接下來，將問題變更為：「顯示物料類型、年度和 **停工時間總分鐘數」**  。  
 
    ![問與答的問題：顯示物料類型、年度和停工時間總分鐘數](media/sample-supplier-quality/supplier13.png)
 

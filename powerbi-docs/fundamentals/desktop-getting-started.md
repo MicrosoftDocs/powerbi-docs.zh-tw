@@ -2,20 +2,20 @@
 title: 開始使用 Power BI Desktop
 description: 開始使用 Power BI Desktop。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: contperfq1
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: tutorial
 ms.date: 08/19/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec18bb94d7329d4b918f16465dd839a69c3fd973
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: a1fb3a76cc22bf4f22fc080bcde46ec40a3720bb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638834"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418501"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 Power BI Desktop 使用者入門指南。 此導覽說明 Power BI Desktop 的運作方式和功能，並說明如何建置穩固的資料模型和令人讚嘆的報表，來增強您的商業智慧。
@@ -49,7 +49,7 @@ Power BI Desktop 會集中、簡化並效率化設計與建立商業智慧儲存
 ## <a name="install-and-run-power-bi-desktop"></a>安裝並執行 Power BI Desktop
 若要下載 Power BI Desktop，請前往 [Power BI Desktop 下載頁面](https://powerbi.microsoft.com/desktop)並選取 [免費下載]。 或若要下載選項，請選取[查看下載或語言選項](https://www.microsoft.com/download/details.aspx?id=58494)。 
 
-您也可以從 Power BI 服務下載 Power BI Desktop。 選取頂端功能表列中的**下載**圖示，然後選取 [Power BI Desktop]。
+您也可以從 Power BI 服務下載 Power BI Desktop。 選取頂端功能表列中的 **下載** 圖示，然後選取 [Power BI Desktop]。
 
 ![Power B I 服務的螢幕擷取畫面，其中顯示 [下載 Power B I Desktop] 選項。](media/desktop-getting-started/gsg_download.png)
 
@@ -57,7 +57,7 @@ Power BI Desktop 會集中、簡化並效率化設計與建立商業智慧儲存
 
 Power BI Desktop 第一次啟動時，會顯示 [歡迎] 畫面。
 
-從 [歡迎] 畫面，您可以**取得資料**、查看**最近使用的來源**、開啟最近使用的報表、**開啟其他報表**，或選取其他連結。 您也可以選擇是否在啟動時一律顯示 [歡迎] 畫面。 選取關閉圖示以關閉 [歡迎] 畫面。
+從 [歡迎] 畫面，您可以 **取得資料**、查看 **最近使用的來源**、開啟最近使用的報表、**開啟其他報表**，或選取其他連結。 您也可以選擇是否在啟動時一律顯示 [歡迎] 畫面。 選取關閉圖示以關閉 [歡迎] 畫面。
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [歡迎] 畫面。](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
 
@@ -69,7 +69,7 @@ Power BI Desktop 的左側有三個 Power BI Desktop 檢視圖示：從上到下
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示預設檢視。](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Power BI Desktop 也包含 **Power Query 編輯器**，這會在另一個視窗中開啟。 在 **Power Query 編輯器**中，您可以建置查詢並轉換資料，然後將調整過的資料模型載入 Power BI Desktop 以建立報表。
+Power BI Desktop 也包含 **Power Query 編輯器**，這會在另一個視窗中開啟。 在 **Power Query 編輯器** 中，您可以建置查詢並轉換資料，然後將調整過的資料模型載入 Power BI Desktop 以建立報表。
 
 ## <a name="connect-to-data"></a>連線至資料
 安裝 Power BI Desktop 後，即可連線至不斷擴展的資料世界。 若要查看多種可用的資料來源類型，請在 Power BI Desktop [首頁] 索引標籤中選取 [取得資料] > [更多]，然後在 [取得資料] 視窗中捲動 [全部] 資料來源清單。 在此快速導覽中，您會連接到幾種不同的 **Web** 資料來源。
@@ -202,7 +202,7 @@ Power BI Desktop 的查詢功能會開始運作，並連絡 Web 資源。 [導�
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [州代碼] 資料行。](media/desktop-getting-started/mergedquery.png)
 
-若要展開合併的資料表，並選取要包含哪些資料行，請選取資料行標頭中的**展開**圖示。 在 [展開] 對話方塊中，只選取 [縮寫] 資料行。 取消選取 [使用原始資料行名稱作為前置詞]，然後選取 [確定]。 
+若要展開合併的資料表，並選取要包含哪些資料行，請選取資料行標頭中的 **展開** 圖示。 在 [展開] 對話方塊中，只選取 [縮寫] 資料行。 取消選取 [使用原始資料行名稱作為前置詞]，然後選取 [確定]。 
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [州代碼縮寫] 資料行。](media/desktop-getting-started/shapecombine_mergeexpand.png)
 
@@ -215,7 +215,7 @@ Power BI Desktop 的查詢功能會開始運作，並連絡 Web 資源。 [導�
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示包含成形及合併查詢的 Power Query 編輯器。](media/desktop-getting-started/mergedcolumn.png)
 
-目前，您有足夠的資料，可在 Power BI Desktop 中建立相關報表。 由於這是一個里程碑，因此請從功能區的 [首頁] 索引標籤選取 [關閉並套用]，以在 **Power Query 編輯器**中套用變更，並將其載入至 Power BI Desktop 中。 您也可以只選取 [套用]，以便在 Power BI Desktop 中工作時，於 Power Query 編輯器中保持開啟查詢。 
+目前，您有足夠的資料，可在 Power BI Desktop 中建立相關報表。 由於這是一個里程碑，因此請從功能區的 [首頁] 索引標籤選取 [關閉並套用]，以在 **Power Query 編輯器** 中套用變更，並將其載入至 Power BI Desktop 中。 您也可以只選取 [套用]，以便在 Power BI Desktop 中工作時，於 Power Query 編輯器中保持開啟查詢。 
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [關閉並套用變更] 選項。](media/desktop-getting-started/shapecombine_closeandapply.png)
 
@@ -261,11 +261,11 @@ Power BI Desktop 的查詢功能會開始運作，並連絡 Web 資源。 [導�
 
 您現在只會在地圖視覺效果中看到天氣狀況前 10 名的州。 
 
-選取 [視覺效果] 窗格中的**格式**圖示，選取 [標題]，然後在 [標題文字] 下鍵入「天氣狀況前 10 名的州」，以重新命名視覺效果。 
+選取 [視覺效果] 窗格中的 **格式** 圖示，選取 [標題]，然後在 [標題文字] 下鍵入「天氣狀況前 10 名的州」，以重新命名視覺效果。 
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [視覺效果] 窗格中的 [變更標題] 欄位。](media/desktop-getting-started/designer_gsg_report1.png)
 
-若要新增視覺效果，其會顯示天氣狀況前 10 名的州名及其排名 1 到 10，請選取畫布的空白區域，然後從 [視覺效果] 窗格選取**直條圖**圖示。 在 [欄位] 窗格中，選取 [州] 和 [天氣]。 顯示您查詢中 40 州的直條圖，從最高的數字排名排到最低，或從最差的天氣狀況排到最佳。 
+若要新增視覺效果，其會顯示天氣狀況前 10 名的州名及其排名 1 到 10，請選取畫布的空白區域，然後從 [視覺效果] 窗格選取 **直條圖** 圖示。 在 [欄位] 窗格中，選取 [州] 和 [天氣]。 顯示您查詢中 40 州的直條圖，從最高的數字排名排到最低，或從最差的天氣狀況排到最佳。 
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示直條圖視覺效果。](media/desktop-getting-started/gsg_share7.png)
 
@@ -289,7 +289,7 @@ Power BI Desktop 的查詢功能會開始運作，並連絡 Web 資源。 [導�
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [頁面] 列。](media/desktop-getting-started/pages.png)
 
-您可以從 [首頁] 索引標籤的 [插入] 群組，將文字方塊、影像和按鈕新增至報表頁面。若要設定視覺效果的格式化選項，請選取視覺效果，然後在 [視覺效果] 窗格中選取**格式**圖示。 若要設定頁面大小、背景及其他頁面資訊，請選取未選取視覺效果的**格式**圖示。
+您可以從 [首頁] 索引標籤的 [插入] 群組，將文字方塊、影像和按鈕新增至報表頁面。若要設定視覺效果的格式化選項，請選取視覺效果，然後在 [視覺效果] 窗格中選取 **格式** 圖示。 若要設定頁面大小、背景及其他頁面資訊，請選取未選取視覺效果的 **格式** 圖示。
 
 當您完成建立頁面和視覺效果時，請選取 [檔案] > [儲存] 並儲存報表。 
 
@@ -332,9 +332,9 @@ Power BI Desktop 的查詢功能會開始運作，並連絡 Web 資源。 [導�
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [編輯] 和 [儲存] 選項。](media/desktop-getting-started/gsg_share4.png)
 
-您可以在 **Power BI** 服務中，從報表建立各種有趣的視覺效果，然後釘選到「儀表板」。 若要了解 **Power BI** 服務中的儀表板，請參閱[設計絕佳儀表板的祕訣](../create-reports/service-dashboards-design-tips.md)。 如需有關建立、共用及修改儀表板的詳細資訊，請參閱[共用儀表板](../collaborate-share/service-share-dashboards.md)。
+您可以在 **Power BI** 服務中，從報表建立各種有趣的視覺效果，然後釘選到「儀表板」。 若要了解 **Power BI** 服務中的儀表板，請參閱 [設計絕佳儀表板的祕訣](../create-reports/service-dashboards-design-tips.md)。 如需有關建立、共用及修改儀表板的詳細資訊，請參閱[共用儀表板](../collaborate-share/service-share-dashboards.md)。
 
-若要共用報表或儀表板，請選取已開啟報表或儀表板頁面頂端的 [共用]，或選取 [我的工作區] > [報表] 或 [我的工作區] > [儀表板] 清單中報表或儀表板名稱旁的**共用**圖示。
+若要共用報表或儀表板，請選取已開啟報表或儀表板頁面頂端的 [共用]，或選取 [我的工作區] > [報表] 或 [我的工作區] > [儀表板] 清單中報表或儀表板名稱旁的 **共用** 圖示。
 
 完成 [共用報表] 或 [共用儀表板] 畫面，以傳送電子郵件或取得連結來與其他人共用您的報表或儀表板。 
 

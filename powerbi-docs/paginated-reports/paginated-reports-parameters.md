@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 217c1b571c01068d64283df0b25b5e56bbc8b956
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 7d874f2c9a7b8381ece151a4ac113bed5662c2e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297284"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418156"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>使用 Power BI 服務建立編頁報表的參數
 
@@ -31,7 +31,7 @@ ms.locfileid: "93297284"
   
 3.  [參數] 窗格。 您可以在參數窗格中自訂參數的配置。 
   
-4.  @FromDate 和 @ToDate 參數的資料類型為 **DateTime** 。 檢視報表時，您可以在文字方塊中輸入日期，或在日曆控制項中選擇日期。 
+4.  @FromDate 和 @ToDate 參數的資料類型為 **DateTime**。 檢視報表時，您可以在文字方塊中輸入日期，或在日曆控制項中選擇日期。 
 
 5.  [資料集屬性] 對話方塊中的其中一個參數。  
 

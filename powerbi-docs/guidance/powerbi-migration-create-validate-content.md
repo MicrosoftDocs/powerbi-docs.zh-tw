@@ -2,22 +2,22 @@
 title: 建立內容以移轉到 Power BI
 description: 在移轉至 Power BI 時建立與驗證內容的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a12a320b061967e9201e3513e504277a9df586b4
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 03a55f2f414ca8af7ca86f51dcafb0258efc88b7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803200"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418593"
 ---
-# <a name="createcontenttomigratetopowerbi"></a>建立內容以移轉到 Power BI
+# <a name="create-content-to-migrate-to-power-bi"></a>建立內容以移轉到 Power BI
 
-本文描述 **第 4 階段** ，這與移轉到 Power BI 時建立與驗證內容相關。
+本文描述 **第 4 階段**，這與移轉到 Power BI 時建立與驗證內容相關。
 
 :::image type="content" source="media/powerbi-migration-create-validate-content/migrate-to-powerbi-stage-4.png" alt-text="顯示 Power BI 移轉階段的影像。本文的重點在於第 4 階段。":::
 

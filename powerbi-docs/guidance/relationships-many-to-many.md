@@ -2,18 +2,18 @@
 title: 多對多關聯性指導
 description: 開發多對多模型關聯性的指導。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 95383581a258374f2757581e82fa0f2044dcae84
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668520"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418616"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多對多關聯性指導
 
@@ -116,7 +116,7 @@ ms.locfileid: "91668520"
 - 針對每個多對多相關實體，各新增為一個模型資料表，以確保其具有唯一的識別碼資料行
 - 新增橋接資料表以儲存相關聯的實體
 - 建立這三個資料表之間的一對多關聯性
-- 設定**一個**雙向關聯性，以允許篩選傳播接續到事實類型資料表
+- 設定 **一個** 雙向關聯性，以允許篩選傳播接續到事實類型資料表
 - 在遺漏識別碼值不當的情況下，請將識別碼資料行的 [可為 Null] 屬性設定為 FALSE；如果以遺漏值為來源，則資料重新整理將會失敗
 - 隱藏橋接資料表 (除非其中包含需要報告的其他資料行或量值)
 - 隱藏不適合報告的任何識別碼資料行 (例如，當識別碼為 Surrogate 索引鍵時)

@@ -2,18 +2,18 @@
 title: 在 Power BI Desktop 中建立日期資料表
 description: 在 Power BI Desktop 中建立日期資料表的技術和指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396625"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417834"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中建立日期資料表
 

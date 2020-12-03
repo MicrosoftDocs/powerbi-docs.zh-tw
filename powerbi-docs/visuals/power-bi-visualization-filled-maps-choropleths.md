@@ -1,21 +1,21 @@
 ---
 title: Power BI 中的區域分布圖 (分區著色圖)
 description: 有關在 Power BI 中建立區域分布圖 (分區著色圖) 的文件
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/05/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ce0adb6d5115ece1b228690c496d022f8dfc9e56
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 748e13a509bc3689122c8622f9ce26536f850a68
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412985"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418317"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>在 Power BI 中建立和使用區域分布圖 (分級著色圖)
 
@@ -53,7 +53,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
    
 2. 尋找您的 **銷售與行銷範例 PBIX 檔案** 複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **銷售與行銷範例 PBIX 檔案** 。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 **銷售與行銷範例 PBIX 檔案**。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 

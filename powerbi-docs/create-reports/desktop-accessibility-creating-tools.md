@@ -2,19 +2,19 @@
 title: 使用協助工具在 Power BI 中建立報表
 description: 了解用來在 Power BI 中建立報表的內建協助工具
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 00fd1352542a0cc3c962dc1597e2fa82a7393682
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 89ae528766fe303a0ba74ea69f6ecb3f5af13cec
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229323"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417650"
 ---
 # <a name="creating-reports-in-power-bi-using-accessibility-tools"></a>使用協助工具在 Power BI 中建立報表
 
@@ -68,9 +68,9 @@ ms.locfileid: "85229323"
 
 ## <a name="field-well"></a>欄位區
 
-當焦點位在窗格樞紐上時 (如前一節所述)，再次按 Tab 會將焦點移至**欄位區**。 
+當焦點位在窗格樞紐上時 (如前一節所述)，再次按 Tab 會將焦點移至 **欄位區**。 
 
-在**欄位區**中，焦點順序會移至：
+在 **欄位區** 中，焦點順序會移至：
 
 * 每個欄位區的標題 (第一個)
 * 接著是每個欄位區的指定欄位 (下一個)
@@ -83,7 +83,7 @@ ms.locfileid: "85229323"
 
 螢幕助讀程式將會讀出欄位區名稱及其工具提示。 針對欄位區中的每個欄位，螢幕助讀程式都會讀出欄位名稱及其工具提示。 如果欄位區是空的，則焦點應該移至整個空欄位區。 螢幕閱讀程式應該會讀出欄位區名稱、工具提示，並表示其是空的。
 
-當欄位功能表開啟時，您可以使用 **Tab** 或是 **Shift + Tab** 或**向上** / **向下**鍵將其移動。 螢幕助讀程式會讀出選項名稱。
+當欄位功能表開啟時，您可以使用 **Tab** 或是 **Shift + Tab** 或 **向上** / **向下** 鍵將其移動。 螢幕助讀程式會讀出選項名稱。
 
 如果要將欄位從欄位區中的某個貯體移到另一個貯體，則可以使用鍵盤，並使用欄位區功能表中的 [移至]  選項，如下圖所示。
 
@@ -109,7 +109,7 @@ ms.locfileid: "85229323"
 
 ![[欄位] 清單的焦點進展](media/desktop-accessibility/accessibility-create-reports-08.png)
 
-若要展開 [欄位]  區中的所有資料表，請按 **Alt + Shift + 9**。 若要摺疊所有資料表，請按 **Alt + Shift + 1**。 若要展開單一資料表，請按**向右鍵**。 若要摺疊單一資料表，請按**向左鍵**。 類似於格式化窗格，如果資料表已展開，則在 [欄位] 清單中進行定位和巡覽會包含所顯示的欄位。 螢幕助讀程式會讀出已展開或摺疊資料表。
+若要展開 [欄位]  區中的所有資料表，請按 **Alt + Shift + 9**。 若要摺疊所有資料表，請按 **Alt + Shift + 1**。 若要展開單一資料表，請按 **向右鍵**。 若要摺疊單一資料表，請按 **向左鍵**。 類似於格式化窗格，如果資料表已展開，則在 [欄位] 清單中進行定位和巡覽會包含所顯示的欄位。 螢幕助讀程式會讀出已展開或摺疊資料表。
 
 ![[欄位] 清單 (已展開資料表) 的焦點進展](media/desktop-accessibility/accessibility-create-reports-09.png)
 
@@ -143,7 +143,7 @@ ms.locfileid: "85229323"
 * 按 **Ctrl + Shift + S** 來隱藏/顯示物件
 * 按 **Ctrl + Shift + F** 依圖層順序向上移動物件
 * 按 **Ctrl + Shift + B** 依圖層順序向下移動物件
-* 按 **Ctrl + 空格鍵**來複選物件
+* 按 **Ctrl + 空格鍵** 來複選物件
 
 ## <a name="power-bi-desktop-dialogs"></a>Power BI Desktop 對話方塊
 

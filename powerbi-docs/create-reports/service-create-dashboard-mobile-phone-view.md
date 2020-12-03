@@ -2,19 +2,19 @@
 title: 為行動電話最佳化儀表板 - Power BI
 description: 了解如何在 Power BI 服務中，建立專供手機檢視之用的自訂儀表板檢視。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/18/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bc1c9987205e86ee9a123bf8ba9afd567c59ff52
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: b0bf14ec5229aae40ee4e3f43c65b6bef4a505ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264717"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417466"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>為行動電話最佳化儀表板 - Power BI 
 當您在手機上以直向模式檢視儀表板時，會注意到儀表板磚的版面配置是並排排列而成，而且大小完全相同。 在 Power BI 服務中，您可以為儀表板建立專供手機直向模式使用的自訂檢視。 即使您建立了手機檢視，當您旋轉手機時，您還是會看到儀表板在服務中的版面配置方式。

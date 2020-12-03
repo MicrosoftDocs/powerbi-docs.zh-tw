@@ -2,20 +2,20 @@
 title: 智慧型敘事教學課程
 description: 教學課程：在 Power BI 中建立智慧型敘事摘要視覺效果
 author: aphilip94
+ms.author: anphil
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/06/2020
-ms.author: anphil
 ms.custom: video
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92ebd3015296dc0b6a61f3b7dd2a8b0d163a4383
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 7ebb9d4c3682f1ce5cac5e587cb326d4e4ba506b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397200"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418754"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>建立智慧型敘事摘要 (預覽)
 

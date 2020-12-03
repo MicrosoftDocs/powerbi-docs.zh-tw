@@ -2,18 +2,18 @@
 title: 在分頁報表中使用串聯參數
 description: 使用串聯參數設計分頁報表的指引。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: v-pemyer
-ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: fca5d6556c296094e4536ecf965388e2a4224ed9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197648"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417903"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>在分頁報表中使用串聯參數
 
@@ -33,7 +33,7 @@ ms.locfileid: "92197648"
 
 本文中顯示的範例會以 Azure SQL Database 為基礎。 資料庫會記錄銷售作業，並且包含用來保存轉銷商、產品和銷售訂單的各種資料表。
 
-名為**轉銷商**的資料表會為每個轉銷商儲存一筆記錄，而其中可包含數千筆記錄。 **轉銷商**資料表有這些資料行：
+名為 **轉銷商** 的資料表會為每個轉銷商儲存一筆記錄，而其中可包含數千筆記錄。 **轉銷商** 資料表有這些資料行：
 
 - ResellerCode (整數)
 - ResellerName
@@ -42,7 +42,7 @@ ms.locfileid: "92197648"
 - 城市
 - 郵遞區號
 
-另外還有一個名為**銷售**的資料表。 該資料表會儲存銷售訂單記錄，並在 **ResellerCode** 資料行上有**轉銷商**資料表的外部索引鍵關聯性。
+另外還有一個名為 **銷售** 的資料表。 該資料表會儲存銷售訂單記錄，並在 **ResellerCode** 資料行上有 **轉銷商** 資料表的外部索引鍵關聯性。
 
 ### <a name="example-requirement"></a>需求範例
 

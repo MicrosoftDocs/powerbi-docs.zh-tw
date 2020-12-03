@@ -2,19 +2,19 @@
 title: 在 Power BI 報表中控制圖表格線
 description: 在 Power BI 報表視覺效果、Power BI Desktop 或 Power BI 服務中，控制圖表格線的三個提示。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: Y-igshes2LI
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 1a8dba63b0832886ce550cb2ed02249317e7240e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d2e082aa28fe0a3dfb0f1be4f2d910baa064e94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272756"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417788"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>在 Power BI 報表中控制圖表格線的提示
 

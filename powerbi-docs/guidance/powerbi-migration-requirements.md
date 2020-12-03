@@ -2,22 +2,22 @@
 title: 收集需求以移轉到 Power BI
 description: 在移轉到 Power BI 時收集需求並排列優先順序的相關指引。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2aee1be1d5e221f8feaeae05f8284f0388b4b8af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396635"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418547"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>收集需求以移轉到 Power BI
 
-本文描述 **階段 1** ，這與移轉到 Power BI 時收集需求並排列優先順序相關。
+本文描述 **階段 1**，這與移轉到 Power BI 時收集需求並排列優先順序相關。
 
 :::image type="content" source="media/powerbi-migration-requirements/migrate-to-powerbi-stage-1.png" alt-text="顯示 Power BI 移轉階段的影像。本文的重點在於階段 1。":::
 

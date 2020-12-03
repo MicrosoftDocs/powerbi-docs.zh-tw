@@ -2,18 +2,18 @@
 title: 探索 Power BI 行動裝置應用程式中的磚
 description: 圖格是釘選到儀表板的即時資料快照集。 了解如何與 Power BI 行動裝置應用程式中的磚互動。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 74823845c73f02468d012c4518cdf111e84824c9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683349"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417926"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的磚
 適用於︰

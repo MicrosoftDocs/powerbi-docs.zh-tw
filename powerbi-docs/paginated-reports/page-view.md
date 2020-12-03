@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: ''
+ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 41d59f12ad95430e13eb4d856bc1b7d321f7006f
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 6c44c0252e954c9a3b78aaa620c93a9ea97f47e2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297333"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418225"
 ---
 # <a name="set-report-views-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中設定編頁報表的報表檢視
 

@@ -2,20 +2,20 @@
 title: 在報表中的表格或矩陣中顯示影像
 description: 在 Power BI Desktop 中，您會建立一個包含影像超連結的資料行。 然後在 Power BI Desktop 或 Power BI 服務中，將那些超連結新增至報表表格、矩陣、交叉分析篩選器或多列卡片以顯示影像。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/11/2019
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 098bb6cc8df59dea38bb63f38c724e362c7219e5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ba0042804d366ddfd80935c48246cadeadf3614
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228981"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417949"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>在報表中的表格、矩陣或交叉分析篩選器中顯示影像
 

@@ -2,19 +2,19 @@
 title: 採購分析範例：導覽。
 description: Power BI 的採購分析範例：導覽
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0193d5a46204b6dcb7477911efcaef22e358045e
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 73384f2f2021d949fcaca26c5b9e55cd7f0407af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348934"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417535"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的採購分析範例：導覽
 
@@ -68,7 +68,7 @@ ms.locfileid: "83348934"
 首先，我們先來看依類別和地點劃分的支出趨勢。  
 
 1. 在儲存範例的工作區中，開啟 [儀表板]  索引標籤，然後尋找 [採購分析範例]  儀表板並加以選取。 
-2. 選取儀表板圖格 [依國家/地區劃分的發票總計]  ，這將開啟 [採購分析範例]  報表的 [支出概觀]  頁面。
+2. 選取儀表板圖格 [依國家/地區劃分的發票總計]，這將開啟 [採購分析範例] 報表的 [支出概觀] 頁面。
 
     ![[支出概觀] 頁面](media/sample-procurement/procurement2.png)
 
@@ -85,10 +85,10 @@ ms.locfileid: "83348934"
 1. 在 [依國家/地區劃分的發票總計]  地圖中，選取 [墨西哥]  泡泡。 請注意，在 [依子類別劃分的發票總計]  直條圖中，大部分費用都是在 [間接商品與服務]  子類別中。
 
    ![在 [支出概觀] 頁面中選取 [墨西哥]](media/sample-procurement/pbi_procsample_spendmexico.png)
-2. 向下鑽研**間接貨物與服務**資料行：
+2. 向下鑽研 **間接貨物與服務** 資料行：
 
-   * 在 [依子類別劃分的發票總計]  圖表中，選取圖表右上角的向下鑽研箭號 (![向下鑽研箭號](media/sample-procurement/pbi_drilldown_icon.png))。
-   * 選取**間接貨物與服務**資料行。
+   * 在 [依子類別劃分的發票總計]![](media/sample-procurement/pbi_drilldown_icon.png) 圖表中，選取圖表右上角的向下鑽研箭號 (**向下鑽研箭號**)。
+   * 選取 **間接貨物與服務** 資料行。
 
       如您所見，到目前為止最高的支出是 [銷售與行銷]  子類別。
    * 在地圖上再次選取 **墨西哥** 。
@@ -103,7 +103,7 @@ ms.locfileid: "83348934"
 ## <a name="evaluate-different-cities"></a>評估不同的城市
 我們可以使用反白顯示來評估不同的城市。
 
-1. 選取儀表板圖格 [依月份劃分的發票總計與折扣百分比]  ，這將開啟 [採購分析範例]  報表的 [折扣分析]  頁面。
+1. 選取儀表板圖格 [依月份劃分的發票總計與折扣百分比]，這將開啟 [採購分析範例] 報表的 [折扣分析] 頁面。
 2. 在 [依城市劃分的發票總計]  樹狀結構圖中，依次選取城市，以查看城市的比較結果。 請注意，幾乎所有邁阿密的發票都是來自第 1 層廠商。
 
    ![依層劃分的城市與折扣百分比](media/sample-procurement/pbi_procsample_miamitreemap2.png)

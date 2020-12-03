@@ -2,18 +2,18 @@
 title: 使用報表頁面鑽研
 description: 使用報表頁面鑽研的指引。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/28/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4aa7c3992183dad6fad30e31e31e935fbaa29c32
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278069"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418478"
 ---
 # <a name="use-report-page-drillthrough"></a>使用報表頁面鑽研
 

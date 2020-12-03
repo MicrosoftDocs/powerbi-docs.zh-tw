@@ -2,20 +2,20 @@
 title: 將超連結 (URL) 新增至資料表或矩陣
 description: 本主題會指導如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料集。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/15/2020
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 824dc74d2461f9bbf6350694a48b00a327f3f13d
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: c60c5824f20edd6d596d23fed56f8cdfaa19a01a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116584"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418041"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>將超連結 (URL) 新增至資料表或矩陣
 本主題會指導如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料集。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。 接著，您可以顯示 URL 或連結圖示，或將另一個資料行格式化為連結文字。
@@ -64,7 +64,7 @@ ms.locfileid: "92116584"
 
     選取 [格式]  圖示![油漆滾筒圖示](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)以開啟 [格式化] 索引標籤。
 
-    展開 [值]  ，找到 **URL 圖示**並將其設定為 [開啟]  。
+    展開 [值]  ，找到 **URL 圖示** 並將其設定為 [開啟]  。
 
     ![開啟 URL 圖示](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 

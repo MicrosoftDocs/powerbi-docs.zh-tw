@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的鍵盤快速鍵
 description: 如何使用鍵盤快速鍵來存取 Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bf3f25adb916e158ee879cb96ab43655c72903d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229117"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417581"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop 中的鍵盤快速鍵
 
@@ -41,7 +41,7 @@ ms.locfileid: "85229117"
 | 在區段之間移動焦點  | **Ctrl + F6** |
 | 在區段中向前移動焦點 | **Tab**         |
 | 在區段中向後移動焦點 | **Shift + Tab** |
-| 選取或清除物件選取項目 | **Enter** 或**空格鍵** |
+| 選取或清除物件選取項目 | **Enter** 或 **空格鍵** |
 | 多重選取物件 | **Ctrl + 空格鍵** |
 
 ## <a name="on-visual"></a>在視覺效果上
@@ -52,7 +52,7 @@ ms.locfileid: "85229117"
 | 輸入視覺效果 | **Ctrl + 向右鍵** |
 | 輸入層 | **Enter** |
 | 結束層或視覺效果 | **Esc** |
-| 選取或清除資料點選取項目 | **Enter** 或**空格鍵** |
+| 選取或清除資料點選取項目 | **Enter** 或 **空格鍵** |
 | 複選 | **Ctrl + Enter** 或 **Ctrl + 空格鍵** |
 | 以滑鼠右鍵按一下 | <ul><li>Windows 鍵盤：**Windows 內容索引鍵 + F10**。 Windows 操作功能表鍵在左 ALT 鍵與向左鍵之間</li><li>其他鍵盤：**Shift + F10**</li></ul> |
 | 清除選取範圍 | **Ctrl + Shift + C** |

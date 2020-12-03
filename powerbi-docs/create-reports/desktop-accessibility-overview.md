@@ -2,19 +2,19 @@
 title: Power BI 中的協助工具概觀
 description: 用來建立具協助功能 Power BI Desktop 報表的功能和建議，包括 Web 內容無障礙指導方針 (WCAG)
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 02/21/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c07f27e1ed4a0a1d509aa93a67b2584ad20a6cc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83310226"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417512"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI 中的協助工具概觀
 
