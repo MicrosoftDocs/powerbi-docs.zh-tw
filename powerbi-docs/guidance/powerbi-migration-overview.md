@@ -2,18 +2,18 @@
 title: Power BI 移轉概觀
 description: 了解如何規劃和進行從其他第三方 BI 工具到 Power BI 的移轉。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: aa17e6293a4bd946b1d6b7acad45623fa2393c57
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 8f8e58f61d2baa66cd0baf351857656588cfbe9f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803201"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419237"
 ---
 # <a name="power-bi-migration-overview"></a>Power BI 移轉概觀
 
@@ -44,7 +44,7 @@ Power BI 移轉系列中的文章包括：
 |![階段 4。](media/common/icon-04-red-30x30.png)|**採用、控管和監視 Power BI。** 最後一個階段是由持續進行的活動所組成，例如培養資料文化、溝通和訓練。 這些活動會大幅影響有效的 Power BI 實作。 您必須擁有適合組織的控管和安全性原則和程序，以及稽核與監視功能，才能進行調整、擴充和持續改善。|
 
 > [!IMPORTANT]
-> Power BI 的正式移轉幾乎一律會與開發新 Power BI 解決方案同時進行。 _Power BI 解決方案_是包含資料和報表使用的廣義字詞。 一個 Power BI Desktop (pbix) 檔案可能會包含資料模型或報表，或兩者都包含。 建議 (但不一定要) [將資料模型與報表分隔](../guidance/report-separate-from-model.md)，以便重複使用資料。
+> Power BI 的正式移轉幾乎一律會與開發新 Power BI 解決方案同時進行。 _Power BI 解決方案_ 是包含資料和報表使用的廣義字詞。 一個 Power BI Desktop (pbix) 檔案可能會包含資料模型或報表，或兩者都包含。 建議 (但不一定要) [將資料模型與報表分隔](../guidance/report-separate-from-model.md)，以便重複使用資料。
 >
 > 當規劃和進行正式移轉時，使用 Power BI 來撰寫新的需求將有助於獲得認可。 同步階段可為內容作者提供實用且真實世界的 Power BI 體驗。
 
@@ -94,9 +94,9 @@ Power BI 移轉系列中的文章包括：
 
 實現高生產力且良好的資料文化是許多組織其主要目標。 Power BI 是協助達成此目標的絕佳工具。 您可能考慮移轉到 Power BI 的三個常見原因如下：
 
-- 引進可提高自助 BI 使用者社群能力的新功能，以**實現受控自助 BI**。 Power BI 可供更廣泛地存取資訊並制定決策，同時減少依賴不容易找到的專家技能。
+- 引進可提高自助 BI 使用者社群能力的新功能，以 **實現受控自助 BI**。 Power BI 可供更廣泛地存取資訊並制定決策，同時減少依賴不容易找到的專家技能。
 - **將企業 BI 的傳遞合理化**，以符合現有 BI 工具未解決的需求，同時降低複雜度、降低擁有權成本，以及/或從目前使用中的多項 BI 工具標準化。
-- 減少資源、時間和人員，以**解決經濟壓力**來提高生產力。
+- 減少資源、時間和人員，以 **解決經濟壓力** 來提高生產力。
 
 ## <a name="achieve-power-bi-migration-success"></a>成功移轉 Power BI
 

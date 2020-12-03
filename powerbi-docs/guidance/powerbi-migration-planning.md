@@ -2,22 +2,22 @@
 title: 規劃部署以移轉至 Power BI
 description: 在移轉至 Power BI 時規劃部署的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f161819b6e26c197bacc5534b5abfb426d612624
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396970"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419214"
 ---
 # <a name="plan-deployment-to-migrate-to-power-bi"></a>規劃部署以移轉至 Power BI
 
-本文描述 **第 2 階段** ，這與規劃單一 Power BI 解決方案的移轉相關。
+本文描述 **第 2 階段**，這與規劃單一 Power BI 解決方案的移轉相關。
 
 :::image type="content" source="media/powerbi-migration-planning/migrate-to-powerbi-stage-2.png" alt-text="顯示 Power BI 移轉階段的影像。本文的重點在於第 2 階段。":::
 
@@ -40,7 +40,7 @@ ms.locfileid: "94396970"
 
 首要決策是選擇 Power BI 產品。 您需決定使用 [Power BI 服務](../fundamentals/power-bi-service-overview.md) 或 [Power BI 報表伺服器](../report-server/get-started.md)。 在發佈內容之後，即可使用許多其他選項，例如內嵌、行動傳遞及電子郵件訂閱。
 
-如需架構考量的詳細資訊，請參閱 [規劃 Power BI 企業部署白皮書](https://aka.ms/PBIEnterpriseDeploymentWP)的 **第 3 節** 。
+如需架構考量的詳細資訊，請參閱 [規劃 Power BI 企業部署白皮書](https://aka.ms/PBIEnterpriseDeploymentWP)的 **第 3 節**。
 
 > [!CAUTION]
 > 請注意，若想要依賴使用儲存在檔案系統中的 Power BI Desktop 檔案，則此非最佳方法。 使用 Power BI 服務 (或 Power BI 報表伺服器) 對安全性、內容發佈及共同作業有極大的好處。 Power BI 服務也會啟用稽核與監視活動的功能。

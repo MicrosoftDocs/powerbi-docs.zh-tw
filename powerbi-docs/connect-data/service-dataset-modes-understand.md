@@ -1,20 +1,20 @@
 ---
 title: Power BI 服務中的資料集模式
 description: 了解 Power BI 服務資料集模式：匯入、DirectQuery 及複合。
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 4ec73f3dd09d1c83b07d1419256cd627a71ae2d4
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.date: 12/01/2020
+ms.openlocfilehash: 5b4c32296c7121fa3d161461af7e86caba617ee1
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332835"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501941"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI 服務中的資料集模式
 
@@ -101,9 +101,7 @@ _DirectQuery_ 模式是匯入模式的替代方案。 在 DirectQuery 模式中�
 
 開發複合模型的製造模型者很可能會以匯入或雙重儲存模式來設定維度類型的資料表，並以 DirectQuery 模式來設定事實類型的資料表。 如需模型資料表角色的詳細資訊，請參閱[了解星型結構描述及其對 Power BI 的重要性](../guidance/star-schema.md)。
 
-例如，假設有某個模型具有處於雙重模式下的**產品**維度類型資料表，以及處於 DirectQuery 模式下的**銷售**事實類型資料表。 可以從記憶體內有效且迅速地查詢**產品**資料表，並呈現報表交叉分析篩選器。 同時也可以搭配相關聯的**產品**資料表，在 DirectQuery 模式中查詢**銷售**資料表。 後者查詢可以產生單一有效的原生 SQL 查詢，它能聯結**產品**和**銷售**資料表，並依交叉分析篩選器的值進行篩選。
-
-一般而言，對複合模型來說，與匯入和 DirectQuery 相關聯的優勢和缺點會取決於每個資料表的設定方式。
+例如，假設有某個模型具有處於雙重模式下的 **產品** 維度類型資料表，以及處於 DirectQuery 模式下的 **銷售** 事實類型資料表。 可以從記憶體內有效且迅速地查詢 **產品** 資料表，並呈現報表交叉分析篩選器。 同時也可以搭配相關聯的 **產品** 資料表，在 DirectQuery 模式中查詢 **銷售** 資料表。 後者查詢可以產生單一有效的原生 SQL 查詢，它能聯結 **產品** 和 **銷售** 資料表，並依交叉分析篩選器的值進行篩選。
 
 如需詳細資訊，請參閱[在 Power BI Desktop 中使用複合模型](../transform-model/desktop-composite-models.md)。
 

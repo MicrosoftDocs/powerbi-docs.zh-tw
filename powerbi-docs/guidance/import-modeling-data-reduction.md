@@ -2,18 +2,18 @@
 title: 匯入模型的資料減少技術
 description: 了解可協助減少載入匯入模型資料量的不同技術。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/05/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 396c760a97911a35d7fdc0c608fc35de1cf6586d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 5476a87d21f7a5e49850078e490b25c3d8a4f5d8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216801"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419352"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>匯入模型的資料減少技術
 
@@ -54,9 +54,9 @@ ms.locfileid: "86216801"
 
 模型資料表應盡可能地載入越少資料列越好。 這可以透過針對兩個不同理由，將經篩選的資料列集載入模型資料表來達成：依據實體進行篩選或依據時間進行篩選。 移除資料列的過程稱為「水平篩選」。
 
-**依據實體進行篩選**會涉及將來源資料的子集載入模型。 例如只載入單一區域的事實，而非載入所有銷售區域的銷售事實。 這種設計方法可以產生較小的模型，並消除定義資料列層級安全性的需求 (但會需要您在 Power BI 服務中授與特定資料集權限，以及建立連線到每個資料集的「重複」報表)。 您可以透過使用 Power Query 參數和 Power BI 範本檔案來簡化管理及發行。 如需詳細資訊，請參閱 [Deep Dive into Query Parameters and Power BI Templates](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) (深入探討查詢參數和 Power BI 範本) 部落格項目。
+**依據實體進行篩選** 會涉及將來源資料的子集載入模型。 例如只載入單一區域的事實，而非載入所有銷售區域的銷售事實。 這種設計方法可以產生較小的模型，並消除定義資料列層級安全性的需求 (但會需要您在 Power BI 服務中授與特定資料集權限，以及建立連線到每個資料集的「重複」報表)。 您可以透過使用 Power Query 參數和 Power BI 範本檔案來簡化管理及發行。 如需詳細資訊，請參閱 [Deep Dive into Query Parameters and Power BI Templates](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) (深入探討查詢參數和 Power BI 範本) 部落格項目。
 
-**依據時間進行篩選**則涉及限制載入到事實類型資料表的「資料記錄」數 (以及限制載入到模型日期資料表的日期資料列)。 我們建議您不要自動載入所有可用的記錄，除非有已知的報告需求。 了解可以參數化以時間為基礎的 Power Query 篩選，甚至設為使用相對時間期間 (相對於重新整理日期，例如過去五年) 相當有幫助。 同時，請記得對時間篩選的追溯變更不會中斷報表；它只會減少 (或增加) 報表中可提供使用的資料記錄。
+**依據時間進行篩選** 則涉及限制載入到事實類型資料表的「資料記錄」數 (以及限制載入到模型日期資料表的日期資料列)。 我們建議您不要自動載入所有可用的記錄，除非有已知的報告需求。 了解可以參數化以時間為基礎的 Power Query 篩選，甚至設為使用相對時間期間 (相對於重新整理日期，例如過去五年) 相當有幫助。 同時，請記得對時間篩選的追溯變更不會中斷報表；它只會減少 (或增加) 報表中可提供使用的資料記錄。
 
 ## <a name="group-by-and-summarize"></a>分組依據及摘要
 

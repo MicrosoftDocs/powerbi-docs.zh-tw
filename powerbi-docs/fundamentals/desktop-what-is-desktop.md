@@ -2,23 +2,23 @@
 title: Power BI Desktop 是什麼？
 description: 了解 Power BI Desktop 以及如何開始加以使用。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: overview
 ms.date: 07/23/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5a71999cc5358c1849a534ff2b3eb9d689791ceb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860777"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419536"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop 是什麼？
 
-*Power BI Desktop* 是您安裝在本機電腦上的免費應用程式。此應用程式可讓您連線與轉換資料，以及將資料視覺化。 透過 Power BI Desktop，您可以連線至許多不同的資料來源，並將其合併 (通常稱為「模型化」) 成為一個資料模型。 此資料模型可讓您建置視覺效果和視覺效果集合，並以報表的形式與組織內的其他人員共用。 處理商業智慧專案的使用者大多會使用 Power BI Desktop 來建立報表，然後使用 *Power BI 服務*與其他人員共用其報表。
+*Power BI Desktop* 是您安裝在本機電腦上的免費應用程式。此應用程式可讓您連線與轉換資料，以及將資料視覺化。 透過 Power BI Desktop，您可以連線至許多不同的資料來源，並將其合併 (通常稱為「模型化」) 成為一個資料模型。 此資料模型可讓您建置視覺效果和視覺效果集合，並以報表的形式與組織內的其他人員共用。 處理商業智慧專案的使用者大多會使用 Power BI Desktop 來建立報表，然後使用 *Power BI 服務* 與其他人員共用其報表。
 
 ![Power BI Desktop 的螢幕擷取畫面，其中顯示範例資料。](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
@@ -113,7 +113,7 @@ Power BI Desktop 可讓您使用多個來源的資料，在單一報表中建立
 
 ## <a name="share-reports"></a>共用報表
 
-在報表可以與其他人共用後，您就可以將報表*發佈*到 Power BI 服務，以供組織中擁有 Power BI 授權的所有人使用。 
+在報表可以與其他人共用後，您就可以將報表 *發佈* 到 Power BI 服務，以供組織中擁有 Power BI 授權的所有人使用。 
 
 若要發佈 Power BI Desktop 報表： 
 

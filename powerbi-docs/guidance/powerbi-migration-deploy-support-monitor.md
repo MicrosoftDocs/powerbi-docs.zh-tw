@@ -2,22 +2,22 @@
 title: 部署到 Power BI
 description: 在移轉到 Power BI 時，關於部署、支援及監視內容的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: bfa3ffad111c7ab819ed1269586a7b32ccf43bba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396119"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419260"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
-本文說明 **階段 5** ，這與移轉到 Power BI 時部署、支援及監視內容相關。
+本文說明 **階段 5**，這與移轉到 Power BI 時部署、支援及監視內容相關。
 
 :::image type="content" source="media/powerbi-migration-deploy-support-monitor/migrate-to-powerbi-stage-5.png" alt-text="顯示 Power BI 移轉階段的影像。本文的重點在於階段 5。":::
 
@@ -44,7 +44,7 @@ ms.locfileid: "94396119"
 - **連接字串與參數：** 若開發與測試之間的資料來源不同，請調整資料集連接字串。 [參數化](../connect-data/service-parameters.md)可用於有效地管理連接字串。
 - **工作區內容：** 將資料集與報表發佈至測試工作區，並建立儀表板。
 - **應用程式。** 若測試工作區中的內容會形成 UAT 流程的一部分，則使用該內容發佈[應用程式](../consumer/end-user-apps.md)。 應用程式權限通常僅限於涉及 UAT 的少數人員。
-- **資料重新整理：** 針對 UAT 主動發生期間的所有匯入資料集， [排程資料集重新整理](../connect-data/refresh-scheduled-refresh.md)。
+- **資料重新整理：** 針對 UAT 主動發生期間的所有匯入資料集，[排程資料集重新整理](../connect-data/refresh-scheduled-refresh.md)。
 - **安全性：** 更新或確認 [工作區角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。 測試工作區存取包括涉及 UAT 的少數人員。
 
 > [!NOTE]
@@ -88,7 +88,7 @@ ms.locfileid: "94396119"
 - **變更管理：** 如有必要，請取得部署的核准，並使用您的標準變更管理實作，與使用者擴展的部署進行通訊。 在允許實際執行部署的期間，可能會有已核准的變更管理視窗。 其通常適用於 IT 管理的內容，且較不常套用至自助內容。
 - **復原計畫：** 有了移轉，預期其為新解決方案的第一次移轉。 若內容已經存在，若有必要，最好將計畫還原成先前的版本。 擁有舊版的 Power BI Desktop 檔案 (使用 SharePoint 或 OneDrive 版本設定) 適用於此用途。
 - **連接字串與參數：** 當測試與實際執行之間的資料來源不同，請調整資料集連接字串。 [參數化](../connect-data/service-parameters.md)可以有效地用於此用途。
-- **資料重新整理：** 針對所有匯入的資料集， [排程資料集重新整理](../connect-data/refresh-scheduled-refresh.md)。
+- **資料重新整理：** 針對所有匯入的資料集，[排程資料集重新整理](../connect-data/refresh-scheduled-refresh.md)。
 - **工作區內容：** 將資料集與報表發佈至實際執行工作區，並建立儀表板。 若您的內容已發佈至 Premium 容量上的工作區，[部署管線](../create-reports/deployment-pipelines-overview.md)可以簡化開發、測試與實際執行工作區的部署程序。
 - **應用程式：** 若應用程式是內容散發策略的一部分，請使用實際執行工作區中的內容，發佈 [應用程式](../consumer/end-user-apps.md)。
 - **安全性：** 根據您的內容散發與共同作業策略，更新及確認 [工作區角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)。

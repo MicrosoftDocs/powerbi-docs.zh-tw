@@ -2,32 +2,32 @@
 title: Power BI Desktop 中的查詢折疊指導方針
 description: 在 Power BI Desktop 中達到 Power Query 查詢折疊的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5e2ec32f3eeaff224256f0a84d2a5c23d3e882a5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149187"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419306"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的查詢折疊指導方針
 
 本文適用於在 Power BI Desktop 中開發模型的製造資料模型者。 其中提供有關何時及如何達成 Power Query 查詢折疊的最佳做法指導方針。
 
-_查詢折疊_是 Power Query 查詢的一項功能，可產生單一查詢陳述式來擷取和轉換來源資料。 如需詳細資訊，請參閱 [Power Query 查詢折疊](/power-query/power-query-folding)。
+_查詢折疊_ 是 Power Query 查詢的一項功能，可產生單一查詢陳述式來擷取和轉換來源資料。 如需詳細資訊，請參閱 [Power Query 查詢折疊](/power-query/power-query-folding)。
 
 ## <a name="guidance"></a>指引
 
 根據模型模式，查詢摺疊指導方針會有所不同。
 
-針對 **DirectQuery** 或**雙重**儲存模式資料表，Power Query 查詢必須達成查詢折疊。
+針對 **DirectQuery** 或 **雙重** 儲存模式資料表，Power Query 查詢必須達成查詢折疊。
 
-針對**匯入**資料表，可能可以達成查詢折疊。 當查詢是以關聯式來源為基礎且可建構單一 SELECT 陳述式時，則確保進行查詢折疊有助於達成「最佳資料重新整理效能」  。 如果 Power Query 混搭引擎仍然必須處理轉換，則您應該致力於將其所需執行的工作減到最少，特別是針對大型資料集。
+針對 **匯入** 資料表，可能可以達成查詢折疊。 當查詢是以關聯式來源為基礎且可建構單一 SELECT 陳述式時，則確保進行查詢折疊有助於達成「最佳資料重新整理效能」  。 如果 Power Query 混搭引擎仍然必須處理轉換，則您應該致力於將其所需執行的工作減到最少，特別是針對大型資料集。
 
 下列項目符號清單提供特定指導方針。
 
