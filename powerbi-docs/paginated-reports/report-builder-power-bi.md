@@ -1,20 +1,20 @@
 ---
 title: Power BI 報表產生器
 description: Power BI Report Builder 是用於撰寫分頁報表的工具。
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 32d42ee139ceb03326b99d88e6033475ed2a4cc7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297840"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416235"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 報表產生器
 
@@ -44,11 +44,11 @@ Power BI 報表產生器是用於撰寫可以發佈到 Power BI 服務之分頁�
   
 -   **修改現有的報表。** 藉由使用報表產生器，您可以自訂及更新在 SQL Server Data Tools (SSDT) 報表設計工具中建立的報表。  
   
--   **修改您的資料** 。 篩選、分組及排序資料，或是新增公式或運算式。  
+-   **修改您的資料**。 篩選、分組及排序資料，或是新增公式或運算式。  
 
--   **新增圖表、量測計、走勢圖和指標** 。 以視覺格式摘要資料，一眼就能瀏覽大量彙總資訊。  
+-   **新增圖表、量測計、走勢圖和指標**。 以視覺格式摘要資料，一眼就能瀏覽大量彙總資訊。  
   
--   **新增互動式功能** ，例如文件引導模式、顯示/隱藏按鈕，以及子報表和鑽研報表的鑽研連結。 使用參數和篩選來篩選自訂檢視的資料。  
+-   **新增互動式功能**，例如文件引導模式、顯示/隱藏按鈕，以及子報表和鑽研報表的鑽研連結。 使用參數和篩選來篩選自訂檢視的資料。  
   
 -   **內嵌或參考影像** 與其他資源，包括外部內容。  
   
@@ -56,7 +56,7 @@ Power BI 報表產生器是用於撰寫可以發佈到 Power BI 服務之分頁�
   
 -   **儲存報表的定義** 至您的電腦或報表伺服器，以便您進行管理並與其他人共用。  
   
--   當您開啟報表時，或在您開啟報表之後， **選擇呈現格式** 。 您可以選取 Web 導向、頁面導向和傳統型應用程式格式。 格式包括 MHTML、PDF、XML、CSV、Word 和 Excel。  
+-   當您開啟報表時，或在您開啟報表之後，**選擇呈現格式**。 您可以選取 Web 導向、頁面導向和傳統型應用程式格式。 格式包括 MHTML、PDF、XML、CSV、Word 和 Excel。  
   
 -   **設定訂閱。** 將報表發佈至 Power BI 服務之後，您可以設定報表在特定時間執行，並以電子郵件訂閱形式傳送。  
 

@@ -2,16 +2,16 @@
 title: 解決方案架構師學習目錄
 description: 尋找適用於解決方案設計師的所有 Power Apps 訓練選項，從最基礎到最進階。
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: c75e3d45199173ce949bb876e9755c44c8bd06a5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 5af590d1a66ed5372a15c5335bad7166c177592e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749337"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416385"
 ---
 # <a name="solution-architects-learning-catalog"></a>解決方案架構師學習目錄
 

@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
+ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 6e9da6e16d32f0093bc0e4be35415f1a23f7fa41
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 427fba66b34fefb0b7ca9d70a29b08ebe7d743cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748556"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416132"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 在將 Power BI 視覺效果[發佈](office-store.md)至 Microsoft AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為使用者打造絕佳體驗。
@@ -70,7 +70,7 @@ IAP Power BI 視覺效果是提供「免費功能」的「免費」視覺效果�
 > * 本文中使用的 Microsoft 商業標誌僅為範例用途。 搭配 Power BI 視覺效果來使用您自己的商業標誌。
 
 > [!IMPORTANT]
-> 商業標誌「僅可在編輯模式中」** 使用。 商業標誌「無法」** 在檢視模式中顯示。
+> 商業標誌「僅可在編輯模式中」使用。 商業標誌「無法」在檢視模式中顯示。
 
 ### <a name="commercial-logo-type"></a>商業標誌類型
 
@@ -115,11 +115,11 @@ Power BI 視覺效果需要兩個商業標誌，一個用於大型圖格，另�
 
 |設定  |小型 Power BI 視覺效果  |大型 Power BI 視覺效果  |
 |---------|---------|---------|
-|「標誌寬度」**    |最多 240 像素         |大於 240 像素         |
-|「標誌高度」**     |最多 160 像素         |大於 160 像素         |
-|「周框方塊大小」**     |40 x 15 像素         |101 x 30 像素         |
-|「商業標誌範例」**     |![小版 Microsoft 商業標誌的螢幕擷取畫面。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 商業標誌的螢幕擷取畫面。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|「周框方塊範例」**    |![小型標誌尺寸的螢幕擷取畫面。](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大型標誌尺寸的螢幕擷取畫面。](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|「標誌寬度」    |最多 240 像素         |大於 240 像素         |
+|「標誌高度」     |最多 160 像素         |大於 160 像素         |
+|「周框方塊大小」     |40 x 15 像素         |101 x 30 像素         |
+|「商業標誌範例」     |![小版 Microsoft 商業標誌的螢幕擷取畫面。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 商業標誌的螢幕擷取畫面。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|「周框方塊範例」    |![小型標誌尺寸的螢幕擷取畫面。](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大型標誌尺寸的螢幕擷取畫面。](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>商業標誌行為

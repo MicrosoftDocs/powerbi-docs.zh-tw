@@ -4,15 +4,16 @@ description: 了解如何為 Azure 中的 Power BI Embedded 服務設定診斷�
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
-ms.service: power-bi-embedded
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4ab6a0d6135fcd2428df03e84596eebf6bba6704
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748785"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417351"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的診斷記錄
 
@@ -38,10 +39,10 @@ ms.locfileid: "91748785"
 
     * **封存至儲存體帳戶** - 若要使用此選項，您需要連線到現有的儲存體帳戶。 請參閱[建立儲存體帳戶](/azure/storage/common/storage-create-storage-account)，並依照指示建立儲存體帳戶。 接著，透過在入口網站中返回此頁面來選取您的儲存體帳戶。 新建立的儲存體帳戶可能在數分鐘後才會出現在下拉式功能表中。 記錄檔儲存體是 JSON 格式。
     * **串流至事件中樞** - 若要使用此選項，您需要連線到現有的「事件中樞」命名空間和事件中樞。 若要深入了解，請參閱[使用 Azure 入口網站來建立事件中樞命名空間和事件中樞](/azure/event-hubs/event-hubs-create)。
-    * **傳送至 Log Analytics** - 若要使用此選項，請使用現有的工作區，或依照下列步驟在入口網站中[建立新的工作區](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)以建立新的 Log Analytics 工作區。 這利用 [Azure Log Analytics](/azure/log-analytics/log-analytics-overview)，它提供內建分析、儀表板管理和通知功能。 您可以使用 Log Analytics 來連線到其他資源的更多資料，並取得跨所有您的應用程式資源的單一、完整資料檢視。 您也可以將它[一鍵連結到 Power BI](/azure/log-analytics/log-analytics-powerbi)。
+    * **傳送至 Log Analytics** - 若要使用此選項，請使用現有的工作區，或依照下列步驟在入口網站中 [建立新的工作區](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)以建立新的 Log Analytics 工作區。 這利用 [Azure Log Analytics](/azure/log-analytics/log-analytics-overview)，它提供內建分析、儀表板管理和通知功能。 您可以使用 Log Analytics 來連線到其他資源的更多資料，並取得跨所有您的應用程式資源的單一、完整資料檢視。 您也可以將它[一鍵連結到 Power BI](/azure/log-analytics/log-analytics-powerbi)。
     如需在 Log Analytics 中檢視記錄的詳細資訊，請參閱[檢視 Log Analytics 中的記錄檔](/azure/log-analytics/log-analytics-activity)。
-    * **引擎** - 選取此選項來記錄下面[列出的一組引擎事件](#whats-logged)。
-    * **AllMetrics** - 選取此選項來儲存[計量](/azure/analysis-services/analysis-services-monitor#server-metrics)中的詳細資訊資料。 如果您要封存至儲存體帳戶，可以為診斷記錄選取保留期限。 保留期限過後，就會自動刪除記錄。
+    * **引擎** - 選取此選項來記錄下面 [列出的一組引擎事件](#whats-logged)。
+    * **AllMetrics** - 選取此選項來儲存 [計量](/azure/analysis-services/analysis-services-monitor#server-metrics)中的詳細資訊資料。 如果您要封存至儲存體帳戶，可以為診斷記錄選取保留期限。 保留期限過後，就會自動刪除記錄。
 
 3. 選取 [儲存]  。
 

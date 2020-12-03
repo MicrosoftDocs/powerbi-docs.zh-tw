@@ -2,19 +2,19 @@
 title: 資料流程和自助資料準備簡介
 description: 概述 Power BI 資料流程是什麼，以及使用 Power BI 流程的時機
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d8315652883f644d5440c25e3203fdf004bac51c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5dde70b9834d990987e42c6aa945940a7f110949
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669101"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416063"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>資料流程和自助資料準備簡介
 

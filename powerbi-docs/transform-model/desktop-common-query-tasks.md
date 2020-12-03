@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中執行常見查詢工作
 description: 在 Power BI Desktop 中執行常見查詢工作
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/09/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2346118350ca589a25635db9da976fa917e3ff7b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526252"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415948"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>在 Power BI Desktop 中執行常見查詢工作
 
@@ -89,18 +89,18 @@ ms.locfileid: "91526252"
 
 ![螢幕擷取畫面顯示如何將資料表中的資料列分組。](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
-[分組方式]  對話方塊隨即出現。 當 Power Query 編輯器將資料列分組時，它會建立新的資料行，其中放入**分組**結果。 您可以以下列方式調整**分組**作業：
+[分組方式]  對話方塊隨即出現。 當 Power Query 編輯器將資料列分組時，它會建立新的資料行，其中放入 **分組** 結果。 您可以以下列方式調整 **分組** 作業：
 
 1. 未標記的下拉式清單會指定要分組的資料行。 Power Query 編輯器會將此值預設為選取的資料行，但您可以將它變更為資料表中的任何資料行。
 2. **新增資料行名稱**：Power Query 編輯器會建議新資料行的名稱，這是根據它會套用至要分組之資料行的作業。 不過，您可以隨意命名新的資料行。
 3. **作業**：您可以選擇該 Power Query 編輯器所套用的作業，例如 [總和]  、[中間值]  或 [計數相異資料列]  。 預設值為 [計數資料列]  。
 4. [加入群組]  和 [加入彙總]  ：只有在您選取 [進階]  選項時，才可以使用這些按鈕。 您可以在單一作業中，對許多資料行進行群組作業 ([分組方式]  動作)，並使用這些按鈕建立幾個彙總。 Power Query 編輯器會根據您在此對話方塊中選取的項目，建立一個在多個資料行上運作的新資料行。
 
-選取 [加入群組]  或 [加入彙總]  ，即可將多個群組或彙總加入至**分組**作業。 若要移除群組或匯總，請選取資料列右邊的省略號圖示 ( **...** )，然後選取 [刪除]  。 請繼續並使用預設值來嘗試**分組方式**作業，看看會發生什麼情況。
+選取 [加入群組]  或 [加入彙總]  ，即可將多個群組或彙總加入至 **分組** 作業。 若要移除群組或匯總，請選取資料列右邊的省略號圖示 ( **...** )，然後選取 [刪除]  。 請繼續並使用預設值來嘗試 **分組方式** 作業，看看會發生什麼情況。
 
 ![螢幕擷取畫面顯示 [群組依據] 對話方塊，其中已標註 [加入群組] 和 [加入彙總]。](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-當您選取 [確定]  時，查詢會執行**分組方式**作業並傳回結果。 哇，不得了，結果顯示俄亥俄、伊利諾州、德州和加州現在都有超過一千個機構！
+當您選取 [確定]  時，查詢會執行 **分組方式** 作業並傳回結果。 哇，不得了，結果顯示俄亥俄、伊利諾州、德州和加州現在都有超過一千個機構！
 
 ![[計數資料行] 對話方塊，Power Query 編輯器，Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -148,7 +148,7 @@ Power Query 編輯器會將每個查詢的所有套用步驟保留為您可以�
 
 ![[進階編輯器] 命令，Power Query 編輯器，Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-以下就來看看 [進階編輯器]  ，其中顯示與 **USA\_StudentEnrollment** 查詢相關聯的查詢步驟。 這些步驟是以 Power Query 公式語言建立，這個語言常稱為 *M*。如需詳細資訊，請參閱[深入了解 Power Query 公式](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要檢視語言規格本身，請參閱 [Power Query M 語言規格](/powerquery-m/power-query-m-language-specification)。
+以下就來看看 [進階編輯器]  ，其中顯示與 **USA\_StudentEnrollment** 查詢相關聯的查詢步驟。 這些步驟是以 Power Query 公式語言建立，這個語言常稱為 *M*。如需詳細資訊，請參閱 [深入了解 Power Query 公式](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要檢視語言規格本身，請參閱 [Power Query M 語言規格](/powerquery-m/power-query-m-language-specification)。
 
 ![[進階編輯器] 對話方塊，Power Query 編輯器，Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

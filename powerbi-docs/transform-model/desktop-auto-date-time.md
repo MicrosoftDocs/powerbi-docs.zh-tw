@@ -2,18 +2,18 @@
 title: Power BI Desktop 中的自動日期/時間
 description: 了解 Power BI Desktop 中的自動日期/時間功能。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 10/23/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 0c62e423bdf357a5eee4ef5b03daa7ec145310e7
-ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
+ms.openlocfilehash: 24972026d7121809ac71c6c8352a147af38ad5be
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85943051"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416017"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>在 Power BI Desktop 中套用自動日期/時間
 
@@ -55,7 +55,7 @@ Power BI Desktop 也會在自動日期/時間資料表的 [資料] 資料行與�
 
 ## <a name="work-with-auto-datetime"></a>使用自動日期/時間
 
-當日期資料行有自動日期/時間資料表 (而且該資料行可見)，報表作者將不會在 [欄位] 窗格中，找到欄位形式的該資料行。 相反地，他們會找到具有日期資料行名稱的可展開物件。 您可以輕鬆地識別它，因為它帶有行事曆圖示裝飾。 當報表作者展開行事曆物件時，他們會找到名為**日期階層**的階層。 展開階層之後，即可找到四個層級：**Year**、**Quarter**、**Month** 和 **Day**。
+當日期資料行有自動日期/時間資料表 (而且該資料行可見)，報表作者將不會在 [欄位] 窗格中，找到欄位形式的該資料行。 相反地，他們會找到具有日期資料行名稱的可展開物件。 您可以輕鬆地識別它，因為它帶有行事曆圖示裝飾。 當報表作者展開行事曆物件時，他們會找到名為 **日期階層** 的階層。 展開階層之後，即可找到四個層級：**Year**、**Quarter**、**Month** 和 **Day**。
 
 ![[欄位] 窗格的範例，其中開啟了已展開的 Sales 資料表。 它包含 OrderDate 欄位，該欄位帶有行事曆圖示裝飾。 它已展開並開啟，並包含名為「日期階層」的階層。 它也會展開並包含四個層級：Year、Quarter、Month 和 Day。](media/desktop-auto-date-time/auto-date-time-fields-pane-example.png)
 

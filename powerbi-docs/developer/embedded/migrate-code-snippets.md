@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 5c916d38ba71e143b4b85f39c8f7e427bfb0c626
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ed021ce95fd1e978916c188c93ca77fa88ccdb6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240068"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416500"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段
 
 以下是內容移轉所需之基本作業的一些程式碼片段。 針對特定報告類型的相關流程，請參閱[如何將 Power BI 工作區集合內容遷移至 Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)。
 
-有**移轉工具**可用來協助您將 Power BI Embedded (PaaS) 的內容複製到 Power BI 服務 (SaaS)。 尤其是當您有許多內容時。 如需詳細資訊，請參閱 [Power BI Embedded 移轉工具](migrate-tool.md)。
+有 **移轉工具** 可用來協助您將 Power BI Embedded (PaaS) 的內容複製到 Power BI 服務 (SaaS)。 尤其是當您有許多內容時。 如需詳細資訊，請參閱 [Power BI Embedded 移轉工具](migrate-tool.md)。
 
 下列程式碼是使用 C# 和 [Power BI .NET SDK](https://www.nuget.org/profiles/powerbi) 的範例。
 

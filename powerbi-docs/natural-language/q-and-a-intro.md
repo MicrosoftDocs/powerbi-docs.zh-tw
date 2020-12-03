@@ -2,17 +2,17 @@
 title: 透過 Power BI 問與答使用自然語言探索資料
 description: 如何使用 Power BI [問與答] 透過使用自然語言進行查詢來探索您的資料並建立視覺效果。
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.author: mohaali
-ms.openlocfilehash: d9339c0005f7f2af9fedd5cc5bfcce40469afb8c
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 71a78fe6b1af909079ca0a187ddb14d643c4e576
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749153"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416408"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI 問與答簡介
 
@@ -80,7 +80,7 @@ Power BI 問與答完全免費，並可供所有使用者使用。 在 Power BI 
 - 新增問與答視覺效果。
 - 新增問與答按鈕。
 
-若要將問與答視覺效果新增至報表，請選取新的**問與答**圖示，然後在 [視覺效果] 窗格中選取新的問與答視覺效果。 或者，在報表畫布的任何位置上按兩下來插入問與答視覺效果。
+若要將問與答視覺效果新增至報表，請選取新的 **問與答** 圖示，然後在 [視覺效果] 窗格中選取新的問與答視覺效果。 或者，在報表畫布的任何位置上按兩下來插入問與答視覺效果。
 
 ![問與答視覺效果圖示](media/qna-visual-icon.png)
 

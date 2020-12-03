@@ -2,18 +2,18 @@
 title: Power BI 行動裝置應用程式中的標註並共用
 description: '了解從 Microsoft Power BI for iOS 和 Android 行動裝置應用程式標註並共用圖格、報告和視覺效果。 '
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 58a282116a672f33c0e05e7a3e6532ede316b3d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af8cb247d2a931ac9fb7aa54fc37f9f4dcde74ae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239328"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416615"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中標註並共用磚、報表或視覺效果。
 適用於：

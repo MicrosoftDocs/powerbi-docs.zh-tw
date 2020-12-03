@@ -2,20 +2,20 @@
 title: Power BI Desktop 中的雙向交叉篩選
 description: 在 Power BI Desktop 中使用 DirectQuery 啟用交叉篩選
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 141dabdce7816d21c49d8c7f98d1438c2fc20e8d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 96e0e60adcd1858fa031eb81e8f0762690cbe0c7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339091"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415971"
 ---
 # <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中啟用 DirectQuery 的雙向交叉篩選
 

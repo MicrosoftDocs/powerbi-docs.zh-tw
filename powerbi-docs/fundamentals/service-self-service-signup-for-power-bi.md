@@ -2,20 +2,20 @@
 title: 以個人身分註冊 Power BI 服務
 description: 了解如何註冊 Power BI 服務並開始使用，以滿足資料分析和視覺效果需求。
 author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: db77d7f94665df7711f7b49dd2cc6d10a7c694df
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 4aa768aa6c041f4653a0bd7bf1ef873b3bc4a63b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216630"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416638"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>以個人身分註冊 Power BI 服務
 
@@ -29,7 +29,7 @@ Power BI 是統一的自助式企業商業智慧平台，其結合直覺的使�
 Desktop、服務和行動應用程式這三個項目旨在透過其用來服務人們、或其角色的最有效方式，以讓人們建立、共用和取用商業見解。
 
 ## <a name="signing-up-for-the-power-bi-service"></a>註冊 Power BI 服務
-本文描述以個人身分註冊 **Power BI 服務**的步驟。 如果需要下載 Power BI Desktop 或安裝行動應用程式的說明，請改參閱下列文章：
+本文描述以個人身分註冊 **Power BI 服務** 的步驟。 如果需要下載 Power BI Desktop 或安裝行動應用程式的說明，請改參閱下列文章：
 - [Power BI Desktop (也是完全免費的下載項目)](desktop-get-the-desktop.md)    
 - [Power BI 行動應用程式 (也是完全免費的下載項目)](../consumer/mobile/mobile-apps-for-mobile-devices.md)
 

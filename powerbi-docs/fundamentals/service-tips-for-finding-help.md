@@ -1,20 +1,20 @@
 ---
 title: 取得 Power BI 問題說明的 10 個祕訣
 description: 當您有 Power BI 如何運作方式的問題時，可利用下列 10 種方法取得說明
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0ef9371b54fed4188b80bbb761cf61f3805a8eab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525613"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416569"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>取得 Power BI 問題說明的 10 個祕訣
 您在使用 Power BI 時曾感到挫折嗎？或您曾在需要 Power BI 問題的解答時，因為無法即時如願而難以繼續嗎？ 

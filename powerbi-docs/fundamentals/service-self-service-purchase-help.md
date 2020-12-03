@@ -1,18 +1,19 @@
 ---
 title: 自助式 Power BI Pro 購買說明
 description: 如果已停用自助式購買，該怎麼辦。 無法購買適用於 Power BI 服務的 Power BI Pro。
-services: powerbi
 author: mihart
 ms.author: mihart
+services: powerbi
 ms.topic: conceptual
 ms.service: powerbi
+ms.subservice: pbi-fundamentals
 ms.date: 07/09/2020
-ms.openlocfilehash: e0656dae18cc62322ebc54235e08133d4cc2cafb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 0c53c452ac1798656641b4cb5686c7d85213dd99
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86301356"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416592"
 ---
 # <a name="what-to-do-if-purchasing-power-bi-pro-is-disabled"></a>如果已停用購買 Power BI Pro，該怎麼辦
 

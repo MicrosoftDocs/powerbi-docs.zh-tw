@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用和管理彙總
 description: 在 Power BI Desktop 中使用彙總來執行巨量資料的互動式分析。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: a6adf2136cbff1df6e673de16fd1673127df0192
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600331"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416290"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>在 Power BI Desktop 中使用彙總
 
@@ -63,10 +63,10 @@ Power BI 中的「彙總」  可讓您減少資料表大小，以便能夠專注
 
 [管理彙總]  對話方塊會強制執行下列值得注意的驗證：
 
-- 除了計數和計數資料表資料列**摘要**函式之外，**詳細資料資料行**必須和**彙總資料行**具有相同資料類型。 計數和計數資料表資料列僅供整數彙總資料行使用，資料類型不用相符。
-- 不允許鏈結彙總涵蓋三份或更多的資料表。 例如，**資料表 A** 的彙總無法參考所含彙總參考**資料表 C** 的**資料表 B**。
-- 不允許重複彙總有兩個項目使用同一**摘要**函式，且參考相同的**詳細資料資料表**和**詳細資料資料行**。
-- **詳細資料資料表**必須使用 [DirectQuery] 儲存模式，而不是 [匯入]。
+- 除了計數和計數資料表資料列 **摘要** 函式之外，**詳細資料資料行** 必須和 **彙總資料行** 具有相同資料類型。 計數和計數資料表資料列僅供整數彙總資料行使用，資料類型不用相符。
+- 不允許鏈結彙總涵蓋三份或更多的資料表。 例如，**資料表 A** 的彙總無法參考所含彙總參考 **資料表 C** 的 **資料表 B**。
+- 不允許重複彙總有兩個項目使用同一 **摘要** 函式，且參考相同的 **詳細資料資料表** 和 **詳細資料資料行**。
+- **詳細資料資料表** 必須使用 [DirectQuery] 儲存模式，而不是 [匯入]。
 - 不支援依非作用中關聯性所使用的外部索引鍵資料行進行分組，亦不支援依賴 USERELATIONSHIP 函式進行彙總。
 
 大部分驗證都是透過停用下拉式清單中的值，並在工具提示中顯示說明文字來強制執行，如下圖所示。
@@ -108,7 +108,7 @@ Power BI 中的「彙總」  可讓您減少資料表大小，以便能夠專注
 
 維度模型通常會使用「以關聯性為基礎的彙總」  。 來自資料倉儲和資料超市的 Power BI 資料集，類似於星狀/雪花式結構描述，且具有維度資料表與事實資料表間的關聯性。
 
-在來自單一資料來源的下列模型中，資料表會使用 [DirectQuery] 儲存模式。 **銷售**事實資料表包含數十億筆資料列。 將 **Sales** 的儲存模式設定成 [匯入] 以供快取將會耗用大量的記憶體和管理額外負荷。
+在來自單一資料來源的下列模型中，資料表會使用 [DirectQuery] 儲存模式。 **銷售** 事實資料表包含數十億筆資料列。 將 **Sales** 的儲存模式設定成 [匯入] 以供快取將會耗用大量的記憶體和管理額外負荷。
 
 ![模型中的詳細資料資料表](media/desktop-aggregations/aggregations_02.jpg)
 
@@ -174,7 +174,7 @@ Power BI 中的「彙總」  可讓您減少資料表大小，以便能夠專注
 
 ![複雜的彙總查詢](media/desktop-aggregations/aggregations-code_04.jpg)
 
-COUNTROWS 函式可以受益於彙總。 下列查詢會叫用彙總，因為 **Sales** 資料表已定義**計數資料表資料列**彙總。
+COUNTROWS 函式可以受益於彙總。 下列查詢會叫用彙總，因為 **Sales** 資料表已定義 **計數資料表資料列** 彙總。
 
 ![COUNTROWS 彙總查詢](media/desktop-aggregations/aggregations-code_05.jpg)
 
@@ -216,11 +216,11 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免大型資料
 
 ### <a name="groupby-aggregation-query-example"></a>GroupBy 彙總查詢範例
 
-下列查詢會叫用彙總，因為彙總資料表涵蓋 **Activity Date** 資料行。 COUNTROWS 函式會使用**計數資料表資料列**彙總。
+下列查詢會叫用彙總，因為彙總資料表涵蓋 **Activity Date** 資料行。 COUNTROWS 函式會使用 **計數資料表資料列** 彙總。
 
 ![成功的 GroupBy 彙總查詢](media/desktop-aggregations/aggregations-code_08.jpg)
 
-特別是在事實資料表中包含篩選屬性的模型，最好使用**計數資料表資料列**彙總。 假如使用者未明確要求，Power BI 可以使用 COUNTROWS 將查詢提交至資料集。 例如，[篩選條件] 對話方塊會顯示每個值的資料列計數。
+特別是在事實資料表中包含篩選屬性的模型，最好使用 **計數資料表資料列** 彙總。 假如使用者未明確要求，Power BI 可以使用 COUNTROWS 將查詢提交至資料集。 例如，[篩選條件] 對話方塊會顯示每個值的資料列計數。
 
 ![[篩選] 對話方塊](media/desktop-aggregations/aggregations-12.png)
 

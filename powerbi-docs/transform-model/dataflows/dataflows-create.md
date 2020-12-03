@@ -2,19 +2,19 @@
 title: 建立資料流程
 description: 建立資料流程的不同選項概觀
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: c98044303e46af46d36b98f0a1bdc8c7df29d94f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669193"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416155"
 ---
 # <a name="creating-a-dataflow"></a>建立資料流程
 **資料流程** 是在 Power BI 服務中工作區內建立及管理的「實體」(類似於資料表的實體) 集合。 **實體/資料表** 是一組用來儲存資料的欄位，類似於資料庫中的資料表。 您可直接從建立資料流程所在的工作區，在資料流程中新增及編輯實體/資料表，以及管理資料重新整理排程。

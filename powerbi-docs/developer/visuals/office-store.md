@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 07/14/2020
-ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: a4b816e040e25b4a7e67c4bd488554d019277778
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349682"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417167"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
 
@@ -54,7 +54,7 @@ ms.locfileid: "92349682"
 * name
 * 電子郵件
 
-在您的電子郵件中附加 **pbiviz 檔案** 與 **範例報告 pbix 檔案** 。 Power BI 小組會回覆指示和要上傳的應用程式套件 XML 檔案。 需要有此 XML 應用程式套件，才能透過 Office 開發人員中心提交您的視覺效果。
+在您的電子郵件中附加 **pbiviz 檔案** 與 **範例報告 pbix 檔案**。 Power BI 小組會回覆指示和要上傳的應用程式套件 XML 檔案。 需要有此 XML 應用程式套件，才能透過 Office 開發人員中心提交您的視覺效果。
 
 > [!NOTE]
 > 為改善品質並確保現有的報告不中斷，現有視覺效果的更新經市集核准後，要再 2 週才會投放到生產環境。

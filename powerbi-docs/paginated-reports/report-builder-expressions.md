@@ -1,19 +1,19 @@
 ---
 title: Power BI 報表產生器中的運算式
 description: 在整個 Power BI Report Builder 的編頁報表中會廣泛利用運算式來擷取、計算、顯示、分組、排序、篩選、參數化和格式化資料。
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 7dbda608fcab3457a45c4ad93abf7143a19abcd1
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 24f9348bf23c8e5748121f6967fe7c826984adb9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298175"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416339"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Power BI 報表產生器中的運算式
 

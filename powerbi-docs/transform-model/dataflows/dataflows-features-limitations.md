@@ -2,19 +2,19 @@
 title: 資料流程限制，以及支援的連接器和功能
 description: 資料流程的所有功能概觀
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2d58fe71b7ceb27afe5d52a55ed57ae162622b06
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 762a45dc48bd78ffebcbe68ef2f5ed216ec3cc51
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668158"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416086"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>資料流程限制與考量
 

@@ -1,19 +1,19 @@
 ---
 title: Power BI 是什麼？
 description: Power BI 概觀和不同的組件如何一起搭配運作 - Power BI Desktop、Power BI 服務、Power BI 行動版、報表伺服器、Power BI Embedded。
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: overview
 ms.date: 09/23/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2c793cf0b7af6f6a7fdbc6196052ac357b6ddd12
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: acbd0761b481ec4884ab94d50de219a2d753b574
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375321"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416523"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表，或是一組雲端和內部部署混合式資料倉儲， Power BI 可讓您輕鬆地連線到資料來源、以視覺化方式檢視及探索重要資料，以及與任何人或您想要的任何人共用該資料。
@@ -21,7 +21,7 @@ ms.locfileid: "91375321"
 ## <a name="the-parts-of-power-bi"></a>Power BI 的各部分
 Power BI 是由多個項目所組成，這些項目以下列三種服務為首共同作業： 
 - 稱為 **Power BI Desktop** 的 Windows 傳統型應用程式。
-- 稱為 **Power BI 服務**的線上 SaaS (「軟體即服務」) 服務。 
+- 稱為 **Power BI 服務** 的線上 SaaS (「軟體即服務」) 服務。 
 - 適用於 Windows、iOS 和 Android 裝置的 Power BI **行動裝置應用程式**。
 
 ![顯示整合 Power B I Desktop、服務和行動版圖表的螢幕擷取畫面。](media/power-bi-overview/power-bi-overview-blocks.png)
@@ -36,7 +36,7 @@ Power BI 是由多個項目所組成，這些項目以下列三種服務為首�
 ## <a name="how-power-bi-matches-your-role"></a>Power BI 如何符合您的角色
 Power BI 的使用方式可能取決於您在專案或小組中的角色。 其他角色的其他使用者可能以不同方式來使用 Power BI。
 
-例如，您可能主要使用 **Power BI 服務**來檢視報表和儀表板。 負責處理數字、建立業務報表的同事，可能會大量使用 **Power BI Desktop** 或 **Power BI Report Builder** 來建立報表，並將這些報表發佈到 Power BI 服務以供檢視。 而銷售部門的同事可能主要使用 **Power BI 行動電話應用程式**來監視銷售額的進度，並鑽研新的潛在客戶詳細資料。
+例如，您可能主要使用 **Power BI 服務** 來檢視報表和儀表板。 負責處理數字、建立業務報表的同事，可能會大量使用 **Power BI Desktop** 或 **Power BI Report Builder** 來建立報表，並將這些報表發佈到 Power BI 服務以供檢視。 而銷售部門的同事可能主要使用 **Power BI 行動電話應用程式** 來監視銷售額的進度，並鑽研新的潛在客戶詳細資料。
 
 如果您是開發人員，便可以使用 Power BI API 將資料推送至資料集，或將儀表板和報表內嵌至您自己的自訂應用程式。 有新視覺效果的構想嗎？ 您可以自行建置並與其他人分享。  
 
@@ -48,7 +48,7 @@ Power BI 的使用方式取決於 Power BI 的哪些功能或服務是最適合�
 - 適用於[商務使用者](../consumer/end-user-consumer.md)的 Power BI
 - 適用於[報表建立者](desktop-what-is-desktop.md)的 Power BI Desktop
 - 適用於[企業報表建立者](../paginated-reports/paginated-reports-report-builder-power-bi.md)的 Power BI Report Builder
-- 適用於[*系統管理員*](../admin/service-admin-administering-power-bi-in-your-organization.md)的 Power BI
+- 適用於 [*系統管理員*](../admin/service-admin-administering-power-bi-in-your-organization.md)的 Power BI
 - 適用於「開發人員」的 Power BI
     * [搭配 Power BI 使用內嵌式分析](../developer/embedded/embedding.md)
     * [什麼是 Azure Power BI Embedded？](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)

@@ -2,19 +2,19 @@
 title: 連線至 Power BI Desktop 中的 AI 見解
 description: 輕鬆連線並使用 Power BI Desktop 中的 AI 見解
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 06/10/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: a3654bc77ebdbd41ef608378157bf0d24bb94c88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396740"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416109"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 AI 見解
 
@@ -53,7 +53,7 @@ AI 見解已在 2020 年 6 月版本的 Power BI Desktop 中公開推出。 針�
 
 ### <a name="enabling-text-analytics-and-vision-on-premium-capacities"></a>在 Premium 容量上啟用文字分析和視覺
 
-Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量的個別 AI 工作負載用來執行認知服務。 這些功能的公開預覽期間 (2019 年 6 月前) 預設會停用此工作負載。 在 Power BI 中使用認知服務之前，必須在管理入口網站的 **容量設定** 中啟用 AI 工作負載。 您可以在 **工作負載** 區段中開啟 **AI 工作負載** ，並定義您希望此工作負載使用的最大記憶體數量。 建議的記憶體限制為 20%。 超出此限制會讓查詢變慢。
+Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量的個別 AI 工作負載用來執行認知服務。 這些功能的公開預覽期間 (2019 年 6 月前) 預設會停用此工作負載。 在 Power BI 中使用認知服務之前，必須在管理入口網站的 **容量設定** 中啟用 AI 工作負載。 您可以在 **工作負載** 區段中開啟 **AI 工作負載**，並定義您希望此工作負載使用的最大記憶體數量。 建議的記憶體限制為 20%。 超出此限制會讓查詢變慢。
 
 ### <a name="available-functions"></a>可用的函式
 
@@ -67,7 +67,7 @@ Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量
 
 #### <a name="extract-key-phrases"></a>擷取關鍵片語
 
-**關鍵片語擷取** 函式會評估非結構化的文字，並針對每個文字欄位，傳回關鍵片語的清單。 此函式需要文字欄位作為輸入，並接受選擇性的輸入作為 **文化特性資訊** 。
+**關鍵片語擷取** 函式會評估非結構化的文字，並針對每個文字欄位，傳回關鍵片語的清單。 此函式需要文字欄位作為輸入，並接受選擇性的輸入作為 **文化特性資訊**。
 
 關鍵片語擷取在您為其提供更大的文字區塊來處理時，其效果最佳。 這與情感分析相反，後者在較小的文字區塊效果更佳。 若要從這兩項作業獲得最佳結果，請考慮據此重新建構輸入。
 

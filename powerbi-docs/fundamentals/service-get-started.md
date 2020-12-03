@@ -1,23 +1,23 @@
 ---
 title: 教學課程：開始在 Power BI 服務中建立
 description: 開始使用 Power BI 線上服務 (app.powerbi.com)
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: tutorial
 ms.date: 07/08/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: eeda30e5a075166af3718084c2c9f7737f876cbe
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861099"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417121"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>教學課程：開始在 Power BI 服務中建立
-本教學課程是 *Power BI 服務*的部分功能簡介。 您會在本課程中連接資料、建立報表和儀表板，並詢問資料的相關問題。 您可以在 Power BI 服務中執行更多動作；本教學課程僅為了提高您的興趣。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，建議您參閱[什麼是 Power BI](power-bi-overview.md)。
+本教學課程是 *Power BI 服務* 的部分功能簡介。 您會在本課程中連接資料、建立報表和儀表板，並詢問資料的相關問題。 您可以在 Power BI 服務中執行更多動作；本教學課程僅為了提高您的興趣。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，建議您參閱[什麼是 Power BI](power-bi-overview.md)。
 
 您是報表的「讀者」，而非建立者嗎？ [開始使用 Power BI 服務](../consumer/end-user-experience.md)是一個非常好的起點。
 
@@ -82,7 +82,7 @@ ms.locfileid: "90861099"
 
     :::image type="content" source="media/service-get-started/power-bi-service-reading-view.png" alt-text="[閱讀檢視] 選項的螢幕擷取畫面。":::
 
-    在 [編輯檢視] 時，可修改報表，因為您是報表的「擁有者」和「建立者」。 當與同事共用報表時，通常同事只能夠在 [閱讀檢視] 中與報表互動。 同事是您**工作區**中報表的「取用者」。 
+    在 [編輯檢視] 時，可修改報表，因為您是報表的「擁有者」和「建立者」。 當與同事共用報表時，通常同事只能夠在 [閱讀檢視] 中與報表互動。 同事是您 **工作區** 中報表的「取用者」。 
 
 ## <a name="step-2-create-a-chart-in-a-report"></a>步驟 2：在報表中建立圖表
 現在您已連線到資料，請開始進行探索。 當發現有趣的項目時，您可在報表畫布上儲存該項目。 接著您可將其釘選到儀表板以進行監視，並查看該項目隨時間的變化。 要緊的事要先做。
@@ -100,7 +100,7 @@ ms.locfileid: "90861099"
 
     :::image type="content" source="media/service-get-started/power-bi-sigma-fields.png" alt-text="具備 Sigma 符號的欄位。":::
 
-2. 讓我們切換到顯示此資料的不同方式。 折線圖是顯示一段時間內數值的良好視覺效果。 從 [視覺效果] 窗格選取**折線圖**圖示。
+2. 讓我們切換到顯示此資料的不同方式。 折線圖是顯示一段時間內數值的良好視覺效果。 從 [視覺效果] 窗格選取 **折線圖** 圖示。
    
    :::image type="content" source="media/service-get-started/power-bi-service-select-line-chart.png" alt-text="已選取折線圖的報表編輯器螢幕擷取畫面。":::
 
@@ -112,7 +112,7 @@ ms.locfileid: "90861099"
 
     您現在正在 [閱讀檢視] 中查看報表。 
 
-6. 請再次選取**釘選**圖示。
+6. 請再次選取 **釘選** 圖示。
  
 5. 選取 [新增儀表板]，然後將其命名 (例如「財務範例儀表板」)。 
    
@@ -157,7 +157,7 @@ ms.locfileid: "90861099"
 
     :::image type="content" source="media/service-get-started/power-bi-new-qna-experience.png" alt-text="開啟全新 [問與答] 體驗的螢幕擷取畫面。":::
 
-1. 某些建議會傳回單一值。 例如：選取**什麼是平均齒輪**。
+1. 某些建議會傳回單一值。 例如：選取 **什麼是平均齒輪**。
 
     問與答會搜尋答案，並以「卡片」視覺效果的形式呈現。
 
@@ -218,7 +218,7 @@ ms.locfileid: "90861099"
 
     :::image type="content" source="media/service-get-started/power-bi-service-delete-dataset.png" alt-text="刪除資料集的螢幕擷取畫面。":::
 
-    您會看到一個警告，其通知**所有包含此資料集資料的報表和儀表板磚都會遭到刪除**。
+    您會看到一個警告，其通知 **所有包含此資料集資料的報表和儀表板磚都會遭到刪除**。
 
 4. 選取 [刪除]。
 
