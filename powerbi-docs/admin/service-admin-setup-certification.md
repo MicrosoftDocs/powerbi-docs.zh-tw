@@ -2,18 +2,18 @@
 title: 啟用內容認證
 description: 了解如何啟用資料集、資料流程、報表與應用程式的認證。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4961f5f2b6364e06488baf32478b1f6e9338675e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680854"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413510"
 ---
 # <a name="enable-content-certification"></a>啟用內容認證
 

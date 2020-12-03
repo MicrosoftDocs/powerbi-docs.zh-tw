@@ -2,19 +2,19 @@
 title: Power BI Desktop 視覺效果中的視覺效果資料表和記錄
 description: 使用 Power BI Desktop 的視覺效果資料表和資料點資料表功能來深入了解詳細資料
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/21/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 05dcd5f0d7ca1681ee1e82762ea1557c79c5bc24
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264730"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412797"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>使用 Power BI Desktop 中的視覺效果資料表和資料點資料表
 在 **Power BI Desktop** 中，您可以向下鑽研到視覺效果的詳細資料，並查看所選視覺效果基底資料的文字表示或個別資料記錄。 這些功能有時稱為「按一下」，或「鑽研」或「鑽研到詳細資料」。

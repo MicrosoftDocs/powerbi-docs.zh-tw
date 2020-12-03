@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用範本
 description: 在 Power BI Desktop 中建立及共用範本
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/16/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 955e32e99c4f208bbf3582c32b9e5efee95a8f3a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 71e7167be5f39868b36211fd906cccf482cada5c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861927"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412705"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>建立 Power BI Desktop 的報表範本
 
@@ -26,9 +26,9 @@ ms.locfileid: "90861927"
 
 Power BI 報表範本包含作為產生來源報表的下列資訊：
 
-* 報表**頁面**、視覺效果和其他視覺效果項目
+* 報表 **頁面**、視覺效果和其他視覺效果項目
 * **資料模型定義**，包括結構描述、關聯性、量值和其他模型定義成品
-* 所有**查詢定義**，例如查詢、查詢參數和其他查詢項目
+* 所有 **查詢定義**，例如查詢、查詢參數和其他查詢項目
 
 「不」  包含在範本中項目為報表的資料。 
 
@@ -69,7 +69,7 @@ Power BI 報表範本包含作為產生來源報表的下列資訊：
 就這麼簡單。 在 Power BI Desktop 中建立和使用報表範本相當容易，可讓您輕鬆地重新產生吸引人的版面配置和其他報表外觀，並與其他人共用。
 
 ## <a name="next-steps"></a>後續步驟
-您可能也想要了解**查詢參數**：
+您可能也想要了解 **查詢參數**：
 * [在 Power BI Desktop 中使用查詢參數？](/power-query/power-query-query-parameters)
 
 此外，您可以使用 Power BI Desktop 執行各種作業。 如需有關其功能的詳細資訊，請參閱下列資源：

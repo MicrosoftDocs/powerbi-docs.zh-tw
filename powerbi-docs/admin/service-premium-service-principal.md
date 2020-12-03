@@ -1,20 +1,20 @@
 ---
 title: 使用服務主體將 Power BI Premium 工作區與資料集工作自動化 |Microsoft Docs
 description: 了解如何使用服務主體將 Power BI Premium 工作區與資料集管理工作自動化。
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 7ffd2d2673a4efb827110c04e5e466e143c36022
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483711"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413418"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>使用服務主體將 Premium 工作區與資料集工作自動化
 

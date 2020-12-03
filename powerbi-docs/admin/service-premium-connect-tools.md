@@ -1,21 +1,21 @@
 ---
 title: Power BI 中具有 XMLA 端點的資料集連線與管理
 description: 描述如何從用戶端應用程式及工具連線到 Power BI Premium 中的資料集。
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/05/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4645434e5d556695868d028a5694b6cd0b8bd68c
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 4e71580857827a370676c4d05274c4c57b1d56c5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483757"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413487"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>使用 XMLA 端點連線至資料集
 

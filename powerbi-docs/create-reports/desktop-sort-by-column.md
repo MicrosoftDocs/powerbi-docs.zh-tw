@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的依資料行排序
 description: 在 Power BI 中，您可以按不同資料欄位排序來變更視覺效果的外觀。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/30/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d8aea8cf850a2f44ed9786701c33fbf35e8e6e6f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 06cd73aa86fdef58ea77b54305af300b1adb62d7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238556"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412751"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop 中的依資料行排序
 在 Power BI Desktop 和 Power BI 服務中，您可以按不同資料欄位排序來變更視覺效果的外觀。 變更視覺效果的排序方式，即可反白顯示您想要傳達的資訊，並確定視覺效果反映出該趨勢 (或強調)。

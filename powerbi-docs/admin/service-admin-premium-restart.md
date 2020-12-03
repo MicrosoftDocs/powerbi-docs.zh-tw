@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ac0935dd6f2239ab96b9e7689a4f8e5bc013efa1
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 367195e0e09bbfb7de20acfa71b8da9742664ca2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512508"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413556"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>重新啟動 Power BI Premium 容量
 

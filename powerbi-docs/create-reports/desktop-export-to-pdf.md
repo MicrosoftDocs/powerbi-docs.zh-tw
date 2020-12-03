@@ -2,19 +2,19 @@
 title: 從 Power BI Desktop 將報表匯出為 PDF 格式
 description: 從 Power BI Desktop 輕鬆地匯出為 PDF，同時輕鬆地列印這些 PDF 報表
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 02/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7fc8b9bff06188a02914083705f7f9aed7862ab1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 815b8557b640de70690dcb90570f7764ff8c47a0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234140"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412981"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>從 Power BI Desktop 將報表匯出為 PDF
 在 **Power BI Desktop** 或 Power BI 服務中，可將報表匯出為 PDF 檔案，因此可輕鬆地利用該 PDF 分享或列印報表。
@@ -23,7 +23,7 @@ ms.locfileid: "85234140"
 
 將您的報表從 **Power BI Desktop** 匯出為 PDF 的程序，您如此即可列印 PDF 或與其他人分享該 PDF 文件，用法相當直接。 只要從 Power BI Deskop 選取 [檔案]> [匯出至 PDF]  即可。
 
-**匯出至 PDF** 程序會匯出報表中所有*可見*的頁面，且每個報表頁面在 PDF 中會匯出為單一頁面。 目前看不到的報表頁面 (例如任何工具提示或隱藏的頁面)，並不會匯出至 PDF 檔案。 
+**匯出至 PDF** 程序會匯出報表中所有 *可見* 的頁面，且每個報表頁面在 PDF 中會匯出為單一頁面。 目前看不到的報表頁面 (例如任何工具提示或隱藏的頁面)，並不會匯出至 PDF 檔案。 
 
 ![匯出至 PDF 正在處理中](media/desktop-export-to-pdf/export-to-pdf_02.png)
 
@@ -32,7 +32,7 @@ ms.locfileid: "85234140"
 匯出完成時，會將 PDF 載入電腦上預設的 PDF 檢視器。 
 
 ## <a name="considerations-and-limitations"></a>考量與限制
-使用**匯出至 PDF** 功能時，請注意幾項考量：
+使用 **匯出至 PDF** 功能時，請注意幾項考量：
 
 * 此功能會匯出 Power BI 視覺效果，但並「不會」  匯出任何對報表套用的背景圖案。
 

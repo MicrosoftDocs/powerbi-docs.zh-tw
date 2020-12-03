@@ -2,19 +2,19 @@
 title: 管理 Power BI - 常見問題集 (FAQ)
 description: 了解 Power BI 註冊、租用戶管理和其他管理工作常見問題的解答。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3aa42394bb12078fb2abcf6574d04b8109a9c40c
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 5a30ff855616eef04db4827b4a25cb0facb9db1b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981588"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413694"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -169,11 +169,11 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-do-we-manage-power-bi"></a>要如何管理 Power BI？
 
-Power BI 提供 Power BI 管理入口網站，供 Microsoft 365 全域管理員角色中的使用者及 Power BI 服務系統管理員角色中的使用者使用。 若要使用 Power BI 管理入口網站，必須在 Microsoft 365 或 Azure Active Directory 中，將您的帳戶標示為**全域管理員**，或者必須有人將 Power BI 服務系統管理員角色指派給您的使用者帳戶。 如需詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)與 [Power BI 系統管理入口網站](service-admin-portal.md)。 此入口網站可以讓您控制影響遍及整個租用戶的設定、檢視 Power BI 使用量統計資料，並提供 Microsoft 365 系統管理中心連結，讓您管理使用者與群組。
+Power BI 提供 Power BI 管理入口網站，供 Microsoft 365 全域管理員角色中的使用者及 Power BI 服務系統管理員角色中的使用者使用。 若要使用 Power BI 管理入口網站，必須在 Microsoft 365 或 Azure Active Directory 中，將您的帳戶標示為 **全域管理員**，或者必須有人將 Power BI 服務系統管理員角色指派給您的使用者帳戶。 如需詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)與 [Power BI 系統管理入口網站](service-admin-portal.md)。 此入口網站可以讓您控制影響遍及整個租用戶的設定、檢視 Power BI 使用量統計資料，並提供 Microsoft 365 系統管理中心連結，讓您管理使用者與群組。
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 為使用者所建之租用戶的程序為何？
 
-當自助使用者註冊使用 Azure AD 的雲端服務時，服務會根據他們的電子郵件網域將他們新增到非受控 Azure AD 目錄。 您可以要求或管理他人使用*系統管理員接管*流程所建立的租用戶。 如需詳細資訊，請參閱[使用 Azure Active Directory 中的系統管理員身分接管非受控目錄](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 您所執行接管類型取決於是否有與您網域建立關聯的現有受控租用戶：
+當自助使用者註冊使用 Azure AD 的雲端服務時，服務會根據他們的電子郵件網域將他們新增到非受控 Azure AD 目錄。 您可以要求或管理他人使用 *系統管理員接管* 流程所建立的租用戶。 如需詳細資訊，請參閱[使用 Azure Active Directory 中的系統管理員身分接管非受控目錄](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 您所執行接管類型取決於是否有與您網域建立關聯的現有受控租用戶：
 
 * Power BI 支援內部系統管理員接管。 當您執行非受控 Azure 目錄的「內部」系統管理員接管時，系統會將您新增為非受控目錄的全域管理員。 系統不會將任何使用者、網域或服務方案移轉至您所管理的其他目錄。
 

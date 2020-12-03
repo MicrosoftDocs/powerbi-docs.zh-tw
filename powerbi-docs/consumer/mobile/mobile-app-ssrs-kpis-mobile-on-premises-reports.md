@@ -2,18 +2,18 @@
 title: 在 Power BI 行動裝置應用程式中檢視內部部署報表和 KPI
 description: Power BI 行動裝置應用程式提供 SQL Server Reporting Services 和 Power BI 報表伺服器中內部部署商務資訊的即時觸控式行動存取。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
-ms.author: painbar
-ms.openlocfilehash: e9f3b41e9c8435008f732d215ae022d6a023574d
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 18ad1be61202ddf189da064a833fddf6d793a2ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668566"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413395"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視內部部署報表伺服器報表和 KPI
 

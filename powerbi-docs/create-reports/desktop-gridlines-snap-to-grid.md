@@ -2,20 +2,20 @@
 title: 在 Power BI Desktop 報表中使用格線與貼齊格線
 description: 在 Power BI Desktop 報表中使用格線、貼齊格線、堆疊順序、對齊及相等間距
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8323cc04726fa1e29b3c6858bda3f848af34ebc5
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 745b89efc76c179c0393e4dccd29d5bee6910676
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263341"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412935"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>在 Power BI Desktop 報表中使用格線與貼齊格線
 **Power BI Desktop** 報表畫布提供格線，以便您讓視覺效果在報表頁面上整齊對齊，並使用貼齊格線功能，讓報表中的視覺效果看起來清爽、整齊且間距相等。
@@ -56,7 +56,7 @@ Power BI 的視覺效果內也有格線，可提供視覺效果輔助線，以�
 
 ![報表畫布的螢幕擷取畫面，其中顯示格線和貼齊格線如何確保報表中的視覺效果整齊對齊。](media/desktop-gridlines-snap-to-grid/snap-to-grid_3.png)
 
-光是這樣就能使用**格線**和**貼齊格線**，確保報表中的視覺效果妥善對齊。
+光是這樣就能使用 **格線** 和 **貼齊格線**，確保報表中的視覺效果妥善對齊。
 
 ## <a name="using-z-order-align-and-distribute"></a>使用堆疊順序、對齊和相等間距
 您可以管理報表中視覺效果由前至後的順序，通常稱為項目目的「堆疊順序」。 此功能可讓您以任何想要的方式重疊視覺效果，然後調整每個視覺效果由前至後的順序。 您使用 [上移一層] 和 [下移一層] 按鈕設定視覺效果的順序，它們位在 [格式] 功能區的 [排列] 區段。 您一在頁面上選取一或多個視覺效果，[格式] 功能區就會出現。

@@ -2,25 +2,25 @@
 title: 在 Power BI Desktop 中使用群組和量化
 description: 了解如何在 Power BI Desktop 中群組和量化項目
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 12/18/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0beca84bc95c2947fef500fb9e3a9e5c377a0a46
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234025"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412912"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>在 Power BI Desktop 中使用群組和量化
 當 Power BI Desktop 建立視覺效果時，會根據在基礎資料中找到的值，將資料彙總成區塊 (或群組)。 通常沒有問題，但您偶爾會想要調整這些區塊的呈現方式。 例如，您可能想要將三種產品類別放在一個較大的類別 (一個「群組」  ) 中。 或者，您可能想要以量化大小 1,000,000 美元來查看銷售數字，而不是 923,983 美元大小的	區塊。
 
-在 Power BI Desktop 中，您可以*群組*資料點，以協助您更清楚地檢視、分析及探索視覺效果中的資料和趨勢。 您也可以定義「量化大小」  ，將值放入大小相同的群組，好讓您以有意義的方式將資料視覺化。 此動作通常稱為「量化」  。
+在 Power BI Desktop 中，您可以 *群組* 資料點，以協助您更清楚地檢視、分析及探索視覺效果中的資料和趨勢。 您也可以定義「量化大小」  ，將值放入大小相同的群組，好讓您以有意義的方式將資料視覺化。 此動作通常稱為「量化」  。
 
 ## <a name="using-grouping"></a>使用群組
 若要使用群組，請按住 Ctrl 鍵，再按一下滑鼠來選取多個元素，以選取視覺效果上的兩個或多個元素。 然後以滑鼠右鍵按一下多重選取元素之一，並從操作功能表選擇 [群組]  。
@@ -61,6 +61,6 @@ ms.locfileid: "85234025"
 
 ![將 bins 欄位拖曳到畫布上，Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-若要查看*量化*的執行方式，請觀賞這段[影片](https://www.youtube.com/watch?v=BRvdZSfO0DY)。
+若要查看 *量化* 的執行方式，請觀賞這段 [影片](https://www.youtube.com/watch?v=BRvdZSfO0DY)。
 
-使用*群組*和*量化*可確保報表中的視覺效果只以您要的方式來顯示資料。
+使用 *群組* 和 *量化* 可確保報表中的視覺效果只以您要的方式來顯示資料。

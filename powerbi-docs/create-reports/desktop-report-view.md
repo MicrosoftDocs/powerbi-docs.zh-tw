@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的報表檢視
 description: Power BI Desktop 中的報表檢視
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/12/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 859fb6156af38fc5333e9c94281255369d9ee413
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 3b168eb0e6a475651f4f8fb6337c518812d8ffcf
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256955"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412866"
 ---
 # <a name="work-with-report-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的報表檢視
 

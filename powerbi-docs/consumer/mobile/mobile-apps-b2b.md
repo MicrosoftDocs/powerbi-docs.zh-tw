@@ -2,18 +2,18 @@
 title: 以外部來賓使用者身分檢視 Power BI 內容 (Azure AD B2B)
 description: 使用 Power BI 行動裝置應用程式來檢視從外部組織與您共用的內容。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/09/2019
-ms.author: painbar
-ms.openlocfilehash: f6ae0e5ff59e654354370c24ad648231f2eb78cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: effa9622896f44cff0cf37d7612c35f27e726ef7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233087"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413234"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>檢視從外部組織與您共用的 Power BI 內容
 

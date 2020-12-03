@@ -2,20 +2,20 @@
 title: 在 Power BI 中使用數值範圍的交叉分析篩選器
 description: 了解如何在 Power BI 中使用交叉分析篩選器來限制數值範圍。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91dfc9da235e9d5c8a763b3d6cba2abc11b77f6f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 83ba0234ef4f4e350f413f3c934e2f09f0a9a3f2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238605"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412774"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi"></a>在 Power BI 中使用數值範圍的交叉分析篩選器
 
@@ -67,11 +67,11 @@ ms.locfileid: "85238605"
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>使用數值範圍交叉分析篩選器貼齊至整數
 
-若基礎欄位的資料類型是*整數*，則數值範圍交叉分析篩選器會貼齊整數。 此功能可讓您的交叉分析篩選器完全對齊整數。 [小數]  欄位則可以讓您輸入或選取數字的分數。 在文字方塊中與欄位上設定的格式設定相符，雖然您可以鍵入或選取更多精確的數字。
+若基礎欄位的資料類型是 *整數*，則數值範圍交叉分析篩選器會貼齊整數。 此功能可讓您的交叉分析篩選器完全對齊整數。 [小數]  欄位則可以讓您輸入或選取數字的分數。 在文字方塊中與欄位上設定的格式設定相符，雖然您可以鍵入或選取更多精確的數字。
 
 ## <a name="display-formatting-with-the-date-range-slicer"></a>日期範圍交叉分析篩選器顯示的格式化
 
-當您使用交叉分析篩選器顯示或設定日期範圍時，日期會以*簡短日期*格式顯示。 使用者的瀏覽器或作業系統地區設定會決定日期格式。 因此，無論資料類型設定是針對基礎資料還是模型，它都會是顯示格式。
+當您使用交叉分析篩選器顯示或設定日期範圍時，日期會以 *簡短日期* 格式顯示。 使用者的瀏覽器或作業系統地區設定會決定日期格式。 因此，無論資料類型設定是針對基礎資料還是模型，它都會是顯示格式。
 
 例如，您可以針對基礎資料類型具備完整日期格式。 在此情況下，像是 *dddd, MMMM d, yyyy* 這種日期格式，便會將其他視覺效果或或環境中的日期格式化為日期格式「2001 年 3 月 14 日星期三」  。 但在日期範圍交叉分析篩選器中，交叉分析篩選器中顯示的日期會是 *03/14/2001*。
 

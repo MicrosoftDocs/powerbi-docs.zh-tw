@@ -2,19 +2,19 @@
 title: Power BI 的資料保護
 description: 深入了解 Power BI 的資料保護
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 09/17/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 27f4aa5f186b2af49a4c4d8f0427b4e59e2dc97e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4405b83dae3d517b16099725ab10990cc8e503f4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854429"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413349"
 ---
 # <a name="data-protection-in-power-bi"></a>Power BI 的資料保護
 
@@ -34,7 +34,7 @@ Power BI 的資料保護功能可供：
 * 使用 Office 和其他 Microsoft 產品的 Microsoft 資訊保護敏感度標籤，**分類和標記敏感的 Power BI 資料**。  
 * **即使匯出 Power BI 內容也要強制執行治理原則**，例如匯出為 Excel、PowerPoint、PDF 和其他支援的匯出格式，以求在資料離開 Power BI 後也能確保資料受到保護。
 * 使用 Cloud App Security，透過警示、工作階段監視和風險補救，**即時監視和保護敏感性資料上的使用者活動**。
-* 讓使用資料保護報告和安全調查功能的**安全性系統管理員獲得授權**，能夠使用 Microsoft Cloud App Security 來強化組織的監督工作。
+* 讓使用資料保護報告和安全調查功能的 **安全性系統管理員獲得授權**，能夠使用 Microsoft Cloud App Security 來強化組織的監督工作。
 
 深入了解 [Microsoft 資訊保護敏感度標籤](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)和 [Cloud App Security](/cloud-app-security/what-is-cloud-app-security)。
 

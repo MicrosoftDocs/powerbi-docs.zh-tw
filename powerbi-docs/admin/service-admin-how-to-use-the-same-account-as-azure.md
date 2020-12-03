@@ -2,19 +2,19 @@
 title: 針對 Power BI 和 Azure 使用相同的帳戶
 description: 如何使用相同的帳戶來登入 Power BI 和 Azure
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: fe93fa3f41cf1c340b31ce3c6f817f842f3039ff
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 2706fd8eb4cb2fddda99710e7c1dc32c2300aa26
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161644"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413602"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>針對 Power BI 和 Azure 使用相同的帳戶
 

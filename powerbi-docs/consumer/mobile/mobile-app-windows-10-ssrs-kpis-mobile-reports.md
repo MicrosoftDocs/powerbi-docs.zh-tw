@@ -2,17 +2,17 @@
 title: 在 Power BI Windows 應用程式中檢視內部部署報表與 KPI
 description: Power BI for Windows 10 行動裝置應用程式提供重要內部部署商務資訊的即時觸控式行動存取。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/19/2020
-ms.author: painbar
-ms.openlocfilehash: 98f528e13bd92692bd76afc42aaac43828f7f586
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eb6b86b2810609c0ad795190afc91c40677f5e70
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860892"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413303"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>在 Power BI Windows 應用程式中檢視內部部署報表與 KPI
 適用於 Windows 10 的 Power BI 應用程式提供 SQL Server 2016 Reporting Services 中重要內部部署商務資訊的即時觸控式行動存取。 
@@ -28,14 +28,14 @@ ms.locfileid: "90860892"
 > 您的裝置必須執行 Windows 10。 應用程式最適合與具有至少 1 GB RAM 與 8 GB 內部儲存空間的裝置搭配使用。
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>不使用 SQL Server 2016 Reporting Services 伺服器的瀏覽範例
 即使您沒有 Reporting Services 入口網站的存取權，您仍然可以瀏覽 Reporting Services 行動報表的功能。
 
 1. 在您的 Windows 10 裝置上開啟 Power BI 應用程式。
 2. 點選左上角的 ![全域導覽按鈕](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) 全域導覽按鈕。
-3. 點選**設定**圖示![設定圖示](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)，以滑鼠右鍵按一下或點選並按住 [連線至伺服器]，然後點選 [檢視範例]。
+3. 點選 **設定** 圖示![設定圖示](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)，以滑鼠右鍵按一下或點選並按住 [連線至伺服器]，然後點選 [檢視範例]。
    
    ![檢視 SSRS 範例](media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
 4. 開啟 [Retail Reports]\(零售報表) 或 [Sales Reports]\(銷售報表) 資料夾，探索其 KPI 和行動報表。

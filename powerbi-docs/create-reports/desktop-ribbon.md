@@ -2,19 +2,19 @@
 title: 使用 Power BI Desktop 中已更新的功能區
 description: 在 Power BI Desktop 中使用新的功能區輕鬆瀏覽功能表和命令
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 05/21/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3cc9277b567a58b60dc86c41b7ae56ad5c678d6b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 517e1dcb84a9c716cdfc1f53febb743f4f59f5d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600592"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412820"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>使用 Power BI Desktop 中已更新的功能區
 
@@ -48,7 +48,7 @@ Power BI Desktop 已修訂其功能區，使其外觀和體驗更能與其他 Mi
 
     ![摺疊功能區](media/desktop-ribbon/desktop-ribbon-06.png)
 
-* **瀏覽和選取按鈕的按鍵提示** - 您可以按 **Alt + Windows 鍵**來啟用按鍵提示，以便於瀏覽功能區。 啟用之後，您可以按鍵盤上顯示的按鍵進行瀏覽。
+* **瀏覽和選取按鈕的按鍵提示** - 您可以按 **Alt + Windows 鍵** 來啟用按鍵提示，以便於瀏覽功能區。 啟用之後，您可以按鍵盤上顯示的按鍵進行瀏覽。
 
     ![按鍵提示](media/desktop-ribbon/desktop-ribbon-07.png)
 

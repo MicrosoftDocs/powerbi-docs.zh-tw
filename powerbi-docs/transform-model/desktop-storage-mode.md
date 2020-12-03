@@ -2,19 +2,19 @@
 title: 使用 Power BI Desktop 中的儲存模式
 description: 使用儲存模式控制是否要在 Power BI Desktop 中，將報表資料快取到記憶體內
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0a3121e31aa816139c338746635b102be2d8fd88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528152"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413809"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>管理 Power BI Desktop 中的儲存模式
 
@@ -42,16 +42,16 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 ## <a name="use-the-storage-mode-property"></a>使用儲存模式屬性
 
-**儲存模式**屬性是您可以對模型中每份資料表設定的屬性，以控制 Power BI 快取資料表資料的方式。
+**儲存模式** 屬性是您可以對模型中每份資料表設定的屬性，以控制 Power BI 快取資料表資料的方式。
 
-若要設定**儲存模式**屬性，或檢視其目前的設定： 
+若要設定 **儲存模式** 屬性，或檢視其目前的設定： 
 
 1. 在 [模型]  檢視中，選取您想要檢視或設定其屬性的資料表。 
 2. 在 [屬性]  窗格中，展開 [進階]  區段，然後展開 [儲存模式]  下拉式按鈕。
 
    ![選取儲存模式屬性](media/desktop-storage-mode/storage-mode-02.png)
 
-您可以將**儲存模式**屬性設定為下列三個值的其中之一：
+您可以將 **儲存模式** 屬性設定為下列三個值的其中之一：
 
 * **匯入**：已快取使用此設定匯入的資料表。 將查詢提交給會從匯入資料表傳回資料的 Power BI 資料集，只會傳回快取的資料。
 
@@ -112,11 +112,11 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 * 查詢處理\Vertipaq SE 查詢開始
 * 查詢處理\DirectQuery 開始
 
-針對每個「查詢開始」  事件，請檢查其他具有相同 *ActivityID* 的事件。 例如，若無 *DirectQuery 開始*事件，但有 *Vertipaq SE 查詢開始*事件，即表示已從快取回應查詢。
+針對每個「查詢開始」  事件，請檢查其他具有相同 *ActivityID* 的事件。 例如，若無 *DirectQuery 開始* 事件，但有 *Vertipaq SE 查詢開始* 事件，即表示已從快取回應查詢。
 
 參考雙重資料表的查詢，可能會從快取傳回資料，否則會還原為 DirectQuery。
 
-延續上一個範例，下列查詢只會參考來自**雙重**模式之 **Date** 資料表的資料行。 因此，查詢應會叫用快取：
+延續上一個範例，下列查詢只會參考來自 **雙重** 模式之 **Date** 資料表的資料行。 因此，查詢應會叫用快取：
 
 ![顯示參考 Date 資料表查詢文字的螢幕擷取畫面。](media/desktop-storage-mode/storage-mode-06.png)
 
@@ -135,7 +135,7 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 上節所示的查詢顯示，雙重資料表不一定每次都會叫用快取。 如此一來，當快取過期時，就可傳回不同的值。 查詢執行不會嘗試掩飾資料問題，例如篩選 DirectQuery 結果以符合快取值。 您應該最了解自己的資料流程，並應據此進行設計。 如有必要，可使用一些現有技術，在來源處理這類案例。
 
-**雙重**儲存模式是一種效能最佳化。 只有在不影響達成商務需求的前提之下，才使用此模式。 如需替代行為，請考慮使用 [Power BI Desktop 中多對多關聯性](desktop-many-to-many-relationships.md)一文中描述的技術。
+**雙重** 儲存模式是一種效能最佳化。 只有在不影響達成商務需求的前提之下，才使用此模式。 如需替代行為，請考慮使用 [Power BI Desktop 中多對多關聯性](desktop-many-to-many-relationships.md)一文中描述的技術。
 
 ## <a name="data-view"></a>資料檢視
 若資料集中至少有一份資料表已將其儲存模式設定為 [匯入]  或 [雙重]  ，即會顯示 [資料檢視]  索引標籤。

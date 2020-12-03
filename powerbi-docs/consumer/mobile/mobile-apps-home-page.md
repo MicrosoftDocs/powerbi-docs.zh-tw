@@ -2,18 +2,18 @@
 title: 快速查看行動裝置應用程式 [首頁] 頁面
 description: 本文將介紹行動裝置應用程式 [首頁] 頁面的主要功能。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
-ms.author: painbar
-ms.openlocfilehash: d06478acf53ead63b48afcf58cb2316ff4c5a3bc
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ee4b4d3537fc0bdb77a451a0b32159ae3d703833
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635301"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413211"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>行動裝置應用程式 [首頁] 頁面的快速導覽
 在本教學課程中，您將熟悉 Power BI 行動裝置應用程式 [首頁] 頁面，以及可讓您快速找到所需內容的導覽輔助工具。
@@ -41,7 +41,7 @@ ms.locfileid: "91635301"
 摘要中的更新包括：
 * **重新整理的資料**：當 [我的最愛] 或 [最近項目] 其中一個報表或儀表板的基礎資料重新整理時。
 * **新的註解**：當使用者在 [我的最愛] 或 [最近項目] 內的報表或儀表板中建立註解時，或有人在註解中提及您時。
-* **資料警示**：當資料達到您先前在[資料警示](mobile-set-data-alerts-in-the-mobile-apps.md)中設定的閾值時。
+* **資料警示**：當資料達到您先前在 [資料警示](mobile-set-data-alerts-in-the-mobile-apps.md)中設定的閾值時。
 * **應用程式更新**：當應用程式建立者將更新發佈至您所使用的應用程式時。
 
  請點選活動項目以跳至相關位置，以便進一步探索。
@@ -57,13 +57,13 @@ ms.locfileid: "91635301"
 導覽列可讓您快速存取：
 
 * ![首頁圖示](./media/mobile-apps-home-page/powerbi-mobile-app-home-icon.png) **首頁** - 讓您返回首頁。
-* ![我的最愛圖示](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **我的最愛** - 您已標示為[我的最愛](mobile-apps-favorites.md)的報表、儀表板及應用程式。
+* ![我的最愛圖示](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **我的最愛** - 您已標示為 [我的最愛](mobile-apps-favorites.md)的報表、儀表板及應用程式。
 * ![應用程式圖示](./media/mobile-apps-home-page/powerbi-mobile-app-apps-icon.png) **應用程式** - 您在帳戶中安裝的應用程式。
 * ![工作區圖示](./media/mobile-apps-home-page/powerbi-mobile-app-workspaces-icon.png) **工作區** - 將內容建立者所建置報表和儀表板保持在一起的工作資料夾。
 * ![最近項目圖示](./media/mobile-apps-home-page/powerbi-mobile-app-recents-icon.png) **最近項目** - 您最近檢視過的項目。
 * ![與我共用圖示](./media/mobile-apps-home-page/powerbi-mobile-app-shared-with-me-icon.png) **與我共用** - 其他人與您共用的項目。
 * ![範例圖示](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **範例** - 您可以用來了解 Power BI 功能的 Power BI 範例。
-* ![掃描器圖示](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **掃描器**您可以用來作為掃描器來掃描[條碼](mobile-apps-scan-barcode-iphone.md)和 [QR 代碼](mobile-apps-qr-code.md)的裝置相機。
+* ![掃描器圖示](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **掃描器** 您可以用來作為掃描器來掃描 [條碼](mobile-apps-scan-barcode-iphone.md)和 [QR 代碼](mobile-apps-qr-code.md)的裝置相機。
 
 ## <a name="header"></a>標頭
 
@@ -72,7 +72,7 @@ ms.locfileid: "91635301"
 ![header](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
 
 標頭提供下列導覽項目：
-* **個人資料圖片或頭像** - 開啟側邊面板，您可以在其中[切換 Power BI 服務和報表伺服器帳戶](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，以及存取 Power BI 行動裝置應用程式設定。
+* **個人資料圖片或頭像** - 開啟側邊面板，您可以在其中 [切換 Power BI 服務和報表伺服器帳戶](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，以及存取 Power BI 行動裝置應用程式設定。
 
     ![側邊面板](./media/mobile-apps-home-page/powerbi-mobile-app-side-panel.png)
 

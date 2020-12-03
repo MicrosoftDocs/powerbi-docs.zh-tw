@@ -2,19 +2,19 @@
 title: 在 Power BI 中使用 Microsoft Cloud App Security 控制措施
 description: 了解如何搭配 Power BI 使用 Microsoft Cloud App Security
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ab3b250734e2c2c2b4d97d952357669761da9095
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f7bd3a59395e9f5f1ea167b7e7988aeb9882a72f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854155"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413326"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>在 Power BI 中使用 Microsoft Cloud App Security 控制措施
 
@@ -65,7 +65,7 @@ Cloud App Security 也有專門針對 Power BI 的兩項內建偵測。 [本文�
 
 Cloud App Security 偵測可讓系統管理員監視受監視應用程式的特定活動。 在 Power BI 中，目前有兩項專用的內建 Cloud App Security 偵測： 
 
-* **可疑的共用** – 當使用者與不熟悉 (組織外部) 的電子郵件共用敏感性報表時偵測。 敏感性報表是指敏感度標籤設為**僅限內部**或更高等級的報表。 
+* **可疑的共用** – 當使用者與不熟悉 (組織外部) 的電子郵件共用敏感性報表時偵測。 敏感性報表是指敏感度標籤設為 **僅限內部** 或更高等級的報表。 
 
 * **大量共用報表** - 偵測使用者在單一工作階段中共用大量報表的情形。
 

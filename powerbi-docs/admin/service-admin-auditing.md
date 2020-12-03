@@ -2,20 +2,20 @@
 title: 追蹤 Power BI 中的使用者活動
 description: 了解您可以如何使用 Power BI 的活動記錄和稽核來監視和調查所 採取的動作。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/20/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 178b79ba4ae76288794f7bb67afba11c0595de7f
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 3c1e2b4513b3ac920d447ef0b8195c76c1ec2a04
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95513841"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413740"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 

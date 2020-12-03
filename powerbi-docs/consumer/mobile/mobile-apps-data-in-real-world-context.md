@@ -2,18 +2,18 @@
 title: 使用 Power BI 行動裝置應用程式取得實際資料
 description: Power BI 行動裝置應用程式可以將現實生活直接連接至相關的 BI 資訊，不需進行任何搜尋。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 512d9f5662a87b3819b7151eb0fc3a4d6a540dd6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b6564cafe087000fd0ce4409fac2cbfc78d0e8fa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278506"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413142"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>使用 Power BI 行動裝置應用程式取得實際資料
 Power BI 行動裝置應用程式可以數種不同的方法，將現實生活直接連接至相關的 BI 資訊。 

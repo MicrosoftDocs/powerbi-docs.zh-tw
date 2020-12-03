@@ -2,18 +2,18 @@
 title: 在 Apple Watch 的行動裝置應用程式中探索 Power BI 資料
 description: Power BI Apple Watch 應用程式
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 1a2dfd19f2366003555aa5fa673bbf1c81c0a050
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633255"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413257"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>在 Apple Watch 的 Power BI 行動裝置應用程式中探索資料
 透過 Power BI Apple Watch 應用程式，您可以直接從手錶檢視 Power BI 儀表板的 KPI 與卡片磚。 KPI 和卡片磚最適合在小型螢幕上提供活動訊號量值。 您可以從 iPhone 或 Watch 本身重新整理儀表板。
@@ -28,7 +28,7 @@ Power BI for iOS 應用程式與 Power BI Apple Watch 應用程式是套件組�
 
 Power BI Apple Watch 應用程式由兩個部分組成。
 
-* **索引畫面**可讓您快速瀏覽已同步儀表板的所有 KPI 和卡片磚。
+* **索引畫面** 可讓您快速瀏覽已同步儀表板的所有 KPI 和卡片磚。
   
   ![相片顯示具有索引畫面的 Apple Watch。](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * **焦點磚**：按一下索引畫面上的磚，即可取得特定磚的詳盡檢視。

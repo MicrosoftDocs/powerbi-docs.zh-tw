@@ -2,22 +2,22 @@
 title: 使用 Power BI 的報表工具提示頁面
 description: Power BI Desktop 中的工具提示頁面可讓您在報表中建立豐富的暫留式工具提示視覺效果
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/26/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8e794ecc67f7873efb1ee5750f55aefb3d93b40b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 60eb647c6910a50512669c6b18f8a9010ab89867
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600314"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412659"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>在 Power BI Desktop 中根據報表頁面建立工具提示
-您可以建立視覺化的豐富**報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 
+您可以建立視覺化的豐富 **報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 
 
 ![Power BI Desktop 的報表工具提示](media/desktop-tooltips/desktop-tooltips_00a.png)
 
@@ -58,13 +58,13 @@ ms.locfileid: "91600314"
 
 ![開啟工具提示滑桿來表示頁面為工具提示](media/desktop-tooltips/desktop-tooltips_07.png)
 
-只要該滑桿設定在 [開啟]，您就可以指定報表工具提示出現在哪些欄位。 針對內含您指定欄位之報表中的視覺效果，會出現工具提示。 您指定要套用的一或多個欄位，方法是將它們拖曳到 [視覺效果]  窗格中 [欄位]  區段的**工具提示欄位**貯體。 在下圖中，*SalesAmount* 欄位已拖曳到**工具提示欄位**貯體。
+只要該滑桿設定在 [開啟]，您就可以指定報表工具提示出現在哪些欄位。 針對內含您指定欄位之報表中的視覺效果，會出現工具提示。 您指定要套用的一或多個欄位，方法是將它們拖曳到 [視覺效果]  窗格中 [欄位]  區段的 **工具提示欄位** 貯體。 在下圖中，*SalesAmount* 欄位已拖曳到 **工具提示欄位** 貯體。
 
 ![新增欄位以決定工具提示出現的位置](media/desktop-tooltips/desktop-tooltips_08.png)
  
 您可以在 [工具提示欄位]  貯體中，同時包含類別和數值欄位，包括量值。
 
-一旦完成，您建立的工具提示報表頁面，就會在使用任何您放入**工具提示欄位**貯體之欄位的報表中，取代預設的 Power BI 工具提示，用為視覺效果的工具提示。
+一旦完成，您建立的工具提示報表頁面，就會在使用任何您放入 **工具提示欄位** 貯體之欄位的報表中，取代預設的 Power BI 工具提示，用為視覺效果的工具提示。
 
 ## <a name="manually-setting-a-report-tooltip"></a>手動設定報表工具提示
 
@@ -109,7 +109,7 @@ ms.locfileid: "91600314"
 
 
 ## <a name="limitations-and-considerations"></a>限制與考量
-**工具提示**要留意幾點限制和考量。
+**工具提示** 要留意幾點限制和考量。
 
 * 自 2018 年 12 月的 **Power BI Desktop** 版本開始，按鈕的視覺效果也支援工具提示。
 * Power BI 視覺效果不支援報表工具提示。 
