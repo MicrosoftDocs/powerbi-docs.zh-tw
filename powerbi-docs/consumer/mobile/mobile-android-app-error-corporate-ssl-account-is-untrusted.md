@@ -1,20 +1,20 @@
 ---
 title: 修正「公司 SSL 憑證不受信任」
 description: 登入適用於 Android 的 Power BI 應用程式時，您可能會看到訊息：「由於您的公司 SSL 憑證不受此裝置信任，因此無法驗證
-.": ''
 author: paulinbar
+ms.author: painbar
+.": ''
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 85e295b2320f8aecca2176149ce37c0a25ad2bd2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b435d3883207099287b6c0373f13063ebb23b694
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237465"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414660"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>修正「公司 SSL 憑證不受信任」- Power BI
 登入適用於 Android 的 Microsoft Power BI 行動裝置應用程式時，您可能會看到訊息：「由於您的公司 SSL 憑證不受此裝置信任，因此無法驗證。 請連絡您公司的 IT 管理員。」 

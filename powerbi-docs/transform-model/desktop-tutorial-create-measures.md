@@ -2,19 +2,19 @@
 title: 教學課程：在 Power BI Desktop 中建立您自己的量值
 description: 當與報表互動時，Power BI Desktop 中量值會對您的資料執行計算，藉此提供協助。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: tutorial
 ms.date: 11/08/2019
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 61eb4fc54966545858a7ebc85044696064027acd
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 16ce255f22d6242a1b8e78d34b27519d22fb5489
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858385"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413901"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的量值
 您可以在 Power BI Desktop 中使用量值來建立一些最強大的資料分析方案。 當您與報表互動時，量值會在您的資料上執行計算，藉此提供協助。 本教學課程將引導您了解量值，並在 Power BI Desktop 中建立自己的基本量值。
@@ -189,7 +189,7 @@ DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 �
     
     ![選取 [不摘要]](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
     
-4.  在 [視覺效果]  窗格中選取**交叉分析篩選器**圖示，將資料表轉換成交叉分析篩選器。 如果視覺效果顯示滑桿而不是清單，請從滑桿的向下箭號選取 [清單]  。
+4.  在 [視覺效果]  窗格中選取 **交叉分析篩選器** 圖示，將資料表轉換成交叉分析篩選器。 如果視覺效果顯示滑桿而不是清單，請從滑桿的向下箭號選取 [清單]  。
 
     ![將資料表轉換成交叉分析篩選器](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
     

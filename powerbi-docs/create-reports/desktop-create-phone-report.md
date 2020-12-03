@@ -2,20 +2,20 @@
 title: 為 Power BI 行動裝置應用程式最佳化報表
 description: 了解如何專為手機與平板電腦建立直向版報表，將 Power BI 行動應用程式的報表頁面最佳化。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 06/15/2020
-ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0780b11cb1e95578be144f65f8adb1bf641d1c1c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853785"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414315"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>為行動裝置應用程式最佳化 Power BI 報表
 行動使用者能以橫式方向檢視任何 Power BI 報表頁面。 不過，報表作者可以建立針對行動裝置最佳化的其他檢視，並以直式方向顯示。 這種設計選項 (在 Power BI Desktop 與 Power BI 服務都提供) 可讓作者只選取並重新安排對行動使用者來說有意義的視覺效果。

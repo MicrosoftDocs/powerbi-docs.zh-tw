@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的查詢概觀
 description: Power BI Desktop 中的查詢概觀
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/11/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9202b94808624ca9e3332ba7acdca29a3ce759ca
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853601"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413980"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查詢概觀
 透過 Power BI Desktop，您可以連接到資料世界、建立具吸引力的基礎報表，並與他人分享您的成果；其他使用者可接著以您的成果做為建置基礎，並擴展其商務智慧成果。

@@ -2,18 +2,18 @@
 title: 適用於 HoloLens 2 的 Power BI (預覽)
 description: 在適用於 HoloLens 2 應用程式的 Power BI 中，檢視您的儀表板和報表。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
-ms.author: painbar
-ms.openlocfilehash: 8e9205ca12efebbfa5c0338e2f501e59aed779e8
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: dffe3344fc10b0daceca629b5d5354f1b8419e81
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718607"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414522"
 ---
 # <a name="power-bi-for-hololens-2-preview"></a>適用於 HoloLens 2 的 Power BI (預覽)
 適用於 HoloLens 2 的 Power BI 應用程式會將您的 Power BI 報表和儀表板與您的實體環境結合，建立 3D 沉浸式的免持體驗。您可以在現實世界中四處移動，在有需要時隨時隨地取得相關資料。

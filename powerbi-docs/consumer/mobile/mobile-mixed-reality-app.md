@@ -2,18 +2,18 @@
 title: 適用於 HoloLens 的 Power BI (第 1 代)
 description: 您可以透過 Power BI for Mixed Reality 應用程式 (預覽) 來檢視您的儀表板和報表，沉浸在虛擬世界或您的環境內容中。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
-ms.author: painbar
-ms.openlocfilehash: b0288bf3980ac54b960160f011531f3667d8edff
-ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
+ms.openlocfilehash: c832217363f726e3eff469238fe9b3f29025837c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91005506"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415350"
 ---
 # <a name="power-bi-for-hololens-1st-gen"></a>適用於 HoloLens 的 Power BI (第 1 代)
 您可以在沉浸於虛擬世界的同時，透過適用於 HoloLens 的 Power BI 應用程式來檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置。 
@@ -43,11 +43,11 @@ Power BI for Mixed Reality 是以 Power BI Windows 行動裝置應用程式為�
 
 **釘選項目** 
 
-空中點選**釘選**圖示![釘選圖示](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png)，將儀表板或報表從 Windows 傳統檢視釘選到全像檢視。 您可以將一些項目釘選到全像檢視。 
+空中點選 **釘選** 圖示![釘選圖示](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png)，將儀表板或報表從 Windows 傳統檢視釘選到全像檢視。 您可以將一些項目釘選到全像檢視。 
 
 **切換至全像檢視**
 
-在 Windows 傳統檢視中釘選項目之後，您可以空中點選**全螢幕**圖示![全螢幕圖示](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png)切換至全像檢視。 
+在 Windows 傳統檢視中釘選項目之後，您可以空中點選 **全螢幕** 圖示![全螢幕圖示](./media/mobile-mixed-reality-app/power-bi-hololens-fullscreen.png)切換至全像檢視。 
 
 
 ## <a name="holographic-view-basics"></a>全像檢視基本概念

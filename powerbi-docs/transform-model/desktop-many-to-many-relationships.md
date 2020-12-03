@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的多對多關聯性
 description: 在 Power BI Desktop 中搭配多對多基數使用關聯性
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 12/19/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 5f64a9a896fbb5ea3e080e1d07f6cc7d980430b8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528037"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415695"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中套用多對多關聯性
 
@@ -58,7 +58,7 @@ Power BI Desktop 的「多對多基數關聯性」  是由三個相關功能的�
 
 如同先前影像中所示，有一個空白的 **ProductName** 資料列與產品 C 銷售建立關聯。此空白資料列會導致下列情況：
 
-* **ProductSales**資料表中的任何資料列沒有存在於 **Product** 資料表中的對應資料列。 發生參考完整性問題，如同我們在此範例中所看到的產品 C。
+* **ProductSales** 資料表中的任何資料列沒有存在於 **Product** 資料表中的對應資料列。 發生參考完整性問題，如同我們在此範例中所看到的產品 C。
 
 * **ProductSales** 資料表中任何資料列的外部索引鍵資料行為 Null。
 

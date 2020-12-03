@@ -2,20 +2,20 @@
 title: 依授權類型區分的 Power BI 服務功能
 description: 在 Power BI 服務中，使用者的能力取決於其所擁有的個別使用者授權類型 (免費或 Pro)，以及其所互動的內容，是否位於指派給 Power BI Premium 容量的工作區中。
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 48e382db2866187f4394cf8a60789604f3d900b7
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 4c1b5256a411594521dcfe030af3490cd2e4780c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512784"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414154"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>依授權類型區分的 Power BI 服務功能
 

@@ -1,18 +1,18 @@
 ---
 title: 使用 Power BI 共用資料集建立編頁報表 - Power BI Report Builder
 description: 根據 Power BI 共用資料集，在 Power BI Report Builder 中建立編頁報表。
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 11/18/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 9b8e7ac37b42e74835cde120ad1465df586a8fe3
-ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
+ms.openlocfilehash: 7e74a64aad33f310109b754bba09fd61043747ff
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94893698"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415764"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>建立以 Power BI 共用資料集為基礎的編頁報表
 

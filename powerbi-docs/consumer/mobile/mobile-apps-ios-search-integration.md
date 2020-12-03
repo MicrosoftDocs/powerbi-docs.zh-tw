@@ -2,18 +2,18 @@
 title: 與 Power BI 的 iOS 裝置搜尋整合
 description: 使用裝置搜尋 (焦點) 來尋找並存取您需要的內容
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: f3832e3fa452c68e30852c476a5149ff7bc5e470
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c289395e5d5529c7951b9102722999dfe22d699e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232886"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414568"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>與 Power BI iOS 行動裝置應用程式的 iOS 裝置搜尋 (焦點) 整合 (預覽)
 使用 iOS 裝置搜尋來尋找並存取您需要的內容。

@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用自訂格式字串
 description: 了解如何在 Power BI Desktop 中自訂格式字串
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/11/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: b4c4577dda72e0f8badf2422cd6365187b8ab285
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600576"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414246"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>在 Power BI Desktop 中使用自訂格式字串
 
@@ -41,7 +41,7 @@ ms.locfileid: "91600576"
 下表定義 Power BI 中支援的語法。
 
 
-下表顯示支援的**日期符號**：
+下表顯示支援的 **日期符號**：
 
 | **符號** | **範圍** |
 | --- | --- |
@@ -54,7 +54,7 @@ ms.locfileid: "91600576"
 | _yy_ | 00-99 (年份的最後兩位數) |
 | _yyyy_ | 100-9999 (三或四位數的年份) |
 
-下表顯示支援的**時間符號**：
+下表顯示支援的 **時間符號**：
 
 | **符號** | **範圍** |
 | --- | --- |
@@ -81,7 +81,7 @@ ms.locfileid: "91600576"
 | **0** | &quot;零&quot; | &quot;&quot; | &quot;&quot; | 0.00 |
 | **1.234** | 1.23 | 1.23 | 1.23 | 1.23 |
 
-下表會識別預先定義的**具名日期和時間格式**：
+下表會識別預先定義的 **具名日期和時間格式**：
 
 | **格式名稱** | **描述** |
 | --- | --- |
@@ -93,7 +93,7 @@ ms.locfileid: "91600576"
 
 具名數值格式
 
-下表會識別預先定義的**具名數值格式**：
+下表會識別預先定義的 **具名數值格式**：
 
 | **格式名稱** | **描述** |
 | --- | --- |
@@ -106,7 +106,7 @@ ms.locfileid: "91600576"
 
 
 
-下表列出您可以用來建立**使用者定義日期/時間格式**的字元。
+下表列出您可以用來建立 **使用者定義日期/時間格式** 的字元。
 
 | **字元** | **描述** |
 | --- | --- |
@@ -130,7 +130,7 @@ ms.locfileid: "91600576"
 | ss | 以包含前置零的數字顯示秒 (00–59)。 |
 | AM/PM | 使用 12 小時制，並在中午之前的任何小時顯示大寫 AM；介於中午和下午 11:59 之間的任何小時顯示大寫 PM。 |
 
-下表列出您可以用來建立**使用者定義數字格式**的字元。
+下表列出您可以用來建立 **使用者定義數字格式** 的字元。
 
 | **字元** | **描述** |
 | --- | --- |

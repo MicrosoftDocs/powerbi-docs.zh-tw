@@ -2,18 +2,18 @@
 title: 教學課程：使用 iOS 應用程式中的問與答虛擬分析師提問
 description: 在此教學課程中，請嘗試用您自己的話以在 iOS 裝置上使用 Power BI 行動裝置應用程式中問與答虛擬分析師來詢問範例資料相關問題。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
-ms.author: painbar
-ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 6d69f4527b838136b54ccfbad43d27fa247804d9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668313"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415281"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教學課程：使用 Power BI iOS 應用程式中的問與答虛擬分析師，詢問有關您資料的問題
 
@@ -38,12 +38,12 @@ ms.locfileid: "91668313"
 
 ## <a name="prerequisites"></a>必要條件
 
-* **註冊 Power BI**：如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
+* **註冊 Power BI**：如果您尚未註冊 Power BI，請先進行 [免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 * **安裝 iOS 版 Power BI 應用程式**：從 Apple App Store [下載 iOS 應用程式](https://apps.apple.com/app/microsoft-power-bi/id929738808)至 iPad、iPhone 或 iPod Touch。 下列版本支援 iOS 版 Power BI 應用程式：
   * iPad (iOS 11 或更新版本)。
   * iPhone 5 與後續機種 (iOS 11 或更新版本)。 
   * iPod Touch (iOS 11 或更新版本)。
-* **下載範例資料**：第一個步驟是將**商機分析範例**下載至 Power BI 服務。 如需如何執行此作業的說明，請參閱[將範例下載至 Power BI 服務的 [我的工作區]](./mobile-apps-download-samples.md)。
+* **下載範例資料**：第一個步驟是將 **商機分析範例** 下載至 Power BI 服務。 如需如何執行此作業的說明，請參閱[將範例下載至 Power BI 服務的 [我的工作區]](./mobile-apps-download-samples.md)。
 
 
 完成先決條件並下載範例資料後，您就可以隨時在 iOS 裝置上檢視這些範例。
@@ -51,7 +51,7 @@ ms.locfileid: "91668313"
 ## <a name="try-featured-insights"></a>試試精選深入解析
 1. 在您的 iPhone 或 iPad 上，開啟 Power BI 應用程式並使用 Power BI 帳戶認證登入，這與您在瀏覽器中的 Power BI 服務中使用的認證相同。
 
-2. 在首頁導覽列上，點選**工作區**圖示。
+2. 在首頁導覽列上，點選 **工作區** 圖示。
 
     ![開啟 [我的工作區]](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-open-myworkspace.png)
 

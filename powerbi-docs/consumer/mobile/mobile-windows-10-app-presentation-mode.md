@@ -2,18 +2,18 @@
 title: 在 Surface Hub 和 Windows 10 上檢視簡報模式 - Power BI
 description: 閱讀如何在 Surface Hub 上顯示 Power BI 報表，以及如何在 Windows 10 裝置上以簡報模式顯示 Power BI 儀表板、報表和磚的資訊。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: painbar
-ms.openlocfilehash: a982374bbf713d4e0c970da601fdca3249120cbe
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 797b00210154e577275f486194f7e36f2cd0077e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683303"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415442"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
 您可以在 Windows 10 裝置和 Surface Hub 中，使用簡報模式以全螢幕顯示報表和儀表板。 簡報模式非常適合用來在會議中、在辦公室的專用投影機上顯示 Power BI，或甚至只是充分利用小螢幕上的空間。
@@ -40,13 +40,13 @@ ms.locfileid: "92683303"
 |------|--------|
 |![上一頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|**回到** 上一頁。 長按此圖示，即會顯示階層連結視窗，讓您能夠巡覽至包含報表或儀表板的資料夾。|
 |![分頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|在簡報中 **切換頁面** 至報表的另一頁。|
-|![書籤圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**套用書籤** ，以呈現該書籤所擷取之資料的特定檢視。 您可以同時套用個人和報表書籤。|
-|![筆跡圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png)|當您使用 Surface 手寫筆在報表上進行繪製與標註時，請 **選擇筆跡色彩** 。|
+|![書籤圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**套用書籤**，以呈現該書籤所擷取之資料的特定檢視。 您可以同時套用個人和報表書籤。|
+|![筆跡圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png)|當您使用 Surface 手寫筆在報表上進行繪製與標註時，請 **選擇筆跡色彩**。|
 |![橡皮擦圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png)|**清除筆跡標記** 可清除您使用 Surface 手寫筆在報表頁面上繪製與標註的標記。          |
-|![重設圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-reset-icon.png)|**重設為預設檢視** ，並清除您可能在簡報期間進行的任何篩選、交叉分析篩選器或任何其他資料檢視變更。|
+|![重設圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-reset-icon.png)|**重設為預設檢視**，並清除您可能在簡報期間進行的任何篩選、交叉分析篩選器或任何其他資料檢視變更。|
 |![共用圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png)|與同事 **共用** 簡報檢視的影像。 影像將包含您在簡報期間使用 Surface 畫筆所做的註釋。|
 |![重新整理圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png)|**重新整理** 報表。|
-|![播放圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|**播放投影片** 、隱藏動作列，以及啟動投影片。 選取器可讓您選擇在頁面、書籤，或頁面與書籤之間自動輪替。 根據預設，投影片每隔 30 秒就會在頁面之間自動輪替一次。 您可以在 [[設定] > [選項]](#slideshow-settings) 中變更這些設定。 請參閱關於投影片的[更多詳細資訊](#slideshows)|
+|![播放圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|**播放投影片**、隱藏動作列，以及啟動投影片。 選取器可讓您選擇在頁面、書籤，或頁面與書籤之間自動輪替。 根據預設，投影片每隔 30 秒就會在頁面之間自動輪替一次。 您可以在 [[設定] > [選項]](#slideshow-settings) 中變更這些設定。 請參閱關於投影片的[更多詳細資訊](#slideshows)|
 |![結束全螢幕模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png)|**結束** 簡報模式。|
 |![搜尋圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png)|**搜尋** Power BI 中的其他成品。|
 

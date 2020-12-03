@@ -2,19 +2,19 @@
 title: 在 Power BI 報表中設定鑽研
 description: 了解如何在 Power BI 報表中使用鑽研向下切入新報表頁面上的資料
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/12/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cec22acab7cc44b96f3137df04777671964707a8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239161"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414223"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>在 Power BI 報表中設定鑽研
 使用 Power BI 報表中的「鑽研」  ，即可在報表中建立頁面，其聚焦於供應商、客戶或製造商等特定實體。 當報表讀者使用鑽研時，讀者們會以滑鼠右鍵按一下其他報表頁面中的資料點，並鑽研至焦點頁面，以取得經過篩選至該內容的詳細資料。 您也可以[建立鑽研按鈕](desktop-drill-through-buttons.md)，當使用者按一下按鈕時，即會鑽研到詳細資料。

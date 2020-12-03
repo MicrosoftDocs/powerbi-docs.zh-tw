@@ -1,20 +1,20 @@
 ---
 title: Power BI 中的高密度散佈圖
 description: Power BI 中的高密度散佈圖
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/11/2018
-ms.author: rien
 LocalizationGroup: Create reports
-ms.openlocfilehash: 850c59e682d0368b592b71c4cf5d11bdd8806848
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 48856dcee2745eb948bfb7beb6b5bc8d94d0df4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412916"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415672"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散佈圖中的高密度取樣
 
@@ -27,7 +27,7 @@ ms.locfileid: "93412916"
 ![散佈圖範例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-01.png)
 
 ## <a name="how-high-density-scatter-charts-work"></a>高密度散佈圖的運作方式
-先前， **Power BI** 透過決定性方式選取完整基礎資料範圍中的範例資料點集合，以建立散佈圖。 具體來說，Power BI 會在散佈圖圖表數列中，選取第一個和最後一個資料列，然後平均分配剩餘的資料列，以便在散佈圖上繪製總計 3500 個資料點。 例如，如果樣本有 35,000 個資料列，則會選取第一個和最後一個資料列來繪製，然後也會繪製每十個資料列 (35000 / 10 = 每十個資料列 = 3,500 個資料點)。 此外，先前資料數列中無法繪製的 null 值或點 (例如文字值) 的點不會顯示，因此在產生視覺效果時並未考慮它們。 使用這樣的取樣，散佈圖的認知密度也是根據代表性資料點，因此隱含的視覺效果密度是取樣點的一種情況，而不是完整的基礎資料集合。
+先前，**Power BI** 透過決定性方式選取完整基礎資料範圍中的範例資料點集合，以建立散佈圖。 具體來說，Power BI 會在散佈圖圖表數列中，選取第一個和最後一個資料列，然後平均分配剩餘的資料列，以便在散佈圖上繪製總計 3500 個資料點。 例如，如果樣本有 35,000 個資料列，則會選取第一個和最後一個資料列來繪製，然後也會繪製每十個資料列 (35000 / 10 = 每十個資料列 = 3,500 個資料點)。 此外，先前資料數列中無法繪製的 null 值或點 (例如文字值) 的點不會顯示，因此在產生視覺效果時並未考慮它們。 使用這樣的取樣，散佈圖的認知密度也是根據代表性資料點，因此隱含的視覺效果密度是取樣點的一種情況，而不是完整的基礎資料集合。
 
 當您啟用 **高密度取樣** 時，Power BI 會實作演算法，刪除重疊的點，並確保視覺效果上的點可以在與視覺效果互動時觸達。 演算法也可確保在視覺效果會代表資料集裡的所有點，為選取點的意義提供內容，而不只是繪製代表性的樣本。
 
@@ -65,7 +65,7 @@ ms.locfileid: "93412916"
   ![使用比率行範例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>如何開啟散佈圖的高密度取樣
-若要開啟 **高密度取樣** ，請選取散佈圖並移至 [格式] 窗格，展開 [一般] 卡片，在該卡片底部的附近，將 [高密度取樣] 切換滑桿移至 [開啟]。
+若要開啟 **高密度取樣**，請選取散佈圖並移至 [格式] 窗格，展開 [一般] 卡片，在該卡片底部的附近，將 [高密度取樣] 切換滑桿移至 [開啟]。
 
 ![高密度取樣範例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-04.png)
 

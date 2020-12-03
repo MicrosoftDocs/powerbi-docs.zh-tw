@@ -2,18 +2,18 @@
 title: 使用 Azure 應用程式 Proxy 設定 Power BI 報表伺服器
 description: 了解如何使用 Azure Active Directory 應用程式 Proxy 設定您的 Power BI 報表伺服器。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
-ms.author: maggies
-ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 795b2e7e1b9ef0c705f7240e9a20a5c2da2f81a3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634220"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414913"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>使用 Azure 應用程式 Proxy 設定 Power BI 報表伺服器
 
@@ -33,7 +33,7 @@ ms.locfileid: "91634220"
 
 1. 在 VM 防火牆上針對連接埠 80 建立連入與連出規則 (如果您已設定 https URL，則為連接埠 443)。 此外，也從 Azure 入口網站建立 Azure VM 的 TCP 通訊協定 (連接埠 80) 連入與連出規則。
 2. 為我們環境中的 VM 所設定的 DNS 名稱是 `pbirsazureapp.eastus.cloudapp.azure.com`。
-3. 透過選取 [進階] 索引標籤 > [新增] 按鈕 > **選擇主機標頭名稱**並新增主機名稱 (DNS 名稱) 來設定 Power BI 報表伺服器外部 Web 服務與入口網站 URL，如下所示。
+3. 透過選取 [進階] 索引標籤 > [新增] 按鈕 > **選擇主機標頭名稱** 並新增主機名稱 (DNS 名稱) 來設定 Power BI 報表伺服器外部 Web 服務與入口網站 URL，如下所示。
 
     ![報表伺服器組態管理員](media/azure-application-proxy/report-server-configuration-manager.png)
 
@@ -85,7 +85,7 @@ ms.locfileid: "91634220"
 
 以系統管理員身分開啟命令提示字元，並執行下列步驟。
 
-使用下列命令，在帳戶 **Power BI 報表伺服器服務帳戶**下註冊下列 SPN
+使用下列命令，在帳戶 **Power BI 報表伺服器服務帳戶** 下註冊下列 SPN
 
 ```
 setspn -s http/ Netbios name\_of\_Power BI Report Server\_server<space> Power BI Report Server\_ServiceAccount
@@ -108,7 +108,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 1. 開啟 [Active Directory 使用者和電腦]。
 2. 開啟 [Active Directory 使用者和電腦] 內的報表伺服器服務帳戶內容。
 3. 我們想要使用通訊協定傳輸來設定限制委派。 使用限制委派時，我們必須明確指出要委派的目標服務。
-4. 以滑鼠右鍵按一下**報表伺服器服務帳戶**，然後選取 [內容]。
+4. 以滑鼠右鍵按一下 **報表伺服器服務帳戶**，然後選取 [內容]。
 5. 選取 [委派] 索引標籤。
 6. 選取 [信任這個使用者，但只委派指定的服務]。
 7. 選取 [使用任何驗證通訊協定]。
@@ -169,7 +169,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 我們尚未在 [其他設定] 區段中進行任何變更。 因此，其設定為使用預設選項。
 
 > [!IMPORTANT]
-> 設定應用程式 Proxy 時，請注意，**後端應用程式逾時**屬性會設為 [預設] (85 秒)。 如果您的報表執行時間超過 85 秒，請將此屬性設定為 [長] (180 秒)，這是最高的逾時值上限。 當設定為 [長] 時，所有報表都必須在 180 秒內完成，否則就會逾時導致錯誤。
+> 設定應用程式 Proxy 時，請注意，**後端應用程式逾時** 屬性會設為 [預設] (85 秒)。 如果您的報表執行時間超過 85 秒，請將此屬性設定為 [長] (180 秒)，這是最高的逾時值上限。 當設定為 [長] 時，所有報表都必須在 180 秒內完成，否則就會逾時導致錯誤。
 
 ![其他設定](media/azure-application-proxy/report-server-application-proxy-1.png)
 
@@ -179,7 +179,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 1. 在入口網站的應用程式頁面上，選取 [單一登入]。
 2. 針對 [單一登入模式]，選取 [整合式 Windows 驗證]。
-3. 將**內部應用程式 SPN** 設定為您先前設定的值。 您可以使用下列步驟來識別此值：
+3. 將 **內部應用程式 SPN** 設定為您先前設定的值。 您可以使用下列步驟來識別此值：
 
     - 請嘗試執行報表，或執行資料來源的測試連線，以建立 Kerberos 票證。
     - 成功執行報表/測試連線之後，請開啟命令提示字元，並執行命令：`klist`。 在結果區段中，您應該會看到具有 `http/` SPN 的票證。 如果其與您已用於設定 Power BI 報表伺服器的 SPN 相同，請在此區段中使用該 SPN。

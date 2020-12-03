@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用跨報表鑽研
 description: 了解如何在 Power BI Desktop 中，從一個報表鑽研至另一個
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/27/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: a22610ea8ca3b7a26763a435b98bf7c114e1bfa0
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 5cf1ed76f47eba9dc989b26fbb5dcc52f92ddd18
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252812"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414269"
 ---
 # <a name="use-cross-report-drill-through-in-power-bi"></a>在 Power BI 中使用跨報表鑽研
 
@@ -50,7 +50,7 @@ ms.locfileid: "87252812"
 
 您也可以從 Power BI 服務啟用跨報表鑽研。
 1. 在 Power BI 服務中，選取包含目標和來源報表的工作區。
-1. 在工作區清單中的來源報表名稱旁，選取**更多選項**符號，然後選取 [設定]。 
+1. 在工作區清單中的來源報表名稱旁，選取 **更多選項** 符號，然後選取 [設定]。 
 1. 在 [設定] 窗格底部附近的 [跨報表鑽研] 底下，選取 [允許此報表中視覺效果使用其他報表中的鑽研目標]，然後選取 [儲存]。
    
    ![在 Power BI 服務中啟用跨報表鑽研](media/desktop-cross-report-drill-through/cross-report-drill-through-02a.png)
@@ -74,7 +74,7 @@ ms.locfileid: "87252812"
 
 ## <a name="use-cross-report-drill-through"></a>使用跨報表鑽研
 
-若要使用跨報表鑽研，請在 Power BI 服務中選取來源報表，然後選取視覺效果，其鑽研欄位的使用方式與您在設定目標頁面時所指定方式相同。 以滑鼠右鍵按一下資料點來開啟視覺效果操作功能表，並選取 [鑽研]，然後選取鑽研目標。 跨報表鑽研目標會格式化為**頁面名稱 [報表名稱]** 。
+若要使用跨報表鑽研，請在 Power BI 服務中選取來源報表，然後選取視覺效果，其鑽研欄位的使用方式與您在設定目標頁面時所指定方式相同。 以滑鼠右鍵按一下資料點來開啟視覺效果操作功能表，並選取 [鑽研]，然後選取鑽研目標。 跨報表鑽研目標會格式化為 **頁面名稱 [報表名稱]** 。
 
 ![Power BI 跨報表鑽研選項](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 

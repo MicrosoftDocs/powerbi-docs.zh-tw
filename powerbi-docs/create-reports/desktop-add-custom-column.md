@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中新增自訂資料行
 description: 在 Power BI Desktop 中快速建立新的自訂資料行
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/18/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2074094f910efa36d449d8f54ada097d253bb2dd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: fa1c620bc722fa6382974734129dc7930e94d728
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598920"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414430"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中新增自訂資料行
 

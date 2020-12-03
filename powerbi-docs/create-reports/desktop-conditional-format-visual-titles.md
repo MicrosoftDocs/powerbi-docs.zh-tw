@@ -2,19 +2,19 @@
 title: Power BI Desktop 中以運算式為基礎的標題
 description: 使用條件式程式設計格式，在 Power BI Desktop 中建立根據程式設計運算式變更的動態標題
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/10/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e3b9e4fd1fea6c1fa76077b95ba6a93225753593
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7bcf06e075fc123a05cd7c184fbd9f12e006d24
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222047"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414338"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Power BI Desktop 中以運算式為基礎的標題
 
@@ -56,7 +56,7 @@ SWITCH (
 
 若要選取欄位並加以套用，請移至 [視覺效果]  窗格。 在 [格式]  區域中，選取 [標題]  以顯示視覺效果的標題選項。 
 
-當您以滑鼠右鍵按一下**標題文字**時，即會出現可讓您選取 [**fx<em>條件式格式設定]</em>** 的操作功能表。 當您選取該功能表項目時，[標題文字]  對話方塊隨即出現。 
+當您以滑鼠右鍵按一下 **標題文字** 時，即會出現可讓您選取 [**fx <em>條件式格式設定]</em>** 的操作功能表。 當您選取該功能表項目時，[標題文字]  對話方塊隨即出現。 
 
 ![[標題文字] 對話方塊的螢幕擷取畫面](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

@@ -2,19 +2,19 @@
 title: Power BI Desktop 中的資料分類
 description: Power BI Desktop 中的資料分類
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 414f58338a53ce9ff24f193acd3cee0da2c30658
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: d99eb0355d414a9e1627da0b5629eaf45cbaf18d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215343"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415787"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>在 Power BI Desktop 中指定資料類別
 在 Power BI Desktop 中，您可以指定資料行的「資料類別」，讓 Power BI Desktop 知道如何在視覺效果中處理其值。

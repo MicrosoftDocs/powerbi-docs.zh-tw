@@ -1,20 +1,20 @@
 ---
 title: 使用 R 指令碼建立進階分析和視覺效果
 description: 在 Power BI Desktop 中使用 R 指令碼，建立進階分析及進階視覺效果
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/14/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3b43d644a0bb7ecd2800b99d3ffb5d7c7d26bf96
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 60a4edac34e98170d0499f3480f01b366a512ddc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412088"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415649"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>在 Power BI 中建立和使用 R 視覺效果
 
@@ -26,7 +26,7 @@ R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發行到 P
 Power BI 服務支援檢視使用 R 指令碼建立的視覺效果，並與其互動。 以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」  ，可以使用 R 豐富的分析和視覺效果功能呈現進階的資料成形和分析，例如預測。
 
 > [!NOTE]
-> [R 程式設計語言](https://www.r-project.org/)是統計學家、資料科學家和商務分析師使用最廣泛的程式設計語言之一。 R 語言有一個開放原始碼社群，提供了逾 7000 種的附加元件套件，以及廣為大眾使用的 R 使用者群組。 部署在 Power BI 服務中的 R 版本是 *Microsoft R 3.4.4* 。
+> [R 程式設計語言](https://www.r-project.org/)是統計學家、資料科學家和商務分析師使用最廣泛的程式設計語言之一。 R 語言有一個開放原始碼社群，提供了逾 7000 種的附加元件套件，以及廣為大眾使用的 R 使用者群組。 部署在 Power BI 服務中的 R 版本是 *Microsoft R 3.4.4*。
 > 
 > 
 

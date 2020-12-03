@@ -2,19 +2,19 @@
 title: 搭配資料流程使用 Machine Learning 與認知服務
 description: 如何搭配資料流程使用機器學習和自動化 ML 的概觀
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 703e87847f2f6dfb24040cc6532052b17d39086c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 60214c16cbd287a30631e7ad9fbab274cb8f4cb0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668526"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414292"
 ---
 # <a name="ai-with-dataflows"></a>使用資料流程的 AI
 

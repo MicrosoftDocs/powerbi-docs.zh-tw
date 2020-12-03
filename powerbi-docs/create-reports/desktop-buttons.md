@@ -2,22 +2,22 @@
 title: 在 Power BI 中使用按鈕
 description: 您可在 Power BI 報表中新增按鈕，讓報表像應用程式般運作，且與使用者進行更進一步的互動。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/21/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7597d135bc05783d0d43bb481e24fc197abd9d4b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 77f16bedb45b0730a7007da19a427b1832bc9969
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222387"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414453"
 ---
 # <a name="use-buttons-in-power-bi"></a>在 Power BI 中使用按鈕
-在 Power BI 中使用**按鈕**可以供建立像應用程式般運作的報表，進而打造出互動式環境，讓使用者能夠暫留、按一下及和 Power BI 內容更進一步互動。 您可以在 **Power BI Desktop** 和 **Power BI 服務**中將按鈕新增到報表。 當在 Power BI 服務中共用報表時，報表會為使用者提供與應用程式相似的體驗。
+在 Power BI 中使用 **按鈕** 可以供建立像應用程式般運作的報表，進而打造出互動式環境，讓使用者能夠暫留、按一下及和 Power BI 內容更進一步互動。 您可以在 **Power BI Desktop** 和 **Power BI 服務** 中將按鈕新增到報表。 當在 Power BI 服務中共用報表時，報表會為使用者提供與應用程式相似的體驗。
 
 ![Power BI 中的按鈕](media/desktop-buttons/power-bi-buttons.png)
 
@@ -31,13 +31,13 @@ ms.locfileid: "85222387"
 
 ### <a name="create-a-button-in-the-power-bi-service"></a>在 Power BI 服務中建立按鈕
 
-若要在 **Power BI 服務**中建立按鈕，請在編輯檢視中開啟報表。 選取頂端功能表列中的 [按鈕]，下拉式功能表隨即出現，以供從選項集合中選取想要的按鈕，如下圖所示。 
+若要在 **Power BI 服務** 中建立按鈕，請在編輯檢視中開啟報表。 選取頂端功能表列中的 [按鈕]，下拉式功能表隨即出現，以供從選項集合中選取想要的按鈕，如下圖所示。 
 
 ![在 Power BI 服務中新增按鈕控制項](media/desktop-buttons/power-bi-button-service-dropdown.png)
 
 ## <a name="customize-a-button"></a>自訂按鈕
 
-不論是在 Power BI Desktop 或是 Power BI 服務中建立按鈕，其餘流程都是相同的。 當在報表畫布上選取按鈕時，[視覺效果] 窗格即會顯示許多自訂按鈕的方式，以符合需求。 例如，您可以透過切換位於該 [視覺效果] 窗格卡中的滑桿來開啟或關閉**按鈕文字**。 您也可以變更按鈕圖示、按鈕填滿、標題、當使用者在報表中選取按鈕時所要採取的動作，以及其他屬性。
+不論是在 Power BI Desktop 或是 Power BI 服務中建立按鈕，其餘流程都是相同的。 當在報表畫布上選取按鈕時，[視覺效果] 窗格即會顯示許多自訂按鈕的方式，以符合需求。 例如，您可以透過切換位於該 [視覺效果] 窗格卡中的滑桿來開啟或關閉 **按鈕文字**。 您也可以變更按鈕圖示、按鈕填滿、標題、當使用者在報表中選取按鈕時所要採取的動作，以及其他屬性。
 
 ![格式化 Power BI 報表中的按鈕](media/desktop-buttons/power-bi-button-properties.png)
 
@@ -76,7 +76,7 @@ Power BI 中的按鈕有三種狀態：預設 (當滑鼠未在其上暫留，或
 
 ## <a name="create-page-navigation"></a>建立頁面瀏覽
 
-透過**動作** 類型的 [頁面瀏覽]，即可建置整個瀏覽體驗，而完全無須儲存或管理任何書籤。
+透過 **動作** 類型的 [頁面瀏覽]，即可建置整個瀏覽體驗，而完全無須儲存或管理任何書籤。
 
 若要設定頁面瀏覽按鈕，請使用 [頁面瀏覽] 作為動作類型，然後選取 [目的地]。
 

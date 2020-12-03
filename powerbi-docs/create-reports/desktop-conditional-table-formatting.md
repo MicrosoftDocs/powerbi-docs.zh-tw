@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中設定資料表格式化的條件
 description: 將自訂格式套用至資料表
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 421ccbe08435e03fe43cf6f0e7f2b71c99ec6901
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860018"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414384"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>在資料表中使用條件式格式設定 
 
@@ -95,7 +95,7 @@ ms.locfileid: "90860018"
 
 ![依欄位值格式化](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
 
-在 [色彩] 欄位上使用色彩欄位值型**背景色彩**格式設定的範例資料表如下所示：
+在 [色彩] 欄位上使用色彩欄位值型 **背景色彩** 格式設定的範例資料表如下所示：
 
 ![依據欄位值設定背景格式的範例資料表](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
 
@@ -173,7 +173,7 @@ ms.locfileid: "90860018"
 
 ![格式化總計和小計](media/desktop-conditional-table-formatting/table-formatting-4.png)
 
-您必須針對條件式格式設定規則手動設定閾值和範圍。 針對矩陣，**值**代表矩陣階層中最低的可見層級。
+您必須針對條件式格式設定規則手動設定閾值和範圍。 針對矩陣，**值** 代表矩陣階層中最低的可見層級。
 
 
 ## <a name="considerations-and-limitations"></a>考量與限制

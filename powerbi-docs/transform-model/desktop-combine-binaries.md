@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中合併檔案 (二進位檔)
 description: 在 Power BI Desktop 中輕鬆合併檔案 (二進位檔) 資料來源
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cb287d63444b60318a717a1a1587f7755cd7f666
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf75a5656de956be5ddd38330d659cba06e30455
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237849"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415833"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>在 Power BI Desktop 中合併檔案 (二進位檔)
 
@@ -32,7 +32,7 @@ ms.locfileid: "85237849"
 
 ![合併檔案命令，Power Query 編輯器，Power BI Desktop](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-*合併檔案*轉換的行為如下：
+*合併檔案* 轉換的行為如下：
 
 * 合併檔案轉換會分析每個輸入檔，以判斷要使用的正確檔案格式，例如「文字」  、「Excel 活頁簿」  或「JSON 檔案」  。
 * 轉換可讓您從第一個檔案 (例如「Excel 活頁簿」) 選取要擷取的特定物件。

@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中從範例新增資料行
 description: 使用現有資料行作為範例，快速在 Power BI Desktop 中建立新資料行。
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/16/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 68f2dc14b713345796ba0472fc3d55f6baedf819
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: f33a9f5656875825b70c7e51202431ba268fe86a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263201"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414499"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>在 Power BI Desktop 中從範例新增資料行
 透過在 Power Query 編輯器中「從範例新增資料行」，您只要為新的資料行提供一或多個範例值，就可以將資料行新增至資料模型。 您可以從選取範圍建立新的資料行範例，或根據資料表中所有現有的資料行來提供輸入。
@@ -45,7 +45,7 @@ ms.locfileid: "86263201"
 
 ![從 Power BI Desktop 選取 [編輯查詢]](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-在 Power Query 編輯器中開啟範例資料之後，請選取功能區上的 [新增資料行] 索引標籤，然後選取 [來自範例的資料行]。 選取**來自範例的資料行**圖示本身，從所有現有的資料行建立資料行，或是選取下拉式箭號，在 [來自所有資料行] 或 [來自選取項目] 之間進行選擇。 在此逐步解說中，請使用 [來自所有資料行]。
+在 Power Query 編輯器中開啟範例資料之後，請選取功能區上的 [新增資料行] 索引標籤，然後選取 [來自範例的資料行]。 選取 **來自範例的資料行** 圖示本身，從所有現有的資料行建立資料行，或是選取下拉式箭號，在 [來自所有資料行] 或 [來自選取項目] 之間進行選擇。 在此逐步解說中，請使用 [來自所有資料行]。
 
 ![選取 [從範例新增資料行]](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
@@ -66,7 +66,7 @@ Power Query 編輯器會在您持續提供範例的同時，新增到轉換。 �
 
 您可以按兩下資料行標題，或以滑鼠右鍵按一下新資料行，然後選取 [重新命名]，將新資料行重新命名為想要的任何名稱。 
 
-請觀看這段影片，以了解使用範例資料來源，**從範例新增資料行**的實際運作： 
+請觀看這段影片，以了解使用範例資料來源，**從範例新增資料行** 的實際運作： 
 
 [Power BI Desktop:Add Column From Examples](https://www.youtube.com/watch?v=-ykbVW9wQfw) (Power BI Desktop：從範例新增資料行)。 
 

@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中使用書籤來共用見解並建立故事
 description: Power BI Desktop 中的書籤可讓您儲存報表中的檢視和設定，然後建立類似故事的簡報
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 110abfd3ac8d258a6f4e800d218c08af9dc3c983
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b1d9be5515680a199a2ae74c59aa1baeb30ef1f1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239319"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414476"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>在 Power BI Desktop 中建立書籤來共用見解並建立故事
 在 Power BI Desktop 中使用「書籤」，可協助您擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)。 之後，您可藉由選取儲存的書籤來返回該狀態。 
@@ -42,7 +42,7 @@ ms.locfileid: "85239319"
 * 排序次序
 * 鑽研位置
 * 物件的可見度 (透過使用 [選取] 窗格)
-* 任何可見物件的焦點或**聚焦**模式
+* 任何可見物件的焦點或 **聚焦** 模式
 
 以您想要在書籤中顯示的方式來設定報表頁面。 將報表頁面和視覺效果排列成您想要的方式之後，從 [書籤] 窗格中選取 [新增] 以新增書籤。 
 
@@ -137,7 +137,7 @@ Power BI Desktop 會自動將群組命名為「群組 1」。 您可以選取此
 
 當使用書籤的 [檢視] 功能時，會套用下列詳細資料：
 
-* 當您從書籤選取 [檢視] 時，若所選書籤位於群組中，則只有*該群組中*的書籤才顯示在檢視工作階段中。 
+* 當您從書籤選取 [檢視] 時，若所選書籤位於群組中，則只有 *該群組中* 的書籤才顯示在檢視工作階段中。 
 
 * 若所選書籤並非群組，或位於頂層 (例如書籤群組的名稱)，即會播放整個報表的所有書籤，包括任何群組中的書籤。 
 
@@ -161,13 +161,13 @@ Power BI Desktop 會自動將群組命名為「群組 1」。 您可以選取此
 
 讓我們來比較聚焦模式與焦點模式，看看這兩種模式有何不同：
 
-1. 使用焦點模式時，您會選取視覺效果的**焦點模式**圖示，這會使視覺效果填滿整個畫布。
+1. 使用焦點模式時，您會選取視覺效果的 **焦點模式** 圖示，這會使視覺效果填滿整個畫布。
 
 2. 使用聚焦時，您可以從視覺效果的省略符號選取 [聚焦]，以其原始大小醒目提示某個視覺效果，這會導致頁面上的所有其他視覺效果淡化成近乎透明。 
 
 ![比較聚焦與焦點模式](media/desktop-bookmarks/bookmarks_11.png)
 
-當您選取上圖中視覺效果的**焦點模式**圖示時，頁面會如下所示：
+當您選取上圖中視覺效果的 **焦點模式** 圖示時，頁面會如下所示：
 
 ![焦點模式](media/desktop-bookmarks/bookmarks_12.png)
 

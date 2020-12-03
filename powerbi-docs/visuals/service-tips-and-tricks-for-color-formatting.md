@@ -1,20 +1,20 @@
 ---
 title: 在報表中設定格式的祕訣與訣竅
 description: 在 Power BI 報表中設定格式的祕訣與訣竅
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 10/29/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6f64db7be452cf5873a862f378f558bc4f177c56
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 0ab6b799c8c78ab2e76a63a3ec5ee3f37f960b03
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94513037"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415741"
 ---
 # <a name="tips-and-tricks-for-formatting-in-reports"></a>在報表中設定格式的祕訣與訣竅
 

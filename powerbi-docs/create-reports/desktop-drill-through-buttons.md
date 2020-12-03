@@ -2,19 +2,19 @@
 title: 在 Power BI 中建立鑽研按鈕
 description: 您可以在 Power BI 報表中新增鑽研按鈕，讓報表像應用程式般運作，且與使用者進行更進一步的互動。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: a6de32e93b79b45d700ad5de1607f580dff836cf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0ba9b6f86c2c66b01d5002df30bb23c0de1bc889
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239272"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414361"
 ---
 # <a name="create-a-drill-through-button-in-power-bi"></a>在 Power BI 中建立鑽研按鈕
 
@@ -56,7 +56,7 @@ ms.locfileid: "85239272"
 
 ## <a name="pass-filter-context"></a>傳遞篩選內容
 
-按鈕的運作方式與一般鑽研類似：您可以透過交叉篩選包含鑽研欄位的視覺效果，以傳遞其他欄位的篩選條件。 例如，使用 **Ctrl** + **按一下**及交叉篩選，您可以將 [店面] 上的多個篩選條件傳遞至鑽研頁面，因為選取項目會交叉篩選包含 [產品] (鑽研欄位) 的視覺效果：
+按鈕的運作方式與一般鑽研類似：您可以透過交叉篩選包含鑽研欄位的視覺效果，以傳遞其他欄位的篩選條件。 例如，使用 **Ctrl** + **按一下** 及交叉篩選，您可以將 [店面] 上的多個篩選條件傳遞至鑽研頁面，因為選取項目會交叉篩選包含 [產品] (鑽研欄位) 的視覺效果：
 
 ![傳遞篩選內容](media/desktop-drill-through-buttons/power-bi-cross-filter-drill-through-button.png)
 
@@ -145,19 +145,19 @@ String_for_button = If(SELECTEDVALUE('Product'[Product], 0) == 0, "See product d
 
 以下是您可能要讓按鈕鑽研目的地成為條件式的一些案例：
 
-- 您只想要在**已符合多個條件的情況下**啟用鑽研至頁面。 否則會停用此按鈕。
+- 您只想要在 **已符合多個條件的情況下** 啟用鑽研至頁面。 否則會停用此按鈕。
 
     例如，您想要讓使用者選取單一產品「以及」單一商店之後，才能鑽研至 [市場] 詳細資料頁面。 否則會停用此按鈕。
 
     :::image type="content" source="media/desktop-drill-through-buttons/drill-through-select-product-store.png" alt-text="選取產品和商店":::
  
-- 您想要讓按鈕根據使用者選取項目**支援多個鑽研目的地**。
+- 您想要讓按鈕根據使用者選取項目 **支援多個鑽研目的地**。
 
     例如，假設您有多個目的地 (市場詳細資料和商店詳細資料) 可供使用者鑽研。 您可以讓他們選取可鑽研的特定目的地，然後才啟用該鑽研目的地的按鈕。
 
     :::image type="content" source="media/desktop-drill-through-buttons/drill-through-select-product-destination.png" alt-text="選取產品和目的地":::
  
-- 您可能也會有**混合式案例**的有趣案例，同時支援多個鑽研目的地和想要停用按鈕的特定條件。 如需這三個選項的詳細資訊，請繼續閱讀。
+- 您可能也會有 **混合式案例** 的有趣案例，同時支援多個鑽研目的地和想要停用按鈕的特定條件。 如需這三個選項的詳細資訊，請繼續閱讀。
 
 ### <a name="disable-the-button-until-multiple-conditions-are-met"></a>停用按鈕，直到符合多個條件為止
 

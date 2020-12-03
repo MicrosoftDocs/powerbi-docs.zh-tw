@@ -2,19 +2,19 @@
 title: 使用 Power BI 問與答建立視覺效果
 description: 了解如何在 Power BI 服務中使用使用零售分析範例來建立問與答的視覺效果
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6bd68f5db12367e6c98b6fe61461b89047d8eb56
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7eae93eb2b4594a180836f43a758c6bef7b3e90e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237228"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415028"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>使用 Power BI 問與答建立視覺效果
 
@@ -38,7 +38,7 @@ ms.locfileid: "85237228"
    
     **今年度銷售額和去年度銷售額，依月份，以區域圖形式**
    
-    當您輸入您的問題後，問與答會挑選最佳的視覺效果來顯示您的答案；而當您修改這個問題時，視覺效果就會動態改變。 問與答也可以用建議、自動完成及拼字校正，協助您建立問題。 問與答會建議少量的用語變更：「今年度銷售額和去年度銷售額，依*時間月份*，以區域圖形式」。  
+    當您輸入您的問題後，問與答會挑選最佳的視覺效果來顯示您的答案；而當您修改這個問題時，視覺效果就會動態改變。 問與答也可以用建議、自動完成及拼字校正，協助您建立問題。 問與答會建議少量的用語變更：「今年度銷售額和去年度銷售額，依 *時間月份*，以區域圖形式」。  
 
     ![問與答更正了用語](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-corrected-create-filled-chart.png)
 

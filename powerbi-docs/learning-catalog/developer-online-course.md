@@ -2,23 +2,23 @@
 title: Power BI 開發人員一日上手課程
 description: 這堂影片式課程為您成為應用程式開發人員提供了內嵌 Power BI 內容所需的技術知識。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: yana.berkovich
 featuredvideoid: dv-ep90wse8
 ms.service: powerbi
-ms.subservice: powerbi-developer
+ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 06/01/2020
-ms.author: v-pemyer
-ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 67633bf4362984d0a1e3b6a6aa8b74de3747191f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527876"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414890"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Power BI 開發人員一日上手課程
 
-**Power BI 開發人員一日上手**影片式課程為您成為應用程式開發人員提供了內嵌 Power BI 內容所需的技術知識。 這堂課程包含將近 3 小時 20 分鐘的可檢視內容，可視需要免費取用。 另外還有可供下載並用來完成一系列五個實作教室的[自我研究套件](#self-study-kit)。
+**Power BI 開發人員一日上手** 影片式課程為您成為應用程式開發人員提供了內嵌 Power BI 內容所需的技術知識。 這堂課程包含將近 3 小時 20 分鐘的可檢視內容，可視需要免費取用。 另外還有可供下載並用來完成一系列五個實作教室的[自我研究套件](#self-study-kit)。
 
 本課程是專為有經驗的應用程式開發人員所設計。 因此，如果您具有以下方面的開發經驗，將是一種優勢：
 
@@ -84,7 +84,7 @@ ms.locfileid: "91527876"
 若要完成實驗室，您將需要 Windows 電腦 (Windows 7 或更新版本) 和下列已安裝的軟體：
 
 - 最新版本的 [Power BI Desktop](../fundamentals/desktop-get-the-desktop.md)。
-- Visual Studio 2015 或更新版本。 建議使用 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)。 您可以使用免費且適用於學習案例的 **Community** 版。 其必須已安裝 **ASP.NET 和 Web 開發**工作負載。
+- Visual Studio 2015 或更新版本。 建議使用 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)。 您可以使用免費且適用於學習案例的 **Community** 版。 其必須已安裝 **ASP.NET 和 Web 開發** 工作負載。
 - [Power BI 支援](../fundamentals/power-bi-browsers.md)的網頁瀏覽器。 建議使用 Microsoft Edge。
 
 請遵循下列步驟來進行設定：

@@ -2,18 +2,18 @@
 title: 開始使用 Power BI for Windows 10 行動裝置應用程式
 description: Power BI 的 Windows 10 行動裝置應用程式可以最新狀態、啟用觸控式行動裝置的方式存取您的商務資訊。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 5ef68bac75daf25e48cbd4d24279627d4b494764
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7c03ea1a8b05f4f9d07cf32cc5bb1d40bf7c0e40
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634358"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415304"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>開始使用 Power BI for Windows 10 行動裝置應用程式
 Power BI for Windows 10 行動裝置應用程式可將 Power BI 帶到您的平板電腦或手機。 您可以對商務資訊進行最新的觸控式行動存取。 在 [Windows 開始畫面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上，隨處檢視公司儀表板並與其互動。
@@ -25,12 +25,12 @@ Power BI for Windows 10 行動裝置應用程式可將 Power BI 帶到您的平�
 之後即可利用適用於 Windows 10 的 Power BI 行動裝置應用程式，與您的儀表板和報表互動、瀏覽資料並加以共用。
 
 ## <a name="first-things-first"></a>最重要的第一件事
-* 從 Windows 市集[**取得適用於 Windows 10 的 Power BI 行動裝置應用程式**](https://go.microsoft.com/fwlink/?LinkID=526478)。
+* 從 Windows 市集 [**取得適用於 Windows 10 的 Power BI 行動裝置應用程式**](https://go.microsoft.com/fwlink/?LinkID=526478)。
   
   您的裝置必須執行 Windows 10。 應用程式可以在具有至少 3 GB RAM 和 8 GB 內部儲存空間的裝置上執行。
 
   >[!NOTE]
-  >**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+  >**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
    
 * 了解 [Power BI 行動裝置應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
@@ -58,7 +58,7 @@ Power BI for Windows 10 行動裝置應用程式可將 Power BI 帶到您的平�
 您可以檢視 Power BI 儀表板範例並與其互動。 但有幾件事做不到。 您無法開啟儀表板背後的報表、與其他人共用範例，或將它們設成 [我的最愛]。
 
 1. 點選左上角的 ![全域導覽按鈕](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全域導覽按鈕。
-2. 點選**設定**圖示![設定圖示](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，點選您的名稱，再點選 [檢視範例]。
+2. 點選 **設定** 圖示![設定圖示](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，點選您的名稱，再點選 [檢視範例]。
    
    ![檢視範例](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
 3. 挑選角色，並瀏覽該角色的範例儀表板。  
@@ -67,7 +67,7 @@ Power BI for Windows 10 行動裝置應用程式可將 Power BI 帶到您的平�
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 行動報表範例
 1. 點選左上角的 ![全域導覽按鈕](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全域導覽按鈕。
-2. 點選**設定**圖示![設定圖示](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，以滑鼠右鍵按一下或點選並按住 [連線至伺服器]，然後點選 [檢視範例]。
+2. 點選 **設定** 圖示![設定圖示](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，以滑鼠右鍵按一下或點選並按住 [連線至伺服器]，然後點選 [檢視範例]。
    
    ![[設定] 畫面的螢幕擷取畫面，其中顯示設定圖示中用來連線到伺服器的指標。](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. 開啟 [Retail Reports]\(零售報表) 或 [Sales Reports]\(銷售報表) 資料夾，探索其 KPI 和行動報表。

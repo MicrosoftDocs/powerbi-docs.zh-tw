@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop 中自訂工具提示
 description: 使用拖放功能建立視覺效果的自訂工具提示
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a21bccb78df5ba84d3e9a7dc07d9d392c74c0153
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 18658937d1e53340f4bdd5075479bd2926f295bd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231958"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414200"
 ---
 # <a name="customize-tooltips-in-power-bi-desktop"></a>在 Power BI Desktop 中自訂工具提示
 

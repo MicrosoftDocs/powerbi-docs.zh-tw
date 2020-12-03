@@ -2,18 +2,18 @@
 title: Power BI 報表伺服器的容量規劃指引
 description: 本文提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對各種工作負載所執行的負載測試結果。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/02/2020
-ms.author: maggies
-ms.openlocfilehash: f82a3a9e1cf207a006319e6ac7e662baaf5d9d1f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 0c75590071437b8e9edcc0023516ad7f095f0dcc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216586"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414706"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 報表伺服器的容量規劃指引
 Power BI 報表伺服器是客戶可以在其防火牆後方內部部署的自助 BI 和企業報告解決方案。 它結合 Power BI Desktop 的互動式報表功能與 SQL Server Reporting Services 的內部部署伺服器平台。 隨著企業內的分析和報告使用量愈來愈大，估算所需的硬體基礎結構和軟體授權以依照企業使用者總數來調整規模會是項挑戰。 本文旨在提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對報表伺服器的各種工作負載所執行的多項負載測試結果。 雖然組織的報表、查詢和使用模式差異很大，但本文中所呈現的結果，以及所使用的實際測試及其執行方式的詳細描述，可作為任何人在部署 Power BI 報表伺服器之初期規劃程序的參考點。

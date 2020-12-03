@@ -2,25 +2,25 @@
 title: 教學課程：在 Power BI Desktop 中建立您自己的導出資料行
 description: 教學課程：在 Power BI Desktop 中建立您自己的導出資料行
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: tutorial
 ms.date: 11/26/2019
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: ef84c2e5b8fb094206199129c0f25bd5fcb219eb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565825"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413855"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的導出資料行
 
 有時，您分析中的資料並未包含需要取得結果的特定欄位。 這就是「計算結果欄」  派上用場的地方。 計算結果欄會使用「資料分析運算式」(DAX) 公式來定義資料行的值，從將來自一些不同資料行的文字值組合在一起，到從其他值計算出一個數值，都包含在內。 例如，假設您的資料具有 [城市]  和 [州別]  欄位，但您想要一個包含兩者的單一 [位置]  欄位，例如「佛羅里達州邁阿密」。 這正是計算結果欄的目的。
 
-計算結果欄與[量值](desktop-tutorial-create-measures.md)的相似之處在於兩者都是以 DAX 公式為基礎，相異之處則是兩者的使用方式不同。 您通常會在視覺效果的 [值]  區域中使用量值，以根據其他欄位計算結果。 您會在視覺效果的資料列、軸、圖例及群組區域中，使用計算結果欄作為新的**欄位**。
+計算結果欄與[量值](desktop-tutorial-create-measures.md)的相似之處在於兩者都是以 DAX 公式為基礎，相異之處則是兩者的使用方式不同。 您通常會在視覺效果的 [值]  區域中使用量值，以根據其他欄位計算結果。 您會在視覺效果的資料列、軸、圖例及群組區域中，使用計算結果欄作為新的 **欄位**。
 
 本教學課程將引導您了解計算結果欄，以及在 Power BI Desktop 中的報表視覺效果中建立和使用一些計算結果欄。
 
@@ -40,15 +40,15 @@ ms.locfileid: "83565825"
 
    ![新增資料行](media/desktop-tutorial-create-calculated-columns/create2.png)
 
-   當您選取 [新增資料行]  時，**公式列**會出現在報表畫布頂端，可供您為資料行命名及輸入 DAX 公式。
+   當您選取 [新增資料行]  時，**公式列** 會出現在報表畫布頂端，可供您為資料行命名及輸入 DAX 公式。
 
    ![公式列](media/desktop-tutorial-create-calculated-columns/create3.png)
 
-2. 新的計算結果欄名稱預設為**資料行**。 如果您未將其重新命名，則額外的新資料行將會命名為**資料行 2**、**資料行 3**，依此類推。 您會想要讓資料行更容易識別，因此當公式列中已經醒目提示**資料行**名稱時，請鍵入 **ProductFullCategory** 將其重新命名，然後鍵入一個等號 ( **=** )。
+2. 新的計算結果欄名稱預設為 **資料行**。 如果您未將其重新命名，則額外的新資料行將會命名為 **資料行 2**、**資料行 3**，依此類推。 您會想要讓資料行更容易識別，因此當公式列中已經醒目提示 **資料行** 名稱時，請鍵入 **ProductFullCategory** 將其重新命名，然後鍵入一個等號 ( **=** )。
 
 3. 您想要讓新資料行中的值以 **ProductCategory** 欄位中名稱作為開頭。 由於這個資料行在不同但相關的資料表中，因此您可以使用 [RELATED](/dax/related-function-dax) 函數來幫助您取得它。
 
-   在等號後面，輸入 **r**。 下拉式建議清單會顯示所有開頭為字母 R 的 DAX 函數。選取每個函數便會顯示其效果的描述。 在您輸入時，建議清單會調整成越來越接近您所需的函數。 選取 **RELATED**，然後按 **Enter**鍵。
+   在等號後面，輸入 **r**。 下拉式建議清單會顯示所有開頭為字母 R 的 DAX 函數。選取每個函數便會顯示其效果的描述。 在您輸入時，建議清單會調整成越來越接近您所需的函數。 選取 **RELATED**，然後按 **Enter** 鍵。
 
    ![選擇 [RELATED]](media/desktop-tutorial-create-calculated-columns/create4.png)
 
@@ -97,7 +97,7 @@ ms.locfileid: "83565825"
 
 「Contoso 銷售範例」包含營運中和非營運中商店的銷售資料。 您想要藉由建立 **Active StoreName** 欄位，確保在報表中將營運中門市銷售額與非營運中門市銷售額清楚分隔。 在新的 **Active StoreName** 計算結果欄中，每個營運中門市會以門市全名顯示，而非營運中門市銷售額則會一起分組到一個稱為 **Inactive** 的明細項目中。
 
-幸好，**Stores** 資料表有名為 **Status** 的資料行，如果門市為營運中，其值會是 "On"；如果門市為非營運中，則其值為 "Off"，我們可以使用這些值來為新的 **Active StoreName** 資料行建立值。 DAX 公式將會使用邏輯 [IF](/dax/if-function-dax) 函式來測試每個門市的**狀態**，然後根據結果傳回特定的值。 如果門市的**狀態**是 "On"，公式就會傳回門市的名稱。 如果是 "Off"，公式就會將其 **Active StoreName** 指派為 "Inactive"。
+幸好，**Stores** 資料表有名為 **Status** 的資料行，如果門市為營運中，其值會是 "On"；如果門市為非營運中，則其值為 "Off"，我們可以使用這些值來為新的 **Active StoreName** 資料行建立值。 DAX 公式將會使用邏輯 [IF](/dax/if-function-dax) 函式來測試每個門市的 **狀態**，然後根據結果傳回特定的值。 如果門市的 **狀態** 是 "On"，公式就會傳回門市的名稱。 如果是 "Off"，公式就會將其 **Active StoreName** 指派為 "Inactive"。
 
 1. 在 **Stores** 資料表中建立新的計算結果欄，並在公式列中將其命名為 **Active StoreName**。
 
@@ -105,7 +105,7 @@ ms.locfileid: "83565825"
 
     ![選取 [IF]](media/desktop-tutorial-create-calculated-columns/if1.png)
 
-3. **IF** 的第一個引數是一個了解門市**狀態**是否為 "On" 的邏輯測試。 鍵入左括弧 **[** 以列出 **Stores** 資料表中的資料行，然後選取 **[Status]** 。
+3. **IF** 的第一個引數是一個了解門市 **狀態** 是否為 "On" 的邏輯測試。 鍵入左括弧 **[** 以列出 **Stores** 資料表中的資料行，然後選取 **[Status]** 。
 
     ![選取 [Status]](media/desktop-tutorial-create-calculated-columns/if2.png)
 

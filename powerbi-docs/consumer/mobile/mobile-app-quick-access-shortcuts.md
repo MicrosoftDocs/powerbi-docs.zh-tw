@@ -2,17 +2,17 @@
 title: 在 Power BI Android 應用程式中使用 Android 應用程式捷徑
 description: 了解如何使用捷徑和 Google 搜尋來直接快速存取經常檢視的內容。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
-ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3231e896384f7d438f5448461bc4534532c04910
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229388"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414683"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>在 Power BI Android 應用程式中使用 Android 應用程式捷徑
 
@@ -22,7 +22,7 @@ ms.locfileid: "85229388"
 |:--- |:--- |
 | Android 手機 |Android 平板電腦 |
 
-適用於 Android 的 Power BI 行動裝置應用程式提供兩種簡單方式，無需瀏覽應用程式即可直接取得所需的報表或儀表板：**裝置主畫面捷徑**和**應用程式啟動器捷徑**。
+適用於 Android 的 Power BI 行動裝置應用程式提供兩種簡單方式，無需瀏覽應用程式即可直接取得所需的報表或儀表板：**裝置主畫面捷徑** 和 **應用程式啟動器捷徑**。
  * **裝置主畫面捷徑**：您可建立任何報表或儀表板的捷徑，並將其釘選到裝置的主畫面。 報表或儀表板不一定要位於其中一個工作區中，您也可以建立應用程式內的報表和儀表板捷徑，甚至是位於外部 (B2B) 租用戶的報表或儀表板。
  * **應用程式啟動器捷徑**：您可直接在裝置的主畫面上按一下應用程式啟動器圖示以開啟應用程式啟動器，直接進入經常檢視的報表和儀表板。 快速存取功能表提供三個經常檢視項目的捷徑。 這些項目會隨時變更，Power BI 行動裝置應用程式會持續追蹤經常檢視的內容，並據此變更捷徑。
 

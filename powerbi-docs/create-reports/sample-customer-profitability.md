@@ -2,19 +2,19 @@
 title: Power BI 的客戶獲利率範例：觀看導覽
 description: Power BI 的客戶獲利率範例：觀看導覽
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e1dcc202b8da269be3ee7c5ec2fea1d55381931e
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: adc642d5366949e547e0115badd5e800ffa04bb0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344633"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415097"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
 
@@ -160,7 +160,7 @@ ms.locfileid: "83344633"
 
 1. 獲利率如何依產業變化？ 如何依產業切分產品和客戶？ 若要回答這些問題，請從左上方選取一或多個產業 (從 CPG 產業開始)。 若要清除篩選，請選取橡皮擦圖示。
 
-2. 在**依產業區分的營收對預算差異 %、GM% 和今年營收**泡泡圖中，財務長會尋找最大的泡泡，因為它們對營收的影響最大。 若要輕鬆地依產業區段查看每位經理的影響力，請依序選取區域圖中的每位經理姓名來篩選頁面。
+2. 在 **依產業區分的營收對預算差異 %、GM% 和今年營收** 泡泡圖中，財務長會尋找最大的泡泡，因為它們對營收的影響最大。 若要輕鬆地依產業區段查看每位經理的影響力，請依序選取區域圖中的每位經理姓名來篩選頁面。
 
 3. 當您選取圖表中的每位經理時，請注意下列詳細資料：
    * Andrew 影響的區域遍及許多不同的產業區段，其 GM% (多為好的一面) 和差異 % 的變化也極大。
@@ -175,13 +175,13 @@ ms.locfileid: "83344633"
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>利用問與答問來提問以深入探索資料
 我們的分析可能有助於判斷哪些產業讓 Valery 產生最多收益。 讓我們使用問與答。
 
-1. 選取 [編輯報表]  以在 [編輯檢視] 中開啟報表。 只有在您擁有該報表的情況下才能使用 [編輯檢視]。 此檢視有時稱為*建立者*模式。 反之，此報表只與您共用，您無法在 [編輯檢視] 中開啟它。
+1. 選取 [編輯報表]  以在 [編輯檢視] 中開啟報表。 只有在您擁有該報表的情況下才能使用 [編輯檢視]。 此檢視有時稱為 *建立者* 模式。 反之，此報表只與您共用，您無法在 [編輯檢視] 中開啟它。
 
 2.  從儀表板頂端，選取 [詢問問題]  來開啟問與答問題方塊。
 
     ![詢問一個與資料相關的問題](media/sample-customer-profitability/power-bi-ask-question.png)
 
-3. 在問題方塊中輸入*Valery 依產業分類的總營收*。 請注意當您輸入問題時，視覺效果更新的方式。
+3. 在問題方塊中輸入 *Valery 依產業分類的總營收*。 請注意當您輸入問題時，視覺效果更新的方式。
 
     ![在問題方塊中輸入問題](media/sample-customer-profitability/power-bi-qna.png)
 
@@ -199,7 +199,7 @@ ms.locfileid: "83344633"
    ![[配銷] 的篩選條件](media/sample-customer-profitability/customer7.png)
 4. [依月份和主管區分的毛利率]  圖表告訴我們，只有 Valery 和 Tina 在此產業有客戶，且 Valery 只有在 6 月到 11 月這段時間才需要處理這項產業的業務。   
 5. 在 [依月份和主管區分的毛利率]  圖表圖例中，依序選取 [Tina]  和 [Valery]  。 請注意，和 Valery 相比，[依產品區分的總營收]  圖表的 Tina 部分真的很小。
-6. 若要查看實際營收，請選取儀表板中的 [問與答] 方塊並輸入*依主管及案例顯示配銷的總營收*。  
+6. 若要查看實際營收，請選取儀表板中的 [問與答] 方塊並輸入 *依主管及案例顯示配銷的總營收*。  
 
      ![在 [問與答] 方塊中輸入問題](media/sample-customer-profitability/power-bi-qna2.png)
 

@@ -2,18 +2,18 @@
 title: 取得 Power BI 行動裝置應用程式中的通知
 description: 通知中心會將 Power BI 體驗的相關資訊傳送到您的行動裝置上。
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: b3b447b315befef11f342f537d4ab3ad8c837f03
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 19cda3734ba56a5879dc10041d2ba9e9bdc4146e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668474"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414729"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>取得 Power BI 行動裝置應用程式中的通知
 適用於︰
@@ -23,7 +23,7 @@ ms.locfileid: "91668474"
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**使用 Windows 10 行動裝置版手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 系統會將 Power BI 體驗的相關資訊，以通知形式傳送到 Power BI 服務或您的行動裝置中。 開啟 [通知] 時，您會看到下列項目的相關訊息摘要循序排列：[您設定的警示](mobile-set-data-alerts-in-the-mobile-apps.md)、與您共用的新儀表板、群組工作區的變更、Power BI 事件及會議的相關資訊等等。
 

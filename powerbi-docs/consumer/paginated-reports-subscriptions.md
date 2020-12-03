@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/01/2020
-ms.openlocfilehash: 43b63da5a8107a2e30d729142e2d36f2a4f30c08
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: be552df28bebb5876d24da8bbecf66ea503fdb04
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286743"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415235"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的分頁報表 
 
@@ -35,7 +35,7 @@ ms.locfileid: "89286743"
 
 - 若報表作者有設定以運算式為基礎的參數 (例如預設是今天的日期)，訂閱便會使用它作為預設值。 您可以變更其他參數值並選擇使用目前的值，但除非您也明確變更該值，否則訂閱會使用以運算式為基礎的參數。
 
-- 分頁報表不具有**在資料重新整理後**頻率選項。 您將一律從基礎資料來源取得最新的值。 
+- 分頁報表不具有 **在資料重新整理後** 頻率選項。 您將一律從基礎資料來源取得最新的值。 
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -2,18 +2,18 @@
 title: 使用 PowerShell 變更資料來源連接字串
 description: 在 PowerShell 中使用 API 變更資料來源連接字串 - Power BI 報表伺服器。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: maggies
-ms.openlocfilehash: 165d38c718377ff7e47442cdf0fe67173b610bd8
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044873"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415465"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>在 PowerShell 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器
 
