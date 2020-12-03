@@ -2,18 +2,18 @@
 title: 雙向關聯性指導方針
 description: 開發雙向篩選模型關聯性的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: b9d1f71b474070c4ad035945b458b5f010f1f6e6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668612"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419191"
 ---
 # <a name="bi-directional-relationship-guidance"></a>雙向關聯性指導方針
 
@@ -91,7 +91,7 @@ ms.locfileid: "91668612"
 Total Quantity = SUM(Sales[Quantity])
 ```
 
-若要顯示 **Product** 交叉分析篩選器項目「包含資料」，只需要使用「不是空白」條件，依**總數量**量值進行篩選。
+若要顯示 **Product** 交叉分析篩選器項目「包含資料」，只需要使用「不是空白」條件，依 **總數量** 量值進行篩選。
 
 ![此圖顯示 Product 交叉分析篩選器的 Filters 窗格現在會依「總數量不是空白」進行篩選。](media/relationships-bidirectional-filtering/filter-product-slicer-measure-is-not-blank.png)
 

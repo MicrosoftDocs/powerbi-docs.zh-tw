@@ -2,18 +2,18 @@
 title: 一對一關聯性指導方針
 description: 開發一對一模型關聯性的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668405"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419145"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一對一關聯性指導方針
 
@@ -107,8 +107,8 @@ ms.locfileid: "91668405"
 
 下列步驟會展示將一對一相關的資料合併及模型化的方法：
 
-1. **合併查詢**：在[結合兩個查詢](../connect-data/desktop-shape-and-combine-data.md#combine-queries)時，請考慮每個查詢中資料的完整性。 如果某個查詢包含一組完整的資料列 (例如主要清單)，請將另一個查詢與其合併。 設定合併轉換以使用「左方外部聯結」  ，其為預設的聯結類型。 此聯結類型能確保您會保留第一個查詢的所有資料列，並以第二個查詢中任何相符的資料列來加以補充。 將第二個查詢的所有必要資料行展開至第一個查詢。
-2. **停用查詢載入**：請務必[停用第二個查詢的載入](import-modeling-data-reduction.md#disable-power-query-query-load)。 如此一來，其便不會將結果載入為模型資料表。 此設定能減少資料模型儲存體大小，並協助整理 [欄位]  窗格。
+1. **合併查詢**：在 [結合兩個查詢](../connect-data/desktop-shape-and-combine-data.md#combine-queries)時，請考慮每個查詢中資料的完整性。 如果某個查詢包含一組完整的資料列 (例如主要清單)，請將另一個查詢與其合併。 設定合併轉換以使用「左方外部聯結」  ，其為預設的聯結類型。 此聯結類型能確保您會保留第一個查詢的所有資料列，並以第二個查詢中任何相符的資料列來加以補充。 將第二個查詢的所有必要資料行展開至第一個查詢。
+2. **停用查詢載入**：請務必 [停用第二個查詢的載入](import-modeling-data-reduction.md#disable-power-query-query-load)。 如此一來，其便不會將結果載入為模型資料表。 此設定能減少資料模型儲存體大小，並協助整理 [欄位]  窗格。
 
     在我們的範例中，報表作者現在會在 [欄位]  窗格中找到名為 [Product]  \(產品\) 的單一資料表。 其包含所有產品相關欄位。
 

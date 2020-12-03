@@ -2,18 +2,18 @@
 title: 展開報表頁面之視覺效果的工具提示
 description: 使用報表頁面工具提示的指引。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 919fc9cfa2bbdb55317fed0879347c929a723ce8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277839"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419053"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>展開報表頁面之視覺效果的工具提示
 
@@ -75,7 +75,7 @@ ms.locfileid: "83277839"
 
 在報表設計階段，建議採用下列做法：
 
-- **頁面大小：** 將您的頁面工具提示設定為小型。 您可以使用內建**工具提示**選項 (320 像素寬、240 像素高)。 或者，您可以設定自訂維度。 請小心不要使用太大的頁面大小，這可能會使來源頁面上的視覺效果模糊不清。
+- **頁面大小：** 將您的頁面工具提示設定為小型。 您可以使用內建 **工具提示** 選項 (320 像素寬、240 像素高)。 或者，您可以設定自訂維度。 請小心不要使用太大的頁面大小，這可能會使來源頁面上的視覺效果模糊不清。
 - **頁面檢視：** 在報表設計師中，將頁面檢視設定為 [實際大小]  (頁面檢視預設為 [符合一頁大小]  )。 如此一來，您就可以在設計時看到頁面工具提示的實際大小。
 - **樣式：** 請考慮將頁面工具提示設計成使用與報表相同的主題和樣式。 如此一來，使用者就會覺得位於相同的報表中。 或者，為您的工具提示設計精美樣式，並請務必將此樣式套用至所有頁面工具提示。
 - **工具提示篩選：** 將篩選指派給頁面工具提示，讓您可以在設計時預覽實際的結果。 發行報表之前，請務必移除這些篩選。

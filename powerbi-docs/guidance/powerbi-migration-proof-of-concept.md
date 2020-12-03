@@ -2,22 +2,22 @@
 title: 進行概念證明以移轉到 Power BI
 description: 在移轉到 Power BI 時進行概念證明的指導方針。
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a7b7a848aafc3a581c1a19cf34366d61ba891f86
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 77174da7fd47470974a292ba98f6b50c268b04fd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803132"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419122"
 ---
-# <a name="conductproofofconcepttomigratetopowerbi"></a>進行概念證明以移轉到 Power BI
+# <a name="conduct-proof-of-concept-to-migrate-to-power-bi"></a>進行概念證明以移轉到 Power BI
 
-本文說明**階段 3**，其涉及在移轉到 Power BI 時，進行概念證明 (POC)，儘早降低風險及解決未知問題。
+本文說明 **階段 3**，其涉及在移轉到 Power BI 時，進行概念證明 (POC)，儘早降低風險及解決未知問題。
 
 :::image type="content" source="media/powerbi-migration-proof-of-concept/migrate-to-powerbi-stage-3.png" alt-text="顯示 Power BI 移轉階段的影像。本文的重點在於階段 3。":::
 
@@ -58,7 +58,7 @@ POC 範圍取決於未知之處，或必須向同事驗證哪些目標。 若要
 
 ## <a name="handle-differences-in-power-bi"></a>處理 Power BI 中的差異
 
-Power BI 可用作_模型工具_或作為_報表工具_。 模型解決方案涉及開發資料模型，而報表解決方案則會連線至已部署的資料模型。
+Power BI 可用作 _模型工具_ 或作為 _報表工具_。 模型解決方案涉及開發資料模型，而報表解決方案則會連線至已部署的資料模型。
 
 因為 Power BI 擁有極大的彈性，所以某些層面可能與您正在進行移轉的舊版 BI 平台截然不同。
 
@@ -79,7 +79,7 @@ Power BI 可用作_模型工具_或作為_報表工具_。 模型解決方案涉
 2. 舊版儀表板可以重新建立為 Power BI _儀表板_。 [儀表板](../fundamentals/service-basic-concepts.md#dashboards)是 Power BI 服務的視覺效果功能。 儀表板視覺效果通常是透過釘選一或多個報表中的視覺效果、問與答，或快速見解來建立。
 
 > [!TIP]
-> 因為儀表板是 Power BI 內容類型，所以請避免在報表或儀表板名稱中使用_儀表板_一詞。
+> 因為儀表板是 Power BI 內容類型，所以請避免在報表或儀表板名稱中使用 _儀表板_ 一詞。
 
 ### <a name="focus-on-the-big-picture-when-recreating-visuals"></a>重新建立視覺效果時，專注於整體情形
 
