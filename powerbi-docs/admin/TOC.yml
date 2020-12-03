@@ -74,6 +74,8 @@
           href: service-admin-auditing.md
         - name: 追蹤服務健康情況
           href: service-admin-health.md
+        - name: 為唯讀的管理員 API 啟用服務主體驗證
+          href: read-only-apis-service-principal-authentication.md
         - name: 關閉您的帳戶
           href: service-admin-closing-your-account.md
         - name: 使用 Azure AD B2B
