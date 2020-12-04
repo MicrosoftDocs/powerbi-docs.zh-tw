@@ -96,8 +96,6 @@
               href: /rest/api/power-bi/
         - name: Power BI 程式庫
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: 將自訂配置內嵌到應用程式中
-          href: embedded-custom-layout.md
         - name: Azure CLI
           href: /cli/azure/ext/powerbidedicated/powerbi
     - name: 資源
