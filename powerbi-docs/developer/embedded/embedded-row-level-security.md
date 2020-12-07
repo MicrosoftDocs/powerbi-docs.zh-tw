@@ -9,11 +9,11 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
 ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981727"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120789"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -38,7 +38,7 @@ ms.locfileid: "91981727"
 
 ## <a name="adding-roles-with-power-bi-desktop"></a>使用 Power BI Desktop 新增角色
 
-我們的**零售分析範例**顯示所有零售連鎖商店的銷售額。 若沒有 RLS，不論是哪位區域經理登入並檢視報表，都會看到相同的資料。 高階管理階層決定每位區域經理只能看到其所管理商店的銷售額。 使用 RLS 讓高階管理階層能夠根據區域經理限制資料。
+我們的 **零售分析範例** 顯示所有零售連鎖商店的銷售額。 若沒有 RLS，不論是哪位區域經理登入並檢視報表，都會看到相同的資料。 高階管理階層決定每位區域經理只能看到其所管理商店的銷售額。 使用 RLS 讓高階管理階層能夠根據區域經理限制資料。
 
 RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於開啟狀態時，切換至圖表檢視來查看下列結構描述：
 
@@ -60,7 +60,7 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
 1. 在 [模型] 索引標籤上，選取 [管理角色]。
 
     ![Power BI Desktop 中的 [模型] 索引標籤](media/embedded-row-level-security/powerbi-embedded-manage-roles.png)
-2. 建立稱為**經理**的新角色。
+2. 建立稱為 **經理** 的新角色。
 
     ![建立新角色](media/embedded-row-level-security/powerbi-embedded-new-role.png)
 3. 在 [區域] 資料表中，輸入此 DAX 運算式： **[區域經理] = USERNAME()** 。
@@ -88,9 +88,9 @@ API 接受表示相關資料集的身分識別清單。 您必須傳遞下列項
 
 您可以在 **PowerBIClient.Reports** 上使用 **GenerateTokenInGroup** 方法來建立內嵌權杖。
 
-例如，您可以變更 *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) \(英文\) > [.NET Framework] > [Embed for your customers] > **PowerBIEmbedded_AppOwnsData*** 範例。
+例如，您可以變更 *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) \(英文\) > [.NET Framework] > [Embed for your customers] > **PowerBIEmbedded_AppOwnsData** _ 範例。
 
-**變更前**
+_ *變更前**
 
 ```csharp
 // Generate Embed Token with effective identities.
@@ -205,7 +205,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     ![建立角色](media/embedded-row-level-security/azure-analysis-services-database-create-role.png)
 
-3. 進行 [一般] 設定。  在這裡提供**角色名稱**然後將資料庫權限設定為僅限 [讀取]。
+3. 進行 [一般] 設定。  在這裡提供 **角色名稱** 然後將資料庫權限設定為僅限 [讀取]。
 
     ![建立角色 - 進行 [一般] 設定](media/embedded-row-level-security/azure-analysis-services-database-create-role-general-settings.png)
 
@@ -239,7 +239,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 ## <a name="using-rls-vs-javascript-filters"></a>使用 RLS 與JavaScript 篩選
 
-決定篩選報表中的資料時，可使用**資料列層級安全性 (RLS)** 或 **JavaScript 篩選**。
+決定篩選報表中的資料時，可使用 **資料列層級安全性 (RLS)** 或 **JavaScript 篩選**。
 
 [資料列層級安全性](../../admin/service-admin-rls.md)是篩選位於資料模型層級之資料的功能。 您的後端資料來源會控制 RLS 的設定。 依據您的資料模型，產生內嵌權杖會為工作階段設定使用者名稱和角色。 用戶端程式碼無法將其覆寫、移除或控制，這也是人們認為 RLS 安全的原因。 我們建議使用 RLS 來安全地篩選資料。 您可以利用下列其中一種方式來使用 RLS 篩選資料。
 
@@ -251,7 +251,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 ## <a name="token-based-identity-with-azure-sql-database"></a>Azure SQL Database 的權杖型身分識別
 
-**權杖型身分識別**允許您使用 **Azure SQL Database** 的 **Azure Active Directory (AAD)** 存取權杖為內嵌權杖指定有效的身分識別。
+**權杖型身分識別** 允許您使用 **Azure SQL Database** 的 **Azure Active Directory (AAD)** 存取權杖為內嵌權杖指定有效的身分識別。
 
 在 **Azure SQL Database** 中保存其資料的客戶現在可以享受新功能，以便在與 **Power BI Embedded** 整合時管理使用者及其對 Azure SQL 中資料的存取。
 
@@ -314,19 +314,19 @@ public IdentityBlob(string value);
 身分識別 Blob 中提供的值應該是 Azure SQL Server 的有效存取權杖 (資源 URL 為 (<https://database.windows.net/>)。
 
    > [!Note]
-   > 若要能夠為 Azure SQL 建立存取權杖，應用程式必須具備**存取 Azure SQL DB 和資料倉儲**委派權限到 Azure 入口網站中 AAD 應用程式註冊設定上的 **Azure SQL Database** API。
+   > 若要能夠為 Azure SQL 建立存取權杖，應用程式必須具備 **存取 Azure SQL DB 和資料倉儲** 委派權限到 Azure 入口網站中 AAD 應用程式註冊設定上的 **Azure SQL Database** API。
 
    ![應用程式註冊](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>搭配服務主體的內部部署資料閘道
 
-使用 SQL Server Analysis Services (SSAS) 內部部署即時連線資料來源來設定資料列層級安全性 (RLS) 的客戶，可以享有新的[服務主體](embed-service-principal.md)功能，以在與 **Power BI Embedded** 整合時，管理使用者和其對 SSAS 中資料的存取。
+使用 SQL Server Analysis Services (SSAS) 內部部署即時連線資料來源來設定資料列層級安全性 (RLS) 的客戶，可以享有新的 [服務主體](embed-service-principal.md)功能，以在與 **Power BI Embedded** 整合時，管理使用者和其對 SSAS 中資料的存取。
 
 使用 [Power BI REST API](/rest/api/power-bi/)，可讓您使用[服務主體物件](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)，為內嵌權杖的 SSAS 內部部署即時連線指定有效的身分識別。
 
 直到目前為止，若要能夠為 SSAS 內部部署即時連線指定有效的身分識別，產生內嵌權杖的主使用者必須是閘道管理員。現在，不需要使用者是閘道管理員，閘道管理員即可將該資料來源的專用權限授與使用者，讓使用者可在產生內嵌權杖時，覆寫有效的身分識別。 這項新功能可讓您使用服務主體，為即時 SSAS 連線進行內嵌。
 
-若要啟用此案例，閘道管理員可以使用[新增資料來源使用者 REST API](/rest/api/power-bi/gateways/adddatasourceuser)，將 Power BI Embedded 的 *ReadOverrideEffectiveIdentity* 權限授與服務主體。
+若要啟用此案例，閘道管理員可以使用 [新增資料來源使用者 REST API](/rest/api/power-bi/gateways/adddatasourceuser)，將 Power BI Embedded 的 *ReadOverrideEffectiveIdentity* 權限授與服務主體。
 
 您無法使用系統管理入口網站設定此權限。 此權限只能使用 API 來設定。 在系統管理入口網站中，會指出具有這類權限的使用者和 SPN。
 

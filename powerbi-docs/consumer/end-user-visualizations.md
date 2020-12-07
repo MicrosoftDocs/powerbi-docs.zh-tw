@@ -2,25 +2,25 @@
 title: 以商務使用者身分使用視覺效果
 description: Power BI 概念與術語 - 視覺效果 (visualization, visual)。 什麼是 Power BI 視覺效果 (visualization, visual)。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/7/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f463e9a065ddfa550cdab6929393cfb71ce30158
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: dfa030b487e1e4d9f6f4d1bfd39cfab8baa72c71
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830274"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389176"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>在報表、儀表板和應用程式中與視覺效果互動
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-就基礎而言，「視覺效果 (visualization)」(或 *visual* )，是 Power BI「設計者」  使用報表和資料集中的資料所建立的一種圖表。 
+就基礎而言，「視覺效果 (visualization)」*_(或稱 _visual*) 是由 Power BI「設計者」使用報表和資料集中的資料建立的一種圖表。 
 
 您可以在儀表板上找到視覺效果，也可以在報表中使用 Power BI 問與答隨即建立。 當設計師在報表中建立視覺效果時，他們可以將該視覺效果「釘選」  至儀表板。 [儀表板上的視覺效果稱為「磚」  ](end-user-tiles.md)。 此儀表板有八個磚。 
 
@@ -35,7 +35,7 @@ ms.locfileid: "91830274"
 
 適用於「商務使用者」的最常見工作均列於下面的表格中，並提供逐步指示的連結。 「商務使用者」有許多選項可讓您與視覺效果互動，以發掘見解並作出資料驅動的商務決策。  
 
-針對其中許多選項，系統管理員或「設計師」  可以停用這些功能的查看或使用權限。 其中某些功能只適用於特定的視覺效果類型。  如果您有任何問題，請洽詢您的系統管理員或報表/儀表板的擁有者。 若要尋找擁有者，請選取儀表板或報表下拉式清單。 
+針對其中許多選項，系統管理員或「設計師」可以停用這些功能的查看或使用權限。 其中某些功能只適用於特定的視覺效果類型。  如果您有任何問題，請洽詢您的系統管理員或報表/儀表板的擁有者。 若要尋找擁有者，請選取儀表板或報表下拉式清單。 
 
 ![顯示擁有者的標題下拉式清單](media/end-user-visualizations/power-bi-designer.png)
 
@@ -50,12 +50,12 @@ ms.locfileid: "91830274"
 |[替自己新增視覺效果的註解，或與同事展開關於視覺效果的對話](end-user-comment.md)。     |  是       |   是      |  否  |
 |[開啟並探索要建立視覺效果的報表](end-user-tiles.md)。     |    是     |   NA      |  否 |
 |[檢視影響視覺效果的篩選條件和交叉分析篩選器清單](end-user-report-filter.md)。     |    如果您以焦點模式開啟     |   是      |  否 |
-| 使用了問與答來建立視覺效果)](end-user-q-and-a.md)。     |   是      |   NA      |  NA  |
+|[開啟並探索問與答中的視覺效果 (若「設計師」使用了問與答來建立視覺效果)](end-user-q-and-a.md)。     |   是      |   NA      |  NA  |
 |[在問與答中建立視覺效果 (其用於瀏覽而無法儲存)](end-user-q-and-a.md)。     |   可以      |   如果設計師已將問與答新增至報表      |  是  |
-|在視覺效果的資料內[要求 Power BI 替您尋找有趣的事物或趨勢](end-user-insights.md)。  這些自動產生的視覺效果稱為「見解」  。     |    是，適用於磚    |  否       | 否   |
-| 模式，一次檢視一個視覺效果](end-user-focus.md)。     | 是，適用於磚        |   是，適用於視覺效果      | NA  |
+|在視覺效果的資料內[要求 Power BI 替您尋找有趣的事物或趨勢](end-user-insights.md)。  這些自動產生的視覺效果稱為「見解」。     |    是，適用於磚    |  否       | 否   |
+|[使用「焦點」模式，一次檢視一個視覺效果](end-user-focus.md)。     | 是，適用於磚        |   是，適用於視覺效果      | NA  |
 |[查閱上次視覺效果更新的時間](end-user-fresh.md)。     |  是       |    是     | NA  |
-| 。     |   是      |  是       | 根據預設  |
+|[使用全螢幕模式模式，一次檢視一個視覺效果，並去除邊界或瀏覽窗格](end-user-focus.md)。     |   是      |  是       | 根據預設  |
 |[列印](end-user-print.md)。     |  是       |   是      | 不可以  |
 |[透過新增和修改視覺效果篩選，深入挖掘視覺效果](end-user-report-filter.md)。     |    不可以     |   是      | 否  |
 |將滑鼠暫留於視覺效果，以顯示其他詳細資料和工具提示。     |    可以     |   是      | 是  |

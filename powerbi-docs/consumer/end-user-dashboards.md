@@ -2,19 +2,19 @@
 title: 什麼是儀表板，以及如何開啟它？
 description: 儀表板是 Power BI 服務的重要功能。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/30/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2e2c4656c5436691df96b86f145e255153ff9f96
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 518310c6b4b0d45f02049c91a493b6394a4a50d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286676"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400538"
 ---
 # <a name="dashboards-for-business-users-of-the-power-bi-service"></a>適用於 Power BI 服務商務使用者的儀表板
 
@@ -22,11 +22,11 @@ ms.locfileid: "89286676"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常稱為畫布。 因為受限於一張頁面，所以設計良好的儀表板只包含故事最重要的項目。
+Power BI「儀表板」*_是使用視覺效果來訴說故事的單一頁面，通常稱為畫布。 因為受限於一張頁面，所以設計良好的儀表板只包含故事最重要的項目。
 
 ![儀表板的螢幕擷取畫面](media/end-user-dashboards/power-bi-dashboard.png)
 
-您在儀表板上看到的視覺效果稱為「磚」，且報表「設計師」釘選在儀表板上。 在大部分的情況下，選取磚會帶您前往建立視覺效果的報表頁面。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](end-user-basic-concepts.md)來打好基礎。
+您在儀表板上看到的視覺效果稱為「磚」_*，且是由報表「設計師」「釘選」到儀表板上。 在大部分的情況下，選取磚會帶您前往建立視覺效果的報表頁面。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](end-user-basic-concepts.md)來打好基礎。
 
 > [!NOTE]
 > 儀表板可以[在行動裝置上檢視及共用](mobile/mobile-apps-view-dashboard.md)。
@@ -42,8 +42,8 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 
 儀表板不只是張好看的圖，而是具有互動性，且磚會隨著基礎資料變更而更新。
 
-## <a name="dashboards-versus-reports-for-power-bi-business-users"></a>適用於 Power BI ***商務使用者***的儀表板與報告
-報表經常與儀表板相混淆，因為它們也是填滿視覺效果的畫布。 但從 Power BI *商務使用者*的觀點來看，仍有一些主要差異。
+## <a name="dashboards-versus-reports-for-power-bi-business-users_"></a>適用於 Power BI「商務使用者」*_之儀表板與報告的比較
+報表經常與儀表板相混淆，因為它們也是填滿視覺效果的畫布。 但從 Power BI「商務使用者」_*的觀點來看，仍有一些主要差異。
 
 | **功能** | **儀表板** | **報表** |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 
 
 ## <a name="dashboard-designers-and-dashboard-business-users"></a>儀表板設計師與儀表板商務使用者
-身為 Power BI ***商務使用者***，您將收到來自*設計師*的儀表板。 繼續利用下列主題深入了解儀表板：
+身為 Power BI「商務使用者」*_，您將收到來自「設計師」_*的儀表板。 繼續利用下列主題深入了解儀表板：
 
 * [檢視儀表板](end-user-dashboard-open.md)
 * 深入了解[儀表板磚](end-user-tiles.md)以及選取一個磚時會發生什麼情況。

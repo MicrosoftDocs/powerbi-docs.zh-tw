@@ -2,20 +2,20 @@
 title: 在 Power BI 服務中使用彙總 (加總、平均等等)
 description: 了解如何在 Power BI 服務中變更圖表的彙總 (加總、平均、最大值等)。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 06/16/2020
-ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 4addd87085eb4321253bcf34842ca135f536f981
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ed1d6c68549e621f42b23d05a061e7fe1c9e230
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238107"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395409"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>在 Power BI 服務中使用彙總 (加總、平均等等)
 
@@ -29,7 +29,7 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
 ## <a name="types-of-data"></a>資料類型
 
-大部分的資料集有多個資料類型。 在最基本的層級，資料會是數值或不是數值。 Power BI 可以使用總和、平均值、計數、最小值、變異數，以及更多方式來彙總數值資料。 該服務甚至可以彙總文字資料，這通常稱為「類別目錄」資料。 如果您嘗試透過將類別欄位放在僅限數值的貯體 (例如**值**或**工具提示**) 來將它彙總，Power BI 將計算每個類別的出現次數，或計算每個類別的相異出現次數。 特殊類型的資料 (例如日期) 有屬於自己的一些彙總選項：最早、最新、第一個和最後一個。
+大部分的資料集有多個資料類型。 在最基本的層級，資料會是數值或不是數值。 Power BI 可以使用總和、平均值、計數、最小值、變異數，以及更多方式來彙總數值資料。 該服務甚至可以彙總文字資料，這通常稱為「類別目錄」資料。 如果您嘗試透過將類別欄位放在僅限數值的貯體 (例如 **值** 或 **工具提示**) 來將它彙總，Power BI 將計算每個類別的出現次數，或計算每個類別的相異出現次數。 特殊類型的資料 (例如日期) 有屬於自己的一些彙總選項：最早、最新、第一個和最後一個。
 
 在下列範例中：
 
@@ -39,7 +39,7 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
    ![範例資料集的螢幕擷取畫面。](media/service-aggregates/power-bi-aggregate-chart.png)
 
-在 Power BI 中建立視覺效果時，服務會對某些類別欄位彙總數值欄位 (預設值是「總和」)。  例如，「『依產品』的銷售單位」、「『依月份』的銷售單位」和「『依業別』的製造價格」。 Power BI 會將某些數值欄位參考為**量值**。 您可以輕鬆地在 Power BI 報表編輯器中識別量值，因為 [欄位] 清單中的量值旁邊會顯示 ∑ 符號。 如需詳細資訊，請參閱[報表編輯器導覽](service-the-report-editor-take-a-tour.md)。
+在 Power BI 中建立視覺效果時，服務會對某些類別欄位彙總數值欄位 (預設值是「總和」)。  例如，「『依產品』*_的銷售單位」、「『依月份』的銷售單位」與「『依業別』的製造價格」。 Power BI 將某些數值欄位稱為_*量值**。 您可以輕鬆地在 Power BI 報表編輯器中識別量值，因為 [欄位] 清單中的量值旁邊會顯示 ∑ 符號。 如需詳細資訊，請參閱[報表編輯器導覽](service-the-report-editor-take-a-tour.md)。
 
 ![將 [欄位] 清單框起來的 Power BI 螢幕擷取畫面。](media/service-aggregates/power-bi-aggregate-fields.png)
 
@@ -154,7 +154,7 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
 答：您選取的欄位可能是多維度模型中的導出量值，或在 Excel 或 [Power BI Desktop](../transform-model/desktop-measures.md) 中建立的量值。 每個量值都有自己的硬式編碼公式。 您無法變更 Power BI 使用的彙總。 例如，如果是總和，就只能是總和。 [欄位] 清單會搭配計算機符號顯示「量值」。
 
-問：我的欄位**是**數值，為何我只能選擇 [計數] 和 [相異計數]？
+問：我的欄位 **是** 數值，為何我只能選擇 [計數] 和 [相異計數]？
 
 答 1：可能的原因是資料集擁有者「沒有」將該欄位分類為數字。 例如，如果資料集具有 [年] 欄位，則資料集擁有者可能會將值分類為文字。 Power BI 比較有可能會對 [年] 欄位進行計數 (例如 1974 年的出生人口)。 Power BI 比較不可能會對它進行加總或平均。 如果您是擁有者，則可以在 Power BI Desktop 中開啟資料集，並使用 [模型] 索引標籤來變更資料類型。
 

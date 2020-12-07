@@ -2,19 +2,19 @@
 title: 什麼是 Power BI「商務使用者」？
 description: 適用於商務使用者 (也稱為終端使用者或企業使用者) 的 Power BI 概觀。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: overview
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7616d84ca93c336e606b3a96e7a362a1b57e6a96
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 133ffefd32008a138c736094dadcfe154211e98c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982048"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391221"
 ---
 # <a name="the-power-bi-service-for-business-users"></a>適用於商務使用者的 Power BI 服務
 
@@ -28,7 +28,7 @@ ms.locfileid: "91982048"
 
 ## <a name="the-power-bi-service-for-business-users"></a>適用於「商務使用者」的 Power BI 服務
 
-Power BI 可同時讓您的工作更輕鬆且更具影響力。 所有資料都會變成圖表和圖形，以視覺效果為您呈現資料。 不再是數字和文字的冗長清單或表格，您的資料見解會很「美觀」，以彩色且吸引人之視覺效果來提供有關您資料的見解。 
+Power BI 可同時讓您的工作更輕鬆且更具影響力。 所有資料都會變成圖表和圖形，以視覺效果為您呈現資料。 您的資料見解已不再是數字與文字的冗長清單或表格，而是變得很「美觀」*_，並能以彩色且吸引人的視覺效果提供有關您資料的見解。 
 
 ![螢幕擷取畫面顯示具有各種圖表的 Power BI 報表。](media/end-user-consumer/power-bi-consumer-examples.png)
  
@@ -38,7 +38,7 @@ Power BI 可同時讓您的工作更輕鬆且更具影響力。 所有資料都�
 
 由於內容不是靜態的，因此您可以深入探索以尋找趨勢、見解與其他商業智慧。 對內容進行分析，甚至用您自己的話來詢問問題。 或者，放心讓資料為您探索有趣的見解、在資料變更時傳送警示給您，並依照您設定的排程以電子郵件傳送報表給您。 這包括您所有的資料，不論任何時候、雲端或內部部署，或是來自任何裝置。 這只是 Power BI 可以執行的作業開端。 
 
-## <a name="am-i-a-power-bi-business-user"></a>我是 Power BI「商務使用者」嗎？
+## <a name="am-i-a-power-bi-_business-user"></a>我是 Power BI「商務使用者」_*嗎？
 
 您與 Power BI 互動的方式將取決於作業角色。 身為取用者或「商務使用者」，您會收到來自同事的內容 (儀表板、報表與應用程式)。 您會在線上或行動裝置版的 Power BI (稱為 Power BI 服務) 中工作，檢視並與此內容互動，以制定商務決策。 
    

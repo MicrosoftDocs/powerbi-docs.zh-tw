@@ -2,18 +2,18 @@
 title: Power BI 行動裝置應用程式的新功能
 description: Power BI 行動裝置應用程式的新功能
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.author: painbar
-ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
-ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
+ms.date: 12/01/2020
+ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93355926"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502039"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -25,9 +25,19 @@ ms.locfileid: "93355926"
 >[!NOTE]
 >**使用 Windows 10 行動裝置版的手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日終止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
+## <a name="december-2020"></a>2020 年 12 月
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Power BI 行動版新增了深色模式 (Android)
+
+在適用於 Android 裝置的 Power BI 行動應用程式中試用新的深色模式。 在深色模式中，您將在深色背景中看到淺色文字，降低螢幕亮度，讓您能夠更輕鬆地查看內容。 您可以在應用程式外觀設定中切換主題。 [深入了解](mobile-apps-dark-mode.md)
+
+![適用於 Android 的 Power BI 行動應用程式中深色模式的螢幕擷取畫面。](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
+
+### <a name="maximize-the-view-with-full-screen-mode-ipads"></a>使用全螢幕模式將檢視放至最大 (iPad)
+我們已將新的按鈕新增至適用於 iPad 的行動應用程式，以便您移除應用程式的頁首與頁尾，讓您有最大的空間可用來檢視內容。 只需點選畫面右上角的全螢幕切換按鈕 ![全螢幕模式圖示的螢幕擷取畫面。](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) 便能在模式之間切換。
+
 ## <a name="november-2020"></a>2020 年 11 月
 ### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>使用全螢幕模式最大化檢視 (Android 平板電腦)
-我們已將新的按鈕新增至 Android 平板電腦的行動裝置應用程式，以便您移除應用程式的頁首及頁尾，讓您有最大的空間用來檢視內容。 只要點一下畫面右上角的全螢幕切換按鈕，即可切換模式。
+我們已將新的按鈕新增至 Android 平板電腦的行動裝置應用程式，以便您移除應用程式的頁首及頁尾，讓您有最大的空間用來檢視內容。 只需點選畫面右上角的全螢幕切換按鈕 ![全螢幕模式圖示的螢幕擷取畫面。](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) 便能在模式之間切換。
 
 ## <a name="october-2020"></a>2020 年 10 月
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>現在已支援自動頁面重新整理 (Windows)

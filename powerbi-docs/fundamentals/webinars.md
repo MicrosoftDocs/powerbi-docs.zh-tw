@@ -2,18 +2,18 @@
 title: Power BI 網路研討會
 description: Power BI 網路研討會
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 09/22/2020
-ms.author: kfollis
-ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.date: 12/01/2020
+ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020013"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502010"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) 是 Chauncy Freels 的合作廠商，其協助維護網路研討會清單"
@@ -22,19 +22,30 @@ ms.locfileid: "91020013"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-**利用 Power BI 快速開始運作**  
-由 Microsoft 的 Miguel Martinez 主持  
-[註冊即可在 2020 年 11 月 5 日上午 10:00 到上午 11:00 (太平洋日光節約時間) 觀看](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
-
 [來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>精選的網路研討會
 
-開始使用這些熱門的隨選網路研討會
+開始使用這些熱門的隨選網路研討會：
+
+**利用 Power BI 快速開始運作**  
+由 Microsoft 的 Miguel Martinez 主持  
+[註冊即可在 2020 年 11 月 5 日上午 10:00 到上午 11:00 (太平洋日光節約時間) 觀看](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
+**使用 Power BI 和 Microsoft Teams 驅動遠端資料文化特性**  
+由 Lukasz Pawlowski 主持  
+[立即觀看](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+
+**相得益彰：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處**  
+由 Miguel Martinez 和 Carlos Otero 主持  
+[立即觀看](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
 
 **使用 Microsoft Power BI 即時監控資料**  
 由 Miguel Martinez 和 Peter Myers 主持  
 [立即觀看](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**使用 Dremio 加快 Power BI 在 Azure Data Lake Storage 上的速度**  
+由 Chris Webb 和 Tomer Shiran 主持 [立即觀看]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us) \(英文\)
 
 **使用 Power BI 和 Snowflake 建置可調整的 BI 解決方案**  
 由 Chris Webb、Craig Collier 和 Chris Holliday 主持  

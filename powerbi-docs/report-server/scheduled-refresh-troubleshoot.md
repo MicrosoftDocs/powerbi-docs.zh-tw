@@ -2,18 +2,18 @@
 title: 針對 Power BI 報表伺服器中排程的重新整理進行疑難排解
 description: 本文會討論可用來針對 Power BI 報表伺服器中排程的重新整理之問題進行疑難排解的資源。
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
-ms.author: maggies
-ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 8cb8bf4e6d67f01f7bbdc4370d8a60691dba5a63
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861789"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418271"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>針對 Power BI 報表伺服器中排程的重新整理進行疑難排解
 本文會討論可用來針對 Power BI 報表伺服器中排程的重新整理之問題進行疑難排解的資源。
@@ -86,7 +86,7 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
    at Microsoft.PowerBI.ReportServer.WebHost.EventHandler.DataRefreshScope.<ExecuteFuncWithLogging>d__1`1.MoveNext()
 ```
 
-***成功重新整理***
+**成功重新整理* _
 
 ```
 2017-10-25 15:23:41.9370|INFO|6|Handling event with data: TimeEntered: 10/25/2017 8:23:41 PM, Type: Event, SessionId: 46d398db-0b1f-49d8-b7bd-c5461c07ec7a, EventType: DataModelRefresh
@@ -100,7 +100,7 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
 2017-10-25 15:23:51.6508|INFO|6|Processing Data Model Refresh: SessionId: 46d398db-0b1f-49d8-b7bd-c5461c07ec7a, Status: Starting Saving model to the catalog.
 ```
 
-**認證不正確**
+_ *認證不正確**
 
 ```
 2017-10-20 08:22:01.5595|INFO|302|Processing Data Model Refresh: SessionId: 22cd9ec3-b21a-4eb1-81ae-15fac8d379ea, Status: Starting Refreshing the model.
@@ -188,6 +188,6 @@ SQL Server Profiler 追蹤隨附於 [SQL Server Management Studio (SSMS) 下載]
 4. 在 [追蹤屬性]  對話方塊中，選取您想要擷取的事件，然後選取 [執行]  。
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>鎖定記憶體中的分頁 Windows 權限
-如果您發現您無法轉譯 Power BI 報表，將**鎖定記憶體中的分頁**權限指派給執行 Power BI 報表伺服器的服務帳戶，可能有幫助。 如需有關如何設定**鎖定記憶體中的分頁**的詳細資訊，請參閱[指派給 Analysis Services 服務帳戶的 Windows 權限](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)。
+如果您發現您無法轉譯 Power BI 報表，將 **鎖定記憶體中的分頁** 權限指派給執行 Power BI 報表伺服器的服務帳戶，可能有幫助。 如需有關如何設定 **鎖定記憶體中的分頁** 的詳細資訊，請參閱 [指派給 Analysis Services 服務帳戶的 Windows 權限](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

@@ -2,21 +2,21 @@
 title: Power BI 商務使用者的授權類型
 description: 了解不同授權類型及如何判斷您的授權類型。
 author: mihart
+ms.author: mihart
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 10/07/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c2a81e771e611380ef89ef15e097005d1a86e2da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 852ac027903dc974e84691dc714a7e7e220dd36d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916973"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390441"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>「商務使用者」的授權和訂閱
 
@@ -46,7 +46,7 @@ Premium 是組織所使用的訂用帳戶，可提供不同的方式來儲存內
 
 Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並不需要 Pro 授權。 內容設計師需要 Pro 授權。 設計師可以連線到資料來源、建立資料模型，然後建立封裝成工作區應用程式的報表與儀表板。 只要使用者獲指派 Power BI Premium 容量中[工作區的角色](end-user-workspaces.md)，即使沒有 Pro 授權仍然可加以存取。
 
-在那些工作區中，設計師會指派角色，例如， **檢視者** 、 **參與者** 、 **成員** 與 **系統管理員** 。 這些角色會決定每位同事能與內容互動的範圍。 如需詳細資訊，請參閱[工作區權限與角色。](end-user-workspaces.md) 
+在那些工作區中，設計師會指派角色，例如，**檢視者**、**參與者**、**成員** 與 **系統管理員**。 這些角色會決定每位同事能與內容互動的範圍。 如需詳細資訊，請參閱[工作區權限與角色。](end-user-workspaces.md) 
 
 如需 Premium 容量的詳細資訊，請參閱[什麼是 Microsoft Power BI Premium？](../admin/service-premium-what-is.md)。
 
@@ -101,9 +101,9 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 當組織購買 Premium 訂閱時，系統管理員通常會將 Pro 授權指派給會在 Premium 容量中建立及共用內容的員工。 Pro 使用者會建立[工作區](end-user-workspaces.md)，並將內容 (儀表板、報表、應用程式) 新增至那些工作區。 為讓免費使用者也能在這些工作區中共同作業，系統管理員或 Pro 使用者可以將工作區指派至「容量」。  
 
-|授權類型  |共用容量 |專用的 Premium 容量  |
+|授權類型  |共用容量 | 進階容量  |
 |---------|---------|---------|
-|**免費**     |  作為個人沙箱來使用，在其中建立您自己的內容並與該內容互動。 免費授權是試用 Power BI 服務的絕佳方式。 您無法取用他人的內容，也無法與他人共用您的內容 <sup>1</sup>     |   與指派至專用進階容量並與您共用的內容互動。 免費使用者無須擁有 Pro 帳戶，就能與 Pro 使用者共同作業。      |
+|**免費**     |  作為個人沙箱來使用，在其中建立您自己的內容並與該內容互動。 免費授權是試用 Power BI 服務的絕佳方式。 您無法取用他人的內容，也無法與他人共用您的內容 <sup>1</sup>     |   與指派至 Premium 容量並與您共用的內容互動。 免費使用者無須擁有 Pro 帳戶，就能與 Pro 使用者共同作業。      |
 |**Pro**     |  藉由建立及共用內容來和其他 Pro 使用者共同作業。        |  藉由建立及共用內容來和免費使用者與其他 Pro 使用者共同作業。       |
 
 

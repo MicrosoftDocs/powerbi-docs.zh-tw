@@ -2,20 +2,20 @@
 title: 登入和登出
 description: 了解如何在網站上登入 Power BI 服務，以及如何登出。
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 Ms.custom: css_fy20Q4
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bea5b36c98ab8a62b444bfc731b5d54df6550f0f
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 18fe7dc1c2d1b064d28e32782dc58fcbcf92341d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780421"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389613"
 ---
 # <a name="sign-in-to-power-bi-service"></a>登入 Power BI 服務
 
@@ -65,10 +65,10 @@ Power BI 服務是在瀏覽器中執行的。
 
 ![[首頁] 登陸頁面](media/end-user-sign-in/power-bi-home-new.png)
 
-如果您不想要 Power BI 開啟到 [首頁]，可以改為[設定**精選**儀表板或報表](end-user-featured.md)加以開啟。 
+如果您不想要 Power BI 開啟到 [首頁]，可以改為 [設定 **精選** 儀表板或報表](end-user-featured.md)加以開啟。 
 
 ## <a name="safely-interact-with-content"></a>安全地與內容互動
-身為「商務使用者」，其他人將與您共用內容，而您將會與該內容互動，以探索資料並制定商務決策。  在您篩選、配量、訂閱、匯出和調整大小時，請別擔心，您的工作不會影響基礎資料集或原始共用的內容 (儀表板和報表)。 Power BI 是可讓您進行探索和實驗的安全位置。 這並不表示您無法儲存變更；您可以儲存變更。 但這些變更只會影響**您**對內容的檢視。 而且還原成原始預設檢視非常簡單，只需按一下按鈕即可。
+身為「商務使用者」***_，其他人將與您共用內容，而您將會與該內容互動，以探索資料並制訂商務決策。在您篩選、配量、訂閱、匯出和調整大小時，請別擔心，您的工作不會影響基礎資料集或原始共用的內容 (儀表板和報表)。Power BI 是可讓您進行探索和實驗的安全位置。這並不表示您無法儲存變更；您可以儲存變更。但那些變更只會影響_* 您** 對內容的檢視。 而且還原成原始預設檢視非常簡單，只需按一下按鈕即可。
 
 ![[重設為預設值] 按鈕](media/end-user-sign-in/power-bi-reset.png)
 

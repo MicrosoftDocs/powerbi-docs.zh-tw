@@ -2,17 +2,17 @@
 title: 使用 Google 搜尋來尋找及存取內容
 description: 了解如何使用 Google 搜尋來尋找及存取內容。
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
-ms.openlocfilehash: cb6d2d1474ffaeddc98b5019830920f3064e3df2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2bd49b9578c8c0ba2d24bd74d77251bc663cf7fa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235139"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414614"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>使用 Google 搜尋來尋找及存取內容
 
@@ -28,7 +28,7 @@ ms.locfileid: "85235139"
 
 ## <a name="search-using-google-search"></a>使用 Google 搜尋來搜尋
 
-在 [Google 搜尋] 方塊中，使用「在 Power BI 中搜尋 &lt;搜尋項目&gt;」格式來搜尋。 例如，**在 Power BI 中搜尋銷售**。
+在 Google 搜尋方塊中，使用***在 Power BI 中搜尋 &lt;搜尋項目&gt;** _的格式來搜尋。 例如，_*在 Power BI 中搜尋銷售**。
 
 * 如果只找到了一個相符項目，則 Power BI 行動裝置應用程式會開啟s所尋找的項目。
 * 如果找到了超過一個相符項目，則 Power BI 會開啟至搜尋畫面，並根據要求進行篩選。
