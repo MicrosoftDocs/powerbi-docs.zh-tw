@@ -118,7 +118,7 @@
               href: service-premium-metrics-app.md
             - name: 在系統管理入口網站中監視容量
               href: service-admin-premium-monitor-portal.md
-            - name: 設定大型模型 (預覽)
+            - name: 設定大型資料集
               href: service-premium-large-models.md
             - name: 設定 Multi-Geo
               href: service-admin-premium-multi-geo.md
