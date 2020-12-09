@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/25/2020
+ms.date: 12/03/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 44bdb454bbe22082a20182002e817fead561d8da
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e211aded069675c02e59004631ea2264be1e0dcc
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391407"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578262"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
 
@@ -80,7 +80,7 @@ Power BI 報表會保留您所做的篩選、交叉分析篩選器、排序與�
 
 只有設計報表的人員可以為您進行這些變更。 從標頭列選取報表名稱，即可找到「設計師」的連絡資訊。
 
-![顯示連絡資訊的下拉式清單](media/end-user-change-sort/power-bi-header.png)
+![顯示連絡資訊的下拉式清單](media/end-user-change-sort/power-bi-heading.png)
 
 如果您是設計師並擁有內容的編輯權限，請閱讀 [Power BI Desktop 中的依資料行排序](../create-reports/desktop-sort-by-column.md)，以了解如何更新資料集並啟用此類型的排序。
 

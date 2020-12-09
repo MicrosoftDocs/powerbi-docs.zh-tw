@@ -8,20 +8,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/06/2020
+ms.date: 12/06/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3ecd7e5c231be74e69cb2c6074f08794beec547f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 138107761a03866e1a04f5efc1f7e40da84b9627
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398882"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781857"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 讓您最重要的儀表板和報表維持最新的狀態從沒這麼容易過。 訂閱對您來說最重要的報表頁面和儀表板，Power BI 就會以電子郵件寄送快照集到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰每天、每週，或在資料重新整理後。 您甚至可以設定特定的時間，讓 Power BI 傳送電子郵件或立即執行。  針對每個報表或儀表板，您總計可以設定最多 24 個不同的訂用帳戶。
 

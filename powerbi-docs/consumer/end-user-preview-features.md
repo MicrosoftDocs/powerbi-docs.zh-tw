@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: c650b7ea282d928af512ce7948902bc4fd72613f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3a1fa1e137cc66fad48102d60869ee8ecd0cba61
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389958"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613846"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>選擇加入 Power BI 服務預覽功能
 
@@ -24,11 +24,7 @@ ms.locfileid: "96389958"
 ## <a name="what-are-preview-features"></a>什麼是「預覽功能」  ？
 當我們改善 Power BI 服務時，會以「預覽功能」  的形式發行一些新功能。 您可以開啟或關閉預覽功能，以獲得試用機會。
 
-某些預覽功能可從 Power BI 儀表板、首頁或報表本身開啟和關閉。 [新外觀] 預覽功能可以從 [首頁]、[報表] 和 [儀表板] 上方顯示的 [Power BI] 功能表列切換為開啟或關閉。 
-
-   ![新外觀切換](./media/end-user-preview-features/power-bi-toggle.png)
-
-其他預覽功能則可從 [設定] 功能表取得。 本文說明如何透過 [設定] 功能表存取預覽功能。
+某些預覽功能可從 Power BI 儀表板、首頁或報表本身開啟和關閉。 其他預覽功能則可從 [設定] 功能表取得。 本文說明如何透過 [設定] 功能表存取預覽功能。
 
 ## <a name="find-previews-and-turn-them-on-and-off"></a>尋找預覽並將其開啟 (及關閉)
 1. 選取 Power BI 螢幕右上角的齒輪圖示以開啟 [設定] 功能表，然後選擇 [設定]。

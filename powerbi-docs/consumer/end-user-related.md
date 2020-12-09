@@ -10,18 +10,18 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/25/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 5487697196b5ab6c7132db44ba707a0c7cc708d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-B2vd4MQrz4M#t
+ms.openlocfilehash: c3672433675bd2c44de8e9005a3c46d592d51452
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389890"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781788"
 ---
 # <a name="see-related-content-in-the-power-bi-service"></a>查看 Power BI 服務中的相關內容
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 [相關內容] 窗格會顯示您的 Power BI 服務內容 (儀表板、報表及資料集) 如何互連。 [相關內容] 窗格也是用來採取動作的啟動台。 您可以從這裡執行一些動作，例如開啟儀表板、開啟報表、產生見解、在 Excel 中分析資料等。  
 

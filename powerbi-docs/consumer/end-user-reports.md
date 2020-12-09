@@ -9,18 +9,17 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 152d3ee87afe93fdfbe19060a42f013ec83f2d2a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0cf2389b9dafc19519010142079fbb15f6f21711
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389706"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781650"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yyn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI 報表是一種資料集的多角度檢視，可透過視覺效果表示該資料集不同的尋找結果和見解。  報表可以具備單一視覺效果，或是充滿視覺效果的頁面。 取決於您的作業角色，您可能會是「設計」  報表的人員。 您也可能是「取用」或使用報表的「商務使用者」。 本文適用於「商務使用者」。
 

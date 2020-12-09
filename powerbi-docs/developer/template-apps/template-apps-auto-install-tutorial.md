@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0bb2e0c249df668378d62f62184dc044d174ce81
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 0ddcf3c54a5bb3cf9259f6c0d18d0001b838df60
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550373"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577846"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>教學課程：使用 Azure 函數自動設定範本應用程式安裝
 
@@ -57,7 +57,7 @@ ms.locfileid: "95550373"
 
 * 在上述租用戶中註冊的[服務主體 (僅適用於應用程式權杖)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)。
 
-* 已備妥安裝的已參數化[範本應用程式](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview)。 建立範本應用程式的租用戶，必須是您在 Azure Active Directory (Azure AD) 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md)或[在 Power BI 中建立範本應用程式](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。
+* 已備妥安裝的已參數化[範本應用程式](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview)。 建立範本應用程式的租用戶，必須是您在 Azure Active Directory (Azure AD) 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips)或[在 Power BI 中建立範本應用程式](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。
 
 * **Power BI Pro 授權**。 如果您沒有註冊 Power BI Pro，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)再開始進行操作。
 
@@ -83,7 +83,7 @@ ms.locfileid: "95550373"
 
     您也可以按一下範本應用程式[版本管理](../../connect-data/service-template-apps-create.md#manage-the-template-app-release)中的 [取得連結]，以取得相同的連結。
 
-* 在範本應用程式資料集中定義的「參數名稱」。 參數名稱是區分大小寫的字串，且可在[定義範本應用程式的屬性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)時，從 [參數設定] 索引標籤中取得，或從 Power BI 中的資料集設定取得。
+* 在範本應用程式資料集內定義的「參數名稱」。 參數名稱是區分大小寫的字串，且可在[定義範本應用程式的屬性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)時，從 [參數設定] 索引標籤中取得，或從 Power BI 中的資料集設定取得。
 
 >[!NOTE]
 >如果範本應用程式已準備好進行安裝，則即使該範本應用程式尚未在 AppSource 上開放使用，您也可以在其中測試預先設定的安裝應用程式。 不過，若要讓租用戶以外的使用者能夠使用自動安裝應用程式來安裝範本應用程式，則必須在 [Power BI Apps 市集](https://app.powerbi.com/getdata/services)中開放使用該範本應用程式。 因此，在使用您正在建立的自動安裝應用程式來發佈範本應用程式之前，請務必先將其發佈到[合作夥伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。

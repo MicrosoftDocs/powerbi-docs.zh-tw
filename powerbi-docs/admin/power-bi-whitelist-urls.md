@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: 433b3d53ccb653e1a945a83176ab9ebc19ccac5d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1495400a59d8250f407a5f7415a550871501e4e3
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409232"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577501"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>將 Power BI URL 新增至允許清單
 [//]: # "suparnap、miwehnia 和 natham 是維護這份清單的連絡人"
@@ -76,7 +76,7 @@ Power BI 需要仰賴 Microsoft 365 驗證與身分識別區段中的必要端�
 | 2 | **選擇性：** 登入並取得內容套件的資料 | 取決於使用的內容套件 | 取決於使用的內容套件 |
 | 3 | **選擇性：** 從「OneDrive 個人」匯入檔案 | 請參閱 [OneDrive 網站的必要 URL 與連接埠](/onedrive/required-urls-and-ports) | N/A |
 | 4 | **選擇性：** 60 秒 Power BI 教學課程影片 | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
-| 5 | **選擇性：** PubNub 串流資料來源 | 請參閱 [PubNub 文件](https://support.pubnub.com/support/solutions/articles/14000043522) | N/A |
+| 5 | **選擇性：** PubNub 串流資料來源 | 請參閱 [PubNub 文件](https://support.pubnub.com/hc/en-us/categories/360004336832-PubNub-101) | N/A |
 | | | |
 
 ## <a name="dashboard-and-report-integration"></a>儀表板與報表整合

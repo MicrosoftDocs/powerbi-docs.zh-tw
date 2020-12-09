@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a5a3029a3afe3d48981338934090ad6b9719d6bb
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400124"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613411"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支援的深入解析類型
 
@@ -24,7 +24,7 @@ ms.locfileid: "96400124"
 
 若要了解如何使用見解，請參閱 [Power BI 見解](end-user-insights.md)
 
-![一組見解](media/end-user-insight-types/power-bi-insight.png)
+![一組見解](media/end-user-insight-types/power-bi-insight-line.png)
 
 ## <a name="how-does-insights-work"></a>深入解析如何運作？
 Power BI 可快速搜尋資料集的不同子集， 並在搜尋時套用一組複雜的演算法來探索潛在相關見解。 Power BI「商務使用者」可在儀表板磚上執行見解。

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: ca5db6ed7a07d5a6fb10133285378e8318527464
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 671fcbabf10666c03f39bc4582e00fa0adbdbd5e
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386084"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578352"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>自動設定範本應用程式安裝
 
@@ -55,7 +55,7 @@ ms.locfileid: "96386084"
 
 * 在上述租用戶中註冊的 **服務主體 (僅適用於應用程式權杖)** 。 如需詳細資料，請參閱[使用服務主體和應用程式祕密內嵌 Power BI 內容](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)。 請務必將應用程式註冊為 **伺服器端 Web 應用程式**。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。 在此流程中，您需要儲存「應用程式識別碼」(用戶端識別碼) 與「應用程式祕密」(用戶端祕密)，以供稍後的步驟執行。
 
-* 已備妥可供安裝的 **已參數化範本應用程式**。 建立範本應用程式的租用戶，必須是您在 Azure Active Directory (Azure AD) 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md)或[在 Power BI 中建立範本應用程式](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。 您必須記下下列範本應用程式中的資訊，以進行後續步驟：
+* 已備妥可供安裝的 **已參數化範本應用程式**。 建立範本應用程式的租用戶，必須是您在 Azure Active Directory (Azure AD) 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips)或[在 Power BI 中建立範本應用程式](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。 您必須記下下列範本應用程式中的資訊，以進行後續步驟：
      * 在建立應用程式後，於[定義範本應用程式屬性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)流程結尾安裝 URL 中顯示的「應用程式識別碼」、「套件金鑰」，以及「擁有者識別碼」。 您也可以按一下範本應用程式[版本管理](../../connect-data/service-template-apps-create.md#manage-the-template-app-release)中的 [取得連結]，以取得相同的連結。
 
     * 在範本應用程式資料集內定義的「參數名稱」。 參數名稱是區分大小寫的字串，且可在[定義範本應用程式的屬性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)時，從 [參數設定] 索引標籤中取得，或從 Power BI 中的資料集設定取得。

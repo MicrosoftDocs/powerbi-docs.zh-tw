@@ -7,21 +7,20 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/03/2020
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3cf504d1df824840f8f3af134ac3e6e3cd8a3fca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ed9e7f826c8b5e75e1192c16dc72315cf32c1b9a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391545"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578306"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 的應用程式
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 ## <a name="what-is-a-power-bi-app"></a>什麼是 Power BI 應用程式？
 「應用程式」是將相關儀表板和報表全都結合到同一處的 Power BI 內容類型。 應用程式可以有一或多個儀表板和一或多個報表，所有儀表板和報表都會組合在一起。 應用程式是由散佈並與同事共用應用程式的 Power BI「設計師」所建立。 「設計師」有多種不同的方式可以共用應用程式。 若要深入了解，請參閱下面的 **取得新的應用程式** 一節。 

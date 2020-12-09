@@ -7,24 +7,23 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/06/2020
+ms.date: 12/06/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 67291ca77b161fab289ee0520287d832cce838f8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 36b1ad58b1ee93f0876de8bf7f7ed7331671abfd
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389498"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781882"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 圖格是您的資料快照集，由「設計師」釘選到儀表板。 「設計師」  可以從報表、資料集、儀表板、問與答問題方塊、Excel 和 SQL Server Reporting Services (SSRS) 等項目來建立磚。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
 
-![Power BI 儀表板](./media/end-user-tiles/power-bi-dash.png)
+![Power BI 儀表板](./media/end-user-tiles/power-bi-dashboard.png)
 
 
 除了從報表中釘選的圖格，*設計工具* 也可以使用 [新增圖格]  直接在儀表板上新增獨立圖格。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。

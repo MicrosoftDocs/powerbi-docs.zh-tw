@@ -8,20 +8,19 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/28/2020
+ms.date: 12/03/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: 13d8eda142896b406269f940823e702b2ca7cb3e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391016"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578101"
 ---
 # <a name="export-data-from-a-visual"></a>匯出視覺效果的資料
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 若要查看用來建立視覺效果的資料，[您可在 Power BI 中顯示該資料](end-user-show-data.md)或將其匯出至 Excel。 匯出資料的選項需要特定類型或授權，以及內容的編輯權限。 如果無法匯出，請連絡 Power BI 系統管理員或 IT 技術支援中心。 
 
@@ -33,7 +32,7 @@ ms.locfileid: "96391016"
 1. 從 Power BI 儀表板上開始。 在這裡，我們使用來自 ***行銷與銷售範例** _應用程式的儀表板。 您可以[從 AppSource.com 下載此應用程式](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 )。
 
-    ![應用程式儀表板](media/end-user-export/power-bi-dashboards.png)
+    ![應用程式儀表板](media/end-user-export/power-bi-dashboard.png)
 
 2. 將滑鼠暫留在視覺效果上方以顯示_ [更多選項]* (...)，然後按一下以顯示動作功能表。
 

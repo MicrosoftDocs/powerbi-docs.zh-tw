@@ -8,20 +8,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 12/06/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: b2fac346b9c75df8b3a6b8faa1f158745ff307a7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2d92e49c09b5b542376cd00c410420b30b835644
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399112"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781834"
 ---
 # <a name="navigation-for-power-bi-business-users-global-search"></a>適用於 Power BI 商務使用者的瀏覽：全域搜尋
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 
 開始使用 Power BI 服務時，您只會有一些內容 (儀表板、報表、應用程式)。 但當同事開始與您共用內容，而您開始下載應用程式時，您可能就會有多內容。 這就是您發現搜尋和排序非常有幫助的時候了。

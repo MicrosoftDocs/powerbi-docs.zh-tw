@@ -8,20 +8,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/05/2020
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: be3ed6d8a836b626ba26e5e9acce7f0f2df3c6ea
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 369eb05795262ad628b9dd89c23ac59269e6f6c3
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391982"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577593"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>教學課程：設定 Power BI 儀表板的警示
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 在 Power BI 服務中設定警示，以便在儀表板上的資料變更超出或低於您設定的限制時通知您。 只可在從報表視覺效果釘選的磚上，為量測計、KPI 和卡片設定警示。 
 

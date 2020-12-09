@@ -8,20 +8,21 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/03/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-dtdLul6otYE
+ms.openlocfilehash: 611fe62486fbe376bdf1c44aa7ab4d18a7ae5c65
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400446"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613597"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>顯示更詳細的內容：焦點模式與全螢幕模式
 
 [!INCLUDE [consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +42,7 @@ ms.locfileid: "96400446"
 
 ## <a name="when-to-use-full-screen-mode"></a>使用全螢幕模式的時機
 
-![儀表板的全螢幕模式使用前和使用後](media/end-user-focus/power-bi-dashboards-focus.png)
+![儀表板的全螢幕模式使用前和使用後](media/end-user-focus/power-bi-dashboard-focus.png)
 
 顯示您 Power BI 服務的內容 (儀表板、報表頁面及視覺效果) 而不受功能表和功能窗格所干擾。  您可隨時取得內容的完整檢視，而不含其他無關項目。 這有時稱為電視模式。   
 
@@ -58,7 +59,7 @@ ms.locfileid: "96400446"
 
 「焦點」*_模式可讓您展開 (彈出) 視覺效果或磚，以查看更多詳細資料。  您的儀表板或報表可能有點擁擠，而您只想放大其中一個視覺效果。  此時非常適合使用焦點模式。  
 
-![使用前和使用後的儀表板磚焦點模式](media/end-user-focus/power-bi-compare-dash.png)
+![使用前和使用後的儀表板磚焦點模式](media/end-user-focus/power-bi-compare.png)
 
 使用焦點模式時，Power BI「商務使用者」_*可與建立此視覺效果時所套用的任何篩選進行互動。  在 Power BI 服務中，您可以在儀表板磚或報表視覺效果上使用焦點模式。
 

@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 11/13/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9df90a41143ddb6d0657aa0d61dc83f25ecbae1a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390602"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578034"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>尋找您的儀表板、報表和應用程式
 
@@ -42,13 +42,13 @@ Power BI [首頁] 提供三種不同方式來尋找及檢視您的內容。 這�
 ## <a name="home-canvas"></a>[首頁] 畫布
 在 [首頁] 畫布中，您可以檢視您有權使用的所有內容。 您的 [首頁] 畫布也會以建議的內容和學習資源進行更新。 一開始，您的 [首頁] 畫布上可能不會有很多內容，但當您開始與同事一同使用 Power BI 之後，該情況就會改變。
 
-![新 Power BI 服務使用者之歡迎畫面的螢幕擷取畫面。](media/end-user-home/power-bi-home-new-user.png)
+![新 Power BI 服務使用者之歡迎畫面的螢幕擷取畫面。](media/end-user-home/power-bi-home-new-users.png)
 
 
  
 當您在 Power BI 服務中工作時，您會收到來自同事的儀表板、報表與應用程式，最終會填滿您的 Power BI 首頁。 經過一段時間之後，這看起來可能像下面這樣。
 
-![歡迎使用 Power BI 服務畫面的螢幕擷取畫面。](media/end-user-home/power-bi-experienced-user.png)
+![歡迎使用 Power BI 服務畫面的螢幕擷取畫面。](media/end-user-home/power-bi-experienced-users.png)
 
  
 接下來的幾個主題將會以從上到下的方式，進一步探討較有經驗之使用者的 [首頁]。

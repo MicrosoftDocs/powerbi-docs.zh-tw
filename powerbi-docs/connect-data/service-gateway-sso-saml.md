@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/22/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1879dbd53f08b3dff7dac2f4050be078ed44ead8
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 0f971013d5f57174a26d92281cafe673f1487329
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502002"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577547"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的 SSO，使用安全性聲明標記語言 (SAML)
 
@@ -22,7 +22,7 @@ ms.locfileid: "92502002"
 
 ## <a name="supported-data-sources"></a>支援的資料來源
 
-我們目前支援使用 SAML 的 SAP HANA。 如需使用 SAML 來安裝和設定 SAP HANA 單一登入的詳細資訊，請參閱[從 BI 平台到 HANA 的 SAML SSO](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA)。
+我們目前支援使用 SAML 的 SAP HANA。 如需使用 SAML 來安裝和設定 SAP HANA 單一登入的詳細資訊，請參閱[從 BI 平台到 HANA 的 SAML SSO](https://blogs.sap.com/2020/03/22/sap-bi-platform-saml-sso-to-hana-database/)。
 
 我們使用 [Kerberos](service-gateway-sso-kerberos.md) 支援其他資料來源 (包含 SAP HANA)。
 
@@ -49,7 +49,7 @@ ms.locfileid: "92502002"
    ```
 
     您必須記住複雜密碼，才能使用此憑證來簽署其他憑證。
-    您應該會看到所要建立的 *CA_Cert.pem* 和 *CA_Key.pem* 。
+    您應該會看到所要建立的 *CA_Cert.pem* 和 *CA_Key.pem*。
 
    
 3. 執行下列命令來建立 IdP 憑證：
@@ -57,15 +57,15 @@ ms.locfileid: "92502002"
     ```
     openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
     ```
-    您應該會看到所要建立的 *IdP_Key.pem* 和 *IdP_Req.pem* 。
+    您應該會看到所要建立的 *IdP_Key.pem* 和 *IdP_Req.pem*。
 
 4. 使用根憑證簽署 IdP 憑證：
 
     ```
     openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
     ```
-    您應該會看到所要建立的 *CA_Cert.srl* 和 *IdP_Cert.pem* 。
-    我們只關心 *IdP_Cert.pem* 。    
+    您應該會看到所要建立的 *CA_Cert.srl* 和 *IdP_Cert.pem*。
+    我們只關心 *IdP_Cert.pem*。    
 
 ### <a name="create-saml-identity-provider-certificate-mapping"></a>建立 SAML 識別提供者憑證對應
 
@@ -76,7 +76,7 @@ ms.locfileid: "92502002"
 
     ![選取 SAP 密碼編譯程式庫](media/service-gateway-sso-saml/service-gateway-sso-saml-01.png)
 
-3. 按一下藍色的匯入按鈕 (如下圖所示)，以匯入已簽署的憑證 *IdP_Cert.pem* 。
+3. 按一下藍色的匯入按鈕 (如下圖所示)，以匯入已簽署的憑證 *IdP_Cert.pem*。
 
     ![選取藍色的匯入按鈕](media/service-gateway-sso-saml/service-gateway-sso-saml-02.png)
 
@@ -147,7 +147,7 @@ ms.locfileid: "92502002"
 
     ![設定 SAML 身分識別視窗](media/service-gateway-sso-saml/service-gateway-sso-saml-05.png)
 
-    若您設定閘道使用 *ADUserNameReplacementProperty* 設定選項，則請輸入將取代 Power BI 使用者原始 UPN 的值。 例如，若將 *ADUserNameReplacementProperty* 設為 *SAMAccountName* ，則請輸入使用者的 *SAMAccountName* 。
+    若您設定閘道使用 *ADUserNameReplacementProperty* 設定選項，則請輸入將取代 Power BI 使用者原始 UPN 的值。 例如，若將 *ADUserNameReplacementProperty* 設為 *SAMAccountName*，則請輸入使用者的 *SAMAccountName*。
 
 ### <a name="configure-the-gateway"></a>設定閘道
 
@@ -161,7 +161,7 @@ ms.locfileid: "92502002"
 
 2. 將 pfx 檔案複製到閘道電腦：
 
-    1. 按兩下 *samltest.pfx* ，然後選取 [本機電腦] > [下一步]。
+    1. 按兩下 *samltest.pfx*，然後選取 [本機電腦] > [下一步]。
 
     2. 輸入密碼，然後選取 [下一步]。
 
@@ -187,11 +187,11 @@ ms.locfileid: "92502002"
 
     5. 依序展開 [憑證] > [個人] > [憑證]，並尋找憑證。
 
-    6. 以滑鼠右鍵按一下憑證，並巡覽至 [所有工作] **[管理私用金鑰]** &gt; 。
+    6. 以滑鼠右鍵按一下憑證，並巡覽至 [所有工作]**[管理私用金鑰]** &gt; 。
 
         ![管理私用金鑰](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. 將閘道服務帳戶新增至清單。 根據預設，此帳戶是 **NT SERVICE\PBIEgwService** 。 您可以藉由執行  並尋找 **內部部署資料閘道服務** ，來了解哪個帳戶正在執行閘道服務。
+    1. 將閘道服務帳戶新增至清單。 根據預設，此帳戶是 **NT SERVICE\PBIEgwService**。 您可以藉由執行  並尋找 **內部部署資料閘道服務**，來了解哪個帳戶正在執行閘道服務。
 
         ![閘道器服務](media/service-gateway-sso-saml/gateway-service.png)
 
@@ -205,9 +205,9 @@ ms.locfileid: "92502002"
 
 2. 複製您所建立憑證的指紋。
 
-3. 巡覽至閘道目錄，其預設為 *C:\Program Files\On-premises data gateway* 。
+3. 巡覽至閘道目錄，其預設為 *C:\Program Files\On-premises data gateway*。
 
-4. 開啟 *PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* ，並尋找 *SapHanaSAMLCertThumbprint* 區段。 貼上您複製的指紋。
+4. 開啟 *PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*，並尋找 *SapHanaSAMLCertThumbprint* 區段。 貼上您複製的指紋。
 
 5. 重新啟動閘道服務。
 
@@ -233,7 +233,7 @@ ms.locfileid: "92502002"
 
 1. 在 HANA Studio 中，開啟管理主控台並選取 [診斷檔案] 索引標籤。
 
-1. 開啟最近的索引伺服器追蹤，然後搜尋 *SAMLAuthenticator.cpp* 。
+1. 開啟最近的索引伺服器追蹤，然後搜尋 *SAMLAuthenticator.cpp*。
 
     您應該會看到指出根本原因的詳細錯誤訊息，例如：
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 322ad95c561be6ca4c6a89df08404137545c1756
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a4c652a0728dcecde960e8faba2070fc5a2b14e4
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401964"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577386"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
 搭配即時串流的 Power BI 可讓您即時串流資料及更新儀表板。 在 Power BI 中建立的任何視覺效果或儀表板，都能顯示及更新即時資料和視覺效果。 串流資料的裝置與來源可以是工廠感應器、社交媒體來源、服務使用計量，或任何其他時效性資料收集器或傳送器。
@@ -52,7 +52,7 @@ ms.locfileid: "96401964"
 實際上，串流資料集和其隨附的串流視覺效果最適合使用的情況為，必須在推送與視覺化資料時將兩者之間的延遲降到最低。 此外，最佳做法是讓資料以可以依現狀視覺化的格式推送，而不需要任何額外的彙總。 依現狀即已就緒的資料範例包括溫度，以及預先計算出的平均值。
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub 串流資料集
-使用 **PubNub** 串流資料集，Power BI Web 用戶端會使用 PubNub SDK 讀取現有的 PubNub 資料流。 Power BI 服務不會儲存任何資料。 因為此呼叫是直接從 Web 用戶端進行的，所以如果只允許來自網路且經過核准的輸出流量，則必須將流向 PubNub 的流量列為允許。 請參閱支援文章中[核准 PubNub 輸出流量](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)的相關說明。
+使用 **PubNub** 串流資料集，Power BI Web 用戶端會使用 PubNub SDK 讀取現有的 PubNub 資料流。 Power BI 服務不會儲存任何資料。 因為此呼叫是直接從 Web 用戶端進行的，所以如果只允許來自網路且經過核准的輸出流量，則必須將流向 PubNub 的流量列為允許。 請參閱支援文章中[核准 PubNub 輸出流量](https://support.pubnub.com/hc/en-us/articles/360051496672-Can-I-whitelist-IPs-for-PubNub-traffic-)的相關說明。
 
 如同 **串流資料集**，**PubNub 串流資料集** 在 Power BI 沒有基礎資料庫，因此無法對流入的資料建立報表視覺效果，且無法利用報表功能，例如篩選、Power BI 視覺效果等。 這麼一來，**PubNub 串流資料集** 也只能藉由新增磚至儀表板，並設定 PubNub 資料流作為來源的方式來進行視覺化。
 
