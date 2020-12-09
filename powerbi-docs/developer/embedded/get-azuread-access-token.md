@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396694"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906926"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>取得 Power BI 應用程式的 Azure AD 存取權杖
 
 本文說明如何在 Power BI 應用程式中驗證使用者，以及如何擷取存取權杖以與 [Power BI REST API](/rest/api/power-bi/) 搭配使用。
 
-您必須先取得 Azure Active Directory (Azure AD) **驗證存取權杖** ，才能呼叫 REST API。 應用程式可使用權杖來存取 Power BI 儀表板、磚和報表。 若要深入了解，請參閱[使用 OAuth 2.0 授權碼授與流程，授權存取 Azure Active Directory Web 應用程式](/azure/active-directory/develop/v1-protocols-oauth-code)。
+您必須先取得 Azure Active Directory (Azure AD) **驗證存取權杖**，才能呼叫 REST API。 應用程式可使用權杖來存取 Power BI 儀表板、磚和報表。 若要深入了解，請參閱[使用 OAuth 2.0 授權碼授與流程，授權存取 Azure Active Directory Web 應用程式](/azure/active-directory/develop/v1-protocols-oauth-code)。
 
 根據您內嵌內容的方式，擷取的存取權杖會有所不同。 本文說明兩種不同的方法。
 
@@ -29,7 +29,7 @@ ms.locfileid: "94396694"
 
 ### <a name="get-an-azure-ad-authorization-code"></a>取得 Azure AD 授權碼
 
-取得 **存取權杖** 的第一個步驟，是從 **Azure AD** 取得授權碼。 請利用下列屬性建構查詢字串，並重新導向至 **Azure AD** 。
+取得 **存取權杖** 的第一個步驟，是從 **Azure AD** 取得授權碼。 請利用下列屬性建構查詢字串，並重新導向至 **Azure AD**。
 
 #### <a name="authorization-code-query-string"></a>授權碼查詢字串
 
@@ -53,7 +53,7 @@ var @params = new NameValueCollection
 };
 ```
 
-建構查詢字串之後，請重新導向至 **Azure AD** 以取得 **授權碼** 。  以下是用於建構 **授權碼** 查詢字串和重新導向至 **Azure AD** 的完整 C# 方法。 然後，請使用 **授權碼** 以取得 **存取權杖** 。
+建構查詢字串之後，請重新導向至 **Azure AD** 以取得 **授權碼**。  以下是用於建構 **授權碼** 查詢字串和重新導向至 **Azure AD** 的完整 C# 方法。 然後，請使用 **授權碼** 以取得 **存取權杖**。
 
 在 redirect.aspx.cs 內，呼叫 [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 來產生權杖。
 
@@ -206,6 +206,6 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 ## <a name="next-steps"></a>後續步驟
 
-取得存取權杖後，即可呼叫 Power BI REST API 以內嵌內容。 如需詳細資訊，請參閱[如何內嵌 Power BI 內容](embed-sample-for-customers.md#embed-content-within-your-application)。
+取得存取權杖後，即可呼叫 Power BI REST API 以內嵌內容。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

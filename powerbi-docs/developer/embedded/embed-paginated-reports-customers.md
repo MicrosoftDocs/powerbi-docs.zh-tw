@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 02d73a2eb36636091ff6059fd6543bb950082c2a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668388"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907294"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式
 
@@ -40,7 +40,7 @@ ms.locfileid: "94668388"
 
 > [!IMPORTANT]
 > * 您必須使用 **服務主體**。 不支援主要使用者。
->* 不支援 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md)。 您可以使用 PPU 來搭配解決方案進行實驗，但您將無法[移至實際執行環境](embed-sample-for-customers.md#move-to-production)。
+>* 不支援 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md)。 您可以使用 PPU 來搭配解決方案進行實驗，但您將無法[移至實際執行環境](move-to-production.md)。
 > * 不支援需要單一登入 (SSO) 的資料來源。 如需支援的資料集和驗證方法清單，請參閱 [Power BI 編頁報表支援的資料來源](../../paginated-reports/paginated-reports-data-sources.md)。 
 > * 不支援將 Power BI 資料集作為[資料來源](../../connect-data/service-get-data.md)。
 
@@ -184,7 +184,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ### <a name="tenant"></a>租用戶
 
-在 **tenant** 資訊中，填入您的 azure 租用戶識別碼。 您可以在登入 Power BI 服務時從 [Azure AD 系統管理中心](/onedrive/find-your-office-365-tenant-id)，或使用 Powershell 取得此資訊。
+在 **租用戶** 資訊中，填入您的 Azure 租用戶識別碼。 您可以在登入 Power BI 服務時從 [Azure AD 系統管理中心](/onedrive/find-your-office-365-tenant-id)，或使用 Powershell 取得此資訊。
 
 ### <a name="run-the-application"></a>執行應用程式
 

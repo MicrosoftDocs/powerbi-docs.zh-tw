@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: ed8f44e7dd1a7e713a9b2bd75dc33f259cb52f2a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 377f509248dbd2368b74bb9645f001ff7c6a97c0
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916329"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907271"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 內嵌式分析管理多租用戶
 
@@ -32,7 +32,7 @@ ms.locfileid: "92916329"
 
 **AAD 應用程式** - AAD 中的應用程式識別。 需要 AAD 應用程式才可驗證。
 
-**SaaS 應用程式 (軟體即服務)**  - 由企業或 ISV 實作的系統，通常是一種線上服務。 它還是為多個客戶租用戶 (組織) 提供服務的相關軟體系統。 在本文中， **SaaS 應用程式使用 Power BI Embedded 為其不同的租用戶提供分析** 。 Power BI Embedded 在具有線上連線時也適用於所有類型的應用程式。
+**SaaS 應用程式 (軟體即服務)**  - 由企業或 ISV 實作的系統，通常是一種線上服務。 它還是為多個客戶租用戶 (組織) 提供服務的相關軟體系統。 在本文中，**SaaS 應用程式使用 Power BI Embedded 為其不同的租用戶提供分析**。 Power BI Embedded 在具有線上連線時也適用於所有類型的應用程式。
 
 **租用戶** - 使用 SaaS 應用程式的單一客戶 (組織) 以及客戶為 SaaS 應用程式帶來的任何資源或資料。
 
@@ -104,7 +104,7 @@ Power BI Embedded 支援多地理位置部署 (預覽功能)。 [Multi-Geo](embe
 
 ### <a name="cost"></a>成本
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) 具有以資源為基礎的購買模型，像是 **Power BI Premium** 。 您購買一或多個具有固定運算能力和記憶體的容量。 使用 **Power BI Embedded** 時，此容量是主要成本項目。 使用容量的使用者數目沒有限制。 唯一的限制是容量的效能。 每個 [主要](../../admin/service-admin-licensing-organization.md)使用者或需要存取 Power BI 入口網站的特定使用者都需要 *Power BI Pro 授權* 。
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) 具有以資源為基礎的購買模型，像是 **Power BI Premium**。 您購買一或多個具有固定運算能力和記憶體的容量。 使用 **Power BI Embedded** 時，此容量是主要成本項目。 使用容量的使用者數目沒有限制。 唯一的限制是容量的效能。 每個 [主要](../../admin/service-admin-licensing-organization.md)使用者或需要存取 Power BI 入口網站的特定使用者都需要 *Power BI Pro 授權*。
 
 我們建議您透過模擬實際環境和使用方式來測試和測量容量的預期負載，並對容量進行負載測試。 您可以使用 Azure 容量或[進階容量計量應用程式](../../admin/service-admin-premium-monitor-capacity.md)中提供的各種計量來測量負載和效能。
 
@@ -163,7 +163,7 @@ SaaS 應用程式有兩種方法，讓使用者能夠編輯和建立報告，或
 
 ### <a name="cost"></a>成本
 
-使用 Power BI Embedded 的應用程序開發人員需要[購買Power BI Embedded容量才能投入生產](embed-sample-for-customers.md#move-to-production)。  請務必了解以工作區為基礎的隔離模型所造成影響為何，以及其對容量的影響。
+使用 Power BI Embedded 的應用程序開發人員需要[購買Power BI Embedded容量才能投入生產](move-to-production.md)。  請務必了解以工作區為基礎的隔離模型所造成影響為何，以及其對容量的影響。
 
 以工作區為基礎的隔離模型與容量相當，原因如下：
 

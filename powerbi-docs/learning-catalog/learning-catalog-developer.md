@@ -6,12 +6,12 @@ ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.openlocfilehash: 01aa3579fd837b36562dbed27f557d5efdf07c20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: de460437225dd32c0e6db673a06006a711feb413
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414821"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906743"
 ---
 # <a name="developer-learning-catalog"></a>開發人員學習目錄
 
@@ -31,7 +31,7 @@ ms.locfileid: "96414821"
 | [在 20 分鐘內深入了解 Power BI Embedded](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 此網路研討會旨在介紹 Power BI Embedded。 此網路研討會結束時，使用者應該能夠了解什麼是 Power BI Embedded，後續的步驟是開始使用產品，以及在何處可以取得說明/資源。 | Webinar       |                |
 | [使用 Power BI 內嵌進行開發 (由 Ted Pattison 主持)– 2018 年 4 月更新](https://www.youtube.com/watch?v=swnGlrRy588) (英文)  | 在這個以開發人員為導向的網路研討會中，Ted Pattison 將討論 Power BI 內嵌平台的最新增強功能，以及 ISV 和企業開發人員運用這些功能的方式。 | YouTube 影片 | 59 分鐘 49 秒  |
 | [Power BI 內嵌第 2 版 – 完整案例](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527) (英文)    | 關鍵路徑訓練的 Power BI MVP Ted Pattison 於 2017 年 8 月 10 日舉辦了網路研討會。 此網路研討會涵蓋如何使用透過 Power BI Premium 提供的新 Power BI 內嵌功能進行開發。  | Webinar       | 1 小時 7 分鐘 23 秒 |
-| [教學課程：為您的客戶，將 Power BI 內容內嵌至應用程式](../developer/embedded/embed-sample-for-customers.md#set-up-your-embedded-analytics-development-environment) | 使用 Azure 中 Power BI Embedded 或內嵌在 Office 的 Power BI，可使用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。  | 文件 |                |
+| [教學課程：為您的客戶，將 Power BI 內容內嵌至應用程式](../developer/embedded/embed-sample-for-customers.md) | 使用 Azure 中 Power BI Embedded 或內嵌在 Office 的 Power BI，可使用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。  | 文件 |                |
 | [在 20 分鐘內深入了解 Power BI Embedded](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 此網路研討會旨在介紹 Power BI Embedded。 此網路研討會結束時，使用者應該能夠了解什麼是 Power BI Embedded，後續的步驟是開始使用產品，以及在何處可以取得說明/資源。 | Webinar       |                |
 ## <a name="dax"></a>DAX<a name="dax"></a>
 | 內容 | 描述 | 格式  | 長度      |

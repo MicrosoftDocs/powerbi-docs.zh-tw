@@ -7,16 +7,16 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: ba63b8be32600428075b9304a5a29fef62a9d6c8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b386800c37f80e7b33dc55bb691eed6606c04a1
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236837"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906787"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>使用動態繫結連接報表與資料集 
 
-當報表連接到資料集時，您可以使用動態繫結。 報表與資料集之間的連接稱為*繫結*。 當繫結在內嵌時決定 (而非預先決定) 時，該繫結即稱為動態繫結。
+當報表連接到資料集時，您可以使用動態繫結。 報表與資料集之間的連接稱為 *繫結*。 當繫結在內嵌時決定 (而非預先決定) 時，該繫結即稱為動態繫結。
 
 當使用「動態繫結」內嵌 Power BI 報表時，可以透過使用者的認證，將同一份報表連接到不同的資料集。
 
@@ -24,7 +24,7 @@ ms.locfileid: "85236837"
 
 報表和資料集不需要位於相同的工作區。 這兩個工作區 (一個包含報表，一個包含資料集) 必須指派給[容量](azure-pbie-create-capacity.md)。
 
-請在內嵌時，確定您*具備足夠的權限產生權杖*，而且能*調整設定物件*。
+請在內嵌時，確定您 *具備足夠的權限產生權杖*，而且能 *調整設定物件*。
 
 ## <a name="generating-a-token-with-sufficient-permissions"></a>具備足夠的權限產生權杖
 
@@ -33,7 +33,7 @@ ms.locfileid: "85236837"
 |案例  |資料擁有權  |權杖  |需求  |
 |---------|---------|---------|---------|
 |針對組織進行內嵌    |使用者擁有資料         |Power BI 使用者的存取權杖         |其 Azure AD 權杖經使用的使用者，必須具有所有成品的適當權限。         |
-|針對客戶進行內嵌     |應用程式擁有資料         |非 Power BI 使用者的存取權杖         |必須同時包含報表和動態繫結資料集的權限。 使用[可以為多個項目產生內嵌權杖的 API](embed-sample-for-customers.md#multiEmbedToken) 來產生可以支援多項成品的內嵌權杖。         |
+|針對客戶進行內嵌     |應用程式擁有資料         |非 Power BI 使用者的存取權杖         |必須同時包含報表和動態繫結資料集的權限。 使用[可以為多個項目產生內嵌權杖的 API](/rest/api/power-bi/embedtoken/generatetoken) 來產生可以支援多項成品的內嵌權杖。         |
 
 ## <a name="adjusting-the-config-object"></a>調整設定物件
 將 `datasetBinding` 新增至設定物件。 請參考下列範例。
