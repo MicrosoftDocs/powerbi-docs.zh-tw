@@ -48,6 +48,8 @@
           href: embed-service-principal.md
         - name: 使用服務主體與憑證進行內嵌
           href: embed-service-principal-certificate.md
+        - name: 將內嵌應用程式移至生產環境
+          href: move-to-production.md
         - name: 從應用程式內嵌
           href: embed-from-apps.md
         - name: 將報告匯出至檔案
