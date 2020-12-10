@@ -51,6 +51,8 @@
           href: dataflows/dataflows-premium-features.md
         - name: 搭配資料流程使用 Machine Learning 與認知服務
           href: dataflows/dataflows-machine-learning-integration.md
+        - name: 資料流程最佳做法
+          href: ./dataflows/dataflows-best-practices.md
         - name: 資料流程限制與考量
           href: dataflows/dataflows-features-limitations.md
     - name: 操作指南
@@ -95,44 +97,6 @@
               href: desktop-import-and-display-kpis.md
             - name: 套用自動日期/時間
               href: desktop-auto-date-time.md
-        - name: 自助資料準備
-          items:
-            - name: 建立及使用資料流程
-              href: ./dataflows/dataflows-create.md
-            - name: 資料流程最佳做法
-              href: ./dataflows/dataflows-best-practices.md
-            - name: 在 Power BI 中使用資料流程的 DirectQuery 功能 (預覽)
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 將增強型計算引擎與資料流程搭配使用
-              href: ./dataflows/dataflows-premium-features.md
-            - name: 使用 Power BI Premium 的計算實體
-              href: ./dataflows/dataflows-premium-features.md
-            - name: 透過資料流程連線到資料來源
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 搭配內部部署資料來源使用資料流程
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 在資料流程之間連結實體
-              href: ./dataflows/dataflows-premium-features.md
-            - name: 搭配資料流程使用累加式重新整理
-              href: ./dataflows/dataflows-premium-features.md
-            - name: 資料流程的開發人員資源
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 在 Power BI Desktop 中連線到資料流程
-              href: desktop-connect-dataflows.md
-            - name: 資料流程與 Azure Data Lake 整合 (預覽)
-              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
-            - name: 連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體
-              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
-            - name: 設定工作區資料流程設定 (預覽)
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: 將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: 在 Power BI 中整合機器學習服務
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: 在 Power BI 中使用認知服務
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: Power BI 中的自動化機器學習
-              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: 參考
       items:
         - name: 在 Power BI Desktop 中使用欄位清單 (預覽)
