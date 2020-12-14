@@ -10,14 +10,14 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: fb2d25b4cc000f0a7b9c659f25264ffd1ab936d7
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96506696"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906811"
 ---
-# <a name="enable-service-principle-authentication-for-read-only-admin-apis-preview"></a>針對唯讀管理員 API 啟用服務主體驗證 (預覽)
+# <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>針對唯讀管理員 API 啟用服務主體驗證 (預覽)
 
 服務主體是一種驗證方法，可用來讓 Azure Active Directory (Azure AD) 應用程式存取 Power BI 服務內容c API。
 當您建立 Azure AD 應用程式時，會建立[服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) \(部分機器翻譯\)。 服務主體物件 (也簡稱為服務主體) 可讓 Azure AD 驗證您的應用程式。 經過驗證之後，應用程式就可以存取 Azure AD 租用戶資源。
@@ -63,7 +63,7 @@ ms.locfileid: "96506696"
     * [GetDataflowUpstreamDataflowsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) \(英文\) 
     * [GetCapacitiesAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/getcapacitiesasadmin) \(英文\)
     * [GetActivityLog](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents) \(英文\)
-    * GetModifiedWorkspaces
-    * WorkspaceGetInfo
-    * WorkspaceScanStatus
-    * WorkspaceScanResult
+    * [GetModifiedWorkspaces](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+    * [WorkspaceGetInfo](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+    * [WorkspaceScanStatus](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+    * [WorkspaceScanResult](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanresult)

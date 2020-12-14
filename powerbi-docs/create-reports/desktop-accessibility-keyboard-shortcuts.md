@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/28/2019
+ms.date: 12/04/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b2439af22e32f1e0a8cbd3ce326252d6b28fab1
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417581"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613915"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop 中的鍵盤快速鍵
 
@@ -92,7 +92,7 @@ ms.locfileid: "96417581"
 | :------------------- | :------------------- |
 | 向上/向下移動行 | **Alt + 向上鍵** / **向下鍵** |
 | 向上/向下複製行 | **Shift + Alt + 向上鍵** / **向下鍵** |
-| 在下方插入行 | **Ctrl + Enter** |
+| 在下方插入行 | **Shift + Enter** |
 | 在上方插入行 | **Ctrl + Shift + Enter** |
 | 跳至對稱的括號 | **Ctrl + Shift +**  \ |
 | 縮排行/將行延伸到邊界 | **Ctrl + ]**  /  **[** |
@@ -100,9 +100,13 @@ ms.locfileid: "96417581"
 | 選取目前的行 | **Ctrl + I** |
 | 選取目前選取範圍的所有項目 | **Ctrl + Shift + L** |
 | 選取出現目前字組的所有位置 | **Ctrl + F2** |
+| 註解行 | **Ctrl + /** 或 **Ctrl + K + C** |
+| 取消註解行 | **Ctrl + /** 或 **Ctrl + K + U** |
+| 放大字型大小 | **Ctrl + +** 或 **向上捲動** |
+| 縮小字型大小 | **Ctrl + -** 或 **向下捲動** |
 
 ## <a name="enter-data"></a>輸入資料
-| 要進行的動作           | 按                |
+| 若要執行這項操作           | 按鍵                |
 | :------------------- | :------------------- |
 | 離開可編輯格線 | **Ctrl + Tab** |
 
@@ -112,7 +116,7 @@ ms.locfileid: "96417581"
 協助工具功能有一些已知問題和限制。 下列清單描述這些問題和限制：
 
 * 在 **Power BI Desktop** 中使用螢幕助讀程式時，如果您於 **Power BI Desktop** 中先開啟螢幕助讀程式，再開啟任何檔案，便可以獲得最佳體驗。
-* 若您使用朗讀程式，則以 HTML 表格方式巡覽 [顯示資料]  會有一些限制。
+* 若您使用朗讀程式，則以 HTML 表格方式巡覽 [顯示資料] 會有一些限制。
 
 
 ## <a name="next-steps"></a>後續步驟

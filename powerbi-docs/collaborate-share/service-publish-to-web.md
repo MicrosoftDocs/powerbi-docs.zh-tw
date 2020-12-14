@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/02/2020
+ms.date: 12/03/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406771"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613869"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -198,6 +198,7 @@ Power BI 服務大部分的資料來源及報表都支援 [發行至 Web]。 不
 - 單一登入資料查詢模型。
 - 安全的機密或專屬資訊。
 - 隨著 [內嵌] 選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](../developer/embedded/embed-sample-for-your-organization.md)方式來內嵌。
+- 管理員可封鎖公用網際網路存取，如[使用私人連結存取 Power BI](../admin/service-security-private-links.md) 中所述。 在此情況下，Power BI 管理入口網站中的租用戶會看到 [發佈至 Web] 選項呈現灰色。 
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -8,14 +8,14 @@ featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/23/2019
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ad3a38fa8aef4f5404196213ebd3c7b26d3fc3b8
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417328"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578398"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>從報表將圖格釘選至 Power BI 儀表板
 
@@ -58,10 +58,12 @@ ms.locfileid: "96417328"
 
 如需詳細資訊，請參閱[釘選整份報表頁面](service-dashboard-pin-live-tile-from-report.md)。
 
-> [!NOTE]
-> 當視覺效果釘選到儀表板時，某些格式設定選項不會套用至視覺效果。 釘選的圖格中將會忽略框線、陰影和背景設定。 對於卡片視覺效果，用於值的文字一律會使用 'DIN' 字型家族，顯示在儀表板中。 
-> 
->
+## <a name="limitations"></a>限制
+當將磚釘選到報表時，無法將某些報表格式選項或佈景主題套用至視覺效果。
+- 釘選的磚中會忽略框線、陰影和背景設定。
+- 針對卡片視覺效果，用於值的文字會使用 'DIN' 字型家族和黑色文字顯示在儀表板中。 您可[建立自訂儀表板佈景主題](service-dashboard-themes.md)來變更儀表板上所有磚的文字色彩。
+- 不會套用條件式格式設定。
+- 視覺效果會調整其大小，以符合磚的大小。 這可能會導致不同的版面配置，就像是已在報表上調整視覺效果大小一樣。
 
 ## <a name="next-steps"></a>後續步驟
 - [Power BI 服務取用者的儀表板](../consumer/end-user-dashboards.md)

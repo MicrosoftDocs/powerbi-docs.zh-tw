@@ -8,14 +8,14 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 12/01/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 560c03865519d1c5d2435dc333954f284ee726e6
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96387773"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536499"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
 
@@ -33,14 +33,14 @@ ms.locfileid: "96387773"
 
 Power BI 報表編輯器分成數個主要區段：  
 
-1. 頂端導覽窗格
+1. 功能區
 1. 報表畫布
 1. [篩選] 窗格
 1. [視覺效果] 窗格
 1. 欄位窗格
 
-## <a name="1-the-top-nav-pane"></a>1.頂端導覽窗格
-頂端導覽窗格提供許多動作，且不斷新增新的動作。 如需特定動作的資訊，請使用 Power BI 文件目錄或搜尋方塊。
+## <a name="1-the-ribbon"></a>1.功能區
+功能區提供許多動作，且不斷新增新的動作。 如需特定動作的資訊，請使用 Power BI 文件目錄或搜尋方塊。
 
 
 ## <a name="2-the-report-canvas"></a>2.報表畫布
@@ -135,23 +135,7 @@ Power BI 報表編輯器分成數個主要區段：
 
 ## <a name="the-field-icons"></a>欄位圖示
 
-Power BI 會使用一些不同圖示來表示報表中的欄位類型。 當您可以辨識它們時，就能更進一步了解它們在不同視覺效果中的作用。 以下是一些較常見的圖示。
-
-
-|圖示  |意義  |
-|---------|---------|
-| ![資料夾](media/service-the-report-editor-take-a-tour/power-bi-field-list-folder.png) | 欄位清單中的資料夾 |
-|![數值欄位](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | 數值欄位：例如，數值欄位是可以加總或平均的彙總。 彙總隨資料匯入，並在以報表為基礎的資料模型中定義。 如需詳細資訊，請參閱 [Power BI 報表中的彙總](service-aggregates.md). |
-|![非數值計算結果欄](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | 具有非數值資料類型的計算結果欄：您以資料分析運算式 (DAX) 公式建立的新非數值資料行，其可定義資料行的值。 請深入了解[計算結果欄](../transform-model/desktop-calculated-columns.md)。 |
-|![數值計算結果欄](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   數值計算結果欄：您以資料分析運算式 (DAX) 公式建立的新資料行，其可定義資料行的值。 請深入了解[計算結果欄](../transform-model/desktop-calculated-columns.md)。 |
-|![量值](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  量值：量值有自己的硬式編碼公式。 您無法變更計算，例如，如果是總和，就只能加總。 這些值不會儲存在資料行中。 視值在視覺效果中的位置而定，會即時計算這些值。 如需詳細資訊，請參閱[了解量值](../transform-model/desktop-measures.md)。 |
-|![量值群組](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | 量值群組  |
-|![KPI 圖示](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI：一種視覺提示，指出對於可測量目標已達成的進度。 請深入了解[關鍵效能指標 (KPI)](../visuals/power-bi-visualization-kpi.md) 視覺效果 |
-|![階層圖示](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  欄位的階層：選取箭號以查看組成階層的欄位。  如需詳細資訊，請在 YouTube 上觀看這段有關[建立和使用階層](https://www.youtube.com/watch?v=q8WDUAiTGeU)的 Power BI 影片。 |
-|![地理資料](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | 地理資料：這些位置欄位可用於建立地圖視覺效果。 |
-| ![識別欄位](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | 識別欄位：具有這個圖示的欄位都是「唯一欄位」  ，其設定為顯示所有值，即使有重複項目亦然。 例如，您的資料中可能有兩位名為 'Robin Smith' 的不同人員記錄，但每一筆都視為唯一。 它們不會進行加總。   |
-|![參數](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | 參數：設定參數，讓報表和資料模型的各個部分 (例如查詢篩選、資料來源參考、量值定義等) 相依於一或多個參數值。 如需詳細資訊，請參閱關於[查詢參數](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)的這篇 Power BI 部落格文章。 |
-| ![行事曆](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | 具有內建日期資料表的行事曆日期欄位 |
+Power BI 會使用一些不同圖示來表示報表中的欄位類型。 當您可以辨識它們時，就能更進一步了解它們在不同視覺效果中的作用。 如需完整清單，請參閱[在 Power BI Desktop 中使用 [欄位] 清單的 [欄位] 清單圖示一節](../transform-model/desktop-field-list.md#field-list-changes)。
 
 ## <a name="next-steps"></a>後續步驟
 [建立報表](service-report-create-new.md)

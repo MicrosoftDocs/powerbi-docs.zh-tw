@@ -9,12 +9,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f5a76783d91da610a447667a9ea648bbcebbdc8b
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411601"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577616"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>將傳統工作區升級至 Power BI 中的新工作區
 
@@ -22,6 +22,10 @@ ms.locfileid: "96411601"
 
 >[!NOTE]
 >工作區升級是以公開預覽的形式提供。 
+
+>[!NOTE]
+>Power BI 管理員可起始工作區升級。工作區管理員會在 Power BI 管理員升級其工作區時收到一封電子郵件。[深入了解](../admin/service-admin-portal.md#workspaces) 
+
 
 ![成功升級](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -68,6 +72,7 @@ ms.locfileid: "96411601"
 - Power BI 中工作區升級不會影響到傳統工作區的 Microsoft 365 群組。 任何小組、SharePoint 網站、信箱或由 Microsoft 365 管理的其他資源都不會變更。 升級 Power BI 工作區之後，它們會保持不變。 Microsoft 365 群組會繼續以先前的方式存在。
 - 在升級之後，您的工作區受到保護的方式有所變更。 如需詳細資訊，請參閱[升級後的工作區權限](#permissions-after-upgrade)一節。
 - 如果需要，可以選擇 **返回傳統工作區**。 但是，它在升級之前無法完全還原工作區的某些層面。 如果您開始使用僅在新的工作區體驗中可用的功能，則將無法返回。 升級之後，返回選項會提供 30 天的時間。
+- Power BI 管理員可起始工作區升級。 工作區管理員會在 Power BI 管理員升級其工作區時收到一封電子郵件。
 
 ## <a name="permissions-after-upgrade"></a>升級後的權限
 
@@ -193,12 +198,14 @@ ms.locfileid: "96411601"
 
 ## <a name="manage-migration-to-the-new-workspaces-for-your-tenant"></a>管理租用戶到新工作區的移轉 
 
-有些組織想要將許多或所有工作區移至新的工作區體驗。 工作區升級工具著重於讓工作區系統管理員能夠進行升級。 對於想要管理此類程序的組織，他們可以採取下列步驟。
+若組織想要主動移轉到新的工作區體驗，可透過 Power BI 管理入口網站來執行這項操作。 Power BI 管理員可選取一或多個工作區進行升級。 Power BI 管理員起始的工作區升級，與工作區管理員起始的工作區升級有相同考量與限制。 [深入了解](../admin/service-admin-portal.md#workspaces) 
+
+建議想要管理這類程序的組織採取下列步驟，以確保與受影響工作區管理員進行明確的溝通。
 
 1. Power BI 系統管理員入口網站中的工作區清單和對應的 API 會提供 Power BI 中所有工作區的清單。 傳統工作區在清單中會顯示為「群組」類型。
-2. 與個別群組擁有者或 Microsoft 365 的系統管理員合作，讓其升級工作區。 如果您想要升級工作區，您必須成為群組的「擁有者」。
+2. 與個別群組擁有者或 Microsoft 365 的管理員合作，通知他們您打算升級其傳統工作區。
 
-工作區升級功能不提供大量或以程式設計方式升級的工具。 此外，在組織中建立的新 Microsoft 365 群組仍會繼續出現在 Power BI 中。
+工作區升級功能不提供以程式設計方式升級的工具。 此外，在組織中建立的新 Microsoft 365 群組仍會繼續出現在 Power BI 中。
    
    
 ## <a name="known-issues"></a>已知問題
@@ -213,4 +220,5 @@ ms.locfileid: "96411601"
 * [在新的工作區體驗中組織工作](service-new-workspaces.md)
 * [建立新的工作區](service-create-the-new-workspaces.md)
 * [建立傳統工作區](service-create-workspaces.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* [開始 Power BI 管理員起始的工作區升級](../admin/service-admin-portal.md#workspaces)
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

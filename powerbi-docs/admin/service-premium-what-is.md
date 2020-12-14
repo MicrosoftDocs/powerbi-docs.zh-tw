@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/20/2020
+ms.date: 12/04/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6fcbdeef8c7c02656e5637f6103fda76faeb26c9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412268"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781811"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -74,9 +74,9 @@ Premium Gen2 提供下列更新或改進的體驗：
 
 下列已知限制目前適用於 Premium Gen2：
 
-1.  計量應用程式中無法追蹤 Premium Gen2 容量使用率。
+1.    計量應用程式中無法追蹤 Premium Gen2 容量使用率。
 
-2.  在管理入口網站的 [Premium Gen2 容量] 設定頁面中，尚未顯示適用於特定工作負載的 Premium Gen2 容量設定。 若要變更設定，請將容量轉換成 Premium 的原始版本，變更設定，然後再次將容量設定為使用 Premium Gen2。 記憶體配置設定不適用於 Premium Gen2 容量。
+2.    在管理入口網站的 [Premium Gen2 容量] 設定頁面中，尚未顯示適用於特定工作負載的 Premium Gen2 容量設定。 若要變更設定，請將容量轉換成 Premium 的原始版本，變更設定，然後再次將容量設定為使用 Premium Gen2。 記憶體配置設定不適用於 Premium Gen2 容量。
 
 3.  如果您在 Premium Gen2 上使用 XMLA，請確定您使用的是最新版本的[資料模型化和管理工具](service-premium-connect-tools.md#data-modeling-and-management-tools)。 
 
@@ -181,7 +181,7 @@ Premium Gen 2 節點不再使用保留的基礎結構。 相反地，此服務�
 
 請務必了解互動式作業一律會優先於背景作業，以盡可能確保最佳使用者體驗。 如果資源不足，系統會將背景作業新增至等候佇列，直到資源釋出為止。 Power BI 服務可以在背景作業 (例如資料集重新整理) 的程序期間加以中斷、將其新增至佇列，然後稍後再重試。
 
-匯入模型必須完整載入至記憶體，才能進行查詢或重新整理。 Power BI 服務會使用精密的演算法來公平地管理記憶體使用量，但在少數情況下，如果沒有足夠的資源來滿足客戶的即時需求，容量則可能會超載。 雖然容量可以將許多匯入模型儲存在永續性儲存體中 (每個 Premium 容量最多 100 TB)，所有模型通常並不會同時存在於記憶體中，否則其記憶體內部資料集大小將會輕易超出容量記憶體限制。 除了載入資料集所需的記憶體外，執行查詢和重新整理作業也需要額外的記憶體。
+匯入模型必須完整載入至記憶體，才能進行查詢或重新整理。 Power BI 服務會使用精密的演算法來公平地管理記憶體使用量，但在少數情況下，如果沒有足夠資源來滿足客戶的即時需求，則容量可能會超載。 雖然容量可以將許多匯入模型儲存在永續性儲存體中 (每個 Premium 容量最多 100 TB)，所有模型通常並不會同時存在於記憶體中，否則其記憶體內部資料集大小將會輕易超出容量記憶體限制。 除了載入資料集所需的記憶體外，執行查詢和重新整理作業也需要額外的記憶體。
 
 因此，系統會根據使用量將匯入模型載入記憶體及從中移除。 匯入模型會在系統加以查詢 (互動式作業)，或在需要加以重新整理 (背景作業) 時載入。
 
@@ -272,11 +272,13 @@ Power BI REST API 包含[容量 API](/rest/api/power-bi/capacities) 集合。 �
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3、P4、P5    | 最多 10 GB   |
+   |P3、P4、P5    | 最多 10 GB  |
 
 Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。
 
-如果您在資料集上啟用[大型模型](service-premium-large-models.md)，.pbix 檔案大小限制仍適用於檔案上傳或發行。 不過，隨著累加重新整理和大型模型結合，資料集可能會成長為比這些限制還大。 若使用大型模型，則資料集大小只受限於 Power BI Premium 容量大小。
+### <a name="large-dataset-storage-format"></a>大型資料集儲存格式
+
+如果針對資料集啟用 [[大型資料集儲存格式](service-premium-large-models.md)] 設定，則 .pbix 檔案大小限制仍適用於檔案上傳或發佈。 上傳大小限制不會受到大型資料集儲存格式的影響。 不過，發佈至服務時，若已啟用累加式重新整理和大型資料集儲存格式，資料集可能會成長到遠超過這些限制。 若使用大型資料集儲存格式，則資料集大小只受限於 Power BI Premium 容量大小。
 
 .pbix 檔案以「高度壓縮狀態」呈現資料。 載入至記憶體時，資料可能會展開，而且從該處，在資料重新整理期間，資料可能會再展開幾次。
 

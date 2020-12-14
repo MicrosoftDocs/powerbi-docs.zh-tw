@@ -1,22 +1,22 @@
 ---
-title: 在 Excel 中存取 Power BI 的精選表格 (預覽)
-description: 在 Excel 中，可在資料類型資源庫的 Power BI 資料集中，從精選表格中尋找資料。
+title: 在 Excel 中存取 Power BI 的精選表格
+description: 在 Excel 中，您可從組織資料類型庫中 Power BI 資料集的精選表格尋找資料。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/04/2020
+ms.date: 12/07/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95ccc80a37ad9703c60c82ce928d35b5e301947b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b5f84f67231393dfed78bd9f90142fbd1b4f6c91
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407300"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907021"
 ---
-# <a name="access-power-bi-featured-tables-in-excel-preview"></a>在 Excel 中存取 Power BI 的精選表格 (預覽)
+# <a name="access-power-bi-featured-tables-in-excel-organization-data-types"></a>在 Excel 組織資料類型中存取 Power BI 的精選表格
 
 「精選表格」是將 Excel 中資料連結到 Power BI 中資料的方式。 這些表格可供更輕鬆地將企業資料新增至 Excel 工作表。 在 Excel 的資料類型資源庫中，您可從 Power BI 資料集的精選表格來尋找資料。 本文說明執行方法。
 
@@ -41,11 +41,11 @@ Power BI 資料集中精選表格會以「資料類型」型態出現在 [資料
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Excel 資料類型資源庫中更多圖示的螢幕擷取畫面。":::
 
-如果看到想要尋找的表格，請加以選取。 否則，請選取 [組織中的更多內容]。 Excel 會搜尋您有權存取的所有精選表格，並尋找相符項目。
+如果看到想要尋找的表格，請加以選取。 否則，請選取 [組織中的更多內容]。 Excel 會在窗格中顯示您有權存取的所有精選表格。
 
 :::image type="content" source="media/service-excel-featured-tables/excel-more-your-organization.png" alt-text="從您組織中進行選取 (預覽) 的螢幕擷取畫面。":::
  
-Excel 會顯示所有可能的表格。 在 [資料選取器] 窗格的 [篩選] 方塊中鍵入，以縮小選項範圍。 選取相符的表格。
+Excel 會顯示您有權存取的所有精選表格。 在 [資料選取器] 窗格的 [篩選] 方塊中鍵入，以縮小選項範圍。 選取所要使用的表格。
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-selector-store.png" alt-text="Excel 組織資料、供應商資料類型資料表的螢幕擷取畫面。":::
  
@@ -120,15 +120,13 @@ Excel 會顯示所有可能的表格。 在 [資料選取器] 窗格的 [篩選]
 
 ## <a name="licensing"></a>授權
 
-Excel 資料類型資源庫和 Power BI 精選表格的連線體驗僅供 Excel E5 和 G5 客戶使用。 
+具有 Power BI Pro 支援方案的 Excel 訂閱者可使用 Excel 資料類型庫，並取得 Power BI 精選表格的連線體驗。 
 
 ## <a name="security"></a>安全性
 
 您在 Power BI 中只會看到有權存取資料集的精選表格。 重新整理資料時，您必須有權存取 Power BI 的資料集，才能擷取資料列。 您需要有 Power BI [資料集的建置或寫入權限](../connect-data/service-datasets-build-permissions.md)。
  
 Excel 會快取傳回的整列資料。 與您共用 Excel 檔案的所有人，都可以看到所有已連結儲存格中所有欄位的資料。
-
-如果 Power BI 資料集已套用資料列層級安全性或 Microsoft 資訊保護的敏感度標籤，則 Excel 資料類型資源庫不會包含該資料集的精選表格。 這是初始預覽的限制。
 
 ## <a name="administrative-control"></a>系統管理控制
 
@@ -145,28 +143,25 @@ Power BI 系統管理員可管控組織中哪些人可使用 Excel 資料類型�
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-以下是初始預覽的限制：
+目前的限制如下：
 
-- 僅 Excel 測試人員版本提供此整合。
-- Excel 資料類型資源庫包含可供具有 Power BI Desktop 和 Power BI 服務適當授權使用者使用的精選表格。 預覽版本可能不支援 Power BI 服務，但日後會新增。
+- 這項整合適用於目前通道的 Excel。
 - Excel 不會顯示使用下列功能的 Power BI 資料集精選表格： 
 
-    - 資料列層級安全性資料集。
-    - 啟用 Microsoft 資訊保護的資料集。
     - DirectQuery 資料集。
     - 具有即時連線的資料集。
 
-- Excel 只會顯示精選表格資料行和計算結果欄中的資料。 初始預覽不提供下列內容：
+- Excel 只會顯示精選表格中所定義資料行、計算結果欄和量值中的資料。 不會提供下列內容：
+   
+    - 相關表格上定義的量值。
+    - 從關聯性計算而來的隱含量值。
 
-    - 精選表格上定義的量值。
-    - 相關資料表上定義的量值，以及從關聯性計算的隱含量值。
-
-- Excel 只會顯示儲存在新 Power BI 工作區中的精選表格 (「資料類型」)。 儲存在傳統工作區或 [我的工作區] 中的精選表格不會顯示為 Excel 資料類型。 您可在 Power BI 中[將傳統工作區升級為新工作區](service-upgrade-workspaces.md)。
+- Excel 只會顯示儲存在新 Power BI 工作區中的精選表格 (「資料類型」)。 儲存在傳統工作區中的精選表格不會顯示為 Excel 資料類型。 您可在 Power BI 中[將傳統工作區升級為新工作區](service-upgrade-workspaces.md)。
 
 Excel 中的資料類型體驗類似 lookup 函式。 其會接受 Excel 工作表提供的儲存格值，並會在 Power BI 精選表格中搜尋相符的資料列。 搜尋體驗具有下列行為：
 
-- 使用 [組織資料] 按鈕來搜尋時，Excel 只會搜尋 Power BI 資料集中的精選表格。
-- 資料列比對是以精選表格中的文字資料行為基礎。 使用與 Power BI Q&A 功能相同的索引，其已最佳化英文搜尋。 以其他語言搜尋可能不會產生正確的相符項目。 比對時不考慮數值資料行。
+- 資料列比對是以精選表格中的文字資料行為基礎。 使用與 Power BI Q&A 功能相同的索引，其已最佳化英文搜尋。 以其他語言搜尋可能不會產生正確的相符項目。 
+- 比對時不考慮大部分數值資料行。 如果資料列標籤或索引鍵資料行是數值，則會納入比對。
 - 個別搜尋字詞的比對是以完全相符和前置詞相符為基礎。 儲存格值的分割依據為空格或其他空白字元，例如定位點。 然後，每個單字都視為搜尋字詞。 資料列的文字欄位值會和每個搜尋字詞進行完全相符和前置詞相符比較。 如果資料列的文字欄位以搜尋字詞開頭，則會傳回前置詞相符。 例如，如果儲存格包含 “Orange County”，則 “Orange” 和 “County” 會視為不同的搜尋字詞。 
 
     - 傳回文字資料行值完全符合 “Orange” 或 “County” 的資料列。 
@@ -174,10 +169,11 @@ Excel 中的資料類型體驗類似 lookup 函式。 其會接受 Excel 工作�
     - 重要的是，不會傳回包含 “Orange” 或 “County” 但其不為開頭的資料列。
 
 - Power BI 為每個儲存格最多傳回 100 項資料列建議。
+- 不支援某些符號。
 - XMLA 端點不支援設定或更新精選表格
 - 具有資料模型的 Excel 檔案可用來發佈精選表格。 將資料載入至 Power BI 桌面，然後發佈精選表格。
 - 變更精選表格的 [資料表名稱]、[資料列標籤] 或 [索引鍵資料行]，會影響儲存格連結到資料表資料列的 Excel 使用者。 
-- Excel 會顯示從 Power BI 資料集擷取資料的時間。 這個時間不一定是資料在 Power BI 中重新整理的時間，或資料集的最新資料點時間。 例如，假設 Power BI 的資料集在一週前重新整理過，而基礎來源資料在重新整理發生時已存在一週。 所以實際的資料時間是兩週，但 Excel 所顯示資料擷取日期/時間會是在 Excel 中提取資料的日期/時間。
+- Excel 會顯示從 Power BI 資料集擷取資料的時間。 這個時間不一定是資料在 Power BI 中重新整理的時間，或資料集的最新資料點時間。 例如，假設 Power BI 的資料集在一週前重新整理過，而基礎來源資料在重新整理發生時已存在一週。 所以實際的資料時間是兩週，但 Excel 所顯示資料擷取日期/時間會是在 Excel 中提取資料的日期/時間。 
 
 ## <a name="next-steps"></a>後續步驟
 

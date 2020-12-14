@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/05/2020
+ms.date: 12/01/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4e71580857827a370676c4d05274c4c57b1d56c5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413487"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613708"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>使用 XMLA 端點連線至資料集
 
@@ -23,7 +23,7 @@ ms.locfileid: "96413487"
 
 ## <a name="whats-an-xmla-endpoint"></a>什麼是 XMLA 端點？
 
-Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) (XMLA) (部分機器翻譯) 通訊協定來在用戶端應用程式與管理您 Power BI 工作區及資料集的引擎間進行通訊。 這些通訊是透過通常稱為 XMLA 端點的項目進行。 XMLA 與 Microsoft Analysis Services 引擎所使用的通訊協定相同，其幕後的運作原理是會執行 Power BI 的語意模型、控管、生命週期及資料管理。
+Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) (XMLA) (部分機器翻譯) 通訊協定來在用戶端應用程式與管理您 Power BI 工作區及資料集的引擎間進行通訊。 這些通訊是透過通常稱為 XMLA 端點的項目進行。 XMLA 與 Microsoft Analysis Services 引擎所使用的通訊協定相同，其幕後的運作原理是會執行 Power BI 的語意模型、控管、生命週期及資料管理。 透過 XMLA 通訊協定傳送的資料會經過完全加密。
 
 根據預設，會針對容量中的 **資料集工作負載**，啟用使用端點的「唯讀」連線。 使用唯讀，資料視覺效果應用程式和工具就可以查詢資料集模型資料、中繼資料、事件和結構描述。 使用端點的「讀寫」作業可以啟用，以提供額外的資料集管理、治理、進接語義模型化、偵錯和監視。 啟用讀寫功能之後，Power BI Premium 資料集與 Azure Analysis Services 和 SQL Server Analysis Services 企業級表格式模型工具和程序就會有更多相同處。
 
@@ -32,7 +32,7 @@ Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analy
 
 ## <a name="data-modeling-and-management-tools"></a>資料模型和管理工具
 
-以下是一些與 Azure Analysis Services 和 SQL Server Analysis Services 搭配使用的最常見工具，現在已由 Power BI Premium 資料集支援：
+以下列出一些與 Azure Analysis Services 和 SQL Server Analysis Services 搭配使用的最常見工具，現在已由 Power BI Premium 資料集支援：
 
 **具有 Analysis Services 專案的 Visual Studio**  (也稱為 SQL Server Data Tools，或簡稱為 **SSDT**)，是適用於 Analysis Services 表格式模型的企業級模型製作工具。 所有 Visual Studio 2017 和更新版本都支援 Analysis Services 專案延伸模組，包括免費的社群版本。 需要延伸模組版本 2.9.6 或更高版本，才能將表格式模型部署到 Premium 工作區。 部署到 Premium 工作區時，此模型必須是 1500 或更高的相容性層級。 資料集工作負載需要 XMLA 讀寫。 若要深入了解，請參閱[適用於 Analysis Services 的工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯)。
 
@@ -70,7 +70,7 @@ Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analy
 
 ### <a name="to-enable-read-write-for-a-capacity"></a>若要啟用容量的讀寫功能
 
-1. 在系統管理員入口網站中，按一下 [容量設定]  >  [Power BI Premium] > [容量名稱]。
+1. 在管理入口網站中，選取 [容量設定] > [Power BI Premium] > 容量名稱。
 2. 展開 [工作負載]。 在 [XMLA 端點] 設定中，選取 [讀寫]。
 
     ![啟用 XMLA 端點](media/service-premium-connect-tools/xmla-endpoint-enable.png)
@@ -80,7 +80,7 @@ Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analy
 指派給容量的工作區會具備這種 URL 格式的連接字串：  
 `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`.
 
-連線到工作區的應用程式會使用 URL，因為其為 Analysis Services 伺服器名稱。 例如，  
+連線到工作區的應用程式會使用 URL，就像是 Analysis Services 伺服器名稱一樣。 例如，  
 `powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`.
 
 在相同租用戶 (非 B2B) 中具有 UPN 的使用者，可以使用 `myorg` 來取代租用戶名稱。 例如   
@@ -91,7 +91,7 @@ B2B 使用者必須在租用戶名稱中指定其組織 UPN。 例如，
 
 ### <a name="to-get-the-workspace-connection-url"></a>若要取得工作區連線 URL
 
-在工作區 [設定]  >  [Premium]  >  [工作區連線] 中，按一下 [複製]。
+在工作區 [設定] > [Premium] > [工作區連線] 中，選取 [複製]。
 
 ![工作區連接字串](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
 
@@ -99,11 +99,11 @@ B2B 使用者必須在租用戶名稱中指定其組織 UPN。 例如，
 
 ### <a name="initial-catalog"></a>初始目錄
 
-使用某些工具 (例如 SQL Server Profiler) 時，您可能需要指定「初始目錄」。 在您的工作區中指定資料集 (資料庫)。 在 [連線到伺服器] 對話方塊上，按一下 [選項]  >  [連線屬性]  >  [連線到資料庫]，輸入資料集名稱。
+使用某些工具 (例如 SQL Server Profiler) 時，您可能需要指定「初始目錄」。 在您的工作區中指定資料集 (資料庫)。 在 [連線到伺服器] 對話方塊中，選取 [選項] > [連線屬性] > [連線到資料庫]，輸入資料集名稱。
 
 ### <a name="duplicate-workspace-names"></a>重複的工作區名稱
 
-[新的工作區](../collaborate-share/service-new-workspaces.md) (使用新的工作區體驗所建立) 在 Power BI 中會強制進行驗證，以禁止建立或重新命名具有重複名稱的工作區。 未遷移的工作區會導致重複的名稱。 連線到與其他工作區具有相同名稱的工作區時，您可能會看到下列錯誤：
+Power BI 中的[新工作區](../collaborate-share/service-new-workspaces.md) (使用新的工作區體驗所建立) 會強制進行驗證，以禁止建立或重新命名具有重複名稱的工作區。 尚未移轉的工作區可能會產生重複名稱。 連線到與其他工作區具有相同名稱的工作區時，您可能會看到下列錯誤：
 
 **無法連線到 powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]。**
 
@@ -129,9 +129,15 @@ B2B 使用者必須在租用戶名稱中指定其組織 UPN。 例如，
 
 ## <a name="security"></a>安全性
 
-除了由容量管理員啟用讀寫功能的 XMLA 端點屬性之外，也必須啟用 Power BI 系統管理員入口網站中的租用戶層級 **匯出資料** 設定 (在 Excel 中進行分析也需要的項目)。
+除了由容量管理員啟用讀寫功能的 XMLA 端點屬性之外，也必須在管理入口網站中啟用租用戶層級設定 [允許 XMLA 端點，並在 Excel 中使用內部部署資料集進行分析]。 如果需要產生連線到 XMLA 端點的 AIXL 檔案，則也應該啟用租用戶層級設定 [允許即時連線]。 預設會啟用這兩項設定。
 
-![啟用匯出資料](media/service-premium-connect-tools/xmla-endpoint-export-data.png)
+[允許 XMLA 端點，並在 Excel 中使用內部部署資料集進行分析] 是整合設定。
+
+:::image type="content" source="media/service-premium-connect-tools/allow-xmla-endpoints.png" alt-text="允許 XMLA 端點的整合設定。":::
+
+[允許即時連線] 是匯出及共用設定。
+
+:::image type="content" source="media/service-premium-connect-tools/allow-live-connections.png" alt-text="允許即時連線的匯出及共用設定。":::
 
 透過 XMLA 端點的存取將會接受在工作區/應用程式層級設定的安全性群組成員資格。
 
@@ -184,7 +190,7 @@ Power BI Premium 目前不支援需要 Analysis Services 伺服器管理員權�
 
 **第一次部署時**，會使用 model.bim 中的中繼資料，在工作區中建立資料集。 在部署作業中，從模型中繼資料在工作區中建立資料集之後，從資料來源將資料載入至資料集的處理將會失敗。
 
-處理失敗的原因是與部署至 Azure 或 SQL Server Analysis Server 執行個體時不同，在其中進行部署作業時會提示資料來源認證，而在部署至 Premium 工作區時，無法在部署作業中指定資料來源認證。 相反地，在中繼資料部署成功並建立資料集之後，資料來源認證就會在 Power BI 服務中的資料集設定指定。 在工作區中，按一下 [資料集]  >  [設定]  >  [資料來源認證]  >  [編輯認證]。
+處理失敗的原因是與部署至 Azure 或 SQL Server Analysis Server 執行個體時不同，在其中進行部署作業時會提示資料來源認證，而在部署至 Premium 工作區時，無法在部署作業中指定資料來源認證。 相反地，在中繼資料部署成功並建立資料集之後，資料來源認證就會在 Power BI 服務中的資料集設定指定。 在工作區中，選取 [資料集] > [設定] > [資料來源認證] > [編輯認證]。
 
 ![資料來源認證](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
 
@@ -198,7 +204,7 @@ Power BI Premium 目前不支援需要 Analysis Services 伺服器管理員權�
 
 ### <a name="connect-to-a-workspace-by-using-ssms"></a>使用 SSMS 連線到工作區
 
-1. 在 SQL Server Management Studio 中，按一下 [連線]  >  [連線到伺服器]。
+1. 在 SQL Server Management Studio 中，選取 [連線] > [連線到伺服器]。
 
 2. 在 [伺服器類型] 中，選取 [Analysis Services]。 在 [伺服器名稱] 中，輸入工作區 URL。 在 [驗證] 中，選取 [具 MFA 的 Active Directory - 通用]，然後在 [使用者名稱] 中，輸入您的組織使用者識別碼。
 

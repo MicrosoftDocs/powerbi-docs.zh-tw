@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/22/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c83efa55cc1c35bb7e6fa8e62de3bca228553fe3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409393"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578168"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -297,7 +297,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ![發行到 Web 設定](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-系統管理員可以將 [發行至 Web] 設定為 [啟用]，將 [選擇內嵌程式碼的運作方式] 設定為 [Allow only existing embed codes] \(僅允許現有的內嵌程式碼\)。 在此狀態下，使用者就可以建立內嵌程式碼，但必須先連絡 Power BI 系統管理員獲得執行權限。
+系統管理員可以將 [發行至 Web] 設定為 [啟用]，將 [選擇內嵌程式碼的運作方式] 設定為 [Allow only existing embed codes] \(僅允許現有的內嵌程式碼\)。 在此情況下，使用者可建立內嵌程式碼，但必須先連絡 Power BI 管理員獲得執行權限。
 
 ![[發行至 Web] 提示](../collaborate-share/media/service-publish-to-web/publish_to_web_admin_prompt.png)
 
@@ -307,7 +307,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 |---------|---------|---------|---------|
 |報表 [更多選項 (...)] 功能表下的 [發行至 Web]|針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
 |[設定] 下的 [管理內嵌程式碼]|針對全部啟用|針對全部啟用|針對全部啟用<br><br>[刪除]*  選項僅適用於經授權的使用者或群組。<br>針對全部啟用 [取得驗證碼]* 。|
-|系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示為 **受到侵害**。|
+|系統管理員入口網站內的 [內嵌程式碼]|狀態具有下列其中一個值：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態具有下列其中一個值：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示為 **受到侵害**。|
 |現有的已發佈報告|全部已啟用|全部已停用|報告會繼續針對全部項目呈現。|
 
 ### <a name="copy-and-paste-visuals"></a>複製並貼上視覺效果
@@ -336,7 +336,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ### <a name="allow-live-connections"></a>允許即時連線
 
-組織中的使用者可以使用 Power BI 服務即時連線。 這包括 [使用 Excel 分析]。
+組織中的使用者可以使用 Power BI 服務即時連線。 允許即時連線也可讓使用者在 Excel 中進行分析。
 
 ![允許即時連線設定的螢幕擷取畫面。](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
@@ -577,10 +577,11 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 - 查看有關工作區的詳細資料，包括其識別碼、其使用者及其角色，以及其儀表板、報表和資料集。
 - 編輯具有存取權的人員清單。 這表示您可以刪除工作區。 您可以將自己新增至工作區以作為管理員，然後開啟工作區並將其刪除。
 - 編輯 [名稱] 和 [描述] 欄位。
+- 將傳統工作區升級至新的工作區體驗
 
 ![工作區清單](media/service-admin-portal/workspaces-list.png)
 
-管理員也可以控制使用者建立新工作區體驗工作區，以及傳統工作區的能力。 如需詳細資訊，請參閱此文章中的[工作區設定](#workspace-settings)。 
+管理員也可以控制使用者建立新工作區體驗工作區，以及傳統工作區的能力。 如需詳細資訊，請參閱此文章中的[工作區設定](#workspace-settings)。
 
 [工作區] 索引標籤上的資料表資料行會對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup**，傳統工作區的類型為 **Group**，新工作區體驗工作區的類型為 **Workspace**。 如需詳細資訊，請參閱[在新的工作區中組織工作](../collaborate-share/service-new-workspaces.md)。
 
@@ -596,6 +597,18 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 系統管理員也可使用管理入口網站或 PowerShell Cmdlet 來管理及復原工作區。 
 
 ![工作區清單](media/service-admin-portal/workspaces-list.png)
+
+管理員可將傳統工作區升級至新的工作區體驗。 管理員可選取一或多個類型為 [群組] 的工作區進行升級。 升級會排入佇列並以非同步方式執行。 可能需要幾分鐘到幾天時間才能完成所有 [擱置] 的升級，因為管理員起始的升級整體速度會受到限制，以讓服務順利執行。 [工作區升級狀態] 資料行可協助管理員追蹤管理員起始的升級進度。 若管理員起始的升級為 [擱置]，則管理員可取消這些升級。 若要立即升級工作區，請連絡工作區管理員，並使其透過 [工作區設定] 窗格開始升級。 [開始 Power BI 管理員起始的工作區升級之前，請先深入了解工作區升級](../collaborate-share/service-upgrade-workspaces.md)。
+
+下表提供有關升級狀態的更多詳細資料。
+
+|狀態  |描述  |
+|---------|---------|
+| **(空白)** | Power BI 管理員未升級工作區。 |
+| **擱置** | 工作區已排入佇列等候升級。 可取消升級。 |
+| **進行中** | 工作區正在升級中。 無法取消升級。 |
+| **Completed** | Power BI 管理員已在過去 30 天內升級工作區。工作區管理員可在工作區升級後的 30 天內，視需要返回 [傳統] 選項。 |
+
 
 ## <a name="custom-branding"></a>自訂商標
 

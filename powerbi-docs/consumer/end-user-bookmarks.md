@@ -7,20 +7,19 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/26/2020
+ms.date: 12/03/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa199547f6cad0b7d4dbfc6b75e9d9e25b2b153
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391476"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578329"
 ---
 # <a name="what-are-bookmarks"></a>什麼是書籤？
 
 [!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 書籤會擷取目前設定的報表頁面檢視，包括篩選、交叉分析篩選器，以及視覺效果的狀態。 當您選取書籤時，Power BI 會將您帶回到該檢視。 有兩種類型的書籤：您自行建立的書籤和由報表「設計師」建立的書籤。 所有的 Power BI 使用者皆可建立個人書籤。 但需有 Power BI Pro 或 Premium 授權才能使用其他人建立的書籤。 [我有哪些授權？](end-user-license.md)
 
@@ -30,6 +29,16 @@ ms.locfileid: "96391476"
 您也可以建立書籤集合，依您想要的順序加以排列，然後在簡報中逐步執行每個書籤，以醒目提示一系列述說故事的見解。  
 
 ![從功能區中選取 [書籤] 窗格加以顯示。](media/end-user-bookmarks/power-bi-bookmark-icon.png)
+
+與也有報表讀取權限的同事共用已加入書籤的報表。 報表其書籤檢視不會覆寫設計工具的原始報表。  與尚未具有讀取權限的同事共用會需要再次共用權限。 如果無法共用報表檢視，請連絡報表擁有者以要求再次共用權限。  
+
+
+### <a name="share-changes"></a>共用變更 
+您若擁有讀取及再次共用的權限，即可在共用報表時，選擇包含您的變更。
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-share-changes.png" alt-text="共用變更":::
+ 
+
 
 ## <a name="open-bookmarks"></a>開啟書籤
 若要開啟 [書籤] 窗格，請從功能表列選取 [書籤] > [顯示更多書籤]。 
@@ -60,7 +69,7 @@ ms.locfileid: "96391476"
 * 篩選
 * 交叉分析篩選器，包括交叉分析篩選器類型 (例如，下拉式清單或清單) 和交叉分析篩選器狀態
 * 視覺效果選取狀態 (例如交叉醒目提示篩選條件)
-* 排列順序
+* 排序次序
 * 鑽研位置
 * 可見度 (使用 [選取] 窗格之物件的可見度)
 * 任何可見物件的焦點或 **聚焦** 模式
@@ -164,17 +173,22 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 -->
 
 
+### <a name="reset-all-your-changes-to-a-report"></a>重設報表的所有變更
+
+從報表畫布的右上角，選取 [重設為預設值]。 這會移除報表中的所有變更，並設回作者上次儲存的報表檢視。
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-reset-all.png" alt-text="重設所有變更":::
 
 
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 在此版本的 **書籤** 中，有幾點限制和考量要留意。
 
-* 大部分的 Power BI 視覺效果都可以和書籤搭配使用。 如果在使用書籤和 Power BI 視覺效果時遇到問題，請連絡該 Power BI 視覺效果的建立者，並請他們將書籤的支援新增到其視覺效果。
+* 大部分的 Power BI 自訂視覺效果都可和書籤搭配使用。 如果在使用書籤和 Power BI 自訂視覺效果時遇到問題，請連絡該視覺效果的建立者，並請其新增書籤的支援。    
 * 如果您在建立書籤之後將視覺效果新增至報表頁面，視覺效果就會以其預設狀態顯示。 換句話說，如果您在先前建立書籤的頁面中引進交叉分析篩選器，交叉分析篩選器就會以其預設狀態運作。
 * 一般來說，如果報表「設計師」更新或重新發佈報表，您的書籤不會受到影響。 不過，如果設計師對報表進行重大變更 (例如移除書籤所使用的欄位)，則您下次嘗試開啟該書籤時，將會收到錯誤訊息。 
+* 適用於 iOS 和 Android 平板電腦的 Power BI 行動裝置應用程式，以及 Power BI Windows 應用程式，都支援這項功能；手機的 Power BI 行動裝置應用程式不支援此功能。 但使用 Power BI 服務儲存在個人書籤中的任何視覺效果變更，都會呈現在所有 Power BI 行動裝置應用程式中。
 
-<!--
-## Next steps
-spotlight?
--->
+
+## <a name="next-steps"></a>後續步驟
+[個人化報表中的視覺效果](end-user-personalize-visuals.md)

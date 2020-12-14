@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 348032345a56d538e1e5ffbb6036d411e42b2954
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397430"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907064"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -112,14 +112,14 @@ Power BI 需要您使用組織帳戶註冊。 不支援使用 Microsoft 帳戶�
 
 ### <a name="can-i-use-apis-to-create-and-manage-azure-capacities"></a>我可以使用 API 來建立和管理 Azure 容量嗎？
 
-是，您可以使用 Powershell Cmdlet 和 Azure Resource Manager REST API 來建立及管理 PBIE 資源。
+是的，您可使用 PowerShell Cmdlet 和 Azure Resource Manager REST API 來建立及管理 PBIE 資源。
 
 * [Rest API](/rest/api/power-bi-embedded/) 
-* [Powershell Cmdlet](/powershell/module/azurerm.powerbiembedded/)
+* [PowerShell Cmdlet](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解決方案中的 PBI Embedded 容量角色是什麼？
 
-若要[將解決方案升階到生產環境](embed-sample-for-customers.md#move-to-production)，您需要將應用程式使用的 Power BI 內容 (工作區) 指派至 Power BI Embedded (A SKU) 容量。
+若要[將解決方案升階到生產環境](move-to-production.md)，您需要將應用程式使用的 Power BI 內容 (工作區) 指派至 Power BI Embedded (A SKU) 容量。
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>哪些 Azure 區域提供 PBI Embedded？
 
@@ -184,7 +184,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 對於 RLS，ISV 開發人員可控制屬於建立模型和產生內嵌權杖的資料篩選。 終端使用者只會看到 ISV 允許使用者看到的內容。 在此案例，使用者可選擇查看少於篩選結果的內容，但無法略過 RLS 設定並查看超出所允許的內容。
 
-對於用戶端篩選 (JavaScript)，ISV 可能可決定終端使用者在初始檢視中看到的內容，但無法控制終端使用者可能會套用至檢視本身的變更。 由於使用者 Javascript 用戶端程式碼可以在後端觸發資料篩選，因此不能將其視為安全。
+對於用戶端篩選 (JavaScript)，ISV 可能可決定終端使用者在初始檢視中看到的內容，但無法控制終端使用者可能會套用至檢視本身的變更。 由於使用者 JavaScript 用戶端程式碼可在後端觸發資料篩選，因此不能將其視為安全。
 
 請參考 [RLS 對 JavaScript 篩選](embedded-row-level-security.md#using-rls-vs-javascript-filters) 以取得詳細資料。
 
@@ -198,7 +198,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>何時使用應用程式識別碼與服務主體物件識別碼？
 
-**[應用程式識別碼](embed-sample-for-customers.md#application-id)** 用來在傳遞應用程式識別碼進行驗證時建立存取權杖。
+**[應用程式識別碼](embed-sample-for-customers.md#client-id)** (也稱為「用戶端識別碼」) 用來在傳遞應用程式識別碼進行驗證時建立存取權杖。
 
 若要參考作業的服務主體或進行變更，請使用 **[服務主體物件識別碼](embed-service-principal.md)** — 例如，以管理員身分將服務主體套用至工作區。
 

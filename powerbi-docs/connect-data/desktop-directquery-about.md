@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39b6a95a9a5140e1013d3eaa400c968c40b3063c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 01ba6c2e01b3e17a3ef9c878890877e0a0b976ea
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411302"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613731"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>如何在 Power BI 中使用 DirectQuery
 
@@ -100,7 +100,7 @@ SQL Server Analysis Services 是特殊案例。 連線至 SQL Server Analysis Se
 | --- | --- |
 | 資料經常變更，且需要幾近即時的報告 |具有匯入資料的模型最多可以每小時重新整理一次 (使用 Power BI Pro 或 Power BI Premium 訂用帳戶可提高重新整理頻率)。 如果資料持續變更，且報表必須顯示最新資料，則使用匯入與排程重新整理可能無法滿足這些需求。 您可以將資料直接串流到 Power BI 中，但在此情況下，支援的資料量有限。 <br/> <br/> 相較之下，使用 DirectQuery，意味著開啟或重新整理報表或儀表板時一律會顯示來源中的最新資料。 此外，可以更頻繁地更新儀表板磚，最高每 15 分鐘一次。 |
 | 資料很大 |資料很大時，將無法全部匯入。 相較之下，DirectQuery 是就地查詢，因此不需要傳輸大量資料。 <br/> <br/> 不過，資料較大時，也可能表示對該基礎來源的查詢效能太慢，如[使用 DirectQuery 的影響](#implications-of-using-directquery)中所述。 您不一定要匯入完整的詳細資料。 相對地，您可以在匯入期間預先彙總資料。 「查詢編輯器」可讓您在匯入期間輕鬆地預先彙總。 如有必要，您可以只匯入每個視覺效果所需的彙總資料。 雖然 DirectQuery 是處理大型資料最簡單的方法，但匯入彙總資料將可解決基礎來源效能太慢的問題。 |
-| 安全性規則是在基礎來源中定義 |匯入資料之後，Power BI 會使用目前的使用者認證 (從 Power BI Desktop)，或使用設定排程重新整理時所定義的認證 (從 Power BI 服務) 連線至資料來源。 在發佈及共用這類報表時務必謹慎，請只與可查看相同資料的使用者共用，或定義資料列層級安全性作為資料集的一部分。 <br/> <br/> 在理想情況下，DirectQuery 一律會查詢基礎來源，此設定可確保套用該基礎來源中的所有安全性。 不過，Power BI 目前一律會使用與用於匯入相同的認證來連接基礎來源。 <br/> <br/> 在 Power BI 允許將報表取用者的身分識別傳遞至基礎來源之前，DirectQuery 不會提供資料來源安全性方面的優勢。 |
+| 安全性規則是在基礎來源中定義 |匯入資料之後，Power BI 會使用目前的使用者認證 (從 Power BI Desktop)，或使用設定排程重新整理時所定義的認證 (從 Power BI 服務) 連線至資料來源。 在「匯入」模式中發佈及共用具有資料的這類報表時務必謹慎，請只與可查看相同資料的使用者共用，或定義資料列層級安全性作為資料集的一部分。 <br/> <br/> DirectQuery 允許將報表檢視者的認證傳遞至基礎來源，並在該處套用安全性規則。 支援對 SQL Azure 資料來源進行單一登入，以及透過資料閘道對內部部署 SQL Server 進行單一登入。 [Power BI 中閘道的單一登入 (SSO) 概觀](service-gateway-sso-overview.md)對此會有更詳細的說明。 |
 | 套用資料主權限制 |某些組織設有資料主權相關原則，換句話說，資料不可以離開組織內部。 採用匯入的解決方案很明顯會有問題。 相對之下，使用 DirectQuery 可將資料保留在基礎來源中。 <br/> <br/> 不過，即使是使用 DirectQuery，還是會有一些視覺效果層級的資料快取保留在 Power BI 服務中，因為磚會進行排定的重新整理。 |
 | 基礎資料來源是包含量值的 OLAP 來源 |如果基礎資料來源包含「量值」(例如 SAP HANA 或 SAP Business Warehouse)，則匯入資料會衍生其他問題。 這表示匯入的資料會位於由查詢所定義的特定彙總層級。 例如，依 **Class**、**Year** 和 **City** 測量 **TotalSales**。 如果您建置的視覺效果需要更高層級彙總的資料 (例如，依 **Year** 測量的 **TotalSales**)，則系統會進一步彙總此彙總值。 此彙總對於加總量值 (例如 **Sum** 和 **Min**) 不構成問題，但對非加總量值 (例如 **Average**、**DistinctCount**) 則有問題。 <br/> <br/> 若要輕鬆地直接從來源取得正確的彙總資料 (特定視覺效果所需的資料)，則必須像是在 DirectQuery 中一樣就個別的視覺效果傳送查詢。 <br/> <br/> 連接到 SAP Business Warehouse (BW) 時，選擇 DirectQuery 可進行此量值處理。 如需 SAP BW 的詳細資訊，請參閱 [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)。 <br/> <br/> 不過，透過 SAP HANA 的 DirectQuery 目前會將其視同關聯式來源，而提供類似於匯入的行為。 [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md) 將進一步說明此方法。 |
 
@@ -172,6 +172,8 @@ DirectQuery 模型支援幾乎所有報告功能。 因此，只要基礎來源�
 如本文先前所述，DirectQuery 中的報表一律會在發佈至 Power BI 服務之後，使用相同的固定認證連線至基礎資料來源。 這是 DirectQuery 的行為 (而不是 SQL Server Analysis Services 的即時連線)，後者在這方面的行為並不相同。 您必須在發佈 DirectQuery 報表之後，立即設定所將使用的使用者認證。 在設定認證之前，在 Power BI 服務中開啟報表將會產生錯誤。
 
 一旦提供使用者認證，「不論是哪位使用者開啟報表」，都會使用這些認證。 如此，就與匯入的資料完全相同。 除非將資料列層級安全性定義為報表的一部分，否則所有使用者都會看到相同的資料。 如果基礎來源中定義了任何安全性規則，在共用報表時也必須注意這一點。
+
+此外，從 Power BI Desktop 進行 SQL Server 的 DirectQuery 連線時，不支援「替代認證」。 您可使用目前的 Windows 認證或資料庫認證。
 
 ### <a name="behavior-in-the-power-bi-service"></a>Power BI 服務中的行為
 

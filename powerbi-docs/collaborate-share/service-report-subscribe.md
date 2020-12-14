@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/01/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 384ce5efc28355ea238d5782dd1553901097e0f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411670"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613802"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -28,14 +28,14 @@ ms.locfileid: "96411670"
 - 如果您訂閱的是編頁報表，則會包含完整報表的附件。
 - 如果 Power BI 內容託管於 Premium 容量中，請將電子郵件傳送給租使用者外部的使用者。  系統管理員可以利用 Power BI 系統管理中心內現有的外部共用控制設定，控制可傳送電子郵件訂閱給外部使用者的人員存取權。
 
-![儀表板的電子郵件快照集](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
+![儀表板的電子郵件快照集](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
 
 ## <a name="requirements"></a>需求
 
 可以 **建立** 訂用帳戶的人：
 
-- 具有 Power BI Pro 授權的使用者 
-- 在 Premium 工作區或應用程式中檢視內容的使用者也可以訂閱位於該處的內容，甚至不需要 Power BI Pro 授權。 
+- 具有 Power BI Pro 授權的使用者
+- 在 Premium 工作區或應用程式中檢視內容的使用者也可以訂閱位於該處的內容，甚至不需要 Power BI Pro 授權。
 
 您不需要內容 (儀表板或報表) 的編輯權限，即可為您自己建立訂用帳戶，但您必須擁有編輯權限，才能為其他人建立訂用帳戶。
 
@@ -44,12 +44,12 @@ ms.locfileid: "96411670"
 不論您是要訂閱儀表板、報表或編頁報表，程序都很相似。 同樣的按鈕可讓您訂閱 Power BI 服務的儀表板與報表。
 
 訂閱編頁報表則略有不同。 如需詳細資訊，請參閱[為您自己和其他人訂閱 Power BI 服務中的編頁報表](../consumer/paginated-reports-subscriptions.md)。
- 
+
 ![選取訂閱圖示](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. 開啟儀表板或報表。
 2. 從頂端功能表列，選取 [訂閱] 或選取信封圖示 :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false":::。
-   
+
     ![訂閱圖示](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. 使用黃色的滑桿開啟和關閉訂閱。 將滑桿設定為 [關閉] 不會刪除訂閱。 若要刪除訂閱，請選取垃圾桶圖示。
@@ -65,8 +65,8 @@ ms.locfileid: "96411670"
 6. 根據預設，訂用帳戶開始日期是您建立訂用帳的日期。 您可以選擇選取結束日期。 如果您未設定結束日期，則結束日期自動設為開始日期的一年後。 您可以在訂用帳戶結束之前，隨時將它變更為未來的任何日期 (最多至 9999 年)。 當訂用帳戶達到結束日期時，即會停止直到您重新啟用為止。 在排程結束日期之前，您會收到通知，詢問您是否要加以延長。
 
     在下方的螢幕擷取畫面中，您可以注意到當您在訂閱報表時，實際上是在訂閱報表「頁面」。 若要訂閱報表的多張頁面，請選取 [新增其他訂用帳戶]，然後選取其他頁面。
-     
-    ![訂閱窗格](media/service-report-subscribe/power-bi-subscribe-pane.png)  
+
+    ![訂閱窗格](media/service-report-subscribe/power-bi-subscribe-pane.png)
 
 1. (選擇性) 選取是否包含返回 Power BI 內容的連結，以及是否要讓使用者存取您以其名義訂閱的內容。  如果選擇包含連結，為獲得最佳體驗，請確定所有使用者都可以存取報表。
 2. 選取 [儲存後關閉]。 針對您所選取的頻率和時間，這些訂用帳戶會收到儀表板或報表頁面的電子郵件和快照集。 總之，您可以針對每個報表或儀表板建立最多 24 個訂用帳戶，而且可以為每個訂用帳戶提供唯一的收件者、時間和頻率。 所有設定為 [在資料重新整理後] 的儀表板或報表訂閱，在第一次排程重新整理之後仍只會傳送一封電子郵件。
@@ -102,7 +102,7 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
 - 訂閱的內容
 - 收件者
 - 頻率
-- 修改者/
+- 修改者
 - 修改日期
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
@@ -118,7 +118,7 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
     - 雖然您有 Power BI Pro 授權，但可能沒有 Microsoft Exchange 授權。 如果沒有 Microsoft Exchange 授權，則 Azure Active Directory 帳戶可能沒有指定電子郵件或備用電子郵件地址。 在此情況下，雖然訂閱似乎已送出，但您永遠不會收到複本。  如果 Power BI 系統管理員指派電子郵件地址，則 Power BI 會在您下次登入時同步更新，並將該電子郵件地址用於訂閱。
 
 - 若您的儀表板或報表處於 Premium 容量中，您可以使用群組電子郵件別名進行訂閱，而不必為各同事的電子郵件一一訂閱。 別名會以目前使用中的目錄為準。
-- 若內容不在 Premium 容量中，則只有 Power BI Pro 使用者會收到電子郵件訂閱。 
+- 若內容不在 Premium 容量中，則只有 Power BI Pro 使用者會收到電子郵件訂閱。
 - 訂閱目前不支援書籤。
 - 當您編輯現有的訂閱時，一律會顯示啟用提供報表/儀表板存取權的選項。  如果您清除此選項並儲存訂閱，即會儲存該狀態。 不過，當您重新編輯報表時，預設又會勾選此選項。
 - 如果有備用電子郵件地址，但沒有主要電子郵件地址，Power BI 會使用備用電子郵件地址來傳遞訂閱。
@@ -141,9 +141,18 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
 - 電子郵件訂用帳戶目前不支援 R 支援的自訂視覺效果。
 - 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。 編頁報表支援此功能，且可供針對每個訂閱設定特定參數值。
 - 假設您的報表會與 Analysis Services 即時連線，而且您已將訂閱設定為在資料重新整理之後執行。 其將會在輪詢 Analysis Services 執行個體，且 Power BI 服務首次於您的內部部署模型中偵測到變更時執行。  Power BI 每小時都會在 Analysis Services 資料模型中檢查一次變更，以判斷何時傳送訂閱。
+- 符合下列三個條件的報表可使用完整報表附件功能：
+
+    - 位於 [Power BI Premium 或 Premium Per User](../admin/service-premium-what-is.md) 的已升級工作區中。 
+    - 附件檔案大小低於 25 MB。
+    - 報表少於 20 頁。 
+    
+    如果報表不符合這三個條件，則無法建立附件格式的完整報表訂閱。 任何現有的附件格式完整報表訂閱都會遭到停用，且您會收到一封電子郵件，說明錯誤：
+    
+    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="完整報表附件錯誤電子郵件。":::
 
 ## <a name="next-steps"></a>後續步驟
 
-- [為您自己和其他人訂閱 Power BI 服務中的編頁報表](../consumer/paginated-reports-subscriptions.md)
-- 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)    
-- [閱讀部落格文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
+- [Power BI 服務中的編頁報表：為自己和其他人訂閱](../consumer/paginated-reports-subscriptions.md)
+- 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 閱讀[儀表板電子郵件訂閱的相關 Power BI 部落格文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

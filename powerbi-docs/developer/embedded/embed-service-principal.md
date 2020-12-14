@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 17c0a4d0809aa87f50225e0c59ca3962776bd2b1
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 41b8cfe8515efbf3cc42794afcb2562f7d0c171a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514447"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907087"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>使用服務主體和應用程式祕密內嵌 Power BI 內容
 
@@ -170,7 +170,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 >若要將服務主體存取限制為特定的租用戶設定，僅允許存取特定安全性群組。 或者，您可以為服務主體建立專用的安全性群組，並將其從所需的租用戶設定中排除。
 
 >[!div class="mx-imgBorder"]
->:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="螢幕擷取畫面顯示 Power BI 入口網站內管理選項中的開發人員設定。":::
+>:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="螢幕擷取畫面，其中顯示 Power BI 服務管理選項中的 [開發人員設定]。":::
 
 ## <a name="step-4---add-the-service-principal-to-your-workspace"></a>步驟 4 - 將服務主體新增至您的工作區
 
@@ -195,12 +195,9 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ## <a name="step-5---embed-your-content"></a>步驟 5 - 內嵌內容
 
-您可以在範例應用程式或您自己的應用程式中內嵌內容。
+您可[將內容內嵌至範例應用程式](embed-sample-for-customers.md)或您自己的應用程式。
 
-* [使用範例應用程式來內嵌內容](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-* [在應用程式中內嵌內容](embed-sample-for-customers.md#embed-content-within-your-application)
-
-您的內容內嵌之後，您就可以[移至生產環境](embed-sample-for-customers.md#move-to-production)。
+您的內容內嵌之後，您就可以[移至生產環境](move-to-production.md)。
 
 >[!NOTE]
 >若要使用憑證來保護內容，請遵循[搭配服務主體和憑證內嵌 Power BI 內容](embed-service-principal-certificate.md)中所述的步驟。

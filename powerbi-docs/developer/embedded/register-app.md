@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c8d756a80cf6d748f3ff33298b3a243f82197734
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 845499bc236489932bf1347c43f7a5ba71c21a6b
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668641"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907317"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>註冊要與 Power BI 搭配使用的 Azure AD 應用程式
 
@@ -32,7 +32,7 @@ ms.locfileid: "94668641"
 
 * **主要使用者** 帳戶 (用於登入 Power BI 的 Power BI Pro 授權)
 
-*  [服務主體](embed-service-principal.md)
+* [服務主體](embed-service-principal.md)
 
 「針對您的客戶進行內嵌」解決方案通常是由獨立軟體廠商 (ISV) 以及為協力廠商建立應用程式的開發人員所使用。
 
@@ -115,7 +115,16 @@ ms.locfileid: "94668641"
 
 # <a name="manual-registration"></a>[手動註冊](#tab/manual)
 
-只有當您打算建立「針對您的組織進行內嵌」解決方案時，才使用 Azure AD 手動應用程式註冊。 如需如何在 Azure Active Directory 中註冊應用程式的詳細資訊，請參閱[向 Azure Active Directory 註冊應用程式](/azure/active-directory/develop/quickstart-v2-register-an-app)。
+只有當打算建立下列其中一個解決方案時，才使用 Azure AD 手動應用程式註冊：
+
+* 「為您的組織內嵌」應用程式。
+
+* 搭配「服務主體」的「為您的客戶內嵌」應用程式。
+
+    >[!NOTE]
+    >如果選擇此選項，在註冊 Azure AD 應用程式之後，您必須對其[新增 Power BI 權限](#change-your-azure-ad-apps-permissions)。
+
+如需如何在 Azure Active Directory 中註冊應用程式的詳細資訊，請參閱[向 Azure Active Directory 註冊應用程式](/azure/active-directory/develop/quickstart-v2-register-an-app)。
 
 1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
@@ -140,6 +149,9 @@ ms.locfileid: "94668641"
 ## <a name="change-your-azure-ad-apps-permissions"></a>變更您 Azure AD 應用程式的權限
 
 註冊應用程式之後，您可以對其權限進行變更。 您可以透過程式設計的方式變更權限，或在 Azure 入口網站中進行此動作。
+
+>[!NOTE]
+>Azure AD 應用程式權限僅適用於搭配「主使用者」驗證方法的「為您的客戶內嵌」解決方案。
 
 # <a name="azure"></a>[Azure](#tab/Azure)
 
