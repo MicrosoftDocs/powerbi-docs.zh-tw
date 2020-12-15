@@ -7,8 +7,6 @@
       items:
         - name: 查詢編輯器概觀
           href: desktop-query-overview.md
-        - name: 使用資料流程的自助資料準備
-          href: ./dataflows/dataflows-introduction-self-service.md
     - name: 教學課程
       expanded: true
       items:
