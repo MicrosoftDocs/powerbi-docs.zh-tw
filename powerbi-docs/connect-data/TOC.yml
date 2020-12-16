@@ -9,6 +9,8 @@
           href: service-get-data.md
         - name: 什麼是內部部署的資料閘道？
           href: service-gateway-onprem.md
+        - name: Power BI 服務中的資料集探索
+          href: service-datasets-hub.md
     - name: 快速入門
       expanded: true
       items:
