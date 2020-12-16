@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/17/2020
-ms.openlocfilehash: 18b7e55d409dc6562fab7cf1f36b83e7edac994b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: 67a0577c906e23fc51182120f1445814bdcd8028
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96392856"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491820"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 資料來源
 
@@ -34,6 +34,7 @@ ms.locfileid: "96392856"
 | Azure 資料總管 (kusto) | 是 | 是 | 是 | 是 | 否 | 是 |
 | Azure Data Lake Storage Gen1 | 是 | 是 | 否 | 否 | 否 | 否 |
 | Azure Data Lake Storage Gen2 | 是 | 是 | 否 | 是 | 否 | 是 |
+| Azure Databricks | 是 | 是 | 是 | 是 | 否 | 否 |
 | Azure DevOps | 是 | 是 | 否 | 否 | 否 | 否 |
 | Azure DevOps Server | 是 | 是 | 否 | 是 | 是 | 否 |
 | Azure HDInsight (HDFS) | 是 | 是 | 否 | 否 | 否 | 否 |
@@ -43,7 +44,7 @@ ms.locfileid: "96392856"
 | Azure 表格儲存體 | 是 | 是 | 否 | 是 | 否 | 是 |
 | BI 連接器 | 是 | 是 | 是 | 是 | 是 | 否 |
 | BI360 - Budgeting & Financial Reporting | 是 | 是 | 否 | 否 | 否 | 否 |
-| Common Data Service | 是 | 是 | 否 | 否 | 否 | 是 |
+| Microsoft Dataverse | 是 | 是 | 否 | 否 | 否 | 是 |
 | Data.World - 取得資料集 | 是 | 是 | 否 | 否 | 否 | 否 |
 | Denodo | 是 | 是 | 是 | 是 | 是 | 否 |
 | Dremio | 是 | 是 | 是 | 是 | 是 | 否 |
