@@ -82,6 +82,8 @@
           href: drill-down-support.md
         - name: 將色彩新增至您的視覺效果
           href: add-colors-power-bi-visual.md
+        - name: 新增條件式格式設定
+          href: conditional-format.md
         - name: 在視覺效果中醒目提示資料
           href: highlight.md
         - name: 新增高對比模式支援
