@@ -8,14 +8,14 @@ ms.custom: contperfq1
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
-ms.date: 08/19/2020
+ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: a1fb3a76cc22bf4f22fc080bcde46ec40a3720bb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e9bb735668290068e0503f3823fe35482437f9c0
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418501"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492234"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 Power BI Desktop 使用者入門指南。 此導覽說明 Power BI Desktop 的運作方式和功能，並說明如何建置穩固的資料模型和令人讚嘆的報表，來增強您的商業智慧。

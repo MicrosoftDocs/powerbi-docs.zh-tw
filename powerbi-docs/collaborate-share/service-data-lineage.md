@@ -9,12 +9,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
 LocalizationGroup: ''
-ms.openlocfilehash: d2cd60a62d321910e280ebd8b38411b393d96bca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8b119f5134fdaf4e251f9a8da560a2a3f7f3a4eb
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407392"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492096"
 ---
 # <a name="data-lineage"></a>資料譜系
 在新式商業智慧 (BI) 專案中，了解從資料來源到其目的地的資料流程，可能是一項挑戰。 如果您已建置跨多個資料來源、成品和相依性的進階分析專案，挑戰就會更加艱鉅。 「如果我變更此資料會發生什麼事？」 或「為什麼這份報表不是最新的？」 之類的問題，可能會變得難以回答。 您可能會需要一組專家或是進行深入調查，才能回答這些問題。 我們設計了資料譜系檢視來協助您回答這些問題。
@@ -26,10 +26,6 @@ Power BI 有數個成品類型，例如儀表板、報表、資料集和資料�
 在譜系檢視中，您會看到工作區中所有成品之間的譜系關聯性以及其所有外部相依性。 它會顯示所有工作區成品之間的連線，包括上游和下游的資料流程連線。    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rUj06dqB98g" frameborder="0" allowfullscreen></iframe>
-
-
-
-> [!VIDEO https://youtu.be/rUj06dqB98g]
 
 ## <a name="explore-lineage-view"></a>探索譜系檢視
 
