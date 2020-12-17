@@ -120,6 +120,7 @@
             - name: 最佳作法
               href: deployment-pipelines-best-practices.md
     - name: 操作指南
+      expanded: true
       items:
         - name: Power BI 報表
           items:

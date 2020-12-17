@@ -14,12 +14,14 @@
         - name: Power BI Desktop 與服務的比較
           href: service-service-vs-desktop.md
     - name: 教學課程
+      expanded: true
       items:
         - name: 開始使用 Power BI Desktop
           href: desktop-getting-started.md
         - name: 開始使用 Power BI 服務
           href: service-get-started.md
     - name: 概念
+      expanded: true
       items:
         - name: 最新的 Power BI Desktop 中有什麼新功能？
           href: desktop-latest-update.md
@@ -44,6 +46,7 @@
             - name: 安全性基準
               href: security-baseline.md
     - name: 操作指南
+      expanded: true
       items:
         - name: 取得 Power BI Desktop
           href: desktop-get-the-desktop.md
