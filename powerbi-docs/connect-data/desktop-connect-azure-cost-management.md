@@ -8,14 +8,14 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 09/30/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6d99e91657d0c5f0bbd1e9c665f00d16c34ba24f
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411463"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353235"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Azure 成本管理連接器建立視覺效果和報表
 
@@ -35,7 +35,7 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 若要在 Power BI Desktop 中使用 **Azure 成本管理連接器**，請採取下列步驟：
 
 1.  在 [常用] 功能區中，選取 [取得資料]。
-2.  從資料類別清單選取 [Azure]。
+2.  從資料類別清單中選取 [Azure]。
 3.  選取 [Azure 成本管理]。
 
     ![取得資料](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
@@ -56,7 +56,7 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 
     ![顯示 Azure 成本管理屬性的螢幕擷取畫面，其中包含帳單設定檔識別碼的範圍。](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
-7.  出現提示時，請使用您的 Azure 使用者帳戶與密碼登入。 
+7.  出現提示時，請使用您的 Azure 使用者帳戶與密碼登入。 您必須使用計費帳戶擁有者才能成功存取。 
 
 
 ## <a name="connect-to-an-enterprise-agreement-account"></a>連線到 Enterprise 合約帳戶
@@ -71,13 +71,11 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 
     ![顯示 Azure 成本管理屬性的螢幕擷取畫面，其中包含註冊號碼範圍。](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
-6.  出現提示時，請使用您的 Azure 使用者帳戶與密碼登入。 
+6.  出現提示時，請使用您的 Azure 使用者帳戶與密碼登入。 您必須使用 Enterprise 合約的企業系統管理員帳戶。
 
 ## <a name="data-available-through-the-connector"></a>透過連接器提供的資料
 
 成功驗證之後，[導覽器] 視窗隨即出現，其中包含下列可用資料表：
-
-
 
 | **Table** | **說明** |
 | --- | --- |

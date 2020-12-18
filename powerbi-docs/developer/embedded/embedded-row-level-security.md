@@ -1,5 +1,5 @@
 ---
-title: 搭配 Power BI 內嵌內容使用資料列層級安全性
+title: 搭配在 Power BI 內嵌式分析中的內嵌的容使用資料列層級安全性
 description: 了解您在應用程式中內嵌 Power BI 內容時必須採取的步驟
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 6f65bf5b430c5435936acbd3a7cdfbe4c57d1dec
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120789"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097999"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 

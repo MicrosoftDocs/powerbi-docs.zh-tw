@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 06/18/2020
+ms.date: 12/14/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b26f8fe04c7aaf6847de50398c54db6a3870844
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411785"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513773"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>在 Power BI 中共同作業和共用的方式
 
@@ -27,22 +27,22 @@ ms.locfileid: "96411785"
 
 **共同作業**
 
-- 在「工作區」中與同事共同作業，以建立有意義的報表和儀表板。
-- 在 *Microsoft Teams* 中共同作業。
+- [在「工作區」中與同事共同作業](#collaborate-in-a-workspace)，以建立有意義的報表與儀表板。
+- [在 Microsoft Teams 中共同作業](#collaborate-in-microsoft-teams)。
 
 **散發或共用儀表板和報表**
 
-- 您可以從 [我的工作區] 或其他工作區「共用儀表板或報表」。
-- 從 Power BI「行動應用程式」標註並共用。
-- 將工作區中的儀表板和報表組合為「應用程式」，並散發給更大型群組或您的整個組織。
-- 在「安全的入口網站」或「公用網站」中內嵌報表。
-- 列印報表。
-- 建立可讓您透過 Microsoft AppSource 散發給外部 Power BI 使用者的「範本應用程式」。
+- 從 [我的工作區] 或其他工作區[「共用儀表板或報表」](#share-dashboards-and-reports)。
+- [從 Power BI「行動應用程式」標註並共用](#annotate-and-share-from-the-power-bi-mobile-apps)。
+- 將工作區中的儀表板與報表組合為「應用程式」，並[將您的應用程式散發](#distribute-insights-in-an-app)給更大型群組或您的整個組織。
+- 在「安全的入口網站」或「公用網站」中[內嵌報表](#embed-reports-in-secure-portals-or-public-web-sites)。
+- [列印報表](#print-or-save-as-pdf-or-other-static-file)。
+- [建立「範本應用程式」](#create-and-deploy-template-apps)，可讓您透過 Microsoft AppSource 散發給外部 Power BI 使用者。
  
 **共用資料**
 
-- 建立「共用資料集」，可讓同事在自己的工作區中用來作為自己報表的基礎。
-- 建立「資料流程」作為共用一般資料來源的方式。
+- [建立「共用資料集」](#share-a-dataset)，可讓同事在自己的工作區中用作自己報表的基礎。
+- [建立「資料流程」](#create-dataflows)作為共用一般資料來源的方式。
 
 無論您選擇哪個選項，都必須具有 [Power BI Pro 授權](../fundamentals/service-features-license-type.md)，或內容必須位於[進階容量](../admin/service-premium-what-is.md)中，才能共用您的內容。 根據您選擇的選項，檢視您內容的同事會有不同授權需求。 下列各節組說明詳細資料。 
 
@@ -67,7 +67,7 @@ ms.locfileid: "96411785"
 
 ## <a name="collaborate-in-microsoft-teams"></a>在 Microsoft Teams 中共同作業
 
-藉由在 Microsoft Teams 中內嵌 Power BI 報表和 Power BI 編頁報表，即可增加組織中以資料導向的共同作業。 Power BI 服務會針對報表提供 [在 Teams 中共用] 按鈕。 您可為每個個別報表新增不同的 Power BI 索引標籤，並為每個索引標籤提供報表的名稱或任何其他名稱。 
+藉由在 Microsoft Teams 中內嵌 Power BI 報表和 Power BI 編頁報表，即可增加組織中以資料導向的共同作業。 Power BI 服務會針對報表提供 [在 Teams 中聊天] 按鈕。 您可為每個個別報表新增不同的 Power BI 索引標籤，並為每個索引標籤提供報表的名稱或任何其他名稱。 
 
 當您將 Power BI 報表索引標籤新增至 Microsoft Teams 時，Teams 會自動為報表建立索引標籤交談。 該 Microsoft Teams 頻道中的每個人都可以在交談中查看及討論報表。 
 
@@ -77,7 +77,7 @@ ms.locfileid: "96411785"
 
 ## <a name="share-dashboards-and-reports"></a>共用儀表板和報表
 
-假設您已經在 Power BI Desktop 中完成報表，而且希望其他人能夠存取該報表。 有一個存取方式是在 Power BI 服務中「共用」該報表。 您可以將報表發佈到自己的 [我的工作區] 或其他工作區。 也許您可以建立儀表板來使用報表，而您已準備就緒。
+假設您在 Power BI Desktop 中的報表已就緒，而且希望其他人能夠存取該報表。 有一個存取方式是在 Power BI 服務中「共用」該報表。 您可以將報表發佈到自己的 [我的工作區] 或其他工作區。 也許您可以建立儀表板來使用報表，而您已準備就緒。
 
 ![共用報表](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
@@ -118,14 +118,14 @@ ms.locfileid: "96411785"
 ### <a name="embed-in-secure-portals"></a>在安全的入口網站中內嵌
 
 您可在使用者想要看到 Power BI 報表的入口網站或網站中，予以內嵌。  
-使用 Power BI 服務中的 [內嵌在 SharePoint Online 中] 和 [內嵌] 選項，您就能安全地為內部使用者內嵌報表。 無論您選擇哪種選項，Power BI 都會在使用者查看內容之前強制執行所有權限和資料安全性。 檢視報表的人必須有適當授權。  
+使用 Power BI 服務中的 [內嵌在 SharePoint Online 中] 和 [內嵌] 選項，您就能安全地為內部使用者內嵌報表。 無論您選擇哪種選項，Power BI 都會在使用者查看內容之前施行所有權限與資料安全性。 檢視報表的人必須有適當授權。  
 
 - [在 SharePoint Online 內嵌] 可與 SharePoint Online 的 Power BI Web 組件搭配使用。 可提供單一登入體驗，掌控如何內嵌報表。 深入了解[內嵌在 SharePoint Online 中](service-embed-report-spo.md)。
 - 只要是支援使用 URL 或 iFrame 內嵌內容的入口網站或網站，則皆可使用 [內嵌] 選項。 深入了解[內嵌](service-embed-secure.md)選項。
 
 ### <a name="publish-to-public-web-sites"></a>發佈到公用網站
 
-透過 [發行至 Web]，您可以藉由將視覺效果內嵌到部落格文章、網站、社交媒體和其他線上通訊，來將 Power BI 報表發佈到整個網際網路。 網際網路上的任何人都可以檢視您的報表，而且您無法控制誰可以查看您的發行內容。 他們不需要 Power BI 授權。 您只能在可編輯的報表中使用發行至網站。 如果報表是與您共用，或報表是在應用程式中，則您無法將報表發行至網站。 了解如何[發行至 Web](service-publish-to-web.md)。
+[發佈到 Web] 可讓您透過將視覺效果內嵌到部落格文章、網站、社交媒體與其他線上通訊，將 Power BI 報表發佈到整個網際網路。 網際網路上的任何人都可以檢視您的報表，而且您無法控制誰會查看您的發佈內容。 他們不需要 Power BI 授權。 您只能在可編輯的報表中使用發行至網站。 如果報表是與您共用，或報表是在應用程式中，則您無法將報表發行至網站。 了解如何[發行至 Web](service-publish-to-web.md)。
 
 >[!Warning]
 >僅使用 [發佈至網路](service-publish-to-web.md) 來公開共用內容，而不是內部共用。

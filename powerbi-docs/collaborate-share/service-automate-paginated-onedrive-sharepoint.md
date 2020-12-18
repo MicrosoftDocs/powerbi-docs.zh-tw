@@ -9,16 +9,17 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a0a504db15d78bec112aaafd2a972f066e88193
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6aaad48fb3e97aa6c1b4fc51834ee593a49a8192
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407668"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097723"
 ---
 # <a name="save-a-paginated-report-to-onedrive-for-business-or-sharepoint-online"></a>將編頁報表儲存至商務用 OneDrive 或 SharePoint Online
 
 透過 [Power Automate](/power-automate/getting-started)，您可以將 Power BI 編頁報表以各種支援的格式自動匯出，並分散至各種案例。 在本文中，您將使用 Power Automate 自動將 Power BI 編頁報表儲存至商務用 OneDrive 或 SharePoint Online 資料夾。
+
 
 :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/paginated-onedrive-flow.png" alt-text="將編頁報表儲存至 OneDrive 或 SharePoint Online 的 Power Automate 流程螢幕擷取畫面":::
 
@@ -28,7 +29,7 @@ ms.locfileid: "96407668"
 
 若要遵循此做法，請確定您有：
 
-- 您的 Power BI 租用戶中至少有一個工作區受保留容量所支援。 此容量可以是 A4/P1 – A6/P3 SKU 中的任何一個。 請前往 [Power BI Premium 中的保留容量](../admin/service-premium-what-is.md)閱讀更多內容。
+- 您的 Power BI 租用戶中至少有一個工作區受保留容量所支援。 此容量可以是 A4/P1 – A6/P3 SKU 中的任何一個。 深入了解 [Power BI Premium 中編頁報表的保留容量](../admin/service-premium-what-is.md#paginated-reports)
 - 存取 Power Automate 中的標準連接器，其隨附於任何 Office 365 訂閱。
 
 ## <a name="save-a-paginated-report-to-onedrive-for-business-or-a-sharepoint-online-folder"></a>將編頁報表儲存至商務用 OneDrive 或 SharePoint Online 資料夾 
@@ -57,7 +58,7 @@ ms.locfileid: "96407668"
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-3-advanced-recurrence.png" alt-text="顯示定期的進階選項。":::
 
-1. 在 [工作區] 方塊中，選取保留容量中的工作區。 在 [報表] 方塊中，選取您要匯出的所選工作區編頁報表。 在 [匯出格式] 方塊中，選取所需的匯出格式。 您可以選擇指定編頁報表的參數。 若要尋找參數的詳細描述，請參閱 [Power BI Rest API 的連接器參考](/connectors/powerbi/#export-to-file-for-paginated-reports)。  
+1. 在 [工作區] 方塊中，選取保留容量中的工作區。 在 [報表] 方塊中，選取您要匯出的所選工作區編頁報表。 在 [匯出格式] 方塊中，選取所需的匯出格式。 您可以選擇指定編頁報表的參數。 若要尋找參數的詳細描述，請參閱 [Power BI REST API 的連接器參考](/connectors/powerbi/#export-to-file-for-paginated-reports)。  
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-4-export-format.png" alt-text="選取編頁報表、工作區與匯出格式。":::
 
@@ -69,7 +70,7 @@ ms.locfileid: "96407668"
 
 1. 當您完成時，請選取 [下一步] ****  或 [儲存]。 Power Automate 會建立及評估流程，並讓您知道是否找到錯誤。 
 
-1. 若發生錯誤，請選取 [編輯流程] ****  加以修正。 否則，請選取 [返回] 箭頭以檢視流程詳細資料，並執行新流程。 
+1. 若發生錯誤，請選取 [編輯流程] ****  加以修正。 否則，請選取 [上一步] 箭頭以檢視流程詳細資料，並執行新流程。 
 
     當您執行此流程時，Power Automate 會將指定格式的編頁報表匯出至商務用 OneDrive 或 SharePoint Online。  
 

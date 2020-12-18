@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-security
 ms.topic: how-to
-ms.date: 11/12/2020
+ms.date: 12/14/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 446c3620cf3b2a7435897108cfcd9c8972ad8bb4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: da5ee837345b6f26dd6636bc93f6b38c1e0f5ea7
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412153"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491843"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>使用私人連結存取 Power BI
 
@@ -118,9 +118,9 @@ Power BI 服務會實作私人端點，而不是服務端點。
 | ```<resource-group-name>```   | myResourceGroup |
 | ```<virtual-network-name>```  | myVirtualNetwork |
 | ```<region-name>```   | 美國中部  |
-| ```<IPv4-address-space>```    | 10.1.0.0/16 |
+| ```<IPv4-address-space>```    | 10.5.0.0/16 |
 | ```<subnet-name>```   | mySubnet |
-| ```<subnet-address-range>```  | 10.1.0.0/24 |
+| ```<subnet-address-range>```  | 10.5.0.0/24 |
 
 1. 在畫面的左上方，選取 [建立資源] > [網路] > [虛擬網路]  ，或在搜尋方塊中搜尋 [虛擬網路]  。
 2. 在 [建立虛擬網路] 的 [基本] 索引標籤中輸入或選取下列資訊：
@@ -166,7 +166,6 @@ Power BI 服務會實作私人端點，而不是服務端點。
 
 ## <a name="create-a-virtual-machine-vm"></a>建立虛擬機器 (VM)
 
-
 下一個步驟是建立虛擬網路，以及用來裝載該虛擬機器 (VM) 的子網路。
 
 1. 在 Azure 入口網站畫面左上角，選取 [建立資源] > [計算] > [虛擬機器]。
@@ -200,8 +199,8 @@ Power BI 服務會實作私人端點，而不是服務端點。
     |設定 | 值 |
     |-------------------|---------|
     |虛擬網路|   保留預設值 [MyVirtualNetwork]|
-    |位址空間| 保留預設值 [10.1.0.0/24]|
-    |子網路 |保留預設值 [mySubnet (10.1.0.0/24)]|
+    |位址空間| 保留預設值 [10.5.0.0/24]|
+    |子網路 |保留預設值 [mySubnet (10.5.0.0/24)]|
     |公用 IP| 保留預設值 [(new) myVm-ip]|
     |公用輸入連接埠|  選取 [允許選取的項目]****。|
     |選取輸入連接埠|  選取 [RDP]|
@@ -289,7 +288,7 @@ Power BI 服務會實作私人端點，而不是服務端點。
     
     Non-authoritative answer:
     Name:    52d40f65ad6d48c3906f1ccf598612d4-api.privatelink.analysis.windows.net
-    Address:  10.1.0.4
+    Address:  10.5.0.4
     ```
 
 4. 開啟瀏覽器並前往 app.powerbi.com，即可私下存取 Power BI。
@@ -306,12 +305,10 @@ Power BI 服務會實作私人端點，而不是服務端點。
 
 使用 Power BI 的私人連結時，有幾件需要牢記的注意事項：
 
-* 使用私人連結環境時，將無法使用任何外部映像或主題，且可能會影響自訂視覺效果
-* 使用私人連結環境時，將無法使用匯出服務 (例如 [匯出至 PDF]、[從報表匯出至 Excel] 以及其他匯出服務)
-* SQL Server Reporting Services 報表，即 RDL 檔案(*.rdl 格式檔案) 無法在私人連結環境中進行轉譯
-* 如果已停用網際網路存取，而且資料集或資料流程已連線到 Power BI 資料集或資料流程做為資料來源，連線會失敗
-* 使用計量「無法」在啟用 Private Link 的情況下運作
-* 當您在 Power BI 中啟用 [封鎖公用網際網路存取] 時，將不會支援 [發行至 Web] \(其會呈現為灰色\)
+* 使用私人連結環境時，將無法使用任何外部影像或佈景主題，並可能會影響自訂視覺效果。
+* 若已停用網際網路存取，而且資料集或資料流程已連線到 Power BI 資料集或資料流程作為資料來源，則連線將失敗。
+* 使用計量「無法」在啟用 Private Link 的情況下運作。
+* 當您在 Power BI 中啟用 [封鎖公用網際網路存取] 時，將不會支援 [發佈至 Web] (其將呈現灰色)。
 
 
 ## <a name="next-steps"></a>後續步驟

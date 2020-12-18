@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e9fd1179dc15776cef701476d38b18823f3a8deb
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96403160"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998779"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>連線至危機通訊狀態報表
 
@@ -57,25 +57,22 @@ ms.locfileid: "96403160"
 
 1. 選取 [應用程式] 頁面上的圖示以開啟應用程式。
 
-1. 在啟動顯示畫面上，選取 [探索]  。
-
-   ![範本應用程式啟動顯示畫面](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-splash-screen.png)
 
    應用程式隨即開啟，其中顯示範例資料。
 
-1. 在頁面頂端的橫幅中，選取 [連線至資料]  連結。
+1. 在頁面頂端的橫幅中，選取 [連線至資料] 連結。
 
    ![危機通訊狀態報表應用程式的連線至資料連結](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-connect-data.png)
 
 1. 在對話方塊中：
    1. 在 [SharePoint_Folder] 欄位中，輸入 ["CI_Employee Status" SharePoint 清單路徑](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi)。
-   1. 在 [List_ID] 欄位中，輸入從清單設定中取得的清單識別碼。 完成時，按一下 [下一步]  。
+   1. 在 [List_ID] 欄位中，輸入您從清單設定中取得的清單識別碼。 完成時，按一下 [下一步]。
 
    ![危機通訊狀態報表應用程式 URL 對話方塊](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
 
 1. 在顯示的下一個對話方塊中，將驗證方法設定為 **OAuth2**。 您不需要對隱私權等級設定執行任何操作。
 
-   選取 [登入]  。
+   選取 [登入]。
 
    ![危機通訊狀態報表應用程式驗證對話方塊](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-authentication-dialog.png)
 
@@ -91,11 +88,11 @@ ms.locfileid: "96403160"
 
 當資料重新整理完成時，請[設定重新整理排程](../connect-data/refresh-scheduled-refresh.md)以將報表資料保持在最新狀態。
 
-1. 在頂端標題列中，選取 [Power BI]  。
+1. 在頂端標題列中，選取 [Power BI]。
 
    ![Power BI 階層連結](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 
-1. 在左側瀏覽窗格中，在 [工作區]  下尋找醫院緊急回應決策支援儀表板工作區，並遵循[設定排程的重新整理](../connect-data/refresh-scheduled-refresh.md)一文中所述指示。
+1. 在左側瀏覽窗格中，在 [工作區] 下尋找醫院緊急回應決策支援儀表板工作區，並遵循[設定排程的重新整理](../connect-data/refresh-scheduled-refresh.md)一文中所述指示。
 
 ## <a name="customize-and-share"></a>自訂和共用
 
@@ -103,6 +100,6 @@ ms.locfileid: "96403160"
 
 ## <a name="next-steps"></a>後續步驟
 * [設定及了解 Power Apps 中的危機通訊範例範本](/powerapps/maker/canvas-apps/sample-crisis-communication-app) (機器翻譯)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 * [什麼是 Power BI 範本應用程式？](../connect-data/service-template-apps-overview.md)
 * [在組織中安裝並散發範本應用程式](../connect-data/service-template-apps-install-distribute.md)

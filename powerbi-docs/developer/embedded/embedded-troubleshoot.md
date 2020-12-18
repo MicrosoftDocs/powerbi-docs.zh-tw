@@ -1,5 +1,5 @@
 ---
-title: 為您的內嵌應用程式進行疑難排解
+title: 為您的 Power BI 內嵌式分析應用程式進行疑難排解
 description: 本文探討您在從 Power BI 內嵌內容時，可能會遇到的幾個常見問題。
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749061"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098068"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -101,7 +101,7 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>驗證因 AADSTS90002 而失敗：找不到租用戶的 'authorize'
 
- 如果您在登入時收到如下訊息：***error: invalid_request, error_description:AADSTS90002：找不到租用戶的 'authorize'***，這是因為 ADAL 4.x 不支援 "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" 作為授權單位 URL。
+ 若您在登入時收到如下訊息：***error: invalid_request, error_description:AADSTS90002：找不到租用戶的 'authorize'** ，這是因為 ADAL 4.x 不支援 "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" 作為授權單位 URL。
  
 若要解決此問題，您應該從授權單位 URL 的結尾修剪 "oauth2/authorize/"；如需參考，請參閱 [Power BI 開發人員範例](https://github.com/Microsoft/PowerBI-Developer-Samples)。
 
@@ -109,15 +109,15 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>驗證因 AADSTS70002 或 AADSTS50053 而失敗
 
-**_(AADSTS70002：驗證認證時發生錯誤。AADSTS50053：使用不正確的使用者識別碼或密碼，嘗試登入太多次)_**
+_*_ (AADSTS70002：驗證認證時發生錯誤。 AADSTS50053：使用不正確的使用者識別碼或密碼，嘗試登入太多次)_**
 
-如果您使用 Power BI Embedded 與 Azure AD 直接驗證，且在登入時收到如下訊息 ***error:unauthorized_client, error_description:AADSTS70002：驗證認證時發生錯誤。AADSTS50053：您嘗試使用不正確的使用者識別碼或密碼登入太多次***，這是因為從 2018 年 6 月 14 日起直接驗證已預設為停用。
+若您使用 Power BI Embedded 與 Azure AD 直接驗證，並在登入時收到如下訊息：_error:unauthorized_client, error_description:AADSTS70002：驗證認證時發生錯誤。AADSTS50053：使用不正確的使用者識別碼或密碼，嘗試登入太多次_ _；這是因為從 2018 年 6 月 14 日起，直接驗證已預設為停用。
 
 您可使用以組織或[服務主體](/azure/active-directory/develop/active-directory-application-objects#service-principal-object)為範圍的 [Azure AD 原則](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)，重新加以開啟。
 
 建議您只依據個別應用程式啟用此原則。
 
-若要建立此原則，您需要是要在其中建立並指派原則目錄的**全域管理員**。 下列範例指令碼示範如何建立原則，並將它指派給此應用程式的 SP：
+若要建立此原則，您必須是要在其中建立並指派原則目錄的_「全域管理員」*。 下列範例指令碼示範如何建立原則，並將它指派給此應用程式的 SP：
 
 1. 安裝 [Azure AD Preview PowerShell 模組](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
 
@@ -199,7 +199,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 [從 **JavaScript SDK** 使用從 *error* 事件傳回的 **IError 物件**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)來針對您的應用程式進行偵錯並深入了解錯誤原因。
 
-取得 IError 物件之後，您應該看看符合您使用之內嵌類型的適當常見錯誤表格。 比較 **IError 屬性**與該表格中的屬性，並尋找可能的失敗原因。
+取得 IError 物件之後，您應該看看符合您使用之內嵌類型的適當常見錯誤表格。 比較 **IError 屬性** 與該表格中的屬性，並尋找可能的失敗原因。
 
 ### <a name="typical-errors-when-embedding-for-power-bi-users"></a>針對 Power BI 內嵌時的典型錯誤
 
@@ -255,7 +255,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 使用內嵌安裝工具之前，請驗證您具備所有適當的必要條件。 您需要 **Power BI Pro** 帳戶和 **Microsoft Azure** 訂用帳戶。
 
-* 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
+* 如果您尚未註冊 **Power BI Pro**，請先 [註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
 * 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
 * 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
 * 您必須安裝 [Visual Studio](https://www.visualstudio.com/) (2013 版或更新版本)。
@@ -266,7 +266,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>使用對客戶進行內嵌的應用程式範例
 
-若您使用**為客戶進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\App Owns Data*資料夾，然後執行 *PowerBIEmbedded_AppOwnsData.sln* 檔案。
+若您使用 **為客戶進行內嵌** 體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\App Owns Data* 資料夾，然後執行 *PowerBIEmbedded_AppOwnsData.sln* 檔案。
 
 當您選取 [授與權限]  時 (授與權限步驟)，收到下列錯誤：
 
@@ -290,9 +290,9 @@ Password is empty. Please fill password of Power BI username in web.config.
 
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>對組織的應用程式範例使用 Embed
 
-若您使用**為組織進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 資料夾，然後執行 *pbi-saas-embed-report.sln* 檔案。
+若您使用 **為組織進行內嵌** 體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 資料夾，然後執行 *pbi-saas-embed-report.sln* 檔案。
 
-當您執行**對組織進行內嵌**應用程式範例時，收到下列錯誤：
+當您執行 **對組織進行內嵌** 應用程式範例時，收到下列錯誤：
 
 ```output
 AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>

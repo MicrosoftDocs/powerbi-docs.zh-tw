@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/19/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e92afdbad41f212ac93245583430ae44fe0abaf9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f0d756b7909043a644ab8220cd71a9fca9b1c0e0
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410635"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998687"
 ---
 # <a name="connect-to-github-with-power-bi"></a>使用 Power BI 連接到 GitHub
 本文將逐步引導您使用 Power BI 範本應用程式從 GitHub 帳戶提取資料。 範本應用程式會產生由儀表板、一組報表與資料集組成的工作區，可讓您探索 GitHub 資料。 適用於 Power BI 的 GitHub 應用程式會顯示 GitHub 存放庫 (也稱為 repo) 中的見解，以及參與、問題、提取要求和作用中使用者的相關資料。
@@ -41,7 +41,7 @@ ms.locfileid: "96410635"
 
 1. 選取 [安裝]。 
 
-    ![安裝 GitHub 範本應用程式](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
+    ![安裝 GitHub 範本應用程式](media/service-connect-to-github/power-bi-github-install-dialog.png)
 
     應用程式安裝完成後，會顯示在 [應用程式] 頁面上。
 
@@ -51,30 +51,23 @@ ms.locfileid: "96410635"
 
 1. 選取 [應用程式] 頁面上的圖示以開啟應用程式。
 
-1. 在啟動顯示畫面上，選取 [探索應用程式]。
-
-   ![範本應用程式啟動顯示畫面](media/service-connect-to-github/service-github-app-splash-screen.png)
-
    應用程式隨即開啟，其中顯示範例資料。
 
 1. 在頁面頂端的橫幅中，選取 [連線至資料] 連結。
 
    ![GitHub 應用程式 [連線至資料] 連結](media/service-connect-to-github/service-github-app-connect-data.png)
 
-1. 在出現的對話方塊中，輸入該存放庫的存放庫名稱與存放庫擁有者。 請參閱以下關於[尋找這些參數](#FindingParams)的詳細資料。 完成時，按一下 [下一步]。
+1. 這會開啟 [參數] 對話方塊，您可以在其中將資料來源從範例資料變更為您自己的資料來源 (請參閱[已知的限制](service-template-apps-overview.md#known-limitations))，後面接著驗證方法對話方塊。 您可能必須重新定義這些對話方塊中的值。
 
-   ![Power BI GitHub 存放庫名稱](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+   ![連線至資料對話方塊的螢幕擷取畫面。](media/service-connect-to-github/power-bi-template-app-connect-to-data-dialogs.png)
 
-1. 在下一個顯示的對話方塊中，確認已將驗證方法設為 [OAuth2]。 您不需要對隱私權設定執行任何操作。 在準備就緒後，請按一下 [登入]。
-
-   ![Power BI GitHub 驗證方法](media/service-connect-to-github/power-bi-github-authentication.png)
 
 1. 輸入 GitHub 認證並遵循 GitHub 驗證流程 (如果您已經使用瀏覽器登入，則可能會略過此步驟)。
 
    ![Power BI GitHub 驗證流程](media/service-connect-to-github/power-bi-github-authenticate-process.png)
 
 
-登入後，報表會連線至資料來源，並使用最新的資料填入。 在這段期間，活動監視器會開啟。
+當完成填寫連線對話方塊並登入 GitHub 之後，即會開始連線程序。 橫幅會通知資料正在重新整理，同時您也會看到範例資料。
 
 ![Power BI GitHub 應用程式重新整理進行中](media/service-connect-to-github/service-github-app-refresh-monitor.png)
 

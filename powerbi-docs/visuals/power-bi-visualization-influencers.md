@@ -6,15 +6,16 @@ ms.author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: pbi-visuals
+ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 598865676a4cb5ea5378937cebe75f76cc460ce3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f76203e00bb691abe9a4d212c930595d180798d8
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419076"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999120"
 ---
 # <a name="create-key-influencers-visualizations"></a>建立關鍵影響因素視覺效果
 

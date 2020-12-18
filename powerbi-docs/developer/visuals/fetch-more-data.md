@@ -7,17 +7,19 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 06/18/2019
-ms.openlocfilehash: b8be5b68603f818e26e7f731e4f163bc626b5053
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.date: 12/13/2020
+ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483688"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492073"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>從 Power BI 擷取更多資料
 
-此文章討論如何使用 `fetchMoreData` 方法載入更多資料，以克服 30-KB 資料點的硬性限制。 此方法以區塊形式提供資料。 若要改善效能，您可以將區塊大小設定為適合您使用案例的大小。
+`fetchMoreData` API 可讓 Power BI 視覺效果突破 3 萬個資料列資料檢視的硬性限制。 在新的 3.4 API 版本中，`fetchMoreData` API 的功能已擴充，以支援載入資料區塊的新方法。 除了現有的方法 (其會彙總所有要求的區塊) 之外，API 將只支援累加式資料區塊。
+
+新方法可讓您更有彈性地將額外的資料區塊載入視覺效果。 若要改善效能，您可以將區塊大小設定為適合您使用案例的大小。
 
 ## <a name="limitations-of-fetchmoredata"></a>fetchMoreData 的限制
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 09/25/2020
+ms.date: 12/10/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: de8d24af0dbaa0ed4b27efca140cf29acda9df76
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634634"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353398"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>針對閘道進行疑難排解 - Power BI
 
@@ -105,7 +105,7 @@ The username or password is incorrect.
 
 #### <a name="unable-to-see-the-data-gateway-data-sources-in-the-get-data-experience-for-analysis-services-from-the-power-bi-service"></a>無法從 Power BI 服務查看 Analysis Services「取得資料」體驗中的資料閘道資料來源
 
-請確定閘道設定內資料來源的 [使用者] 索引標籤中已列出您的帳戶。 若您沒有閘道存取權，請洽詢閘道管理員並請求驗證。 只有**使用者**清單中的帳戶才能查看 Analysis Services 清單所列出的資料來源。
+請確定閘道設定內資料來源的 [使用者] 索引標籤中已列出您的帳戶。 若您沒有閘道存取權，請洽詢閘道管理員並請求驗證。 只有 **使用者** 清單中的帳戶才能查看 Analysis Services 清單所列出的資料來源。
 
 ### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>錯誤：您尚未為此資料集中的資料資源安裝或設定任何閘道。
 
@@ -238,6 +238,37 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 * 針對閘道服務帳戶，在 Active Directory 中的 [委派] 索引標籤上，確定您有 SAP Hana 伺服器。
 
    ![[委派] 索引標籤](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
+## <a name="export-logs-for-a-support-ticket"></a>匯出支援票證的記錄
+
+因為進行疑難排解和建立支援票證都需要閘道記錄， 所以請使用下列步驟以擷取這些記錄。
+
+1. 找出閘道叢集。
+
+    若您是資料集擁有者，請先檢查與您的資料集相關聯的閘道叢集名稱。 下圖中，*IgniteGateway* 是閘道叢集。
+
+    ![閘道叢集](media/service-gateway-onprem-tshoot/gateway-cluster.png)
+
+2. 檢查閘道屬性。
+
+    接著，閘道管理員應檢查叢集中的閘道成員數目，以及是否已啟用負載平衡。
+
+    若已啟用負載平衡，則應該針對所有閘道成員重複步驟 3。 若未啟用，則匯出主要閘道上的記錄就已足夠。
+
+3. 擷取並匯出閘道記錄。
+
+    接下來，閘道管理員 (其也是閘道系統的系統管理員) 應執行下列步驟：
+
+    a. 登入閘道機器，然後啟動[內部部署的資料閘道應用程式](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-app)以登入閘道。
+    
+    b. 啟用[其他記錄](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#slow-performing-queries)。
+    
+    c. 您可以選擇[啟用效能監視功能](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#enable-performance-logging)，並包含效能記錄以提供進行疑難排解的其他詳細資料。
+    
+    d. 執行您嘗試用於擷取閘道記錄的案例。
+    
+    e. [匯出閘道記錄](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app)。
+
 
 ## <a name="refresh-history"></a>重新整理歷程記錄
 

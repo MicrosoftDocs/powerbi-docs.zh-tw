@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 12/04/2020
+ms.date: 12/09/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 62df55257864069a1e3a03f8378869fe76052120
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781811"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491958"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -50,7 +50,7 @@ Premium Gen2 提供下列更新或改進的體驗：
     * 較少的記憶體限制
     * 將報表互動和排程的重新整理完全分隔開來
 
-* **改善的計量**，其具有清楚且正規化的容量使用率資料，且只取決於容量執行分析作業時的複雜度，而非容量大小、執行分析時系統的負載層級，或其他因素。 透過改善的計量，內建報告可清楚顯示使用率分析、預算規劃、退款，以及升級需求。 改善的計量將在預覽期間開放使用並增強。
+* **改善的計量**，其具有清楚且正規化的容量使用率資料，且只取決於容量執行分析作業時的複雜度，而非容量大小、執行分析時系統的負載層級，或其他因素。 透過改善的計量，內建報告可清楚顯示使用率分析、預算規劃、退款，以及升級需求。 改進的計量之後將在預覽期間開放使用。 需要取得過去 7 天使用率計量的客戶，可以透過連絡客戶支援以達成此目的。 
 
 * **自動調整** 允許在容量上負載超過其限制的 24 小時期間內「自動新增」一個虛擬核心，以防止因多載所造成的速度變慢。 偵測到閒置時間時，系統即會自動移除虛擬核心。 額外的虛擬核心會以隨用隨付的方式，向您的 Azure 訂用帳戶收費。 預覽期間將會提供自動調整。 
 
@@ -247,7 +247,8 @@ Premium Gen2 不需要累計記憶體限制，因此並行資料集重新整理�
 若要深入了解監視功能，請參閱[在 Power BI 管理入口網站中監視](service-admin-premium-monitor-portal.md)和[使用 Power BI Premium 容量計量應用程式監視](service-admin-premium-monitor-capacity.md)。
 
 #### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 (預覽) 的更新
-**Premium Gen2** 容量不會使用計量應用程式，而是使用容量使用率應用程式，其將會在預覽期間提供。 您可以針對每個容量，從 **管理入口網站** 的容量管理頁面中啟動容量使用率應用程式。
+**Premium Gen2** 容量不會使用計量應用程式，而是使用容量使用率應用程式，其將會在預覽期間提供。 想要檢視使用率的客戶，可以透過向客戶支援要求，以接收過去 7 天使用率報表的複本。 報表將會在要求後 72 小時內提供。 針對每個容量，容量使用率應用程式會從 **管理入口網站** 的 [容量管理] 頁面啟動，且能進行 30 天資料的分析等作業。
+
 
 
 ### <a name="optimizing-capacities"></a>將容量最佳化
@@ -280,9 +281,11 @@ Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。
 
 如果針對資料集啟用 [[大型資料集儲存格式](service-premium-large-models.md)] 設定，則 .pbix 檔案大小限制仍適用於檔案上傳或發佈。 上傳大小限制不會受到大型資料集儲存格式的影響。 不過，發佈至服務時，若已啟用累加式重新整理和大型資料集儲存格式，資料集可能會成長到遠超過這些限制。 若使用大型資料集儲存格式，則資料集大小只受限於 Power BI Premium 容量大小。
 
+Power BI 資料集可以將資料儲存在高度壓縮的記憶體內部快取中，以獲得讓使用者能夠在大型資料集上快速互動的最佳化查詢效能。 在過去，Power BI Premium 中經過壓縮的資料集限制為 10 GB， 而大型模型解除了該限制，資料集大小只受限於容量大小或由系統管理員所設定的大小上限。 啟用這類大型資料集大小，可讓 Power BI 資料集的大小與 Azure Analysis Services 模型的大小更加一致。
+
 .pbix 檔案以「高度壓縮狀態」呈現資料。 載入至記憶體時，資料可能會展開，而且從該處，在資料重新整理期間，資料可能會再展開幾次。
 
-排程重新整理大型資料集可能需要很長的時間，且會耗用大量資源。 請務必不要排程太多重疊重新整理。 建議設定[累加式重新整理](service-premium-incremental-refresh.md)，因為其更快速可靠，且耗用較少的資源。
+排程重新整理大型資料集可能需要很長的時間，且會耗用大量資源。 請務必不要排程太多重疊重新整理。 建議設定[累加式重新整理](service-premium-incremental-refresh.md)，因為其更快速、可靠，而且耗用較少的資源。
 
 如果自上次使用資料集以來已有一段時間，則大型資料集的初始報表載入可能需要很長的時間。 較長載入之報表的載入列會顯示載入進度。
 

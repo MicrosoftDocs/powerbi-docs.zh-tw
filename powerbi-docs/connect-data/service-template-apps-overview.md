@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410129"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491728"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什麼是 Power BI 範本應用程式？
 
@@ -98,6 +98,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 - 將 AppSource 用作代管您應用程式的線上市集。 如此一來，所有使用 Power BI 的人員都可以找到您的應用程式。 
 - 考慮針對個別特殊情況提供多個範本應用程式。 
 - 啟用資料自訂，例如，支援透過安裝程式設定自訂連線及參數。
+- 若您是 ISV，並透過 Web 服務散發您的應用程式，請考慮在安裝期間將參數設定自動化，以減輕您客戶的負擔，並增加成功安裝的可能性。 如需詳細資料，請參閱[將範本應用程式安裝設定自動化](../developer/template-apps/template-apps-auto-install.md)。
 
 如需更多建議，請參閱[在 Power BI 中撰寫範本應用程式的提示](service-template-apps-tips.md)。
 

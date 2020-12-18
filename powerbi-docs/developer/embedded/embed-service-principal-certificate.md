@@ -1,5 +1,5 @@
 ---
-title: 搭配服務主體和憑證內嵌 Power BI 內容
+title: 使用服務主體與憑證，在內嵌式分析應用程式中內嵌 Power BI 內容
 description: 了解如何使用 Azure Active Directory 應用程式服務主體和憑證來驗證內嵌分析。
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 990e3787927cb483b37d7bc456a46201876fcbed
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: f36f77ec1b6648bcb9ab45622fd9888366803b11
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514416"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098390"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>搭配服務主體和憑證內嵌 Power BI 內容
 

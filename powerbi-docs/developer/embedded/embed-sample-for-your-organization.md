@@ -1,5 +1,5 @@
 ---
-title: 針對組織將內容內嵌至應用程式
+title: 針對組織，在 Power BI 內嵌式分析應用程式中內嵌內容
 description: 了解如何使用 Power BI API 將報表 (Power BI 或編頁報表)、儀表板或磚整合或內嵌至應用程式，為您的組織提供內嵌式分析。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: f84270d76265da2877ae5d2e16289373235271b6
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 223495b68f160b637f5bcf40b37f1f1a1365fffd
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668687"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098160"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 

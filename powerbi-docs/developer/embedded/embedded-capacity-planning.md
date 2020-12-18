@@ -1,5 +1,5 @@
 ---
-title: 內嵌的分析容量規劃
+title: Power BI 內嵌式分析容量規劃
 description: 在 Power BI 內嵌式分析中規劃容量。
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: b172b48517ccc8c55821fa8e8217d5e2df398b2d
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983037"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098344"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI 內嵌式分析中的容量規劃
 
@@ -27,7 +27,7 @@ ms.locfileid: "91983037"
 * 資料重新整理頻率
 * 難以預測的其他使用模式。
 
-此文章的目的是透過引進 [Power BI 容量負載評定工具](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) \(英文\)，來讓 Power BI 內嵌式分析的容量規劃更輕鬆，該工具是針對 Power BI 內嵌式分析容量 ( *A* 、 *EM* 或 *P* SKU) 的負載測試自動化而建立。
+此文章的目的是透過引進 [Power BI 容量負載評定工具](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) \(英文\)，來讓 Power BI 內嵌式分析的容量規劃更輕鬆，該工具是針對 Power BI 內嵌式分析容量 (*A*、*EM* 或 *P* SKU) 的負載測試自動化而建立。
 
 ## <a name="planning-tool"></a>規劃工具
 

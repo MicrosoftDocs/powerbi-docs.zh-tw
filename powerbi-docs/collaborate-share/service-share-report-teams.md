@@ -1,5 +1,5 @@
 ---
-title: 從 Power BI 服務直接共用到 Microsoft Teams
+title: 直接從 Power BI 服務在 Microsoft Teams 中聊天
 description: 您可從 Power BI 服務，直接將 Power BI 儀表板和報表共用到 Microsoft Teams。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,37 +9,35 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 0a6f73c14c8dd8ebb48f856f3079ec8f5922ef9e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: af1fac127d1a20f13bc99fc2d05510491a01be5a
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411555"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492027"
 ---
-# <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>從 Power BI 服務直接共用到 Microsoft Teams
+# <a name="chat-in-microsoft-teams-directly-from-the-power-bi-service"></a>直接從 Power BI 服務在 Microsoft Teams 中聊天
 
-您可從 Power BI 服務，直接將 Power BI 儀表板、報表和視覺效果共用到 Microsoft Teams。 當在 Power BI 中檢視報表和儀表板時，使用 [共用到 Teams] 功能可快速開始交談。
+您可以直接從 Power BI 服務，與 Microsoft Teams 聊聊有關 Power BI 儀表板、報表與視覺效果的內容。 當您在 Power BI 服務中檢視報表與儀表板時，使用 [在 Teams 中聊天] 功能可快速開始交談。
 
 ## <a name="requirements"></a>需求
 
-若要在 Power BI 中使用 [共用至 Teams] 功能，請確定此設定：
-
-- Power BI 系統管理員尚未停用 Power BI 系統管理員入口網站中的 [共用至 Teams] 租用戶設定。 此設定可供組織隱藏 [共用至 Teams] 按鈕。 如需詳細資料，請參閱 [Power BI 管理入口網站](../admin/service-admin-portal.md#share-to-teams)一文。
+若要在 Power BI 中使用 [在 Teams 中聊天] 功能，請確定您的 Power BI 系統管理員尚未在 Power BI 管理入口網站中停用 [共用到 Teams] 租用戶設定。 此設定可供組織隱藏 [在 Teams 中聊天] 按鈕。 如需詳細資料，請參閱 [Power BI 管理入口網站](../admin/service-admin-portal.md#share-to-teams)一文。
 
 如需 Power BI 和 Microsoft Teams 如何共同合作的背景資訊，包括其他需求，請參閱[在 Microsoft Teams 中使用 Power BI 共同作業](service-collaborate-microsoft-teams.md)。
 
-## <a name="share-power-bi-content-to-microsoft-teams"></a>將 Power BI 內容共用到 Microsoft Teams
+## <a name="chat-about-power-bi-content-in-microsoft-teams"></a>在 Microsoft Teams 中聊聊有關 Power BI 的內容
 
-請遵循下列步驟，將 Power BI 服務中的報表、儀表板和視覺效果連結共用到 Microsoft Teams 頻道和聊天。
+請遵循下列步驟，以共用 Power BI 服務中報表、儀表板和視覺效果的連結，並聊聊有關 Microsoft Teams 頻道與聊天的內容。
 
 1. 請選擇下列選項的其中一個：
 
-   * 儀表板或報表動作列中的 [共用到 Teams]：
+   * 儀表板或報表動作列中的 [在 Teams 中聊天]：
 
        ![動作列中 [共用到 Teams] 按鈕的螢幕擷取畫面。](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
     
-   * 單一視覺效果其操作功能表中的 [共用到 Teams]：
+   * 單一視覺效果操作功能表中的 [在 Teams 中聊天]：
     
       ![視覺效果操作功能表中 [共用到 Teams] 按鈕的螢幕擷取畫面。](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
@@ -63,10 +61,10 @@ ms.locfileid: "96411555"
 ## <a name="known-issues-and-limitations"></a>已知的問題及限制
 
 - 沒有 Power BI 授權或存取報表權限的使用者會看到「內容無法使用」訊息。
-- 如果瀏覽器使用嚴格的隱私權設定，[共用到 Teams] 按鈕可能就無法正常運作。 如果對話方塊未正確開啟，請使用 [遇到問題了嗎?嘗試在新視窗中開啟] 選項。
-- [共用到 Teams] 未包含連結預覽。
-- 連結預覽和 [共用到 Teams] 不會為使用者授與檢視項目的權限。 權限必須個別管理。
-- 當報表作者將視覺效果的 [更多選項] 設定為 [關閉] 時，即無法使用視覺效果操作功能表中的 [共用到 Teams] 按鈕。
+- 若瀏覽器使用嚴格的隱私權設定，[在 Teams 中聊天] 按鈕可能就無法正常運作。 如果對話方塊未正確開啟，請使用 [遇到問題了嗎?嘗試在新視窗中開啟] 選項。
+- [在 Teams 中聊天] 不包含連結預覽。
+- 連結預覽與 [在 Teams 中聊天] 不會將檢視項目的權限授與使用者。 權限必須個別管理。
+- 當報表作者將視覺效果的 [更多選項] 設定為 [關閉] 時，即無法使用視覺效果操作功能表中的 [在 Teams 中聊天] 按鈕。
 - 如有其他問題，請參閱＜在 Microsoft Teams 中共同作業＞一文中的[＜已知問題和限制＞](service-collaborate-microsoft-teams.md#known-issues-and-limitations)一節。
 
 ## <a name="next-steps"></a>後續步驟

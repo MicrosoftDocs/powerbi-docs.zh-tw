@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/09/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613708"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998959"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>使用 XMLA 端點連線至資料集
 
@@ -34,9 +34,9 @@ Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analy
 
 以下列出一些與 Azure Analysis Services 和 SQL Server Analysis Services 搭配使用的最常見工具，現在已由 Power BI Premium 資料集支援：
 
-**具有 Analysis Services 專案的 Visual Studio**  (也稱為 SQL Server Data Tools，或簡稱為 **SSDT**)，是適用於 Analysis Services 表格式模型的企業級模型製作工具。 所有 Visual Studio 2017 和更新版本都支援 Analysis Services 專案延伸模組，包括免費的社群版本。 需要延伸模組版本 2.9.6 或更高版本，才能將表格式模型部署到 Premium 工作區。 部署到 Premium 工作區時，此模型必須是 1500 或更高的相容性層級。 資料集工作負載需要 XMLA 讀寫。 若要深入了解，請參閱[適用於 Analysis Services 的工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯)。
+**具有 Analysis Services 專案的 Visual Studio**  (也稱為 SQL Server Data Tools，或簡稱為 **SSDT**)，是適用於 Analysis Services 表格式模型的企業級模型製作工具。 所有 Visual Studio 2017 和更新版本都支援 Analysis Services 專案延伸模組，包括免費的社群版本。 需要 2.9.14 版或更高版本的延伸模組，才能將表格式模型部署到 Premium 工作區。 部署到 Premium 工作區時，此模型必須是 1500 或更高的相容性層級。 資料集工作負載需要 XMLA 讀寫。 若要深入了解，請參閱[適用於 Analysis Services 的工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯)。
 
-**SQL Server Management Studio (SSMS)**   - 支援 DAX、MDX 和 XMLA 查詢。 使用[表格式模型指令碼語言](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) (部分機器翻譯)，執行資料集中繼資料的精細重新整理作業和指令碼處理。 查詢作業需要唯讀。 指令碼中繼資料需要讀寫。 需要 SSMS 18.4 版或更新版本。 在 [這裡](/sql/ssms/download-sql-server-management-studio-ssms)下載。
+**SQL Server Management Studio (SSMS)**   - 支援 DAX、MDX 和 XMLA 查詢。 使用[表格式模型指令碼語言](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) (部分機器翻譯)，執行資料集中繼資料的精細重新整理作業和指令碼處理。 查詢作業需要唯讀。 指令碼中繼資料需要讀寫。 需要 SSMS 18.7.1 版或更新版本。 在 [這裡](/sql/ssms/download-sql-server-management-studio-ssms)下載。
 
 **SQL Server Profiler**  - 與 SSMS 一起安裝，這項工具可提供資料集事件的追蹤和偵錯。 雖然 SQL Server 已經正式淘汰這項工具，但 Profiler 會繼續包含在 SSMS 中，並針對 Analysis Services 以及 Power BI Premium 繼續獲得支援。 需要 XMLA 唯讀。 若要深入了解，請參閱  [Analysis Services 的 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯)。
 

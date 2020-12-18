@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5c69abe925751e8b065f262e151bfee65c487238
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412015"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492050"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>使用 Power Automate 匯出 Power BI 編頁報表
 
@@ -40,7 +40,7 @@ ms.locfileid: "96412015"
 
 - [將 Power BI 編頁報表儲存至商務用 OneDrive 或 SharePoint Online 資料夾](service-automate-paginated-onedrive-sharepoint.md)。  
 - [匯出 SharePoint Online 中項目的 Power BI 編頁報表，或是 Excel 網頁版資料表中每個資料列的 Power BI 編頁報表](service-automate-paginated-excel-sharepoint-list.md)。
-- 將 Power BI 編頁報表儲存到本機系統資料夾。
+- [將 Power BI 編頁報表儲存到本機系統資料夾](service-automate-paginated-local-file.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fc421f7635a3d6e3b2336d5bce081d7914c0fad5
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410612"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998846"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>連線至 COVID-19 美國追蹤報表
 本文示範如何安裝 COVID-19 追蹤報表的範本應用程式，以及如何連線至資料來源。
@@ -28,9 +28,9 @@ ms.locfileid: "96410612"
 
 1. 按一下下列連結以取得應用程式：[COVID-19 美國追蹤報表範本應用程式](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. 在應用程式的 [Appsource] 頁面上，按一下 [[立即取得](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)]  。
+1. 在應用程式的 [AppSource] 頁面上，按一下 [[立即取得]](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)。
 
-    [![Appsource 中的 Covid-19 美國追蹤報表](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
+    [![AppSource 中的新型冠狀病毒 (COVID-19) 美國追蹤報表](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
 1. 出現提示時，請按一下 [安裝]  。 應用程式安裝完成後，會顯示在 [應用程式] 頁面上。
 
@@ -38,11 +38,11 @@ ms.locfileid: "96410612"
 
 ## <a name="connect-to-data-sources"></a>連接至資料來源
 
-1. 按一下 [應用程式] 頁面上的圖示以開啟應用程式。
+1. 按一下 [應用程式] 頁面上的圖示以開啟應用程式。 應用程式隨即開啟，其中顯示範例資料。
 
-1. 在顯示的啟動顯示畫面上，選擇 [連線]  。
+1. 在頁面頂端的橫幅中，選取 [連線至資料] 連結。
 
-   ![範本應用程式啟動顯示畫面](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
+   ![GitHub 應用程式 [連線至資料] 連結](media/service-connect-to-covid-19-tracking/power-bi-covid-19-connect-data.png)
 
 1. [參數] 對話方塊隨即出現。 沒有必要的參數。 按 [下一步]  。
 

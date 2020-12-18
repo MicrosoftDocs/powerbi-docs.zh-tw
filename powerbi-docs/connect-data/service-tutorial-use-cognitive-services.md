@@ -10,12 +10,12 @@ ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/20/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f647bcafe035515a1d5d1438ed580cabea579134
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22548c092e1407d1744a019c15cb0d29a94913eb
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401481"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353350"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教學課程：在 Power BI 中使用認知服務
 
@@ -180,6 +180,6 @@ in
 
 您可能也會對下列文章感興趣。
 
-* [教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型 (預覽)](service-tutorial-invoke-machine-learning-model.md)
+* [教學課程：在 Power BI 中取用 Azure Machine Learning 模型](service-aml-integrate.md)
 * [Power BI 與 Azure Machine Learning 的整合 (預覽)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
 * [Power BI 中的認知服務 (預覽)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

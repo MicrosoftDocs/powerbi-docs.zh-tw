@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 12/03/2020
+ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 01ba6c2e01b3e17a3ef9c878890877e0a0b976ea
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 84d60fce95172b419663ed7889d69e22ae1947cd
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613731"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491981"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>如何在 Power BI 中使用 DirectQuery
 
@@ -81,7 +81,7 @@ SQL Server Analysis Services 是特殊案例。 連線至 SQL Server Analysis Se
 前一個段落中說明的情況也適用於連線至下列來源的案例，但無法選擇匯入資料：
 
 * Power BI 資料集，例如，連線至先前已建立並發佈至服務的 Power BI 資料集，以在其上撰寫新的報表。
-* Common Data Service。
+* Microsoft Dataverse。
 
 透過 SQL Server Analysis Services 的報表在發佈至 Power BI 服務時的行為，與 DirectQuery 報表有下列相似之處：
 
@@ -334,6 +334,9 @@ DirectQuery 依預設可開啟最大並行連線數目為 10 個。 您可以在
 增加 [每個資料來源的連線數量上限]，可確保有更多查詢 (最多可達指定的最大數目) 可傳送至基礎資料來源。 此方法在單一頁面上有許多視覺效果時，或是許多使用者同時存取報表時，將有其效用。 一旦達到最大連線數目，進一步的查詢會排入佇列，直到有連線可供使用。 增加此限制會導致基礎來源有更多的負載，所以設定不保證能改善整體效能。
 
 報表發佈後，傳送至基礎資料來源的並行查詢數量上限也會以固定限制為準。 這些限制取決於發佈報表的目標環境。 不同的環境 (例如 Power BI、Power BI Premium 或 Power BI 報表伺服器) 可能施加不同的限制。
+
+> [!NOTE]
+> 當[增強中繼資料](desktop-enhanced-dataset-metadata.md)啟用時，DirectQuery 連線設定的最大數目會應用所有 DirectQuery 來源，這是從 2020 年 10 月起，Power BI Desktop 中所建立所有模型的預設設定。 
 
 ### <a name="diagnosing-performance-issues"></a>診斷效能問題
 

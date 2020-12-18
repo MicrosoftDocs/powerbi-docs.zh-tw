@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/04/2020
+ms.date: 12/10/2020
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781678"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353097"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Power BI Premium 中的大型資料集
 
-Power BI 資料集可將資料儲存在高度壓縮的記憶體內部快取中，以獲得最佳化的查詢效能，讓使用者能夠快速互動。 使用 Premium 容量時，您可透過 [大型資料集儲存格式] 設定，啟用超過預設 10 GB 限制的大型資料集。 啟用時，資料集大小會受到 Premium「容量」大小的限制。
+Power BI 資料集可將資料儲存在高度壓縮的記憶體內部快取中，以獲得最佳化的查詢效能，讓使用者能夠快速互動。 使用 Premium 容量時，您可透過 [大型資料集儲存格式] 設定，啟用超過預設 10 GB 限制的大型資料集。 啟用時，資料集大小會受限於 Premium「容量」大小或系統管理員所設定的大小上限。
 
 您可為所有 Premium P SKU 和 Embedded A SKU 啟用大型資料集。 Premium 的大型資料集大小限制，相當於 Azure Analysis Services 的資料模型大小限制。
 
@@ -131,10 +131,12 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 使用大型資料集時，請記住下列限制：
 
-- **需要新的工作區**：大型資料集僅適用於[新的工作區](../collaborate-share/service-create-the-new-workspaces.md)。
+- **需要新的工作區**：大型資料集僅適用於 [新的工作區](../collaborate-share/service-create-the-new-workspaces.md)。
 
 - **下載至 Power BI Desktop**：如果資料集儲存在 Premium 檔案上，[下載為 .pbix](../create-reports/service-export-to-pbix.md) 檔案將會失敗。
 - **支援的區域**：大型資料集在支援進階檔案儲存體的所有 Azure 區域中受到支援。 若要深入了解，請參閱[依區域提供的產品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)，並參閱下一節中的表格。
+
+- **設定資料集大小上限**：系統管理員可以設定資料集大小上限。 最大值可在 0.1 GB 到 SKU 的最大容量之間加以設定。
 
 ## <a name="region-availability"></a>區域可用性
 
@@ -146,6 +148,9 @@ Power BI 中大型資料集僅適用於支援 [Azure Premium 檔案儲存體](/a
 |---------|---------|
 |澳大利亞東部     | australiaeast        |
 |澳大利亞東南部     | australiasoutheast        |
+|加拿大東部     | canadaeast        |
+|加拿大中部     | canadacentral        |
+|印度中部     | centralindia        |
 |美國中部     | centralus        |
 |東亞     | eastasia        |
 |美國東部     | eastus        |
@@ -161,6 +166,7 @@ Power BI 中大型資料集僅適用於支援 [Azure Premium 檔案儲存體](/a
 |英國南部     | uksouth        |
 |英國西部     | ukwest        |
 |西歐     | westeurope        |
+|印度西部     | westindia        |
 |美國西部     | westus        |
 |美國西部 2     | westus2        |
 

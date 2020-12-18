@@ -1,5 +1,5 @@
 ---
-title: 搭配 Power BI 內嵌內容使用資料列層級安全性
+title: 搭配 Power BI 內嵌式分析內容使用資料列層級安全性
 description: 了解您在應用程式中內嵌 Power BI 內容時必須採取的步驟。
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 4066911e90090fe770ca0d33f7e0d9a18d9dde71
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 00f818754c560768392aec0aa1df4555fe5d7ffa
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746301"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098298"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>在內嵌的編頁報表中實作資料列層級安全性
 
@@ -26,7 +26,7 @@ ms.locfileid: "91746301"
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>設定參數以篩選資料集
 
-將資料列層級安全性套用至 Power BI 分頁報表時，您需要指派[參數](../../paginated-reports/report-builder-parameters.md)給 **UserID** 屬性。 在報表內嵌之前，這個參數將限制從資料集提取出來的資料。
+將資料列層級安全性套用至 Power BI 分頁報表時，您需要指派 [參數](../../paginated-reports/report-builder-parameters.md)給 **UserID** 屬性。 在報表內嵌之前，這個參數將限制從資料集提取出來的資料。
 
 將參數指派給 **UserID** 之後，請使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API 來取得內嵌權杖。
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 06/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3654bc77ebdbd41ef608378157bf0d24bb94c88
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f4128939bd90f0b6514a792a60d583b830bea0d2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416109"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353442"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 AI 見解
 
@@ -223,7 +223,7 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 
 此文章提供將 Machine Learning 整合到 Power BI Desktop 的概觀。 下列文章可能也很有趣而且實用。
 
-- [教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型](../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [教學課程：在 Power BI 中取用 Azure Machine Learning 模型](../connect-data/service-aml-integrate.md)
 - [教學課程：在 Power BI 中使用認知服務](../connect-data/service-tutorial-use-cognitive-services.md)
 - [Power BI 中的認知服務](./dataflows/dataflows-machine-learning-integration.md)
 - [Power BI 中的 Azure Machine Learning 整合](./dataflows/dataflows-machine-learning-integration.md)

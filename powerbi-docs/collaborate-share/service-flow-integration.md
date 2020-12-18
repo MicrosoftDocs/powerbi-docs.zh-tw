@@ -1,5 +1,5 @@
 ---
-title: 將資料警示與 Power Automate 整合
+title: 將 Power BI 資料警示與 Power Automate 整合
 description: 了解如何建立由 Power BI 資料警示觸發的 Power Automate 流程。
 author: maggiesMSFT
 ms.author: maggies
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/09/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 65c7c00a705ed95c26c32a4fc5bcb9e0c18c13bf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8f73bd959691ea8359a8584966e0b83f439d8652
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407162"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097631"
 ---
-# <a name="integrate-data-alerts-with-power-automate"></a>將資料警示與 Power Automate 整合
+# <a name="integrate-power-bi-data-alerts-with-power-automate"></a>將 Power BI 資料警示與 Power Automate 整合
 
 使用 [Power Automate](/power-automate/getting-started)，將 Power BI 與您最愛的應用程式與服務整合。 透過 Power Automate，您可以建立自動化工作流程來取得通知、同步處理檔案、收集資料等等。 在本文中，您會實作自動從 Power BI 資料警示產生電子郵件。
 
@@ -90,6 +90,5 @@ ms.locfileid: "96407162"
 
 ## <a name="next-steps"></a>後續步驟
 * [開始使用 Power Automate](/power-automate/getting-started/)
-* [在 Power BI 服務中設定資料警示](../create-reports/service-set-data-alerts.md)
-* [在 iPhone 上設定資料警示](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [使用 Power Automate 匯出 Power BI 報表並以電子郵件傳送](service-automate-power-bi-report-export.md)
 * 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

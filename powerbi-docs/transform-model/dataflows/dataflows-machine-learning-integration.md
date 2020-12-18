@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 60214c16cbd287a30631e7ad9fbab274cb8f4cb0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22fa980230b01132c8cb4faa6e7e959409f19f1b
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414292"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353120"
 ---
 # <a name="ai-with-dataflows"></a>使用資料流程的 AI
 
@@ -456,7 +456,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 - [教學課程：在 Power BI 中建置機器學習模型](../../connect-data/service-tutorial-build-machine-learning-model.md)
 - [教學課程：在 Power BI 中使用認知服務](../../connect-data/service-tutorial-use-cognitive-services.md)
-- [教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型 (預覽)](../../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [教學課程：在 Power BI 中取用 Azure Machine Learning 模型](../../connect-data/service-aml-integrate.md)
 
 下列文章提供資料流程和 Power BI 的詳細資訊：
 

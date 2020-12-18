@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 10/21/2019
+ms.date: 12/09/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8d24c672fa3e9d5cda007e061eac8c4ea9c6d4c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b144412ee322aa9bec0a35bb3876a949abcd3f13
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406035"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998890"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>針對 Power BI Desktop 中的 Access 和 Excel .xls 檔案匯入問題進行疑難排解
 
@@ -24,6 +24,8 @@ ms.locfileid: "96406035"
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>狀況 1：未安裝 Access 資料庫引擎
 
 如果 Power BI Desktop 錯誤訊息指出未安裝 Access 資料庫引擎，則必須安裝符合 Power BI Desktop 版本的 Access 資料庫引擎版本 (32 位元或 64 位元)。 您可以從[下載頁面](https://www.microsoft.com/download/details.aspx?id=13255)安裝 Access 資料庫引擎。
+
+若您要使用資料流程與閘道以連線至資料，您必須在執行閘道的電腦上安裝 Access 資料庫引擎。 
 
 >[!NOTE]
 >如果安裝的 Access 資料庫引擎位元版本與 Microsoft Office 安裝的位元版本不同，則 Office 應用程式就不能使用 Access 資料庫引擎。

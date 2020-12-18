@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b20bb007c55f7d7d618b70690475d34d9f53fc06
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410106"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491705"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
@@ -144,6 +144,10 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 若要將使用者重新導向至 Power BI 中的應用程式下載連結，請參閱下列程式碼範例：[GitHub 存放庫](https://github.com/microsoft/Template-apps-examples)。
 
 [![應用程式下載連結](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+## <a name="automate-parameter-configuration-during-installation"></a>在安裝期間將參數設定自動化
+
+若您是 ISV 並透過 Web 服務散發您的範本應用程式，可以建立自動化作業，以便在客戶將應用程式安裝在其 Power BI 帳戶時，自動設定範本應用程式參數。 因為客戶不需要提供自己可能不知道的詳細資料，所以這麼做能夠減輕您客戶的負擔，同時增加成功安裝的可能性。 如需詳細資料，請參閱[將範本應用程式安裝設定自動化](../developer/template-apps/template-apps-auto-install.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

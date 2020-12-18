@@ -7,18 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53a8573138a87f8be65183e0571077a02ac0715d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 116458c094159cbeeadaf2e955744759e4648220
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418179"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097953"
 ---
 # <a name="dataflows-best-practices"></a>資料流程最佳做法
 
 Power BI **資料流程** 是企業導向的資料準備解決方案，可讓資料生態系統準備好用於取用、重複使用及整合。 此文章提供最佳做法清單，其中包含文章與其他資訊的連結，可協助您了解並發揮資料流程的全部功能。
+
+## <a name="dataflows-across-the-power-platform"></a>Power Platform 中的資料流程
+
+資料流程可用於各種 Power Platform 技術，例如 Power Query、Microsoft Dynamics 365 與其他 Microsoft 供應項目。 如需有關資料流程如何在 Power Platform 中運作的更多資訊，請參閱[在 Microsoft 產品之間使用資料流程](https://docs.microsoft.com/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) (機器翻譯)。
 
 
 ## <a name="dataflows-best-practices-table-and-links"></a>資料流程最佳做法表格與連結
@@ -29,7 +33,7 @@ Power BI **資料流程** 是企業導向的資料準備解決方案，可讓資
 |**主題**  |**指導方針區域**  |**文章或內容的連結**  |
 |---------|---------|---------|
 |Power Query     | 充分利用您資料整頓體驗的祕訣與訣竅        |[Power Query 最佳做法](https://docs.microsoft.com/power-query/best-practices) \(部分機器翻譯\)        |
-|利用計算實體     |在資料流程中使用計算實體有效能方面的好處         |[計算實體案例](https://docs.microsoft.com/power-query/dataflows/computed-entities-scenarios) \(部分機器翻譯\)         |
+|利用計算實體     |在資料流程中使用計算實體有效能方面的好處         |[計算實體案例](https://docs.microsoft.com/power-query/dataflows/computed-entities-scenarios) (機器翻譯)         |
 |開發複雜的資料流程     |用於開發大規模、高效能資料流程的模式         |[複雜資料流程](https://docs.microsoft.com/power-query/dataflows/best-practices-developing-complex-dataflows) \(部分機器翻譯\)         |
 |重複使用資料流程     |模式、指導方針與使用案例         |[重複使用資料流程](https://docs.microsoft.com/power-query/dataflows/best-practices-reusing-dataflows)         |
 |大規模實作     |適用於企業架構的大規模使用級別指導方針         |[使用資料流程的資料倉儲](https://docs.microsoft.com/power-query/dataflows/best-practices-for-data-warehouse-using-dataflows) \(部分機器翻譯\)         |
@@ -40,6 +44,8 @@ Power BI **資料流程** 是企業導向的資料準備解決方案，可讓資
 |使用資料分析     |了解資料行品質、分配及分析設定檔         |[資料分析工具](https://docs.microsoft.com/power-query/data-profiling-tools)         |
 |實作錯誤處理     |開發健全的資料流程復原性來重新整理錯誤並提供建議         |[常見錯誤的模式](https://docs.microsoft.com/power-query/dealing-with-errors) \(部分機器翻譯\)  </br> [複雜錯誤處理](https://docs.microsoft.com/power-query/error-handling) \(部分機器翻譯\)      |
 |使用結構描述檢視      |改善使用寬型資料表及執行結構描述層級作業時的撰寫體驗         |[結構描述檢視](https://docs.microsoft.com/power-query/schema-view) \(部分機器翻譯\)         |
+|連結實體      |重複使用與參考轉換         |[連結實體](https://docs.microsoft.com/power-query/dataflows/linked-entities)         |
+|累加式重新整理      |載入最新或已變更的資料與完整重新載入         |[累加式重新整理](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)         |
 |||
 
 

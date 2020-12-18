@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e6499d9e4547f1bd2b8cf4ac29fbc375af871f8a
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401987"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998620"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在組織中安裝並散發範本應用程式
 
@@ -64,10 +64,6 @@ ms.locfileid: "96401987"
 ## <a name="connect-to-data"></a>連線至資料
 
 1. 選取 [前往應用程式]。
-
-1. 在 [開始使用新應用程式] 視窗中，選取 [探索]。
-
-   ![範本應用程式啟動顯示畫面](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
    應用程式隨即開啟，其中顯示範例資料。
 
@@ -138,6 +134,20 @@ ms.locfileid: "96401987"
 
 >[!IMPORTANT]
 >請記得在覆寫之後[更新應用程式](#customize-and-share-the-app)，以將變更套用至組織應用程式使用者的報表和儀表板。
+
+## <a name="delete-a-template-app"></a>刪除範本應用程式
+
+已安裝的範本應用程式會包含應用程式與其相關的工作區。 若您想要移除範本應用程式，有兩個選項：
+* **完全移除應用程式與其相關的工作區**：若要完全移除應用程式與其相關的工作區，請前往 [應用程式] 頁面上的應用程式磚，選取垃圾桶圖示，然後在隨即出現的對話方塊中按一下 [刪除]。
+* **解除發佈應用程式**：此選項將移除應用程式，但會保留其相關的工作區。 例如，若您想要保留您所做的自訂項目，此選項就很實用。
+
+    若要解除發佈應用程式：
+    1. 開啟應用程式。
+    1. 按一下編輯應用程式的鉛筆圖示，以開啟範本應用程式的工作區。
+    1. 在範本應用程式工作區中，選取 [更多選項 (...)]，然後選擇 [解除發佈應用程式]。
+
+        ![[解除發佈應用程式] 選項的螢幕擷取畫面。](media/service-template-apps-install-distribute/power-bi-template-app-unpublish.png)
+
 
 ## <a name="next-steps"></a>後續步驟
 

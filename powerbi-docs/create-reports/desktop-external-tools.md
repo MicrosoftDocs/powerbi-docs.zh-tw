@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 07/29/2020
+ms.date: 12/10/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8742a65f662433eb4330a9dedbca54f4445e992b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 98e27491147fa0e7ed7028925671d40a84fd9e6e
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412958"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353373"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用外部工具 (預覽)
 
@@ -32,6 +32,9 @@ Power BI Desktop 中的 [外部工具] 功能區包含已安裝在電腦上，�
 
 
 下列各節說明外部工具支援的作業、Power BI Desktop 中包含的精選工具清單，以及如何註冊其他工具的指示。
+
+> [!NOTE]
+> 外部工具不支援搭配 Power BI 報表伺服器版本的 Power BI Desktop 一起使用。
 
 ## <a name="supported-write-operations"></a>支援的寫入作業
 

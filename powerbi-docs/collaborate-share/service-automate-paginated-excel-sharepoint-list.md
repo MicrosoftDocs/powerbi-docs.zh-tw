@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 74d61d40c4447f2649f5cce5fbcdcba68cd31afe
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7a48a9a594364de4261aa66de48c1a4262392364
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407990"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097838"
 ---
 # <a name="export-a-paginated-report-for-each-row-in-an-excel-online-table-or-sharepoint-list"></a>匯出 Excel 網頁版資料表或 SharePoint 清單中每個資料列的編頁報表
 
@@ -30,7 +30,7 @@ Excel 網頁版資料表或 SharePoint Online 清單中的每個資料列都可�
 
 若要遵循此做法，請確定您有：
 
-- 您的 Power BI 租用戶中至少有一個工作區受保留容量所支援。 此容量可以是 A4/P1 – A6/P3 SKU 中的任何一個。 請前往 [Power BI Premium 中的保留容量](../admin/service-premium-what-is.md)閱讀更多內容。
+- 您的 Power BI 租用戶中至少有一個工作區受保留容量所支援。 此容量可以是 A4/P1 – A6/P3 SKU 中的任何一個。 深入了解 [Power BI Premium 中編頁報表的保留容量](../admin/service-premium-what-is.md#paginated-reports)。
 - 存取 Power Automate 中的標準連接器，其隨附於任何 Office 365 訂閱。
 - 若您正在使用 Excel 網頁版資料表，則必須將其格式化為 Excel 中的資料表。 若要深入了解，請參閱[建立資料表](https://support.microsoft.com/office/create-a-table-in-excel-bf0ce08b-d012-42ec-8ecf-a2259c9faf3f)。
 
@@ -73,9 +73,9 @@ Excel 網頁版資料表或 SharePoint Online 清單中的每個資料列都可�
 
 1. 在 [套用到每個] 中，[從上一個步驟選取輸出] 方塊會根據預設設定為 **值**。 此設定會逐一查看 Excel 網頁版資料表或 SharePoint Online 清單中每個資料列 [套用到每個] 中所包含的動作。  
 
-1. 在 [工作區] 方塊中，選取專用容量中的工作區。 在 [報表] 方塊中，選取您要匯出的所選工作區編頁報表。 若您從下拉式清單中設定 [輸入自訂值]，您可以將 [工作區] 與 [報表] 設定為等於 Excel 網頁版資料表或 SharePoint Online 清單中的資料行。 這些資料行應分別包含「工作區識別碼」與「報表識別碼」。  
+1. 在 [工作區] 方塊中，選取保留容量中的工作區。 在 [報表] 方塊中，選取您要匯出的所選工作區編頁報表。 若您從下拉式清單中設定 [輸入自訂值]，您可以將 [工作區] 與 [報表] 設定為等於 Excel 網頁版資料表或 SharePoint Online 清單中的資料行。 這些資料行應分別包含「工作區識別碼」與「報表識別碼」。  
 
-1. 從下拉式清單中選取 [匯出格式]，或將其設定為等於包含所需匯出格式的 Excel 網頁版資料表資料行。 例如 PDF、DOCX 或 PPTX。 您可以選擇指定編頁報表的參數。 若要尋找參數的詳細描述，請參閱 [Power BI Rest API 的連接器參考](/connectors/powerbi/#export-to-file-for-paginated-reports)。
+1. 從下拉式清單中選取 [匯出格式]，或將其設定為等於包含所需匯出格式的 Excel 網頁版資料表資料行。 例如 PDF、DOCX 或 PPTX。 您可以選擇指定編頁報表的參數。 若要尋找參數的詳細描述，請參閱 [Power BI REST API 的連接器參考](/connectors/powerbi/#export-to-file-for-paginated-reports)。
 
     :::image type="content" source="media/service-automate-paginated-excel-sharepoint-list/excel-template-export-format-9.png" alt-text="填寫 [匯出至編頁報表的檔案]。":::
 
@@ -105,7 +105,7 @@ Excel 網頁版資料表或 SharePoint Online 清單中的每個資料列都可�
 
 1. 當您完成時，請選取 [下一步] ****  或 [儲存]。 Power Automate 會建立及評估流程，並讓您知道是否找到錯誤。 
 
-1. 若發生錯誤，請選取 [編輯流程] ****  加以修正。 否則，請選取 [返回] 箭頭以檢視流程詳細資料，並執行新流程。 
+1. 若發生錯誤，請選取 [編輯流程] ****  加以修正。 否則，請選取 [上一步] 箭頭以檢視流程詳細資料，並執行新流程。 
 
 
 ## <a name="next-steps"></a>後續步驟
