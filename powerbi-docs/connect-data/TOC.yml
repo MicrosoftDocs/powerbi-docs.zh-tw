@@ -17,6 +17,7 @@
         - name: 連接至 Power BI Desktop 中的資料
           href: desktop-quickstart-connect-to-data.md
     - name: 教學課程
+      expanded: true
       items:
         - name: 塑造及合併多個資料來源
           href: desktop-shape-and-combine-data.md
@@ -39,6 +40,7 @@
         - name: 從 SQL Server 重新整理資料
           href: service-gateway-sql-tutorial.md
     - name: 概念
+      expanded: true
       items:
         - name: Power BI 資料來源
           href: power-bi-data-sources.md
@@ -50,6 +52,8 @@
           href: desktop-default-member-multidimensional-models.md
         - name: 如何在 Power BI 中使用 DirectQuery
           href: desktop-directquery-about.md
+        - name: 使用適用於 Power BI 資料集和 Azure Analysis Services 的 DirectQuery (預覽)
+          href: desktop-directquery-datasets-azure-analysis-services.md
         - name: 閘道
           items:
             - name: 部署資料閘道的指導
@@ -57,6 +61,7 @@
             - name: 內部部署資料閘道常見問題集
               href: service-gateway-power-bi-faq.md
     - name: 操作指南
+      expanded: true
       items:
         - name: 連接至資料來源
           href: desktop-connect-to-data.md

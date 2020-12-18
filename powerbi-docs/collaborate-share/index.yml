@@ -6,18 +6,18 @@ metadata:
   description: 不論您是如何使用 Power BI，都可透過 Power BI 文件來獲得專業資訊與解答以解決需求。
   services: powerbi
   ms.service: powerbi
-  ms.subservice: powerbi
+  ms.subservice: pbi-collaborate-share
   ms.topic: landing-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/03/2020
-  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
-  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.date: 12/15/2020
+  ms.openlocfilehash: 641912026673d45c494d9350bdcc7d47e306138c
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83275171"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621732"
 landingContent:
 - title: 開始共同作業和共用
   linkLists:
@@ -25,18 +25,22 @@ landingContent:
     links:
     - text: 共用成品的方式
       url: service-how-to-collaborate-distribute-dashboards-reports.md
-- title: 與同事共同作業
-  linkLists:
-  - linkListType: concept
-    links:
-    - text: 跨工作區的資料集簡介
-      url: ../connect-data/service-datasets-across-workspaces.md
-    - text: 共用資料集的建置權限
-      url: ../connect-data/service-datasets-build-permissions.md
   - linkListType: how-to-guide
     links:
     - text: 在新的工作區中組織工作
       url: service-new-workspaces.md
+- title: 在 Microsoft Teams 中共同作業
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 在 Microsoft Teams 中共同作業
+      url: service-collaborate-microsoft-teams.md
+  - linkListType: how-to-guide
+    links:
+    - text: 將 Power BI 應用程式新增至 Microsoft Teams
+      url: service-microsoft-teams-app.md
+    - text: 直接在 Microsoft Teams 中聊天
+      url: service-share-report-teams.md
 - title: 分享您的成果
   linkLists:
   - linkListType: concept
@@ -65,3 +69,15 @@ landingContent:
     links:
     - text: 內嵌於 SharePoint Online 中
       url: service-embed-report-spo.md
+- title: 與 Power Automate 整合
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 使用 Power Automate 匯出編頁報表
+      url: service-automate-paginated-integration.md
+  - linkListType: how-to-guide
+    links:
+    - text: 將資料警示與 Power Automate 整合
+      url: service-flow-integration.md
+    - text: 使用 Power Automate 以電子郵件寄送 Power BI 報表
+      url: service-automate-power-bi-report-export.md

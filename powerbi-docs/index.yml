@@ -7,29 +7,29 @@ metadata:
   description: Power BI 會放大您的深入剖析資訊和資料的價值。 不論您是如何使用 Power BI，都可在這裡獲得專業資訊與解答。
   services: service
   ms.service: powerbi
-  ms.subservice: subservice
+  ms.subservice: powerbi-service
   ms.topic: hub-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 09/09/2020
-  ms.openlocfilehash: a21230b02654b6335dd8631fb0df1db6bb4e830a
-  ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+  ms.date: 12/16/2020
+  ms.openlocfilehash: be6ec499d78d3ba5f3899fcb8556296568a40319
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 09/22/2020
-  ms.locfileid: "90857925"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621847"
 highlightedContent:
   items:
   - title: 開始使用 Power BI Desktop
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: 在 Microsoft Teams 中使用 Power BI 共同作業
+  - title: 適用於 Power BI 資料集和 Azure Analysis 的 DirectQuery
     itemType: concept
-    url: collaborate-share/service-collaborate-microsoft-teams.md
-  - title: 將 Power BI 內容內嵌至應用程式
+    url: connect-data/desktop-directquery-datasets-azure-analysis-services.md
+  - title: 在 Power BI 中取用 Azure Machine Learning 模型
     itemType: tutorial
-    url: developer/embedded/embed-sample-for-customers.md
+    url: connect-data/service-aml-integrate.md
   - title: Microsoft Learn 上的 Power BI
     itemType: learn
     url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
@@ -99,9 +99,9 @@ conceptualContent:
     - url: connect-data/service-gateway-onprem.md
       itemType: concept
       text: 內部部署資料閘道
-    - url: connect-data/refresh-data.md
+    - url: connect-data/service-datasets-hub.md
       itemType: concept
-      text: 資料重新整理
+      text: 在資料集中樞上探索資料
     footerLink:
       url: connect-data/index.yml
       text: 查看更多
@@ -155,9 +155,9 @@ conceptualContent:
     - url: collaborate-share/service-create-the-new-workspaces.md
       itemType: how-to-guide
       text: 建立新的工作區
-    - url: connect-data/service-datasets-across-workspaces.md
+    - url: collaborate-share/service-collaborate-microsoft-teams.md
       itemType: concept
-      text: 共用資料集簡介
+      text: 在 Microsoft Teams 中共同作業
     footerLink:
       url: collaborate-share/index.yml
       text: 查看更多
@@ -169,9 +169,9 @@ conceptualContent:
     - url: collaborate-share/service-analyze-in-excel.md
       itemType: concept
       text: 在 Excel 中進行分析
-    - url: collaborate-share/service-embed-report-spo.md
+    - url: collaborate-share/service-automate-power-bi-report-export.md
       itemType: concept
-      text: 內嵌於 SharePoint Online 中
+      text: 使用 Power Automate 進行匯出，並以電子郵件寄送
     footerLink:
       url: collaborate-share/index.yml
       text: 查看更多
