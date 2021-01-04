@@ -50,8 +50,6 @@
           href: embed-service-principal-certificate.md
         - name: 將內嵌應用程式移至生產環境
           href: move-to-production.md
-        - name: 從應用程式內嵌
-          href: embed-from-apps.md
         - name: 將報告匯出至檔案
           href: export-to.md
         - name: 將編頁報表匯出至檔案

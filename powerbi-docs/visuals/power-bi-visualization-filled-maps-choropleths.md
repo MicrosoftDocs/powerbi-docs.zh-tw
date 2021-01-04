@@ -10,12 +10,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/05/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 748e13a509bc3689122c8622f9ce26536f850a68
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bfcd684e4899edb5555a784c7148a7abc9b0f29c
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418317"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675296"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>在 Power BI 中建立和使用區域分布圖 (分級著色圖)
 
@@ -125,11 +125,10 @@ Power BI 提供您眾多對區域分布圖外觀的控制。 試試看這些資�
 
 如果您有權限可編輯 Power BI Desktop 中的資料集，請觀賞這段影片，以協助解決地圖模稜兩可的情況。
 
-> [影片 https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 如果您沒有經度和緯度資料的存取權，但有資料集的編輯存取權，請[遵循這些指示來更新您的資料集](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7)。
 
-如需地圖視覺效果的更多說明，請參閱[地圖視覺效果的祕訣和訣竅](./power-bi-map-tips-and-tricks.md)。
+如需地圖視覺效果的更多說明，請參閱[地圖視覺效果的秘訣和訣竅](./power-bi-map-tips-and-tricks.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
