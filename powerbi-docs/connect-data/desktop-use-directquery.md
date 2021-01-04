@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ab606733e47dec06837cfc1840da09732f7019
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 60805ba0977b3b603ace0d50f7b080bd62d54ec7
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491222"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600292"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 *Power BI Desktop*，當連線到資料來源時，隨時可將資料的複本匯入 Power BI Desktop。 對於某些資料來源，可用的替代方式是：使用 DirectQuery 直接連線到資料來源。
@@ -108,3 +108,4 @@ ms.locfileid: "97491222"
 - [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 - [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md)
 - [什麼是內部部署的資料閘道？](service-gateway-onprem.md)
+- [使用適用於 Power BI 資料集和 Azure Analysis Services 的 DirectQuery (預覽)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)

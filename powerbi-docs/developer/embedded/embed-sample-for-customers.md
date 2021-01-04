@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/02/2020
-ms.openlocfilehash: e79a73880b50a0edb5e507726cb0c995ba13cd77
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/22/2020
+ms.openlocfilehash: 5417266658a493bc81da882761431aa3db072dbe
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098413"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745108"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>教學課程：使用「對客戶進行內嵌」範例應用程式內嵌 Power BI 內容
 
@@ -192,7 +192,7 @@ Power BI 會將您的報表、儀表板和磚保留在工作區中。 若要內�
 
 若要下載範例報表並將其發佈至您的工作區，請遵循下列步驟：
 
-1. 開啟 GitHub [Power BI Desktop 範例](https://github.com/microsoft/PowerBI-Developer-Samples)資料夾。
+1. 開啟 GitHub [Power BI Desktop 範例](https://github.com/Microsoft/PowerBI-Desktop-Samples)資料夾。
 
 2. 選取 [Code] \(程式碼\)，然後選取 [Download zip] \(下載 ZIP\)。
 

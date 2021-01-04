@@ -4,18 +4,18 @@ description: 如何與組織內外的同事共用 Power BI 儀表板與報表，
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 06/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 221211b06e3e9a72dd3c5ee812083b8013002405
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7a85021ee1931b2d5f7c247d7caa4c2813f86a8c
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406564"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621594"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板和報表
 「共用」是讓使用者在 Power BI 服務中存取您儀表板和報表的最簡單方式。 您可以與組織內部或外部人員共用。

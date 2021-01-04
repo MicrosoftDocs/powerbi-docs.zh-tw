@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 5df13baf295745f86c89ce75d2890ca2c13894ee
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 7ef9b75f01dedaf55be77312f07217593d886ef0
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049330"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675273"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教學課程：從 R 指令碼到 R 視覺效果 - 建置漏斗圖
 本文逐步說明如何在 R 視覺效果中使用 R 指令碼來建置漏斗圖。
@@ -27,7 +27,7 @@ ms.locfileid: "92049330"
 > * Power BI 中 R 支援的「PNG 型」視覺效果
 > * Power BI 中 R 支援的「HTML 型」視覺效果
 
-漏斗圖可提供簡單方式來使用、解讀及顯示預期的變化量。 **漏斗圖**以信賴界限構成，極端值則會顯示為漏斗外的點。
+漏斗圖可提供簡單方式來使用、解讀及顯示預期的變化量。 **漏斗圖** 以信賴界限構成，極端值則會顯示為漏斗外的點。
 
 在此範例中，漏斗圖用於比較及分析不同組資料。  
 
@@ -60,7 +60,7 @@ ms.locfileid: "92049330"
    pbiviz package
    ```
 
-   此命令會使用初始範本視覺效果 (`-t` 代表**範本**) 來建立 *funnel-visual* 資料夾。 您可以在 *dist* 資料夾中找到 PBIVIZ，也就是 *script.r* 檔案中的 R 程式碼。 請嘗試將其匯入 Power BI，看看會發生什麼情形。
+   此命令會使用初始範本視覺效果 (`-t` 代表 **範本**) 來建立 *funnel-visual* 資料夾。 您可以在 *dist* 資料夾中找到 PBIVIZ，也就是 *script.r* 檔案中的 R 程式碼。 請嘗試將其匯入 Power BI，看看會發生什麼情形。
 
 1. 編輯 *script.r* 檔案，並將內容取代為您先前的指令碼。
 
@@ -127,7 +127,7 @@ ms.locfileid: "92049330"
 
    ![capabilities](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
-1. 編輯 *src/settings.ts* 以鏡像[此 settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts)。 此檔案以 TypeScript 撰寫。  
+1. 編輯 *src/settings.ts* 以鏡像 [此 settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts)。 此檔案以 TypeScript 撰寫。  
 
    您會發現此處新增了兩個程式碼區塊，以：
    - 宣告新介面來保存屬性值
@@ -135,7 +135,7 @@ ms.locfileid: "92049330"
 
    ![設定](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
-1. 編輯 *script.r* 以鏡像[此 script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r)。 這會藉由為每個使用者參數新增 `if.exists` 呼叫，在 UI 中新增參數的支援。
+1. 編輯 *script.r* 以鏡像 [此 script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r)。 這會藉由為每個使用者參數新增 `if.exists` 呼叫，在 UI 中新增參數的支援。
 
    > [!TIP]
    > 若要追蹤 R 指令碼中的變更，請搜尋註解：
@@ -150,7 +150,7 @@ ms.locfileid: "92049330"
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![指令碼之前及之後](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![指令碼之前及之後](https://raw.githubusercontent.com/microsoft/PowerBI-visuals/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    您可以決定像我們一樣不要對 UI 公開參數。  
 

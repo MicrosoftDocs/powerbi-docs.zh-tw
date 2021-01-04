@@ -7,15 +7,15 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
-ms.topic: conceptual
+ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 09/15/2020
-ms.openlocfilehash: b85be8e4b231e714b4b9aba8cdf88b404c8bda74
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1c486e1967e1661840622c74f3b86bf7bf7f7738
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411762"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621502"
 ---
 # <a name="add-the-power-bi-app-to-microsoft-teams"></a>將 Power BI 應用程式新增至 Microsoft Teams
 
