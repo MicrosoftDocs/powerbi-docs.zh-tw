@@ -124,7 +124,9 @@
       items:
         - name: Power BI 報表
           items:
-            - name: 在服務中建立報表
+            - name: 在服務中建立快速報表
+              href: service-quick-create-report.md
+            - name: 在服務中從 Excel 建立報表
               href: service-report-create-new.md
             - name: 啟用自動重新整理頁面
               href: desktop-automatic-page-refresh.md

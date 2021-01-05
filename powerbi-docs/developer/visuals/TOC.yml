@@ -26,7 +26,7 @@
       items:
         - name: Power BI 視覺效果專案結構
           href: visual-project-structure.md
-        - name: ' Power BI 視覺效果系統整合'
+        - name: Power BI 視覺效果系統整合
           href: power-bi-visuals-concept.md
         - name: Power BI 中組織的視覺效果
           href: power-bi-custom-visuals-organization.md
@@ -106,7 +106,7 @@
           href: launch-url.md
         - name: 視覺效果 API
           href: visual-api.md
-        - name: 本機存放區 API
+        - name: 本機儲存體 API
           href: local-storage.md
         - name: 轉譯事件
           href: event-service.md
