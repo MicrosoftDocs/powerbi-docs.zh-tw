@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5c7d9464e8d14354ba893dd80d11a46b8ea170cc
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d1a4e8f7d5a057b51de7284d0db0b2440ccb93df
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405828"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926449"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 OData 摘要
 在 Power BI Desktop 中，您可以連接至 **OData 摘要** 並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。

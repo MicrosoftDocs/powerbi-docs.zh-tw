@@ -1,6 +1,6 @@
 ### YamlMime:Landing
-title: Power BI Embedded 分析文件
-summary: 了解如何使用兩個內嵌式分析解決方案、Power BI Embedded，以及使用 Power BI Premium 進行內嵌。
+title: 用於增強型內嵌 BI 見解的 Power BI 內嵌式分析文件
+summary: 了解如何使用 Power BI 的兩個內嵌式分析解決方案、Power BI Embedded，以及使用 Power BI Premium 進行內嵌。
 metadata:
   title: Power BI Embedded 分析文件
   description: 了解如何使用兩個內嵌式分析解決方案、Power BI Embedded，以及使用 Power BI Premium 進行內嵌。
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: d66f11bdbb9de10f77b7841958d9ef08c358ef7e
-  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+  ms.openlocfilehash: 0f5afe65128f8e9b79522380b2271895f2afacaf
+  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/06/2020
-  ms.locfileid: "91746025"
+  ms.lasthandoff: 01/05/2021
+  ms.locfileid: "97888665"
 landingContent:
 - title: 開始使用
   linkLists:
