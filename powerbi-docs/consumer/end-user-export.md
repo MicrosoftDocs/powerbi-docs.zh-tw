@@ -4,18 +4,18 @@ description: 從報表視覺效果和儀表板視覺效果匯出資料，並在 
 author: mihart
 ms.author: mihart
 ms.reviewer: cmfinlan
-featuredvideoid: jtlLGRKBvXY
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 12/21/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: cd07004149afd2525c5830e04e5c2490eeebcb3c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578101"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721378"
 ---
 # <a name="export-data-from-a-visual"></a>匯出視覺效果的資料
 
@@ -40,7 +40,7 @@ ms.locfileid: "96578101"
 
 3. 選取 [匯出至 .csv]。
 
-4. 後續步驟取決於所正在使用的瀏覽器。 系統可能會提示儲存檔案，或您可能會在瀏覽器底部看到所匯出檔案的連結。 
+4. 後續步驟取決於所正在使用的瀏覽器。 系統可能會提示儲存檔案，或您可能會在瀏覽器底部看到所匯出檔案的連結。 根據預設，您的匯出會儲存到本機的 [下載] 資料夾中。 
 
     ![顯示匯出檔案連結的 Chrome 瀏覽器](media/end-user-export/power-bi-dashboards-export.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "96578101"
 
     ![選擇基礎或摘要的功能表](media/end-user-export/power-bi-export-underlying.png)
 
-5. 後續步驟取決於所正在使用的瀏覽器。 系統可能會提示您儲存檔案，或者您可能會在瀏覽器底部看到所匯出檔案的連結。 
+5. 後續步驟取決於所正在使用的瀏覽器。 系統可能會提示您儲存檔案，或者您可能會在瀏覽器底部看到所匯出檔案的連結。 如果您在 Microsoft Teams 中使用 Power BI 應用程式，則匯出的檔案會儲存在本機的 [下載] 資料夾中。 
 
     ![在 Microsoft Edge 瀏覽器中顯示的匯出檔案](media/end-user-export/power-bi-export-edge-screen.png)
 

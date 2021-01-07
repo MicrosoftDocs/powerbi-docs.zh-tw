@@ -9,19 +9,19 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 806198b783785a06562411b53f7bd6f644b16918
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a971e0d0b35b0a3988a1c10ea2b7b801830229d6
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388187"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721539"
 ---
 # <a name="create-a-report-from-an-excel-file-in-the-power-bi-service"></a>在 Power BI 服務中從 Excel 檔案建立報表
 您已閱讀 [Power BI 中的報表](../consumer/end-user-reports.md)，現在想要建立自己的報表。 有很多方式可以建立報表。 在本文中，我們會透過在 Power BI 服務中從 Excel 檔案建立基礎報表開始。 了解建立報表的基本概念之後，請查看底部的[後續步驟](#next-steps)以取得更進階的報表主題。  
 
 ## <a name="prerequisites"></a>必要條件
 - [註冊 Power BI 服務](../fundamentals/service-self-service-signup-for-power-bi.md)。 
-- 請[下載零售分析範例 Excel 檔案](https://go.microsoft.com/fwlink/?LinkId=529778)，並將其儲存至本機或商務用 OneDrive。
+- [下載零售分析範例 Excel 檔案](https://go.microsoft.com/fwlink/?LinkId=529778)，並將其儲存至您的電腦或商務用 OneDrive。
 
 ## <a name="import-the-excel-file"></a>匯入 Excel 檔案
 這種建立報表的方法會從檔案和空白報表畫布開始。 您可在零售分析範例 Excel 檔案中跟著做。

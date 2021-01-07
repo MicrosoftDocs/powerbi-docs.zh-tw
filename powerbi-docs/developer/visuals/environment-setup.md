@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 09/02/2020
-ms.openlocfilehash: 58ec11935e74131c17dc4c0755598c3c3341e259
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5b176ac9e8d334b6dec9af70c189d2767bace1c
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418685"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805226"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>設定環境以開發 Power BI 視覺效果
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/4/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 960a3dec2276acba994190e73de671f2b071bc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa15bae7ab94619a9f652aa20da9222e3d4af41
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409715"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721631"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>顯示視覺效果的基礎資料
 
@@ -52,7 +52,7 @@ Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您�
 6. 若要隱藏資料，請取消選取 [探索] > [顯示資料]。
 
 ## <a name="using-show-records"></a>使用顯示記錄
-您也可以將焦點放在視覺效果中的一個資料記錄，然後鑽研到它背後的資料。 
+您也可以將焦點放在視覺效果中的一個資料記錄，然後鑽研到其背後的詳細資料。 
 
 1. 若要使用 [查看記錄]，選取要啟用的視覺效果。 
 

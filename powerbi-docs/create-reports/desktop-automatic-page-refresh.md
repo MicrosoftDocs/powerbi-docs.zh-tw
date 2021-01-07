@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f68a056e6e31acaf5432c4e323ba8a293ee09ce
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: eb572c17705f06b989f15323322c0da11b1d85ac
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414407"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600683"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Power BI 的自動重新整理頁面
 
@@ -33,11 +33,11 @@ Power BI 中的自動重新整理頁面功能，可讓您作用中的報表頁�
 
 ### <a name="change-detection"></a>變更偵測
 
-此重新整理類型可讓您根據偵測到的資料變更，而不是特定的重新整理間隔，來重新整理頁面上的視覺效果。 具體而言，此量值會輪詢您 [DirectQuery 來源](../connect-data/desktop-directquery-about.md)的變更。 除了定義量值之外，您也必須選取 Power BI Desktop 檢查變更的頻率。 發佈至服務時，只有屬於 Premium 容量的工作區才支援此重新整理類型。
+此重新整理類型可讓您根據偵測到的資料變更，而不是特定的重新整理間隔，來重新整理頁面上的視覺效果。 具體而言，此量值會輪詢您 [DirectQuery 來源](../connect-data/desktop-directquery-about.md)的變更。 除了定義量值之外，您也必須選取 Power BI Desktop 檢查變更的頻率。 發佈至服務時，只有屬於 Premium 容量的工作區才支援此重新整理類型。 不支援 LiveConnect 來源，例如 Analysis Services 和 Power BI 資料集。
 
 ## <a name="authoring-reports-with-automatic-page-refresh-in-power-bi-desktop"></a>使用 Power BI Desktop 的自動重新整理頁面來撰寫報表
 
-自動重新整理頁面僅適用於 [DirectQuery 來源](../connect-data/desktop-directquery-about.md)，所以只有當您連線至 DirectQuery 資料來源時才可以使用。 此限制適用於兩種自動重新整理頁面類型。
+自動頁面重新整理適用於 [DirectQuery 來源](../connect-data/desktop-directquery-about.md)和部分 LiveConnect 案例，因此，只有當您連線至支援的資料來源時才能使用。 此限制適用於兩種自動重新整理頁面類型。
 
 若要使用 Power BI Desktop 的自動重新整理頁面，請選取您想要啟用自動重新整理頁面的報表頁面。 在 [視覺效果] 窗格中，選取 [格式化] 按鈕 (油漆滾筒)，然後在窗格底部附近尋找 [頁面重新整理] 區段。
 
@@ -160,7 +160,7 @@ Power BI Desktop 沒有重新整理間隔的限制，可以短到每秒一次。
 
 ### <a name="restrictions-on-refresh-intervals"></a>重新整理間隔的限制
 
-在 Power BI 服務中，無論您是否使用 Premium 服務和 Premium 容量管理員設定，都會套用報表發佈工作區的自動重新整理頁面限制。
+在 Power BI 服務中，無論您是否使用 Premium 服務、Premium 容量管理員設定，以及資料來源的類型，都會根據報表發佈所在的工作區套用有關自動頁面重新整理的限制。
 
 為釐清這些限制的運作方式，讓我們從容量與工作區的一些背景開始著手。
 
@@ -182,32 +182,35 @@ Power BI *工作區* 位於容量之內。 其代表安全性、共同作業和�
 
  - **最小執行間隔**。 當啟用變更偵測時，容量系統管理員必須設定最小的執行間隔 (預設值為五秒)。 如果您的間隔低於最小值，則 Power BI 服務會覆寫您的間隔，以遵循容量管理員所設定的最小間隔。
 
+> [!WARNING]
+> 在您的資料集內啟用時，變更偵測量值將會開啟與您 DirectQuery 資料來源的連線，以計算量值並輪詢變更。 此連線與 Power BI 已經建立的「低優先順序」重新整理連線不同。
+
 ![容量系統管理員入口網站中的自動重新整理頁面設定](media/desktop-automatic-page-refresh/automatic-page-refresh-09.png)
 
 下表描述可使用此功能的更多詳細資料，以及每個容量類型與[儲存模式](../connect-data/service-dataset-modes-understand.md)的限制：
 
-| 儲存模式 | 專用容量 | 共用容量 |
-| --- | --- | --- |
-| DirectQuery | **支援 FI**：是 <br>**支援 CD**：是 <br>**最小值**：1 秒 <br>**系統管理員覆寫**：是 | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：30 分鐘 <br>**系統管理員覆寫**：否 |
-| 匯入 | **支援 FI**：否 <br>**支援 CD**：否 <br>**最小值**：N/A <br>**系統管理員覆寫**：N/A | **支援 FI**：否 <br>**支援 CD**：否 <br>**最小值**：N/A <br>**系統管理員覆寫**：N/A |
-| 混合模式 (DirectQuery + 其他資料來源) | **支援 FI**：是 <br>**支援 CD**：是 <br>**最小值**：1 秒 <br>**系統管理員覆寫**：是 | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：30 分鐘 <br>**系統管理員覆寫**：否 |
-| Live Connect AS | **支援 FI**：否 <br>**支援 CD**：否 <br>**最小值**：N/A <br>**系統管理員覆寫**：N/A | **支援 FI**：否 <br>**支援 CD**：否 <br>**最小值**：N/A <br>**系統管理員覆寫**：N/A |
-| Live Connect PBI | **支援 FI**：否 <br>**支援 CD**：否 <br>**最小值**：N/A <br>**系統管理員覆寫**：N/A | **支援 FI**：否 <br>**支援 CD**：否 <br>**最小值**：N/A <br>**系統管理員覆寫**：N/A |
+| 儲存模式                                  | 專用容量                                                                                     | 共用容量                                                                                       |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| DirectQuery                                   | **支援 FI**：是 <br>**支援 CD**：是 <br>**最小值**：1 秒 <br>**系統管理員覆寫**：是  | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：30 分鐘 <br>**系統管理員覆寫**：否 |
+| 匯入                                        | **支援 FI**：否 <br>**支援 CD**：否 <br>**最小值**：N/A <br>**系統管理員覆寫**：N/A         | **支援 FI**：否 <br>**支援 CD**：否 <br>**最小值**：N/A <br>**系統管理員覆寫**：N/A        |
+| 混合模式 (DirectQuery + 其他資料來源) | **支援 FI**：是 <br>**支援 CD**：是 <br>**最小值**：1 秒 <br>**系統管理員覆寫**：是  | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：30 分鐘 <br>**系統管理員覆寫**：否 |
+| Analysis Services (Azure 和內部部署)     | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：30 分鐘 <br>**系統管理員覆寫**：是 | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：30 分鐘 <br>**系統管理員覆寫**：否 |
+| Power BI 資料集 (含 DirectQuery 來源)   | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：1 秒 <br>**系統管理員覆寫**：是  | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：30 分鐘 <br>**系統管理員覆寫**：否 |
+| Power BI 推送資料集                        | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：30 分鐘 <br>**系統管理員覆寫**：是 | **支援 FI**：是 <br>**支援 CD**：否 <br>**最小值**：30 分鐘 <br>**系統管理員覆寫**：否        |
 
 *表格圖例：*
 1. *FI：* 「固定間隔」
 2. *CD：* 「變更偵測」
 
 > [!WARNING]
-> 在您的資料集內啟用時，變更偵測量值將會開啟與您 DirectQuery 資料來源的連線，以計算量值並輪詢變更。 此連線與 Power BI 已經建立的「低優先順序」重新整理連線不同。
+> 我們在從 Power BI Desktop 連線到 Analysis Services 或 Power BI 資料集，且重新整理間隔為 30 分鐘或更久時，有一個已知問題。 報表頁面中的視覺效果可能會在 30 分鐘後顯示錯誤。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
 在 Power BI Desktop 或 Power BI 服務中使用自動頁面重新整理時，有幾件事要謹記在心：
 
-* 自動頁面重新整理不支援匯入、LiveConnect 與推送儲存模式。  
+* 自動頁面重新整理不支援匯入儲存體模式。  
 * 支援至少有一個 DirectQuery 資料來源的複合模型。
-* Power BI Desktop 沒有重新整理間隔的限制。 固定間隔與變更偵測重新整理類型的間隔頻率可以頻繁到一秒。 當報表發佈至 Power BI 服務時，就會套用特定限制，如此文章[稍早](#restrictions-on-refresh-intervals)所述。
 * 每個資料集只能有一個變更偵測量值。
 * Power BI 租用戶最多只能有 10 個使用變更偵測量值的模型。
 
@@ -277,6 +280,10 @@ Power BI *工作區* 位於容量之內。 其代表安全性、共同作業和�
 * 檢查您是否已上傳到具有附加 Premium 容量的工作區。 若您尚未這麼做，變更偵測將無法正常運行。
 * 如果您的報表位於進階版工作區，請詢問您的系統管理員是否已針對附加的容量啟用此功能。 此外，請確定容量的最小執行間隔等於或低於您報表的間隔。
 * 如已檢查先前提到的所有項目，當量值完全變更時，請在 Power BI Desktop 或編輯模式中進行檢查。 若要這麼做，請將項目拖曳到畫布中，並檢查值是否變更。 若沒有，這可能不是輪詢資料來源變更的理想量值。
+
+**連線到 Analysis Services 時，我看不到 APR 切換**
+
+* 請確定您的 Analysis Services 模型處於[直接查詢模式](https://docs.microsoft.com/analysis-services/tabular-models/directquery-mode-ssas-tabular) \(部分機器翻譯\)。
 
 
 ## <a name="next-steps"></a>後續步驟

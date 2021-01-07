@@ -7,20 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
-ms.date: 01/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8d33973f1a11050d104399c98866fdae0ffb1f8a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404885"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600223"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>針對 Power BI Desktop 的開啟問題進行疑難排解
 
-在 Power BI Desktop 中，因為 Power BI 內部部署閘道在本機電腦的具名管道上設置了系統管理原則限制，所以會封鎖安裝並執行舊版 *Power BI 內部部署資料閘道* 的使用者，讓他們無法開啟 Power BI Desktop。
+此文章說明並提供多種 Power BI 無法開啟之情況的補救方式。 
+
+## <a name="resolve-issues-with-opening-encrypted-pbix-files"></a>解決開啟已加密 PBIX 檔案的問題
+
+您無法使用不支援資訊保護的 Power BI Desktop 版本開啟已加密的 PBIX 檔案。
+
+如果您需要繼續使用 Power BI Desktop，建議的解決方法是將其更新至支援資訊保護的版本。 您可以下載[最新版本的 Power BI Desktop](https://www.microsoft.com/download/confirmation.aspx?id=58494) (這是直接下載安裝可執行檔的連結)。 最新版的 Power BI Desktop 支援資訊保護，而且可以解密並開啟任何已加密的 PBIX 檔案。
+
+###
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>解決內部部署資料閘道和 Power BI Desktop 的問題
+
+在 Power BI Desktop 中，因為 Power BI 內部部署閘道在本機電腦的具名管道上設置了系統管理原則限制，所以會封鎖安裝並執行舊版 *Power BI 內部部署資料閘道* 的使用者，讓他們無法開啟 Power BI Desktop。
 
 您可以透過下列三個選項，來解決與內部部署資料閘道相關聯的問題，並允許開啟 Power BI Desktop：
 

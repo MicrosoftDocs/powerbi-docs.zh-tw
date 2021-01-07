@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/18/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578168"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699540"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
-此管理入口網站可讓您管理組織的 Power BI 設定。 此入口網站包含使用計量、存取 Microsoft 365 系統管理中心與租用戶設定等項目。
+此管理入口網站可讓您管理組織的 Power BI 設定。 入口網站包含許多項目，例如使用計量、存取 Microsoft 365 系統管理中心，以及可管理所有使用者之 Power BI 的設定等。
 
 全域管理員和具有 Power BI 服務管理員角色的使用者，都可存取完整的管理入口網站。 若您不屬於任何這些角色，您只會看到入口網站中的 [容量設定]。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。
 
@@ -31,14 +31,15 @@ ms.locfileid: "96578168"
 
 1. 從頁首選取 [設定] > [管理入口網站]。
 
-    ![管理入口網站設定](media/service-admin-portal/powerbi-admin-settings.png)
+   :::image type="content" source="media/service-admin-portal/settings-portal.png" alt-text="已選取管理入口網站的 [設定] 功能表。":::
 
 管理入口網站中有數個區段。 此文章其餘部分會提供有關這其中每個區段的資訊。
 
-![管理入口網站瀏覽](media/service-admin-portal/powerbi-admin-landing-page.png)
+   :::image type="content" source="media/service-admin-portal/portal-menu.png" alt-text="管理入口網站功能表。":::
 
 * [使用計量](#usage-metrics)
 * [使用者](#users)
+* [Premium Per User (預覽)](#premium-per-user-preview)
 * [稽核記錄](#audit-logs)
 * [租用戶設定](#tenant-settings)
 * [容量設定](#capacity-settings)
@@ -125,6 +126,14 @@ ms.locfileid: "96578168"
 您可以在 Microsoft 365 系統管理中心管理 Power BI 使用者、群組與管理員。 [使用者] 索引標籤會提供該系統管理中心的連結。
 
 ![前往 MIcrosoft 365 系統管理中心](media/service-admin-portal/powerbi-admin-manage-users.png)
+
+## <a name="premium-per-user-preview"></a>Premium Per User (預覽)
+
+Premium Per User 是以個別使用者為基礎對 Premium 功能進行授權的新方式。 此功能目前為預覽狀態。 在至少有一個使用者獲指派 Premium Per User 授權之後，即可在任何工作區中開啟相關聯的功能。 系統管理員可以管理顯示給使用者的自動重新整理與資料集工作負載設定及其預設值。 例如，可以關閉 XMLA 端點的存取、設定為唯讀，或設定為讀寫。
+
+   :::image type="content" source="media/service-admin-portal/premium-per-user-options.png" alt-text="Premium Per User 設定。":::
+
+若要深入了解此授權模型，請參閱 [Power BI Premium Per User 常見問題集 (預覽)](service-premium-per-user-faq.md)。
 
 ## <a name="audit-logs"></a>稽核記錄
 

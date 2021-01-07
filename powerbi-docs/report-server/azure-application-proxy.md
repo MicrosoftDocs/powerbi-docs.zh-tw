@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/28/2020
-ms.openlocfilehash: 795b2e7e1b9ef0c705f7240e9a20a5c2da2f81a3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/18/2020
+ms.openlocfilehash: be256a0ed861ae7ebc26fe4e2a74e0d597ef5542
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414913"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699309"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>使用 Azure 應用程式 Proxy 設定 Power BI 報表伺服器
 
@@ -260,6 +260,9 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 ### <a name="configure-the-application-registration"></a>設定應用程式註冊
 
 在 Power BI 的行動裝置應用程式可以連線並存取 Power BI 報表伺服器之前，您必須先設定自動為您建立的應用程式註冊，如此文章稍早的[透過 Azure AD 應用程式 Proxy 發佈](#publish-through-azure-ad-application-proxy)中所述。
+
+> [!NOTE]
+> 如果您使用的條件式存取原則要求 Power BI 行動裝置應用程式必須是核准的用戶端應用程式，您就無法使用 Azure AD 應用程式 Proxy，將 Power BI 行動裝置應用程式連線到 Power BI 報表伺服器。
 
 1. 在 Azure Active Directory [概觀] 頁面上，選取 [應用程式註冊]。
 2. 在 [所有應用程式] 索引標籤上，搜尋您為 Power BI 報表伺服器建立的應用程式。

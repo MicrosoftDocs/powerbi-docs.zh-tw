@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/01/2020
-ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.date: 12/17/2020
+ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502039"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675532"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -26,8 +26,17 @@ ms.locfileid: "96502039"
 >**使用 Windows 10 行動裝置版的手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日終止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="december-2020"></a>2020 年 12 月
-### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Power BI 行動版新增了深色模式 (Android)
+### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>我們已在行動裝置應用程式中新增異常偵測
+如果報表建立者已針對報表視覺效果設定異常偵測，您就能查看資料極端值 (也就是異常) 是否導致了資料中發生非預期的高峰或低谷。 [深入了解！](mobile-reports-in-the-mobile-apps.md#investigate-anomalies-in-time-series-data)
 
+![異常偵測的螢幕擷取畫面。](media/mobile-whats-new-in-the-mobile-apps/mobile-anomaly-detection.png)
+
+### <a name="easily-find-your-orgs-endorsed-content"></a>輕鬆尋找貴組織已背書的內容
+Power BI 服務中[已升級或認證](../../collaborate-share/service-endorsement-overview.md)的內容，現在會在應用程式中以徽章標記。 報表建立者會將其內容升級以顯示其已準備好供您使用 (已升級)，或認證其內容以顯示貴組織已加以核准 (已認證)。
+
+![行動裝置上報表資訊中已認證的報表螢幕擷取畫面。](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-certified-badge.png)
+
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Power BI 行動版新增了深色模式 (Android)
 在適用於 Android 裝置的 Power BI 行動應用程式中試用新的深色模式。 在深色模式中，您將在深色背景中看到淺色文字，降低螢幕亮度，讓您能夠更輕鬆地查看內容。 您可以在應用程式外觀設定中切換主題。 [深入了解](mobile-apps-dark-mode.md)
 
 ![適用於 Android 的 Power BI 行動應用程式中深色模式的螢幕擷取畫面。](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
@@ -50,7 +59,7 @@ ms.locfileid: "96502039"
 ## <a name="september-2020"></a>2020 年 9 月
 ### <a name="power-bi-app-preview-for-hololens-2-is-out-in-the-stores"></a>適用於 HoloLens 2 的 Power BI 應用程式 (預覽) 已在商店中推出！
 
-適用於 HoloLens 2 的 Power BI 應用程式可為您提供完全的沉浸式體驗。 使用 HoloLens 2 的手勢系統，您可以從工具袋中取得最愛的報表與儀表板、調整大小，並將其放在您需要的空間中，甚至是瀏覽報表的頁面。 當您使用應用程式時，報表與儀表板會更新，因此，如果資料變更，您就會立即看到那些變更。 若要深入了解，請參閱我們的[文件](mobile-hololens2-app.md)與[部落格](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/)！
+適用於 HoloLens 2 的 Power BI 應用程式可為您提供完全的沉浸式體驗。 使用 HoloLens 2 的手勢系統，您可以從工具帶中取得最愛的報表與儀表板、調整大小，並將其放在您需要的空間中，甚至是瀏覽報表的頁面。 當您使用應用程式時，報表與儀表板會更新，因此，如果資料變更，您就會立即看到那些變更。 若要深入了解，請參閱我們的[文件](mobile-hololens2-app.md)與[部落格](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/)！
 
 
 ## <a name="august-2020"></a>2020 年 8 月
@@ -433,7 +442,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
 
-Power BI for Mixed Reality 應用程式已經在 Microsoft 網上商店中推出。 您可以在沉浸於虛擬世界的同時，檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置以進行檢視。 請觀看新的 [Power BI 應用於 Hololens 的簡介](https://www.youtube.com/watch?v=J_X_nOFUBss)影片以了解相關背景，或是閱讀有關新 [Power BI for Mixed Reality 應用程式](mobile-mixed-reality-app.md)的文章。
+Power BI for Mixed Reality 應用程式已經在 Microsoft 網上商店中推出。 您可以在沉浸於虛擬世界的同時，檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置以進行檢視。 請觀看新的 [Power BI 應用於 HoloLens 的簡介](https://www.youtube.com/watch?v=J_X_nOFUBss) \(英文\) 影片以了解相關背景，或是閱讀有關新 [Power BI for Mixed Reality 應用程式](mobile-mixed-reality-app.md)的文章。
 
 
 ### <a name="april-2018"></a>2018 年 4 月

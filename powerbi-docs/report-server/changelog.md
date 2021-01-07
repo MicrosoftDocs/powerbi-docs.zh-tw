@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/18/2020
-ms.openlocfilehash: 2331785b14cd8cbcf9aec1232293cb601b1e2dc6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/16/2020
+ms.openlocfilehash: c292e1ccaa03904ee0bfa4825a539430fed71867
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418110"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621870"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -40,8 +40,12 @@ ms.locfileid: "96418110"
             - 已修正匯出報表在名稱中包含句點的問題。
             - 已修正 tablix 的螢幕助讀程式問題。
             - 已修正記錄檔在某些情況下為空白的問題。
-            - 已修正 [連線到 Power BI] 對話方塊未關閉的問題
-            - 已更新 MHTML 轉譯器以使用較新的 HTML DOCTYPE
+            - 已修正在上傳期間覆寫 Excel 檔案的問題。
+            - 已修正 Model.UpdateCacheSnapshot REST API 方法的問題。
+            - 已修正透過 XMLA 進行 SAP BW 資料來源連線的問題。
+            - 已修正 [連線到 Power BI] 對話方塊未關閉的問題。
+            - 已修正 CustomHeaders 進階功能預設值的問題。
+            - 已更新 MHTML 轉譯器以使用較新的 HTML DOCTYPE。
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
    - *版本：2.86.961.0 (2020 年 10 月)，發行日期：2020 年 10 月 27 日* (新組建和新版本)

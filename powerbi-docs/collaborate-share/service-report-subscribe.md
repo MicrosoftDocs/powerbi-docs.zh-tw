@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/18/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 4a8234176dd44fd265ff2d4a6af8e1b5568a642c
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613802"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699258"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -25,10 +25,10 @@ ms.locfileid: "96613802"
 - 選擇 [每日]、[每週]、[每小時] 或 [每月] 時，選擇要接收電子郵件的時間。
 - 為每個 Power BI 報表或儀表板設定 24 個不同的訂閱。  您可為編頁報表設定的訂閱數目沒有上限。
 - 使用此服務傳送附有報表影像及報表連結的郵件。  在安裝 Power BI 應用程式的行動裝置上，選取此連結會啟動 Power BI 應用程式 (而不是在 Power BI 網站上開啟報表或儀表板)。
-- 如果您訂閱的是編頁報表，則會包含完整報表的附件。
+- 包含完整報表的附件。
 - 如果 Power BI 內容託管於 Premium 容量中，請將電子郵件傳送給租使用者外部的使用者。  系統管理員可以利用 Power BI 系統管理中心內現有的外部共用控制設定，控制可傳送電子郵件訂閱給外部使用者的人員存取權。
 
-![儀表板的電子郵件快照集](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
+![儀表板的電子郵件快照集](media/service-report-subscribe/power-bi-subscriptions-email.png)
 
 ## <a name="requirements"></a>需求
 
@@ -54,7 +54,7 @@ ms.locfileid: "96613802"
 
 1. 使用黃色的滑桿開啟和關閉訂閱。 將滑桿設定為 [關閉] 不會刪除訂閱。 若要刪除訂閱，請選取垃圾桶圖示。
 
-2. 電子郵件已收在 [訂閱] 方塊中。 您可在訂閱中新增其他電子郵件地址，但僅限於同一個網域。 若報表或儀表板託管於 [Premium 容量](../admin/service-premium-what-is.md)中，您就可以使用個人電子郵件地址與群組別名訂閱，無論其是否位在網域中。 若報表或儀表板不是託管於 Premium 容量中，則您可使用其他人的名義來訂閱，但這些人也必須具有 Power BI Pro 授權。 如需詳細資料，請參閱下方的[考量與疑難排解](#considerations-and-troubleshooting)。
+2. 您的電子郵件地址已位於 [訂閱] 方塊中。 您可在訂閱中新增其他電子郵件地址，但僅限於同一個網域。 若報表或儀表板託管於 [Premium 容量](../admin/service-premium-what-is.md)中，您就可以使用個人電子郵件地址與群組別名訂閱，無論其是否位在網域中。 若報表或儀表板不是託管於 Premium 容量中，則您可使用其他人的名義來訂閱，但這些人也必須具有 Power BI Pro 授權。 如需詳細資料，請參閱下方的[考量與疑難排解](#considerations-and-troubleshooting)。
 
 3. 填寫電子郵件 [主旨] 和 [訊息] 詳細資料。
 
@@ -64,16 +64,21 @@ ms.locfileid: "96613802"
 
 6. 根據預設，訂用帳戶開始日期是您建立訂用帳的日期。 您可以選擇選取結束日期。 如果您未設定結束日期，則結束日期自動設為開始日期的一年後。 您可以在訂用帳戶結束之前，隨時將它變更為未來的任何日期 (最多至 9999 年)。 當訂用帳戶達到結束日期時，即會停止直到您重新啟用為止。 在排程結束日期之前，您會收到通知，詢問您是否要加以延長。
 
-    在下方的螢幕擷取畫面中，您可以注意到當您在訂閱報表時，實際上是在訂閱報表「頁面」。 若要訂閱報表的多張頁面，請選取 [新增其他訂用帳戶]，然後選取其他頁面。
+    在下方的螢幕擷取畫面中，您可以注意到當您在訂閱報表時，實際上是在訂閱報表「頁面」。 若要訂閱報表中的多個頁面，您可以選取 [完整報表附件] 或選取 [新增另一個訂用帳戶] 來設定新的訂用帳戶。
 
-    ![訂閱窗格](media/service-report-subscribe/power-bi-subscribe-pane.png)
+    ![訂閱窗格](media/service-report-subscribe/power-bi-email.png)
 
 1. (選擇性) 選取是否包含返回 Power BI 內容的連結，以及是否要讓使用者存取您以其名義訂閱的內容。  如果選擇包含連結，為獲得最佳體驗，請確定所有使用者都可以存取報表。
-2. 選取 [儲存後關閉]。 針對您所選取的頻率和時間，這些訂用帳戶會收到儀表板或報表頁面的電子郵件和快照集。 總之，您可以針對每個報表或儀表板建立最多 24 個訂用帳戶，而且可以為每個訂用帳戶提供唯一的收件者、時間和頻率。 所有設定為 [在資料重新整理後] 的儀表板或報表訂閱，在第一次排程重新整理之後仍只會傳送一封電子郵件。
+
+1. (選擇性) 選取是否要將「完整報表」新增為附件，而非僅新增單一報表頁面。 選擇 [PDF] 或 [PowerPoint]。 附件的大小限制為不超過 20 頁且小於 25 MB。 附件會遵守報表的所有隱私權標籤。
+
+1. 選取 [儲存後關閉]。 針對您所選取的頻率和時間，這些訂用帳戶會收到儀表板或報表頁面的電子郵件和快照集。 總之，您可以針對每個報表或儀表板建立最多 24 個訂用帳戶，而且可以為每個訂用帳戶提供唯一的收件者、時間和頻率。 所有設定為 [在資料重新整理後] 的儀表板或報表訂閱，在第一次排程重新整理之後仍只會傳送一封電子郵件。
 
     > [!NOTE]
     > 如果您在儲存和關閉後編輯訂閱，則不論先前選項為何，都會為使用者提供存取您訂閱內容的選項。
     >
+
+
 
     > [!TIP]
     > 想要立即/隨時從訂用帳戶傳送電子郵件嗎？ 請為想傳送的儀表板或報表訂閱選取 [立即執行]。 您會看到通知顯示電子郵件正在傳送至屬於該特定訂用帳戶的所有人。 執行此動作不會計入您每天每報表或儀表板的 24 個排程訂閱執行限制。 這不會觸發基礎資料集的資料重新整理。
@@ -147,10 +152,8 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
     - 附件檔案大小低於 25 MB。
     - 報表少於 20 頁。 
     
-    如果報表不符合這三個條件，則無法建立附件格式的完整報表訂閱。 任何現有的附件格式完整報表訂閱都會遭到停用，且您會收到一封電子郵件，說明錯誤：
+    如果報表不符合這三個條件，則無法建立附件格式的完整報表訂閱。 任何現有的附件格式完整報表訂用帳戶都會遭到停用，且您會收到一封電子郵件，說明該錯誤。
     
-    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="完整報表附件錯誤電子郵件。":::
-
 ## <a name="next-steps"></a>後續步驟
 
 - [Power BI 服務中的編頁報表：為自己和其他人訂閱](../consumer/paginated-reports-subscriptions.md)

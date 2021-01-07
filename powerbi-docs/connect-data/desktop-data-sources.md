@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 038d0fc4b136f89db290010289d24ee41454c9ea
-ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
+ms.openlocfilehash: 0d09871f9a47e9c8691ab3f955638c59b016d145
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97353327"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600545"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -227,7 +227,7 @@ ms.locfileid: "97353327"
 * Automation Anywhere (搶鮮版 (Beta))
 * Solver
 * Cherwell (搶鮮版 (Beta))
-* Cognite Data Fusion (搶鮮版 (Beta))
+* Cognite Data Fusion
 * FHIR
 * Information Grid (搶鮮版 (Beta))
 * Jamf Pro (搶鮮版 (Beta))

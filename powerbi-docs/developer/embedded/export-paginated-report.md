@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 590d7e8dfe2739996a40a87ebffd2d236ea6a371
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 9c547bd99513470e67bb9717546d9814a9a57c3c
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098045"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97708011"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>將分頁報表匯出至檔案 (預覽)
 
@@ -289,6 +289,10 @@ private async Task<ExportedFile> ExportPaginatedReport(
     }
 }
 ```
+
+## <a name="limitations"></a>限制
+
+服務主體不支援匯出具有 Power BI 資料集作為其資料來源的編頁報表。
 
 ## <a name="next-steps"></a>後續步驟
 

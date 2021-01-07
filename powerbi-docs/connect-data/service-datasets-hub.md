@@ -1,5 +1,5 @@
 ---
-title: 使用資料集中樞探索資料集
+title: 使用資料集中樞探索資料集 (預覽)
 description: 了解如何尋找、探索及使用組織中的資料集及其相關報表。
 author: paulinbar
 ms.author: painbar
@@ -8,14 +8,14 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c6b7170df78b6d544f7eb97ec62516577f9267b6
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 4e09eb9e0b44fbddf8787f474fe1a93b0b4c2d71
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513796"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97707965"
 ---
-# <a name="datasets-discovery-using-the-datasets-hub"></a>使用資料集中樞探索資料集
+# <a name="datasets-discovery-using-the-datasets-hub-preview"></a>使用資料集中樞探索資料集 (預覽)
 
 資料集中樞可讓您輕鬆地尋找、探索及使用組織中的資料集。 其提供資料集的相關資訊，以及在那些資料集之上建立報表或透過 [使用 Excel 分析] 使用那些資料集的進入點。
 
@@ -54,7 +54,7 @@ ms.locfileid: "97513796"
 ### <a name="dataset-list"></a>資料集清單
 
 資料集清單顯示組織中您至少具有[建置權限](service-datasets-build-permissions.md)的資料集。 此清單有三個索引標籤，可篩選資料集清單。
-* **所有資料集**：顯示組織中您至少具有[建置權限](service-datasets-build-permissions.md)的所有資料集。
+* **所有資料集**：顯示組織中您至少具有 [建置權限](service-datasets-build-permissions.md)的所有資料集。
 * **最近**：顯示您最近曾存取其相關報表的資料集。 當您存取報表時，可能有數分鐘的延遲，直到相關資料集顯示於 [最近] 資料行為止。
 * **我的資料集**：顯示您擁有的資料集。 
 

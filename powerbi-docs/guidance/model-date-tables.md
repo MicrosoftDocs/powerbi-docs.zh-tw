@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a2616b5f77a03056de03b213369d55e9b590b1b6
+ms.sourcegitcommit: 7599622381f35a161bfc54726675ed3c9cf13816
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417834"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97827564"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中建立日期資料表
 
@@ -54,10 +54,7 @@ ms.locfileid: "96417834"
 
 ## <a name="generate-with-power-query"></a>使用 Power Query 產生
 
-您可以使用 Power Query 產生日期資料表。 以下兩個部落格項目會為您示範：
-
-- [使用 Power Query 指令碼建立日期維度](https://www.mattmasson.com/2014/02/creating-a-date-dimension-with-a-power-query-script/) \(英文\)，作者：Matt Masson
-- [在 Power Query 中產生日期維度資料表](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) \(英文\)，作者：Chris Webb
+您可以使用 Power Query 產生日期資料表。 如需詳細資訊，請參閱 Chris Webb 的部落格文章：[在 Power Query 中產生日期維度資料表](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) \(英文\)。
 
 > [!TIP]
 > 如果您的組織中沒有資料倉儲或其他一致的時間定義，請考慮使用 Power Query 來發佈[資料流程](../transform-model/dataflows/dataflows-introduction-self-service.md)。 然後，讓所有資料模組工具都連線到資料流程，以將日期資料表新增至其模型。 資料流程會成為組織中時間的單一事實來源。

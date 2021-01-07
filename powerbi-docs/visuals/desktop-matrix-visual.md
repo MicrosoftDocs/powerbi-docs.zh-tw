@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 401d8905c4fe2ca0f27a8f0c58bd756c87a10456
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398054"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721493"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中建立矩陣視覺效果
 
@@ -65,13 +65,13 @@ ms.locfileid: "96398054"
 > 如果您要在 Analysis Services 多維度模型上建立報表，當該模型使用「預設成員」功能時，有幾個針對展開/摺疊的特殊考量。 如需詳細資訊，請參閱[使用 Power BI 中的多維度模型](../connect-data/desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>使用矩陣視覺效果的向下切入
-透過矩陣視覺效果，您可以執行各式各樣有趣的向下切入活動，是之前還沒有的。 這包括使用資料列、資料行，甚至是個別區段和資料格向下切入的功能。 讓我們來看看上述每項的運作方式。
+透過矩陣視覺效果，您可以執行各式各樣之前沒有的有趣向下切入活動。 這包括使用資料列、資料行，甚至是個別區段和資料格向下切入的功能。 讓我們來看看上述每項的運作方式。
 
 ### <a name="drill-down-on-row-headers"></a>資料列標頭的向下切入
 
 在 [視覺效果] 窗格中，當您將多個欄位新增至 [欄位] 的 [資料列] 區段時，您可以在矩陣視覺效果的資料列上啟用向下切入功能。 此功能類似於建立階層，之後您就可以在整個階層內向下切入 (然後備份)，並分析每個層級的資料。
 
-在下圖中，[資料列] 區段包含 [銷售階段] 和 [商機大小]，以在我們可鑽研的資料列中建立群組 (或階層)。
+在下圖中，[資料列] 區段包含 [銷售階段] 和 [商機大小]，以在我們可鑽研來查看詳細資料的資料列中建立群組 (或階層)。
 
 ![顯示選取哪些資料列的篩選條件卡片](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "96398054"
 
 ![框起向下切入控制項的矩陣](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-類似於其他視覺效果中的切入和展開行為，選取這些按鈕可讓我們在整個階層內向下切入 (或備份)。 在此情況下，我們可以從 [銷售階段] 向下切入至 [商機大小]，如下圖所示，其中已選取向下切入一層圖示 (乾草叉)。
+類似於其他視覺效果中的切入和展開行為，選取這些按鈕可讓我們在整個階層內向下切入 (或備份)。 在此案例中，我們可以從 [銷售階段] 向下切入至 [商機大小]，如下圖所示，其中已選取 [向下切入一個層級] 圖示 (乾草叉)。
 
 ![框起乾草叉的矩陣](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 

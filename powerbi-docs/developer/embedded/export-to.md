@@ -1,18 +1,18 @@
 ---
 title: 匯出 Power BI 內嵌式分析報表 API
-description: 了解如何匯出內嵌 Power BI 報表
+description: 了解如何匯出內嵌的 Power BI 報表，以增強您 Power BI 內嵌之分析內嵌的 BI 體驗
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 10/01/2020
-ms.openlocfilehash: a0aa5839272529a0217ea4a4355342c51d55a6c3
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/28/2020
+ms.openlocfilehash: da0f5f155552a8a53b53789f3bfb6ebe839367c5
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098275"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805134"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -30,7 +30,7 @@ ms.locfileid: "97098275"
 
 * **[傳送至列印] 按鈕** - 在您的應用程式中，建立按一下以觸發匯出作業的按鈕。 作業可以將已檢視的報表匯出為 .pdf 或 .pptx，當完成時，使用者會以下載項目的形式接收檔案。 您可以使用書籤，將報表以特定狀態匯出，包括已設定的篩選條件、交叉分析篩選器與其他設定。 因為 API 是非同步的，所以檔案可能需要一些時間才能使用。
 
-* **電子郵件附件** - 以設定的間隔傳送自動電子郵件，並附加 .pdf 報表。 若要將每週報表自動傳送給主管，這個案例就很有用。
+* **電子郵件附件** - 以設定的間隔傳送自動電子郵件，並附加 .pdf 報表。 若要將每週報表自動傳送給主管，這個案例就很有用。 如需詳細資訊，請參閱[使用 Power Automate 匯出 Power BI 報表並以電子郵件傳送](../../collaborate-share/service-automate-power-bi-report-export.md)。
 
 ## <a name="using-the-api"></a>使用 API
 
@@ -64,6 +64,23 @@ ms.locfileid: "97098275"
 
 >[!NOTE]
 >不支援[個人書籤](../../consumer/end-user-bookmarks.md#personal-bookmarks)與[永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) \(英文\)。
+
+### <a name="filters"></a>篩選器
+
+在 [PowerBIReportExportConfiguration](/rest/api/power-bi/reports/exporttofile#powerbireportexportconfiguration) 中使用 `reportLevelFilters`，您可以利用篩選的條件來匯出報表。
+
+若要匯出篩選的報表，請將您要用來作為篩選條件的 [URL 查詢字串參數](../../collaborate-share/service-url-filters.md)插入至 [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter)。 當您輸入字串時，必須移除 URL 查詢參數的 `?filter=` 部分。
+
+下表包含數個您可以傳遞給 `ExportFilter` 之字串的語法範例。
+
+|Filter    |語法    |範例    |
+|---|----|----|----|
+|一個欄位中的一個值    |Table/Field eq 'value'    |Store/Territory eq 'NC'    |
+|一個欄位中的多個值    |Table/Field in ('value1', 'value2')     |Store/Territory in ('NC', 'TN')    |
+|一個欄位中的相異值，且另一個欄位中有不同的相異值    |Table/Field1 eq 'value1' and Table/Field2 eq 'value2'    |Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'    |
+
+>[!NOTE]
+>`ReportLevelFilters` 只能包含單一 [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter)。
 
 ### <a name="authentication"></a>驗證
 
@@ -142,7 +159,8 @@ private async Task<string> PostExportRequest(
     Guid reportId,
     Guid groupId,
     FileFormat format,
-    IList<string> pageNames = null /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null, /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     var powerBIReportExportConfiguration = new PowerBIReportExportConfiguration
     {
@@ -153,6 +171,9 @@ private async Task<string> PostExportRequest(
         // Note that page names differ from the page display names
         // To get the page names use the GetPages REST API
         Pages = pageNames?.Select(pn => new ExportReportPage(Name = pn)).ToList(),
+        // ReportLevelFilters collection needs to be instantiated explicitly
+        ReportLevelFilters = !string.IsNullOrEmpty(urlFilter) ? new List<ExportFilter>() { new ExportFilter(urlFilter) } : null,
+
     };
 
     var exportRequest = new ExportReportRequest
@@ -263,7 +284,8 @@ private async Task<ExportedFile> ExportPowerBIReport(
     FileFormat format,
     int pollingtimeOutInMinutes,
     CancellationToken token,
-    IList<string> pageNames = null  /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null,  /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     const int c_maxNumberOfRetries = 3; /* Can be set to any desired number */
     const int c_secToMillisec = 1000;
@@ -273,7 +295,7 @@ private async Task<ExportedFile> ExportPowerBIReport(
         int retryAttempt = 1;
         do
         {
-            var exportId = await PostExportRequest(reportId, groupId, format, pageNames);
+            var exportId = await PostExportRequest(reportId, groupId, format, pageNames, urlFilter);
             var httpMessage = await PollExportRequest(reportId, groupId, exportId, pollingtimeOutInMinutes, token);
             export = httpMessage.Body;
             if (export == null)
@@ -339,3 +361,6 @@ private async Task<ExportedFile> ExportPowerBIReport(
 
 > [!div class="nextstepaction"]
 >[為組織內嵌](embed-sample-for-your-organization.md)
+
+> [!div class="nextstepaction"]
+>[使用 Power Automate 匯出 Power BI 報表並以電子郵件傳送](../../collaborate-share/service-automate-power-bi-report-export.md)

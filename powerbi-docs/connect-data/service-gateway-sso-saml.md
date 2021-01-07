@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/16/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0f971013d5f57174a26d92281cafe673f1487329
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 21371e931aa123aa6a339bfbcb939bde943b3f9f
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96577547"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675503"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的 SSO，使用安全性聲明標記語言 (SAML)
 
@@ -29,7 +29,7 @@ ms.locfileid: "96577547"
 針對 SAP HANA，建議您先啟用加密再建立 SAML SSO 連線。 若要啟用加密，請將 HANA 伺服器設定為接受加密連線，並將閘道設定為使用加密來與您的 HANA 伺服器進行通訊。 因為 HANA ODBC 驅動程式預設不會加密 SAML 判斷提示，所以已簽署之 SAML 判斷提示會從閘道傳送到「沒有問題」  的 HANA 伺服器，且很容易被第三方攔截並重複使用。
 
 > [!IMPORTANT]
-> SAP 已不再支援 OpenSSL，因此 Microsoft 也已停止其支援。 現有及新的連線會繼續正常運作直到 2020 年底，但從 2021 年 1 月 1 日起將停止運作。 請改用 CommonCryptoLib。
+> 由於 [SAP 已不再支援 OpenSSL](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.05/en-US/de15ffb1bb5710148386ffdfd857482a.html)，因此 Microsoft 也已停止其支援。 現有的連線將會繼續運作，但從 2021 年 2 月開始，您將無法建立新的連線。 往後，請改為使用 CommonCryptoLib。
 
 ## <a name="configuring-the-gateway-and-data-source"></a>設定閘道和資料來源
 

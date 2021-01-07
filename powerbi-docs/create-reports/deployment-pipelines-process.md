@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.custom: contperfq1
-ms.date: 10/21/2020
-ms.openlocfilehash: c9ae23a88bd557681ca89e541f082a69d449ed8c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: contperf-fy21q1
+ms.date: 12/28/2020
+ms.openlocfilehash: 4bb709e41698bc0dc32341f517593717f64f9b6d
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415005"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805203"
 ---
 # <a name="understand-the-deployment-process"></a>了解部署程序
 
@@ -149,13 +149,21 @@ ms.locfileid: "96415005"
 
 * 簽署設定
 
-## <a name="incremental-refresh"></a>累加式重新整理
+## <a name="supported-dataset-features"></a>支援的資料集功能
+
+部署管線支援許多 Power BI 資料集功能。 此節列出兩個可增強部署管線體驗的 Power BI 資料集功能：
+
+* [累加式重新整理](#incremental-refresh)
+
+* [複合模型](#composite-models)
+
+### <a name="incremental-refresh"></a>累加式重新整理
 
 部署管線支援[累加式重新整理](../admin/service-premium-incremental-refresh.md)，此功能可讓大型資料集的重新整理速度更快、更可靠、耗用量更低。
 
 透過部署管線，您可以採用累加式重新整理的資料集進行更新，同時保留資料和分割區。 當您部署資料集時，會一併複製該原則。
 
-### <a name="activating-incremental-refresh-in-a-pipeline"></a>在管線中啟用累加式重新整理
+#### <a name="activating-incremental-refresh-in-a-pipeline"></a>在管線中啟用累加式重新整理
 
 若要啟用累加式重新整理，[請在 Power BI Desktop 中開啟](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh)，然後發佈您的資料集。 發佈之後，管線中的累加式重新整理原則會類似，且只能在 Power BI Desktop 中撰寫。
 
@@ -169,7 +177,7 @@ ms.locfileid: "96415005"
 
 4. 檢查您在測試階段所做的變更，並在驗證後部署至生產階段。
 
-### <a name="usage-examples"></a>使用範例
+#### <a name="usage-examples"></a>使用範例
 
 以下幾個範例會說明如何將累加式重新整理與部署管線整合。
 
@@ -181,7 +189,7 @@ ms.locfileid: "96415005"
 
 * 將使用累加式重新整理的資料集發佈至屬於現有管線的工作區。
 
-### <a name="limitations-and-considerations"></a>限制與考量
+#### <a name="limitations-and-considerations"></a>限制與考量
 
 對於累加式重新整理，部署管線僅支援使用[增強型資料集中繼資料](../connect-data/desktop-enhanced-dataset-metadata.md)的資料集。 從 2020 年 9 月版本的 Power BI Desktop 開始，使用 Power BI Desktop 建立或修改的所有資料集，都會自動執行增強型資料集中繼資料。
 
@@ -194,6 +202,24 @@ ms.locfileid: "96415005"
 * 在已啟用累加式重新整理的資料表中，重新命名非導出資料行。
 
 允許其他變更，例如新增資料行、移除資料行，以及重新命名導出資料行。 不過如果變更會影響顯示，則必須先重新整理才會顯示變更。
+
+### <a name="composite-models"></a>複合模型
+
+使用[複合模型](../transform-model/desktop-composite-models.md)，您可以設定具有多個資料連線的報表。
+
+您可以使用複合模型功能，將 Power BI 資料集連線到外部資料集，例如 Azure Analysis Services。 如需詳細資訊，請參閱[使用適用於 Power BI 資料集和 Azure Analysis Services 的 DirectQuery](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)。
+
+在部署管線中，您可以使用複合模型，將資料集連線到管線外部的另一個 Power BI 資料集。  
+
+#### <a name="limitations"></a>限制
+
+不支援下列複合模型連線：
+
+* 連線位於相同工作區的資料集。
+
+* 連線位於不同管線的資料集。
+
+* 連線位於相同管線的資料集。 
 
 ## <a name="deploying-power-bi-apps"></a>部署 Power BI 應用程式
 

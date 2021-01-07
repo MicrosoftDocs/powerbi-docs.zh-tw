@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/14/2020
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: 2341306672da4c1923dc5bc97f0d1537604a1a7c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bc8c3147efc9037fef7207f62856f3f9a0b1b5a8
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398698"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97674928"
 ---
 # <a name="collaborate-in-workspaces"></a>在工作區中共同作業
 
@@ -49,7 +49,7 @@ ms.locfileid: "96398698"
 
 ### <a name="workspace-permissions-and-roles"></a>工作區權限與角色
 
-以下是四個角色的功能：系統管理員、成員、參與者及檢視人員。 除了檢視和互動功能以外，所有這些功能都需要 Power BI Pro 授權。
+以下是四個角色的功能：系統管理員、成員、參與者及檢視人員。 所有這些功能都需要 Power BI Pro 授權，但「檢視項目並與其互動」除外。
 
 [!INCLUDE[power-bi-workspace-roles-table](../includes/power-bi-workspace-roles-table.md)]
 

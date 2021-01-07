@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: c83b7d1e52a0d443c52348bec91f935e288830d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1a196d149a6519f9bcad6bd70ef02d62ef16f69b
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388670"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600660"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>從 Power BI 服務將報表下載到 Power BI Desktop (預覽)
       
@@ -54,7 +54,7 @@ ms.locfileid: "96388670"
 * 報表必須是使用 Power BI Desktop 建立，並已「發佈」到 Power BI 服務，或必須已將 .pbix 檔案「上傳」到 Power BI 服務。
 * 報表必須在 2016 年 11 月 23 日之後發佈或更新。 在這之前發佈的報表無法下載。
 * 此功能不適用於原本在 Power BI 服務中建立的報表和內容套件。
-* 開啟下載的檔案時，請一律使用最新版本的 Power BI Desktop。 下載的 .pbix 檔案可能無法在舊版 Power BI Desktop 中開啟。
+* 開啟下載的檔案時，請一律使用最新版本的 Power BI Desktop。 下載的 .pbix 檔案可能無法在舊版 Power BI Desktop 中開啟。 例如，您無法使用不支援資訊保護的 Desktop 版本來開啟下載的 .pbix 檔案。
 * 如果系統管理員已關閉下載資料的功能，在 Power BI 服務中就不會看到此功能。
 * 使用累加式重新整理的資料集不能下載為 .pbix 檔案。
 * 針對[大型模型](../admin/service-premium-large-models.md)啟用的資料集無法下載為 .pbix 檔案。

@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: af1fac127d1a20f13bc99fc2d05510491a01be5a
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: fde06eaa3b2dd44b91e8a47981ac4e9fecba5af3
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492027"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721401"
 ---
 # <a name="chat-in-microsoft-teams-directly-from-the-power-bi-service"></a>直接從 Power BI 服務在 Microsoft Teams 中聊天
 
@@ -35,11 +35,11 @@ ms.locfileid: "97492027"
 
    * 儀表板或報表動作列中的 [在 Teams 中聊天]：
 
-       ![動作列中 [共用到 Teams] 按鈕的螢幕擷取畫面。](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
+       ![動作列中 [在 Teams 中聊天] 按鈕的螢幕擷取畫面。](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
     
    * 單一視覺效果操作功能表中的 [在 Teams 中聊天]：
     
-      ![視覺效果操作功能表中 [共用到 Teams] 按鈕的螢幕擷取畫面。](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
+      ![視覺效果操作功能表中 [在 Teams 中聊天] 按鈕的螢幕擷取畫面。](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
 1. 在 [共用至 Microsoft Teams] 對話方塊中，選取您想要傳送連結的小組或頻道。 您可以視需要輸入訊息。 系統可能要求您先登入 Microsoft Teams。
 

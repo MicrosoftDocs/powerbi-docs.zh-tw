@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 12/16/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: f2eacca4571b8d00c8fc7e5ca5c6ef7935afaf29
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e239b95fe18ba9ddfad399c5b53b10a3f1f4a4c2
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419490"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97674882"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 的新功能
 
-## <a name="november-2020-update-2872610"></a>2020 年 11 月更新 (2.87.261.0)
+## <a name="december-2020-update-2883210"></a>2020 年 12 月更新 (2.88.321.0)
 
-我們的 11 月 Power BI Desktop 更新包含眾多全新及改進的功能，請盡情享用。 
+我們的 12 月 Power BI Desktop 更新一定會讓您驚豔，就像是有滿滿亮點與雪橇的積雪道路一樣。 
 
 Power BI Desktop 的每月更新部落格和影片，現在也加入了 Power BI 行動版與 Power BI 服務的更新消息。 本文討論的範圍是 Power BI Desktop 的更新。 若要了解行動版和 Power BI 服務的更新，請參閱其各自的新功能文章：
 
@@ -46,30 +46,29 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 以下是本月 Power BI Desktop 新增的更新：
 
-
 ### <a name="reporting"></a>報告
-* 新的 [欄位] 清單 (預覽) [[影片]](https://youtu.be/DT_tOas5YIo?t=15) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) \(英文\) 
-* 新的 [模型] 檢視 (預覽) [[影片]](https://youtu.be/DT_tOas5YIo?t=61) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) \(英文\) [[文章]](../create-reports/power-bi-personalize-visuals.md)
-* [套用所有篩選] 現已正式推出 [[影片]](https://youtu.be/DT_tOas5YIo?t=98) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055) \(英文\) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* 視覺效果縮放滑桿 [[影片]](https://youtu.be/DT_tOas5YIo?t=160) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056) \(英文\) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* 資料點矩形選取已延伸到對應視覺效果 [[影片]](https://youtu.be/DT_tOas5YIo?t=185) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057) \(英文\) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* 適用於 Web 連線的憑證撤銷檢查 [[影片]](https://youtu.be/DT_tOas5YIo?t=292) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058) \(英文\) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* 編頁報表更新 [[影片]](https://youtu.be/DT_tOas5YIo?t=292) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059) \(英文\) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 適用於 Power BI 資料集和 Azure Analysis Services 的 DirectQuery (預覽) [[影片]](https://youtu.be/68YvRs49VZM?t=33)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831296)   [[文章]](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+* 小倍數 (預覽) [[影片]](https://youtu.be/68YvRs49VZM?t=378)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831297)
+* Power BI Desktop 中的資料保護敏感度標籤 (預覽) [[影片]](https://youtu.be/68YvRs49VZM?t=656)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831298) 
+* 增加矩形選取資料點限制 [[影片]](https://youtu.be/68YvRs49VZM?t=734)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831299) 
+* 現在可在行動配置檢視中使用選取範圍窗格 [[影片]](https://youtu.be/68YvRs49VZM?t=757)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831300) 
+* 適用於 Analysis Services 來源的自動頁面重新整理 [[影片]](https://youtu.be/68YvRs49VZM?t=789)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831301) 
 
-### <a name="analytics"></a>分析
-* 異常偵測 (預覽) [[影片]](https://youtu.be/DT_tOas5YIo?t=199) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) \(英文\) 
-* 問與答現在支援部分符合資料值 [[影片]](https://youtu.be/DT_tOas5YIo?t=438) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062) \(英文\) [[文章]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+
+### <a name="data-preparation"></a>資料準備
+* Power Query 和資料流程的變更 [[影片]](https://youtu.be/68YvRs49VZM?t=851)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831302)
 
 ### <a name="data-connectivity"></a>資料連線
-* Hive LLAP 連接器現已正式推出 [[影片]](https://youtu.be/DT_tOas5YIo?t=461) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064) \(英文\)
-* 新的資料連接器 - Actian、Anaplan、Starburst Presto [[影片]](https://youtu.be/DT_tOas5YIo?t=487) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065) \(英文\)
+* Microsoft Dataverse 連接器 [[影片]](https://youtu.be/68YvRs49VZM?t=886)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831566)
+* Azure 時間序列深入解析更新 [[影片]](https://youtu.be/68YvRs49VZM?t=919)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831305)
+* SurveyMonkey 更新 [[影片]](https://youtu.be/68YvRs49VZM?t=926)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831568)
+* Cognite 更新 [[影片]](https://youtu.be/68YvRs49VZM?t=933)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831307)
 
 
 ### <a name="visuals"></a>視覺效果
-* 不同提供者的新視覺效果 [[影片]](https://youtu.be/DT_tOas5YIo?t=688) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072) (英文)
+* 不同提供者的新視覺效果 [[影片]](https://youtu.be/68YvRs49VZM?t=1330) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831588) (英文)
 
-
-如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 功能摘要部落格文章](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/)。
+如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 功能摘要部落格文章](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/)。
 
 
 > [!NOTE]
@@ -79,7 +78,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新影片
 下列影片會分別描述這些更新。 您也可以在部落格文章中觀賞這段影片：
 
-> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
+> [!VIDEO https://www.youtube.com/embed/68YvRs49VZM]
 
 ## <a name="more-videos"></a>更多影片
 

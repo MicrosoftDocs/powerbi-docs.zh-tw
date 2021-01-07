@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/10/2020
+ms.date: 12/21/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 140ca42dc34e98133beac5fff671cf1ef244501c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400952"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721424"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 服務中的按鈕
 在從同事收到的報表中，您可能會注意到其中包含按鈕，且會好奇如何使用這些按鈕。 有些按鈕包含單字，有些則包含箭號，其他則包含圖形，甚至有些還有下拉式功能表。 本文會教導您如何辨識按鈕，以及如何釐清這些按鈕的使用方式。
@@ -53,17 +53,17 @@ ms.locfileid: "96400952"
 ## <a name="drillthrough-buttons"></a>鑽研按鈕
 有兩種方式可在 Power BI 服務中進行鑽研。 鑽研會帶您前往不同的報表頁面，且該目的地頁面上資料會根據您在來源頁面上篩選和選取的項目來呈現。
 
-在報表中鑽研的其中一種方式是以滑鼠右鍵按一下視覺效果中的資料點、選取 [鑽研]，然後選擇目的地。 上述方法已在名為 **[返回] 按鈕** 的章節中說明。 雖然有時候報表設計人員會改為使用鑽研「按鈕」，讓動作更為明顯，並提示重要的見解。  
+在報表中使用鑽研的其中一種方式是以滑鼠右鍵按一下視覺效果中的資料點、選取 [鑽研]，然後選擇目的地。 上述方法已在名為 **[返回] 按鈕** 的章節中說明。 雖然有時候報表設計人員會改為使用鑽研「按鈕」，讓動作更為明顯，並提示重要的見解。  
 
 鑽研按鈕可擁有超過一個先決條件。 除非您滿足所有先決條件，否則按鈕將無法運作。 以下舉例說明。
 
 以下鑽研按鈕會帶您前往 [商店詳細資料] 頁面。 將滑鼠暫留在按鈕上會顯示工具提示，讓我們知道需要同時選取商店和產品。 直到我們選取各一個項目，按鈕都會維持在非使用中狀態。
 
-![[鑽研] 按鈕的螢幕擷取畫面，且具有暫留工具提示。](media/end-user-buttons/power-bi-drill-two-selections.png)
+![包含暫留工具提示的 [鑽研] 按鈕螢幕擷取畫面。](media/end-user-buttons/power-bi-drill-two-selections.png)
 
 現在已選取一項產品 (**Word**)，以及一間商店 (**Leo**)，按鈕會變更色彩，讓我們知道按鈕現在已處於作用中狀態。
 
-![[鑽研至市集詳細資料] 按鈕的螢幕擷取畫面。](media/end-user-buttons/power-bi-select-both.png)
+![[鑽研至商店詳細資料] 按鈕的螢幕擷取畫面。](media/end-user-buttons/power-bi-select-both.png)
 
 選取鑽研按鈕會帶我們前往 [商店] 報表頁面。 [報表] 頁面已針對我們選取的 **Word** 和 **Leo** 進行篩選。
 

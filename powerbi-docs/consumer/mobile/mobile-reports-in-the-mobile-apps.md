@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/12/2020
-ms.openlocfilehash: 5d361a749f947f8d45b052a8a2b6455007745d20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/17/2020
+ms.openlocfilehash: 944f840133fd2ae8fee558e26d44fa31456bd565
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413073"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675371"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -155,6 +155,29 @@ Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，�
 ![書籤檢視](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [深入了解 Power BI 服務的書籤](../end-user-bookmarks.md)。
+
+## <a name="investigate-anomalies-in-time-series-data"></a>調查時間序列資料中的異常
+
+[異常偵測](https://powerbi.microsoft.com/blog/anomaly-detection-preview/) \(英文\) 是一個 Power BI 功能，可自動偵測包含時間序列資料之折線圖上的異常 (也就是落在預期範圍外的值)。 此外，其也會根據異常值的原因提供可能的說明，依據說明的強度進行排序。 如果報表建立者已在圖表上啟用異常偵測，即可加以使用。 
+
+當您檢視已在包含時間序列資料之圖表上啟用異常偵測的報表時，您將會看到圖表上所指出的異常，就像您在 Power BI 服務和 Power BI Desktop 中所做的一樣。 
+
+![具有異常指示之折線圖的螢幕擷取畫面。](media/mobile-reports-in-the-mobile-apps/mobile-detected-anomalies.png)
+
+若要查看其他資訊和說明，您需要開啟 [異常] 面板。 有許多方式可以執行此操作：
+* 點選圖表上的異常指示。 
+* 點選 [更多選項]，然後從出現的功能表中選擇 [顯示異常]。    
+* 點選資料點以顯示工具提示，然後選擇 [異常]。
+
+下圖說明開啟 [異常] 面板的三種方式。
+
+![顯示如何開啟 [異常] 面板的螢幕擷取畫面。](media/mobile-reports-in-the-mobile-apps/mobile-opening-anomalies-panel.png)
+
+在 [異常] 面板中，您將會看見對於偵測到之異常的自然語言說明，以及依其說明強度排序的相關因素。 從右至左滑動以檢視所有相關因素及其優勢。
+
+![顯示從右至左滑動以檢視異常說明的螢幕擷取畫面。](media/mobile-reports-in-the-mobile-apps/mobile-swipe-to-see-explanations.png)
+
+當 [異常] 面板顯示時，仍可在其下捲動行動報表，因此，您可以繼續與報表互動、切割和細分，以進一步了解資料中的異常。 針對每個互動，Power BI 會重新執行異常偵測，以偵測範圍內資料中的異常。 
 
 ## <a name="refresh-your-data"></a>重新整理資料
 

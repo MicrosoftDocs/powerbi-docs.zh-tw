@@ -11,12 +11,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3e0d944f8058ddc5dfb64c8f960bd354571bb23c
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 24ad57ca976fa7a7a859b1c0d07523895236787e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999051"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721608"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI 地圖視覺效果的秘訣和訣竅
 
@@ -88,9 +88,9 @@ Power BI 會使用 Bing 的[非結構化 URL 範本服務](/bingmaps/rest-servic
 
 當您在切入地理階層架構時，請務必了解每個切入按鈕的運作方式為何，以及您將會傳送什麼資料給 Bing 地圖服務。 
 
-* 最右邊的切入按鈕稱為「切入模式」 ![切入模式圖示](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) ，可讓您選取一個地圖位置，並在該特定位置一次向下切入一個層級。 例如：若您開啟 [向下切入]，然後按一下北美洲，您將會在階層中移動至下一個層級：北美洲的州/省。 針對地理編碼，Power BI 僅會將北美洲的國家/地區及各州/省的資料傳送給 Bing 地圖服務。  
+* 最右邊的切入按鈕稱為「切入模式」 ![切入模式圖示](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) ，可讓您選取一個地圖位置，並在該特定位置一次向下切入一個層級。 例如，若您開啟 [向下切入]，然後按一下 [北美洲]，您將會移至階層中的下一個層級：北美洲的州/省。 針對地理編碼，Power BI 僅會將北美洲的國家/地區及各州/省的資料傳送給 Bing 地圖服務。  
 * 左邊則有另外兩個切入選項。 第一個選項， ![第一個切入圖示](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) ，會於所有位置一次切入至階層中的下一個層級。 例如：若您目前正在查看國家/地區，然後使用此選項移至下一個層級，Power BI 將會顯示所有國家/地區的州/省資料。 針對地理編碼，Power BI 會將所有位置的州/省資料傳送給 Bing 地圖服務 (不包含國家/地區資料)。 當您階層中的每個層級與上一層都無關時，這個選項將會非常有用。 
-* 第二個選項， ![向下鑽研地圖](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) ，與 [向下切入] 類似，不同之處在於您並不需要在地圖上按一下。  其會展開階層中的下一個層級，並記住目前層級的內容。 例如：若您目前正在查看國家/地區，並選取此圖示，您將會移至階層中的下一個層級：州/省。 針對地理編碼，Power BI 會將每個州/省的資料及其對應的國家/地區資料傳送給 Bing 地圖服務，以協助其更準確的進行地理編碼。 在大多數的地圖中，您通常會使用這個選項或最右邊的 [向下切入] 選項，盡量將最多的資料傳送給 Bing，以取得準確的位置資訊。 
+* 第二個選項， ![使用地圖向下切入](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) ，與 [向下切入] 類似，不同之處在於您不需要在地圖上按一下。  其會展開階層中的下一個層級，並記住目前層級的內容。 例如：若您目前正在查看國家/地區，並選取此圖示，您將會移至階層中的下一個層級：州/省。 針對地理編碼，Power BI 會將每個州/省的資料及其對應的國家/地區資料傳送給 Bing 地圖服務，以協助其更準確的進行地理編碼。 在大多數的地圖中，您通常會使用這個選項或最右邊的 [向下切入] 選項，盡量將最多的資料傳送給 Bing，以取得準確的位置資訊。 
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 視覺效果中的向下切入](../consumer/end-user-drill.md)

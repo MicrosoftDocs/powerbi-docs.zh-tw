@@ -6,17 +6,18 @@ ms.author: mihart
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
+ms.custom: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/21/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7aae0e05c74209e66503612d3c89bb430cb5185
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bf388f28b83ad67fd246d23ba7113e74f0630a0e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414775"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721470"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -105,7 +106,7 @@ ms.locfileid: "96414775"
 
     ![已標示 [摘要資料]、 xlsx 和 [匯出] 選項的 [匯出資料] 螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-1. 當您選取 [匯出] 時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
+1. 當您選取 [匯出] 時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。 如果在 Microsoft Teams 中使用 Power BI 應用程式，則可能不會收到相同的提示。 匯出的檔案會儲存在本機的 [下載] 資料夾中。 
 
     ![Excel 輸出的螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
@@ -144,7 +145,7 @@ ms.locfileid: "96414775"
 
     ![已呼叫出基礎資料的 [匯出資料] 螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-1. 當您選取 [匯出] 時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
+1. 當您選取 [匯出] 時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。  如果在 Microsoft Teams 中使用 Power BI 應用程式，則可能不會收到相同的提示。 匯出的檔案會儲存在本機的 [下載] 資料夾中。 
 
     ![顯示所匯出資料的 .xlsx 檔案螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-excel.png)
     

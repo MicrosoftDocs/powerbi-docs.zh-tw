@@ -10,12 +10,12 @@ ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f76203e00bb691abe9a4d212c930595d180798d8
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 4b41ea6310cb644aeae92db17f52680734f68803
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999120"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721562"
 ---
 # <a name="create-key-influencers-visualizations"></a>建立關鍵影響因素視覺效果
 
@@ -167,7 +167,7 @@ ms.locfileid: "96999120"
 
 ![選取 [主要區段] 索引標籤](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
 
-選取泡泡圖可深入了解該區段。 例如，如果您選取 [區段 1]，您會發現其由相對較資深的客戶所組成。 他們成為客戶已超過 29 個月，並擁有四個以上的支援票證。 最後，他們並非發行者 (所以他們是取用者或管理員)。 
+選取一個泡泡，即會顯示該區段的詳細資料。 例如，如果您選取 [區段 1]，您會發現其由相對較資深的客戶所組成。 他們成為客戶已超過 29 個月，並擁有四個以上的支援票證。 最後，他們並非發行者 (所以他們是取用者或管理員)。 
  
 在此群組中，74.3% 的客戶給予低評等。 平均客戶在 11.7% 的時間給予低評等，因此該區段的低評等比例較高。 高出 63 個百分點。 區段 1 也包含約 2.2% 的資料，因此其代表母體的可定址部分。 
 
@@ -260,7 +260,7 @@ ms.locfileid: "96999120"
 
 ![螢幕擷取畫面顯示相依於此節所討論之三欄的房價視覺效果。](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
-如果您想要深入了解如何使用關鍵影響因素視覺效果來分析量值，請觀看下列教學課程。
+如果您想要深入了解如何使用關鍵影響因素視覺效果來分析量值，請觀看下列影片。 若要了解 Power BI 如何在幕後使用 ML.NET，以自然的方式推論資料和表面見解，請參閱 [Power BI 使用 ML.NET 來識別關鍵影響因素](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi) \(英文\)。
 
 <iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -410,3 +410,4 @@ AI 視覺效果可以分析類別目錄欄位和數值欄位。 在類別目錄�
 ## <a name="next-steps"></a>後續步驟
 - [Power BI 中的組合圖](power-bi-visualization-combo-chart.md)
 - [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+- [Power BI 如何使用 ML.NET 來識別關鍵影響因素](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi) \(英文\)

@@ -7,16 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 12/16/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: eb65741a0fd65ed7df73e3012d7f07fdbeb527f1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3f50b174e8293d75a0077e1799cb64ff4fdcd696
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235772"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675112"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>將 Kerberos 用於 SAP HANA 的單一登入 (SSO)
+
+> [!IMPORTANT]
+> 由於 [SAP 已不再支援 OpenSSL](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.05/en-US/de15ffb1bb5710148386ffdfd857482a.html)，因此 Microsoft 也已停止其支援。 現有的連線將會繼續運作，但從 2021 年 2 月開始，您將無法建立新的連線。 往後，請改為使用 CommonCryptoLib。
 
 本文描述如何設定您的 SAP HANA 資料來源，以從 Power BI 服務啟用 SSO。
 
