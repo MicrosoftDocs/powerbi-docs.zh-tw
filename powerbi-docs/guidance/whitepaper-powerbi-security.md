@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 879f931797786ee1bb9f12a56323c50642716afb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 806869b10b52ff7c161484f3e8d38fbc61b85f60
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398583"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961262"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -33,7 +33,7 @@ ms.locfileid: "96398583"
 
 **Power BI** 是 Microsoft 提供的線上軟體服務 (_SaaS_ 或軟體即服務) 供應專案，可讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
 
-Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於 Microsoft 365 合規性架構的第 D 層。 深入瞭解 [Microsoft 信任中心](https://www.microsoft.com/trust-center/compliance/compliance-overview)的合規性。
+Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於 Microsoft 365 合規性架構的第 D 層。 深入瞭解 [Microsoft 信任中心](https://docs.microsoft.com/compliance/regulatory/offering-home)的合規性。
 
 本文透過 Power BI 架構的說明來描述 Power BI 安全性，並說明使用者如何向 Power BI 驗證以及建立資料連線，然後描述 Power BI 如何透過服務儲存及移動資料。 最後一節專門針對安全性相關問題，為每個問題提供答案。
 
@@ -119,13 +119,13 @@ Power BI 僅於特定區域提供，根據區域資料中心部署 Power BI 叢�
 - [Azure 區域](https://azure.microsoft.com/regions/) – Azure 全球出現位置的相關資訊
 - [依區域劃分的 Azure 服務](https://azure.microsoft.com/regions/#services) – Microsoft 提供之各區域的 Azure 服務 (基礎結構服務及平台服務) 完整清單。
 
-目前，Power BI 服務可在特定區域中使用，如 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)所述的資料中心服務。 以下連結顯示 Power BI 資料中心的地圖，您可將滑鼠暫留在區域上，以查看位於該區域的資料中心：
+目前，Power BI 服務可在特定區域中使用，如 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)所述的資料中心服務。 以下連結顯示 Power BI 資料中心的地圖，您可將滑鼠暫留在區域上，以查看位於該區域的資料中心：
 
 * [Power BI Datacenters](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location) (Power BI 資料中心)
 
 Microsoft 也為各國政府提供資料中心。 如需國家/地區雲端的 Power BI 服務可用性詳細資訊，請參閱 [Power BI 國家/地區雲端](https://powerbi.microsoft.com/clouds/)。
 
-如需資料存放位置和使用方式的詳細資訊，請參閱 [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where) (Microsoft 信任中心)。 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的 **資料處理條款** 會指定客戶待用資料的相關位置。
+如需資料存放位置和使用方式的詳細資訊，請參閱 [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview) (Microsoft 信任中心)。 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的 **資料處理條款** 會指定客戶待用資料的相關位置。
 
 ## <a name="user-authentication"></a>使用者驗證
 
@@ -448,14 +448,14 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **針對 Power BI 視覺效果，Microsoft 是否會在將專案發行至資源庫之前，執行自訂視覺效果程式碼的任何安全性或隱私權評量？**
 
-* 否。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
+* 不會。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
 
 **有其他 Power BI 視覺效果會在客戶網路外傳送資訊嗎？**
 
 * 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
 
 **針對範本應用程式，Microsoft 是否會在將專案發行至資源庫之前，對範本應用程式執行任何安全性或隱私權評定？**
-* 否。 應用程式發行者負責處理內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
+* 不會。 應用程式發行者負責處理內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
 
 **是否有範本應用程式可以將資訊傳送到客戶網路之外？**
 * 是。 客戶必須負責檢查發行者的隱私權原則，並判斷是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
