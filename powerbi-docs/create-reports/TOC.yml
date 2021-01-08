@@ -1,7 +1,7 @@
 - name: 在 Power BI 中建立報表和儀表板
   href: index.yml
   items:
-    - name: 概觀
+    - name: 總覽
       expanded: true
       items:
         - name: 報表編輯器導覽
@@ -63,8 +63,6 @@
               href: power-bi-reports-filters-and-highlighting.md
             - name: 高密度折線圖取樣
               href: desktop-high-density-sampling.md
-            - name: 關於問與答視覺效果
-              href: ../visuals/power-bi-visualization-q-and-a.md
             - name: 關於協助工具
               href: desktop-accessibility-overview.md
             - name: 自然語言問與答
@@ -320,7 +318,7 @@
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: 自然語言問與答
           items:
-            - name: 問與答視覺效果
+            - name: 建立問與答視覺效果
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: 指導問與答了解問題
               href: ../natural-language/q-and-a-tooling-teach-q-and-a.md
