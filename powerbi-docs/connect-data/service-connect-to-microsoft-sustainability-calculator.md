@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88d508e5a71fec2574104356d77aaa0fb79bb0bc
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745168"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927151"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Microsoft Sustainability Calculator 支援頁面
 
@@ -22,13 +22,14 @@ Microsoft Sustainability Calculator 會針對與 Azure 服務相關聯的碳排�
 > [!NOTE]
 > 此連接器版本只支援來自 [Azure 企業版入口網站](https://ea.azure.com)的註冊。 中國目前不支援註冊。
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>Prerequisites
 
 若要存取 Microsoft Sustainability Calculator，您需要下列由貴組織的 Azure 管理員所提供的資訊：
 
 - 租用戶識別碼
 - 存取金鑰
 - 註冊號碼
+- 只有 Azure 系統管理員角色可以進行驗證，並將計算機連接到公司資料。 (**僅適用於 2020 年 12 月預覽版**)
 
 尋找貴公司的註冊號碼：
 
@@ -148,7 +149,7 @@ Sustainability Calculator Public Preview 最多可能需要 24 小時的時間�
 
 **Microsoft 是否正嘗試將排放量的責任從 Microsoft 轉移給我？**
 
-否。 來自 Azure 服務的碳排放量會回報為 Microsoft 的範疇 1 和 2 排放量，與業界標準的[溫室氣體 (GHG) 盤查議定書](https://ghgprotocol.org/) \(英文\) 一致。 GHG 盤查議定書將範疇 3 排放量定義為另一個實體代表您排放的排放量，而其原本就會重複計算。 Microsoft Sustainability Calculator 會為與使用 Azure 服務相關聯的範疇 3 排放量提供新的透明度，特別是範疇 3 類別 1「購買的商品與服務」。
+不會。 來自 Azure 服務的碳排放量會回報為 Microsoft 的範疇 1 和 2 排放量，與業界標準的[溫室氣體 (GHG) 盤查議定書](https://ghgprotocol.org/) \(英文\) 一致。 GHG 盤查議定書將範疇 3 排放量定義為另一個實體代表您排放的排放量，而其原本就會重複計算。 Microsoft Sustainability Calculator 會為與使用 Azure 服務相關聯的範疇 3 排放量提供新的透明度，特別是範疇 3 類別 1「購買的商品與服務」。
 
 **為什麼我使用 Microsoft 雲端的排放量會比使用內部部署解決方案時的排放量低很多？**
 

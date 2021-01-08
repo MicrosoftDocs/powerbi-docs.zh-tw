@@ -1,6 +1,6 @@
 ---
-title: 使用服務主體與應用程式祕密，在內嵌式分析應用程式中內嵌 Power BI 內容
-description: 了解如何使用 Azure Active Directory 應用程式服務主體和應用程式祕密，驗證內嵌的分析。
+title: 使用服務主體與應用程式祕密在內嵌式分析應用程式中內嵌 Power BI 內容可讓您取得更好的內嵌 BI 見解
+description: 了解如何使用 Azure Active Directory 應用程式服務主體和應用程式祕密，驗證內嵌的分析。 使用 Power BI 內嵌式分析，取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 8cf7b46687491f446d4e17fc96b020dbc08de5fc
-ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
+ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97708057"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886779"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>使用服務主體和應用程式祕密內嵌 Power BI 內容
 

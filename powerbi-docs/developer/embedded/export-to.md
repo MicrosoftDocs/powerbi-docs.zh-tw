@@ -1,18 +1,18 @@
 ---
-title: 匯出 Power BI 內嵌式分析報表 API
-description: 了解如何匯出內嵌的 Power BI 報表，以增強您 Power BI 內嵌之分析內嵌的 BI 體驗
+title: 匯出 Power BI 內嵌式分析報表 API 以獲得更好的內嵌 BI 見解
+description: 了解如何匯出內嵌的 Power BI 報表，以增強您 Power BI 內嵌之分析內嵌的 BI 體驗。 使用 Power BI 內嵌式分析，取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 12/28/2020
-ms.openlocfilehash: da0f5f155552a8a53b53789f3bfb6ebe839367c5
-ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
+ms.openlocfilehash: acd9d98b55697e8ca3729cad65a1ead8f01f6e62
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97805134"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887009"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -73,7 +73,7 @@ ms.locfileid: "97805134"
 
 下表包含數個您可以傳遞給 `ExportFilter` 之字串的語法範例。
 
-|Filter    |語法    |範例    |
+|篩選    |語法    |範例    |
 |---|----|----|----|
 |一個欄位中的一個值    |Table/Field eq 'value'    |Store/Territory eq 'NC'    |
 |一個欄位中的多個值    |Table/Field in ('value1', 'value2')     |Store/Territory in ('NC', 'TN')    |
