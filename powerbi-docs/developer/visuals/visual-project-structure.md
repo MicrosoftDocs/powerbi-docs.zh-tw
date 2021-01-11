@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果專案結構
-description: 本文將說明 Power BI 視覺效果專案的資料夾和檔案結構
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的 Power BI 視覺效果專案結構
+description: 本文描述 Power BI 視覺效果專案的資料夾與檔案結構。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 01/12/2020
-ms.openlocfilehash: df7a2909e3ccd745fdaa990ba5281a723ef6360d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 4c946021138e49c0aed9668d9b3ea6079f458ccd
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416707"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888021"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 視覺效果專案結構
 

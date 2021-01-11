@@ -1,6 +1,6 @@
 ---
-title: 經認證的 Power BI 視覺效果
-description: 提交自訂視覺效果進行認證的需求和程序，以及經認證的 Power BI 視覺效果清單。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的已認證 Power BI 視覺效果
+description: 提交自訂視覺效果進行認證的需求和程序，以及經認證的 Power BI 視覺效果清單。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386700"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888159"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 

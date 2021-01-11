@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 視覺效果中使用工具提示公用程式的簡介
-description: 此文章說明如何使用工具提示公用程式來簡化 Power BI 視覺效果的工具提示自訂
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中 Power BI 視覺效果的工具提示公用程式使用簡介
+description: 本文描述如何使用工具提示公用程式，來簡化 Power BI 視覺效果的工具提示自訂流程。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,17 +8,17 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: b2ddc85d9ba2530dc394b4106d72b4af702bd9b4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197625"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888642"
 ---
 # <a name="tooltip-utils"></a>工具提示公用程式
 此文章將協助您安裝、匯入及使用工具提示公用程式。 此公用程式適用於 Power BI 視覺效果中的任何工具提示自訂。
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>規格需求
 若要使用該套件，您應該具有下列項目：
 * [node.js](https://nodejs.org) (我們建議使用最新的 LTS 版本)
 * [npm](https://www.npmjs.com/) (支援的最低版本為 3.0.0)
@@ -33,7 +33,7 @@ npm install powerbi-visuals-utils-tooltiputils --save
 ```
 此命令會安裝套件，並作為相依性將套件新增到您的 ```package.json```
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 > 《使用指南》說明套件的公用 API。 您會發現套件每個公用介面的描述與一些範例。
 

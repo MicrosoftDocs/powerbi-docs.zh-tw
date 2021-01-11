@@ -1,6 +1,6 @@
 ---
-title: Power BI 的視覺效果
-description: 本文描述如何自訂 Power BI 視覺效果
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果
+description: 本文描述如何自訂 Power BI 視覺效果。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91c9115f7d9ca0eb15606fcd77f99070e949842e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3d2e8f46605238a87eb23c32765f0a4ffaa02400
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416753"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888067"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果概念
-description: 本文將說明視覺效果與 Power BI 的整合方式，以及使用者可以如何與 Power BI 中的視覺效果互動。
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的 Power BI 視覺效果概念
+description: 本文將說明視覺效果與 Power BI 的整合方式，以及使用者可以如何與 Power BI 中的視覺效果互動。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8971c07b39de5b01b945218659fb8ead711c3f3c
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 4a6d78e332ae6e6c29b11a4ee79b05718c30f355
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94511933"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884985"
 ---
 # <a name="power-bi-visuals-system-integration"></a>Power BI 視覺效果系統整合
 

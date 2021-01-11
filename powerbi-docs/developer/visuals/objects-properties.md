@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果的物件和屬性
-description: 此文章說明 Power BI 視覺效果的可自訂屬性。
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解之 Power BI 視覺效果的物件與屬性
+description: 此文章說明 Power BI 視覺效果的可自訂屬性。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 4596465fcd9f59768b18282ec3ad39d2531b7768
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120209"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885951"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 視覺效果的物件和屬性
 
@@ -50,7 +50,7 @@ ms.locfileid: "96120209"
 > [!NOTE]
 > `show` 是啟用參數來切換物件的特殊屬性。
 
-範例︰
+範例：
 
 ```json
 "properties": {
@@ -202,7 +202,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 `enumerateObjectInstances` 中選取器會決定每個物件在 dataView 中的繫結位置。 有四個不同的選項。
 
-#### <a name="static"></a>靜態
+#### <a name="static"></a>static
 
 此物件會繫結至中繼資料 `dataviews[index].metadata.objects`，如這裡所示。
 

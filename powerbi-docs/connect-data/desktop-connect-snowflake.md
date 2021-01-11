@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 115fba44c69fceb3a4f309cd92358ef5bc2eff42
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 00f78fef9f1abd11d7c553009db5541822c59c85
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405736"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926359"
 ---
-# <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 Snowflake 計算倉庫
+# <a name="connect-to-snowflake-in-power-bi-desktop"></a>在 Power BI Desktop 中連接到 Snowflake
 在 Power BI Desktop 中，您可以連接至 **Snowflake** 運算倉儲並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>連接至 Snowflake 運算倉儲
@@ -33,7 +33,7 @@ ms.locfileid: "96405736"
 ![[Snowflake] 認證提示的螢幕擷取畫面，其中顯示 [使用者名稱] 和 [密碼] 欄位。](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
-> 一旦您在特定 **Snowflake** 伺服器放入使用者名稱和密碼，Power BI Desktop 便會在後續連接嘗試中使用與其相同的認證。 您可以前往 **[檔案] > [選像和設定] > [資料來源設定]** 修改認證。
+> 一旦在特定 **Snowflake** 伺服器輸入使用者名稱與密碼，Power BI Desktop 便會在後續連接嘗試中使用與其相同的認證。 您可以前往 **[檔案] > [選像和設定] > [資料來源設定]** 修改認證。
 > 
 > 
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果 API 變更記錄
-description: 此文章說明不同版本 Power BI 視覺效果 API 的主要變更
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果 API 變更記錄
+description: 本文描述不同版本中，Power BI 視覺效果 API 的主要變更。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 4ed42f8c9c3acf740b68bf6c28aaa201efb0d5ba
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501941"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927139"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 視覺效果 API 變更記錄
 此頁面包含 API 版本的快速摘要。 此處所列的版本會視為穩定，且不會變更。
@@ -43,6 +43,7 @@ ms.locfileid: "92501941"
 ## <a name="api-v220"></a>API v2.2.0
   * 支援 **[從 DataView 還原 JSON 篩選](./filter-api.md#restore-the-json-filter-from-the-data-view)**
   * **[ContextMenu API](./context-menu.md)**
+  * 支援 **[鑽研](../../create-reports/desktop-drillthrough.md)** 功能
 
 ## <a name="api-v210"></a>API v2.1.0
   * 效能增強功能：
@@ -66,13 +67,13 @@ ms.locfileid: "92501941"
 * `proto` 屬性不會再將隱藏的 metadata\data 儲存在 dataView 內。 透過 `proto` 存取屬性的視覺效果，可能因此更新而中斷。
 
 ## <a name="api-v1130"></a>API v1.13.0
-* 支援 **[同步處理交叉分析篩選器](./enable-sync-slicers.md)** ，請注意，由於 PBI 目前程式碼狀態，這僅適用於單一欄位交叉分析篩選器， [深入了解](../../visuals/power-bi-visualization-slicers.md)。
+* 支援 **[同步處理交叉分析篩選器](./enable-sync-slicers.md)** ，請注意，由於 PBI 目前程式碼狀態，這僅適用於單一欄位交叉分析篩選器，[深入了解](../../visuals/power-bi-visualization-slicers.md)。
 * 協助工具：[高對比支援](./high-contrast-support.md) 
 * 協助工具：允許鍵盤焦點旗標
 
 ## <a name="api-v1120"></a>API v1.12.0
 * 支援佈景主題
-* 支援 **[fetchMoreData](./fetch-more-data.md)** ，請注意， **擷取更多資料 API** 克服了 30K 個資料點的硬限制
+* 支援 **[fetchMoreData](./fetch-more-data.md)** ，請注意，**擷取更多資料 API** 克服了 30K 個資料點的硬限制
 * **[畫布工具提示 API](./add-tooltips.md#add-report-page-tooltips)**
 
 ## <a name="api-v1110"></a>API v1.11.0
@@ -107,7 +108,7 @@ ms.locfileid: "92501941"
 * 支援 **[工具提示](./add-tooltips.md)**
 
 ## <a name="api-v120"></a>API 1.2.0 版
-* 新增 **colorPalette** ，以管理您視覺效果上所使用的色彩。
+* 新增 **colorPalette**，以管理您視覺效果上所使用的色彩。
 * 支援 **多重選取項目** - selectionManager 可以接受 `SelectionId` 的陣列。
 * 支援使用 R 指令碼的 **[R 視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)**
 
@@ -120,7 +121,7 @@ ms.locfileid: "92501941"
 * 支援 API 1.2.0 版的 Alpha 版本
 
 **視覺效果主機**
-* 新增 **createSelectionIdBuilder** ，以建立用於資料選擇的唯一識別碼
+* 新增 **createSelectionIdBuilder**，以建立用於資料選擇的唯一識別碼
 * 新增 **createSelectionManager** 來管理視覺效果的選取狀態，並將變更傳達給視覺效果主機
 * 新增用於視覺效果中的預設 **色彩** 陣列
 

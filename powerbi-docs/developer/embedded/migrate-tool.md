@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded 移轉工具
-description: 此移轉工具可以用來將報表從 Power BI Embedded Azure 服務 (PaaS) 複製至 Power BI 服務 (SaaS)。
+title: Power BI 內嵌式分析 Power BI Embedded 解決方案中，用於取得更佳內嵌 BI 見解之工作區集合的移轉工具
+description: 此移轉工具可以用來將報表從 Power BI Embedded Azure 服務 (PaaS) 複製至 Power BI 服務 (SaaS)。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 7156d0e414a4469cb4e0cba5ea5958e02e4e2e43
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354861"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885266"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移轉工具
 
@@ -49,7 +49,7 @@ ms.locfileid: "85354861"
 3. 系統將提示您登入。 您將使用 Azure 訂用帳戶登入。
 
    > [!IMPORTANT]
-   > 這**不是**用來登入 Power BI 的組織帳戶。
+   > 這 **不是** 用來登入 Power BI 的組織帳戶。
 
 4. 選取 Azure 訂用帳戶，以儲存您的 Power BI Embedded 工作區集合。
 
@@ -65,7 +65,7 @@ ms.locfileid: "85354861"
    > [!NOTE]
    > 根據工作區集合數目以及工作區集合中的內容量，分析程序可能需要幾分鐘的時間。
 
-7. **分析**會在完成時，提示您儲存移轉計劃。
+7. **分析** 會在完成時，提示您儲存移轉計劃。
 
 此時，您已將移轉計劃連接到 Azure 訂用帳戶。 請閱讀下列內容，了解如何使用移轉計劃的流程。 這包括 [Analyze & Plan Migration] (分析和規劃移轉)、[下載]、[建立群組] 和 [上傳]。
 
@@ -120,7 +120,7 @@ ms.locfileid: "85354861"
 
 ### <a name="target-structure"></a>目標結構
 
-您可以在**目標結構**中告訴工具項目的下載位置與其上傳方式。
+您可以在 **目標結構** 中告訴工具項目的下載位置與其上傳方式。
 
 #### <a name="download-plan"></a>下載方案
 

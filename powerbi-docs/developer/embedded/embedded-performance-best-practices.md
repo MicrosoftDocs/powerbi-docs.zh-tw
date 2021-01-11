@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded 效能最佳做法
-description: 本文提供內嵌式分析最佳做法的指引
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析效能最佳做法
+description: 本文提供 Power BI 內嵌式分析最佳做法的指引。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f8bf41ae9a4b6f2e16aae2c05df8fa4448a0457c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746669"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888780"
 ---
-# <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 效能最佳做法
+# <a name="power-bi-embedded-analytics-performance-best-practices"></a>Power BI 內嵌式分析效能最佳做法
 
 本文提供能更快速轉譯應用程式中的報表、儀表板及磚的建議。
 
@@ -65,7 +65,7 @@ ms.locfileid: "91746669"
 
 使用 `powerbi.preload()` 來改善終端使用者效能。 `powerbi.preload()` 方法會下載 JavaScript、css 檔案和其他成品，其稍後會用來內嵌報表。
 
-如果不想立即內嵌報表，請呼叫 `powerbi.preload()`。 舉例來說，如果 Power BI 內嵌的內容未顯示在首頁，請使用 `powerbi.preload()` 下載及快取用於內嵌內容的成品。
+如果不想立即內嵌報表，請呼叫 `powerbi.preload()`。 例如，如果內嵌的 Power BI 內容未顯示在首頁，請使用 `powerbi.preload()` 下載並快取用於內嵌內容的成品。
 
 ## <a name="bootstrapping-the-iframe"></a>啟動載入 iframe
 
@@ -107,5 +107,5 @@ ms.locfileid: "91746669"
 ## <a name="next-steps"></a>後續步驟
 
 * [Power BI 最佳化指南](../../guidance/power-bi-optimization.md)
-* [如何針對 Power BI Embedded 的問題進行疑難排解](embedded-troubleshoot.md)
-* [Power BI Embedded 常見問題集](embedded-faq.md)
+* [如何針對 Power BI 內嵌式分析的問題進行疑難排解](embedded-troubleshoot.md)
+* [Power BI 內嵌式分析常見問題集](embedded-faq.md)

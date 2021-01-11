@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded 問與答
-description: Power BI Embedded 提供您一種將問與答併入應用程式的方式，讓您的使用者使用自然語言提問。
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的問與答
+description: Power BI 內嵌式分析提供您一種將問與答併入應用程式的方式，可讓您的使用者使用自然語言詢問問題。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 11/20/2017
-ms.openlocfilehash: 0106cc9ddb0e82a7b40e362342fce5196ef655c5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 43e886e6472c6d95b900ccdb5c2e73b8dca3d4a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749268"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886595"
 ---
-# <a name="qa-in-power-bi-embedded"></a>Power BI Embedded 問與答
+# <a name="qa-in-power-bi-embedded-analytics"></a>Power BI 內嵌式分析中的問與答
 
-Power BI Embedded 提供您一種將問與答併入應用程式的方式，讓您的使用者使用自然語言提問，並立即收到類似圖表或圖形視覺效果的表單回應。
+Power BI 內嵌式分析提供您一種將問與答併入應用程式的方式，可讓您的使用者使用自然語言詢問問題，並立即收到以圖表或圖形等視覺效果呈現的答案。
 
 ![內嵌框架中的問與答互動式問題](media/qanda/embedded-qanda.gif)
 
-內嵌在應用程式中的問與答有兩種模式：**互動式**和**只產生結果**。 **互動式**模式讓您輸入問題，並在視覺效果中顯示。 如想要顯示事先準備好的問題，您可以在內嵌組態中擴展問題，使用**只產生結果**模式。
+內嵌在應用程式中的問與答有兩種模式：**互動式** 和 **只產生結果**。 **互動式** 模式讓您輸入問題，並在視覺效果中顯示。 如想要顯示事先準備好的問題，您可以在內嵌組態中擴展問題，使用 **只產生結果** 模式。
 
 JavaScript 程式碼看起來會像下面這樣。
 
@@ -48,7 +48,7 @@ var qna = powerbi.embed(qnaContainer, config);
 
 ## <a name="set-question"></a>事先準備好的問題
 
-如果對事先準備好的問題使用**結果模式**，您可以在框架中插入其他問題，讓它們立即獲得解答，取代原先的結果。 符合新問題的新視覺效果隨即呈現。
+如果對事先準備好的問題使用 **結果模式**，您可以在框架中插入其他問題，讓它們立即獲得解答，取代原先的結果。 符合新問題的新視覺效果隨即呈現。
 
 常見問題集清單即是這種使用方式的一例。 使用者可以瀏覽問題，讓它們在相同的內嵌組件內獲得解答。
 
@@ -72,7 +72,7 @@ qna.setQuestion("This year sales")
 
 ## <a name="visual-rendered-event"></a>視覺化呈現的事件
 
-若為**互動式**模式，每次呈現的視覺效果以正在鍵入的更新輸入查詢為目標變更時，應用程式就會收到資料變更事件通知。
+若為 **互動式** 模式，每次呈現的視覺效果以正在鍵入的更新輸入查詢為目標變更時，應用程式就會收到資料變更事件通知。
 
 接聽 *visualRendered* 事件可讓您儲存問題以供之後使用。 
 

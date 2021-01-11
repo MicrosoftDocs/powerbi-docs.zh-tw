@@ -1,6 +1,6 @@
 ---
-title: 將資料推送至資料集
-description: 將資料推送至 Power BI 資料集
+title: 在 Power BI 內嵌式分析中，將資料推送至資料集，以取得更佳的內嵌 BI 見解
+description: 將資料推送至 Power BI 資料集。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 3c5805f4d498e8e2d8a788c5703a09a8109e024b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746692"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887423"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>將資料推送至 Power BI 資料集
 
@@ -26,8 +26,8 @@ Power BI API 可讓您將資料推送到 Power BI 資料集。 在此文章中�
 * 步驟 1：[使用 Azure AD 註冊應用程式](../embedded/register-app.md)
 * 步驟 2：[取得驗證存取權杖](walkthrough-push-data-get-token.md)
 * 步驟 3：[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)
-* 步驟 4：[取得資料集，以便將資料列新增至 Power BI 資料表](walkthrough-push-data-get-datasets.md)
-* 步驟 5：[將資料列新增至 Power BI 資料表](walkthrough-push-data-add-rows.md)
+* 步驟 4：[取得資料集，以便將資料列加入 Power BI 資料表](walkthrough-push-data-get-datasets.md)
+* 步驟 5：[將資料列加入 Power BI 資料表](walkthrough-push-data-add-rows.md)
 
 下一節是有關資料推送的 Power BI API 作業的一般討論。
 
@@ -42,7 +42,7 @@ Power BI API 可讓您將資料推送到 Power BI 資料集。 在此文章中�
 * [Post Rows](/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [取得群組](/rest/api/power-bi/groups/getgroups)
 
-您可以將 JavaScript 物件標記法 (JSON) 字串傳遞至 Power BI 服務，在 Power BI 中建立資料集。 若要深入了解 JSON，請參閱 [JSON 簡介](https://json.org/)。
+您可以將 JavaScript 物件標記法 (JSON) 字串傳遞至 Power BI 服務，在 Power BI 中建立資料集。 如需深入了解 JSON，請參閱 [JSON 簡介](https://json.org/)。
 
 資料集的 JSON 字串具有下列格式：
 
@@ -60,7 +60,7 @@ Power BI API 可讓您將資料推送到 Power BI 資料集。 在此文章中�
 }
 ```
 
-針對對於我們的「銷售行銷」資料集範例，您會傳遞 JSON 字串，如下所示。 在此範例中， **SalesMarketing** 是資料集名稱，而 **Product** 是資料表名稱。 定義資料表之後，您會定義資料表結構描述。 針對 **SalesMarketing** 資料集，資料表結構描述具有這些資料行：產品識別碼、製造商、類別、區段，產品和 IsCompete。
+針對對於我們的「銷售行銷」資料集範例，您會傳遞 JSON 字串，如下所示。 在此範例中， **SalesMarketing** 是資料集名稱，而 **Product** 是資料表名稱。 定義資料表之後，您會定義資料表結構描述。 對於 **SalesMarketing** 資料集，資料表結構描述具有下列資料行：ProductID、Manufacturer、Category、Segment、Product 和 IsCompete。
 
 **範例資料集物件 JSON**
 
@@ -105,13 +105,13 @@ Power BI API 可讓您將資料推送到 Power BI 資料集。 在此文章中�
 
 ## <a name="power-bi-table-data-types"></a>Power BI 資料表資料類型
 
-| **資料類型** | **限制** |
+| **Data type** | **限制** |
 | --- | --- |
 | Int64 |不允許 Int64.MaxValue 和 Int64.MinValue。 |
 | Double |不允許 Double.MaxValue 和 Double.MinValue 值。 不支援 NaN。部分函式 (例如 Min、Max) 不支援 +Infinity 和 -Infinity。 |
-| 布林值 |無 |
+| Boolean |無 |
 | Datetime |在資料載入期間，會以一天時間分數將值量化為 1/300 秒 (3.33 毫秒) 的整數倍數。 |
-| 字串 |目前允許最多 12 萬 8 千個字元。 |
+| String |目前允許最多 12 萬 8 千個字元。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>深入了解如何將資料推送至 Power BI
 

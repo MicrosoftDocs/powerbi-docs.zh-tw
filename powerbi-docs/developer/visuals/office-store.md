@@ -1,6 +1,6 @@
 ---
-title: 將 Power BI 視覺效果發佈至合作夥伴中心
-description: 了解如何將自訂視覺效果發佈至合作夥伴中心供其他人探索及使用
+title: 在 Power BI 內嵌式分析中，將 Power BI 視覺效果發佈至合作夥伴中心，以取得更佳的內嵌 BI 見解
+description: 了解如何將自訂視覺效果發佈至合作夥伴中心供其他人探索及使用。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 07/14/2020
-ms.openlocfilehash: a4b816e040e25b4a7e67c4bd488554d019277778
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9d37daebe7828190280a3d88d56210c3a1266da2
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417167"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886825"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
 

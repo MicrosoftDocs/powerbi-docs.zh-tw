@@ -1,18 +1,18 @@
 ---
-title: 在 Power BI 內嵌式分析中，使用動態繫結將報表與資料集連線
-description: 了解如何使用動態繫結內嵌報表。
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中，使用動態繫結將報表與資料集連線
+description: 了解如何在 Power BI 內嵌式分析中，使用動態繫結來內嵌報表，為客戶創造更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: d8a460f68838faab11cdab6d39f0e757a9789899
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: aacae4dbfae30d72468419a717340c806c6c4bca
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098367"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888895"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>使用動態繫結連接報表與資料集 
 

@@ -1,6 +1,6 @@
 ---
-title: 將色彩新增至您的 Power BI 視覺效果
-description: 此文章說明如何將色彩新增至您的 Power BI 視覺效果，以及如何處理具有色彩之視覺效果的資料點。
+title: 在 Power BI 內嵌式分析中，將色彩新增至您的 Power BI 視覺效果，以取得更佳的內嵌 BI 見解
+description: 此文章說明如何將色彩新增至您的 Power BI 視覺效果，以及如何處理具有色彩之視覺效果的資料點。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/27/2020
-ms.openlocfilehash: 3a68f3dedbef9e97b6c29d3a0923d43872a5f01a
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: e6b6fb1dbc1397b93ac12692c8610e6f36d0b8bf
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92048801"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887975"
 ---
 # <a name="add-colors-to-your-power-bi-visuals"></a>將色彩新增至您的 Power BI 視覺效果
 

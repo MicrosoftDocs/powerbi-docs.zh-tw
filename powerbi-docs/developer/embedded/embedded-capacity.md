@@ -1,6 +1,6 @@
 ---
-title: Power BI embedded 分析中的容量和 SKU
-description: 了解 Power BI 內嵌式分析中的容量和 SKU。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析的容量與 SKU
+description: 了解 Power BI 內嵌式分析中的容量和 SKU。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 7ff6ada14128a6231b84adf83d90b3871e1c7537
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916927"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888803"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI embedded 分析中的容量和 SKU
 
-移至生產環境時，Power BI 內嵌式分析需要容量 ( *A* 、 *EM* 或 *P* SKU) 來發佈內嵌 Power BI 內容。
+移至生產環境時，Power BI 內嵌式分析需要容量 (*A*、*EM* 或 *P* SKU) 來發佈內嵌 Power BI 內容。
 
 容量是保留給特別用途的專用資源集。 可讓您將儀表板、報表和資料集發佈給使用者，而不必購買個別使用者授權。 也會為內容提供可靠且一致的效能。
 
@@ -58,7 +58,7 @@ Power BI Embedded 隨附 [*A* SKU](../../admin/service-admin-premium-purchase.md
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium SKU
 
-Power BI Premium 提供兩種 SKU： *P* 和 *EM* 。
+Power BI Premium 提供兩種 SKU：*P* 和 *EM*。
 * [了解 *P* 和 *EM* SKU 之間的差異](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
 * [購買 Premium SKU](../../admin/service-admin-premium-purchase.md)
 

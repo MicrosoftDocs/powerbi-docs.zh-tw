@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2389290fedd26c9e88af614e1fbf6afb29c02d35
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411831"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926804"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>背書 - 推廣及認證 Power BI 內容
 
@@ -27,11 +27,15 @@ ms.locfileid: "96411831"
 
     任何內容擁有者，或內容所在工作區上具有寫入權限的任何成員，只要認為該內容值得共用，就可以推廣該內容。
 
+    [了解如何推廣內容](service-endorse-content.md#promote-content)。
+
 * **認證**：認證表示內容符合組織的品質標準，且可視為能夠在整個組織中使用的可靠權威內容。
 
-    只有選定的一組檢閱者 (由 Power BI 系統管理員定義) 已獲授權可認證內容。 內容擁有者若想要看到其內容經過認證，但未獲授權無法自行認證內容，則必須遵循其組織對於取得其內容認證的指導方針。
+    只有[選定的一組檢閱者 (由 Power BI 系統管理員定義)](../admin/service-admin-setup-certification.md) 才有權認證內容。 內容擁有者若想要看到其內容經過認證，但未獲授權無法自行認證內容，則必須遵循其組織對於取得其內容認證的指導方針。
 
-    **只有在 Power BI 系統管理員已針對組織啟用並設定認證時，才能使用認證**。
+    了解如何[認證內容](service-endorse-content.md#certify-content)或[要求認證](service-endorse-content.md#request-content-certification)。
+
+    **只有在 Power BI 系統管理員已針對組織[啟用並設定認證](../admin/service-admin-setup-certification.md)時，才能使用認證**。
 
 下圖說明當在搜尋建置報表所依據的資料集時，如何清楚識別已背書的內容 (推廣及認證)。
 

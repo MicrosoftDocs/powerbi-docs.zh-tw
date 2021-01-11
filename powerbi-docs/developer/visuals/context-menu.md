@@ -1,6 +1,6 @@
 ---
-title: 將操作功能表新增至 Power BI 視覺效果
-description: 了解如何將操作功能表新增至 Power BI 視覺效果。
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中新增操作功能表到 Power BI 視覺效果
+description: 了解如何將操作功能表新增至 Power BI 視覺效果。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 9e63a1196ddc7557fcf8b2fceb424415a63d4df9
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 1c19ba94588628e002cdb9e65f59bd4182020e1c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748072"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888688"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>將操作功能表新增至 Power BI 視覺效果
 

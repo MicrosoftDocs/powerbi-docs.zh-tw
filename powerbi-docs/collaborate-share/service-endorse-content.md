@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5485f59e11f3c971c719b2604b9e1280a072c5b1
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407047"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926753"
 ---
 # <a name="endorse-your-content"></a>為內容簽署
 
@@ -25,7 +25,7 @@ Power BI 提供兩種方式來為有價值的高品質內容簽署，以增加�
 
 * **認證**：認證表示內容符合組織的品質標準，且可視為能夠在整個組織中使用的可靠權威內容。
 
-    只有授權的檢閱者可認證內容。 內容擁有者若想要看到內容經過認證，但未獲授權無法自行認證內容，則必須遵循其組織對於取得其內容認證的指導方針。
+    只有[獲得授權的檢閱者 (由 Power BI 系統管理員定義)](../admin/service-admin-setup-certification.md) 才能認證內容。 內容擁有者若想要看到其內容經過認證，但未獲授權無法自行認證內容，則必須遵循其組織對於取得其內容認證的指導方針。
 
 目前可以簽署
 * 資料集

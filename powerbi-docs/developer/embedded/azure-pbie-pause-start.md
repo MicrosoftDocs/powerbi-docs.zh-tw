@@ -1,6 +1,6 @@
 ---
-title: 在 Azure 入口網站中暫停並啟動您的 Power BI Embedded 容量 | Microsoft Docs
-description: 本文逐步解說如何在 Microsoft Azure 中暫停和啟動 Power BI Embedded 容量。
+title: 在 Azure 入口網站中，暫停及啟動您的 Power BI Embedded 容量，以取得 Power BI 內嵌式分析內嵌 BI 解決方案
+description: 本文逐步解說當使用 Power BI 內嵌式分析內嵌 BI 解決方案時，如何在 Microsoft Azure 中暫停及啟動 Power BI Embedded 容量。
 author: KesemSharabi
 ms.author: kesharab
 services: power-bi-embedded
@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 09/28/2017
-ms.openlocfilehash: 71d3536cdcda5c1b2970385887388ea60b4290af
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0868d63f83f42bcfa9f394e782ffab56746e23cc
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417305"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887331"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中暫停和啟動您的 Power BI Embedded 容量
 

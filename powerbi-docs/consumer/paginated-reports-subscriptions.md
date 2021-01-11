@@ -7,19 +7,19 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/01/2020
-ms.openlocfilehash: be552df28bebb5876d24da8bbecf66ea503fdb04
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/04/2021
+ms.openlocfilehash: 67efe0e7abd23792f46561f78b0b048b431561a4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415235"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887998"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的分頁報表 
 
 您現在可以為您自己和其他人設定 Power BI 服務中分頁報表的電子郵件訂閱。 在一般情況下，流程與[訂閱 Power BI 服務中的報表與儀表板](end-user-subscribe.md)相同。 本文詳細說明差異和考量。 
 
-在訂閱設定中，選擇您希望收到電子郵件的頻率：每天、每週、每月或每小時。 您也可以選擇想要執行訂閱的時間。 總之，針對每份報表，您可以設定最多 24 個不同的訂閱。 
+在訂閱設定中，選擇您希望收到電子郵件的頻率：每天、每週、每月或每小時。 您也可以選擇想要執行訂閱的時間。 您可為每份報表設定的訂閱數目沒有上限。 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>分頁報表訂閱考量 
 

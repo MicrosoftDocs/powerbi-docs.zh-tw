@@ -1,6 +1,6 @@
 ---
-title: 建立啟動 URL
-description: 此文章說明如何使用 Power BI 視覺效果在新索引標籤上開啟 URL。
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中建立啟動 URL
+description: 此文章說明如何使用 Power BI 視覺效果在新索引標籤上開啟 URL。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7e398354ab069bb02554c94312909c0ed835d027
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6fe9908c324705b8cb00519b4743ae8c052c7ad8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379760"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888297"
 ---
 # <a name="create-a-launch-url"></a>建立啟動 URL
 
@@ -43,7 +43,7 @@ export class Visual implements IVisual {
 }
 ```
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 您可以使用 `host.launchUrl()` API 呼叫，並傳遞您的目的地 URL 作為字串引數：
 

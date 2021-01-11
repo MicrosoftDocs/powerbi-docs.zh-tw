@@ -1,6 +1,6 @@
 ---
-title: 行動裝置開發
-description: 如何建立易於行動裝置使用的 Power BI 視覺效果
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的行動裝置開發
+description: 如何建立易於行動裝置使用的 Power BI 視覺效果。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 63d2366f91398878af231c8dbb6ed07e8e623a03
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049284"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885537"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>如何建立易於行動裝置使用的 Power BI 視覺效果
 使用行動裝置在 Power BI 中扮演著重要的角色。 其中一個優點是隨時隨地都能連線到資料。
@@ -63,7 +63,7 @@ ms.locfileid: "92049284"
   同樣設定也可套用至桌面瀏覽器中的視覺效果，並在必要時加以覆寫，以調整為較小型螢幕也適用的視覺效果。
 
   > [!NOTE]
-  > 若要最佳化**焦點**模式中的視覺效果，則需同時考慮直向與橫向螢幕大小方向，請參閱[以焦點模式顯示內容](../../consumer/end-user-focus.md)。
+  > 若要最佳化 **焦點** 模式中的視覺效果，則需同時考慮直向與橫向螢幕大小方向，請參閱 [以焦點模式顯示內容](../../consumer/end-user-focus.md)。
 
 - 互動式
 

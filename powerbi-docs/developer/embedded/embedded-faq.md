@@ -1,6 +1,6 @@
 ---
-title: 關於 Power BI 內嵌式分析的常見問題集
-description: 瀏覽 Power BI Embedded 相關的常見問題與回答清單。
+title: 關於 Power BI 內嵌式分析的常見問題集，可協助您取得更佳內嵌 BI 見解
+description: 瀏覽 Power BI 內嵌式分析相關的常見問題集與答案清單，其可增強客戶的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 5d402a32571f70f3a5a3b5686e3fc40ef07126c9
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 4d8096793c4663cbed71c3149bde11305ebee71e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098321"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886687"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 

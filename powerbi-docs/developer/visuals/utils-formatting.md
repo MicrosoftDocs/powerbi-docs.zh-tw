@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 視覺效果中使用格式化公用程式的簡介
-description: 本文描述如何使用格式化公用程式來格式化值，並將當地語系化套用至 Power BI 視覺效果中的值
+title: 在 Power BI 內嵌式分析的 Power BI 視覺效果中，使用格式化公用程式以取得更佳內嵌 BI 見解的簡介
+description: 本文描述如何使用格式化公用程式將值格式化，並將當地語系化套用至 Power BI 視覺效果中的值。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: dc2d036ab1e3e3dab551269163ced2f066a71626
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 564f6587ff361e3b2860bafb4ae43bc19ad8c2ba
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378016"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887791"
 ---
 # <a name="formatting-utils"></a>格式化公用程式
 
@@ -127,7 +127,7 @@ textMeasurementService.measureSvgTextHeight(textProperties);
 function estimateSvgTextBaselineDelta(textProperties: TextProperties): number;
 ```
 
-範例︰
+範例：
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";

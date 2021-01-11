@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/24/2019
-ms.openlocfilehash: 53c0af04a76d4cf8cfacd49002434ecbc246fbe8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e4ddc487f81835edfdc5ad8a4074a91204ee0336
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394374"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884778"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的複合模型指引
 
@@ -54,8 +54,8 @@ ms.locfileid: "96394374"
 Power BI 查詢複合模型時，會有數個可能的案例：
 
 - **僅查詢匯入或雙重資料表**：所有資料都是從模型快取擷取。 這將能提供最快的效能。 此案例常見於由篩選或交叉分析篩選器視覺效果所查詢的維度類型資料表。
-- **查詢來自相同來源的雙重資料表或 DirectQuery 資料表**：所有資料都是透過將一或多個原生查詢傳送至 DirectQuery 來源來擷取。 這將能提供最快的效能，特別是在來源資料表上存在適當的索引時。 此案例常見於會對雙重維度類型資料表和 DirectQuery 事實類型資料表進行關聯的查詢。 這些查詢為「島內」，因此所有一對一或一對多關聯性都會評估為[一般關聯性](../transform-model/desktop-relationships-understand.md#regular-relationships)。
-- **所有其他查詢**：這些查詢涉及跨島關聯性。 這可能是因為匯入資料表與 DirectQuery 資料表相關聯，或是因為雙重資料表與來自不同來源的 DirectQuery 資料表相關聯 (在此情況下其會表現出匯入資料表的行為)。 所有關聯性都會評估為[受限關聯性](../transform-model/desktop-relationships-understand.md#limited-relationships)。 這也代表套用到非 DirectQuery 資料表的群組必須以虛擬資料表的形式傳送到 DirectQuery 來源。 在此情況下，原生查詢可能會沒有效率，特別是針對大型群組集合。 此外，這也可能會在原生查詢中公開敏感性資料。
+- **查詢來自相同來源的雙重資料表或 DirectQuery 資料表**：所有資料都是透過將一或多個原生查詢傳送至 DirectQuery 來源來擷取。 這將能提供最快的效能，特別是在來源資料表上存在適當的索引時。 此案例常見於會對雙重維度類型資料表和 DirectQuery 事實類型資料表進行關聯的查詢。 這些查詢為「來源群組內部」，因此所有一對一或一對多關聯性都會評估為[一般關聯性](../transform-model/desktop-relationships-understand.md#regular-relationships)。
+- **所有其他查詢**：這些查詢涉及跨來源群組關聯性。 這可能是因為匯入資料表與 DirectQuery 資料表相關聯，或是因為雙重資料表與來自不同來源的 DirectQuery 資料表相關聯 (在此情況下其會表現出匯入資料表的行為)。 所有關聯性都會評估為[受限關聯性](../transform-model/desktop-relationships-understand.md#limited-relationships)。 這也代表套用到非 DirectQuery 資料表的群組必須以虛擬資料表的形式傳送到 DirectQuery 來源。 在此情況下，原生查詢可能會沒有效率，特別是針對大型群組集合。 此外，這也可能會在原生查詢中公開敏感性資料。
 
 總而言之，我們建議您︰
 

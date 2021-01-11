@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果中的工具提示
-description: 此文章討論如何在 Power BI 視覺效果中顯示工具提示。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果工具提示
+description: 此文章討論如何在 Power BI 視覺效果中顯示工具提示。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/09/2020
-ms.openlocfilehash: 60933d1a44cbf83f719c808b658b06009217ff53
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e3f5486faec033b48ba59b7076d5835035458584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239962"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889217"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Power BI 視覺效果中的工具提示
 
@@ -207,7 +207,7 @@ BarChart 類別已搭配 `getTooltipData` 成員新增，該成員只會將資�
 }
 ```
 
-您可以在 [格式]  窗格中定義報表頁面工具提示。
+您可以在 [格式] 窗格中定義報表頁面工具提示。
 
 ![報表頁面工具提示](media/add-tooltips/report-page-tooltips.png)
 

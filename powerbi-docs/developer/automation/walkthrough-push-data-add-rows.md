@@ -1,6 +1,6 @@
 ---
-title: 將資料列加入資料表
-description: 推送資料的逐步解說 - 將資料列加入 Power BI 資料表
+title: 在 Power BI 內嵌式分析中，將資料列新增至資料表，以取得更佳的內嵌 BI 見解
+description: 推送資料的逐步解說 - 將資料列新增至 Power BI 資料表。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: b34bc292d832938f34766ef94c5d9addd7b9e271
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748371"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887538"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步驟 5：將資料列加入 Power BI 資料表
 
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-在＜將資料推送至資料集＞之**步驟 4** 的[取得資料集以將資料列加入 Power BI 資料表](walkthrough-push-data-get-datasets.md)中，您使用了[取得資料集](/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。在此步驟中，您可以透過 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 作業來使用資料集識別碼，以將資料列新增到 **Power BI** 資料集。 
+在＜將資料推送至資料集＞之 **步驟 4** 的 [取得資料集以將資料列加入 Power BI 資料表](walkthrough-push-data-get-datasets.md)中，您使用了 [取得資料集](/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。在此步驟中，您可以透過 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 作業來使用資料集識別碼，以將資料列新增到 **Power BI** 資料集。 
 
 呼叫 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 作業，以將資料列新增到資料集。
 

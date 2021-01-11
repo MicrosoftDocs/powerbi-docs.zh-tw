@@ -1,6 +1,6 @@
 ---
-title: 針對客戶，在 Power BI 內嵌式分析應用程式中內嵌內容
-description: 了解如何將報表、儀表板或磚內嵌至 Power BI 內嵌分析範例。
+title: 取得更佳的內嵌式 BI 見解：針對客戶在 Power BI 內嵌式分析應用程式中內嵌內容
+description: 了解如何將報表、儀表板或磚內嵌至 Power BI 內嵌分析範例。 使用 Power BI 內嵌式分析，取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: 5417266658a493bc81da882761431aa3db072dbe
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: f6ca898bafff0b3375df65b63f913eb81d8dc006
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745108"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888941"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>教學課程：使用「對客戶進行內嵌」範例應用程式內嵌 Power BI 內容
 

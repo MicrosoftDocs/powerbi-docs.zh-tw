@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 內嵌式分析中產生內嵌權杖的考量
-description: 了解產生內嵌權杖的考量、限制及必要權限
+title: 在 Power BI 內嵌式分析中產生內嵌權杖的考量，以取得更佳的內嵌 BI 見解
+description: 了解產生內嵌權杖的考量、限制及必要權限。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 10/15/2020
-ms.openlocfilehash: 45a88d93e7ac5a63b269350451f39991ba153dd5
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 2f8da415b40bc5d9a621e5a0df8c1edffbbc8791
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098022"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886848"
 ---
 # <a name="considerations-when-generating-an-embed-token"></a>產生內嵌權杖時的考量
 

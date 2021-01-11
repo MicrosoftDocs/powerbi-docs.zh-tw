@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果中的視覺效果篩選 API
-description: 此文章討論 Power BI 視覺效果如何篩選其他視覺效果。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中 Power BI 視覺效果的視覺效果篩選 API
+description: 此文章討論 Power BI 視覺效果如何篩選其他視覺效果。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 24e8ac32fb89db2fdc0d1f4ad3fbaffdadaf57bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c03c64c2835ff8bf0b0f1ad3bd555da94aaf3126
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237425"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888734"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI 視覺效果中的視覺效果篩選 API
 

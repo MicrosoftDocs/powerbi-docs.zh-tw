@@ -1,6 +1,6 @@
 ---
-title: 新增 Power BI 視覺效果的書籤支援
-description: Power BI 視覺效果可以處理書籤切換
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中，為 Power BI 視覺效果新增書籤支援
+description: Power BI 視覺效果得以處理。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。 書籤切換
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 6a4f0e8ad8890e85db54e8d77a2ec19bb0d02ea8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748992"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889102"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>新增 Power BI 視覺效果的書籤支援
 

@@ -1,6 +1,6 @@
 ---
-title: 了解 Power BI 視覺效果中的資料檢視對應
-description: 此文章說明 Power BI 如何轉換資料，再將它傳入視覺效果。
+title: 了解 Power BI 內嵌式分析中 Power BI 視覺效果的資料檢視對應，以取得更佳的內嵌 BI 見解
+description: 此文章說明 Power BI 如何轉換資料，再將它傳入視覺效果。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 86572383e2e88f5a1efcf5126828e3365933cbc2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 063750445f3c8ef1fb50f77535ccf01295bd45ec
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635945"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885652"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 視覺效果中的資料檢視對應
 

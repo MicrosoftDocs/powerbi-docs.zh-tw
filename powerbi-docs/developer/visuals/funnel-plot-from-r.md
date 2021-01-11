@@ -1,6 +1,6 @@
 ---
-title: 從 R 指令碼到 R 視覺效果 - 建置漏斗圖
-description: 本文說明如何從 R 指令碼到 R Power BI 視覺效果建置漏斗圖。
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中，建置從 R 指令碼到 R 視覺效果範圍的漏斗圖
+description: 本文說明如何從 R 指令碼到 R Power BI 視覺效果建置漏斗圖。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 7ef9b75f01dedaf55be77312f07217593d886ef0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: f3d22a4143287588ad9290d000402a10a4cef227
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675273"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889263"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教學課程：從 R 指令碼到 R 視覺效果 - 建置漏斗圖
 本文逐步說明如何在 R 視覺效果中使用 R 指令碼來建置漏斗圖。

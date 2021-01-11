@@ -1,6 +1,6 @@
 ---
-title: 從 Power BI 擷取更多資料
-description: 此文章討論如何為 Power BI 視覺效果啟用大型資料集的分段擷取。
+title: 從 Power BI 內嵌式分析的 Power BI 中擷取更多的資料，以取得更佳的內嵌 BI 見解
+description: 此文章討論如何為 Power BI 視覺效果啟用大型資料集的分段擷取。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 12/13/2020
-ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 345efe91be1af5ee61d713c576f04657b182ad47
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492073"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886296"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>從 Power BI 擷取更多資料
 

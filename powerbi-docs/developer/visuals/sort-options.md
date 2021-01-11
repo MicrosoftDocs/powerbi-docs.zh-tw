@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果的排序選項
-description: 此文章討論 Power BI 視覺效果的預設排序行為。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果排序選項
+description: 此文章討論 Power BI 視覺效果的預設排序行為。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 3cb8f5af63960667dc46cab1d818ba48943fd582
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0d24719b486608c283ec73f0188092a1ece3155e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378058"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889240"
 ---
 # <a name="sorting-options-for-power-bi-visuals"></a>Power BI 視覺效果的排序選項
 

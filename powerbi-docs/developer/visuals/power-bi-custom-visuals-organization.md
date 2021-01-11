@@ -1,6 +1,6 @@
 ---
-title: Power BI 中的組織視覺效果
-description: 在 Power BI 中使用、管理和建立組織視覺效果
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 組織視覺效果
+description: 在 Power BI 中使用、管理並建立組織視覺效果。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3746cb038067617fd236e05412412b2c68947508
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 908225c772aee7e5697ba828c55b96f74c204c1d
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386450"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888136"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的組織視覺效果
 

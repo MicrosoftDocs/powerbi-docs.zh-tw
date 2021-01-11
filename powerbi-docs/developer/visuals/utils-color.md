@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 視覺效果中使用色彩公用程式的簡介
-description: 此文章說明如何使用色彩公用程式，簡化在 Power BI 視覺效果上的視覺效果資料點套用佈景主題與調色盤的程序
+title: 在 Power BI 內嵌式分析的 Power BI 視覺效果中，使用色彩公用程式以取得更佳內嵌 BI 見解的簡介
+description: 此文章說明如何使用色彩公用程式，簡化在 Power BI 視覺效果上的視覺效果資料點套用佈景主題與調色盤的程序。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,17 +8,17 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc75188d806d653766860b2fada9028477a75f71
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379344"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887837"
 ---
 # <a name="color-utils"></a>色彩公用程式
 此文章將協助您安裝、匯入及使用色彩公用程式。 此文章說明如何使用色彩公用程式，簡化在 Power BI 視覺效果上的視覺效果資料點套用佈景主題與調色盤的程序。
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>規格需求
 若要使用該套件，您應該具有下列項目：
 * [node.js](https://nodejs.org) (我們建議使用最新的 LTS 版本)
 * [npm](https://www.npmjs.com/) (支援的最低版本為 3.0.0)
@@ -33,7 +33,7 @@ npm install powerbi-visuals-utils-colorutils --save
 ```
 此命令會安裝套件，並作為相依性將套件新增到您的 ```package.json```
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 針對使用者互動功能公用程式，您必須在視覺效果原始程式碼中匯入必要的元件。
 ```typescript
@@ -236,7 +236,7 @@ hexToRGBString('#112233');
 // returns: "rgb(17,34,51)"
 ```
 
-### <a name="rotate"></a>rotate
+### <a name="rotate"></a>旋轉
 旋轉 RGB 色彩。
 
 ```typescript

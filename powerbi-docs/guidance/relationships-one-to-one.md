@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b9cff6a4a59db3a30fc4bbe2373a723700d00fee
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419145"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885008"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一對一關聯性指導方針
 
@@ -99,11 +99,11 @@ ms.locfileid: "96419145"
 - 限制建立階層的能力，因為其層級必須是以來自「相同資料表」  的資料行為基礎
 - 在資料表之間的資料列沒有完全相符的情況下產生未預期的結果
 
-視一對一關聯性為「島內」  或「島間」  而定，特定建議會有所不同。 如需關聯性評估的詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
+視一對一關聯性為「來源群組內部」或「跨來源群組」而定，特定建議會有所不同。 如需關聯性評估的詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
-### <a name="intra-island-one-to-one-relationship"></a>島內一對一關聯性
+### <a name="intra-source-group-one-to-one-relationship"></a>來源群組內部的一對一關聯性
 
-在資料表之間存在一對一的「島內」  關聯性時，建議將資料合併成單一模型資料表。 這是透過合併 Power Query 查詢來完成的。
+當資料表之間存在一對一的「來源群組內部」關聯性時，建議將資料合併成單一模型資料表。 這是透過合併 Power Query 查詢來完成的。
 
 下列步驟會展示將一對一相關的資料合併及模型化的方法：
 
@@ -131,11 +131,11 @@ ms.locfileid: "96419145"
 
 ![[欄位] 窗格在名為 [Marketing] \(行銷\) 的顯示資料夾中顯示 [Category] \(類別\) 欄位。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-如果您仍決定在模型中定義一對一的島內關聯性，在可能的情況下，請確保相關聯的資料表中具有相符的資料列。 由於一對一的島內關聯性會評估為[一般關聯性](../transform-model/desktop-relationships-understand.md#regular-relationships)，因此資料完整性問題可能會以空白的形式出現在報表視覺效果中。 (您可以在此文章所呈現的第一個資料表視覺效果中看到空白分組的範例。)
+若您仍決定在模型中定義一對一的來源群組內部關聯性，在可能的情況下，請確定相關資料表中具有相符的資料列。 由於一對一的來源群組內部關聯性會評估為[一般關聯性](../transform-model/desktop-relationships-understand.md#regular-relationships)，因此資料完整性問題可能會以空白的形式出現在報表視覺效果中。 (您可以在此文章所呈現的第一個資料表視覺效果中看到空白分組的範例。)
 
-### <a name="inter-island-one-to-one-relationship"></a>島間一對一關聯性
+### <a name="cross-source-group-one-to-one-relationship"></a>跨來源群組的一對一關聯性
 
-當資料表之間存在一對一的「島間」  關聯性時，將不會有替代模型設計，除非您在資料來源預先合併資料。 Power BI 會將一對一模型關聯性評估為[受限關聯性](../transform-model/desktop-relationships-understand.md#limited-relationships)。 因此，請務必確保相關聯的資料表中具有相符的資料列，因為系統會將不相符的資料列從查詢結果中排除。
+當資料表之間存在一對一的「跨來源群組」關聯性時，將不會有替代模型設計，除非您在資料來源預先合併資料。 Power BI 會將一對一模型關聯性評估為[受限關聯性](../transform-model/desktop-relationships-understand.md#limited-relationships)。 因此，請務必確保相關聯的資料表中具有相符的資料列，因為系統會將不相符的資料列從查詢結果中排除。
 
 讓我們看看將來自兩個資料表的欄位新增到資料表視覺效果，且資料表之間存在受限關聯性時，會發生什麼事。
 

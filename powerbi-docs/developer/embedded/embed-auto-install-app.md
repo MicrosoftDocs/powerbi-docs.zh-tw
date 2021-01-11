@@ -1,6 +1,6 @@
 ---
-title: 在為您的組織內嵌時，自動安裝 Power BI 應用程式
-description: 了解如何在為您的組織內嵌時，自動安裝 Power BI 應用程式。
+title: 使用 Power BI 內嵌式分析來建立內嵌式 BI 見解時，自動安裝 Power BI 應用程式
+description: 了解如何在使用 Power BI 內嵌式分析來建立內嵌式 BI 見解時，自動安裝 Power BI 應用程式。
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: c9f9a09d659a047ff7342dd0c90f0effe03ce6a1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6418f8a9b927b05b3809032b28a740553ec625c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417213"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888918"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>在為您的組織內嵌時，自動安裝 Power BI 應用程式
 

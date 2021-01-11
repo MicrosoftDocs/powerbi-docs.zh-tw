@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果專案單元測試簡介
-description: 此文章說明如何撰寫 Power BI 視覺效果專案的單元測試
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解之 Power BI 視覺效果專案的單元測試簡介
+description: 本文描述如何撰寫 Power BI 視覺效果專案的單元測試。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379495"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887906"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教學課程：新增 Power BI 視覺效果專案的單元測試
 
@@ -23,7 +23,7 @@ ms.locfileid: "79379495"
 * 使用 powerbi-visuals-utils-testutils 套件。
 * 使用模擬和假功能集協助簡化 Power BI 視覺效果的單元測試。
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>Prerequisites
 
 * 已安裝 Power BI 視覺效果專案
 * 已設定 Node.js 環境
@@ -295,7 +295,7 @@ module.exports = (config: Config) => {
 
 ### <a name="create-a-visual-instance-builder"></a>建立視覺效果執行個體產生器
 
-使用下列程式碼，將 *visualBuilder.ts* 檔案新增至 [test]  資料夾：
+使用下列程式碼，將 *visualBuilder.ts* 檔案新增至 [test] 資料夾：
 
 ```typescript
 import {
@@ -363,11 +363,11 @@ describe("BarChart", () => {
 
 * `beforeEach`：在每次呼叫 `it` 方法之前，都會呼叫此方法，這定義於 [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) 方法中。
 
-* [`it`](https://jasmine.github.io/api/2.6/global.html#it)：定義單一規格。`it` 方法應該包含一或多個 `expectations`。
+* [`it`](https://jasmine.github.io/api/2.6/global.html#it):定義單一規格。`it` 方法應該包含一或多個 `expectations`。
 
 * [`expect`](https://jasmine.github.io/api/2.6/global.html#expect)：建立規格的預期。如果所有預期皆通過且未發生任何失敗，則規格即為成功。
 
-* `toBeInDOM`：其中一個「比對器」  方法。 如需比對器的詳細資訊，請參閱 [Jasmine 命名空間：比對器](https://jasmine.github.io/api/2.6/matchers.html) \(英文\)。
+* `toBeInDOM`：其中一個「比對器」方法。 如需比對器的詳細資訊，請參閱 [Jasmine 命名空間：比對器](https://jasmine.github.io/api/2.6/matchers.html) \(英文\)。
 
 如需 Jasmine 的詳細資訊，請參閱 [Jasmine 架構文件](https://jasmine.github.io/)頁面 \(英文\)。
 
@@ -409,7 +409,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>如何新增單元測試的靜態資料
 
-使用下列程式碼，在 [test]  資料夾中建立 *visualData.ts* 檔案：
+使用下列程式碼，在 [test] 資料夾中建立 *visualData.ts* 檔案：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";

@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 視覺效果中啟用同步交叉分析篩選器功能
-description: 此文章說明如何將同步交叉分析篩選器功能新增至 Power BI 視覺效果。
+title: 在 Power BI 內嵌式分析的 Power BI 視覺效果中，啟用用於取得更佳內嵌 BI 見解的同步交叉分析篩選器功能
+description: 此文章說明如何將同步交叉分析篩選器功能新增至 Power BI 視覺效果。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 4e9989bb7a34a89cb6244a2378d6660a5079fc82
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: bd69e05bba3e9449f9fb6f07bd9625dfb1ea0c08
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748095"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885261"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Power BI 中的同步交叉分析篩選器
 

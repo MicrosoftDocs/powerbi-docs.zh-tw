@@ -1,6 +1,6 @@
 ---
-title: 如何針對 Power BI 視覺效果進行偵錯
-description: 此文章說明如何針對 Power BI 視覺效果進行偵錯。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果偵錯方法
+description: 此文章說明如何針對 Power BI 視覺效果進行偵錯。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0005fe6cfd14f0377cdd7ff648aaa3c5cc96a751
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525539"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888366"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>如何針對 Power BI 視覺效果進行偵錯
 
@@ -75,7 +75,7 @@ public update(options: VisualUpdateOptions) {
 
 1. 開啟開發人員工具 (F12)。
 2. 移至 [偵錯工具]  索引標籤。
-3. 按一下**發生例外狀況時中斷**圖示 (具有暫停符號的六邊形)。
+3. 按一下 **發生例外狀況時中斷** 圖示 (具有暫停符號的六邊形)。
 4. 選取 [發生任何例外狀況時中斷]  。
 
 ![螢幕擷取畫面顯示 [偵錯工具] 索引標籤，其中已選取 [發生任何例外狀況時中斷]。](media/visuals-how-to-debug/how-to-debug-edge.png)
@@ -84,7 +84,7 @@ public update(options: VisualUpdateOptions) {
 
 1. 開啟開發人員工具 (F12)。
 2. 移至 [Sources]  \(來源\) 索引標籤。
-3. 按一下**發生例外狀況時中斷**圖示 (具有暫停符號的停止符號)。
+3. 按一下 **發生例外狀況時中斷** 圖示 (具有暫停符號的停止符號)。
 4. 選取 [Pause On Caught Exceptions]  \(攔截到例外狀況時暫停\) 核取方塊。
 
 ![螢幕擷取畫面顯示 [來源] 索引標籤，其中已選取 [攔截到例外狀況時暫停]。](media/visuals-how-to-debug/how-to-debug-chrome.png)

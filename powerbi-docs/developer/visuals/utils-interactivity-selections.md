@@ -1,6 +1,6 @@
 ---
-title: Power BI 互動功能公用程式
-description: 此文章說明如何使用互動功能公用程式，將選取項目新增至 Power BI 視覺效果中
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的 Power BI 視覺效果互動功能公用程式
+description: 本文描述如何使用互動功能公用程式，將選取項目新增至 Power BI 視覺效果中。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
-ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 533cf90ed9192a8d9e595cdea6320207b841b559
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379252"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887768"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Power BI 互動功能公用程式
 
@@ -138,7 +138,7 @@ Interactivity 公用程式 (`InteractivityUtils`) 是一組函式與類別，可
     類別有下列對應的方法：
     * `bindClick`
     * `bindClearCatcher`
-    * `bindContextMenu`第 1 課：建立 Windows Azure 儲存體物件`bindContextMenu`。
+    * `bindContextMenu`.
 
     ```typescript
     export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {

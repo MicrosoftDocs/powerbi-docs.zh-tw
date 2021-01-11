@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 視覺效果中測試公用程式的使用方式簡介
-description: 本文描述如何使用測試公用程式來簡化 Power BI 視覺單元測試中模擬和特定方法的使用方式
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中 Power BI 視覺效果的測試公用程式使用方式簡介
+description: 本文描述如何使用測試公用程式來簡化 Power BI 視覺單元測試中模擬和特定方法的使用方式。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.openlocfilehash: c50ad894b2e1f5eb838abdd4442f473f8bcbbb10
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4b2a846f4905c4cb28fe92043cf3c71750b40f11
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196598"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888044"
 ---
 # <a name="power-bi-visuals-test-utils"></a>Power BI 視覺效果測試公用程式
 
 本文可協助您安裝、匯入並使用 Power BI 視覺效果測試公用程式。 這些測試公用程式可用於單元測試，並包含如資料檢視、選取項目和色彩結構描述等項目的模擬和方法。
 
-## <a name="requirements"></a>需求
+## <a name="requirements"></a>規格需求
 
 若要使用此套件，則必須安裝下列項目：
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613869"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926832"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -50,18 +50,19 @@ ms.locfileid: "96613869"
 
    ![檢閱警告](media/service-publish-to-web/publish_to_web3_ga.png)
 
-5. 隨即顯示內含連結的對話方塊。 選取要以電子郵件傳送的連結，或複製 HTML。 您可以將其內嵌在 iFrame 等程式碼中，也可以直接貼到網頁或部落格。
+5. 在 [成功] 對話方塊中，您可看到報表外觀的預覽。 選取 [大小] 及 [預設頁面]。 
+
+    您也可以新增 [預留位置] 影像，讓網頁載入的速度更快。 使用預留位置影像，在 Web 上檢視報表的人們就能看到 [觀看互動式內容] 按鈕，以便選取並檢視報表本身。 
+
+    請先進行這些變更。 然後複製連結，並透過電子郵件傳送，或複製 HTML，並貼到網站。 您可以將其內嵌在 iFrame 等程式碼中，也可以直接貼到網頁或部落格。
 
    ![成功：連結與 HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. 如果您之前建立了報表的內嵌程式碼，並選取 [發佈至 Web]，則不會看到步驟 2-4 中的對話方塊。 而是隨即顯示 [內嵌程式碼] 對話方塊：
+6. 如果您之前建立了報表的內嵌程式碼，並選取 [發佈至 Web]，則不會看到步驟 2-4 中的對話方塊。 而是看到 [內嵌程式碼] 對話方塊。
 
    ![內嵌程式碼的對話方塊](media/service-publish-to-web/publish_to_web5.png)
 
    每個報表只能建立一個內嵌程式碼。
-
-如在對話方塊中進行變更，請務必複製更新後的 URL 或 iFrame，以在頁面中使用更新的設定。
-
 
 ### <a name="tips-for-view-modes"></a>檢視模式的祕訣
 
@@ -128,7 +129,7 @@ ms.locfileid: "96613869"
 
 建議為報表設定預留位置影像。 如果發生過大的使用量，則使用者會看到預留位置影像。 
 
-為避免體驗過重的使用量，請限制報表可產生的相異查詢數目，以及重新整理資料的頻率。
+為避免體驗過重的使用量，請限制報表可產生的相異查詢數目，以及重新整理資料的頻率。 如需簡化報表的祕訣，請參閱 [Power BI 最佳化指南](../guidance/power-bi-optimization.md)。
 
 ## <a name="power-bi-visuals"></a>Power BI 視覺效果
 

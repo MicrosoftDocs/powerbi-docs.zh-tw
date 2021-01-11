@@ -1,23 +1,23 @@
 ---
-title: Power BI 視覺效果中的高對比模式支援
-description: 此文章說明如何將高對比模式支援新增至 Power BI 視覺效果。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析的 Power BI 視覺效果高對比模式支援
+description: 此文章說明如何將高對比模式支援新增至 Power BI 視覺效果。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 9372187ae1fdfac27f6b3e7267a1c0622c063464
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f55427511a76fc65b3ae6b3933dca68ef742039c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114328"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889194"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Power BI 視覺效果中的高對比模式支援
 
-Windows [高對比]  設定會透過顯示更相異的色彩，讓您更容易看清楚文字與應用程式。 此文章說明如何將高對比模式支援新增至 Power BI 視覺效果。 如需詳細資訊，請參閱 [Power BI 中的高對比支援](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) \(英文\)。
+Windows [高對比] 設定會透過顯示更相異的色彩，讓您更容易看清楚文字與應用程式。 此文章說明如何將高對比模式支援新增至 Power BI 視覺效果。 如需詳細資訊，請參閱 [Power BI 中的高對比支援](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) \(英文\)。
 
 若要檢視高對比支援的實作，請移至 [PowerBI-visuals-sampleBarChart 視覺效果存放庫](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6) \(英文\)。
 
@@ -33,10 +33,10 @@ Windows [高對比]  設定會透過顯示更相異的色彩，讓您更容易�
 
 在高對比模式中，您的視覺效果應該將其本身限制為下列設定：
 
-* **前景**色彩用來繪製任何線條、圖示、文字和框線，或填滿圖形。
-* **背景**色彩用於背景，作為外框圖形的填滿色彩。
-* **前景 - 已選取**色彩用來表示選取的或使用中的元素。
-* **超連結**色彩僅用於超連結文字。
+* **前景** 色彩用來繪製任何線條、圖示、文字和框線，或填滿圖形。
+* **背景** 色彩用於背景，作為外框圖形的填滿色彩。
+* **前景 - 已選取** 色彩用來表示選取的或使用中的元素。
+* **超連結** 色彩僅用於超連結文字。
 
 > [!NOTE]
 > 如果需要次要色彩，前景色彩可能會與某些不透明度搭配使用 (Power BI 的原生視覺效果使用 40% 不透明度)。 請謹慎使用此功能，讓視覺效果詳細資料易於查看。
@@ -109,7 +109,7 @@ for (let i = 0, len = Math.max(category.values.length, dataValue.values.length);
 }
 ```
 
-### <a name="after"></a>之後
+### <a name="after"></a>After
 
 ```typescript
 for (let i = 0, len = Math.max(category.values.length, dataValue.values.length); i < len; i++) {

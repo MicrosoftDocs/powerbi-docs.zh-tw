@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 視覺效果中使用資料檢視公用程式的簡介
-description: 本文描述如何使用 SVG 公用程式來簡化 Power BI 視覺效果的 DataView 物件剖析作業
+title: 在 Power BI 內嵌式分析的 Power BI 視覺效果中，使用資料檢視公用程式以取得更佳內嵌 BI 見解的簡介
+description: 本文描述如何使用 SVG 公用程式以簡化 Power BI 視覺效果的 DataView 物件剖析作業。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 3c54333c35809ab272c065973d4d948e1ac37a8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513727"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887814"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 

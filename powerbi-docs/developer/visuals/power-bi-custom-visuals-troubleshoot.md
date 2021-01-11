@@ -1,6 +1,6 @@
 ---
-title: 針對如何開發 Power BI 視覺效果進行疑難排解
-description: 本文探討您開發或建立自訂 Power BI 視覺效果時，可能會遇到的幾個常見問題。
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中，針對開發 Power BI 視覺效果的問題進行疑難排解
+description: 本文探討您開發或建立自訂 Power BI 視覺效果時，可能會遇到的幾個常見問題。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: troubleshooting
 ms.date: 11/06/2018
-ms.openlocfilehash: fda4bbddb2f0b1a878e0ddf85f31795405c66331
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 440bb6648dca1eaa85b697a10e9fd41180c66d7e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417144"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888090"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>疑難排解 Power BI 視覺效果
 
@@ -25,7 +25,7 @@ ms.locfileid: "96417144"
 
 **在 [視覺效果] 索引標籤中找不到偵錯視覺效果**
 
-[視覺效果]  索引標籤中的偵錯視覺效果功能，看起來像個提示圖示。
+[視覺效果] 索引標籤中的偵錯視覺效果功能，看起來像個提示圖示。
 
 ![視覺效果選取項目](media/power-bi-custom-visuals-troubleshoot/powerbi-developer-visual-selection.png)
 

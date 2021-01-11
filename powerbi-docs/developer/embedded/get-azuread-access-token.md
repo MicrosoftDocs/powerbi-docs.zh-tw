@@ -1,6 +1,6 @@
 ---
-title: 為應用程式驗證使用者及取得 Azure AD 存取權杖
-description: 了解如何在 Azure Active Directory 註冊應用程式，以用來內嵌 Power BI 內容。
+title: 驗證使用者，並取得 Power BI 內嵌式分析應用程式的 Azure AD 存取權杖，以改善客戶的內嵌式 BI 體驗
+description: 了解如何在 Azure Active Directory 註冊應用程式，以用來內嵌 Power BI 內容。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 8001dd0e15ef713fa67256a45f645b0d7a0890c0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906926"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888435"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>取得 Power BI 應用程式的 Azure AD 存取權杖
 
@@ -172,7 +172,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 ### <a name="access-token-with-service-principal"></a>搭配服務主體的存取權杖
 
-對於此方法，您可以使用[服務主體](embed-service-principal.md)，即「僅限應用程式」  權杖。 應用程式會使用服務主體來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
+對於此方法，您可以使用[服務主體](embed-service-principal.md)，即「僅限應用程式」權杖。 應用程式會使用服務主體來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 #### <a name="embedservicecs"></a>EmbedService.cs
 

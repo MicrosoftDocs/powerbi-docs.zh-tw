@@ -1,19 +1,19 @@
 ---
-title: 醒目提示
-description: Power BI 視覺效果中的資料點選取項目醒目提示
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的醒目提示
+description: Power BI 視覺效果中的資料點選取項目醒目提示。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f45b363ce4616a725d19d0b06f4f9fb96110ac8a
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114144"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886526"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>在 Power BI 視覺效果中醒目提示資料點
 
@@ -32,7 +32,7 @@ ms.locfileid: "80114144"
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>使用類別資料檢視對應來醒目提示資料點
 
-內含類別資料檢視對應之視覺效果具有包含 `"supportsHighlight": true` 參數的 `capabilities.json`。 範例︰
+內含類別資料檢視對應之視覺效果具有包含 `"supportsHighlight": true` 參數的 `capabilities.json`。 例如：
 
 ```json
 {
@@ -275,7 +275,7 @@ div.value {
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>使用矩陣資料檢視對應來醒目提示資料點
 
-內含矩陣資料檢視對應的視覺效果具有包含 `"supportsHighlight": true` 參數的 `capabilities.json`。 範例︰
+內含矩陣資料檢視對應的視覺效果具有包含 `"supportsHighlight": true` 參數的 `capabilities.json`。 例如：
 
 ```json
 {

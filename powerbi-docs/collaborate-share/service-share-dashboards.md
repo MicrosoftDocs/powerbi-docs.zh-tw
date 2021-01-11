@@ -8,21 +8,21 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 06/26/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a85021ee1931b2d5f7c247d7caa4c2813f86a8c
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: 1069a000daf3f46055f45118f4442e4b19037234
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621594"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926712"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板和報表
 「共用」是讓使用者在 Power BI 服務中存取您儀表板和報表的最簡單方式。 您可以與組織內部或外部人員共用。
 
 當您與他人共用儀表板或報表時，其可檢視該儀表板或報表並與之互動，但無法編輯它們。 除非您為基礎資料集套用資料列層級安全性 (RLS)，否則他們可以看到您儀表板和報表中的相同資料，並可以存取整個基礎資料集。  如果您允許的話，您與其共用儀表板或報表的同事，也可以與他們的同事共用。 組織外部人員可以檢視儀表板或報表並與其互動，但不能共用。 
 
-![儀表板清單中的共用圖示](media/service-share-dashboards/power-bi-share-new-look.png)
+![報表的共用圖示](media/service-share-dashboards/power-bi-share-new-look.png)
 
 您可以從 Power BI 服務中的許多位置共用儀表板和報表：我的最愛、最近、我的工作區。 如果擁有工作區中的[系統管理員、成員或參與者角色](service-new-workspaces.md#roles-in-the-new-workspaces)，您也可以從其他工作區共用。 而且，如果擁有者允許，您就能共用 [與我共用] 中的儀表板和報表。 
 

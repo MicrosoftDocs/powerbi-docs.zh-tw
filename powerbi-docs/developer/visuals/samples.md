@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果範例
-description: 此文章呈獻範例 Power BI 視覺效果，包括交叉分析篩選器、20 種以上的圖表、WebGL 與 R 視覺效果與指令碼。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果範例
+description: 此文章呈獻範例 Power BI 視覺效果，包括交叉分析篩選器、20 種以上的圖表、WebGL 與 R 視覺效果與指令碼。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/17/2019
-ms.openlocfilehash: 076ad6549cb68660313dcd8da5ccf8eb1f8f26c7
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 3da805a10a8b43dc7b1f1750583a79494557d519
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049146"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888481"
 ---
 # <a name="samples-of-power-bi-visuals"></a>Power BI 視覺效果範例
 

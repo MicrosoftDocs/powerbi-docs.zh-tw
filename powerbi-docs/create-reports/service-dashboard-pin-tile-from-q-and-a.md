@@ -7,25 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 03/02/2018
+ms.date: 01/05/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ec0b384efb4b43afad76e18feb1b5a53d5f3738c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5ae148feaa294c8779a7140ef450c832bd3376d8
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395202"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927184"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>從問與答將磚釘選到儀表板
-## <a name="how-to-pin-a-tile-from-qa"></a>如何從問與答釘選磚
-問與答是 Power BI 隨選報表工具。 需要尋找特定的深入剖析資訊嗎？ 提出與您的資料有關的問題，然後以視覺效果的形式接收回應。
 
-在此「如何」中，我們將使用 Power BI 服務 (app.powerbi.com) 開啟儀表板、使用自然語言建立視覺效果來詢問問題，以及將該視覺效果釘選到儀表板。 在 Power BI Desktop 中無法使用儀表板。 如需使用問與答與其他 Power BI 工具和內容的資訊，請參閱 [Power BI 問與答概觀](../consumer/end-user-q-and-a.md)。 
+Q&A 是使用自然語言探索資料的 Power BI 工具。 需要尋找特定的深入剖析資訊嗎？ 提出與您的資料有關的問題，然後以視覺效果的形式接收回應。
+
+在本說明文章中，我們將使用 Power BI 服務 (app.powerbi.com) 開啟[儀表板](../consumer/end-user-dashboards.md)、使用自然語言建立視覺效果來詢問問題，並將該視覺效果釘選到儀表板。 在 Power BI Desktop 中無法使用儀表板。 如需使用問與答與其他 Power BI 工具和內容的資訊，請參閱 [Power BI 問與答概觀](../consumer/end-user-q-and-a.md)。 
 
 如果要跟著做，請開啟[零售分析範例儀表板](sample-retail-analysis.md)。
 
+## <a name="how-to-pin-a-tile-from-qa"></a>如何從問與答釘選磚
 
-1. 開啟[儀表板](../consumer/end-user-dashboards.md)，其中至少有一個從報表釘選的磚。 當您提問時，Power BI 會在具有釘選到該儀表板之磚的任何資料集中尋找解答。  若要深入了解，請參閱[取得資料](../connect-data/service-get-data.md)。
+1. 開啟儀表板，其中至少有一個從報表釘選的磚。 當您提問時，Power BI 會在具有釘選到該儀表板之磚的任何資料集中尋找解答。
 2. 在儀表板頂端的問題方塊中，開始輸入您想要知道的資料相關問題。  
    ![問與答的問題方塊](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. 例如，當您輸入「去年各月份和地區的銷售額」...  
@@ -62,5 +63,5 @@ ms.locfileid: "96395202"
 ## <a name="next-steps"></a>後續步驟
 [重新命名、調整大小、新增超連結和重新置放磚等等](service-dashboard-edit-tile.md)    
 [以焦點模式顯示儀表板磚](../consumer/end-user-focus.md)     
-[返回 Power BI 中的問與答](../consumer/end-user-q-and-a.md)  
+[Power BI 的 Q&A 概觀](../consumer/end-user-q-and-a.md)  
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

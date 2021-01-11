@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 04/27/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: a7f8c6d52acff8cbaaa00004448a3fae300afb9b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf056581c7c1f472e1e7ce20baf3d7afd8815bda
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411900"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886000"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
@@ -26,11 +26,11 @@ ms.locfileid: "96411900"
 
 1. 開啟 Power BI 服務中的報表。
 
-2. 在 [更多選項 (...)] 功能表中，選取 [內嵌] >  [網站或入口網站]。
+2. 在 [共用] 功能表上，選取 [內嵌報表] >  [網站或入口網站]。
 
     ![網站或入口網站選項](media/service-embed-secure/power-bi-more-options-website.png)
 
-2. 選取 [內嵌] 選項來開啟對話方塊，該對話方塊會提供您可以安全地用來內嵌報表的連結和 iFrame。
+2. 在 [安全內嵌程式碼] 對話方塊中，選取 [您可以使用以下連結來內嵌此內容]，或是 iFrame 中 [可貼至您部落格或網站的 HTML]。
 
     ![[內嵌] 選項對話方塊](media/service-embed-secure/secure-embed-code-dialog.png)
 

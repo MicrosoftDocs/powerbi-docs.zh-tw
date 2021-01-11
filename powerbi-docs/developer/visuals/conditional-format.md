@@ -1,6 +1,6 @@
 ---
-title: 條件式格式設定
-description: 了解如何將「設定格式化的條件」套用到您的 Power BI 視覺效果專案
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的條件式格式設定
+description: 了解如何將條件式格式設定套用到 Power BI 視覺效果專案。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 10/27/2020
-ms.openlocfilehash: 5243d1eda3fef2c7b82350fb0ca2669eb43c7623
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 13f9dae542b8e0a340a880ab50b2f57c660e0ed9
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513823"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888757"
 ---
 # <a name="add-conditional-formatting"></a>新增條件式格式設定
 

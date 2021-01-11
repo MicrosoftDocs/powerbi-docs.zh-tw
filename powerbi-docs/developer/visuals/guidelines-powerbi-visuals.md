@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果指南
-description: 了解如何將自訂視覺效果發佈至 Microsoft AppSource 供其他人探索及透過購買來使用。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果指引
+description: 了解如何將自訂視覺效果發佈至 Microsoft AppSource 供其他人探索及透過購買來使用。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 427fba66b34fefb0b7ca9d70a29b08ebe7d743cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416132"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889286"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 在將 Power BI 視覺效果[發佈](office-store.md)至 Microsoft AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為使用者打造絕佳體驗。

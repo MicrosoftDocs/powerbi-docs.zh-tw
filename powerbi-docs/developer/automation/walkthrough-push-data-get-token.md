@@ -1,6 +1,6 @@
 ---
-title: 取得驗證存取權杖
-description: 推送資料逐步解說 - 取得驗證存取權杖
+title: 在 Power BI 內嵌式分析中取得驗證存取權杖，以取得更佳的內嵌 BI 見解
+description: 推送資料的逐步解說 - 取得驗證存取權杖。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: b66c87d88e08a4c1f9ee4f9aebdbf44516d9cb43
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 22d30e14256a2e58e05e17207380842392fe0c23
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746508"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887400"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步驟 2：取得驗證存取權杖
 
@@ -27,9 +27,9 @@ ms.locfileid: "91746508"
 
 此程序需要 Visual Studio 2015 或更新版本。
 
-1. 在 Visual Studio 中，建立新的 C# **主控台應用程式**專案。
+1. 在 Visual Studio 中，建立新的 C# **主控台應用程式** 專案。
 
-2. 安裝 [.NET NuGet 套件的 Azure AD 驗證程式庫](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。 您的 .NET 應用程式需要此套件以取得驗證安全性權杖。 
+2. 安裝[.NET NuGet 套件的 Azure AD 驗證程式庫](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。 您的 .NET 應用程式需要此套件以取得驗證安全性權杖。 
 
      a. 選取 [工具]   > [NuGet 套件管理員]   > [套件管理員主控台]  。
 
@@ -39,7 +39,7 @@ ms.locfileid: "91746508"
 
 3. 完成這些步驟之後，將所列的範例程式碼新增至 Program.cs。
 
-4. 將 "{ClientID}" 取代為您在註冊應用程式時 ([上一篇系列文章](../embedded/register-app.md)) 取得的**用戶端識別碼**。
+4. 將 "{ClientID}" 取代為您在註冊應用程式時 ([上一篇系列文章](../embedded/register-app.md)) 取得的 **用戶端識別碼**。
 
 5. 執行主控台應用程式，然後登入您的 Power BI 帳戶。 
 

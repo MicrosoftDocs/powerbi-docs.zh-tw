@@ -1,6 +1,6 @@
 ---
-title: 完整程式碼清單
-description: 推送資料的逐步解說 - 完整程式碼清單
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的完整程式碼清單
+description: 推送資料的逐步解說 - 完整程式碼清單。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d478c742112c15c80657ec424f5a4d6739a3c6d7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746485"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887469"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>將資料推送至資料集的完整程式碼清單
 
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-執行**將資料推送至資料集**中的步驟 2 到 5 之後，完整的程式碼應該如下所示。
+執行 **將資料推送至資料集** 中的步驟 2 到 5 之後，完整的程式碼應該如下所示。
 
 ## <a name="push-data-to-dataset-code"></a>將資料推送到資料集程式碼
 
@@ -229,7 +229,7 @@ ms.locfileid: "91746485"
 * [取得驗證存取權杖](walkthrough-push-data-get-token.md)  
 * [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)  
 * [取得資料集，以便將資料列新增至 Power BI 資料表](walkthrough-push-data-get-datasets.md)  
-* [將資料列新增至 Power BI 資料表](walkthrough-push-data-add-rows.md)  
+* [將資料列加入 Power BI 資料表](walkthrough-push-data-add-rows.md)  
 * [Power BI REST API 參考](/rest/api/power-bi/)  
 * [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 

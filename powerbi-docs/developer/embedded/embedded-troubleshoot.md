@@ -1,6 +1,6 @@
 ---
-title: 為您的 Power BI 內嵌式分析應用程式進行疑難排解
-description: 本文探討您在從 Power BI 內嵌內容時，可能會遇到的幾個常見問題。
+title: 為您的 Power BI 內嵌式分析應用程式進行疑難排解，以便取得更佳的內嵌 BI 見解
+description: 本文探討您在從 Power BI 內嵌內容時，可能會遇到的幾個常見問題。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: db2ae20436eddc4cb06287b6266488b65588dcb5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098068"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887193"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -119,7 +119,7 @@ _*_ (AADSTS70002：驗證認證時發生錯誤。 AADSTS50053：使用不正確�
 
 若要建立此原則，您必須是要在其中建立並指派原則目錄的_「全域管理員」*。 下列範例指令碼示範如何建立原則，並將它指派給此應用程式的 SP：
 
-1. 安裝 [Azure AD Preview PowerShell 模組](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
+1. 安裝 [Azure AD Preview PowerShell 模組](/powershell/azure/active-directory/install-adv2)。
 
 2. 逐行執行下列 PowerShell 命令 (以確認變數 $sp 最後不會有一個以上的應用程式)。
 

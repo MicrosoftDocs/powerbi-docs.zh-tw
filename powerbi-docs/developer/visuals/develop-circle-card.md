@@ -1,6 +1,6 @@
 ---
-title: 使用圓形卡片視覺效果作為範例，了解如何自行開發 Power BI 視覺效果
-description: 此教學課程說明如何使用開發 Power BI 視覺效果
+title: 了解如何在 Power BI 內嵌式分析中，使用圓形卡片視覺效果作為範例，開發用於取得更佳內嵌 BI 見解的 Power BI 視覺效果
+description: 此教學課程說明如何開發 Power BI 視覺效果。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0bfc36a37dbcc4c595ea467eb3b365c30d4ed781
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418708"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885629"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>教學課程：開發 Power BI 圓形卡片視覺效果
 

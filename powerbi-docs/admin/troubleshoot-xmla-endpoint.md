@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 11/16/2020
+ms.date: 01/04/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: ca9dd1b18fb037013e6d1d5c6e6c3510065068b4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 191cf3ce71ca30f257276df78ad43cdb2e49a1e1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413280"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886068"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>針對 XMLA 端點連線能力進行疑難排解
 
@@ -151,7 +151,7 @@ Executing the query ...
 Error -1052311437:
 ```
 
-發生此錯誤的原因，是因為使用 SSMS v18.7.1 安裝的用戶端程式庫不支援工作階段追蹤。 這將會在即將推出的 SSMS 版本中解決。
+發生此錯誤的原因，是因為使用 SSMS v18.7.1 安裝的用戶端程式庫不支援工作階段追蹤。 此錯誤已在 SSMS 18.8 與更新版本中解決。 [下載最新的 SSMS](/sql/ssms/download-sql-server-management-studio-ssms)。
 
 ### <a name="refresh-operations"></a>重新整理作業
 
@@ -168,7 +168,51 @@ Date (UTC): 11/13/2020 7:57:16 PM
 Run complete
 ```
 
-這是由用戶端程式庫中的已知問題所引發，其中系統並未正確追蹤重新整理要求的狀態。 這將會在即將推出的 SSMS 版本中解決。
+這是由用戶端程式庫中的已知問題所引發，其中系統並未正確追蹤重新整理要求的狀態。 此錯誤已在 SSMS 18.8 與更新版本中解決。 [下載最新的 SSMS](/sql/ssms/download-sql-server-management-studio-ssms)。
+
+## <a name="editing-role-memberships-in-ssms"></a>在 SSMS 中編輯角色成員資格
+
+當使用 SQL Server Management Studio (SSMS) v18.8 編輯資料集的角色成員資格時，SSMS 可能會顯示下列錯誤：
+
+```
+Failed to save modifications to the server. 
+Error returned: ‘Metadata change of current operation cannot be resolved, please check the command or try again later.’ 
+```
+
+這是因為應用程式服務 REST API 中的已知問題所致。 這將會在即將推出的版本中解決。 在此同時，若要解決此錯誤，請在 [角色屬性] 中按一下 [指令碼]，然後輸入下列 TMSL 命令並加以執行：
+
+```json
+{ 
+  "createOrReplace": { 
+    "object": { 
+      "database": "AdventureWorks", 
+      "role": "Role" 
+    }, 
+    "role": { 
+      "name": "Role", 
+      "modelPermission": "read", 
+      "members": [ 
+        { 
+          "memberName": "xxxx", 
+          "identityProvider": "AzureAD" 
+        }, 
+        { 
+          "memberName": “xxxx” 
+          "identityProvider": "AzureAD" 
+        } 
+      ] 
+    } 
+  } 
+} 
+```
+
+## <a name="publish-error---live-connected-dataset"></a>發佈錯誤 - 即時連線的資料集
+
+當利用 Analysis Services 連接器重新發佈即時連線的資料集時，可能會顯示下列錯誤：
+
+:::image type="content" source="media/troubleshoot-xmla-endpoint/couldnt-publish-to-power-bi.png" alt-text="無法發佈至 Power BI 錯誤。":::
+
+如錯誤訊息中所述，若要解決此問題，請刪除或重新命名現有的資料集。 也請務必重新發佈與此報表有關的任何應用程式。 如有必要，下游使用者也應收到更新具有新報表位址之任何書籤的通知，以確定他們可以存取最新的報表。  
 
 ## <a name="see-also"></a>另請參閱
 

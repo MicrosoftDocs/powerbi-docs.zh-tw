@@ -1,21 +1,21 @@
 ---
 title: 適用於美國政府客戶的 Power BI - 概觀
-description: 美國政府客戶可以將 Power BI Pro 訂用帳戶新增至其 Microsoft 365 政府方案。 了解如何在此服務描述中註冊、連線及檢閱功能可用性。
+description: 美國政府客戶可將 Power BI 訂用帳戶新增至其 Microsoft 365 政府方案。 了解如何在此服務描述中註冊、連線及檢閱功能可用性。
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/17/2020
-ms.custom: licensing support
+ms.date: 01/05/2021
+ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: e8cf03d90165463fd1e59bf4c4394c1da94e995e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9b52e0698f6b9c1ae779bf21738acee30db7447d
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407852"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927081"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
@@ -113,9 +113,14 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 
 ## <a name="power-bi-feature-availability"></a>Power BI 功能可用性
 
-為了符合政府雲端客戶的需求，政府方案與商業方案之間有一些差異。 我們的目標是要在正式運作後 30 天內，讓政府雲端中的所有功能皆可供使用。 在某些情況下，基礎相依性會導致我們無法提供功能。
+為了符合政府雲端客戶的需求，政府方案與商業方案之間有一些差異。 我們的目標是要在正式運作後 30 天內，讓政府雲端中的所有功能皆可供使用。 在某些情況下，基礎相依性會導致我們無法提供功能。 下列清單顯示尚未在特定政府環境中提供使用，或可用的有限功能。 此清單的索引鍵如下：
 
-下表會列出在特定政府環境中無法使用的功能。 我們會包含估計的可用性 (若有規劃發行的話)：
+|Key |描述|
+|-----|------|
+|![可供使用](../media/yes.png)|此功能可在該環境中使用，唯註腳處所定義的情況除外。|
+|![無法使用](../media/no.png)| 此功能無法在該環境中使用，且目前尚未評估推出時間表。|
+
+若我們已規劃針對某個環境發行功能，則會將預估發行的季度包含在內。
 
 |特徵 |GCC |GCC High |DoD|
 |------|------|------|------|
@@ -123,18 +128,18 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |[使用 Power BI 網頁組件內嵌在 SharePoint Online 中](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可供使用](../media/yes.png)|![可用](../media/yes.png)|![無法使用](../media/no.png)|
 |[適用於資料驅動警示的 Power Automate 連線能力](../connect-data/power-bi-data-sources.md)|![可供使用](../media/yes.png)|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|
 |[Teams 中的 Power BI 索引標籤](../collaborate-share/service-collaborate-microsoft-teams.md) <sup>2</sup>|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
-|[大型模型](service-premium-large-models.md) | 2020 年第 4 季 |2020 年第 4 季| ![無法使用](../media/no.png) |
-|[資料流程 - SQL 計算引擎最佳化](../transform-model/dataflows/dataflows-premium-features.md) | 2020 年第 4 季 |2020 年第 4 季| ![無法使用](../media/no.png) |
-|[資料流程 - 直接查詢](../transform-model/dataflows/dataflows-configure-consume.md) | 2020 年第 4 季 |2020 年第 4 季|![無法使用](../media/no.png)|
-|[資料保護 (MIP 標籤)](service-security-sensitivity-label-overview.md)|2020 年第 4 季|2020 年第 4 季 |2020 年第 4 季|
-|[範本應用程式](../connect-data/service-template-apps-overview.md) <sup>3</sup>|2020 年第 4 季 |2020 年第 4 季| 2020 年第 4 季|
-|[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md) <sup>3</sup>|2020 年第 4 季 |2020 年第 4 季| 2020 年第 4 季|
-|[Azure 串流分析](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| 2020 年第 4 季|2020 年第 4 季|2020 年第 4 季|
+|[大型模型](service-premium-large-models.md) | ![無法使用](../media/no.png) |![無法使用](../media/no.png)| ![無法使用](../media/no.png) |
+|[資料流程 - SQL 計算引擎最佳化](../transform-model/dataflows/dataflows-premium-features.md) | ![無法使用](../media/no.png) |![無法使用](../media/no.png)| ![無法使用](../media/no.png) |
+|[資料流程 - 直接查詢](../transform-model/dataflows/dataflows-configure-consume.md) | ![無法使用](../media/no.png) |![無法使用](../media/no.png)|![無法使用](../media/no.png)|
+|[資料保護 (MIP 標籤)](service-security-sensitivity-label-overview.md)|![無法使用](../media/no.png)|![無法使用](../media/no.png) |![無法使用](../media/no.png)|
+|[範本應用程式](../connect-data/service-template-apps-overview.md) <sup>3</sup>|![無法使用](../media/no.png) |![無法使用](../media/no.png)| ![無法使用](../media/no.png)|
+|[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md) <sup>3</sup>|![無法使用](../media/no.png) |![無法使用](../media/no.png)| ![無法使用](../media/no.png)|
+|[Azure 串流分析](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| ![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 |[通話品質資料連接器](/microsoftteams/cqd-power-bi-connector)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 |[自備儲存體 (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 |[QR 代碼產生](../create-reports/service-create-qr-code-for-tile.md)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 
-<sup>1</sup> 雖然 B2B 共同作業適用於 GCC，但必須在該環境中對外部使用者發出授權。 GCC 中的商業雲端授權無效。 如需適用於美國政府的 B2B 共同作業已知限制其詳細資訊，請[比較 Azure Government 及全域 Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) (英文)
+<sup>1</sup> 雖然 B2B 共同作業適用於 GCC，但必須在該環境中對外部使用者發出授權。 GCC 中的商業雲端授權無效。 如需適用於美國政府的 B2B 共同作業已知限制其詳細資訊，請[比較 Azure Government 及全域 Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)。
 
 <sup>2</sup> 適用於 GCC 的 Teams 其 Power BI 體驗受到限制，只能在傳統工作區上運作，且不包含[在 Microsoft Teams 中內嵌 Power BI 內容](../collaborate-share/service-embed-report-microsoft-teams.md)所述的增強功能。
 

@@ -1,6 +1,6 @@
 ---
-title: 從 Power BI Embedded 移轉內容的程式碼片段
-description: 以下是內容移轉所需之基本作業的一些程式碼片段
+title: 取得更佳的內嵌式 BI 見解：用於將內容從工作區集合，移轉至 Power BI 內嵌式分析 Power BI Embedded 解決方案的程式碼片段
+description: 以下是內容移轉所需之基本作業的一些程式碼片段。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9ed021ce95fd1e978916c188c93ca77fa88ccdb6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6b6023ac77d007b07662e200d6f165d56d67628
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416500"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888711"
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>用於遷移 Power BI 工作區集合內容的程式碼片段
 
 以下是內容移轉所需之基本作業的一些程式碼片段。 針對特定報告類型的相關流程，請參閱[如何將 Power BI 工作區集合內容遷移至 Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)。
 
 有 **移轉工具** 可用來協助您將 Power BI Embedded (PaaS) 的內容複製到 Power BI 服務 (SaaS)。 尤其是當您有許多內容時。 如需詳細資訊，請參閱 [Power BI Embedded 移轉工具](migrate-tool.md)。
 
-下列程式碼是使用 C# 和 [Power BI .NET SDK](https://www.nuget.org/profiles/powerbi) 的範例。
+下列程式碼是使用 C# 和 [Power BI .NET SDK](https://www.nuget.org/profiles/powerbi) \(英文\) 的範例。
 
 請確定您使用下列命名空間來執行下列程式碼片段。
 
@@ -164,9 +164,9 @@ using System.Threading.Tasks;
 
 ## <a name="push-dataset-and-report"></a>推送資料集和報表
 
-您必須為已建立的資料集重建報告。
+您必須重新建置所建立資料集的報表。
 
-在此片段中，我們假設可發送資料集已在 SaaS 環境內的工作區中。 如需發送 API 的相關資訊，請參閱[將資料發送至 Power BI 資料集](../automation/walkthrough-push-data.md)。
+在此片段中，我們假設可發送資料集已在 SaaS 環境內的工作區中。 如需推送 API 的相關資訊，請參閱[將資料推送至 Power BI 資料集](../automation/walkthrough-push-data.md)。
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

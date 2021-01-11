@@ -1,6 +1,6 @@
 ---
-title: 搭配 Power BI 使用內嵌式分析
-description: Power BI 提供 API 讓您在應用程式中針對儀表板和報表使用內嵌式分析。 深入了解在 PaaS 和 SaaS 環境中使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具搭配 Power BI 執行內嵌作業的相關資訊。
+title: 搭配 Power BI 內嵌式分析使用內嵌式分析，以取得更佳的內嵌 BI 見解
+description: Power BI 提供 API，讓您將 Power BI 內嵌式分析儀表板與報表內嵌至應用程式。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 4dba33e2ae800198d4840139d43893a7dca77e4f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: c7278dee5957e2b63b6821decec0171ba6b628a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396809"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887124"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>搭配 Power BI 使用內嵌式分析
 

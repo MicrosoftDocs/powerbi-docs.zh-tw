@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 32e6cccf738d85ed58922c199c3a6093a54019db
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413786"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888556"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop 中的模型關聯性
 
@@ -146,21 +146,21 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 「匯入」或 DirectQuery 模型會從 Vertipaq 快取或來源資料庫提供其所有資料。 在這兩個執行個體中，Power BI 都能夠判斷關聯性的「一」端存在。
 
-不過，「複合」模型包含的資料表可以使用不同儲存模式 (匯入、DirectQuery 或雙重) 或多個 DirectQuery 來源。 每個來源，包括匯入資料的 Vertipaq 快取，都會被視為「資料島」  。 然後，可以將模型關聯性分類為「島內」  或「跨島」  。 「島內」關聯性是在資料島內的兩個資料表建立關聯性，而「跨島」關聯性則會將來自不同資料島的資料表相關聯。 請注意，Import 或 DirectQuery 模型中的關聯性一律為島內。
+不過，「複合」模型包含的資料表可以使用不同儲存模式 (匯入、DirectQuery 或雙重) 或多個 DirectQuery 來源。 每個來源，包括匯入資料的 Vertipaq 快取，都會被視為「來源群組」。 然後，可將模型關聯性分類為「來源群組內」或「來源群組間」。 「來源群組內」關聯性是指來源群組中兩個資料表的關聯性，而「來源群組間」關聯性則是不同來源群組間資料表的關聯性。 請注意，匯入模型或 DirectQuery 模型中的關聯性一律屬於「來源群組間」關聯性。
 
 讓我們看看「複合」模型範例。
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="由兩座島組成的複合模型範例。":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example.png" alt-text="由兩個來源群組組合而成的複合模型範例。":::
 
-在此範例中，複合模型包含兩個島：Vertipaq 資料島和 DirectQuery 來源資料島。 Vertipaq 資料島包含三個資料表，而 DirectQuery 來源資料島包含兩個資料表。 有一個跨島關聯性存在，以將 Vertipaq 資料島中的資料表與 DirectQuery 來源資料島中的資料表相關聯。
+在此範例中，複合模型包含兩個來源群組：Vertipaq 來源群組與 DirectQuery 來源群組。 Vertipaq 來源群組包含三個資料表，而 DirectQuery 來源群組則包含兩個資料表。 「來源群組間」關聯性會為 Vertipaq 來源群組中的資料表與 DirectQuery 來源群組中的資料表建立關聯。
 
 ### <a name="regular-relationships"></a>一般關聯性
 
-當查詢引擎可以判斷關聯性的「一」端時，模型關聯性為「一般」。 它已確認「一」端資料行包含唯一值。 所有的一對多島內關聯性都是一般關聯性。
+當查詢引擎可以判斷關聯性的「一」端時，模型關聯性為「一般」。 它已確認「一」端資料行包含唯一值。 所有一對多「來源群組內」關聯性都是一般關聯性。
 
-在下列範例中，有兩個一般關聯性，兩者都標示為 。關聯性包括 Vertipaq 島內包含的一對多關聯性，以及 DirectQuery 來源內包含的一對多關聯性。
+在下列範例中，有兩個一般關聯性，兩者都標示為 。關聯性包括 Vertipaq 來源群組內包含的一對多關聯性，以及 DirectQuery 來源內包含的一對多關聯性。
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="由兩個島組成並標示一般關聯性的複合模型範例。":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-regular.png" alt-text="由兩個來源群組組合而成，並標示為一般關聯性的「複合」模型範例。":::
 
 針對所有資料都儲存在 Vertipaq 快取中的匯入模型，則會在資料重新整理時，為每個一般關聯性建立資料結構。 資料結構是由所有資料行對資料行值的索引對應所組成，而其目的是在查詢時加速聯結資料表。
 
@@ -171,7 +171,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 若是一對多關聯性，資料表展開會使用 LEFT OUTER JOIN 語義，從「多」對「一」端執行。 從「多」對「一」端的相符值不存在時，就會將空白的虛擬資料列新增至「一」端資料表。
 
-資料表展開也會發生一對一島內關聯性，但使用 FULL OUTER JOIN 語義。 它可確保在必要時，會在任一端新增空白的虛擬資料列。
+展開資料表也會發生一對一「來源群組內」關聯性，但須使用 FULL OUTER JOIN 語義。 它可確保在必要時，會在任一端新增空白的虛擬資料列。
 
 空白的虛擬資料列實際上是「未知的成員」  。 未知的成員代表參考完整性違規，其中的「多」端值沒有對應的「一」端值。 在理想情況下，這些空白不應該存在，而且可以藉由清理或修復來源資料來消除。
 
@@ -186,11 +186,11 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 若未保證「一」端，模型關聯性即為「有限」。 此情況可能有兩個原因：
 
 - 關聯性使用多對多基數類型 (即使其中一個或兩個資料行包含唯一值)
-- 關聯性是跨島 (這只會是「複合」模型的案例)
+- 關聯性為「來源群組間」(只存在於「複合」模型的案例)
 
-在下列範例中，有兩個有限關聯性，兩者都標示為 **L**。這兩個關聯性包括 Vertipaq 島內包含的多對多關聯性，以及一對多跨島關聯性。
+在下列範例中，有兩個有限關聯性，兩者都標示為 **L**。這兩個關聯性包括 Vertipaq 來源群組內包含的多對多關聯性，以及一對多「來源群組間」關聯性。
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="由兩個島組成並標示有限關聯性的複合模型範例。":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-limited.png" alt-text="由兩個來源群組組合而成，並標示為有限關聯性的「複合」模型範例。":::
 
 針對匯入模型，永遠都不會為有限關聯性建立資料結構。 這表示必須在查詢時解析資料表聯結。
 
@@ -202,7 +202,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 - 強制 RLS 具有拓撲限制
 
 > [!NOTE]
-> 在 Power BI Desktop 模型檢視中，不一定能夠判斷模型關聯性是否為一般或有限。 多對多關聯性一律為有限，當其為跨島關聯性時，則為一對多關聯性。 若要判斷它是否為跨島關聯性，您必須檢查資料表儲存模式和資料來源，以獲得正確的判斷。
+> 在 Power BI Desktop 模型檢視中，不一定能夠判斷模型關聯性是否為一般或有限。 多對多關聯性一律為有限，當其為「來源群組間」關聯性時，則為一對多關聯性。 若要判斷關聯性是否為「來源群組間」關聯性，您必須檢查資料表儲存體模式和資料來源，以獲得正確的判斷。
 
 ### <a name="precedence-rules"></a>優先順序規則
 
@@ -216,10 +216,10 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 下列清單會篩選傳播效能，從最快到最慢的效能：
 
-1. 一對多島內關聯性
+1. 一對多「來源群組內」關聯性
 2. 多對多基數關聯性
 3. 透過中繼資料表達成的多對多模型關聯性，且牽涉到至少一個雙向關聯性
-4. 跨島關聯性
+4. 「來源群組間」關聯性
 
 ## <a name="next-steps"></a>後續步驟
 

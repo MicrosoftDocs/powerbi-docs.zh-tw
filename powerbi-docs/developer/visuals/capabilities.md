@@ -1,6 +1,6 @@
 ---
-title: Power BI 視覺效果的功能和屬性
-description: 此文章說明 Power BI 視覺效果的功能和屬性。
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果功能與屬性
+description: 此文章說明 Power BI 視覺效果的功能和屬性。 使用 Power BI 內嵌式分析，取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: e3af800696fd593f092cc46f9a59df2d0a5f94e2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e0fb17053ff8e6d17321994d515d8b69dbe8e22b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380289"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888251"
 ---
 # <a name="capabilities-and-properties-of-power-bi-visuals"></a>Power BI 視覺效果的功能和屬性 
 
@@ -44,7 +44,7 @@ ms.locfileid: "79380289"
     * `Grouping`：用來分組量值欄位的離散值。
     * `Measure`：數值資料值。
     * `GroupingOrMeasure`：可以當作分組或量值使用的值。
-* **displayName**：在 [屬性]  窗格中顯示給使用者的名稱。
+* **displayName**：在 [屬性] 窗格中顯示給使用者的名稱。
 * **description**：欄位的簡短描述 (選擇性)。
 * **requiredTypes**：此資料角色所需的資料類型。 任何不符合的值都會設定為 Null (選擇性)。
 * **preferredTypes**：此資料角色慣用的資料類型 (選擇性)。

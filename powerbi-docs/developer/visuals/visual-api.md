@@ -1,6 +1,6 @@
 ---
-title: 視覺效果 API
-description: 此文章說明如何針對 Power BI 視覺效果使用 IVisual API
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的視覺效果 API
+description: 本文描述如何使用 Power BI 視覺效果的 IVisual API。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/19/2020
-ms.openlocfilehash: 6ec30fdd4812427ae855ff9a167d946d2a415c28
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7b81ecfa1b97b202b6c1ff306cf858f2ea00acde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302958"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888527"
 ---
 # <a name="visual-api"></a>視覺效果 API
 所有視覺效果均以實作 `IVisual` 介面的類別開始。 您可以將該類別命名為任何想要的名稱，只要有一個實作 `IVisual` 介面的類別即可。
@@ -92,7 +92,7 @@ constructor(options: VisualConstructorOptions)
    * `allowInteractions: boolean`，布林值旗標，其會提示視覺效果是否應為互動式
    * `applyJsonFilter`，套用特定的篩選類型，請參閱[篩選 API](./filter-api.md)
    * `persistProperties`，允許使用者保存屬性，並連同視覺效果定義一起儲存，以便在下一次重新載入時使用
-   * `eventService`，傳回[事件服務](./event-service.md)，以支援**轉譯**事件
+   * `eventService`，傳回 [事件服務](./event-service.md)，以支援 **轉譯** 事件
    * `storageService`，傳回服務，以協助在視覺效果中使用[本機儲存體](./local-storage.md)
    * `authenticationService`，產生服務以協助使用者驗證
    * `tooltipService`，傳回[工具提示服務](./add-tooltips.md)，以協助在視覺效果中使用工具提示

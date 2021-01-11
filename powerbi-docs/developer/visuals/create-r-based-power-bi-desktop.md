@@ -1,6 +1,6 @@
 ---
-title: 教學課程：建立 R 支援的 Power BI 視覺效果
-description: 本教學課程描述如何使用 Power BI Desktop 中的 R 指令碼編輯器，為 Power BI 建立以 R 為基礎的視覺效果。
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中建立 R 支援的 Power BI 視覺效果
+description: 本教學課程描述如何使用 Power BI Desktop 中的 R 指令碼編輯器，為 Power BI 建立以 R 為基礎的視覺效果。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dde18b9945d808cc6b2630bdad4d83768b0e2e8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749313"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889033"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>教學課程：建立 R 支援的 Power BI 視覺效果
 
@@ -33,7 +33,7 @@ ms.locfileid: "91749313"
 * **Power BI Pro** 帳戶。 開始之前，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)。
 * R 引擎。 您可從許多位置免費下載，包括 [Revolution Open 下載頁面](https://mran.revolutionanalytics.com/download/) (英文) 以及 [CRAN 存放庫](https://cran.r-project.org/bin/windows/base/) (英文)。 如需詳細資訊，請參閱[使用 R 建立 Power BI 視覺效果](../../create-reports/desktop-r-visuals.md)。
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md)。
-* 適用於 Windows 使用者的 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 第 4 版或更新版本，或適用於 OSX 使用者的[終端機](https://macpaw.com/how-to/use-terminal-on-mac)。
+* 適用於 Windows 使用者的 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) 第 4 版或更新版本，或適用於 OSX 使用者的[終端機](https://macpaw.com/how-to/use-terminal-on-mac)。
 
 ## <a name="getting-started"></a>開始使用
 
@@ -92,7 +92,7 @@ ms.locfileid: "91749313"
     lines(x, y, col="green") # draw line plot
     ```
 
-1. 選取**執行指令碼**圖示以查看結果。
+1. 選取 **執行指令碼** 圖示以查看結果。
 
     ![顯示指令碼執行結果為折線圖的螢幕擷取畫面。](./media/create-r-based-power-bi-desktop/run-r-script.png)
 

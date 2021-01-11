@@ -1,6 +1,6 @@
 ---
-title: 建立資料集
-description: 逐步解說 - 將資料推送至資料集 - 在 Power BI 中建立資料集
+title: 在 Power BI 內嵌式分析中建立資料集，以取得更佳的內嵌 BI 見解
+description: 逐步解說 - 將資料推送至資料集 - 在 Power BI 中建立資料集。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: d782ee1d7a3fd137624054ee9e2bca0247ddb5ea
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e2f1bbd1503ca4adeac626d02fc7bf3e41baa9b5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748877"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887492"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步驟 3：在 Power BI 中建立資料集
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-在將資料推送至資料集的**步驟 2**[取得驗證存取權杖](walkthrough-push-data-get-token.md)中，您取得了向 **Azure AD** 驗證的權杖。 在此步驟中，您會使用權杖來呼叫 [PostDataset](/rest/api/power-bi/pushdatasets) 作業。
+在將資料推送至資料集的 **步驟 2**[取得驗證存取權杖](walkthrough-push-data-get-token.md)中，您取得了向 **Azure AD** 驗證的權杖。 在此步驟中，您會使用權杖來呼叫 [PostDataset](/rest/api/power-bi/pushdatasets) 作業。
 
-若要呼叫 REST 資源，您可使用用以定位資源的 URL，以及將 JavaScript 物件標記法 (JSON) 字串 (其中描述資料集) 傳送到 Power BI 服務資源。 REST 資源會識別您想要使用的 Power BI 服務之部分。 若要將資料推送至資料集，則目標資源是**資料集**。 識別資料集的 URL 是 `https://api.PowerBI.com/v1.0/myorg/datasets`。 如果您要在群組中推送資料，則 URL 會是 `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`。
+若要呼叫 REST 資源，您可使用用以定位資源的 URL，以及將 JavaScript 物件標記法 (JSON) 字串 (其中描述資料集) 傳送到 Power BI 服務資源。 REST 資源會識別您想要使用的 Power BI 服務之部分。 若要將資料推送至資料集，則目標資源是 **資料集**。 識別資料集的 URL 是 `https://api.PowerBI.com/v1.0/myorg/datasets`。 如果您要在群組中推送資料，則 URL 會是 `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`。
 
 若要驗證 Power BI REST 作業，您可將在[取得驗證存取權杖](walkthrough-push-data-get-token.md)中取得的權杖加入要求標頭：
 
@@ -36,7 +36,7 @@ ms.locfileid: "91748877"
 > 
 > 
 
-1. 在[步驟 2 - 取得驗證存取權杖](walkthrough-push-data-get-token.md)所建立的主控台應用程式專案中，將 **using System.Net;** 和 **using System.IO;** 加入 Program.cs。
+1. 在 [步驟 2 - 取得驗證存取權杖](walkthrough-push-data-get-token.md)所建立的主控台應用程式專案中，將 **using System.Net;** 和 **using System.IO;** 加入 Program.cs。
 2. 在 Program.cs 中，加入下列程式碼。
 3. 執行主控台應用程式，然後登入您的 Power BI 帳戶。 您應該會在主控台視窗中看到 **建立的資料列** 。 此外，您可以登入 Power BI，以查看新的資料集。
 

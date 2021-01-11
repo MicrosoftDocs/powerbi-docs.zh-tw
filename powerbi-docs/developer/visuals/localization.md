@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 中為 Power BI 視覺效果新增地區設定
-description: 了解視覺效果如何擷取 Power BI 地區設定，以將其內容當地語系化為相關語言。
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中，為 Power BI 視覺效果新增 Power BI 地區設定
+description: 了解視覺效果如何擷取 Power BI 地區設定，以將其內容當地語系化為相關語言。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4df09979eeae476578b247e729a31f5f5c9c9baa
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746047"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888205"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>在 Power BI 中為 Power BI 視覺效果新增地區設定
 

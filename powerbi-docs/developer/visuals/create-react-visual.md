@@ -1,6 +1,6 @@
 ---
-title: 教學課程：建立以 React 為基礎的 Power BI 視覺效果
-description: 此教學課程說明如何使用 React 建立 Power BI 視覺效果。 其會以圓形顯示值。 自適性大小與設定可讓您加以自訂。
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中建立以 React 為基礎的視覺效果
+description: 此教學課程說明如何使用 React 建立 Power BI 視覺效果。 其會以圓形顯示值。 自適性大小與設定可讓您加以自訂。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: d8e7b5dca207aef1a4f119bf324662dbcaa1bbab
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 04c73d88d4051aa024a2bf3a56f3bdaf02b9dc1e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94513313"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889006"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>教學課程：建立以 React 為基礎的視覺效果
 

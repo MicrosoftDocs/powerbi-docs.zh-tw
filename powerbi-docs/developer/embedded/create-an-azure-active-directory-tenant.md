@@ -1,6 +1,6 @@
 ---
-title: 建立要搭配 Power BI 使用的 Azure Active Directory 租用戶
-description: 了解如何為呼叫 Power BI REST API 的自訂應用程式，建立新的 Azure Active Directory (Azure AD) 租用戶。
+title: 建立要搭配 Power BI 內嵌式分析 BI 使用的 Azure Active Directory 租用戶
+description: 了解如何為呼叫 Power BI REST API 並啟用客戶用內嵌式 BI 智慧的自訂內嵌式分析應用程式建立新 Azure Active Directory (Azure AD) 租用戶。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 24e1d8678234b7b355d99985f8e8a567954d6211
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748762"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888987"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>建立要搭配 Power BI 使用的 Azure Active Directory 租用戶
 
@@ -33,7 +33,7 @@ ms.locfileid: "91748762"
 
 1. 瀏覽至 [Azure 入口網站](https://portal.azure.com)，並使用具有 Azure 訂用帳戶的帳戶登入。
 
-2. 選取**加號圖示 (+)** ，並搜尋 **Azure Active Directory**。
+2. 選取 **加號圖示 (+)** ，並搜尋 **Azure Active Directory**。
 
     ![加號圖示 (+)](media/create-an-azure-active-directory-tenant/new-directory.png)
 

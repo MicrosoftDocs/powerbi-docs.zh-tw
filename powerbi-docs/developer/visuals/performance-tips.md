@@ -1,6 +1,6 @@
 ---
-title: 效能提示
-description: 如何建置高效能的 Power BI 視覺效果
+title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的效能提示
+description: 如何建置高效能的 Power BI 視覺效果。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c8bcf5e13ba769b976ab123adb3ba37f46b0359e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746067"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885928"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>如何建置高效能的 Power BI 視覺效果
 本文將探討開發人員如何在轉譯視覺效果時達到高效能的技術。 
@@ -23,13 +23,13 @@ ms.locfileid: "91746067"
 > [!NOTE]
 > 我們在持續改善和增強平台的過程中，會一直發行新版本的 API。 為能充分運用 Power BI 視覺效果的平台和功能集，建議隨時更新到最新的版本。
 >
-> 在最新的**版本 2.1** 中，Power BI 的視覺效果載入時間平均改善了 20%。
+> 在最新的 **版本 2.1** 中，Power BI 的視覺效果載入時間平均改善了 20%。
 
 ## <a name="power-bi-visual-performance-tips"></a>Power BI 視覺效果效能祕訣
 以下是有關如何達到最佳視覺效果效能的一些建議。 
 
 ### <a name="use-user-timing-api"></a>使用使用者計時 API
-使用**使用者計時 API** 來測量應用程式的 JavaScript 效能，可有助判斷指令碼的哪些部分需要最佳化。
+使用 **使用者計時 API** 來測量應用程式的 JavaScript 效能，可有助判斷指令碼的哪些部分需要最佳化。
 
 如需詳細資訊，請參閱[使用者計時 API](https://msdn.microsoft.com/library/hh772738(v=vs.85).aspx)。
 
@@ -107,7 +107,7 @@ ms.locfileid: "91746067"
 您可在 [SVG 與畫布：如何選擇](/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85)) (英文) 一文中深入了解兩者的差異。 
 
 ### <a name="use-requestanimationframe-instead-of-settimeout"></a>使用 requestAnimationFrame 而非 setTimeout 
-如果使用 [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) 更新螢幕動畫，則在瀏覽器呼叫另一個重繪**之前**，會先呼叫動畫函式。
+如果使用 [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) 更新螢幕動畫，則在瀏覽器呼叫另一個重繪 **之前**，會先呼叫動畫函式。
 
 如需詳細資訊，請參閱使用 `requestAnimationFrame` 順暢處理動畫的此[範例](https://testdrive-archive.azurewebsites.net/Graphics/RequestAnimationFrame/Default.html)。
 

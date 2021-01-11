@@ -1,6 +1,6 @@
 ---
-title: Power BI 的視覺資料點選取項目
-description: 此文章說明如何將選取項目新增至 Power BI 視覺效果中
+title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果資料點選項
+description: 本文描述如何將選取項目新增至 Power BI 視覺效果中。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db215195444827f9464e10f9cbb190e292099584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238033"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888320"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>透過 Power BI 視覺效果選取項目，將互動功能新增至視覺效果中
 

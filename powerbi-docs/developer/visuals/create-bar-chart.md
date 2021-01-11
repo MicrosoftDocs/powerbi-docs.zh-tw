@@ -1,6 +1,6 @@
 ---
-title: 建置橫條圖
-description: 使用此逐步指南，以程式碼建置簡單的 Power BI 橫條圖視覺效果。
+title: 取得更佳的內嵌式 BI 見解：在 Power BI 內嵌式分析中建置橫條圖
+description: 使用此逐步指南，以程式碼建置簡單的 Power BI 橫條圖視覺效果。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/01/2020
-ms.openlocfilehash: 0f8f97e5f707e813d316ae4d5388f0793f8c1aa0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a3210c2fdb86632d9fa47b4c9c4add6fff5f052e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149126"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889079"
 ---
 # <a name="build-a-bar-chart"></a>建置橫條圖
 
@@ -84,14 +84,14 @@ let viewModel: BarChartViewModel = {
 ## <a name="data-binding"></a>資料繫結 
 您可以透過在 *capabilities.json* 中定義視覺效果功能來新增資料繫結。 範例程式碼已經有可供您使用的結構描述。
 
-資料繫結在 Power BI 中的**欄位**區上作用良好。
+資料繫結在 Power BI 中的 **欄位** 區上作用良好。
 
 ![欄位區中的資料繫結](./media/create-bar-chart/data-binding.png)
 
 ### <a name="add-data-roles"></a>新增資料角色
 範例程式碼已經有資料角色，但是您可以加以自訂。
 
-- `displayName` 是**欄位**區中顯示的名稱。
+- `displayName` 是 **欄位** 區中顯示的名稱。
 - `name` 是用來參考資料角色的內部名稱。
 - `kind` 是欄位種類。 「分組」欄位 (0) 具有離散值。 「量值」欄位 (1) 具有數值資料值。
 

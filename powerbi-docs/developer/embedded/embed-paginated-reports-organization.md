@@ -1,6 +1,6 @@
 ---
-title: 針對組織，在 Power BI 內嵌式分析應用程式中內嵌 Power BI 編頁報表
-description: 在本教學課程中，了解如何使用 Power BI API 將 Power BI 編頁報表整合或內嵌到應用程式。
+title: 針對組織，在 Power BI 內嵌式分析應用程式中內嵌 Power BI 編頁報表，以便取得更佳的內嵌 BI 見解
+description: 在本教學課程中，了解如何使用 Power BI API 將 Power BI 編頁報表整合或內嵌到應用程式。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: cb739ab6fee67f08184f8c160c13c58be15d649c
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: d4ef44cb0e03c5de7807f0e95cefa532353f4685
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098436"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885169"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 編頁報表內嵌至應用程式
 

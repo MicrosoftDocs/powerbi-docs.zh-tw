@@ -1,6 +1,6 @@
 ---
-title: 在 Power BI 視覺效果中轉譯事件
-description: Power BI 視覺效果可以通知 Power BI 它們已準備好匯出至 Power Point 或 PDF。
+title: 在 Power BI 內嵌式分析的 Power BI 視覺效果中轉譯事件，以取得更佳的內嵌 BI 見解
+description: Power BI 視覺效果可以通知 Power BI 它們已準備好匯出至 Power Point 或 PDF。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: c54aaa92f3463ce1102866c8d3b69532c8b25cf7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 77ed686b78a96717193e594e9f846d4204d8b5e8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380241"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885077"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>在 Power BI 視覺效果中轉譯事件
 
@@ -21,11 +21,11 @@ ms.locfileid: "79380241"
 
 當轉譯開始時，Power BI 視覺效果程式碼會呼叫 `renderingStarted` 方法來指出已啟動轉譯處理序。
 
-如果轉譯成功完成，Power BI 視覺效果程式碼會立即呼叫 `renderingFinished` 方法，以通知接聽程式 (主要是「匯出為 PDF」  和「匯出至 PowerPoint」  ) 視覺效果的影像已準備好進行匯出。
+如果轉譯成功完成，Power BI 視覺效果程式碼會立即呼叫 `renderingFinished` 方法，以通知接聽程式 (主要是「匯出為 PDF」和「匯出至 PowerPoint」) 視覺效果的影像已準備好進行匯出。
 
 如果在該處理序期間發生問題，Power BI 視覺效果便無法順利轉譯。 為了通知接聽程式轉譯處理序尚未完成，Power BI 視覺效果程式碼應呼叫 `renderingFailed` 方法。 這個方法也會提供選擇性字串以提供失敗的原因。
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 ```typescript
 export interface IVisualHost extends extensibility.IVisualHost {
