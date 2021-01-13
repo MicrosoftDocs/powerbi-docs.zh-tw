@@ -9,6 +9,8 @@
           href: embedding.md
         - name: Azure Power BI Embedded 是什麼
           href: azure-pbie-what-is-power-bi-embedded.md
+        - name: 什麼是 Power BI Embedded 第 2 代
+          href: power-bi-embedded-generation-2.md
     - name: 教學課程
       expanded: true
       items:
