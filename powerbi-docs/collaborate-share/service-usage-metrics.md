@@ -10,16 +10,16 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7184f00af46ce5f49df2510ea5e676c89a37a7a
-ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
+ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97558485"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053412"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>監視傳統工作區中的使用計量
 
-使用計量可協助您了解儀表板與報表的影響。 當您執行儀表板使用計量或報表使用計量時，您可以探索那些儀表板和報表在整個組織內的使用方式、使用者及用途。 本文概述[傳統工作區](service-create-workspaces.md)的使用計量報表。 若您的報表在新工作區上，請參閱[在新工作區體驗中監視使用計量](service-usage-metrics.md)一文  
+使用計量可協助您了解儀表板與報表的影響。 當您執行儀表板使用計量或報表使用計量時，您可以探索那些儀表板和報表在整個組織內的使用方式、使用者及用途。 本文概述[傳統工作區](service-create-workspaces.md)的使用計量報表。 若您的報表在新工作區上，請參閱[在新工作區體驗中監視使用計量](service-modern-usage-metrics.md)一文  
 
 使用計量報表是唯讀的。 不過，您可以複製使用計量報表。 複製能建立標準的 Power BI 報表，並可供您編輯。 您也可以根據基礎資料集在 Power BI Desktop 中建置自己的報表，它包含工作區中所有儀表板或所有報表的使用計量。 一開始，複製的報表只會顯示選取儀表板或報表的計量。 您可以移除預設篩選並存取基礎資料集，以及所選取工作區的所有使用計量。 如果您的系統管理員允許的話，您可能還能看見特定使用者的名字。
 

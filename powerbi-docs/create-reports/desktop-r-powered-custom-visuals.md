@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35c118171ef5202e24e5997e321b698e3b137387
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2a610e12da1a91db6e22ab493ed39410ec1c091
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396467"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969734"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 支援的 Power BI 視覺效果
 
@@ -92,7 +92,7 @@ ms.locfileid: "96396467"
 
 如果您自行建立 R 視覺效果以用於報表中，您可在 **Power BI 視覺效果資源庫** 中提供您的自訂視覺效果，進而與各地使用者共用。 貢獻會透過 GitHub 進行，程序概述於下列位置：
 
-* [ R 支援的 Power BI 視覺效果資源庫](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [ R 支援的 Power BI 視覺效果資源庫](https://github.com/PowerBi-Projects/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
 ## <a name="troubleshoot-r-powered-power-bi-visuals"></a>針對 R 支援的 Power BI 視覺效果進行疑難排解
 

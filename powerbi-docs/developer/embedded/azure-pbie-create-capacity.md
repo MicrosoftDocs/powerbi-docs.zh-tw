@@ -1,6 +1,6 @@
 ---
-title: 在 Azure 入口網站中，建立 Power BI Embedded 容量，以取得 Power BI 內嵌式分析內嵌 BI 解決方案
-description: 本文逐步解說如何在 Microsoft Azure 中建立 Power BI Embedded 容量，以取得 Power BI 內嵌式分析內嵌 BI 解決方案。
+title: 在 Azure 入口網站中建立 Power BI Embedded 容量 | Microsoft Docs
+description: 本文逐步解說如何在 Microsoft Azure 中建立 Power BI Embedded 容量。
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 898da0f5e4284183f2ffa08fba8e6a50d9474d15
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887515"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155704"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中建立 Power BI Embedded 容量
 
@@ -47,7 +47,8 @@ _ **Power BI 租用戶：** Azure AD 租用戶中至少有一個帳戶必須已�
 
 4. 填入必要資訊，然後按一下 [檢閱 + 建立]。
 
-    ![顯示 [Power B I Embedded] 頁面的 [基本] 索引標籤，以在 Azure 入口網站中建立新容量的螢幕擷取畫面。](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    >[!div class="mx-imgBorder"]
+    >![顯示 [Power B I Embedded] 頁面的 [基本] 索引標籤，以在 Azure 入口網站中建立新容量的螢幕擷取畫面。](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
 
     * **訂用帳戶** - 要用來建立容量的訂用帳戶。
 

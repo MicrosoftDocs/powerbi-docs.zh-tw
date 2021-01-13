@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675532"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969642"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -570,7 +570,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="all-devices"></a>所有裝置
 **手機報表的背景色彩** - 當您在 Power BI Desktop 中定義報表的背景色彩時，手機報表會有相同的背景色彩。 進一步了解[最佳化手機報表頁面](../../create-reports/desktop-create-phone-report.md)。
 
-**開發適合行動裝置的 Power BI 視覺效果** - 如需在行動裝置上建立好看又好用 Power BI 視覺效果的提示，請參閱此 [開發人員指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (英文)。
+**開發適合行動裝置的 Power BI 視覺效果** - 如需在行動裝置上建立好看又好用 Power BI 視覺效果的提示，請參閱此 [開發人員指南](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (英文)。
 
 #### <a name="ios-devices"></a>iOS 裝置
 **與資料對話︰語音發問** - 現在您可以用說的而非鍵入來 [透過問與答詢問資料的相關問題](mobile-apps-ios-qna.md)。 

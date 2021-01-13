@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6a4f0e8ad8890e85db54e8d77a2ec19bb0d02ea8
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: a1bd0f694bbc2bc40fc35aef3c6017e7f4a8196a
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97889102"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969688"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>新增 Power BI 視覺效果的書籤支援
 
@@ -47,7 +47,7 @@ ms.locfileid: "97889102"
 
 ### <a name="visuals-with-selection"></a>含有選取項目的視覺效果
 
-如果您的視覺效果使用[選取項目](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md) \(英文\) 與其他視覺效果互動，您可以透過下列兩種方式之一來新增書簽：
+如果您的視覺效果使用[選取項目](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Tutorial/Selection.md) \(英文\) 與其他視覺效果互動，您可以透過下列兩種方式之一來新增書簽：
 
 * 如果視覺效果尚未使用 [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) \(英文\)，您可以使用 `FilterManager.restoreSelectionIds` 方法。
 

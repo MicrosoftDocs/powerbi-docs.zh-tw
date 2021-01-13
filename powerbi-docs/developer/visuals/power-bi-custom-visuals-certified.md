@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 5f337197655d41b830b237c04faa2642991c34ee
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888159"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969803"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -92,7 +92,7 @@ Power BI 視覺效果必須由合作夥伴中心核准。 我們建議您的 Pow
 * 只能使用公用的可檢閱 OSS 元件，例如公用 JavaScript 或 TypeScript 程式庫。
 * 程式碼必須支援[轉譯事件 API](event-service.md)。
 * 請確定已安全地操作 DOM。 請先對使用者輸入或使用者資料使用清理，再將其新增至 DOM。
-* 使用[範例報告](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)作為測試資料集。
+* 使用[範例報告](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/assets)作為測試資料集。
 
 **不允許**
 * 存取外部服務或資源。 例如，不能從 Power BI 將任何 HTTP/S 或 WebSocket 要求發送到任何服務。

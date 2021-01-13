@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 784f41e8efa5c6d02a95ef451488883a4422b854
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887906"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969481"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教學課程：新增 Power BI 視覺效果專案的單元測試
 
@@ -457,7 +457,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 在單元測試中，您沒有 Power BI 核心函式可將資料重現。 但您必須將靜態資料對應至類別目錄 `dataview`。 `TestDataViewBuilder` 類別可協助您對應它。
 
-如需資料檢視對應的詳細資訊，請參閱 [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md) \(英文\)。
+如需資料檢視對應的詳細資訊，請參閱 [DataViewMappings](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md) \(英文\)。
 
 在 `getDataView` 方法中，使用您的資料呼叫 `createCategoricalDataViewBuilder` 方法。
 
