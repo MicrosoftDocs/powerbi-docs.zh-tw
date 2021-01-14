@@ -266,6 +266,8 @@
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: 自訂 X 軸和 Y 軸屬性
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: 異常偵測
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: 在 Power BI 視覺效果中與 ArcGIS 地圖互動
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: 基本區域圖
@@ -276,10 +278,6 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: 分解樹狀結構視覺效果
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: 智慧型敘事
-              href: ../visuals/power-bi-visualization-smart-narrative.md
-            - name: 異常偵測
-              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: 環圈圖
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: 區域分布圖 (分區著色圖)
@@ -310,6 +308,8 @@
               href: ../visuals/desktop-high-density-scatter-charts.md
             - name: 圖形對應視覺效果 (預覽)
               href: ../visuals/desktop-shape-map.md
+            - name: 智慧型敘事
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: 報表與儀表板中的資料表
               href: ../visuals/power-bi-visualization-tables.md
             - name: 矩形式樹狀結構圖
