@@ -1,5 +1,5 @@
 ---
-title: 了解 Power BI 服務管理員角色
+title: 了解 Power BI 管理員角色
 description: 本文描述 Power BI 服務管理員和提供系統管理員權限的特定角色。
 author: kfollis
 ms.author: kfollis
@@ -7,33 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2020
+ms.date: 01/8/2021
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ba05d9a7dd39df91cd7313038129f69e9b8d70b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1f06986333824ad6a7ad6a1ca38abb164b55ced8
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408036"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053366"
 ---
-# <a name="understanding-power-bi-service-administrator-roles"></a>了解 Power BI 服務管理員角色
+# <a name="understanding-power-bi-administrator-roles"></a>了解 Power BI 管理員角色
 
-若要管理 Power BI 租用戶，您必須是下列其中一種角色：Power BI 系統管理員、Power Platform 系統管理員或 Microsoft 365 全域管理員。Microsoft 365 使用者管理管理員，可在 Microsoft 365 系統管理中心內或使用 PowerShell 指令碼，將使用者指派為 Power BI 系統管理員角色或 Power Platform 系統管理員角色。 如需詳細資訊，請參閱[使用 PowerShell 指派角色給使用者帳戶](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)。
+若要管理組織的 Power BI，您必須是下列其中一種角色：Power BI 系統管理員、Power Platform 系統管理員或 Microsoft 365 全域管理員。Microsoft 365 使用者管理管理員，可在 Microsoft 365 系統管理中心內或使用 PowerShell 指令碼，將使用者指派為 Power BI 系統管理員角色或 Power Platform 系統管理員角色。 如需詳細資訊，請參閱[使用 PowerShell 指派角色給使用者帳戶](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)。
 
-Power BI 系統管理員角色和 Power Platform 系統管理員角色的使用者，對 Power BI 租用戶和其系統管理功能 (除了授權以外) 有完整的控制權。 使用者獲派角色之後，就能存取 [Power BI 管理入口網站](service-admin-portal.md)。 在那裡，他們能存取整個租用戶的使用計量，並可控制整個租用戶使用 Power BI 功能的方式。 這些系統管理員角色適用於需要存取 Power BI 管理入口網站的使用者，但不會同時授與那些使用者完整的 Microsoft 365 系統管理存取權。
+Power BI 管理員角色和 Power Platform 管理員角色使用者對整個組織的 Power BI 設定和系統管理功能 (授權除外) 具有完整控制權。 使用者獲派管理員角色之後，其即可存取 [Power BI 管理入口網站](service-admin-portal.md)。 在該處，管理員角色可存取整個組織的使用計量，並可控制整個組織使用 Power BI 功能的方式。 這些管理員角色適用於需要存取 Power BI 管理入口網站的使用者，但不會同時授與那些使用者完整的 Microsoft 365 系統管理存取權。
 
 > [!NOTE]
 > 在 Power BI 文件中，「Power BI 系統管理員」指的是 Power BI 系統管理員角色或 Power Platform 系統管理員角色的使用者。 該文件清楚說明了工作需要 Microsoft 365 全域管理員角色的時機。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 
-Power BI 服務管理員角色和 Power Platform 系統管理員角色不提供下列功能：
+Power BI 管理員角色和 Power Platform 管理員角色不提供下列功能：
 
 * 能夠在 Microsoft 365 系統管理中心內修改使用者和授權。
 
 * 稽核記錄的存取權。 如需詳細資訊，請參閱[追蹤 Power BI 中的使用者活動](service-admin-auditing.md)。
 
-這些功能需要 Microsoft 365 全域管理員角色。
+這些功能需要 Microsoft 365 管理員角色指派。
 
 ## <a name="assign-users-to-an-admin-role-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 系統管理中心將使用者指派為系統管理員角色
 
@@ -45,7 +45,7 @@ Power BI 服務管理員角色和 Power Platform 系統管理員角色不提供�
 
 1. 選取您想要指派角色的使用者。
 
-1. 在 [角色] 下方，選取 [管理角色]。
+1. 在 [角色] 底下，選取 [管理角色]。
 
     ![管理角色](media/service-admin-role/powerbi-admin-edit-roles.png)
 
@@ -59,12 +59,12 @@ Power BI 服務管理員角色和 Power Platform 系統管理員角色不提供�
 
 您也可以使用 PowerShell 來為使用者指派角色。 使用者是在 Azure Active Directory (Azure AD) 中管理。 如果您還沒有 Azure AD PowerShell 模組，[請下載並安裝最新版](https://www.powershellgallery.com/packages/AzureAD/)。
 
-1. 首先，連線至 Azure AD：
+1. 連線到 Azure AD：
    ```
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. 第二，取得 **Power BI 服務管理員** 角色的 **ObjectId**。 您可以執行 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) 以取得 **ObjectId**
+1. 取得 **Power BI 管理員** 角色的 **ObjectId**。 您可以執行 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) 以取得 **ObjectId**
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -103,6 +103,7 @@ Power BI 服務管理員角色和 Power Platform 系統管理員角色不提供�
     ```powershell
     Add-AzureADDirectoryRoleMember -ObjectId 00f79122-c45d-436d-8d4a-2c0c6ca246bf -RefObjectId 6a2bfca2-98ba-413a-be61-6e4bbb8b8a4c
     ```
+若要深入了解如何使用 PowerShell 指派管理員角色，請參閱 [Azure AD 目錄角色](/powershell/module/azuread/#directory-roles)。
 
 ## <a name="next-steps"></a>後續步驟
 

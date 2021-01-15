@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 09/19/2019
+ms.date: 01/08/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 092ce10b527c6160cb27de5e3de0ed5852219f6a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2d5eb4047b467544110a5802fa1d41b7ed65bb6a
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417282"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053343"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 設計工具的儀表板簡介
 
@@ -53,9 +53,9 @@ Power BI 「儀表板」是透過視覺效果來說故事的單一頁面，通�
 | 資料來源 |每個儀表板一或多份報表以及一或多個資料集 |每份報表單一資料集 |
 | Power BI Desktop 可用 |否 | 是。 可在 Power BI Desktop 中建置及檢視報表 |
 | 訂閱 |是。 可訂閱儀表板 |是。 可訂閱報表頁面 |
-| 篩選 |不會。 無法篩選或配量 |是。 有多種不同方法可篩選、反白顯示及配量 |
+| 篩選 |不會。 無法篩選或配量儀表板。 「可以」[在焦點模式中篩選儀表板磚](../consumer/end-user-focus.md#working-in-focus-mode)，但無法儲存篩選。 |是。 有多種不同方法可篩選、反白顯示及配量 |
 | 精選 |是。 可將一個儀表板設為您的「精選」儀表板 |否 |
-| 我的最愛 | 是。 可將多個儀表板設為「我的最愛」 | 是。 可將多個報表設為「我的最愛」
+| 我的最愛 | 是。 可將多個儀表板設為「我的最愛」 | 是。 可將多個報表設為「我的最愛」 |
 | 設定警示 |是。 在特定情況下可用於儀表板磚 |否 |
 | 自然語言查詢 (問與答) |是 | 是，若您具有報表和基礎資料集的編輯權限 |
 | 可以看到基礎資料集的資料表和欄位 |不會。 可以匯出資料，但看不到儀表板本身的資料表和欄位 |是 |

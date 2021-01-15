@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/08/2021
 LocalizationGroup: Consumer
-ms.openlocfilehash: f1265a8eb3fb4a7a1ec18a74c6b3a7d28b3b09ba
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: a4a89fd9db3ea3d92012bdaffdcaf248f7546c86
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578237"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053458"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>將註解新增至儀表板或報表
 
@@ -92,7 +92,7 @@ ms.locfileid: "96578237"
 5. 按一下 [關閉] 返回儀表板或報表。
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>使用 @ 符號吸引同事注意
-不論您是建立儀表板、報表、磚或視覺效果的註解，請使用 "\@" 符號來吸引同事注意。  當您鍵入 "\@" 符號時，Power BI 會開啟下拉式清單，您可以在其中搜尋並選取組織中的個人。 任何前面加上 "\@" 符號的已驗證名稱都會以藍色字型顯示。 @mentioned 人員會立即在收件匣中收到電子郵件，如果這些人員使用 Power BI 行動版應用程式，則其會在裝置上收到推播通知。 這些人員可直接從通知開啟註解、檢視資料，並據以回覆。
+不論您是建立儀表板、報表、磚或視覺效果的註解，請使用 "\@" 符號來吸引同事注意。  當您鍵入 "\@" 符號時，Power BI 會開啟下拉式清單，您可以在其中搜尋並選取組織中的個人。 任何前面加上 "\@" 符號的已驗證名稱都會以藍色字型顯示。 @mentioned 人員會立即在收件匣中收到電子郵件，如果這些人員使用 Power BI 行動版應用程式，則其會在裝置上收到推播通知。 這些人員可直接從通知開啟報表或儀表板、查看註解、檢視資料，並據以回覆。
 
 以下是我和視覺效果「設計師」進行的交談。 他們會使用 @ 符號，確保我看到註解。 我收到一則通知，並選取連結以開啟此儀表板和相關的交談。  
 

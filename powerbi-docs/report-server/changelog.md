@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/31/2020
-ms.openlocfilehash: 7c1df405c80f50b7b98803b68ae2d3887013a623
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/06/2021
+ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886181"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053320"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -23,6 +23,10 @@ ms.locfileid: "97886181"
 
 ## <a name="october-2020"></a>2020 年 10 月
 - **Power BI 報表伺服器**
+    - *版本：1.9.7675.15620 (組建 15.0.1104.300)，發行日期：2021 年 1 月 8 日*
+        - 錯誤修正
+            - 已修正具有兩個或多個資料來源且只有字母大小寫不同的報表重新整理問題。
+            - 已修正具有特定巢狀聯結組合的報表重新整理問題。
     - *版本：1.9.7627.11028 (組建 15.0.1104.264)，發行日期：2020 年 11 月 18 日*
         - Bug 修正
             - 修正導致使用者無法透過入口網站變更網站設定內欄位的問題。

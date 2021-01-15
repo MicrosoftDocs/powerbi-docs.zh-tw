@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: ff41f702edc605ee346aa10a759e633377597504
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408956"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961216"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 
@@ -26,7 +26,7 @@ Power BI 是完全受控的軟體即服務 (SaaS)。  Microsoft 設計和操作�
 
 ## <a name="what-is-a-power-bi-failover"></a>什麼是 Power BI 容錯移轉？
 
-Power BI 會維護 Azure 資料中心 (也稱為區域) 內每個元件的多個執行個體，以確保商務持續性。 如果發生中斷或導致 Power BI 在某區域中無法存取或無法運作的問題，Power BI 就會使其在該區域中的所有元件失效轉移到備份執行個體。 容錯移轉可在新區域 (通常是在相同的地理位置，如 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)所註明) 中，還原 Power BI 服務執行個體的可用性和可操作性。
+Power BI 會維護 Azure 資料中心 (也稱為區域) 內每個元件的多個執行個體，以確保商務持續性。 如果發生中斷或導致 Power BI 在某區域中無法存取或無法運作的問題，Power BI 就會使其在該區域中的所有元件失效轉移到備份執行個體。 容錯移轉可在新區域 (通常是在相同的地理位置，如 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)所註明) 中還原 Power BI 服務執行個體的可用性和可操作性。
 
 容錯移轉 Power BI 服務執行個體僅支援「讀取作業」，這表示容錯移轉期間不支援下列作業：重新整理、報表發佈作業、儀表板或報表的修改，以及其他需要變更 Power BI 中繼資料 (例如，在報表中插入註解) 的作業。  顯示儀表板和報表等讀取作業 (並非根據對內部部署資料來源進行的 DirectQuery 或 Live Connect) 會繼續正常運作。
 
@@ -36,7 +36,7 @@ Power BI 會維護 Azure 資料中心 (也稱為區域) 內每個元件的多個
 
 ## <a name="where-are-the-failover-clusters-located"></a>容錯移轉叢集位於何處？
 
-除非在 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)內另行註明，否則備份執行個體位於您在組織註冊 Power BI 時所選取的相同地理位置 (地區) 中。 地區可包含數個區域，Microsoft 可能會將資料複寫到指定地區內的任一區域以進行資料復原。 Microsoft 不會在地區外複寫或移動客戶資料。 如需 Power BI 所提供地區與其中區域的對應，請參閱 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)。
+除非在 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)內另行註明，否則備份執行個體位於您在組織註冊 Power BI 時所選取的相同地理位置 (地區) 中。 地區可包含數個區域，Microsoft 可能會將資料複寫到指定地區內的任一區域以進行資料復原。 Microsoft 不會在地區外複寫或移動客戶資料。 如需 Power BI 所提供地區與其中區域的對應，請參閱 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)。
 
 ## <a name="how-does-microsoft-decide-to-fail-over"></a>Microsoft 如何決定容錯移轉？
 

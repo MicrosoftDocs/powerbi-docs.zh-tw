@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/05/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699540"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969578"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -193,7 +193,7 @@ Premium Per User 是以個別使用者為基礎對 Premium 功能進行授權的
 
 * **社群**。 若要讓使用者從 [說明] 功能表前往內部論壇，而不是 [Power BI 社群](https://community.powerbi.com/) \(英文\)，請設定 [討論論壇] 的自訂 URL。
 
-* **授權升級**。 具有 Power BI (免費) 授權的使用者在使用服務時，可能有機會將帳戶升級為 Power BI Pro。 如果您針對 [授權要求] 指定內部 URL，即可將使用者重新導向至內部要求並購買流程，以防止自助式購買。 如果您想要防止使用者購買授權，但要讓使用者開始試用 Power BI Pro，請參閱[允許使用者試用 Power BI Pro](#allow-users-to-try-power-bi-pro) 以區隔購買和試用體驗。
+* **授權升級**。 具有 Power BI (免費) 授權的使用者在使用服務時，可能有機會將帳戶升級為 Power BI Pro。 如果您針對 [授權要求] 指定內部 URL，即可將使用者重新導向至內部要求並購買流程，以防止自助式購買。 如果您想要防止使用者購買授權，但要讓使用者開始試用 Power BI Pro，請參閱[允許使用者試用 Power BI Pro](#allow-users-to-try-power-bi-paid-features) 以區隔購買和試用體驗。
 
 * **取得說明**。 若要讓使用者從 [說明] 功能表前往內部技術支援中心，而不是 [Power BI 支援](https://powerbi.microsoft.com/support/)，請設定 [支援人員] 的自訂 URL。
 
@@ -201,11 +201,11 @@ Premium Per User 是以個別使用者為基礎對 Premium 功能進行授權的
 
 若此租用戶受到服務中斷或事件的影響，則擁有郵件功能的安全性群組將會收到電子郵件通知。 請深入了解[服務中斷通知](service-interruption-notifications.md)。
 
-### <a name="allow-users-to-try-power-bi-pro"></a>允許使用者試用 Power BI Pro
+### <a name="allow-users-to-try-power-bi-paid-features"></a>允許使用者試用 Power BI 付費功能
 
 ![允許使用者試用 Power BI Pro 設定 UI](media/service-admin-portal/allow-pro-trial.png)
 
-預設情況下，會啟用 [允許使用者試用 Power BI Pro] 的設定。 此設定可讓您進一步控制使用者取得 Power BI Pro 授權的方式。 在您已禁止自助式購買的案例中，此設定可讓使用者開始試用 Power BI Pro。 使用者體驗取決於您合併授權設定的方式。 下表顯示從 Power BI (免費) 升級到 Power BI Pro 的體驗會受到不同設定組合所影響：
+預設會啟用 [允許使用者試用 Power BI 付費功能] 設定。 此設定可讓您進一步控制使用者取得 Power BI Pro 授權的方式。 在您已禁止自助式購買的案例中，此設定可讓使用者開始試用 Power BI Pro。 使用者體驗取決於您合併授權設定的方式。 下表顯示從 Power BI (免費) 升級到 Power BI Pro 的體驗會受到不同設定組合所影響：
 
 | 自助式購買設定 | 允許使用者試用 Power BI Pro 設定 | 使用者體驗 |
 | ------ | ------ | ----- |
@@ -218,6 +218,30 @@ Premium Per User 是以個別使用者為基礎對 Premium 功能進行授權的
 > 您可以在[說明及支援設定](#help-and-support-settings)中，新增內部 URL 以用於授權要求。 如果您設定 URL，其會覆寫預設的自助購買體驗， 不會重新導向至 Power BI Pro 授權試用版的註冊操作。 可在上表所述的案例中購買授權的使用者，會被重新導向至您的內部 URL。
 
 若要深入了解，請參閱[啟用或停用自助式註冊與購買](service-admin-disable-self-service.md)。
+
+### <a name="show-a-custom-message-before-publishing-reports"></a>在發佈報表前顯示自訂訊息  
+
+管理員可提供在使用者從 Power BI Desktop 發佈報表前出現的自訂訊息。 啟用設定之後，您必須提供 **自訂訊息**。 自訂訊息可以是純文字或遵循 Markdown 語法，如下列範例訊息所示：
+
+```markdown
+#### Important Disclaimer 
+
+Before publishing the report to a workspace, be sure to validate that the appropriate users or groups have access to the destination workspace. If some users or groups should *not* have access to the content and underlying artifacts, remove or modify their access to the workspace, or publish the report to a different workspace. [Learn more](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces#give-access-to-your-workspace). 
+```
+
+[自訂訊息] 文字區域支援捲動，因此最多可提供 5,000 個字元的訊息。
+
+:::image type="content" source="media/service-admin-portal/admin-show-custom-message.png" alt-text="[自訂訊息] 方塊的螢幕擷取畫面。":::
+
+當使用者將報表發佈至 Power BI 的工作區時，其會看到您已撰寫的訊息。
+
+:::image type="content" source="media/service-admin-portal/admin-user-show-custom-message.png" alt-text="使用者將報表發佈至工作區時所看到的對話方塊。":::
+
+如同其他租用戶設定，您可選擇 **自訂訊息** 的適用對象：
+
+- **整個組織**。
+- **特定安全性群組**。
+- 或 **特定安全性群組除外**。
 
 ## <a name="workspace-settings"></a>工作區設定
 
@@ -388,7 +412,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 可供此組織中的使用者認證資料集、資料流程、報表與應用程式。 如需詳細資料，請參閱[啟用內容認證](service-admin-setup-certification.md)。
 
 ### <a name="email-subscriptions"></a>電子郵件訂閱
-組織中的使用者可建立電子郵件訂閱。 深入了解[訂閱](../collaborate-share/service-publish-to-web.md)。
+組織中的使用者可建立電子郵件訂閱。 深入了解[訂閱](../collaborate-share/service-report-subscribe.md)。
 
 ![啟用電子郵件訂閱](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 

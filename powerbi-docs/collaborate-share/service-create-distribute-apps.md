@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f15508f030a1fa2ee0112134faf71e94e752984c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407691"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110904"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -70,7 +70,7 @@ ms.locfileid: "96407691"
     
     >[!IMPORTANT]
     >若您的應用程式仰賴來自其他工作區的資料集，您必須負責確保所有應用程式使用者都能存取底層資料集。
-    >
+    >如果應用程式或報表與資料集位於相同的工作區，請確定您也將與資料集建立關聯的報表新增至應用程式。
 
 6. 如果您的 Power BI 管理員已在 Power BI 管理入口網站中為您啟用此設定，您就可以為收件者自動安裝應用程式。 深入了解本文中的[自動安裝應用程式](#automatically-install-apps-for-end-users)。
 

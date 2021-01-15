@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/17/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4b5c076837ea5f70a84c1782349fd27ced4d866c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: d7dfcdadd4becddb46127106b390d566faa2f9b9
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699337"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053435"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 
@@ -96,7 +96,7 @@ ms.locfileid: "97699337"
 * 如果您電子郵件中的 (內容) 連結停止運作，可能是內容已遭刪除。 在電子郵件的螢幕擷取畫面下方，您可以查看是否自我訂閱，或否有其他人訂閱您。 如果有其他人訂閱您，請要求同事取消電子郵件或重新訂閱您。
 * 針對儀表板訂閱，尚不支援某些磚類型。 其中包括：資料流磚、影片磚、自訂 Web 內容磚。 
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，而該頁面已重新命名，您就必須重新建立訂閱。
-* 如果您無法使用訂用帳戶功能，請連絡您的系統管理員或 IT 技術支援人員。 您的組織可能已停用這項功能。  
+* 如果您無法使用訂用帳戶功能，請連絡您的系統管理員或 IT 技術支援人員。 您的組織可能已停用這項功能，或可能已達訂閱者人數上限。  
 * 電子郵件訂閱不支援大部分[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md)。  其中例外狀況是[經認證](../developer/visuals/power-bi-custom-visuals-certified.md)的 Power BI 自訂視覺效果。    
 * 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。 編頁報表支援此功能，且可讓您針對每個訂閱設定特定參數值。  
 * 電子郵件訂閱目前不支援使用 R 的 Power BI 視覺效果。  

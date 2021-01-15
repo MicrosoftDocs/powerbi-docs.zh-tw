@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/09/2020
+ms.date: 1/11/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 3a3a0f44fd9f02942ecc8f6646d219ace649b295
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96998959"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110746"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>使用 XMLA 端點連線至資料集
 
@@ -36,9 +36,9 @@ Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analy
 
 **具有 Analysis Services 專案的 Visual Studio**  (也稱為 SQL Server Data Tools，或簡稱為 **SSDT**)，是適用於 Analysis Services 表格式模型的企業級模型製作工具。 所有 Visual Studio 2017 和更新版本都支援 Analysis Services 專案延伸模組，包括免費的社群版本。 需要 2.9.14 版或更高版本的延伸模組，才能將表格式模型部署到 Premium 工作區。 部署到 Premium 工作區時，此模型必須是 1500 或更高的相容性層級。 資料集工作負載需要 XMLA 讀寫。 若要深入了解，請參閱[適用於 Analysis Services 的工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯)。
 
-**SQL Server Management Studio (SSMS)**   - 支援 DAX、MDX 和 XMLA 查詢。 使用[表格式模型指令碼語言](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) (部分機器翻譯)，執行資料集中繼資料的精細重新整理作業和指令碼處理。 查詢作業需要唯讀。 指令碼中繼資料需要讀寫。 需要 SSMS 18.7.1 版或更新版本。 在 [這裡](/sql/ssms/download-sql-server-management-studio-ssms)下載。
+**SQL Server Management Studio (SSMS)**   - 支援 DAX、MDX 和 XMLA 查詢。 使用[表格式模型指令碼語言](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) (部分機器翻譯)，執行資料集中繼資料的精細重新整理作業和指令碼處理。 查詢作業需要唯讀。 指令碼中繼資料需要讀寫。 需要 SSMS **18.8** 版或更新版本。 在 [這裡](/sql/ssms/download-sql-server-management-studio-ssms)下載。
 
-**SQL Server Profiler**  - 與 SSMS 一起安裝，這項工具可提供資料集事件的追蹤和偵錯。 雖然 SQL Server 已經正式淘汰這項工具，但 Profiler 會繼續包含在 SSMS 中，並針對 Analysis Services 以及 Power BI Premium 繼續獲得支援。 需要 XMLA 唯讀。 若要深入了解，請參閱  [Analysis Services 的 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯)。
+**SQL Server Profiler**  - 與 SSMS 一起安裝，這項工具可提供資料集事件的追蹤和偵錯。 雖然 SQL Server 已經正式淘汰這項工具，但 Profiler 會繼續包含在 SSMS 中，並針對 Analysis Services 以及 Power BI Premium 繼續獲得支援。 需要 SQL Server Profiler **18.8** 版或更高版本，並在 Premium 容量上啟用 XMLA 唯讀設定。 使用者在連線到 XMLA 端點時，必須指定資料集 ([初始目錄](#initial-catalog))。 若要深入了解，請參閱  [Analysis Services 的 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯)。
 
 **Analysis Services 部署精靈**  - 隨 SSMS 一起安裝，這項工具可將 Visual Studio 撰寫表格式模型專案部署到 Analysis Services 和 Power BI Premium 工作區。 其可以透過互動方式或從命令列執行以進行自動化。 需要 XMLA 讀寫。 若要深入了解，請參閱 [Analysis Services 部署精靈](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯)。
 
@@ -99,7 +99,9 @@ B2B 使用者必須在租用戶名稱中指定其組織 UPN。 例如，
 
 ### <a name="initial-catalog"></a>初始目錄
 
-使用某些工具 (例如 SQL Server Profiler) 時，您可能需要指定「初始目錄」。 在您的工作區中指定資料集 (資料庫)。 在 [連線到伺服器] 對話方塊中，選取 [選項] > [連線屬性] > [連線到資料庫]，輸入資料集名稱。
+使用 SQL Server Profiler 等某些工具時，您必須指定「初始目錄」，也就是要在工作區中連線的資料集 (資料庫)。 在 [連線到伺服器] 對話方塊中，選取 [選項] > [連線屬性] > [連線到資料庫]，輸入資料集名稱。
+
+![在 SQL Server Profiler 中選取資料集](media/service-premium-connect-tools/sql-profiler-connection-properties.png)
 
 ### <a name="duplicate-workspace-names"></a>重複的工作區名稱
 
@@ -126,6 +128,10 @@ Power BI 中的[新工作區](../collaborate-share/service-new-workspaces.md) (�
 - 資料集是根據與其他工作區中 Power BI 資料集的即時連線。 若要深入了解，請參閱[跨工作區的資料集簡介](../connect-data/service-datasets-across-workspaces.md)。
 - 使用 REST API 推送資料的資料集。
 - Excel 活頁簿資料集。
+
+### <a name="serverworkspace-alias"></a>伺服器/工作區別名
+
+Power BI Premium 工作區不支援 Azure Analysis Services 支援的伺服器名稱別名。
 
 ## <a name="security"></a>安全性
 

@@ -10,12 +10,12 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 332101009946c64cb5e97bd40b9949f6daa67b7b
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906811"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155679"
 ---
 # <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>針對唯讀管理員 API 啟用服務主體驗證 (預覽)
 
@@ -42,7 +42,7 @@ ms.locfileid: "96906811"
         * 選取 [權限]。 確定未針對此應用程式設定任何需要 Power BI 管理員同意的權限。 請參閱[管理針對應用程式的同意和評估同意要求](https://docs.microsoft.com/azure/active-directory/manage-apps/manage-consent-requests) \(部分機器翻譯\) 以取得詳細資訊。 
 4. 啟用 Power BI 服務系統管理員設定。 若要這樣做：
     1. 登入 Power BI 管理入口網站。 您必須是 Power BI 管理員，才能看到租用戶設定頁面。
-    1. 在 [開發人員設定] 底下，您將會看到 [允許服務主體使用唯讀 Power BI 系統管理 API (預覽)]。 將切換設定為 [已啟用]，然後選取 [特定安全性群組] 選項按鈕，並在其下方顯示的文字欄位中新增您在步驟 2 中建立的安全性群組，如下圖所示。
+    1. 在 [管理員 API 設定] 底下，您將會看到 [允許服務主體使用唯讀 Power BI 系統管理 API (預覽)]。 將切換設定為 [已啟用]，然後選取 [特定安全性群組] 選項按鈕，並在其下方顯示的文字欄位中新增您在步驟 2 中建立的安全性群組，如下圖所示。
 
         ![允許服務主體租用戶設定的螢幕擷取畫面。](media/read-only-apis-service-principal-auth/allow-service-principals-tenant-setting.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "96906811"
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 * 您無法使用服務主體登入 Power BI 入口網站。
-* 需有 Power BI 管理員權限，才能在 Power BI 管理入口網站的開發人員設定中啟用服務主體。
+* 需有 Power BI 管理員權限，才能在 Power BI 管理入口網站的 [管理員 API 設定] 中啟用服務主體。
 * 服務主體目前支援下列 API：
     * [GetGroupsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/groups_getgroupsasadmin) \(英文\)，搭配適用於儀表板、資料集、報表與資料流程的 $expand 
     * [GetDashboardsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) \(英文\)，搭配 $expand 磚

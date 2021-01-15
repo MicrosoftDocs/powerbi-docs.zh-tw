@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 14b3329ea2b8636c1e5cf2412ca9843bc777bed1
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600453"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969159"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>如何在 Power BI 中套用敏感度標籤
 
@@ -65,9 +65,6 @@ Microsoft 資訊保護提供報表、儀表板、資料集、資料流程與 .pb
 
 ## <a name="apply-sensitivity-labels-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中套用敏感度標籤 (預覽)
 
->[!NOTE]
->在您選用 Power BI Desktop 資訊保護預覽功能後的前 48 小時內，**您可能會在使用已套用敏感度標籤的 .pbix 檔案 (例如將 .pbix 發佈到服務、從服務下載 .pbix 等) 時遇到問題**。 此類問題為正常現象，而且會在 48 小時內自動解決。
-
 在 Power BI Desktop 中使用敏感度標籤：
 * 您必須擁有 [Power BI Pro 授權](./service-admin-purchasing-power-bi-pro.md)。
 * 貴組織必須啟用敏感度標籤。 如果您不確定貴組織是否已啟用，請連絡您的 Power BI 管理員。
@@ -77,10 +74,13 @@ Microsoft 資訊保護提供報表、儀表板、資料集、資料流程與 .pb
 
     ![Desktop [預覽功能] 頁面的螢幕擷取畫面。](media/service-security-apply-data-sensitivity-labels/desktop-preview-features-page.png)
 
+    >[!Important]
+    >開啟資訊保護預覽功能後，您必須重新啟動 Desktop 才能開始使用敏感度標籤。
+    >
+    >如果 Desktop 在重新啟動時當機，可能是因為電腦缺少必要的 Visual C++ 可轉散發執行階段程式庫版本。 如果遇到這類當機情況，請瀏覽 [Microsoft Visual C++ 2015 可轉散發套件 Update 3 下載頁面](https://www.microsoft.com/download/details.aspx?id=53587)，以取得如何下載及安裝更新的相關指示。 安裝更新之後，請嘗試重新啟動 Desktop。
+
     如果您沒有看到 [資訊保護] 預覽選項，則資訊保護預覽功能可能已遭封鎖，無法供貴組織使用。 在此情況下，請連絡您的 Power BI 管理員。
 
-    >[!NOTE]
-    >開啟資訊保護預覽功能後，您必須重新啟動 Desktop 才能開始使用敏感度標籤。
 * 您必須登入。
 
 若要在您正在處理的檔案上套用敏感度標籤，請按一下 [常用] 索引標籤中的 [敏感度] 按鈕，然後從顯示的功能表中選擇所需標籤。

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 12/01/2020
-ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: 1ca4db3ad43553521c55866fd16b2440e3b64a65
+ms.sourcegitcommit: 73ca86f7633317fe3831839c4dd14a333b2f514c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502010"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979945"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) 是 Chauncy Freels 的合作廠商，其協助維護網路研討會清單"
@@ -28,52 +28,56 @@ ms.locfileid: "96502010"
 
 開始使用這些熱門的隨選網路研討會：
 
+**利用資料驅動見解制定即時決策及強化客戶交流**  
+由 Shruti Shukla 和 Chandra Stevens 主持  
+[立即觀看](https://info.microsoft.com/ww-Landing-DataDrivenInsights.html)
+
 **利用 Power BI 快速開始運作**  
 由 Microsoft 的 Miguel Martinez 主持  
-[註冊即可在 2020 年 11 月 5 日上午 10:00 到上午 11:00 (太平洋日光節約時間) 觀看](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+[立即觀看](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html)
 
 **使用 Power BI 和 Microsoft Teams 驅動遠端資料文化特性**  
 由 Lukasz Pawlowski 主持  
-[立即觀看](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+[立即觀看](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html)
 
 **相得益彰：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處**  
 由 Miguel Martinez 和 Carlos Otero 主持  
-[立即觀看](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
+[立即觀看](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html)
 
 **使用 Microsoft Power BI 即時監控資料**  
 由 Miguel Martinez 和 Peter Myers 主持  
-[立即觀看](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+[立即觀看](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html)
 
 **使用 Dremio 加快 Power BI 在 Azure Data Lake Storage 上的速度**  
-由 Chris Webb 和 Tomer Shiran 主持 [立即觀看]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us) \(英文\)
+由 Chris Webb 和 Tomer Shiran 主持 [立即觀看]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html) \(英文\)
 
 **使用 Power BI 和 Snowflake 建置可調整的 BI 解決方案**  
 由 Chris Webb、Craig Collier 和 Chris Holliday 主持  
-[立即觀看](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
+[立即觀看](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html)
 
 **使用管理 BI 內容的最佳做法來提升使用者滿意度**  
 由 Nimrod Shalit 主持  
-[立即觀看](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
+[立即觀看](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html)
 
 **從見解到動作：使用 Power BI 來驅動資料文化**  
 由 Arun Ulagaratchagan 與 Amir Netz 主持  
-[立即觀看]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html?lcid=en-us)
+[立即觀看]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html)
 
 **使用 Power BI Embedded 來取得更佳的分析**  
 由 Alon Baram 主持  
-[立即觀看](https://info.microsoft.com/ww-landing-Enable-Better-Analytics-with-Power-BI-Embedded.html?Lcid=EN-US)
+[立即觀看](https://info.microsoft.com/ww-landing-Enable-Better-Analytics-with-Power-BI-Embedded.html)
 
 **Miami HEAT 如何使用 Power BI 來驅動商務決策**  
 由 Edson Crevecoeur、Frank Mesa 與 Xinrou Tan 主持  
-[立即觀看]( https://info.microsoft.com/ww-Landing-How-the-Miami-HEAT-Used-Power-BI-to-Drive-Business-Decisions.html?Lcid=EN-US)
+[立即觀看]( https://info.microsoft.com/ww-Landing-How-the-Miami-HEAT-Used-Power-BI-to-Drive-Business-Decisions.html)
 
 **使用 Power BI 來簡化巨量資料的準備及分析**  
 由 Priya Sathy 主持  
-[立即觀看](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html?lcid=en-us)
+[立即觀看](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html)
 
 **使用 Power BI 來改善決策制定**  
 由 Kim Manis 與 Lukasz Pawlowski 主持  
-[立即觀看](https://info.microsoft.com/ww-Landing-Improve-Decision-Making-with-Power-BI.html?LCID=EN-US)
+[立即觀看](https://info.microsoft.com/ww-Landing-Improve-Decision-Making-with-Power-BI.html)
 
 ## <a name="on-demand-webinars"></a>隨選網路研討會
 
@@ -81,7 +85,7 @@ ms.locfileid: "96502010"
 
 **探索 Microsoft Power BI 的整體經濟影響**  
 Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz  
-[立即觀看]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
+[立即觀看]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html)
 
 **Azure 虛擬活動中的分析：使用 Azure Synapse Analytics 來加快取得見解的速度**  
 由 Gayle Sheppard 和 John Macintyre 主持  
@@ -89,23 +93,23 @@ Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz
 
 **Microsoft 正在如何改變 BI 資料保護**  
 由 Anton Fritz 和 Adi Regev 主持  
-[報名並立即觀看](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+[報名並立即觀看](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html)
 
 **如何成為由見解所驅動的公司**  
 由來自 Microsoft 的 Amir Netz 與來自 Forrester 的 Boris Evelson 主持  
-[報名並立即觀看](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
+[報名並立即觀看](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html)
 
 **三種 AI 正在改變 BI 的方式**  
 由 Justyna Lucznik 主持  
-[報名並立即觀看](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+[報名並立即觀看](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html&ocid=mkto_eml_EM581230A1LA1)
 
 **Power BI 以及現代化和企業 BI 的未來**  
 由 Arun Ulag 和 Amir Netz 主持  
-[報名並立即觀看](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+[報名並立即觀看](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html)
 
 **塑造巨量資料分析未來的九個趨勢**  
 由 Vijay Gopalakrishnan 主持  
-[報名並立即觀看](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+[報名並立即觀看](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html)
 
 **開始使用 Power BI**  
 由 Miguel Martinez 主持  
@@ -113,7 +117,7 @@ Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz
 
 **開始使用 Power BI 行動版應用程式**  
 由 Maya Shenhav 主持  
-[報名並立即觀看](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html?LCID=EN-US)
+[報名並立即觀看](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html)
 
 **20 分鐘內了解如何瀏覽 Power BI 儀表板**  
 由 Miguel Martinez 主持  
@@ -125,7 +129,7 @@ Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz
 
 **搭配 Dynamics 365 Finance and Operations 使用 Power BI**  
 由 Kevin Horlock 主持  
-[報名並立即觀看](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+[報名並立即觀看](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html)
 
 **Microsoft 執行 Power BI – 輕鬆達成財務規劃與分析**  
 由 Cory Hrncirik 和 Miguel Martinez 主持  
@@ -133,7 +137,7 @@ Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz
 
 **Microsoft 在 Power BI 上執行：在現代化審計中使用 Power BI**  
 由 Pankaj Gudimella 與 Guru Kirthigavasan 主持  
-[報名並立即觀看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+[報名並立即觀看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html)
 
 **使用 Power BI JavaScript API 強化您的應用程式**  
 由 Nimrod Shalit 主持  
@@ -157,7 +161,7 @@ Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz
 
 **用於多租用戶部署的管理 Power BI Embedded 分析最佳做法**  
 由 Nimrod Shalit 主持  
-[報名並立即觀看](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+[報名並立即觀看](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html)
 
 **Power BI：以正確方式完成分析**  
 由 Gohul Shanmugalingam 主持  
@@ -200,7 +204,7 @@ Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz
 
 **Power BI：如何從您的工作日 HR 資料取得見解**  
 由 Agile Analytics 的 Iman Eftekhari、Julia Paton 與 QBE Insurance 的 Shahram Karimi 主持  
-[報名並立即觀看](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+[報名並立即觀看](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html)
 
 **實現消費品製造商和零售商雙贏的局面**  
 由 Thorogood 的 Liz McCreesh 主持  
@@ -208,7 +212,7 @@ Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz
 
 **使用 Power BI 將客戶資料轉換成零售業績**  
 由 Hitachi Solutions 的 Angad Soni 主持  
-[報名並立即觀看](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+[報名並立即觀看](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?wt.mc_id=undefined)
 
 **可同時改進病人結果與獲利的經實證醫療保健解決方案**  
 由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持  
@@ -228,7 +232,7 @@ Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz
 
 **成功趨勢策展人的 5 個習慣 - Rohit Bhargava**  
 由 Non-Obvious 的 Rohit Bhargava 主持  
-[報名並立即觀看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
+[報名並立即觀看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html)
 
 ### <a name="community"></a>社群 ###
 

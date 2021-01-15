@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 12/09/2020
+ms.date: 01/06/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 2265559b9b978681b2f7b210a15f7200fbba7971
-ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
+ms.openlocfilehash: c1e5cad6ab1da796d2f10a64e867d5848e86aea4
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97721447"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155610"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -37,7 +37,7 @@ ms.locfileid: "97721447"
 
 ## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium 第 2 代 (預覽)
 
-Power BI Premium 最近已發行新版本的 Power BI Premium，**Power BI Premium 第 2 代**，簡稱 **Premium Gen2**。 Premium Gen2 目前處於預覽狀態，可供 Premium 訂閱者在預覽期間使用。 您可以選擇使用 Premium 的原始版本，或是切換以使用 Premium Gen2。 您只能針對 Premium 容量使用這兩者其中之一。 
+Power BI Premium 最近已發行新版本的 Power BI Premium，**Power BI Premium 第 2 代**，簡稱 **Premium Gen2**。 Premium Gen2 目前處於預覽狀態，可供 Premium 訂閱者在預覽期間使用。 您可以選擇使用 Premium 的原始版本，或是切換以使用 Premium Gen2。 您只能針對 Premium 容量使用這兩者其中之一。
 
 Premium Gen2 提供下列更新或改進的體驗：
 
@@ -95,10 +95,6 @@ Power BI Premium 是可供兩個 SKU (庫存單位) 系列使用的租用戶層�
 - **P** SKU (P1-P5) 用於內嵌和企業功能、需要每月或年度履約承諾、按月計費，且包含在內部部署安裝 Power BI 報表伺服器的授權。
 
 - **EM** SKU (EM1-EM3) 用於「組織」內嵌、需要年度履約承諾，且按月計費。 EM1 和 EM2 SKU 只能透過大量授權方案提供。 您無法直接購買。
-
-### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 (預覽) 的更新
-Premium Gen2 目前僅供作為 **P** 與 **EM** SKU 的完全支援預覽功能。 **A** SKU 容量尚未提供 Premium Gen2 預覽更新所引進的所有額外權益。
-
 
 ### <a name="purchasing"></a>購買
 
@@ -160,8 +156,7 @@ Premium Gen 2 節點不再使用保留的基礎結構。 相反地，此服務�
 
 #### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 (預覽) 的更新
 
-使用 **Premium Gen2**，每個節點大小的可用記憶體數量會設定為單一成品的磁碟使用量限制，而不是記憶體的累計使用量。 例如，在 Premium Gen2 中，只會將單一資料集大小限制為 25 GB，而在原始的 Premium 中，在同一時間所處理之資料集的總磁碟使用量會限制為 25 GB。
-
+使用 **Premium Gen2**，每個節點大小的可用記憶體數量會設定為單一成品的磁碟使用量限制，而不是記憶體的累計使用量。 例如，在 Premium Gen2 中，只會將單一資料集大小限制為 25 GB，而在原始的 Premium 中，在同一時間所處理資料集的總磁碟使用量限制為 25 GB。
 
 ### <a name="capacity-workloads"></a>容量工作負載
 
@@ -247,9 +242,7 @@ Premium Gen2 不需要累計記憶體限制，因此並行資料集重新整理�
 若要深入了解監視功能，請參閱[在 Power BI 管理入口網站中監視](service-admin-premium-monitor-portal.md)和[使用 Power BI Premium 容量計量應用程式監視](service-admin-premium-monitor-capacity.md)。
 
 #### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 (預覽) 的更新
-**Premium Gen2** 容量不會使用計量應用程式，而是使用容量使用率應用程式，其將會在預覽期間提供。 想要檢視使用率的客戶，可以透過向客戶支援要求，以接收過去 7 天使用率報表的複本。 報表將會在要求後 72 小時內提供。 針對每個容量，容量使用率應用程式會從 **管理入口網站** 的 [容量管理] 頁面啟動，且能進行 30 天資料的分析等作業。
-
-
+**Premium Gen2** 容量不會使用計量應用程式，而是使用容量使用率應用程式，其將會在預覽期間提供。 想要檢閱使用率的客戶，可透過向客戶支援要求，以接收過去 7 天使用率報表的複本。 報表將會在要求後 72 小時內提供。 針對每個容量，容量使用率應用程式會從 **管理入口網站** 的 [容量管理] 頁面啟動，且能進行 30 天資料的分析等作業。
 
 ### <a name="optimizing-capacities"></a>將容量最佳化
 
@@ -303,10 +296,10 @@ Power BI 資料集可以將資料儲存在高度壓縮的記憶體內部快取�
 
 P1-P3 和 A4_A6 SKU 支援的編頁報表採用 SQL Server Reporting Services 中的報表定義語言 (RDL) 技術。 雖然採用 RDL 技術，但與 Power BI 報表伺服器不同，這是可供您下載並在內部部署安裝的報告平台，也隨附於 Power BI Premium。 編頁報表的格式設定為適當符合頁面大小以供列印或共用。 資料會以一個資料表顯示，即使資料表跨越多個頁面也一樣。 使用者可以使用免費的 [**Power BI 報表產生器**](https://aka.ms/pbireportbuilder) Windows 傳統型應用程式來撰寫編頁報表，並將其發佈到服務。
 
-在 Power BI Premium 中，編頁報表是必須使用管理入口網站為容量啟用的工作負載。 容量管理員可以啟用，然後以容量的整體記憶體資源百分比來指定記憶體數量。 不同於其他類型的工作負載，Premium 會在容量內含空間中執行編頁報表。 無論工作負載是否為作用中，都會使用指定給此空間的最大記憶體。 預設值為 20%。 
+在 Power BI Premium 中，編頁報表是必須使用管理入口網站為容量啟用的工作負載。 容量管理員可以啟用，然後以容量的整體記憶體資源百分比來指定記憶體數量。 不同於其他類型的工作負載，Premium 會在容量內含空間中執行編頁報表。 無論工作負載是否為作用中，都會使用指定給此空間的最大記憶體。 預設值為 20%。
 
 > [!NOTE]
-> 在 **Premium Gen2 (預覽)** 中，沒有適用於編頁報表的記憶體管理。 針對 Premium Gen2，支援編頁報表的 SKU 為 EM1-EM3。
+> 在 **Premium Gen2 (預覽)** 中，沒有適用於編頁報表的記憶體管理。 EM1-EM3 和 A1-A3 SKU 支援 Premium Gen2 編頁報表。
 
 ### <a name="paginated-reports-and-premium-gen2"></a>編頁報表和 Premium Gen2
 
@@ -340,7 +333,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Power BI Premium 中的 Analysis Services
 
-實際上，Power BI Premium 工作區和資料集受到經企業實證的 Microsoft **Analysis Services Vertipaq 引擎** 支援。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 根據預設，Power BI Premium 容量資料集工作負載透過 **XMLA 端點** 支援來自 Microsoft 和第三方用戶端應用程式與工具的「唯讀」作業。 容量管理員也可以選擇停用或允許透過端點的「讀取/寫入」 作業。
+實際上，經企業實證的 Microsoft **Analysis Services Vertical 引擎** 支援 Power BI Premium 工作區和資料集。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 根據預設，Power BI Premium 容量資料集工作負載透過 **XMLA 端點** 支援來自 Microsoft 和第三方用戶端應用程式與工具的「唯讀」作業。 容量管理員也可以選擇停用或允許透過端點的「讀取/寫入」 作業。
 
 具有唯讀存取權，Microsoft 工具 (例如 SQL Server Management Studio (SSMS) 和 SQL Server Profiler) 和第三方應用程式 (例如 DAX Studio 和資料視覺效果應用程式) 可以連線到 Premium 資料集，並使用 XMLA、DAX、MDX、DMV 和追蹤事件進行查詢。 具有讀取/寫入存取權，企業資料模型工具 (例如 Visual Studio 與 Analysis Services 專案延伸模組或開放原始碼表格式編輯器) 可以將表格式模型當做資料集部署至 Premium 工作區。 使用 SSMS 這類工具，系統管理員可以使用表格式模型指令碼語言 (TMSL) 來編寫中繼資料變更和進階資料重新整理案例的指令碼。 
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: f6ca898bafff0b3375df65b63f913eb81d8dc006
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888941"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969757"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>教學課程：使用「對客戶進行內嵌」範例應用程式內嵌 Power BI 內容
 
@@ -147,7 +147,7 @@ ms.locfileid: "97888941"
 
 |考量  |服務主體  |主要使用者  |
 |---------|---------|---------|
-|機制     |Azure AD 應用程式的[服務主體物件](/azure/active-directory/develop/app-objects-and-service-principals.md#service-principal-object)可讓 Azure AD 針對 Power BI 驗證您的內嵌解決方案應用程式。        |您的 Azure AD 應用程式會使用 Power BI 使用者的認證 (使用者名稱和密碼) 針對 Power BI 進行驗證。         |
+|機制     |Azure AD 應用程式的[服務主體物件](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)可讓 Azure AD 針對 Power BI 驗證您的內嵌解決方案應用程式。        |您的 Azure AD 應用程式會使用 Power BI 使用者的認證 (使用者名稱和密碼) 針對 Power BI 進行驗證。         |
 |安全性     |「服務主體」是 Azure AD 建議的授權方法。 如果您使用服務主體，則可以使用「應用程式祕密」或「憑證」來進行驗證。</br></br>本教學課程僅描述如何搭配使用「服務主體」與「應用程式祕密」。 若要使用「服務主體」和「憑證」進行內嵌，請參閱[搭配憑證的服務主體](embed-service-principal-certificate.md)一文。         |一般認為此驗證方法不像使用「服務主體」那麼安全。 這是因為您必須小心處理「主要使用者」認證 (使用者名稱和密碼)。 例如，您不得在內嵌應用程式中將其公開，而且應該經常變更密碼。         |
 |Azure AD 委派的權限 |不需要。 |您的「主要使用者」或系統管理員必須授與同意，才能讓您的應用程式存取 Power BI REST API [權限](/azure/active-directory/develop/v2-permissions-and-consent) (也稱為範圍)。 例如，*Report.ReadWrite.All*。 |
 |Power BI 服務存取 |您無法使用「服務主體」來存取 Power BI 服務。|您可以使用「主要使用者」認證來存取 Power BI 服務。|
@@ -185,7 +185,7 @@ Power BI 會將您的報表、儀表板和磚保留在工作區中。 若要內�
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>步驟4 - 建立及發佈 Power BI 報表
 
-下一步是建立報表並將其上傳至您的工作區。 您可以使用 Power BI Desktop 以[建立自己的報表](/powerbi-docs/fundamentals/desktop-getting-started#build-reports)，然後將其[發佈](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)至您的工作區。 或者，也可以將範例報表上傳至您的工作區。
+下一步是建立報表並將其上傳至您的工作區。 您可以使用 Power BI Desktop 以[建立自己的報表](/power-bi/fundamentals/desktop-getting-started#build-reports)，然後將其[發佈](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)至您的工作區。 或者，也可以將範例報表上傳至您的工作區。
 
 >[!Tip]
 >如果您已經有包含報表的工作區，就可以略過此步驟。
@@ -536,7 +536,7 @@ Power BI Embedded 範例應用程式可讓您建立「對客戶進行內嵌」 P
 
     a. 在 IDE 終端中，執行 `npm start`。
 
-    b. 在瀏覽器中開啟新的索引標籤，並巡覽至 [http://localhost:5300](http://localhost:5300)。
+    b. 在瀏覽器中開啟新的索引標籤，並巡覽至 `http://localhost:5300`。
 
 # <a name="python"></a>[Python](#tab/python)
 
@@ -571,7 +571,7 @@ Power BI Embedded 範例應用程式可讓您建立「對客戶進行內嵌」 P
 
     a. 在 [PowerShell] 或 [命令提示字元] 中，巡覽至 **Python** > **對客戶進行內嵌** > **AppOwnesData** 資料夾，然後執行 `flask run`。
 
-    b. 在瀏覽器中開啟新的索引標籤，並巡覽至 [http://localhost:5300](http://localhost:5300)。
+    b. 在瀏覽器中開啟新的索引標籤，並巡覽至 `http://localhost:5300`。
 
 ---
 
@@ -579,7 +579,7 @@ Power BI Embedded 範例應用程式可讓您建立「對客戶進行內嵌」 P
 
 設定並執行「對客戶進行內嵌」範例應用程式之後，您就可以開始開發自己的應用程式。
 
-當您準備好時，請檢閱[移至實際執行環境](move-to-production.md)需求。 您也需要[容量](embedded-capacity.md)，並應檢閱[容量規劃](embedded-capacity-planning.md)一文，以確定哪一個 SKU 最符合您的需求。
+當您準備好時，請檢閱[移至實際執行環境](move-to-production.md)需求。 您也需要[容量](embedded-capacity.md)，並應檢閱[容量規劃](embedded-capacity-planning.md)一文，以確定哪一個 SKU 最符合需求。
 
 
 ## <a name="next-steps"></a>後續步驟

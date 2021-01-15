@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 408b5a03b415e6b1dabdb762eefee81e1a4fe483
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: cdb3543bc65e21f53cc21dea0f4da62910a7bd55
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887354"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110835"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -320,15 +320,18 @@ public IdentityBlob(string value);
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>搭配服務主體的內部部署資料閘道
 
-使用 SQL Server Analysis Services (SSAS) 內部部署即時連線資料來源來設定資料列層級安全性 (RLS) 的客戶，可以享有新的 [服務主體](embed-service-principal.md)功能，以在與 **Power BI Embedded** 整合時，管理使用者和其對 SSAS 中資料的存取。
+使用 SQL Server Analysis Services (SSAS) 內部部署即時連線資料來源的客戶，可享有 [服務主體](embed-service-principal.md)功能，以在與 **Power BI Embedded** 整合時，管理使用者和其對 SSAS 中資料的存取。
 
 使用 [Power BI REST API](/rest/api/power-bi/)，可讓您使用[服務主體物件](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)，為內嵌權杖的 SSAS 內部部署即時連線指定有效的身分識別。
 
-直到目前為止，若要能夠為 SSAS 內部部署即時連線指定有效的身分識別，產生內嵌權杖的主使用者必須是閘道管理員。現在，不需要使用者是閘道管理員，閘道管理員即可將該資料來源的專用權限授與使用者，讓使用者可在產生內嵌權杖時，覆寫有效的身分識別。 這項新功能可讓您使用服務主體，為即時 SSAS 連線進行內嵌。
+到目前為止，若要能夠為 SSAS 內部部署即時連線指定有效的身分識別，則產生內嵌權杖的「主使用者」必須是閘道管理員。現在，不需要使用者是閘道管理員，閘道管理員即可將該資料來源的專用權限授與使用者，讓使用者可在產生內嵌權杖時，覆寫有效的身分識別。 這項新功能可讓您使用服務主體，為即時 SSAS 連線進行內嵌。
 
-若要啟用此案例，閘道管理員可以使用 [新增資料來源使用者 REST API](/rest/api/power-bi/gateways/adddatasourceuser)，將 Power BI Embedded 的 *ReadOverrideEffectiveIdentity* 權限授與服務主體。
+若要啟用此案例，閘道管理員可使用 [新增資料來源使用者 REST API](/rest/api/power-bi/gateways/adddatasourceuser)，將 SSAS 資料來源的 *ReadOverrideEffectiveIdentity* 權限授與服務主體。
 
 您無法使用系統管理入口網站設定此權限。 此權限只能使用 API 來設定。 在系統管理入口網站中，會指出具有這類權限的使用者和 SPN。
+
+>[!NOTE]
+>如果您連線到未設定 RLS 的 SSAS 資料庫，則仍然必須在內嵌權杖產生呼叫中提供有效的身分識別 (SSAS 伺服器管理員的身分識別)。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
