@@ -1,7 +1,7 @@
 - name: 在 Power BI 中建立報表和儀表板
   href: index.yml
   items:
-    - name: 總覽
+    - name: 概觀
       expanded: true
       items:
         - name: 報表編輯器導覽
@@ -13,6 +13,8 @@
       items:
         - name: Power BI Desktop：從 Excel 到報表
           href: desktop-excel-stunning-report.md
+        - name: Power BI Desktop：要回報的維度模型
+          href: desktop-dimensional-model-report.md
         - name: Power BI 服務：從 Excel 到報表
           href: service-from-excel-to-stunning-report.md
         - name: 線上課程：編頁報表
