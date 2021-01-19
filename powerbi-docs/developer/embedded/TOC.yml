@@ -9,8 +9,6 @@
           href: embedding.md
         - name: Azure Power BI Embedded 是什麼
           href: azure-pbie-what-is-power-bi-embedded.md
-        - name: 什麼是 Power BI Embedded 第 2 代
-          href: power-bi-embedded-generation-2.md
     - name: 教學課程
       expanded: true
       items:
@@ -40,6 +38,8 @@
           href: paginated-reports-row-level-security.md
         - name: 管理多租用戶
           href: embed-multi-tenancy.md
+        - name: 使用動態繫結連接報表
+          href: embed-dynamic-binding.md
         - name: 適用於 Power BI Embedded 的 Azure 診斷記錄
           href: azure-pbie-diag-logs.md
         - name: 內嵌常見問題集
@@ -64,8 +64,6 @@
           href: register-app.md
         - name: 取得 Azure AD 存取權杖
           href: get-azuread-access-token.md
-        - name: 使用動態繫結連接報表
-          href: embed-dynamic-binding.md
         - name: 內嵌問與答
           href: qanda.md
         - name: 為您的內嵌應用程式進行疑難排解
