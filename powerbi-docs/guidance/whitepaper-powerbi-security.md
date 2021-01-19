@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 806869b10b52ff7c161484f3e8d38fbc61b85f60
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
+ms.openlocfilehash: 5cee5dd701f7ac40b3f363e1bdcee039037fcde9
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961262"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565123"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -33,7 +33,7 @@ ms.locfileid: "97961262"
 
 **Power BI** 是 Microsoft 提供的線上軟體服務 (_SaaS_ 或軟體即服務) 供應專案，可讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
 
-Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於 Microsoft 365 合規性架構的第 D 層。 深入瞭解 [Microsoft 信任中心](https://docs.microsoft.com/compliance/regulatory/offering-home)的合規性。
+Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trust-center/product-overview)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於 Microsoft 365 合規性架構的第 D 層。 深入瞭解 [Microsoft 信任中心](/compliance/regulatory/offering-home)的合規性。
 
 本文透過 Power BI 架構的說明來描述 Power BI 安全性，並說明使用者如何向 Power BI 驗證以及建立資料連線，然後描述 Power BI 如何透過服務儲存及移動資料。 最後一節專門針對安全性相關問題，為每個問題提供答案。
 
@@ -91,7 +91,7 @@ Power BI 使用兩個主要的存放庫來存放及管理資料：使用者上�
 
 ## <a name="tenant-creation"></a>建立租用戶
 
-租使用者是組織在註冊 Microsoft 雲端服務（例如 Azure、Microsoft Intune、Power BI 或 Microsoft 365）時所收到和擁有的 Azure AD 服務專屬實例。 每個 Azure AD 租用戶都不同，並與其他 Azure AD 租用戶分開。
+租使用者是組織在註冊 Microsoft 雲端服務（例如 Azure、Microsoft Intune、Power BI 或 Microsoft 365）時所收到和擁有的 Azure AD 服務專屬實例。 每個 Azure AD 租用戶彼此有別，各自獨立。
 
 租用戶可裝載公司中的使用者及其相關資訊 (密碼、使用者設定檔資料、權限等)。 它還包含群組、應用程式和關於組織及其安全性的其他資訊。 如需詳細資訊，請參閱 [什麼是 Azure AD 的租](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)使用者。
 
@@ -448,17 +448,17 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **針對 Power BI 視覺效果，Microsoft 是否會在將專案發行至資源庫之前，執行自訂視覺效果程式碼的任何安全性或隱私權評量？**
 
-* 不會。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
+* 否。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
 
 **有其他 Power BI 視覺效果會在客戶網路外傳送資訊嗎？**
 
-* 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
+* 可以。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
 
 **針對範本應用程式，Microsoft 是否會在將專案發行至資源庫之前，對範本應用程式執行任何安全性或隱私權評定？**
-* 不會。 應用程式發行者負責處理內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
+* 否。 應用程式發行者負責處理內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
 
 **是否有範本應用程式可以將資訊傳送到客戶網路之外？**
-* 是。 客戶必須負責檢查發行者的隱私權原則，並判斷是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
+* 可以。 客戶必須負責檢查發行者的隱私權原則，並判斷是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
 
 **什麼是資料主權？我們可以在位於特定地理位置的資料中心布建租使用者，以確保資料不會離開國家/地區框線？**
 
