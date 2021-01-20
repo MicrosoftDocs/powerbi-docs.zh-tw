@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 1bf62e99d666c05af8efc05ecbc496d69c586ae6
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927103"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565782"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>教學課程：使用 Azure 函數自動設定範本應用程式安裝
 
@@ -38,7 +38,7 @@ ms.locfileid: "97927103"
 
 如需一般自動化流程與應用程式所使用 API 的詳細資訊，請參閱[範本應用程式安裝設定自動化](template-apps-auto-install.md)。
 
-我們的簡單應用程式會使用 Azure 函數。 如需 Azure Functions 的詳細資訊，請參閱 [Azure Functions 文件](https://docs.microsoft.com/azure/azure-functions/)。
+我們的簡單應用程式會使用 Azure 函數。 如需 Azure Functions 的詳細資訊，請參閱 [Azure Functions 文件](/azure/azure-functions/)。
 
 ## <a name="basic-flow"></a>基本流程
 
@@ -48,7 +48,7 @@ ms.locfileid: "97927103"
 
 1. ISV 會根據在 ISV 租用戶中所註冊的[服務主體 (僅適用於應用程式權杖)](../embedded/embed-service-principal.md)，取得「僅適用於應用程式」權杖。
 
-1. ISV 會透過 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 建立 *安裝票證*，其中包含 ISV 所準備的使用者特定參數設定。
+1. ISV 會透過 [Power BI REST API](/rest/api/power-bi/) 建立 *安裝票證*，其中包含 ISV 所準備的使用者特定參數設定。
 
 1. ISV 會使用包含安裝票證的 ```POST``` 重新導向方法來將使用者重新導向至 Power BI。
 
@@ -59,18 +59,18 @@ ms.locfileid: "97927103"
 
 ## <a name="prerequisites"></a>Prerequisites
 
-* 已設定的 Azure Active Directory (Azure AD) 租用戶。 如需設定租用戶的指示，請參閱[建立 Azure Active Directory 租用戶](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant)。
-* 已在上述租用戶中註冊的[服務主體 (僅適用於應用程式權杖)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)。
-* 已備妥安裝的[已參數化範本應用程式](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview)。 建立範本應用程式的租用戶，必須是您在 Azure AD 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md)或[在 Power BI 中建立範本應用程式](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。
+* 已設定的 Azure Active Directory (Azure AD) 租用戶。 如需設定租用戶的指示，請參閱[建立 Azure Active Directory 租用戶](../embedded/create-an-azure-active-directory-tenant.md)。
+* 已在上述租用戶中註冊的[服務主體 (僅適用於應用程式權杖)](../embedded/embed-service-principal.md)。
+* 已備妥安裝的[已參數化範本應用程式](../../connect-data/service-template-apps-overview.md)。 建立範本應用程式的租用戶，必須是您在 Azure AD 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](../../connect-data/service-template-apps-tips.md)或[在 Power BI 中建立範本應用程式](../../connect-data/service-template-apps-create.md)。
 * Power BI Pro 授權。 如果您沒有註冊 Power BI Pro，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)再開始進行操作。
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>設定範本應用程式自動開發環境
 
-在繼續設定應用程式之前，請先遵循[快速入門：使用 Azure 應用程式設定建立 Azure Functions 應用程式](https://docs.microsoft.com/azure/azure-app-configuration/quickstart-azure-functions-csharp)一文中的指示來開發 Azure 函數以及 Azure 應用程式設定。 遵循該文中所述，建立應用程式設定。
+在繼續設定應用程式之前，請先遵循[快速入門：使用 Azure 應用程式設定建立 Azure Functions 應用程式](/azure/azure-app-configuration/quickstart-azure-functions-csharp)一文中的指示來開發 Azure 函數以及 Azure 應用程式設定。 遵循該文中所述，建立應用程式設定。
 
 ### <a name="register-an-application-in-azure-ad"></a>在 Azure AD 中註冊應用程式
 
-遵循[使用服務主體和應用程式祕密內嵌 Power BI 內容](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)一文中所述，建立服務主體。
+遵循[使用服務主體和應用程式祕密內嵌 Power BI 內容](../embedded/embed-service-principal.md)一文中所述，建立服務主體。
 
 請務必將應用程式註冊為 **伺服器端 Web 應用程式**。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。
 
@@ -89,12 +89,12 @@ ms.locfileid: "97927103"
 * 在範本應用程式資料集中定義的「參數名稱」。 參數名稱為需要區分大小寫的字串， 且可在[定義範本應用程式的屬性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)時，從 [參數設定] 索引標籤中取得，或從 Power BI 中的資料集設定取得。
 
 >[!NOTE]
->如果範本應用程式已準備好進行安裝，則即使該範本應用程式尚未在 AppSource 上開放使用，您也可以在其中測試預先設定的安裝應用程式。 若要讓租用戶以外的使用者能夠使用自動安裝應用程式來安裝範本應用程式，則必須在 [Power BI Apps 市集](https://app.powerbi.com/getdata/services)中開放使用該範本應用程式。 在使用您正在建立的自動安裝應用程式來發佈範本應用程式之前，請務必先將其發佈到[合作夥伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
+>如果範本應用程式已準備好進行安裝，則即使該範本應用程式尚未在 AppSource 上開放使用，您也可以在其中測試預先設定的安裝應用程式。 若要讓租用戶以外的使用者能夠使用自動安裝應用程式來安裝範本應用程式，則必須在 [Power BI Apps 市集](https://app.powerbi.com/getdata/services)中開放使用該範本應用程式。 在使用您正在建立的自動安裝應用程式來發佈範本應用程式之前，請務必先將其發佈到[合作夥伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
 
 
 ## <a name="install-and-configure-your-template-app"></a>安裝並設定範本應用程式
 
-在本節中，您將使用我們所建立自動安裝 Azure 函數範例來預先設定並安裝範本應用程式。 此範例刻意保持簡單以供示範之用。 您可使用 [Azure 函數](https://docs.microsoft.com/azure/azure-functions/functions-overview)與 [Azure 應用程式設定](https://docs.microsoft.com/azure/azure-app-configuration/overview)，輕鬆地為範本應用程式部署及使用自動化的安裝 API。
+在本節中，您將使用我們所建立自動安裝 Azure 函數範例來預先設定並安裝範本應用程式。 此範例刻意保持簡單以供示範之用。 您可使用 [Azure 函數](/azure/azure-functions/functions-overview)與 [Azure 應用程式設定](/azure/azure-app-configuration/overview)，輕鬆地為範本應用程式部署及使用自動化的安裝 API。
 
 ### <a name="download-visual-studio-version-2017-or-later"></a>下載 [Visual Studio](https://www.visualstudio.com/) (2017 版或更新版本)
 
@@ -200,7 +200,7 @@ ms.locfileid: "97927103"
 
 ## <a name="test-your-function-locally"></a>在本機測試函式
 
-請遵循[在本機執行函式](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally)一節中所述的步驟來執行函式。
+請遵循[在本機執行函式](/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally)一節中所述的步驟來執行函式。
 
 設定入口網站，以對函式的 URL 發出 ```POST``` 要求。 例如 ```POST http://localhost:7071/api/install```。 要求主體應該是描述索引鍵/值組的 JSON 物件。 索引鍵是 Power BI Desktop 中所定義「參數名稱」。 這些值是要為範本應用程式中每個參數設定時所需要的值。
 
@@ -218,4 +218,4 @@ ms.locfileid: "97927103"
 
 ### <a name="publish-your-project-to-azure"></a>將專案發佈至 Azure
 
-若要將專案發佈到 Azure，請參閱 [Azure Functions 文件](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure)中的指示。 接著，您即可將範本應用程式自動化安裝 API 整合到產品中，並在生產環境中開始測試。
+若要將專案發佈到 Azure，請參閱 [Azure Functions 文件](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure)中的指示。 接著，您即可將範本應用程式自動化安裝 API 整合到產品中，並在生產環境中開始測試。

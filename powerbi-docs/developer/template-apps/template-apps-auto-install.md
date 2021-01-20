@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 33de464a1bb1389fadfbc7a85ded9365321e0a62
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926295"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565727"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>自動設定範本應用程式安裝
 
@@ -42,7 +42,7 @@ ms.locfileid: "97926295"
 
 1. ISV 會根據在 ISV 租用戶中所註冊的[服務主體 (僅適用於應用程式權杖)](../embedded/embed-service-principal.md)，取得「僅適用於應用程式」權杖。
 
-1. ISV 會透過 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 建立「安裝票證」，其中包含 ISV 所準備的使用者特定參數設定。
+1. ISV 會透過 [Power BI REST API](/rest/api/power-bi/) 建立「安裝票證」，其中包含 ISV 所準備的使用者特定參數設定。
 
 1. ISV 會使用包含安裝票證的 ```POST``` 重新導向方法，將使用者重新導向至 Power BI。
 
@@ -56,23 +56,23 @@ ms.locfileid: "97926295"
 需要具備下列必要條件，才能提供預先設定的範本應用程式安裝體驗：
 
 * Power BI Pro 授權。 如果您沒有註冊 Power BI Pro，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)再開始進行操作。
-* 已設定的 Azure Active Directory (Azure AD) 租用戶。 如需設定租用戶的指示，請參閱[建立 Azure Active Directory 租用戶](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant)。
-* 已在上述租用戶中註冊的 **服務主體 (僅適用於應用程式權杖)** 。 如需詳細資訊，請參閱[使用服務主體與應用程式祕密內嵌 Power BI 內容](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)。 請務必將應用程式註冊為 **伺服器端 Web 應用程式**。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。 在此流程中，您需要儲存「應用程式識別碼」(ClientID) 與「應用程式祕密」(ClientSecret)，以供稍後的步驟執行。
-* 已就緒供安裝的 **已參數化範本應用程式**。 所要建立的範本應用程式其租用戶，必須是您在 Azure AD 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips)或[在 Power BI 中建立範本應用程式](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)。 您必須記下範本應用程式中的下列資訊，以便進行後續步驟：
+* 已設定的 Azure Active Directory (Azure AD) 租用戶。 如需設定租用戶的指示，請參閱[建立 Azure Active Directory 租用戶](../embedded/create-an-azure-active-directory-tenant.md)。
+* 已在上述租用戶中註冊的 **服務主體 (僅適用於應用程式權杖)** 。 如需詳細資訊，請參閱[使用服務主體與應用程式祕密內嵌 Power BI 內容](../embedded/embed-service-principal.md)。 請務必將應用程式註冊為 **伺服器端 Web 應用程式**。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。 在此流程中，您需要儲存「應用程式識別碼」(ClientID) 與「應用程式祕密」(ClientSecret)，以供稍後的步驟執行。
+* 已就緒供安裝的 **已參數化範本應用程式**。 所要建立的範本應用程式其租用戶，必須是您在 Azure AD 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](../../connect-data/service-template-apps-tips.md)或[在 Power BI 中建立範本應用程式](../../connect-data/service-template-apps-create.md)。 您必須記下範本應用程式中的下列資訊，以便進行後續步驟：
      * 在建立應用程式後，於[定義範本應用程式屬性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)流程結尾安裝 URL 中顯示的「應用程式識別碼」、「套件金鑰」，以及「擁有者識別碼」。 您也可以選取範本應用程式[版本管理](../../connect-data/service-template-apps-create.md#manage-the-template-app-release)中的 [取得連結]，以取得相同的連結。
     * 在範本應用程式資料集中定義的「參數名稱」。 參數名稱是區分大小寫的字串，且可在[定義範本應用程式的屬性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)時，從 [參數設定] 索引標籤中取得，或從 Power BI 中的資料集設定取得。
 
     >[!NOTE]
-    >如果範本應用程式已準備好進行安裝，則即使該範本應用程式尚未在 AppSource 上開放使用，您也可以在其中測試預先設定的安裝應用程式。 若要讓租用戶以外的使用者能夠使用自動安裝應用程式來安裝範本應用程式，則必須在 [Power BI Apps 市集](https://app.powerbi.com/getdata/services)中開放使用該範本應用程式。 在使用您正在建立的自動安裝應用程式來發佈範本應用程式之前，請務必先將其發佈到[合作夥伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
+    >如果範本應用程式已準備好進行安裝，則即使該範本應用程式尚未在 AppSource 上開放使用，您也可以在其中測試預先設定的安裝應用程式。 若要讓租用戶以外的使用者能夠使用自動安裝應用程式來安裝範本應用程式，則必須在 [Power BI Apps 市集](https://app.powerbi.com/getdata/services)中開放使用該範本應用程式。 在使用您正在建立的自動安裝應用程式來發佈範本應用程式之前，請務必先將其發佈到[合作夥伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
 
 ## <a name="main-steps-and-apis"></a>主要步驟與 API
 
-下列各節會描述將範本應用程式安裝設定自動化的主要步驟，以及所需的 API。 雖然大部分的步驟都是使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 來完成，但此處所述的程式碼範例是使用 .NET SDK 所撰寫。
+下列各節會描述將範本應用程式安裝設定自動化的主要步驟，以及所需的 API。 雖然大部分的步驟都是使用 [Power BI REST API](/rest/api/power-bi/) 來完成，但此處所述的程式碼範例是使用 .NET SDK 所撰寫。
 
 ## <a name="step-1-create-a-power-bi-client-object"></a>步驟 1：建立 Power BI 用戶端物件
 
-若要使用 Power BI REST API，則必須從 Azure AD 取得[服務主體](../embedded/embed-service-principal.md)的「存取權杖」。 您需要先為您的 Power BI 應用程式取得 [Azure AD 存取權杖](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
-您需要建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 互動，才能使用存取權杖建立 Power BI 用戶端。 你可以將 **AccessToken** 與 **Microsoft.Rest.TokenCredentials** 物件包裝在一起來建立 Power BI 用戶端物件。
+若要使用 Power BI REST API，則必須從 Azure AD 取得[服務主體](../embedded/embed-service-principal.md)的「存取權杖」。 您需要先為您的 Power BI 應用程式取得 [Azure AD 存取權杖](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](/rest/api/power-bi/)。
+您需要建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](/rest/api/power-bi/) 互動，才能使用存取權杖建立 Power BI 用戶端。 你可以將 **AccessToken** 與 **Microsoft.Rest.TokenCredentials** 物件包裝在一起來建立 Power BI 用戶端物件。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -91,7 +91,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ## <a name="step-2-create-an-install-ticket"></a>步驟 2：建立安裝票證
 
 建立安裝票證，其用於將使用者重新導向至 Power BI。 此作業所使用的 API 是 **CreateInstallTicket** API。
-* [範本應用程式 CreateInstallTicket](https://docs.microsoft.com/rest/api/power-bi/templateapps/createinstallticket)
+* [範本應用程式 CreateInstallTicket](/rest/api/power-bi/templateapps/createinstallticket)
 
 您可從[範例應用程式](https://github.com/microsoft/Template-apps-examples/tree/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample)中的 [InstallTemplateApp/InstallAppFunction.cs](https://github.com/microsoft/Template-apps-examples/blob/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample/InstallTemplateApp/InstallAppFunction.cs) 檔案，取得為範本應用程式安裝與設定建立安裝票證的範例。
 

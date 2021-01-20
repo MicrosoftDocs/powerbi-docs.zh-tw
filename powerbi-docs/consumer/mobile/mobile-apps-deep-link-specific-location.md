@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 11/16/2020
-ms.openlocfilehash: 1c2260fdc3df201a655e6641c351319e366eac6b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8c5b3c394d54df390d690d58b56e9084f9829733
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413119"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565660"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>建立 Power BI 行動裝置應用程式中的特定位置連結
 您可以使用連結來直接存取特定的 Power BI 內容，例如特定的報表、報表頁面、儀表板、磚等。
@@ -193,7 +193,7 @@ https<nolink>://app.powerbi.com/Redirect? **[QUERYPARAMETERS]** </code>
 
 在 Power BI 行動應用程式中，Power BI 內連結的運作方式和其在 Power BI 服務中的運作方式相同。
 
-如果您想要在報表中新增指向另一個 Power BI 項目的連結，只需從瀏覽器網址列複製該項目的 URL。 閱讀更多[如何將超連結新增至報表中的文字方塊](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)相關資訊。
+如果您想要在報表中新增指向另一個 Power BI 項目的連結，只需從瀏覽器網址列複製該項目的 URL。 閱讀更多[如何將超連結新增至報表中的文字方塊](../../create-reports/service-add-hyperlink-to-text-box.md)相關資訊。
 
 ## <a name="next-steps"></a>下一步
 您的意見反應可協助我們決定要在未來實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 
@@ -201,4 +201,4 @@ https<nolink>://app.powerbi.com/Redirect? **[QUERYPARAMETERS]** </code>
 * [行動裝置的 Power BI 應用程式](mobile-apps-for-mobile-devices.md)
 * 請在 Twitter 上關注 @MSPowerBI
 * 加入 [Power BI 社群](http://community.powerbi.com/)的交談
-* [Power BI 是什麼？](../../power-bi-overview.md)
+* [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)

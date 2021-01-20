@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 05/06/2020
+ms.date: 01/15/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f7168f0faa516828bd795eabd3b0d36ccfa8025
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1cca2bd5a4a8448eaea7400ca4467048d6f4b2cd
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96392074"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565553"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>在 Power BI 服務中使用 R 套件建立視覺效果
 您可以使用功能強大的 [R 程式設計語言](https://www.r-project.org/)在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 R 套件 (有更多套件一直受到支援)，有些套件則不具支援。
@@ -342,7 +342,7 @@ ms.locfileid: "96392074"
 |ggm|2.3|https://cran.r-project.org/web/packages/ggm/index.html|
 |ggmap|2.6.1|https://cran.r-project.org/web/packages/ggmap/index.html|
 |ggmcmc|1.1|https://cran.r-project.org/web/packages/ggmcmc/index.html|
-|ggplot2|3.2.0|https://cran.r-project.org/web/packages/ggplot2/index.html|
+|ggplot2|3.3.2|https://cran.r-project.org/web/packages/ggplot2/index.html|
 |ggplot2movies|0.0.1|https://cran.r-project.org/web/packages/ggplot2movies/index.html|
 |ggpmisc|0.2.16|https://cran.r-project.org/web/packages/ggpmisc/index.html|
 |ggpubr|0.1.6|https://cran.r-project.org/web/packages/ggpubr/index.html|

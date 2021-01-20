@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: c063d145919dfc6f075cf8945b88a5f3644dead7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 72b81f10b6337530ab05f1fcef0a17a5869af867
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415488"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226735"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server-pre-october-2020"></a>在 Power BI 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器 2020 年 10 月前的版本
 
@@ -37,7 +37,7 @@ ms.locfileid: "96415488"
 2. 透過 PowerShell commandlet，擷取 Power BI 檔案的現有資料來源資訊：
 
     ```powershell
-    Get-RsRestItemDataSource -RsItem '/MyPbixReport'
+    $dataSources = Get-RsRestItemDataSource -RsItem '/MyPbixReport'
     ```
 
     檢視 Power BI 報表中包含的第一個資料來源相關資訊： 

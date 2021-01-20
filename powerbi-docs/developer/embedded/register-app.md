@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c30b8f7ebe403e38fa59fa248aacc4b3086bf9ed
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 624e0a2838a08d1cf68ae58223fe979a56312b48
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885859"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565928"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>註冊要與 Power BI 搭配使用的 Azure AD 應用程式
 
@@ -247,7 +247,7 @@ ms.locfileid: "97885859"
 
 # <a name="c"></a>[C#](#tab/CSharp)
 
-您也可以使用 C# 來變更您的 Azure AD 應用程式權限。 如需詳細資訊，請參閱 [oAuth2PermissionGrant](https://docs.microsoft.com/graph/api/oauth2permissiongrant-get) \(英文\) API。 如果您想要將部分流程自動化，這個方法就很有用。
+您也可以使用 C# 來變更您的 Azure AD 應用程式權限。 如需詳細資訊，請參閱 [oAuth2PermissionGrant](/graph/api/oauth2permissiongrant-get) \(英文\) API。 如果您想要將部分流程自動化，這個方法就很有用。
 
 如需有關 HTTP 要求的詳細資訊，請參閱 [HTTP 索引標籤](register-app.md?tabs=customers%2CHTTP#change-your-azure-ad-apps-permissions)。
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 78ba14c8a715c927f35c32244734e66a5fb80473
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888964"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565677"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -57,7 +57,7 @@ ms.locfileid: "97888964"
 
 >[!NOTE]
 >您必須在您自己的應用程式中，瀏覽至 [驗證] 然後在 [重新導向 URI] 欄位中插入重新導向位址。
-若要深入了解什麼是重新導向，請參閱[重新導向 URI (回覆 URL) 的限制與範圍](https://docs.microsoft.com/azure/active-directory/develop/reply-url) (機器翻譯)。
+若要深入了解什麼是重新導向，請參閱[重新導向 URI (回覆 URL) 的限制與範圍](/azure/active-directory/develop/reply-url) (機器翻譯)。
 
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
@@ -428,7 +428,7 @@ function updateEmbedReport() {
 在本教學課程中，您已了解如何使用 Power BI 組織帳戶將 Power BI 內容內嵌至應用程式。 您現在可以嘗試使用應用程式將 Power BI 內容內嵌至應用程式。 您也可以嘗試為您的客戶內嵌 Power BI 內容 (目前尚未支援內嵌編頁報表)：
 
 > [!div class="nextstepaction"]
-> [從應用程式內嵌](embed-from-apps.md)
+> [從應用程式內嵌](./index.yml)
 
 > [!div class="nextstepaction"]
 >[對客戶進行內嵌](embed-sample-for-customers.md)

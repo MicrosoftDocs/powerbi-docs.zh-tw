@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: a0cfeaece56594c52a8d747350c5f9bfb0886cad
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969757"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565480"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>教學課程：使用「對客戶進行內嵌」範例應用程式內嵌 Power BI 內容
 
@@ -185,7 +185,7 @@ Power BI 會將您的報表、儀表板和磚保留在工作區中。 若要內�
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>步驟4 - 建立及發佈 Power BI 報表
 
-下一步是建立報表並將其上傳至您的工作區。 您可以使用 Power BI Desktop 以[建立自己的報表](/power-bi/fundamentals/desktop-getting-started#build-reports)，然後將其[發佈](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)至您的工作區。 或者，也可以將範例報表上傳至您的工作區。
+下一步是建立報表並將其上傳至您的工作區。 您可以使用 Power BI Desktop 以[建立自己的報表](../../fundamentals/desktop-getting-started.md#build-reports)，然後將其[發佈](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)至您的工作區。 或者，也可以將範例報表上傳至您的工作區。
 
 >[!Tip]
 >如果您已經有包含報表的工作區，就可以略過此步驟。

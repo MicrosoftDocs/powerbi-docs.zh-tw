@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 262f6d4ba95828ed77f1a3161ac1a9fca46f99f3
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888343"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565007"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務** 中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -61,7 +61,7 @@ ms.locfileid: "97888343"
 ### <a name="october-2019"></a>2019 年 10 月
 * 可重新整理 Power BI 資料集的新 Power Automate 動作。
 * Power BI 服務中報表和儀表板的[連絡人清單](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
-* [自動化機器學習](../transform-model/service-machine-learning-automated.md)正式發行
+* [自動化機器學習](../transform-model/dataflows/dataflows-machine-learning-integration.md)正式發行
 * Power BI 資料譜系檢視的公開預覽。
 
 ### <a name="september-2019"></a>2019 年 9 月

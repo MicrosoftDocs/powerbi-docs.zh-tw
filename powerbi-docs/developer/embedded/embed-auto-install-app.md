@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: f6418f8a9b927b05b3809032b28a740553ec625c
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 66ba3b7d573c86b32a91bc0a98cd5ec0775fec75
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888918"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565843"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>在為您的組織內嵌時，自動安裝 Power BI 應用程式
 
-若要透過應用程式內嵌內容，執行內嵌的使用者必須具備[應用程式的存取權](../../collaborate-share/service-create-distribute-apps.md)。 若已為使用者安裝應用程式，則內嵌作業可以順暢執行。 如需詳細資訊，請參閱[透過應用程式內嵌報表或儀表板](embed-from-apps.md)。 由 PowerBI.com 中的定義來看，我們可以說所有應用程式都能[自動安裝](https://powerbi.microsoft.com/blog/automatically-install-apps/)。 不過，此動作是在租用戶層級進行，然後套用至所有應用程式。
+若要透過應用程式內嵌內容，執行內嵌的使用者必須具備[應用程式的存取權](../../collaborate-share/service-create-distribute-apps.md)。 若已為使用者安裝應用程式，則內嵌作業可以順暢執行。 如需詳細資訊，請參閱[透過應用程式內嵌報表或儀表板](./index.yml)。 由 PowerBI.com 中的定義來看，我們可以說所有應用程式都能[自動安裝](https://powerbi.microsoft.com/blog/automatically-install-apps/)。 不過，此動作是在租用戶層級進行，然後套用至所有應用程式。
 
 ## <a name="auto-install-app-on-embedding"></a>在內嵌時自動安裝應用程式
 

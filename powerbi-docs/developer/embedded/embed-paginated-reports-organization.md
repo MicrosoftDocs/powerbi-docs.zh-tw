@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: d4ef44cb0e03c5de7807f0e95cefa532353f4685
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: b98e761a9ac2578a1af43bdb2c536f73fc3cc5af
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885169"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565715"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 編頁報表內嵌至應用程式
 
@@ -209,7 +209,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport -Name "Sal
 在此教學課程中，您已了解如何使用 Power BI 組織帳戶將 Power BI 編頁報表內嵌至應用程式。 
 
 > [!div class="nextstepaction"]
-> [從應用程式內嵌](embed-from-apps.md)
+> [從應用程式內嵌](./index.yml)
 
 > [!div class="nextstepaction"]
 >[內嵌客戶的 Power BI 內容](embed-sample-for-customers.md)

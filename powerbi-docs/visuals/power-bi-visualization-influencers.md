@@ -10,12 +10,12 @@ ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4b41ea6310cb644aeae92db17f52680734f68803
-ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
+ms.openlocfilehash: 29182234f64226dee8c9fed281ebf362164f8c1a
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97721562"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191973"
 ---
 # <a name="create-key-influencers-visualizations"></a>建立關鍵影響因素視覺效果
 
@@ -60,7 +60,7 @@ ms.locfileid: "97721562"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-產品經理希望您了解哪些因素會導致客戶對您的雲端服務留下負面評論。 若要跟著做，請在 Power BI Desktop 中開啟[客戶意見反應 PBIX 檔案](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix)。 您也可以下載 [Power BI 服務或 Power BI Desktop 的客戶意見反應 Excel 檔案](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx)。 選取任一連結，然後從出現的 GitHub 頁面選取 [下載]。
+產品經理希望您了解哪些因素會導致客戶對您的雲端服務留下負面評論。 若要跟著做，請在 Power BI Desktop 中開啟[客戶意見反應 PBIX 檔案](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix)。 您也可以下載 [Power BI 服務或 Power BI Desktop 的客戶意見反應 Excel 檔案](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx)。 選取任一連結，然後從出現的 GitHub 頁面選取 [下載]。
 
 > [!NOTE]
 > 客戶意見反應資料集乃基於 [Moro et al., 2014] S. Moro、P. Cortez 和 P. Rita。 "A Data-Driven Approach to Predict the Success of Bank Telemarketing" (預測銀行電話行銷成功的資料導向方法)。 *Decision Support Systems*，Elsevier，62:22-31，2014 年 6 月。 

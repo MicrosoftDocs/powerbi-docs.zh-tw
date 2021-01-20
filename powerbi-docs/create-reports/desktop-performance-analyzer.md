@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/23/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6168a1fb8d64444b703c6acac21c3bac67c4219a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a622da545d4fa9fca8b9478f6d5293d2b34296e9
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396490"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191697"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>使用效能分析器檢查報表元素效能
 
@@ -58,7 +58,7 @@ ms.locfileid: "96396490"
 * **視覺效果顯示** - 視覺效果在螢幕上繪製所需的時間，包括擷取任何 Web 影像或地理編碼所需的時間。 
 * **其他** - 視覺效果準備查詢、等候其他視覺效果完成或執行其他背景處理所需的時間。
 
-[持續時間 (毫秒)]  值指出每項作業「開始」  和「結束」  時間戳記之間的差異。 大部分的畫布和視覺效果作業都會在單一使用者介面執行緒上依序執行，該執行緒由多個作業共用。 回報的持續時間，包含在其他作業完成時排入佇列所花費的時間。 GitHub 上的[效能分析器範例](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)和其相關聯的[文件](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)提供視覺效果如何查詢資料，以及如何轉譯的詳細資料。
+[持續時間 (毫秒)]  值指出每項作業「開始」  和「結束」  時間戳記之間的差異。 大部分的畫布和視覺效果作業都會在單一使用者介面執行緒上依序執行，該執行緒由多個作業共用。 回報的持續時間，包含在其他作業完成時排入佇列所花費的時間。 GitHub 上的[效能分析器範例](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer)和其相關聯的[文件](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)提供視覺效果如何查詢資料，以及如何轉譯的詳細資料。
 
 
 ![記錄資訊的元素](media/desktop-performance-analyzer/performance-analyzer-06.png)
@@ -94,5 +94,5 @@ ms.locfileid: "96396490"
 
 如需效能分析器範例的資訊，請參閱下列資源。
 
-* [效能分析器範例](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
-* [效能分析器範例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)
+* [效能分析器範例](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer)
+* [效能分析器範例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

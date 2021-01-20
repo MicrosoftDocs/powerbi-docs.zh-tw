@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 116458c094159cbeeadaf2e955744759e4648220
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: fb688b20fd8b5ee1288f670fba9f7f45fc058680
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97097953"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565356"
 ---
 # <a name="dataflows-best-practices"></a>資料流程最佳做法
 
@@ -22,7 +22,7 @@ Power BI **資料流程** 是企業導向的資料準備解決方案，可讓資
 
 ## <a name="dataflows-across-the-power-platform"></a>Power Platform 中的資料流程
 
-資料流程可用於各種 Power Platform 技術，例如 Power Query、Microsoft Dynamics 365 與其他 Microsoft 供應項目。 如需有關資料流程如何在 Power Platform 中運作的更多資訊，請參閱[在 Microsoft 產品之間使用資料流程](https://docs.microsoft.com/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) (機器翻譯)。
+資料流程可用於各種 Power Platform 技術，例如 Power Query、Microsoft Dynamics 365 與其他 Microsoft 供應項目。 如需有關資料流程如何在 Power Platform 中運作的更多資訊，請參閱[在 Microsoft 產品之間使用資料流程](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) (機器翻譯)。
 
 
 ## <a name="dataflows-best-practices-table-and-links"></a>資料流程最佳做法表格與連結
@@ -32,20 +32,20 @@ Power BI **資料流程** 是企業導向的資料準備解決方案，可讓資
 
 |**主題**  |**指導方針區域**  |**文章或內容的連結**  |
 |---------|---------|---------|
-|Power Query     | 充分利用您資料整頓體驗的祕訣與訣竅        |[Power Query 最佳做法](https://docs.microsoft.com/power-query/best-practices) \(部分機器翻譯\)        |
-|利用計算實體     |在資料流程中使用計算實體有效能方面的好處         |[計算實體案例](https://docs.microsoft.com/power-query/dataflows/computed-entities-scenarios) (機器翻譯)         |
-|開發複雜的資料流程     |用於開發大規模、高效能資料流程的模式         |[複雜資料流程](https://docs.microsoft.com/power-query/dataflows/best-practices-developing-complex-dataflows) \(部分機器翻譯\)         |
-|重複使用資料流程     |模式、指導方針與使用案例         |[重複使用資料流程](https://docs.microsoft.com/power-query/dataflows/best-practices-reusing-dataflows)         |
-|大規模實作     |適用於企業架構的大規模使用級別指導方針         |[使用資料流程的資料倉儲](https://docs.microsoft.com/power-query/dataflows/best-practices-for-data-warehouse-using-dataflows) \(部分機器翻譯\)         |
+|Power Query     | 充分利用您資料整頓體驗的祕訣與訣竅        |[Power Query 最佳做法](/power-query/best-practices) \(部分機器翻譯\)        |
+|利用計算實體     |在資料流程中使用計算實體有效能方面的好處         |[計算實體案例](/power-query/dataflows/computed-entities-scenarios) (機器翻譯)         |
+|開發複雜的資料流程     |用於開發大規模、高效能資料流程的模式         |[複雜資料流程](/power-query/dataflows/best-practices-developing-complex-dataflows) \(部分機器翻譯\)         |
+|重複使用資料流程     |模式、指導方針與使用案例         |[重複使用資料流程](/power-query/dataflows/best-practices-reusing-dataflows)         |
+|大規模實作     |適用於企業架構的大規模使用級別指導方針         |[使用資料流程的資料倉儲](/power-query/dataflows/best-practices-for-data-warehouse-using-dataflows) \(部分機器翻譯\)         |
 |利用增強型計算     |可能可提升資料流程效能高達 25 倍         |[增強型計算引擎](dataflows-premium-workload-configuration.md#using-the-compute-engine-to-improve-performance)         |
 |最佳化您的工作負載設定     |了解您可以扳動以將效能最大化的拉桿，以充分運用您的資料流程基礎結構         |[資料流程工作負載設定](dataflows-premium-workload-configuration.md)         |
-|聯結及展開資料表     |建立高效能聯結         |[最佳化展開資料表作業](https://docs.microsoft.com/power-query/optimize-expanding-table-columns) \(部分機器翻譯\)         |
-|查詢摺疊基本概念     |使用來源系統來加快轉換速度         |[查詢摺疊](https://docs.microsoft.com/power-query/power-query-folding) \(部分機器翻譯\)         |
-|使用資料分析     |了解資料行品質、分配及分析設定檔         |[資料分析工具](https://docs.microsoft.com/power-query/data-profiling-tools)         |
-|實作錯誤處理     |開發健全的資料流程復原性來重新整理錯誤並提供建議         |[常見錯誤的模式](https://docs.microsoft.com/power-query/dealing-with-errors) \(部分機器翻譯\)  </br> [複雜錯誤處理](https://docs.microsoft.com/power-query/error-handling) \(部分機器翻譯\)      |
-|使用結構描述檢視      |改善使用寬型資料表及執行結構描述層級作業時的撰寫體驗         |[結構描述檢視](https://docs.microsoft.com/power-query/schema-view) \(部分機器翻譯\)         |
-|連結實體      |重複使用與參考轉換         |[連結實體](https://docs.microsoft.com/power-query/dataflows/linked-entities)         |
-|累加式重新整理      |載入最新或已變更的資料與完整重新載入         |[累加式重新整理](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)         |
+|聯結及展開資料表     |建立高效能聯結         |[最佳化展開資料表作業](/power-query/optimize-expanding-table-columns) \(部分機器翻譯\)         |
+|查詢摺疊基本概念     |使用來源系統來加快轉換速度         |[查詢摺疊](/power-query/power-query-folding) \(部分機器翻譯\)         |
+|使用資料分析     |了解資料行品質、分配及分析設定檔         |[資料分析工具](/power-query/data-profiling-tools)         |
+|實作錯誤處理     |開發健全的資料流程復原性來重新整理錯誤並提供建議         |[常見錯誤的模式](/power-query/dealing-with-errors) \(部分機器翻譯\)  </br> [複雜錯誤處理](/power-query/error-handling) \(部分機器翻譯\)      |
+|使用結構描述檢視      |改善使用寬型資料表及執行結構描述層級作業時的撰寫體驗         |[結構描述檢視](/power-query/schema-view) \(部分機器翻譯\)         |
+|連結實體      |重複使用與參考轉換         |[連結實體](/power-query/dataflows/linked-entities)         |
+|累加式重新整理      |載入最新或已變更的資料與完整重新載入         |[累加式重新整理](/power-query/dataflows/incremental-refresh)         |
 |||
 
 
