@@ -8,14 +8,14 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3d32851c5ff0722f59caa5536b67fb1c3267907b
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97622054"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227023"
 ---
 # <a name="export-reports-to-powerpoint"></a>將報表匯出至 PowerPoint
 
@@ -105,7 +105,8 @@ ms.locfileid: "97622054"
 
 * 某些報表無法匯出。 這些包括：
     - 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，則該使用者無法將共用儀表板的相關聯報表匯出至 PowerPoint。 例如，如果您是 aaron@contoso.com，您可以與 david@cohowinery.com 共用。 但是 david@cohowinery.com 無法將相關聯報表匯出至 PowerPoint。
-    - 具有超過 50 個報表頁面的報表。 系統只會匯出前 50 個頁面。
+    - 具有超過 50 個報表頁面的報表。
+    - 匯出時大於 500 MB 的報表。 
     - 匯出到舊版 PowerPoint 的報表。
     - 花費超過一小時的時間來處理的報表。 
     - 載入時間超過 6 分鐘的報表頁面。 

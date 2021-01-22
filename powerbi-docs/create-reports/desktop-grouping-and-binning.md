@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 12/18/2019
+ms.date: 01/13/2021
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a44b6cbbc0517bee50d14447e790f6491483a894
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412912"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565860"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>在 Power BI Desktop 中使用群組和量化
 當 Power BI Desktop 建立視覺效果時，會根據在基礎資料中找到的值，將資料彙總成區塊 (或群組)。 通常沒有問題，但您偶爾會想要調整這些區塊的呈現方式。 例如，您可能想要將三種產品類別放在一個較大的類別 (一個「群組」  ) 中。 或者，您可能想要以量化大小 1,000,000 美元來查看銷售數字，而不是 923,983 美元大小的	區塊。
@@ -47,17 +47,17 @@ ms.locfileid: "96412912"
 > 您可以在 [欄位]  區中建立任何欄位的群組，而不需要從現有的視覺效果中選取多個項目。 只要以滑鼠右鍵按一下欄位，然後從出現的功能表中選取 [新增群組]  即可。
 
 ## <a name="using-binning"></a>使用量化
-您可以在 **Power BI Desktop** 中，設定數值和時間欄位的量化大小。 您可以使用量化，將 Power BI Desktop 顯示的資料設為正確大小。
+您可以在 **Power BI Desktop** 中，設定數值和時間欄位的量化大小。 量化適用於計算結果欄，但不適用於量值。 使用量化，即可將 Power BI Desktop 顯示的資料調整為正確大小。
 
-若要套用量化大小，請以滑鼠右鍵按一下 [欄位]  ，然後選擇 [新增群組]  。
+若要套用量化大小，請以滑鼠右鍵按一下 [欄位]，然後選擇 [新增群組]。
 
 ![[新增群組] 命令、[欄位] 清單、Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_5.png)
 
-從 [群組]  對話方塊，將 [量化大小]  設定為您要的大小。
+從 [群組] 對話方塊，將 [量化大小] 設定為您要的大小。
 
 ![量化大小、[群組] 對話方塊、Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_6.png)
 
-當您選取 [確定]  時，您會注意到 [欄位]  窗格中會顯示新欄位，並在名稱後面加上 **(二進位)** 。 然後，您可以將該欄位拖曳到畫布上，以在視覺效果中使用量化大小。
+當您選取 [確定] 時，您會注意到 [欄位] 窗格中會顯示新欄位，並在名稱後面加上 **(二進位)** 。 然後，您可將該欄位拖曳到畫布上，以在視覺效果中使用該間隔大小。
 
 ![將 bins 欄位拖曳到畫布上，Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_7.png)
 

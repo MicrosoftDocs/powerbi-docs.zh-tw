@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 83ba0234ef4f4e350f413f3c934e2f09f0a9a3f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 59e88818adee9aaf893d9f32fe96386c3f7ac47e
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412774"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565793"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi"></a>在 Power BI 中使用數值範圍的交叉分析篩選器
 
@@ -84,3 +84,4 @@ ms.locfileid: "96412774"
 * 數值範圍交叉分析篩選器會篩選資料中的每個基礎資料列，而不是任何彙總值。 例如，假設您使用 [銷售額]  欄位。 交叉分析篩選器便會根據銷售額篩選每個交易，而非視覺效果每個資料點的銷售額總和。
 * 目前無法搭配量值使用。
 * 您可以在數值交叉分析篩選器中鍵入任何數字，即使該數字超過基礎資料行中的值範圍也一樣。 若您知道資料未來可能會發生變更，此選項可讓您設定篩選條件。
+* 日期範圍交叉分析篩選器允許任何日期值，即使這些值不存在於基礎日期資料行中也一樣。

@@ -5,24 +5,25 @@ author: mihart
 ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: removed
+ms.custom: video-OgjX-pFGgfM, video-RE4IY3L
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745131"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191774"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>自訂視覺效果標題、背景、標籤與圖例
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-在本教學課程中，您將學到一些不同的方法，可以用來自訂視覺效果。 有很多選項可讓您自訂視覺效果。 深入了解它們的最佳方式就是探索 [格式]窗格 (選取油漆滾筒圖示)。 為了協助您開始進行，此文章示範如何自訂視覺效果標題、圖例、背景、標籤，以及如何新增主題。
+在本教學課程中，您將學到一些不同的方法，可以用來自訂視覺效果。 有很多選項可讓您自訂視覺效果。 深入了解它們的最佳方式就是探索 [格式]窗格 (選取油漆滾筒圖示)。 為了協助開始進行，本文示範如何自訂視覺效果標題、圖例、背景、標籤、圖層，以及如何新增主題。
 
 您無法自訂所有視覺效果。 如需詳細資料，請參閱視覺效果的[完整清單](#visualization-types-that-you-can-customize)。
 
@@ -148,6 +149,36 @@ ms.locfileid: "97745131"
 1. (選擇性) 將總計標籤格式化。 在此範例中，我們已將色彩變更為黑色、增加字型大小，並選擇將值顯示為 [千]。
 
     ![具有總計標籤的新堆疊橫條圖螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
+
+## <a name="customize-layer-order"></a>自訂圖層順序
+變更報表中視覺效果與圖形的圖層順序。 圖層順序會決定在選取時將會出現在前方的物件。 每當在報表畫布上選取物件時，該物件就會轉變為作用中，並移至最上層。 對於視覺效果而言，這可讓您更輕鬆地與選取的視覺效果互動。 但若是圖形與背景，您可能會想要將其安全地置於底層，以防意外選取而導致覆蓋或遮蔽了報表視覺效果。 
+
+在 Power BI 服務、Power BI Desktop、行動版及報表伺服器中皆可使用圖層控制。 本文說明如何在 Power BI 服務中變更圖層順序。
+
+觀看 Rien 如何變更圖層順序，然後遵循下列步驟親自試試看。
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
+
+1. 選取黃色加號以新增報表頁面。 
+
+1. 將圖形新增至畫布。 我們在這裡新增了藍色矩形。 
+
+    ![具有藍色矩形的新報表頁面螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
+
+1. 從報表中的另一個頁面複製並貼上視覺效果。 
+
+    ![具有藍色矩形與圓形圖的新報表頁面螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
+
+    現在您有 2 個圖層，請嘗試選取圓形圖，然後選取背景。 當選取圓形圖時，Power BI 會讓該物件變成作用中，並顯示其標題功能表。 當選取矩形時，Power BI 會讓該物件變成作用中，並將其移至前方而遮蔽圓形圖。 您可變更此預設行為。
+
+1. 選取矩形，然後開啟 [格式化] 窗格。 展開 [一般]，並找到 [維持圖層順序] 切換按鈕。 儲存報表變更，並切換至 [閱讀] 檢視。
+
+    ![[新增報表] 頁面中將 [維護層順序] 設定為 [開啟] 的螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-maintain-layer.png)
+
+1. 在 [閱讀] 檢視中，當選取藍色矩形時，矩形會留在後方圖層中。
+
 
 ## <a name="customize-colors-using-a-theme"></a>使用主題自訂色彩
 

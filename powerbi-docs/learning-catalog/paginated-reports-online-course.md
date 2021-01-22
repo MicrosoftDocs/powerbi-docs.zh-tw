@@ -8,13 +8,13 @@ featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: tutorial
-ms.date: 11/11/2020
-ms.openlocfilehash: e05078bf51cd33fb565dc783386258fe9ea305d1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/31/2020
+ms.openlocfilehash: 504b5bcb63fa8c8897ae0b44922d3dc144a02730
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416362"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227345"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Power BI 編頁報表一日上手課程
 
@@ -43,7 +43,7 @@ ms.locfileid: "96416362"
 
 ## <a name="course-outline"></a>課程大綱
 
-包含 [24 部影片的課程](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)會組織為八個課程模組。 我們建議您以錄製的順序觀看影片，從影片 01 開始，並以影片 24 結束。
+總計 [25 部影片的課程](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)已整理為八個課程模組。 我們建議依影片的順序觀看，從影片 01 開始，一直到影片 25 結束。
 
 - **簡介**
   - 影片 01：[歡迎和課程簡介](https://www.youtube.com/watch?v=DN1t5p9aui0&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
@@ -78,6 +78,7 @@ ms.locfileid: "96416362"
   - 影片 22：[奬勵內容：檢閱](https://www.youtube.com/watch?v=w5zlJ8BodxI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - 影片 23：[奬勵內容：編頁報告的演進](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - 影片 24：[奬勵內容：降低進入的門檻](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
+  - 影片 25：[奬勵內容：2020 年 12 月更新](https://www.youtube.com/watch?v=-7M4muS_3BI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
 ## <a name="self-study-kit"></a>自我研究套件
 

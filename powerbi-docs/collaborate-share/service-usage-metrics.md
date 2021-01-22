@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053412"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565423"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>監視傳統工作區中的使用計量
 
@@ -162,7 +162,11 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供與 Po
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>REST API 與使用計量之間的差異
 
-Power BI [報表 REST API](https://docs.microsoft.com/rest/api/power-bi/reports) 與 [管理員 REST API](https://docs.microsoft.com/rest/api/power-bi/admin) 也會使用 Power BI 服務資料。 基於上一節所述的原因，來自 API 的報表計數 (報表數目) 可能與使用計量中的報表計數不同。 衍生自 API 的報表計數不會受到用戶端問題的影響，應視為正確。
+Power BI [報表 REST API](/rest/api/power-bi/reports) 與 [管理員 REST API](/rest/api/power-bi/admin) 也會使用 Power BI 服務資料。 基於上一節所述的原因，來自 API 的報表計數 (報表數目) 可能與使用計量中的報表計數不同。 衍生自 API 的報表計數不會受到用戶端問題的影響，應視為正確。
+
+### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>Private Link 不支援傳統使用計量 
+
+如果組織使用 [Private Link](../admin/service-security-private-links.md)，則傳統使用計量報表將無法包含任何資料。 目前透過 Private Link 傳送用戶端資訊仍有所限制。 
 
 ### <a name="other-considerations"></a>其他考量
 

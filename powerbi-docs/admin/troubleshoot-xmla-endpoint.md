@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/11/2021
+ms.date: 01/13/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 16a07065507abfe825c39677f234d626070827b4
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110720"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226977"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>針對 XMLA 端點連線能力進行疑難排解
 
@@ -216,7 +216,11 @@ Error returned: ‘Metadata change of current operation cannot be resolved, plea
 
 ## <a name="workspaceserver-alias"></a>工作區/伺服器別名
 
-不同於 Azure Analysis Services，Power BI Premium 工作區 **不支援** 伺服器名稱[別名](/azure/analysis-services/analysis-services-server-alias)。 
+不同於 Azure Analysis Services，Power BI Premium 工作區 **不支援** 伺服器名稱 [別名](/azure/analysis-services/analysis-services-server-alias)。 
+
+## <a name="dataset-refresh-through-the-xmla-endpoint"></a>透過 XMLA 端點重新整理資料集
+
+上次重新整理日期與時間會顯示在 Power BI 中的幾處位置，例如報表ˇ與清單中的 [已重新整理] 資料行、[資料集詳細資料]、[資料集設定]，以及 [資料集重新整理記錄]。 目前，Power BI 中所顯示重新整理日期與時間 **不** 包含使用 TMSL/TOM、SSMS 或協力廠商工具來透過 XMLA 端點執行的重新整理作業。
 
 ## <a name="see-also"></a>另請參閱
 

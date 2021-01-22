@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 01/19/2021
 LocalizationGroup: Create reports
-ms.openlocfilehash: cadb8d45af40c91e7008e771f2a52ef2ea508341
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: abed7e9f6da352d5461868e6371ffefb814eb3ff
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393454"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597646"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>新增多個欄位到階層交叉分析篩選器
 
@@ -76,6 +76,11 @@ ms.locfileid: "96393454"
 1. 展開 [項目]，然後將 [逐步的配置縮排] 往較小或較大的方向拖曳。 您也可以直接在方塊中輸入數字。
 
     :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="設定階層交叉分析篩選器縮排的螢幕擷取畫面。":::
+    
+## <a name="limitations-and-considerations"></a>限制與考量
+
+- 若為表格式模型，則這項功能需要 SQL Server Analysis Services 2017 或更新版本。
+- 若為多維度模型，則這項功能需要 SQL Server Analysis Services 2019 CU5 或更新版本，且已啟用 SuperDAXMD。 深入了解 [SuperDAXMD](/analysis-services/multidimensional-models/dax-for-multidimensional-models#superdaxmd)。
 
 ## <a name="next-steps"></a>後續步驟
 

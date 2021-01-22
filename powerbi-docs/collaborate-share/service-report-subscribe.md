@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/08/2021
+ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: a72d6632eb8837fd6a0716842dc20a342edcce4b
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053389"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227115"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -128,7 +128,7 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
 - 當您編輯現有的訂閱時，一律會顯示啟用提供報表/儀表板存取權的選項。  如果您清除此選項並儲存訂閱，即會儲存該狀態。 不過，當您重新編輯報表時，預設又會勾選此選項。
 - 如果有備用電子郵件地址，但沒有主要電子郵件地址，Power BI 會使用備用電子郵件地址來傳遞訂閱。
 - 如果您為外部使用者訂閱報表或儀表板，則當您選取訂用帳戶窗格中的 [儲存後關閉] 之後，外部使用者將會立即收到共用通知。 此通知只會傳送給外部使用者，而不會傳送給內部使用者，因外部使用者需要邀請連結才能檢視報表或儀表板。 
-- 一個報表或儀表板的訂閱者人數有限制。 超過 200 個訂閱者之後，可能會在傳遞時發生問題。
+- 一個報表或儀表板的訂閱者人數有限制。 超過 200 個訂閱者之後，可能會在傳遞時發生問題。 若要減少訂閱者人數，請改用電子郵件別名。 每個電子郵件別名都會計為一名訂閱者。
 
 ### <a name="dashboards"></a>儀表板
 
@@ -140,7 +140,7 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
 
 ### <a name="reports"></a>報表
 
-- 針對報表電子郵件訂閱，如果資料集使用 RLS，您可以為自己建立訂閱。 除編頁報表外，您無法為其他人訂閱套用資料列層級安全性 (RLS) 的報表。 您可使用自己的安全性內容來為其他人訂閱編頁報表。 深入了解[訂閱編頁報表](../consumer/paginated-reports-subscriptions.md)。
+- 針對編頁報表及 Power BI 報表的電子郵件訂閱，如果資料集使用資料列層級安全性 (RLS)，則可自行建立訂閱。 您也可以使用 RLS 為其他人訂閱報表。 這些訂閱將會使用您的安全性內容來產生。
 - 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，然後將它重新命名，您必須重新建立訂用帳戶。
 - 您的組織可能會在 Azure Active Directory 進行某些設定，而這可能會限制在 Power BI 中使用電子郵件訂閱的功能。 這些限制包括但不限於存取資源時的多重要素驗證或 IP 範圍限制。
 - 電子郵件訂用帳戶不支援大部分[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md)。 其中一個例外是[「已認證」](../developer/visuals/power-bi-custom-visuals-certified.md)的自訂視覺效果。

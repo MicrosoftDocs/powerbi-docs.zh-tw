@@ -8,17 +8,17 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
-ms.date: 02/16/2020
-ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/14/2021
+ms.openlocfilehash: a7da63efcc991da57eba9c6b9bb6b9527ad66e1f
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393020"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227368"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中監視報表效能
 
-使用 [Power BI Premium 計量應用程式](../admin/service-premium-metrics-app.md)在 Power BI Desktop 中監視報表效能、了解瓶頸所在，以及了解如何改善報表效能。
+使用[效能分析器](../create-reports/desktop-performance-analyzer.md)監視 Power BI Desktop 中的報表效能，並藉由 [Power BI Premium 計量應用程式](../admin/service-premium-metrics-app.md)的協助，監視部署於您組織 Power BI Premium 容量內容的效能。 了解瓶頸所在之處，並學習如何改善報表效能。
 
 監視效能與下列情況有關：
 

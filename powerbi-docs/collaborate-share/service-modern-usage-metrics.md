@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6ce7afedb43aa7abaffb3ad5afdb00b4749addb5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 573180ef4087af7654480da8ca581e1881729243
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885386"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565290"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>在新的工作區體驗中監視使用計量 (預覽)
 
@@ -297,6 +297,7 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供與 Po
 - 初始化使用計量報表資料集可能會因為重新整理期間發生逾時而失敗。 若要解決此問題，請參閱下面的＜疑難排解＞一節。
 - 已針對使用計量報表停用「共用」。 若要為使用者授與報表的讀取權限，您必須先為其授與工作區的存取權。
 - 在某些情況下，您可能會注意到效能資料遺失。 若使用者在報表開啟但載入還沒完成就與其互動，或報表在載入期間發生錯誤，就可能發生這種情況。 
+- 如果組織使用 [Private Link](../admin/service-security-private-links.md)，則新式使用計量報表僅會包含部分資料 (僅限報表檢視)。 目前透過 Private Link 傳送用戶端資訊仍有所限制，使我們無法透過 Private Link 擷取報表頁面檢視與效能資料。 
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/04/2020
+ms.date: 01/12/2021
 ms.custom: contperf-fy21q1, contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2c15c6afbf1a84ab5e8103a8d73792705418d2e6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: b849921b0ec9c5bbad46394343d266179ba547b8
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621709"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227276"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中建立新工作區
 
@@ -24,7 +24,8 @@ ms.locfileid: "97621709"
 準備好移轉傳統工作區了嗎？ 如需詳細資訊，請參閱[將傳統工作區升級至 Power BI 中的新工作區](service-upgrade-workspaces.md)。
 
 > [!NOTE]
-> 若要強制執行資料列層級安全性 (RLS)，讓 Power BI Pro 使用者瀏覽工作區中的內容，請將「檢視者」角色指派給使用者。 請參閱[新工作區中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)，以取得不同角色的說明。
+> 您在尋找有關建立內容套件的內容嗎？ 內容套件即將淘汰。 現在是將內容套件升級為應用程式的好時機。 如需時間表，請參閱[宣告 Power BI 系統管理員可升級傳統工作區](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (英文) 此部落格文章的＜工作區升級藍圖＞一節。
+> 
 
 ## <a name="create-one-of-the-new-workspaces"></a>建立其中一個新工作區
 
@@ -59,6 +60,9 @@ ms.locfileid: "97621709"
 ## <a name="give-access-to-your-workspace"></a>提供您工作區的存取權
 
 在工作區中具有系統管理員角色的任何人都可透過將其他人新增至不同角色，而讓其存取該工作區。 工作區建立者會自動成為系統管理員。 請參閱[新工作區中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)，以取得角色的說明。
+
+> [!NOTE]
+> 若要強制執行資料列層級安全性 (RLS)，讓 Power BI Pro 使用者瀏覽工作區中的內容，請將「檢視者」角色指派給使用者。 請參閱[新工作區中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)，以取得不同角色的說明。
 
 1. 因為您是系統管理員，所以在工作區內容清單頁面中，會看到 [存取]。
 

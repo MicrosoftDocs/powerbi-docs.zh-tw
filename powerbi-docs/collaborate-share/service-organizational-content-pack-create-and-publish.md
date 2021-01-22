@@ -7,25 +7,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/06/2019
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a72582a54903c97dd9594f6a4a1c5980aea8e16
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b0b57967ed86c25f51c08a94e4c252c250e85304
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411716"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227184"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>教學課程：建立及發佈 Power BI 組織內容套件
+
+> [!NOTE]
+> 組織內容套件即將淘汰。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 如需時間表，請參閱[宣告 Power BI 系統管理員可升級傳統工作區](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (英文) 此部落格文章的＜工作區升級藍圖＞一節。
+> 
 
 在本教學課程中，您將建立組織內容套件、提供特定群組的存取權，並將該套件發佈至 Power BI 上的組織內容套件庫。
 
 建立內容套件與共用儀表板或對群組中的儀表板共同作業不同。 請參閱[在 Power BI 中共用成品的方式](service-how-to-collaborate-distribute-dashboards-reports.md)來為情況決定最佳選項。
 
 建立組織內容套件需要用到您和同事的 [Power BI Pro 帳戶](https://powerbi.microsoft.com/pricing)。
-
-> [!NOTE]
-> 您無法在新的工作區體驗中建立或安裝組織內容套件。 如果您尚未開始，現在是將內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
 
 ## <a name="create-and-publish-a-content-pack"></a>建立並發佈內容套件
 

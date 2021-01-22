@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84d60fce95172b419663ed7889d69e22ae1947cd
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 340f29394d0c6c83659d77f2545a4f76eef99a9a
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491981"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597656"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>如何在 Power BI 中使用 DirectQuery
 
@@ -98,7 +98,7 @@ SQL Server Analysis Services 是特殊案例。 連線至 SQL Server Analysis Se
 
 | 限制 | 描述 |
 | --- | --- |
-| 資料經常變更，且需要幾近即時的報告 |具有匯入資料的模型最多可以每小時重新整理一次 (使用 Power BI Pro 或 Power BI Premium 訂用帳戶可提高重新整理頻率)。 如果資料持續變更，且報表必須顯示最新資料，則使用匯入與排程重新整理可能無法滿足這些需求。 您可以將資料直接串流到 Power BI 中，但在此情況下，支援的資料量有限。 <br/> <br/> 相較之下，使用 DirectQuery，意味著開啟或重新整理報表或儀表板時一律會顯示來源中的最新資料。 此外，可以更頻繁地更新儀表板磚，最高每 15 分鐘一次。 |
+| 資料經常變更，且需要幾近即時的報告 |具有匯入資料的模型最多可以每小時重新整理一次 (使用 Power BI Pro 或 Power BI Premium 訂用帳戶可提高重新整理頻率)。 如果資料持續變更，且報表必須顯示最新資料，則使用匯入與排程的重新整理可能無法滿足這些需求。 您可以將資料直接串流到 Power BI 中，但在此情況下，支援的資料量有限。 <br/> <br/> 相較之下，使用 DirectQuery，意味著開啟或重新整理報表或儀表板時一律會顯示來源中的最新資料。 此外，可以更頻繁地更新儀表板磚，最高每 15 分鐘一次。 |
 | 資料很大 |資料很大時，將無法全部匯入。 相較之下，DirectQuery 是就地查詢，因此不需要傳輸大量資料。 <br/> <br/> 不過，資料較大時，也可能表示對該基礎來源的查詢效能太慢，如[使用 DirectQuery 的影響](#implications-of-using-directquery)中所述。 您不一定要匯入完整的詳細資料。 相對地，您可以在匯入期間預先彙總資料。 「查詢編輯器」可讓您在匯入期間輕鬆地預先彙總。 如有必要，您可以只匯入每個視覺效果所需的彙總資料。 雖然 DirectQuery 是處理大型資料最簡單的方法，但匯入彙總資料將可解決基礎來源效能太慢的問題。 |
 | 安全性規則是在基礎來源中定義 |匯入資料之後，Power BI 會使用目前的使用者認證 (從 Power BI Desktop)，或使用設定排程重新整理時所定義的認證 (從 Power BI 服務) 連線至資料來源。 在「匯入」模式中發佈及共用具有資料的這類報表時務必謹慎，請只與可查看相同資料的使用者共用，或定義資料列層級安全性作為資料集的一部分。 <br/> <br/> DirectQuery 允許將報表檢視者的認證傳遞至基礎來源，並在該處套用安全性規則。 支援對 SQL Azure 資料來源進行單一登入，以及透過資料閘道對內部部署 SQL Server 進行單一登入。 [Power BI 中閘道的單一登入 (SSO) 概觀](service-gateway-sso-overview.md)對此會有更詳細的說明。 |
 | 套用資料主權限制 |某些組織設有資料主權相關原則，換句話說，資料不可以離開組織內部。 採用匯入的解決方案很明顯會有問題。 相對之下，使用 DirectQuery 可將資料保留在基礎來源中。 <br/> <br/> 不過，即使是使用 DirectQuery，還是會有一些視覺效果層級的資料快取保留在 Power BI 服務中，因為磚會進行排定的重新整理。 |

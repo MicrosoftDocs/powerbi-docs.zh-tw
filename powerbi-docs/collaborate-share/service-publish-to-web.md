@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/04/2021
+ms.date: 01/14/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 6b28537c9ea757fb43179196f9d7cb053955c5e0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926832"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227207"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -189,7 +189,7 @@ Power BI 服務大部分的資料來源及報表都支援 [發行至 Web]。 不
 - 使用任何即時連線資料來源的報表，包括裝載於內部部署 的 Analysis Services 表格式、Analysis Service 多維度和 Azure Analysis Services。
 - 使用與報表儲存在不同工作區之[共用資料集](../connect-data/service-datasets-across-workspaces.md)的報表。
 - [共用和認證的資料集](../connect-data/service-datasets-share.md)。
-- 直接或透過組織內容套件與您共用的報表。
+- 直接或透過應用程式與您共用的報表。
 - 位在您非屬編輯成員之工作區中的報表。
 - [發佈至 Web] 報表目前不支援 "R" 與 Python 視覺效果。
 - 從已發行至 Web 的報表中匯出視覺效果的資料。

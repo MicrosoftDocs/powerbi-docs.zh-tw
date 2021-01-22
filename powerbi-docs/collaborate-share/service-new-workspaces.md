@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 10/21/2020
+ms.date: 01/12/2021
 ms.custom: contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5aabc825ecd22ed49d05428148133be17156645d
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: 5aa4fb617bc4a6d362bcf17a5e6b4d6d7f355086
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621479"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227253"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -37,7 +37,7 @@ ms.locfileid: "97621479"
 - **連絡人清單**：在新的工作區中，您可以指定接收工作區活動相關通知的人員。
 - **建立範本應用程式**：您只能在新的工作區中建立「範本應用程式」。 範本應用程式是您可以散發給組織外部客戶的應用程式。 然後，這些客戶可以使用您的範本應用程式連線到自己的資料。 深入了解[範本應用程式](../connect-data/service-template-apps-overview.md)。
 - **共用資料集**：若要在特定工作區之外共用資料集，您必須將包含資料集的報表儲存到其中一個新的工作區。 您無法從傳統工作區共用資料集。 深入了解[共用資料集](../connect-data/service-datasets-across-workspaces.md)。
-- **組織內容套件**：您會在傳統工作區中建立及使用組織內容套件。 您無法在新工作區中建立或取用它們。 應用程式和範本應用程式會取代新工作區中的組織內容套件。
+- **組織內容套件**：您會在傳統工作區中建立及使用組織內容套件。 您無法在新工作區中建立或取用它們。 應用程式和範本應用程式會取代新工作區中的組織內容套件。 組織內容套件即將淘汰。 現在是將內容套件升級為應用程式的好時機。 如需時間表，請參閱[宣告 Power BI 系統管理員可升級傳統工作區](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (英文) 此部落格文章的＜工作區升級藍圖＞一節。
 
 本文會更詳細地說明這些功能。
 

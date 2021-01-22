@@ -8,14 +8,14 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/11/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2c88cca174f5deeededcaef3f242d6ea00a83379
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 932149fc117568cffd94e6d551878f706a58ec65
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613685"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191950"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -58,6 +58,7 @@ ms.locfileid: "96613685"
 * 目前支援經認證的 Power BI 視覺效果。 如需認證 Power BI 視覺效果 (包括如何使 Power BI 視覺效果獲得認證) 的詳細資訊，請參閱[讓 Power BI 視覺效果獲得認證](../developer/visuals/power-bi-custom-visuals-certified.md)。 不支援未經認證的 Power BI 視覺效果。 在 PDF 中，將會顯示它們並出現錯誤訊息。
 * 不支援 ESRI 視覺效果。
 * 目前無法匯出超過 50 頁的報表。
+* 目前無法匯出大於 500 MB 的報表。 
 * 將報表匯出至 PDF 的程序可能需時數分鐘，請耐心等候。 影響所需時間的因素，包括報表結構及 Power BI 服務目前的負載。
 * 若 Power BI 服務中沒有 [匯出至 PDF] 功能表項目，可能是因為 Power BI 管理員停用了此功能。 請連絡管理員以取得詳細資料。
 * 背景影像會按圖表的周框區域剪裁。 我們建議您先移除背景影像，再匯出至 PDF。

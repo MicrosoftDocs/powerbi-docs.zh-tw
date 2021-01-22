@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 1/13/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 005f6c72dd67282e2f15ceb3c91fb74d7e723712
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5edcde0f367c573c86aaac1b7f14397614eeedf
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412245"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191633"
 ---
 # <a name="power-bi-premium-per-user-faq-preview"></a>Power BI Premium Per User 常見問題集 (預覽)
 
@@ -46,15 +46,21 @@ Power BI **Premium Per User** 可讓組織以個別使用者為基礎對 Premium
 4.  **如何取得試用版？**
 
     目前有產品內試用體驗，以及透過 Microsoft 365 提供的試用體驗。 在組織未限制 PPU 的情況下，任何使用者都可以針對工作區開啟 Premium Per User 來存取產品內試用體驗。 透過 Microsoft 365 的試用體驗可以透過入口網站啟用，和目前 Power BI Pro 試用的起始方式相同。  
+    
+5.  **我最初的試用版已經到期，但仍處於預覽階段。我該如何在預覽階段延長/更新 Premium Per User 的試用版？**
 
-5.  **Premium Per User 中提供那些功能？**
+    針對使用產品內試用版的客戶，您可在原本的試用版到期後，隨時前往入口網站右上角按一下設定檔圖示來啟動新的試用版。  您會再次看到加入試用版的選項。  加入後即可啟動額外 60 天的試用版。  您在整個預覽階段都能夠選取此選項。  
+    
+    針對使用來自 Microsoft 365 試用版的客戶，您的租用戶系統管理員可能會為您原本的 30 天試用版再額外延長 30 天。 此為試用版可延長的最大天數。
+
+6.  **Premium Per User 中提供那些功能？**
 
     功能比較方格如下所示：    
 
     ![Premium Per User 功能比較](media/service-premium-per-user-faq/premium-per-user-faq-02.png)
 
 
-6.  **我的組織已經有 Power BI Premium。我是否需要 Premium Per User 授權才能將內容發佈到我的容量？**
+7.  **我的組織已經有 Power BI Premium。我是否需要 Premium Per User 授權才能將內容發佈到我的容量？**
     
     您的組織可以選擇使用 Premium Per User 授權來補充其 Premium 容量，但是並不需要 Premium Per User 來將內容發佈到現有的容量。  
 
@@ -89,6 +95,10 @@ Power BI **Premium Per User** 可讓組織以個別使用者為基礎對 Premium
 7.  **容量 API 是否可供 Premium Per User 使用？**
 
     有一組有限的 API 可供用來移動工作區，但您無法進行如關閉工作負載之類的活動。  
+    
+7.  **Premium Per User 工作區是否支援服務主體？**
+
+    否，Premium Per User 工作區目前不支援服務主體。  
 
 
 ## <a name="end-user-experience-questions"></a>使用者體驗問題
@@ -113,9 +123,10 @@ Power BI **Premium Per User** 可讓組織以個別使用者為基礎對 Premium
 
     Premium Per User 的運作方式，與您使用 Pro 授權時的內嵌使用案例運作方式相同。 您可以內嵌內容，且所有使用者都需要 PPU 授權才能加以檢視。
 
-5.  **在我的試用版到期之後，我的 PPU 工作區會發生什麼事？**
+5.  **如果選擇不購買 Premium Per User 授權，在預覽階段結束後，我的 PPU 工作區會發生什麼事？**
 
-    使用者仍然可以存取該工作區，但是需要該授權類型的內容將無法使用。 您必須將工作區移至 Premium 容量，或是直接將該需求關閉。 
+    您與使用者仍然可存取該工作區，但將無法使用需要該授權類型的內容。 您必須將工作區移至 Premium 容量，或是直接將該需求關閉。 
+
 6.  **Premium Per User 所提供的總儲存體為何？**
 
     就儲存體而言，整個租用戶將會有與 Premium 容量相同的 100 TB 限制。

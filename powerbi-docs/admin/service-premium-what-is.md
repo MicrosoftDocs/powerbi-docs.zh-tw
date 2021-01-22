@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 01/06/2021
+ms.date: 01/18/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: c1e5cad6ab1da796d2f10a64e867d5848e86aea4
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
+ms.openlocfilehash: c89cf7b00d5167ffb68a491a9cfdcea21378dfd5
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155610"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565142"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -87,6 +87,15 @@ Premium Gen2 提供下列更新或改進的體驗：
     |SQL Server Management Studio (SSMS)|18.8|2020 年 12 月 8 日|
     |SQL Server Data Tools (SSDT)|2.9.15|2020 年 11 月 30 日正式推出|
     | AS PowerShell| 高於 21.1.18229|2020 年 11 月 26 日|
+
+5.  不支援將包含資料流程的工作區從其中一個 Premium Gen2 容量重新指派至不同區域中另一個 Premium 容量。 此外，也不支援將大型儲存體格式模型從其中一個 Premium 容量移至另一個 Premium 容量。 如果已經移轉至不同區域的容量，請採取下列其中一個步驟來還原功能：
+ 
+    1.  建立新的工作區並複製資料流程
+    2.  將工作區移轉回上一個區域中的容量
+    3.  切換回 Premium Gen 1
+
+這項限制可能會在 Premium Gen 2 正式發行 (GA) 時予以移除。
+
 
 ## <a name="subscriptions-and-licensing"></a>訂閱和授權
 
@@ -184,7 +193,7 @@ Premium Gen 2 節點不再使用保留的基礎結構。 相反地，此服務�
 
 請注意，資料集收回是容量上的正常行為。 容量會以對使用者而言為透明的方式管理模型的記憶體內部生命週期，來嘗試平衡記憶體使用量。 高收回率不一定代表提供給容量的資源不足。 不過，如果因短時間內重複載入及收回模型的額外負荷，使得查詢或重新整理的效能降低，便可能會造成問題。
 
-匯入模型的重新整理一律會耗用大量記憶體，因為必須將模型載入至記憶體。 處理時也需要額外的中繼記憶體。 比起模型所需的記憶體量，完整的重新整理可能會用上大約兩倍的記憶體，這是因為 Power BI 會在記憶體內部維護模型的現有快照集，直到處理作業完成為止。 這讓我們在系統處理模型期間，仍然可以查詢該模型。 查詢可以傳送到模型的現有快照集，直到重新整理完成且新模型資料已可供使用為止。
+匯入模型的重新整理一律會耗用大量記憶體，因為必須將模型載入至記憶體。 處理時也需要額外的中繼記憶體。 比起模型所需的記憶體量，完整的重新整理可能會用上大約兩倍的記憶體，這是因為 Power BI 會在記憶體內部維護模型的現有快照集，直到處理作業完成為止。 這讓我們在系統處理模型期間，仍然可查詢該模型。 查詢可以傳送到模型的現有快照集，直到重新整理完成且新模型資料已可供使用為止。
 
 累加式重新整理會執行分割區重新整理，而非完整的模型重新整理，且速度通常更快並需要較少記憶體，並可以大幅降低容量的資源使用量。 對模型進行重新整理也可能會耗費大量 CPU，特別是如果模型具有複雜的 Power Query 轉換，或是具有複雜或以大量資料為基礎的計算資料表或資料行。
 
@@ -299,7 +308,7 @@ P1-P3 和 A4_A6 SKU 支援的編頁報表採用 SQL Server Reporting Services �
 在 Power BI Premium 中，編頁報表是必須使用管理入口網站為容量啟用的工作負載。 容量管理員可以啟用，然後以容量的整體記憶體資源百分比來指定記憶體數量。 不同於其他類型的工作負載，Premium 會在容量內含空間中執行編頁報表。 無論工作負載是否為作用中，都會使用指定給此空間的最大記憶體。 預設值為 20%。
 
 > [!NOTE]
-> 在 **Premium Gen2 (預覽)** 中，沒有適用於編頁報表的記憶體管理。 EM1-EM3 和 A1-A3 SKU 支援 Premium Gen2 編頁報表。
+> 在 **Premium Gen2 (預覽)** 中，沒有適用於編頁報表的記憶體管理。 EM1-EM3 SKU 支援 Premium Gen2 編頁報表。
 
 ### <a name="paginated-reports-and-premium-gen2"></a>編頁報表和 Premium Gen2
 
@@ -333,7 +342,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Power BI Premium 中的 Analysis Services
 
-實際上，經企業實證的 Microsoft **Analysis Services Vertical 引擎** 支援 Power BI Premium 工作區和資料集。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 根據預設，Power BI Premium 容量資料集工作負載透過 **XMLA 端點** 支援來自 Microsoft 和第三方用戶端應用程式與工具的「唯讀」作業。 容量管理員也可以選擇停用或允許透過端點的「讀取/寫入」 作業。
+實際上，Power BI Premium 工作區和資料集受到經企業實證的 Microsoft **Analysis Services Vertipaq 引擎** 支援。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 根據預設，Power BI Premium 容量資料集工作負載透過 **XMLA 端點** 支援來自 Microsoft 和第三方用戶端應用程式與工具的「唯讀」作業。 容量管理員也可以選擇停用或允許透過端點的「讀取/寫入」 作業。
 
 具有唯讀存取權，Microsoft 工具 (例如 SQL Server Management Studio (SSMS) 和 SQL Server Profiler) 和第三方應用程式 (例如 DAX Studio 和資料視覺效果應用程式) 可以連線到 Premium 資料集，並使用 XMLA、DAX、MDX、DMV 和追蹤事件進行查詢。 具有讀取/寫入存取權，企業資料模型工具 (例如 Visual Studio 與 Analysis Services 專案延伸模組或開放原始碼表格式編輯器) 可以將表格式模型當做資料集部署至 Premium 工作區。 使用 SSMS 這類工具，系統管理員可以使用表格式模型指令碼語言 (TMSL) 來編寫中繼資料變更和進階資料重新整理案例的指令碼。 
 

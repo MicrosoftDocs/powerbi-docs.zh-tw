@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 10/29/2020
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 024696aa69fc1c6e95b103a679b11de4fe468169
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0ff0d072bd36c7e49a7ce6d450b7a35410caa94f
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411946"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227299"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中建立傳統工作區
 
@@ -68,7 +68,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 
 針對 Power BI 支援之所有協力廠商服務提供的應用程式，可讓您輕鬆地從所使用的服務 (例如 Microsoft Dynamics CRM、Salesforce 或 Google Analytics) 中取得資料。 您可以發佈組織應用程式，為使用者提供其所需的資料。
 
-在目前的工作區中，您也可以使用組織內容套件和協力廠商內容套件 (例如 Microsoft Dynamics CRM、Salesforce 或 Google Analytics) 進行連線。 請考慮將您的組織內容套件移轉到應用程式。
+在傳統工作區中，您也可以使用組織內容套件與協力廠商應用程式 (例如 Microsoft Dynamics CRM、Salesforce 或 Google Analytics) 進行連線。 組織內容套件即將淘汰。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 如需時間表，請參閱[宣告 Power BI 系統管理員可升級傳統工作區](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (英文) 此部落格文章的＜工作區升級藍圖＞一節。
 
 ## <a name="distribute-an-app"></a>散發應用程式
 
@@ -84,12 +84,11 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 ## <a name="power-bi-classic-apps-faq"></a>Power BI 傳統型應用程式常見問題集
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>應用程式與組織內容套件的差異為何？
-應用程式是組織內容套件的演進。 如果您已經有組織內容套件，則它們會繼續與應用程式並存運作。 應用程式和內容套件有一些主要差異。 
+應用程式是即將淘汰的組織內容套件演進成果。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 如需時間表，請參閱[宣告 Power BI 系統管理員可升級傳統工作區](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (英文) 此部落格文章的＜工作區升級藍圖＞一節。 
 
 * 商務使用者在安裝內容組件之後失去其群組身分識別︰它只是與其他儀表板和報表穿插的儀表板和報表清單。 相反地，應用程式會維護其群組和身分識別，即使在安裝之後也是一樣。 這種分組可讓商務使用者在經過一段時間之後仍可輕鬆地繼續進行導覽。
 * 您可以從任何工作區建立多個內容套件，但應用程式與其工作區具有 1:1 關聯性。 
-* 經過一段時間之後，我們計劃要淘汰組織內容套件，因此建議您從現在開始建立應用程式。  
-* 使用新的工作區體驗，我們對淘汰組織內容套件邁出第一步。 您無法在新工作區中取用或建立它們。
+* 您無法在新工作區中取用或建立內容套件。
 
 請參閱[新工作區和傳統工作區的差異](service-new-workspaces.md#new-and-classic-workspace-differences)以比較這兩者。 
 
