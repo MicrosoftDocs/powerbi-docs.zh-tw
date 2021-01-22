@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/07/2020
-ms.openlocfilehash: 4368230812d90031d1f7cf83d426fc1508382412
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
-ms.translationtype: HT
+ms.date: 01/21/2021
+ms.openlocfilehash: abb91ef54167f4a7d50f2dc36e23b2fc5833a65d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781926"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687457"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 編頁報表支援的資料來源
 
@@ -31,7 +31,7 @@ ms.locfileid: "96781926"
 | Azure SQL 受控執行個體 | 基本 | 透過公用或私人端點 (私人端點必須透過企業閘道路由)  |
 | Azure Analysis Services | SSO, OAuth2 | 在 BlackForest 地區，AAS 防火牆必須停用，或設定為允許所有 IP 範圍。 這僅適用於 BlackForest 地區。  不支援來自外部租用戶的 SSO。 |
 | Power BI 資料集 | SSO | Premium 和非 Premium Power BI 資料集。 需要讀取權限。 僅支援匯入模式和 DirectQuery Power BI 資料集。 |
-| Premium Power BI 資料集 (XMLA) | SSO | 不支援在「應用程式所擁有資料」案例中將 Power BI 資料集作為內嵌編頁報表的資料來源。  為了確保 Power BI Report Builder 可正常連線，請確定在設定資料來源時選取了 [不使用認證] 選項。   |
+| Premium Power BI 資料集 (XMLA) | SSO | 不支援在「應用程式所擁有資料」案例中將 Power BI 資料集作為內嵌編頁報表的資料來源。  為確保 Power BI Report Builder 中有適當的連線，請確定在設定資料來源時，已選取 [ **不要使用認證** ] 選項。<br />透過 XMLA 的存取權會在工作區或應用層級設定安全性群組成員資格。<br />在 [工作區中](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) 至少擁有「參與者」角色的使用者可以使用 Premium Power BI 資料集轉譯編頁報表。 其他使用者需要 [基礎資料集的 Build 許可權](../connect-data/service-datasets-build-permissions.md)。    |
 | 輸入資料 | N/A | 資料會內嵌在報表中。 |
 
 在您將報表上傳至 Power BI 服務之後，即可使用所有資料來源，但 Azure SQL Database 除外。 資料來源預設為使用單一登入 (SSO) (若適用)。 針對 Azure Analysis Services，您可以將驗證類型變更為 OAuth2。 不過，一旦指定資料來源的驗證類型變更為 OAuth2 之後，就無法還原回使用 SSO。  此外，這項變更適用於所有在指定租用戶所有工作區上使用該資料來源的報表。  除非使用者選擇 SSO 作為驗證類型，否則分頁報表中的資料列層級安全性將無法使用。

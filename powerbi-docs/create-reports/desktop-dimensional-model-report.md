@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 01/11/2021
+ms.date: 01/19/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: f5d35d7fc189f055a6f51e493fd313eb31f0564f
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 03eac7aefdebb31eac353c969db2bf8810173395
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565969"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687345"
 ---
 # <a name="tutorial-from-dimensional-model-to-stunning-report-in-power-bi-desktop"></a>教學課程：將維度模型轉變為令人驚豔的 Power BI Desktop 報表 
 
@@ -64,11 +64,10 @@ ms.locfileid: "98565969"
 
 :::image type="content" source="media/desktop-dimensional-model-report/desktop-load-tables.png" alt-text="在 [導覽器] 中載入資料表。":::
 
-請檢查資料行資料類型是否與下表中的類型相符。 若要進行任何變更，請選取查詢，然後選取一或多個資料行。
+請檢查資料行資料類型是否與下表中的類型相符。 若要讓 Power BI 為您偵測資料類型，請選取查詢，然後選取一或多個資料行。 在 [ **轉換** ] 索引標籤上，選取 [偵測 **資料類型**]。 若要對偵測到的資料類型進行任何變更，請在 [ **首頁** ] 索引標籤上選取 [ **資料類型**]，然後從資料表中選取適當的資料類型。
 
 :::image type="content" source="media/desktop-dimensional-model-report/power-query-change-data-types.png" alt-text="檢查資料行的資料類型。":::
 
-在 [常用] 索引標籤中，選取 [資料類型]，然後從資料表中選取適當的資料類型。
 
 |查詢  |資料行  |資料類型  |
 |---------|---------|---------|
@@ -330,8 +329,9 @@ Sales 資料表包含更多與銷售訂單日期相關的詳細資訊，例如�
 
 1. 選取報表畫布下半部的空白區域。 
 
-1. 在 [欄位] 窗格中，從 **Sales** 選取 **Sales Amount**、從 **Product** 選取 **Product Category**，然後從 **Reseller** 選取 **Business Type**。 
-
+1. 在 [欄位] 窗格中，從 **Sales** 選取 **Sales Amount**、從 **Product** 選取 **Product Category**，然後從 **Reseller** 選取 **Business Type**。
+    :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-field-well.png" alt-text="檢查 [類別目錄] 和 [商務類型] 是在 [資料列]，而 [銷售金額] 是 [值]":::
+    
     Power BI 會自動建立群組直條圖。 將視覺效果變更為 [矩陣]： 
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-change-to-matrix.png" alt-text="將群組直條圖變更為矩陣。":::
@@ -346,7 +346,7 @@ Sales 資料表包含更多與銷售訂單日期相關的詳細資訊，例如�
 
 1. 在矩陣的 [格式化] 窗格中，開啟 [條件式格式設定] 區段，然後開啟 [資料橫條]。 選取 [進階控制]，然後為正值橫條設定較淡的色彩。 選取 [確定]。 
 
-1. 增加 Sales Amount 資料行的寬度，使其覆蓋整個區域。 
+1. 增加 [銷售量] 資料行的寬度，使其涵蓋整個區域，方法是拖曳矩陣。
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-add-databars.png" alt-text="包含 Sales Amount 資料橫條的矩陣。":::
 

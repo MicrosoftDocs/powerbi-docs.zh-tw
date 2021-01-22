@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
-ms.translationtype: HT
+ms.openlocfilehash: 1ed6da298645de77a4ddfc7cba2fde9c89c30f0f
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999076"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687319"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服務的「新外觀」
 
@@ -70,5 +70,4 @@ Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視�
 ## <a name="next-steps"></a>後續步驟
 
 - [使用 Power BI Desktop 中已更新的功能區](../create-reports/desktop-ribbon.md)
-- [加入工作區「新外觀」](../collaborate-share/service-workspaces-new-look.md)
 - [取用者適用的 Power BI](end-user-consumer.md)

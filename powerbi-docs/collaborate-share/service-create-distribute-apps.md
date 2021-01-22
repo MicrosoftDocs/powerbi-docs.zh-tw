@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
-ms.translationtype: HT
+ms.openlocfilehash: 77f206ef59a4aa082e04053d28567480f4d01bb0
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110904"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687252"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -207,7 +207,7 @@ ms.locfileid: "98110904"
 * 權限頁面不會變更其他工作區的資料集權限。 您會看到一則警告，提醒您單獨授與這些資料集的存取權。 最佳做法是先連絡資料集擁有者，再開始建置應用程式，以確保應用程式的所有使用者都能存取這些資料集。 
 * 在應用程式的存取清單中，您最多可以有 100 個使用者或群組。 不過，您可以讓超過 100 個使用者存取該應用程式。 若要這麼做，請使用一或多個包含所有所需使用者的使用者群組。
 * 針對新的工作區體驗，如果新增至應用程式存取清單的使用者已經可以透過工作區存取應用程式，他們就不會顯示在應用程式的存取清單中。  
-* 使用 Power BI 服務的新外觀時，項目資訊卡會顯示支援的網站 URL。 深入了解 [Power BI 的「新外觀」](../consumer/service-new-look.md)。
+* [支援網站 URL] 會顯示在 [專案資訊卡] 中。
 * 應用程式可選擇是否允許使用者使用共用權限來共用應用程式及應用程式的基礎資料集。 根據預設，新應用程式會關閉此選項。 建議關閉現有應用程式的這個選項，並更新基礎資料集的權限。 現有的應用程式之所以啟用此選項，是因為應用程式一開始即是設計來取代具有此行為的內容套件。
 * 應用程式最多可以有 200 個儀表板。 
 

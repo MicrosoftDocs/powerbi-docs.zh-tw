@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: b94d943c54ade1f3a18e496ecae8235e47553059
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227023"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687388"
 ---
 # <a name="export-reports-to-powerpoint"></a>將報表匯出至 PowerPoint
 
@@ -37,8 +37,6 @@ ms.locfileid: "98227023"
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>將 Power BI 報表匯出至 PowerPoint
 在 **Power BI 服務** 中，選取要顯示在畫布上的報表。 您也可以從瀏覽窗格的 [首頁]、[應用程式] 或任何其他容器中選取報表。
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 當畫布上顯示想要匯出至 PowerPoint 的報表時，請從功能表列選取 [檔案] > [匯出至 PowerPoint]。
 
@@ -89,9 +87,7 @@ ms.locfileid: "98227023"
 當您使用 [匯出至 PowerPoint] 功能時，需牢記幾項考量與限制。
  
 
-* 如果看不到 [匯出] 選項，請確定已開啟「新外觀」，且正在檢視報表 (而不是儀表板)。
-
-    ![[新外觀] 切換的螢幕擷取畫面](media/end-user-powerpoint/power-bi-new-look.png)
+* 如果您看不到 [ **匯出** ] 選項，請確定您正在查看 (不是儀表板) 的報表。
 
 * 當您針對匯出選擇 [目前的值] 時，目前不適用 [URL 篩選](../collaborate-share/service-url-filters.md)。
 

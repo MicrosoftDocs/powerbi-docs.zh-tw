@@ -8,14 +8,14 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 01/20/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ce463cb82fec7da8d7ec43db7914fb028368bc3
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.openlocfilehash: e708e5001e49841d01b60cfc8712d37b990102f2
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621249"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687112"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 透過 [使用 Excel 分析]，即可將 Power BI 資料集帶入 Excel 中，然後使用樞紐分析表、圖表、交叉分析篩選器和其他 Excel 功能加以查看並進行互動。 若要使用 [使用 Excel 分析]，則必須先從 Power BI 下載此功能、加以安裝，然後選取要在 Excel 中使用的一或多個資料集。 
@@ -34,11 +34,11 @@ ms.locfileid: "97621249"
 
 ## <a name="install-analyze-in-excel"></a>安裝 [使用 Excel 分析]
 
-您必須從 Power BI 服務中提供的連結安裝 [使用 Excel 分析]。 Power BI 會偵測您在電腦上擁有的 Excel 版本，並自動下載適當的版本 (32 位元或 64 位元)。 Power BI 服務是在瀏覽器中執行的。 您可使用下列連結登入 Power BI：
+您必須從 Power BI 服務中提供的連結安裝 [使用 Excel 分析]。 Power BI 會偵測您在電腦上擁有的 Excel 版本，並自動下載適當的版本 (32 位元或 64 位元)。 您可以使用下列連結登入 Power BI 服務：
 
 * [登入 Power BI](https://app.powerbi.com)
 
-當登入且 Power BI 服務在瀏覽器中執行之後，請選取右上角的 [更多選項] 項目 (...)，然後選取 [下載] > [使用 Excel 分析更新]。 這個功能表項目適用於 [使用 Excel 分析] 更新的新安裝。
+當您登入且 Power BI 服務在瀏覽器中執行時，請在右上角選取 [...] ) 的 [ **更多 (選項** ]，然後選取 [ **下載] > 在 Excel 更新中進行分析**]。 這個功能表項目適用於 [使用 Excel 分析] 更新的新安裝。
 
 ![從 Power BI 首頁下載 [使用 Excel 分析]](media/service-analyze-in-excel/analyze-excel-02.png)
 
@@ -160,23 +160,24 @@ Excel 檔案的 MSOLAP 連接字串會連接到您在 Power BI 中資料集。 �
 您也可以在 [資料類型] 資源庫中，存取 Excel 的 **精選資料表**。 若要深入了解精選資料表及其存取方式，請參閱[在 Excel 中存取 Power BI 的精選資料表 (預覽)](service-excel-featured-tables.md)。
 
 ## <a name="requirements"></a>需求
-使用 [使用 EXCEL 分析] 有幾項要求：
+以下是使用 [ **在 Excel 中進行分析**] 的一些需求：
 
 * Microsoft Excel 2010 SP1 和更新版本支援 [使用 EXCEL 分析]。
-
 * Excel 樞紐分析表不支援數值欄位的拖放功能彙總。 您在 Power BI 中的資料集 *必須有預先定義的量值* 。 深人了解[建立量值](../transform-model/desktop-measures.md)。
 * 某些組織可能會有防止安裝 [使用 EXCEL 分析] 必要更新的群組原則規則。 如果您無法安裝更新，請洽詢您的系統管理員。
 * **使用 Excel 分析** 需要資料集位於 Power BI Premium 中，或使用者具有 Power BI Pro 授權。 若要深入了解授權類型之間的功能差異，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」一節。
-* 使用者若有基礎資料集的權限，就能透過 [使用 Excel 分析] 連線到資料集。  使用者有多種方式可取得此權限，例如在包含資料集的工作空間擁有成員角色、與使用資料集的人共用報表或儀表板，或在包含該資料集的工作空間或應用程式中擁有資料集建置權限。 深入了解資料集的[建置權限](../connect-data/service-datasets-build-permissions.md)。
-* 來賓使用者無法針對傳送自 (源自) 另一個租用戶的資料集使用 [使用 Excel 分析]。 
-* [使用 Excel 分析] 是 Power BI 服務的功能，Power BI 報表伺服器或 Power BI Embedded 不提供此功能。 
+* 使用者若有基礎資料集的權限，就能透過 [使用 Excel 分析] 連線到資料集。  使用者可以透過數種方式取得此許可權，例如在包含資料集的工作區中擁有成員角色，或在工作區中或包含資料集的應用程式中擁有資料集的組建許可權。 深入了解資料集的[建置權限](../connect-data/service-datasets-build-permissions.md)。
+* 來賓使用者無法使用 [ **在 Excel 中進行分析** ]，針對從另一個租使用者) 的 (所傳送的資料集。 
+* [**在 Excel 中進行分析**] 是 Power BI 服務的功能，Power BI 報表伺服器或 Power BI Embedded 中無法使用。 
 * 只有執行 Microsoft Windows 的電腦才支援 [使用 Excel 分析]。
 
 
-若使用者需要解除安裝 [使用 Excel 分析] 功能，則可使用 Windows 電腦上的 [新增或移除程式] 系統設定來執行這項作業。
+如果您需要卸載 [ **在 Excel 中進行分析** ] 功能，請使用電腦上的 [ **新增或移除程式** ] 系統設定。
 
-## <a name="troubleshooting"></a>疑難排解
-有時候使用 [使用 EXCEL 分析] 可能會取得非預期的結果，或功能無法如您預期般運作。 [此頁面可提供使用 [使用 Excel 分析] 時的常見問題解決方案](desktop-troubleshooting-analyze-in-excel.md)。
+## <a name="limitations-and-considerations"></a>限制與考量
+
+- 支援在 Excel 中進行分析的資料列層級安全性 (RLS) 。 RLS 是在資料模型層級強制執行，而且一律會套用至所有存取報表資料的使用者。 閱讀有關資料 [列層級安全性](../admin/service-admin-rls.md)的詳細資訊。
+- 有時候使用 [使用 EXCEL 分析] 可能會取得非預期的結果，或功能無法如您預期般運作。 如需常見問題的解決方案，請參閱 [疑難排解 Excel 中的分析](desktop-troubleshooting-analyze-in-excel.md) 。
 
 ## <a name="next-steps"></a>後續步驟
 

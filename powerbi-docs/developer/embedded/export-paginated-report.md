@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 42f110356c891235d17810dbb1f220f0a006c066
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 4096ba77bc8733ff2e3d24cd646aa480aa53819d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887078"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687526"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>將分頁報表匯出至檔案 (預覽)
 
@@ -122,6 +122,41 @@ ms.locfileid: "97887078"
       }
 }
 ```
+
+### <a name="single-sign-on-sql-and-dataverse-sso"></a>單一登入 SQL 和 Dataverse (SSO) 
+
+在 Power BI 中，您可以選擇使用 SSO 設定 OAuth。 當您這樣做時，用來查看報表的使用者認證會用來取出資料。 Requrest 標頭中的存取權杖不會用來存取資料，您必須使用 post 主體中的有效身分識別傳入權杖。
+
+存取權杖會讓存取權杖變得令人困惑，以取得您想要存取之資源的正確存取權杖。 
+- 針對 Azure SQL，資源為 https://database.windows.net
+- 針對 Dataverse，資源是您環境的 HTTPs://位址。 範例 https://contoso.crm.dynamics.com
+
+[在此](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet)存取權杖 API
+
+以下範例提供具有存取權杖的有效使用者名稱。
+
+```json
+{
+       "format":"PDF",
+       "paginatedReportConfiguration":{
+          "formatSettings":{
+             "AccessiblePDF":"true",
+             "PageHeight":"11in",
+             "PageWidth":"8.5in",
+             "MarginBottom":"2in"
+          },
+          "identities":[
+             {
+                "username":"john@contoso.com",
+                "identityBlob": {
+                "value": "eyJ0eX....full access token"
+         }
+        }
+     ]
+   }
+}
+```
+
 ## <a name="ppu-concurrent-requests"></a>PPU 並行要求數
 使用 [Premium Per User (PPU)](../../admin/service-premium-per-user-faq.md) 時，`exportToFile` API 允許在五分鐘時間範圍內發出一個要求。 若五分鐘時間範圍內有多個 (多於一個) 要求，將會導致「太多要求」(429) 錯誤。
 

@@ -11,12 +11,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/14/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 8da3446814d2c356acb24100eaa03df23be8f567
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: d61ed128827572198e24bb8f31e190f328e273ff
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416776"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687556"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服務中的設計工具基本概念
 
@@ -218,7 +218,7 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 一旦您開始輸入問題，問與答就會帶您前往問與答的頁面。 您在輸入時，問與答會以修改措辭、自動填入、建議及更多方式，協助您詢問適當的問題並找尋最佳解答。 如果有您喜歡的視覺效果 (解答)，請予以釘選到您的儀表板中。 如需詳細資訊，請參閱 [Power BI 中的問與答](../consumer/end-user-q-and-a.md)。
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4.**黑色標題列中的圖示**
-右上角的圖示為您的資源，可供您設定、通知、下載、取得說明、開啟或關閉 **新外觀**，並將意見反應提供給 Power BI 小組。  
+右上角的圖示為您的資源，可供您設定、通知、下載、取得說明，並將意見反應提供給 Power BI 小組。  
 
 ![Power B I 服務的螢幕擷取畫面，其中顯示圖示按鈕。](media/service-basic-concepts/power-bi-icons.png)
 
