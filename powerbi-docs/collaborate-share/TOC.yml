@@ -25,8 +25,6 @@
           items:
             - name: 建立新的工作區
               href: service-create-the-new-workspaces.md
-            - name: 加入工作區的新外觀
-              href: service-workspaces-new-look.md
             - name: 升級傳統工作區
               href: service-upgrade-workspaces.md
             - name: 建立傳統工作區

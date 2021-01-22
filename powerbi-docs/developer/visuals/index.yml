@@ -1,6 +1,6 @@
 ### YamlMime:Landing
-title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的 Power BI 視覺效果文件
-summary: 開發自己的 Power BI 視覺效果，以供您、貴組織或整個 Power BI 社群使用。 我們的文件提供您所需的資訊。 使用 Power BI 內嵌式分析，取得更佳的內嵌 BI 見解。
+title: Power BI 視覺效果文件
+summary: 開發自己的 Power BI 視覺效果，以供您、貴組織或整個 Power BI 社群使用。 我們的文件提供您所需的資訊。
 metadata:
   title: Power BI 視覺效果文件
   description: 開發自己的 Power BI 視覺效果，以供您、貴組織或整個 Power BI 社群使用。 我們的文件提供您所需的資訊。
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 79d5b385bab83d07423184518a00106f660b8d68
-  ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+  ms.openlocfilehash: b2b7a23174b4790232139ae6137d518d8578d8d1
+  ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 01/07/2021
-  ms.locfileid: "97969389"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "98687434"
 landingContent:
 - title: 開始使用
   linkLists:
