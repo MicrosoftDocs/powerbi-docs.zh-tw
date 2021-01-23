@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
-ms.translationtype: HT
+ms.openlocfilehash: 09e215dbb32dcb93b2ae8ca51953eb636e1aad81
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961216"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718477"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 
@@ -23,6 +23,10 @@ ms.locfileid: "97961216"
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>「高可用性」對 Power BI 來說代表什麼？
 
 Power BI 是完全受控的軟體即服務 (SaaS)。  Microsoft 設計和操作此功能以從基礎結構失敗中復原，讓使用者一律能夠存取他們的報表。  [高達 99.9% 的 SLA](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 支援此服務。
+
+Power BI 使用 **Azure 可用性區域** 來保護 Power BI 的報表、應用程式和資料不受資料中心失敗影響，並且會自動套用並用於 Power BI。 可用性區域是 Azure 區域內的錯誤隔離位置，可在具有多餘電力、冷卻和網路功能的 Azure 區域中提供三個或更多相異和唯一的位置。 可用性區域可讓 Power BI 的客戶執行任務關鍵性應用程式，並提供更高的可用性和容錯能力來處理資料中心失敗。 可用性區域讓客戶能夠透過服務的冗余和邏輯隔離來承受資料中心失敗。 
+
+如需 **可用性區域** 的詳細資訊，請參閱下列文章，其中詳細說明 [Azure 中的區域和可用性區域](https://docs.microsoft.com/azure/availability-zones/az-overview)。
 
 ## <a name="what-is-a-power-bi-failover"></a>什麼是 Power BI 容錯移轉？
 
