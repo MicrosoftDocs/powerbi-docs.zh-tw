@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 00c375267ceaede23b317fb71d76e31e4ae66a83
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0c13d0f54d18527e6b8614f40b5b15fd46187968
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408634"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718500"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>將 Power BI 服務授權提供給組織中的使用者
 
@@ -69,7 +69,7 @@ ms.locfileid: "96408634"
 
 具有免費及 Pro 個別使用者授權的 Power BI 授權，只能使用共用且受限的容量來處理內容。 如果內容儲存在該共用容量中，則獲指派 Power BI Pro 授權的使用者只能與其他 Power BI Pro 使用者共同作業。 他們可以取用其他使用者所共用的內容、將內容發佈到應用程式工作區、共用儀表板，以及訂閱儀表板和報表。  當工作區在 Premium 容量中時，Pro 使用者可將內容散發給沒有 Power BI Pro 授權的使用者。
 
-使用 Premium Per User 授權時，由具有 Premium Per User 授權的使用者所建立的內容，只能與其他具有 Premium 授權的使用者共用，除非該內容是特別置於裝載在 Premium 容量上的工作區中。 下表摘要說明每個授權類型的基本功能。 如需每一授權類型的詳細功能可用性明細，請參閱[依授權類型排列的功能](../fundamentals/service-features-license-type.md)。
+使用 Premium Per User 授權時，由具有 Premium Per User 授權的使用者所建立的內容，除非特別將該內容放置於裝載在 Premium 容量上的工作區中，否則就只能與其他具有 Premium 授權的使用者共用。 下表摘要說明每個授權類型的基本功能。 如需每一授權類型的詳細功能可用性明細，請參閱[依授權類型排列的功能](../fundamentals/service-features-license-type.md)。
 
 | 授權類型 | 工作區在共用容量中時的功能 | 工作區在 Premium 容量中時的額外功能 |
 | --------- | ----------- | ----------- |
@@ -121,7 +121,7 @@ Power BI Pro 具有與 Microsoft 365 相同的授權生命週期。 如需詳細
 
 Power BI 已推出 Power BI Premium Gen2 作為預覽供應項目，其能透過對下列領域的改進來改善 Power BI Premium 體驗：
 * 效能
-* 個別使用者授權
+* 每位使用者授權。 如需詳細資訊，請參閱「 [每位使用者的 PREMIUM 常見問題](service-premium-per-user-faq.md) 」。
 * 範圍更大的擴縮
 * 改善的計量
 * 自動調整

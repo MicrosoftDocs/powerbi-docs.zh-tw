@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/22/2019
-ms.openlocfilehash: eb06bc41aaaeea9790c34bb808548506963b8cb8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
-ms.translationtype: HT
+ms.date: 01/22/2021
+ms.openlocfilehash: 50c89bdaa47aa8a687178a33627cf9148720acf2
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861835"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718569"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 報表伺服器中的資料列層級安全性 (RLS)
 
@@ -95,6 +95,7 @@ ms.locfileid: "90861835"
 
 報表作者要在上傳報表後，跟著將角色指派給自己，才有權檢視 Power BI 報表伺服器中的報表資料。 
 
+只有當 Power BI 報表伺服器設定為以 NTLM 或 Kerberos 驗證執行時，才支援透過群組成員資格指派角色。 使用自訂驗證或 Windows Basic 執行的伺服器需要明確指派給角色的使用者。
  
 
 ## <a name="faq"></a>常見問題集 
