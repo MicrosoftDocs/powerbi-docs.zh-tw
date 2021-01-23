@@ -7,25 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/10/2020
+ms.date: 01/21/2021
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
-ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
-ms.translationtype: HT
+ms.openlocfilehash: 4fd953eac998e954579af83f2acec975f66e7436
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97353097"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687020"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Power BI Premium 中的大型資料集
 
-Power BI 資料集可將資料儲存在高度壓縮的記憶體內部快取中，以獲得最佳化的查詢效能，讓使用者能夠快速互動。 使用 Premium 容量時，您可透過 [大型資料集儲存格式] 設定，啟用超過預設 10 GB 限制的大型資料集。 啟用時，資料集大小會受限於 Premium「容量」大小或系統管理員所設定的大小上限。
+Power BI 資料集可將資料儲存在高度壓縮的記憶體內部快取中，以獲得最佳化的查詢效能，讓使用者能夠快速互動。 使用 Premium 容量時，您可以使用 **大型資料集儲存格式** 設定來啟用超過預設限制的大型資料集。 啟用時，資料集大小會受限於 Premium「容量」大小或系統管理員所設定的大小上限。
 
 您可為所有 Premium P SKU 和 Embedded A SKU 啟用大型資料集。 Premium 的大型資料集大小限制，相當於 Azure Analysis Services 的資料模型大小限制。
 
 除了需要有大型資料集儲存格式才能讓資料集成長到超過 10 GB 之外，啟用此設定還有其他優點。 如果打算使用 XMLA 端點型工具進行資料集寫入作業，請務必啟用此設定，即使是對不一定描述為「大型」資料集的資料集也一樣。 啟用時，大型資料集儲存格式可提升 XMLA 寫入作業效能。
 
-服務中的大型資料集不會影響 Power BI Desktop 模型上傳大小 (仍限制為 10 GB)。 相反地，在重新整理時，服務中的資料集可成長到超過 10 GB。
+服務中的大型資料集不會影響 Power BI Desktop 模型上傳大小 (仍限制為 10 GB)。 相反地，在重新整理時，資料集的成長可能會超出服務的限制。
+
+> [!IMPORTANT]
+> Power BI Premium 支援大型資料集。 啟用 **大型資料集儲存格式** 選項，以在 Power BI Premium 中使用大於預設限制的資料集。 
+
 
 ## <a name="enable-large-datasets"></a>啟用大型資料集
 

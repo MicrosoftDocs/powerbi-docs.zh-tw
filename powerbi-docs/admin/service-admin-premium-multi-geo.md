@@ -7,31 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 01/20/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: b0132996be1ed70f228ce96d413c4925dc1a3e48
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
-ms.translationtype: HT
+ms.openlocfilehash: f68c01e503400b83fe3e0488fdc49e15f55d7067
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512761"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687043"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>設定 Power BI Premium 的多地理位置支援
 
-多地理位置是一項 Power BI Premium 功能，可協助跨國客戶滿足區域性、產業特有或組織的資料落地需求。 身為 Power BI Premium 客戶，您可以將內容部署到 Power BI 租用戶主要區域以外區域內的資料中心。 一個地理位置可以包含多個區域。 例如，美國是一個地理位置，而美國中西部和美國中南部是美國境內的區域。 您可以選擇將內容部署到下列任何地理位置：
+多地理位置是一項 Power BI Premium 功能，可協助跨國客戶滿足區域性、產業特有或組織的資料落地需求。 身為 Power BI Premium 客戶，您可以將內容部署到 Power BI 租用戶主要區域以外區域內的資料中心。 一個地理位置可以包含多個區域。 例如，美國是一個地理位置，而美國中西部和美國中南部是美國境內的區域。 您可以選擇將內容部署至下列任何地理位置， (地區) 定義于 [Azure 地理位置對應](https://azure.microsoft.com/global-infrastructure/geographies/)中。
 
-- 美國
-- 加拿大
-- 英國
-- 巴西
-- 歐洲
-- 日本
-- 印度
-- 亞太地區
-- 澳洲
-- 非洲
+主權雲端在該雲端內跨區域支援多個地理位置。
 
-多地理位置不適用於 Power BI Germany、由 21Vianet 經營的 Power BI China 或 US Gov 的 Power BI。
+> [!NOTE]
+> 中國北部目前不支援 premium gen2 容量的多地理位置。
 
 您現在也可以在 Power BI Embedded 中找到多地理位置功能。 如需詳細資訊，請參閱 [Power BI Embedded 中的多地理位置支援](../developer/embedded/embedded-multi-geo.md)。
 
