@@ -62,6 +62,8 @@
           href: create-an-azure-active-directory-tenant.md
         - name: 註冊應用程式
           href: register-app.md
+        - name: 監視 Power BI Embedded
+          href: monitor-power-bi-embedded.md
         - name: 取得 Azure AD 存取權杖
           href: get-azuread-access-token.md
         - name: 內嵌問與答
@@ -94,6 +96,8 @@
               href: /rest/api/power-bi-embedded/
             - name: Power BI REST API
               href: /rest/api/power-bi/
+        - name: 監視 Power BI Embedded 資料參考
+          href: monitor-power-bi-embedded-reference.md
         - name: Power BI 程式庫
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Azure CLI
