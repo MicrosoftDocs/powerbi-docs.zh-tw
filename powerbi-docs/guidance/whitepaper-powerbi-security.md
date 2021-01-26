@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 5cee5dd701f7ac40b3f363e1bdcee039037fcde9
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: f46da004e554027eae1943444bdcf40791d6c76e
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565123"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781606"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -87,7 +87,7 @@ Power BI 使用兩個主要的存放庫來存放及管理資料：使用者上�
 
 例如，當使用者將 Excel 活頁簿匯入 Power BI 服務時，會建立記憶體內部的 Analysis Services 表格式資料庫，而資料存放在記憶體內部不超過一小時 (或直到系統發生記憶體不足的壓力)。 資料也會傳送至 **Azure BLOb** 儲存體。
 
-有關使用者 Power BI 訂用帳戶的中繼資料，例如儀表板、報表、最近使用的資料來源、工作區、 組織資訊，租用戶資訊，以及有關系統的其他中繼資料，都存放在 **Azure SQL Database** 中並予以更新。 存放在 Azure SQL Database 中的所有資訊，使用 [Azure SQL 的透明資料加密](/azure/sql-database/transparent-data-encryption-azure-sql) (TDE) 技術完整加密。 所有存放在 Azure BLOb 儲存體中的資料也予以加密。 如需載入、存放及移動資料的程序詳細資訊，請參閱＜資料儲存和移動＞一節。
+有關使用者 Power BI 訂用帳戶的中繼資料，例如儀表板、報表、最近使用的資料來源、工作區、 組織資訊，租用戶資訊，以及有關系統的其他中繼資料，都存放在 **Azure SQL Database** 中並予以更新。 存放在 Azure SQL Database 中的所有資訊，使用 [Azure SQL 的透明資料加密](/azure/sql-database/transparent-data-encryption-azure-sql) (TDE) 技術完整加密。 儲存在 Azure Blob 儲存體中的所有資料也會加密。 如需載入、存放及移動資料的程序詳細資訊，請參閱＜資料儲存和移動＞一節。
 
 ## <a name="tenant-creation"></a>建立租用戶
 
@@ -107,7 +107,7 @@ Power BI 租使用者會在視為最接近國家/地區 (或) 區域的資料中
 
 - 遠端查詢執行層裝載于遠端容量區域，以確保資料模型、快取和大部分的資料處理都會保留在遠端容量區域中。 有一些例外狀況，如 [Power BI Premium 一文的多地理](../admin/service-admin-premium-multi-geo.md) 位置所述。
 - 快取的查詢文字和儲存在遠端區域中的對應結果將會保留在該區域中，但傳輸中的其他資料可能會在多個地理位置之間來回移動。
--  (上傳) 到 Power BI 服務多地理位置容量的 .PBIX 或 .XLSX 檔案，可能會導致複本暫時儲存在 Power BI 的租使用者區域中的 Azure Blob 儲存體。 在這種情況下，資料會使用 Azure 儲存體服務加密 (SSE) 進行加密，並且在檔案內容處理和傳送至遠端區域完成時，立即將複本排程為垃圾收集。 
+-  (上傳) 到 Power BI 服務多地理位置容量的 .PBIX 或 .XLSX 檔案，可能會導致複本暫時儲存在 Power BI 租使用者區域 Azure Blob 儲存體中。 在這種情況下，資料會使用 Azure 儲存體服務加密 (SSE) 進行加密，並且在檔案內容處理和傳送至遠端區域完成時，立即將複本排程為垃圾收集。 
 - 在多地理位置環境中跨區域移動資料時，會在7-30 天內刪除來源區域中的資料實例。 
 
 ### <a name="datacenters-and-locales"></a>資料中心和地區設定
@@ -205,7 +205,7 @@ DirectQuery 和其他查詢之間的差異決定 Power BI 服務處理待用資�
 
     a. 針對 Analysis Services 內部部署，除了在 Azure SQL 中儲存加密之資料庫的參考外，服務中不儲存任何內容。
 
-    b. ETL、DirectQuery 和推送資料的所有其他中繼資料都會加密並儲存在 Azure Blob 儲存體中。
+    b. ETL、DirectQuery 和推送資料的所有其他中繼資料都會經過加密，並儲存在 Azure Blob 儲存體中。
 
 1. 原始資料來源的認證
   
@@ -226,19 +226,19 @@ DirectQuery 和其他查詢之間的差異決定 Power BI 服務處理待用資�
 
     a. 內部部署和 DirectQuery 的 Analysis Services – Power BI 服務中不存放任何內容。
 
-    b. ETL – 在 Azure Blob 儲存體中加密，但目前 Power BI 服務之 Azure Blob 儲存體中的所有資料都使用 [Azure 儲存體服務加密 (SSE)](/azure/storage/common/storage-service-encryption)，也稱為伺服器端加密。 多地理位置也使用 SSE。
+    b. ETL-在 Azure Blob 儲存體中加密，但目前在 Power BI 服務 Azure Blob 儲存體中的所有資料都會使用 [Azure 儲存體服務加密 (SSE) ](/azure/storage/common/storage-service-encryption)，也稱為伺服器端加密。 多地理位置也使用 SSE。
 
-    c. 推送資料 v1 – 在 Azure Blob 儲存體中儲存加密，但目前 Power BI 服務之 Azure Blob 儲存體中的所有資料都使用 [Azure 儲存體服務加密 (SSE)](/azure/storage/common/storage-service-encryption)，也稱為伺服器端加密。 多地理位置也使用 SSE。 推送資料 v1 自2016起停止。 
+    c. 推送資料 v1 –儲存在 Azure Blob 儲存體中加密，但目前在 Power BI 服務中 Azure Blob 儲存體的所有資料都會使用 [Azure 儲存體服務加密 (SSE) ](/azure/storage/common/storage-service-encryption)，也稱為伺服器端加密。 多地理位置也使用 SSE。 推送資料 v1 自2016起停止。 
 
     d. 推送資料 v2 – 在 Azure SQL 儲存加密。
 
-Power BI 使用用戶端的加密方法，利用加密區塊鏈結 (CBC) 模式和進階加密標準 (AES) 來加密其 Azure Blob 儲存體。 您可以[深入了解用戶端加密](/azure/storage/common/storage-client-side-encryption)。
+Power BI 使用用戶端加密方法，使用加密區塊連結 (CBC) 模式搭配 advanced encryption standard (AES) ，以加密其 Azure Blob 儲存體。 您可以[深入了解用戶端加密](/azure/storage/common/storage-client-side-encryption)。
 
 Power BI 以下列方式提供資料完整性監視：
 
 * 針對 Azure SQL 中的待用資料，Power BI 會使用 dbcc、TDE 和常數的頁面總和檢查碼作為 SQL 原生供應項目的一部分。
 
-* 針對 Azure Blob 儲存體中的待用資料，Power BI 會使用用戶端加密和 HTTPS 將資料傳輸至儲存體，此儲存體會在資料擷取期間檢查完整性。 您可以[深入了解 Azure Blob 儲存體安全性](/azure/storage/blobs/security-recommendations)。
+* 針對 Azure Blob 儲存體中的待用資料，Power BI 使用用戶端加密和 HTTPS 將資料傳輸到儲存體中，其中包含在抓取資料期間的完整性檢查。 您可以 [深入瞭解 Azure Blob 儲存體安全性](/azure/storage/blobs/security-recommendations)。
 
 #### <a name="reports"></a>報表
 
@@ -256,7 +256,7 @@ Power BI 以下列方式提供資料完整性監視：
 
     &ensp;&ensp;答： 若是使用 Excel 針對 Microsoft 365 所建立的報表，則不會儲存任何專案。
 
-    &ensp;&ensp;b。 Power BI 報表的靜態資料會在 Azure Blob 儲存體中儲存加密。
+    &ensp;&ensp;b。 針對 Power BI 報表，會儲存靜態資料，並在 Azure Blob 儲存體中加密。
 
 3. 快取
 
@@ -267,13 +267,13 @@ Power BI 以下列方式提供資料完整性監視：
 
 4. 發佈到 Power BI 的原始 Power BI Desktop (.pbix) 或 Excel (.xlsx) 檔案
 
-    有時候 .xlsx 或 .pbix 檔案的複本或陰影複製會儲存在 Power BI 的 Azure Blob 儲存體中，而發生此情形時，會加密資料。 所有儲存在 Power BI 服務 Azure Blob 儲存體中的這類報表，都使用 [Azure 儲存體服務加密 (SSE)](/azure/storage/common/storage-service-encryption)，也稱為伺服器端加密。 多地理位置也使用 SSE。
+    有時候 .xlsx 或 .pbix 檔案的複本或陰影複製會儲存在 Power BI 的 Azure Blob 儲存體中，當發生這種情況時，資料就會加密。 所有儲存在 Power BI 服務中的這類報表（在 Azure Blob 儲存體中）都會使用 [Azure 儲存體服務加密 (SSE) ](/azure/storage/common/storage-service-encryption)，也稱為伺服器端加密。 多地理位置也使用 SSE。
 
 #### <a name="dashboards-and-dashboard-tiles"></a>儀表板和儀表板磚
 
 1. 快取–儀表板上的視覺效果所需的資料通常會被快取，並儲存在下一節所述的視覺化資料快取中。 其他磚，例如從 Excel 或 SQL Server Reporting Services (SSRS) 釘選的視覺效果，則儲存在 Azure Blob 作為映像，也會加密。
 
-2. 靜態資料：包含 Azure Blob 儲存體中儲存、加密的背景影像和 Power BI 視覺效果等構件。
+2. 靜態資料：包含背景影像等成品，以及在 Azure Blob 儲存體中儲存、加密 Power BI 的視覺效果。
 
 無論使用何種加密方法，Microsoft 都會代表客戶管理金鑰加密。
 
@@ -452,13 +452,13 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **有其他 Power BI 視覺效果會在客戶網路外傳送資訊嗎？**
 
-* 可以。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
+* 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
 
 **針對範本應用程式，Microsoft 是否會在將專案發行至資源庫之前，對範本應用程式執行任何安全性或隱私權評定？**
 * 否。 應用程式發行者負責處理內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
 
 **是否有範本應用程式可以將資訊傳送到客戶網路之外？**
-* 可以。 客戶必須負責檢查發行者的隱私權原則，並判斷是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
+* 是。 客戶必須負責檢查發行者的隱私權原則，並判斷是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
 
 **什麼是資料主權？我們可以在位於特定地理位置的資料中心布建租使用者，以確保資料不會離開國家/地區框線？**
 

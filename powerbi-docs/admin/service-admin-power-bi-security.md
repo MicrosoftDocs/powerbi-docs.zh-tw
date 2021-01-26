@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
-ms.translationtype: HT
+ms.openlocfilehash: b21443fd334e465ca5ced3efd00fe66828367615
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961147"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780921"
 ---
 # <a name="power-bi-security"></a>Power BI 安全性
 
@@ -39,7 +39,7 @@ Power BI 服務是建置在 Microsoft 的雲端運算基礎結構和平台 **Azu
 
 ## <a name="data-storage-security"></a>資料儲存安全性
 
-Power BI 使用兩個主要的儲存機制來儲存及管理資料：使用者上傳的資料通常會傳送至 **Azure BLOB** 儲存體，而所有中繼資料及系統本身的成品則會儲存在 **Azure SQL Database** 中。
+Power BI 會使用兩個主要儲存機制來儲存和管理資料：從使用者上傳的資料通常會傳送至 **Azure Blob 儲存體**，而且所有中繼資料以及系統本身的成品都會儲存在 **Azure SQL Database** 中。
 
 上方 **後端** 叢集圖片中的虛線清楚劃分了使用者能夠存取的唯二元件 (虛線左側)，以及只有系統可以存取的角色。 當已驗證的使用者連接到 Power BI 服務時，會由 **閘道角色** (最終由 **Azure API 管理** 來操控) 接受及管理用戶端所進行的連接和任何要求，該角色接著會代表使用者與 Power BI 服務的其餘部分互動。 例如，當用戶端嘗試檢視儀表板時， **閘道角色** 會接受該要求，然後另外傳送要求給 **簡報角色** ，以擷取瀏覽器呈現儀表板所需的資料。
 

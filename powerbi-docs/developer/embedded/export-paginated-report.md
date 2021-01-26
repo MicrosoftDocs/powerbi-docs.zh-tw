@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 4096ba77bc8733ff2e3d24cd646aa480aa53819d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687526"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781525"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>將分頁報表匯出至檔案 (預覽)
 
@@ -127,11 +127,12 @@ ms.locfileid: "98687526"
 
 在 Power BI 中，您可以選擇使用 SSO 設定 OAuth。 當您這樣做時，用來查看報表的使用者認證會用來取出資料。 Requrest 標頭中的存取權杖不會用來存取資料，您必須使用 post 主體中的有效身分識別傳入權杖。
 
-存取權杖會讓存取權杖變得令人困惑，以取得您想要存取之資源的正確存取權杖。 
-- 針對 Azure SQL，資源為 https://database.windows.net
-- 針對 Dataverse，資源是您環境的 HTTPs://位址。 範例 https://contoso.crm.dynamics.com
+存取權杖會讓存取權杖變得令人困惑，因為它會取得您想要存取之資源的正確存取權杖。
 
-[在此](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet)存取權杖 API
+- 針對 Azure SQL，資源為 `https://database.windows.net` 。
+- 針對 Dataverse，資源是 `https://` 您環境的位址。 例如 `https://contoso.crm.dynamics.com`。
+
+使用 [AuthenticationCoNtext. AcquireTokenAsync](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync) 方法存取權杖 API。
 
 以下範例提供具有存取權杖的有效使用者名稱。
 

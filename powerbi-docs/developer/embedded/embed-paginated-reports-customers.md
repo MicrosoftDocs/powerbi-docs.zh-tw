@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: b9623b91555efe01817e4ffca3c6f80bd73c5243
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
-ms.translationtype: HT
+ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110881"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781634"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式
 
-使用 **Azure 中的 Power BI Embedded** 或 **內嵌在 Office 的 Power BI**，可利用應用程式擁有的資料，將編頁報表內嵌至應用程式。 **應用程式擁有的資料** 即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV** 或 **開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中編頁報表的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 本教學課程示範如何使用 Power BI .NET SDK 搭配 Power BI JavaScript API，將編頁報表整合至應用程式。
+使用 **Azure 中的 Power BI Embedded** 或 **內嵌在 Office 的 Power BI**，可利用應用程式擁有的資料，將編頁報表內嵌至應用程式。 **應用程式擁有的資料** 即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV** 或 **開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中編頁報表的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 本教學課程示範如何使用 Power BI .NET SDK 搭配 Power BI 用戶端 Api，將編頁報表整合至應用程式。
 
 ![Power BI 內嵌報表](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
@@ -58,16 +58,10 @@ ms.locfileid: "98110881"
 * **Power BI Premium** - 若要內嵌編頁報表，需要 *P* SKU 容量。 內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買容量。 此訂用帳戶會使用 *A* SKU。 若要內嵌編頁報表，您至少需要一個 *A4* 訂用帳戶。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 
-    >[!NOTE]
-    >Power BI Embedded 最近發行了稱為 **Embedded Gen2** 的新版本。 Embedded Gen2 可簡化內嵌容量的管理，並改善 Power BI Embedded 體驗。 如需詳細資訊，請參閱 [Power BI Embedded 第 2 代](power-bi-embedded-generation-2.md)。
-
 下表說明每個 SKU 的資源和限制。 若要判斷最符合需求的容量，請參閱[我該為案例購買哪一種 SKU](./embedded-faq.md#which-solution-should-i-choose) 資料表。
 
 | 容量節點 | V 核心總數 | 後端 V 核心 | RAM (GB) | 前端 V 核心 | 
 | --- | --- | --- | --- | --- |
-| A1 搭配 [Embedded Gen2](power-bi-embedded-generation-2.md) | 1 | 0.5 | 2.5 | 0.5 |
-| A2 搭配 [Embedded Gen2](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
-| A3 搭配 [Embedded Gen2](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -249,7 +243,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>建立內嵌權杖
 
-產生可從 JavaScript API 使用的內嵌權杖。 若要為內嵌 Power BI 編頁報表建立內嵌權杖，請使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) \(英文\) API。
+產生可從 Power BI embedded analytics 用戶端 Api 使用的內嵌權杖。 若要為內嵌 Power BI 編頁報表建立內嵌權杖，請使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) \(英文\) API。
 
 您可以在 [範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples) \(英文\) 的 *Services\EmbedService.cs* 檔案內取得建立內嵌權杖的範例。
 
@@ -270,11 +264,11 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-### <a name="load-an-item-using-javascript"></a>使用 JavaScript 載入項目
+### <a name="load-an-item-using-the-client-apis"></a>使用用戶端 Api 載入專案
 
-您可以使用 JavaScript 將編頁報表載入網頁上的 div 元素中。
+您可以使用 Power BI embedded analytics 用戶端 Api，將編頁報表載入網頁上的 div 元素中。
 
-如需使用 JavaScript API 的完整範例，您可以使用[測試網工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 遊樂場工具是一個可測試不同類型 Power BI Embedded 範例的快速方式。 您也可以瀏覽 [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 頁面，取得 JavaScript API 的詳細資訊。
+如需使用用戶端 API 的完整範例，您可以使用 [遊樂場工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 遊樂場工具是一個可測試不同類型 Power BI Embedded 範例的快速方式。 您也可以造訪 [Power BI embedded Analytics 用戶端 api](/javascript/api/overview/powerbi/) 頁面，取得 Power BI 內嵌式分析用戶端 api 的詳細資訊。
 
 ## <a name="next-steps"></a>後續步驟
 

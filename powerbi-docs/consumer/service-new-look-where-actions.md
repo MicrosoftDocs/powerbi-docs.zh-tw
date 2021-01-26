@@ -7,18 +7,18 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 1/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 46d7c0247cfd644b9a085862bbf7d0d41557a371
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415120"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780827"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>「新外觀」：動作跑到哪裡了？
 
-Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視報表並與其互動。 因此，許多功能表動作已移動。 此文章中的表格將就位置對應到新位置。 如需背景資訊，請參閱 [Power BI 服務的「新外觀」](service-new-look.md)。
+Power BI 服務 (app.powerbi.com) 已移至新外觀，讓您更輕鬆地查看報表並與之互動。 因此，許多功能表動作已移動。 如果您的組織已將移至新外觀，但您比較熟悉舊的外觀，本文將協助您找出您的方式。 此文章中的表格將就位置對應到新位置。 
 
 要尋找 **Power BI Desktop** 中新外觀的相關資訊嗎？ 請參閱[使用 Power BI Desktop 中已更新的功能區](../create-reports/desktop-ribbon.md)。
 
@@ -70,7 +70,3 @@ Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視�
 | 重新整理儀表板磚 | 功能表列 [更多] 選項 (...) > 重新整理儀表板 | 重新整理視覺效果 (右側) |
 | 效能檢查 | 功能表列 [更多] 選項 (...) > 效能檢查 | [檔案] > [效能檢查] |
 | 設定 | 功能表列 [更多] 選項 (...) > 設定 | [檔案] > [設定] |
-
-## <a name="next-steps"></a>後續步驟
-
-[Power BI 服務的「新外觀」](service-new-look.md)

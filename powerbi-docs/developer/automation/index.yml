@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Power BI 內嵌式分析中，提供更佳內嵌 BI 見解的 Power BI 自動化文件
+title: Power BI 自動化文件
 summary: 使用 Power BI 自動化，您可以在 Power BI 物件 (例如報表、資料集與工作區) 上執行管理工作。
 metadata:
   title: Power BI 自動化文件
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: def78e481474b7186457d019404f4604406ce967
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-  ms.translationtype: HT
+  ms.openlocfilehash: eb357c5a89afec8f42b86ec80bca688e37101322
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97887584"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781537"
 landingContent:
 - title: 開始使用
   linkLists:
@@ -39,6 +39,12 @@ landingContent:
       url: walkthrough-push-data-add-rows.md
     - text: 教學課程：自動化範本應用程式設定
       url: ../template-apps/template-apps-auto-install-tutorial.md
+- title: 用戶端 API
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Power BI embedded analytics 用戶端 Api
+      url: /javascript/api/overview/powerbi/
 - title: 使用資料
   linkLists:
   - linkListType: concept

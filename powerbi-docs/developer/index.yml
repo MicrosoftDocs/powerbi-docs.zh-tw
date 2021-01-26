@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: Power BI 內嵌式分析中，用於取得更佳內嵌 BI 見解的 Power BI 開發人員文件
+title: Power BI 開發人員文件
 summary: 身為 Power BI 開發人員，您可以內嵌 Power BI 內容、開發 Power BI 的視覺效果，並將 Power BI 程序自動化。
 brand: power-bi
 metadata:
@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 701f9e5e02d8b8cb8d019deebd9ae226560e07df
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-  ms.translationtype: HT
+  ms.openlocfilehash: 51bd353206d605cd0627e10e226d0950adf8de0f
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97885675"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781465"
 highlightedContent:
   items:
   - title: 搭配 Power BI 使用內嵌式分析
@@ -30,6 +30,9 @@ highlightedContent:
   - title: Power BI 的視覺效果
     itemType: overview
     url: visuals/power-bi-custom-visuals.md
+  - title: Power BI embedded analytics 用戶端 Api
+    itemType: whats-new
+    url: /javascript/api/overview/powerbi/
   - title: 自動化範本應用程式設定
     itemType: concept
     url: template-apps/template-apps-auto-install.md
@@ -105,6 +108,6 @@ additionalContent:
     - title: 遊樂場
       summary: 嘗試功能並探索 API。
       url: https://aka.ms/pbieplayground
-    - title: JavaScript Wiki
-      summary: 探索 JavaScript 知識庫。
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - title: Power BI embedded analytics 用戶端 Api
+      summary: 探索 Power BI embedded analytics 用戶端 Api。
+      url: /javascript/api/overview/powerbi/

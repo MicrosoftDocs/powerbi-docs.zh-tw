@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: a4de20cdd11170b7782c4891b11bde48081fdd55
-  ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
-  ms.translationtype: HT
+  ms.openlocfilehash: 16fa5ae23127c2ebfc1057d1a55129396fbac9c3
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 01/22/2021
-  ms.locfileid: "98687503"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781491"
 landingContent:
 - title: 開始使用
   linkLists:
@@ -29,6 +29,12 @@ landingContent:
       url: azure-pbie-what-is-power-bi-embedded.md
     - text: 常見問題集
       url: embedded-faq.md
+- title: 用戶端 API
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Power BI embedded analytics 用戶端 Api
+      url: /javascript/api/overview/powerbi/
 - title: 內嵌報表或儀表板
   linkLists:
   - linkListType: tutorial
@@ -79,5 +85,5 @@ landingContent:
       url: https://www.nuget.org/profiles/powerbi
     - text: 遊樂場
       url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
-    - text: JavaScript Wiki
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - text: Power BI embedded analytics 用戶端 Api
+      url: /javascript/api/overview/powerbi/
