@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
-ms.date: 07/08/2020
+ms.date: 01/13/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 04777ba93b6a4639b55406b3952a80de963cb540
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417121"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861207"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>教學課程：開始在 Power BI 服務中建立
 本教學課程是 *Power BI 服務* 的部分功能簡介。 您會在本課程中連接資料、建立報表和儀表板，並詢問資料的相關問題。 您可以在 Power BI 服務中執行更多動作；本教學課程僅為了提高您的興趣。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，建議您參閱[什麼是 Power BI](power-bi-overview.md)。
@@ -40,7 +40,7 @@ ms.locfileid: "96417121"
 
 ## <a name="step-1-get-data"></a>步驟 1：取得資料
 
-一般來說，當您想要建立 Power BI 報表時，您會從 Power BI Desktop 開始。 Power BI Desktop 提供更多功能。 您可先轉換、塑造及為資料建立模型，再開始設計報表。 但這一次，我們會從頭開始在 Power BI 服務中建立報表。
+通常，當您想要建立 Power BI 報表時，會從 Power BI Desktop 開始。 Power BI Desktop 提供更多功能。 您可以先轉換、塑造和模型資料，然後再開始設計報表。 但這一次，我們會從頭開始在 Power BI 服務中建立報表。
 
 在本教學課程中，我們會從簡易的 Microsoft Excel 檔案取得資料。 想要跟著做嗎？ [下載財務範例檔案](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
@@ -223,6 +223,8 @@ ms.locfileid: "96417121"
 4. 選取 [刪除]。
 
 ## <a name="next-steps"></a>後續步驟
+
+[將資料貼入 Power BI 服務，以快速建立報表](https://powerbi.microsoft.com/en-us/blog/quickly-create-reports-power-bi-service/)
 
 探索 Power BI 的 Microsoft Learn 內容系列：
 

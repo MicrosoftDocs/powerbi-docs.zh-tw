@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 01/05/2020
+ms.date: 01/25/2021
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: 8305d4662da9f4f7b8a5cce2b3badf5e70e88bc5
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969578"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861299"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -174,12 +174,6 @@ Premium Per User 是以個別使用者為基礎對 Premium 功能進行授權的
     ![啟用例外設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 下面幾節將提供不同類型的租用戶設定概觀。
-
-## <a name="tenant-wide-new-look-settings"></a>全租用戶的新外觀設定
-
-停用 [新外觀] 選項時，此組織中使用者可開啟和關閉 Power BI 的新外觀。 當啟用 [新外觀] 選項時，此組織中「所有」使用者始終都會看到 Power BI 新外觀的新式控制項。 其再也無法關閉新外觀。 [新外觀] 選項預設為啟用。
-
-:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="管理入口網站中停用 [新外觀] 選項的螢幕擷取畫面。":::
 
 ## <a name="help-and-support-settings"></a>說明及支援設定
 

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 01/15/2021
+ms.date: 01/26/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 2710143ddd0474e38e7c0c1e6f82ba9c3d1fbba3
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565423"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861230"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>監視傳統工作區中的使用計量
 
@@ -157,12 +157,12 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供與 Po
 
 * 因為網路連線不一致、廣告封鎖程式或其他可能中斷從用戶端傳送事件的問題，所以使用計量有時可能會低估活動。
 * 如本文稍早所述，特定類型的檢視未包含在使用計量中。
-* 在用戶端重新整理但並不需將要求傳送回 Power BI 服務的情況下，使用計量可能有時會高估活動數目。
+* 在用戶端重新整理但並不需將要求傳送回 Power BI 服務的情況下，使用計量可能有時會高估活動數目。 例如，切換報表頁面不會將報表載入至伺服器的要求，因為頁面定義已在瀏覽器中。
 * 已針對使用計量報表停用「共用」。 若要為使用者授與報表的讀取權限，您必須先為其授與工作區的存取權。
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>REST API 與使用計量之間的差異
 
-Power BI [報表 REST API](/rest/api/power-bi/reports) 與 [管理員 REST API](/rest/api/power-bi/admin) 也會使用 Power BI 服務資料。 基於上一節所述的原因，來自 API 的報表計數 (報表數目) 可能與使用計量中的報表計數不同。 衍生自 API 的報表計數不會受到用戶端問題的影響，應視為正確。
+Power BI [報表 REST API](/rest/api/power-bi/reports) 與 [管理員 REST API](/rest/api/power-bi/admin) 也會使用 Power BI 服務資料。 基於上一節所述的原因，來自 API 的報表計數 (報表數目) 可能與使用計量中的報表計數不同。 衍生自 API 的報表計數不會受到用戶端問題的影響，應視為正確。 另請注意，系統管理員 Api 會提供您 Power BI 部署的「目前狀態」，並只考慮要求時存在的內容。 傳統使用計量報表有90天的資料，而「總計數」則代表在90天內看到的獨特報表。 如果報表在查看之後遭到刪除，系統管理員 Api 不會計算這些報告，但會在送出使用量報表的歷程記錄資料中計算。
 
 ### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>Private Link 不支援傳統使用計量 
 

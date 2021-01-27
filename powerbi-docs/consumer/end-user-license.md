@@ -8,15 +8,15 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 11/16/2020
+ms.date: 01/25/2021
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 852ac027903dc974e84691dc714a7e7e220dd36d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: a3492383d5341518de178419afe29df1af8fa26b
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390441"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861253"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>「商務使用者」的授權和訂閱
 
@@ -36,60 +36,65 @@ ms.locfileid: "96390441"
 
 ## <a name="licenses"></a>授權
 
-每位 Power BI 服務的使用者若非具有「免費」授權，就是使用 *Pro* 授權。 若您是 Power BI 的「商務使用者」，可能會使用由 Power BI 系統管理員所管理的免費授權。
+Power BI 服務的每個使用者都有一個「高階」*每一使用者** 授權的 *免費* 授權（ *Pro* 授權）。 若您是 Power BI 的「商務使用者」，可能會使用由 Power BI 系統管理員所管理的免費授權。
 
 您可能同時擁有多個授權。  此服務一律會提供與您目前所有最寬鬆授權相等的體驗。
 
-## <a name="power-bi-premium-capacity"></a>Power BI Premium 容量
+## <a name="power-bi-premium-capacity-subscription"></a>Power BI Premium 容量訂用帳戶
 
-Premium 是組織所使用的訂用帳戶，可提供不同的方式來儲存內容 (儲存在容量中)。 無論是組織內部或外部使用者，只要具有 Premium 權限，則無須購買個人的 Power BI Pro 授權，即可檢視存放在 Premium 容量中的內容。 
+Premium 是組織 *訂* 用帳戶，可提供不同的方式來儲存內容，也就是在稱為 *容量* 的虛擬容器中。 在 Premium 容量中，不論許可權是在組織內部或外部的任何人，都可以查看儲存在此 Premium 容量中的內容，而不需購買個別的 Power BI Pro 或 Premium 的每個使用者授權。 
 
-Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並不需要 Pro 授權。 內容設計師需要 Pro 授權。 設計師可以連線到資料來源、建立資料模型，然後建立封裝成工作區應用程式的報表與儀表板。 只要使用者獲指派 Power BI Premium 容量中[工作區的角色](end-user-workspaces.md)，即使沒有 Pro 授權仍然可加以存取。
+Premium 容量可讓 Pro 使用者廣泛地散發內容，而不需要為查看內容的收件者提供 Pro 授權。 在 Premium 容量中建立內容的人會使用 Pro 授權連接到資料來源、建立資料模型，以及建立儲存至 Premium 容量中工作區的報表和儀表板。 只要使用者獲指派 Power BI Premium 容量中[工作區的角色](end-user-workspaces.md)，即使沒有 Pro 授權仍然可加以存取。 如果工作區擁有者會根據該工作區中的內容建立應用程式，則沒有 Pro 授權的使用者仍然可以在 Premium 容量中看到該應用程式，只要他們已獲得該應用程式的許可權即可。 
 
 在那些工作區中，設計師會指派角色，例如，**檢視者**、**參與者**、**成員** 與 **系統管理員**。 這些角色會決定每位同事能與內容互動的範圍。 如需詳細資訊，請參閱[工作區權限與角色。](end-user-workspaces.md) 
+
+當設計工具建立併發布應用程式時，會將存取權授與整個組織或個人。 您可以與應用程式內容互動的範圍取決於指定給您的特定存取權限。 例如，您可能會獲得存取權來查看應用程式、連接到基礎資料集、建立報表的複本，或共用內容。
 
 如需 Premium 容量的詳細資訊，請參閱[什麼是 Microsoft Power BI Premium？](../admin/service-premium-what-is.md)。
 
 ## <a name="find-out-which-licenses-you-have"></a>了解您擁有的授權
-選取您的設定檔圖片以顯示帳戶資訊。 Zalan 使用免費授權。 
+選取您的設定檔圖片以顯示帳戶資訊。 Zalan 使用免費授權。 其他類型的授權為：**每位使用者** 的 **Pro** 和 Premium。 
 
 ![當您按一下設定檔圖片時出現之下拉式清單的螢幕擷取畫面](media/end-user-license/power-bi-profiles.png)
 
 
-若要查看有關您帳戶的其他詳細資料，請選取 [檢視帳戶]。 [您的 Microsoft [我的帳戶] 頁面](https://portal.office.com/account)會在新的瀏覽器索引標籤中開啟。查看指派給您的授權。  選取 [訂閱] 索引標籤。
+若要查看有關您帳戶的其他詳細資料，請選取 [檢視帳戶]。 
 
-![Microsoft 365 [帳戶] 頁面的螢幕擷取畫面。](media/end-user-license/power-bi-subscriptions.png)
+<!-- [Your Microsoft **My account** page](https://portal.office.com/account) opens in a new browser tab.  To see what licenses are assigned to you.  Select the tab for  **Subscriptions**.
 
+![Screenshot of Microsoft 365 Accounts page.](media/end-user-license/power-bi-subscriptions.png)
 
+This first user, Pradtanna, has Office 365 E5, which includes a Power BI Pro license.
 
+![Office portal subscriptions tab showing Office 365 E5 subscription](media/end-user-license/power-bi-license-office.png)
 
-第一位使用者 Pradtanna 具有 Office 365 E5，其中包含 Power BI Pro 授權。
+This second user, Zalan, has a Power BI free license. 
 
-![顯示 Office 365 E5 訂閱的 Office 入口網站訂閱](media/end-user-license/power-bi-license-office.png)
+![Office portal subscriptions tab](media/end-user-license/power-bi-license-free.png) 
 
-第二位使用者 Zalan 具有 Power BI 免費授權。 
+## Find out if you have access to Premium capacity
 
-![Office 入口網站 [訂用帳戶] 索引標籤](media/end-user-license/power-bi-license-free.png)
+Next, check to see if you're part of an organization that has Premium capacity. Either of the users above, Pro or free, could belong to an organization that has Premium capacity.  Let's check for our second user, Zalan.  
 
-## <a name="find-out-if-you-have-access-to-premium-capacity"></a>了解您是否有權存取 Premium 容量
+We can determine whether Zalan's organization has Premium capacity by looking up the amount of storage available. 
 
-接下來，確認您是否為擁有 Premium 容量之組織的一員。 上述使用者無論使用 Pro 或免費授權，都可能屬於擁有 Premium 容量的組織。  讓我們看看第二位使用者 Zalan。  
+- In the Power BI service, select **My workspace** and then select the cog icon from the upper right corner. Choose **Manage personal storage**.
 
-我們可以藉由查詢可用的儲存區數量，判斷 Zalan 的組織是否擁有 Premium 容量。 
+    ![Cog Settings menu displays](media/end-user-license/power-bi-license-personal.png)
 
-- 在 Power BI 服務中，選取 [我的工作區]，然後選取右上角的齒輪圖示。 選擇 [管理個人儲存體]。
+    If you see more than 10 GB, then you're a member of an organization that has a Premium subscription. The image below shows that Zalan's organization has up to 100 GB of storage. Zalan, personally, doesn't own 100GB as indicated by the heading **Owned by us**.  
 
-    ![隨即顯示 [齒輪設定] 功能表](media/end-user-license/power-bi-license-personal.png)
+    ![Manage storage showing 100 GB](media/end-user-license/power-bi-free-capacity.png)
 
-    若顯示的容量超過 10 GB，便表示您是擁有 Premium 訂用帳戶之組織的成員。 下圖顯示 Zalan 所屬組織擁有的儲存體高達 100 GB。  
+    Notice that a Pro user has already shared a workspace with Zalan. The diamond icon shows that this workspace is stored in Premium capacity. 
 
-    ![管理顯示 100 GB 的儲存體](media/end-user-license/power-bi-free-capacity.png)
+    If you see any amount of storage, the words **Pro user** next to your name, and the heading **Owned by me**, then you have a Premium per-user license.  
 
-請注意，Pro 使用者已與 Zalan 共用工作區。 鑽石圖示顯示此工作區儲存在 Premium 容量中。 
+    -->
 
 ## <a name="identify-content-hosted-in-premium-capacity"></a>找出裝載在 Premium 容量中的內容
 
-另一種確認您組織是否擁有 Premium 容量的方式，就是尋找標示有鑽石圖示的應用程式與應用程式工作區。 鑽石圖示表示此內容儲存在 Premium 容量中。 
+有幾種方式可以識別儲存在 Premium 容量中的內容。 其中一種方式是尋找具有鑽石圖示的應用程式和應用程式工作區。 鑽石圖示表示此內容儲存在 Premium 容量中。 
 
 在下圖的應用程式中，有三個儲存在 Premium 容量中。
 
@@ -99,21 +104,21 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 ## <a name="putting-it-all-together"></a>總整理
 
-當組織購買 Premium 訂閱時，系統管理員通常會將 Pro 授權指派給會在 Premium 容量中建立及共用內容的員工。 Pro 使用者會建立[工作區](end-user-workspaces.md)，並將內容 (儀表板、報表、應用程式) 新增至那些工作區。 為讓免費使用者也能在這些工作區中共同作業，系統管理員或 Pro 使用者可以將工作區指派至「容量」。  
+組織有許多不同的方式可組織其 Power BI 訂用帳戶和授權。 從 *商務使用者* 的觀點來看，其中一個最常見的案例是當組織購買 Premium 訂用帳戶時，系統管理員會將 Pro 授權指派給一群使用者，而其他所有使用者則使用免費授權。 系統管理員通常會將 Pro 授權指派給將會建立及共用內容的員工。 Pro 使用者可以建立 [工作區](end-user-workspaces.md) ，並將內容 (儀表板、報表、資料集、應用程式) 到這些工作區。 若要允許免費使用者在這些工作區中共同作業，系統管理員或 Pro 使用者接著將工作區指派給 *Premium 容量*。  
 
-|授權類型  |共用容量 | 進階容量  |
+|授權類型  |不在 Premium 容量中 | 進階容量  |
 |---------|---------|---------|
-|**免費**     |  作為個人沙箱來使用，在其中建立您自己的內容並與該內容互動。 免費授權是試用 Power BI 服務的絕佳方式。 您無法取用他人的內容，也無法與他人共用您的內容 <sup>1</sup>     |   與指派至 Premium 容量並與您共用的內容互動。 免費使用者無須擁有 Pro 帳戶，就能與 Pro 使用者共同作業。      |
-|**Pro**     |  藉由建立及共用內容來和其他 Pro 使用者共同作業。        |  藉由建立及共用內容來和免費使用者與其他 Pro 使用者共同作業。       |
+|**免費**     |  以個人沙箱的形式使用，您可以在其中建立自己的內容，並與該內容互動。 免費授權是試用 Power BI 服務的絕佳方式。 您無法取用他人的內容，也無法與他人共用您的內容 <sup>1</sup>     |   與指派至 Premium 容量並與您共用的內容互動。 免費、高階的每位使用者和專業使用者可以共同作業，而不需要免費的使用者擁有 Pro 帳戶。      |
+|**Pro**     |  藉由建立和共用內容，與 Premium 每位使用者和專業使用者共同作業。        |  藉由建立和共用內容，與免費、高階的每位使用者和 Pro 使用者共同作業。       |
 
 
 <sup>1</sup> 請參閱[考量與疑難排解](#considerations-and-troubleshooting)。
 
 在下列圖表中，左側代表在應用程式工作區中建立及共用內容的 Pro 使用者。
 
-- **工作區 A** 是建立在不具 Premium 容量的組織中。
+- 未在 Premium 容量中建立 **工作區 A** 。
 
-- **工作區 B** 是在擁有 Premium 訂用帳戶的組織中建立的。 該工作區儲存在容量中。 此工作區標示有鑽石圖示。  
+- **工作區 B** 已建立並儲存在 Premium 容量中。 此工作區標示有鑽石圖示。  
 
     ![三個工作區的影像](media/end-user-license/power-bi-dedicated.jpg)
 
@@ -123,7 +128,7 @@ Power BI Pro 的「設計師」可在這些工作區中的任一個工作區內�
 
 - 您可以同時擁有多個 Power BI 授權。 Power BI 服務提供給您的體驗，以您擁有的授權中，條件最佳者為準。 例如，若您同時擁有 Pro 授權與免費授權，Power BI 服務將會使用 Pro 授權。
 
-- 如果您想要建立並共用內容 (儀表板、報表、應用程式)，或開啟其他人與您共用的內容，則需要有 Pro 使用者授權。 您可以註冊 Power BI Pro 的 60 天個人免費試用版。 當您想要使用 Pro 功能時，可以隨時選取出現在 Power BI 服務中的升級對話方塊。
+- 如果您想要建立和共用內容 (儀表板、報表、應用程式) 或其他人與您共用的內容，則您需要擁有 Pro 使用者授權或每位使用者的 Premium。 您可以註冊 Power BI Pro 的 60 天個人免費試用版。 當您想要使用 Pro 功能時，可以隨時選取出現在 Power BI 服務中的升級對話方塊。
 
     ![內附 Pro 試用版連結的對話方塊](media/end-user-license/power-bi-trial.png)
 

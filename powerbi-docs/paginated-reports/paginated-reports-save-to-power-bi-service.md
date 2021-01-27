@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 28058161672de9db0cac5093e652e1d551f6a80a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
-ms.translationtype: HT
+ms.date: 01/25/2021
+ms.openlocfilehash: bbe88b206c4c07e2e296b9c85d46be7901f5972a
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297332"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861276"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>將編頁報表發佈至 Power BI 服務
 
@@ -27,7 +27,7 @@ ms.locfileid: "93297332"
 
 如果工作區的名稱旁邊沒有鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ，則您需要將該工作區新增至 Premium 容量。 
 
-1. 選取 [工作區]、選取工作區名稱旁邊的省略符號 **...** ，然後選取 [編輯工作區]。
+1. 選取 [工作區]、選取工作區名稱旁邊的省略符號 **...**，然後選取 [編輯工作區]。
 
     ![選取 [編輯工作區]](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
@@ -37,17 +37,17 @@ ms.locfileid: "93297332"
 
    您可能無法變更它。 如果沒有，則連絡您的 Power BI Premium 容量管理員，以為您提供指派權限來將您的工作區新增至 Premium 容量。
 
-## <a name="from-report-builder-publish-a-paginated-report"></a>從報表產生器發佈編頁報表
+## <a name="from-report-builder-publish-a-paginated-report-to-the-power-bi-service"></a>從 Report Builder 將編頁報表發佈至 Power BI 服務
 
-1. 在報表產生器中建立編頁報表，然後將它儲存到本機電腦。
+1. 建立新的編頁報表，或從 Report Builder 的 Power BI 服務中開啟現有的編頁報表。 如果您從服務開啟現有的編頁報表，則會停用 [ **儲存** ] 選項，因為您正在更新 Power BI 服務中的即時報表。
 
-1. 在報表產生器的 [檔案] 功能表上，選取 [另存新檔]。
+1. 在 **Report Builder 的** [檔案] 功能表上，選取 [ **發行**]。
 
-    ![檔案功能表 > 儲存 > 另存新檔](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+    ![選取 [檔案] 功能表，然後按一下 [發佈]。](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
 
     如果您尚未登入 Power BI，您必須立即登入或建立帳戶。 在報表產生器的右上角，選取 [登入] 並完成相關步驟。
 
-2. 在左側工作區清單中，選取其名稱旁邊具有鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 的工作區。 在方塊中輸入 **檔案名稱** ，然後按一下 [儲存]。 
+2. 在左側工作區清單中，選取其名稱旁邊具有鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 的工作區。 在方塊中輸入 **檔案名稱**，然後按一下 [儲存]。 
 
     ![選取 Premium 工作區](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
 
