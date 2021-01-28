@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: a50a8c8514a4316f16a6a38647804aabf878d5ad
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969159"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925679"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>如何在 Power BI 中套用敏感度標籤
 
@@ -95,7 +95,7 @@ Microsoft 資訊保護提供報表、儀表板、資料集、資料流程與 .pb
 ![Desktop 狀態列中敏感度標籤的螢幕擷取畫面。](media/service-security-apply-data-sensitivity-labels/sensitivity-label-in-desktop-status-bar.png)
 
 ### <a name="sensitivity-labels-when-uploading-or-downloading-pbix-files-tofrom-the-service"></a>將 .pbix 檔案上傳到服務或從服務下載 .pbix 檔案時採用的敏感度標籤
-* 當您從 Desktop 將 .pbix 檔案發佈到 Power BI 服務，或透過 [取得資料] 直接將 .pbix 檔案上傳到 Power BI 服務時，.pbix 檔案的標籤會套用至服務中所建立的報表與資料集。 如果您發佈或上傳的 .pbix 檔案取代了現有資產 (例如名稱與 .pbix 檔案相同的資產)，則 .pbix 檔案的標籤將會覆寫那些資產上的任何標籤。
+* 當您從 Desktop 將 .pbix 檔案發佈到 Power BI 服務，或透過 [取得資料] 直接將 .pbix 檔案上傳到 Power BI 服務時，.pbix 檔案的標籤會套用至服務中所建立的報表與資料集。 如果您發佈或上傳的 .pbix 檔案取代了現有資產 (例如名稱與 .pbix 檔案相同的資產)，則 .pbix 檔案的標籤將會覆寫那些資產上的任何標籤。 如果 .pbix 檔案未標記，將會保留服務中的標籤。
 * 如果在 Power BI 服務中使用 [下載至 .pbix] 時所下載的報表與資料集擁有不同的標籤，則系統會為 .pbix 檔案套用限制較嚴格的標籤。
 
 ## <a name="remove-sensitivity-labels"></a>移除敏感度標籤

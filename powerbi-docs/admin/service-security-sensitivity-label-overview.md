@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: df109f279a43826e164a461ae213bc74c0498cea
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 52c3d5dea171f34fbbe5133eda6fd51fd471bbd4
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565048"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925664"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI 中的敏感度標籤
 
@@ -202,6 +202,8 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 * [匯出為 PDF] 不支援敏感度標籤。 將擁有敏感度標籤的檔案匯出至 PDF 時，PDF 將無法接收到標籤，也不會套用保護。
 
 * Power BI Desktop 中的資訊保護不支援 **B2B** 與 **多租用戶情境**。
+
+* 如果您以未標記的 .pbix 檔案覆寫服務中已加上標籤的資料集或報表，則會保留服務中的標籤。
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -9,12 +9,12 @@ ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
-ms.openlocfilehash: 32d42ee139ceb03326b99d88e6033475ed2a4cc7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: ce45260c536733dde9dcfe7c654ed4f56c58c7ea
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416235"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925756"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 報表產生器
 
@@ -22,7 +22,7 @@ ms.locfileid: "96416235"
 
 Power BI 報表產生器是用於撰寫可以發佈到 Power BI 服務之分頁報表的工具。  當您設計分頁報表時，您將建立報表定義來指定要擷取的資料、何處取得資料及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您會在報表產生器中預覽報表。 然後將報表發佈至 Power BI 服務。
  
-準備好開始撰寫了嗎？ 從 Microsoft 下載中心[安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)。
+準備好開始撰寫了嗎？ 從 Microsoft 下載中心[安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)。
 
 想要從影片學習嗎？ 請參閱[影音課程：Power BI 編頁報表一日上手](../learning-catalog/paginated-reports-online-course.md)。
 

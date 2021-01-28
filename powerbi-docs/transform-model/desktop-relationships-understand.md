@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 0f9edc247401ccf72ec1a5b0aebb5b3a074a5494
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888556"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925719"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop 中的模型關聯性
 
@@ -53,7 +53,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 ### <a name="cardinality"></a>基數
 
-每個模型關聯性都必須定義基數類型。 有四個基數類型選項，代表「從」和「到」相關資料行的資料特性。 「一」端表示資料行包含唯一值；「二」端表示資料行可以包含重複的值。
+每個模型關聯性都必須定義基數類型。 有四個基數類型選項，代表「從」和「到」相關資料行的資料特性。 「一」端表示資料行包含唯一值;「多」端表示資料行可以包含重複的值。
 
 > [!NOTE]
 > 如果資料重新整理作業嘗試將重複的值載入至「一」端資料行，則整個資料重新整理將會失敗。
