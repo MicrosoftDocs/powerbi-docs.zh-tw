@@ -7,33 +7,98 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/30/2020
-ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
-ms.translationtype: HT
+ms.date: 01/27/2021
+ms.openlocfilehash: 0a0bef5c438abfc9ddf0417e95ff57534a64f67e
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120753"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043569"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
-了解最新版 Power BI 報表伺服器的新功能，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop。 本文涵蓋主要功能範圍，且會隨著每個新版本而更新。 如需 Power BI 報表伺服器新功能的詳細資訊，請參閱 [Power BI 報表伺服器的變更記錄](changelog.md)。
+瞭解最新版本的 Power BI 報表伺服器的新功能，以及 Power BI 報表伺服器的 Power BI Desktop。 本文涵蓋主要功能範圍，且會隨著每個新版本而更新。 如需 Power BI 報表伺服器新功能的詳細資訊，請參閱 [Power BI 報表伺服器的變更記錄](changelog.md)。
 
-下載 [Power BI 報表伺服器和針對 Power BI 報表伺服器最佳化的 Power BI Desktop](https://powerbi.microsoft.com/report-server/)。
+下載 [Power BI 報表伺服器的 Power BI 報表伺服器和 Power BI Desktop](https://powerbi.microsoft.com/report-server/)。
+
+## <a name="january-2021"></a>2021 年 1 月
+
+以下是新功能和更新功能的清單。 如需詳細資訊，請參閱 [2021 年1月的 Power BI 報表伺服器 blog 文章](https://powerbi.microsoft.com/blog/power-bi-report-server-january-2021-feature-summary/)。
+
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>適用於 Power BI 報表伺服器的 Power BI Desktop
+
+以下是一些新功能的重點。
+
+**Power BI 報表**
+
+- 套用所有篩選器現已正式推出
+- 視覺縮放滑杆
+- Web 連線的憑證撤銷檢查
+- 行動版面配置視圖中的選取窗格
+- Power BI 支援的 ArcGIS
+
+**資料連線**
+
+- Hive LLAP 連接器已正式推出
+- 新的連接器： Actian、Anaplan、爆炸 Presto
+
+### <a name="new-connection-metadata-format-preview"></a>新的連接元資料格式 (預覽) 
+
+我們已更新連接中繼資料在10月以 .pbix 檔案格式儲存的方式。 此更新是長期旅程的一部分，可讓 .pbix 檔案更能以程式設計的方式存取及編輯。 我們已在 Power BI Desktop 版本中啟用每月發行的變更，這是 Power BI 服務的行。 我們即將在此版本的報表伺服器 Power BI Desktop 中預覽變更，從本月開始。
+
+從這個版本開始，您會看到下列通知，提示您開啟預覽版並升級為增強格式：
+
+「即將推出--開啟增強的元資料格式預覽，以取得更佳的效能和安全性更新 Power BI。」
+
+請注意：
+
+- 即使不升級，現有的資料集仍會繼續運作。 當增強型格式正式推出時，它們就會升級。
+- 報表伺服器的 Power BI Desktop 會自動將現有的資料集升級為增強型格式。 如果您想要還原為先前的格式，建議您不要使用此升級版本覆寫報表伺服器上現有的報表。
+- 加入此預覽是選擇性的，雖然我們建議您試用，並提供您的意見反應給我們！ 我們的目標是要讓增強型格式在下一版的報表伺服器中正式成為唯一的選項。
+ 
+以系統管理員身分，您可以停用此預覽、強制關閉 V3，並隱藏 [預覽功能] 核取方塊。 在登錄： AllowV3Models 中的下列任一項中，將下列 DWORD 值設定為0：
+
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop SSRS]
+"AllowV3Models"=dword:00000000
+```
+
+或
+
+```
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop SSRS]
+"AllowV3Models"=dword:00000000
+```
+
+如需詳細資訊，請參閱 [使用增強型資料集中繼資料](../connect-data/desktop-enhanced-dataset-metadata.md) 。
+
+### <a name="power-bi-report-server"></a>Power BI 報表伺服器
+
+**瀏覽器支援淘汰**
+
+如果您使用的是 Edge 舊版或 Internet Explorer 11，則可以升級您的瀏覽器。 Edge 舊版瀏覽器的支援將于2021年3月9日結束。 從2021年8月17日開始，Internet Explorer 11 的支援結束。 
+
+您會在 Power BI 報表伺服器入口網站中看到 Internet Explorer 11 即將淘汰的警告。 升級的時間！ 如需詳細資訊，請參閱 [Power BI 報表伺服器的瀏覽器支援](browser-support.md) 。
+
+**新產品圖示**
+
+Power BI 報表伺服器有新的產品圖示，以保持在所有 Microsoft 產品上推出的新圖示。
+
+:::image type="content" source="media/whats-new/power-bi-report-server-new-logo.png" alt-text="Power BI 報表伺服器新的標誌。":::
 
 ## <a name="october-2020"></a>2020 年 10 月
 
 接下來是新增和更新功能的完整清單。 如需詳細資料，請參閱 [Power BI 報表伺服器 2020 年 10 月的部落格文章](https://powerbi.microsoft.com/blog/power-bi-report-server-october-2020-feature-summary/)。 
 
-### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>針對 Power BI 報表伺服器最佳化的 Power BI Desktop
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>適用於 Power BI 報表伺服器的 Power BI Desktop
 
 以下是一些新功能的重點。
 
 **新式功能區**  
 
-針對 Power BI 報表伺服器最佳化的 Power BI Desktop 已推出新式功能區。 我們會繼續新增項目，並在功能區中新增更多功能。 請參閱[使用 Power BI Desktop 中已更新的功能區](../create-reports/desktop-ribbon.md)，以深入了解其變更和優點。
+新式功能區對於 Power BI 報表伺服器 Power BI Desktop。 我們會繼續新增項目，並在功能區中新增更多功能。 請參閱[使用 Power BI Desktop 中已更新的功能區](../create-reports/desktop-ribbon.md)，以深入了解其變更和優點。
 
-:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="針對 Power BI 報表伺服器最佳化的 Power BI Desktop 新式功能區螢幕擷取畫面。":::
+:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="Power BI Desktop 中 Power BI 報表伺服器的新功能區螢幕擷取畫面。":::
 
 **階層交叉分析篩選器**
 
@@ -44,13 +109,13 @@ ms.locfileid: "96120753"
 - 子項目的可自訂縮排。
 - 進一步自訂交叉分析篩選器的標頭文字。
 
-:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="針對 Power BI 報表伺服器最佳化的 Power BI Desktop 階層交叉分析篩選器。":::
+:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="Power BI 報表伺服器 Power BI Desktop 中的階層交叉分析篩選器。":::
 
 如需詳細資料，請參閱文件中 [Power BI 的交叉分析篩選器](../visuals/power-bi-visualization-slicers.md)。
 
 **增強行動版撰寫體驗** 
 
-我們在這個版本中引進改善的行動裝置版面配置撰寫體驗和其他行動裝置版面配置功能。 隨著採用 Power BI 行動裝置應用程式的組織日益增多，我們也收到許多意見反應，要求提供更多功能和行動版撰寫體驗的改善。 本版的增強功能可協助您更輕鬆地建置針對行動裝置最佳化的互動式精彩報表。
+在此版本中，我們引進了改良的行動配置撰寫體驗，以及更多行動版面配置功能。 隨著越來越多的組織採用 Power BI 的行動應用程式，我們已收到意見反應，要求提供更多功能和增強的行動撰寫體驗。 本版的增強功能可協助您更輕鬆地建置針對行動裝置最佳化的互動式精彩報表。
 
 以下是建置最佳化行動報表的新體驗和功能：  
 
@@ -60,7 +125,7 @@ ms.locfileid: "96120753"
 - 可在行動裝置版面配置檢視中使用的書簽  
 - 關閉格線與貼齊格線  
 
-:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="針對 Power BI 報表伺服器最佳化的 Power BI Desktop 行動裝置版面配置。":::
+:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="適用于 Power BI 報表伺服器 Power BI Desktop 中的增強型行動版面配置。":::
 
 如需詳細資料，請參閱這篇部落格文章：[增強行動版撰寫體驗](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) (英文)。
 
@@ -68,7 +133,7 @@ ms.locfileid: "96120753"
 
 Excel 連接器的這項新功能會自動識別要擷取到資料表的每個 Excel 試算表區段。 這些區段會顯示在 [導覽器] 的 [建議的資料表] 群組下。 在過去，資料必須格式化為資料表或 Excel 的具名範圍。 否則，即必須使用特定轉換從工作表物件中抓取相關的資料列/資料行，例如略過資料列和移除資料行，如下列範例中的 Sheet1 所示。 若要使用這項功能，您必須先在 [設定] 對話方塊中加以啟用。
 
-:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="在針對 Power BI 報表伺服器最佳化的 Power BI Desktop 中辨識 Excel 資料表。":::
+:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="辨識 Power BI 報表伺服器 Power BI Desktop 中的 Excel 資料表。":::
 
 **模型化：增強型資料集中繼資料**
 
@@ -81,15 +146,15 @@ Excel 連接器的這項新功能會自動識別要擷取到資料表的每個 E
 - 在 Power BI Desktop 中新增外部工具後 (目前為預覽狀態)，重新開啟報表時，透過這些外部工具新增的資料表現在會顯示為查詢。
 - 如果您曾嘗試匯出並解壓縮 PBIT 檔案，現在可使用 JSON 查看模型，且不會再收到有關檔案損毀的錯誤。 
 
-如有因未套用變更等原因而無法自動更新的舊版 PBIX，則必須先成功升級模型，才能進行任何其他模型變更。 
+如果您有無法自動更新的較舊 .PBIX，基於未套用變更的原因，您必須先成功升級您的模型，才能進行任何其他模型變更。 
 
 **結束對 Windows 7 的支援**
 
-10 年來對 Windows 7 的支援已於 2020 年 1 月 14 日結束。 同時將於 2021 年 1 月 31 日停止支援 Windows 7 的 Power BI Desktop。 此後只會支援 Windows 8 和更新版本的 Power BI Desktop。 針對報表伺服器最佳化的 Power BI Desktop 2021 年 1 月版本將依現代化生命週期原則獲得支援。 亦即要到下一個版本 (目前排程為 2021 年 5 月) 才會提供完整支援。 自 2021 年 5 月至 2022 年 1 月期間，將只提供安全性更新。 所有支援都會在 2022 年 1 月後停止。 如需詳細資料，請參閱 [Power BI 報表伺服器支援時間軸](support-timeline.md)。 
+10 年來對 Windows 7 的支援已於 2020 年 1 月 14 日結束。 在這項變更中，我們將在2021年1月31日停止支援 Windows 7 上的 Power BI Desktop。 此後只會支援 Windows 8 和更新版本的 Power BI Desktop。 針對報表伺服器最佳化的 Power BI Desktop 2021 年 1 月版本將依現代化生命週期原則獲得支援。 亦即要到下一個版本 (目前排程為 2021 年 5 月) 才會提供完整支援。 自 2021 年 5 月至 2022 年 1 月期間，將只提供安全性更新。 所有支援都會在 2022 年 1 月後停止。 如需詳細資料，請參閱 [Power BI 報表伺服器支援時間軸](support-timeline.md)。 
 
 **完整的更新清單**
 
-以下是針對 Power BI 報表伺服器最佳化的 Power BI Desktop 10 月版完整更新清單。 
+以下是 Power BI 報表伺服器的10月版 Power BI Desktop 的完整更新清單。 
 
 **報告**
 
@@ -141,11 +206,11 @@ Excel 連接器的這項新功能會自動識別要擷取到資料表的每個 E
 
 **在 Power BI 報表中使用 PowerShell 變更資料來源連接字串**
 
-在 10 月版的 Power BI 報表伺服器中，我們會啟用 Power BI 報表的更新連線功能，以處理 DirectQuery 和重新整理。 這項功能也是舊版設定方式的重大變更。 若要深入了解，請參閱[在 PowerShell 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器](connect-data-source-apis.md)。 
+在 10 月版的 Power BI 報表伺服器中，我們會啟用 Power BI 報表的更新連線功能，以處理 DirectQuery 和重新整理。 這項功能也是您如何在舊版中進行設定的重大變更。 若要深入了解，請參閱[在 PowerShell 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器](connect-data-source-apis.md)。 
 
 ## <a name="may-2020"></a>2020 年 5 月
 
-### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>針對 Power BI 報表伺服器最佳化的 Power BI Desktop
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>適用於 Power BI 報表伺服器的 Power BI Desktop
 
 這項更新的重點在於階層式交叉分析篩選器和分解樹狀結構視覺效果，以及查詢診斷。 接下來是新增和更新功能的完整清單。 如需詳細資料，請參閱 [Power BI 報表伺服器 2020 年 5 月的部落格文章](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/) \(英文\)。 
 
@@ -203,7 +268,7 @@ Excel 連接器的這項新功能會自動識別要擷取到資料表的每個 E
 
 如需詳細資訊，請參閱 Power BI 報表伺服器 2020 年 1 月的部落格文章。
 
-### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>針對 Power BI 報表伺服器最佳化的 Power BI Desktop
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>適用於 Power BI 報表伺服器的 Power BI Desktop
 
 此版本引進許多新功能，例如按鈕的條件式格式化、資料分析改善，以及 KPI 和表格視覺效果的更多格式設定。 以下是更新的摘要清單：
 
@@ -503,7 +568,7 @@ Power BI 報表中支援下列功能：
 
 ## <a name="august-2018"></a>2018 年 8 月
 
-2018 年 8 月，我們在針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本中新增了許多功能。 這些功能可依區域細分如下：
+2018年8月看到許多新功能已新增至 Power BI 報表伺服器的 Power BI Desktop 版本。 這些功能可依區域細分如下：
 
 - [報告](#reporting)
 - [分析](#analytics)
@@ -609,7 +674,7 @@ SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正�
 
 ## <a name="march-2018"></a>2018 年 3 月
 
-2018 年 3 月，我們在針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本中新增了許多功能。 這些功能可依區域細分如下：
+2018年3月看到許多新功能已新增至 Power BI 報表伺服器的 Power BI Desktop 版本。 這些功能可依區域細分如下：
 
 - [視覺效果](#visuals-updates)
 - [報告](#reporting)
@@ -628,7 +693,7 @@ SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正�
 
 #### <a name="show-and-hide-pages"></a>[顯示和隱藏頁面](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
-您希望讀者可存取您的報表，但某些頁面尚未完成。 現在您可以隱藏這些頁面，直到就緒為止。 或者，您可以從一般瀏覽隱藏頁面，而且讀者可以透過書籤或鑽研到達頁面。
+您希望讀者可以存取您的報表，但有些頁面未完成。 現在您可以隱藏這些頁面，直到就緒為止。 或者，您可以從一般瀏覽隱藏頁面，而且讀者可以透過書籤或鑽研到達頁面。
 
 #### <a name="bookmarking"></a>[標記書籤](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 

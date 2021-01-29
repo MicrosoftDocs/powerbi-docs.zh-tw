@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 698f12f4bf5266373be8393d2add45d70979ab41
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 8141b5049d777d27208e2db4b026a3fad4b74cfe
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418432"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043106"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>在 SharePoint Server 中使用 iFrame 來內嵌 Power BI 報表伺服器報表
 
@@ -23,7 +23,7 @@ ms.locfileid: "96418432"
 
 ## <a name="prerequisites"></a>必要條件
 * 已安裝並設定 [Power BI 報表伺服器](https://powerbi.microsoft.com/report-server/)。
-* 已安裝[針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)。
+* 已安裝[Power BI 報表伺服器的 Power BI Desktop](install-powerbi-desktop.md) 。
 * 已安裝並設定 [SharePoint 2013、2016 或 2019 環境](/sharepoint/install/install)。
 * 只有文件模式設定為為 IE11 (Edge) 模式或使用 SharePoint Online 時，才支援 Internet Explorer 11。 您可以使用其他支援的瀏覽器搭配 SharePoint 內部部署和 SharePoint Online。
 
@@ -33,7 +33,7 @@ ms.locfileid: "96418432"
 
     ![下載範例 PBIX 檔案](media/quickstart-embed/quickstart_embed_14.png)
 
-2. 解壓縮檔案，然後在已針對 Power BI 報表伺服器最佳化的 Power BI Desktop 中開啟範例 .pbix 檔案。
+2. 解壓縮檔案，然後在 Power BI Desktop 中開啟 Power BI 報表伺服器的範例 .pbix 檔案。
 
     ![PBI RS Desktop 工具](media/quickstart-embed/quickstart_embed_02.png)
 

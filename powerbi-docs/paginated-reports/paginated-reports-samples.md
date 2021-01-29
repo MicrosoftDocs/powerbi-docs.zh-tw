@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/10/2020
-ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
-ms.translationtype: HT
+ms.date: 01/28/2021
+ms.openlocfilehash: 282700151e605bd3571847b3b75f08e65f948e08
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483816"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044329"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>範例 Power BI 編頁報表
 
@@ -119,6 +119,32 @@ ms.locfileid: "94483816"
 - 資料橫條。
 - 趨勢線。
 - 量測計面板。
+
+資料來源:包含在 .rdl 中
+
+## <a name="regional-sales"></a>區域銷售
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-regional-sales.png" alt-text="區域銷售的範例 Power BI 編頁報表的螢幕擷取畫面。":::
+
+區域銷售是獨立的編頁報表範例。 這份報告的案例是您想要讓全圖元的可列印報表查看總銷售額與配額。 展示的功能包括：
+
+- 使用參數來顯示資料表中選取的詳細資料。
+- 頁首和頁尾。
+- 使用運算式預留位置的報表項目，例如文字方塊、線條和矩形。
+- 量測計面板。
+- 放在表格內的折線圖。
+
+資料來源:包含在 .rdl 中
+
+## <a name="organization-expenditures"></a>組織支出
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-organization-expenditures.png" alt-text="組織支出的範例 Power BI 編頁報表的螢幕擷取畫面。":::
+
+組織支出是獨立的編頁報表範例。 這份報告的案例是您想要可供使用圖元的可列印費用報表，以查看組織中的費用細目。 展示的功能包括：
+
+- 頁首和頁尾。
+- 使用運算式預留位置的報表項目，例如文字方塊、線條和矩形。
+- 樹狀圖和 sun 高載等圖表。
 
 資料來源:包含在 .rdl 中
   

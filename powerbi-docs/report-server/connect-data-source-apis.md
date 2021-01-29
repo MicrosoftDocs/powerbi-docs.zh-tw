@@ -8,24 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b7f431ba6b8f559380916c17689d0eab74a0c9a7
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415465"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044302"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>在 PowerShell 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器
 
 
-自 2020 年 10 月版的 Power BI 報表伺服器開始，我們會啟用 Power BI 報表的更新連線功能，以處理 DirectQuery 和重新整理。
+從2020年10月版的 Power BI 報表伺服器開始，我們啟用了針對 DirectQuery 和重新整理 Power BI 報告更新連線的能力。
 
 > [!IMPORTANT]
 > 這也是舊版設定方式的重大變更。 如果您正在使用 2020 年 10 月版以前的 Power BI 報表伺服器，請參閱[在 Power BI 報表中使用 PowerShell 變更資料來源連接字串 - 2020 年 10 月版以前的 Power BI 報表伺服器](connect-data-source-apis-pre-oct-2020.md)
 
 ## <a name="prerequisites"></a>先決條件：
-- 下載 2020 年 10 月版的 [Power BI 報表伺服器和針對 Power BI 報表伺服器最佳化的 Power BI Desktop](https://powerbi.microsoft.com/report-server/)。
-- 使用 2020 年 10 月版針對報表伺服器最佳化的 Power BI Desktop，儲存已啟用 [增強型資料集中繼資料] 的報表。
+- 下載2020年10月或更新版本的 [Power BI 報表伺服器和 Power BI Desktop 以進行 Power BI 報表伺服器](https://powerbi.microsoft.com/report-server/)。
+- 使用已啟用 **增強型資料集中繼資料** 的 Power BI Desktop 2020 年10月版或更新版本之報表伺服器所儲存的報表。
 - 使用參數化連線的報表。 只有具有參數化連線和資料庫的報表才能在發佈後更新。
 - 此範例使用 Reporting Services PowerShell 工具。 使用新的 REST API 可達到相同效果。
 

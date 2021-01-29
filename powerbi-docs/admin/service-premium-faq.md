@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 8fad09221caafd66467e8e183304ab408b803720
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 51c006a076a34764791a7da6f952b416b89e6a5a
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412199"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043060"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 
@@ -61,7 +61,7 @@ Power BI Premium 是以容量為基礎的授權，而 Power BI Pro 是以使用�
 | **解決方案：**<br/><br/>1.提供 Power BI Pro 給每位使用者<br/><br/>2.想要透過新增 Power BI Premium 來擴展商機，請參閱其他案例 |**解決方案：**<br/><br/>1.提供 Power BI Pro 給需要自助 BI 和共同作業的使用者<br/><br/>2.新增 Power BI Premium 以便將 BI 內容只散發給需要取用的使用者 |**解決方案：**<br/><br/>1.提供 Power BI Pro 給需要自助 BI 和共同作業的使用者<br/><br/>2.新增 Power BI Premium 以便發佈內部部署報表，並視情況移至雲端 |**解決方案：**<br/><br/>1.提供 Power BI Pro 給財務部門中的每位使用者<br/><br/>2.新增 Power BI Premium 讓財務小組可以獨佔方式使用雲端中的專用資源，以提供更大的規模和更高的效能 |
 
 **Power BI Premium 的成本是多少？您可以使用多少 SKU？**  
-Power BI Premium 是根據虛擬核心數目來購買。 您可以參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)上的價格。 如需節點和虛擬核心的詳細資訊，請參閱 [Microsoft Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)。 您也可以使用此[計算機](https://powerbi.microsoft.com/calculator/)來估計可能需要多少 Premium 容量。
+Power BI Premium 是根據虛擬核心數目來購買。 您可以參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)上的價格。 如需節點和虛擬核心的詳細資訊，請參閱 [Microsoft Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)。
 
 **「容量」代表什麼意思？**  
 容量是保留給您的組織以供應其 Power BI 使用量的計算能力數量。 其是由服務系統管理員在 Power BI Premium 系統管理入口網站的 [容量管理] 頁面中佈建。
@@ -71,9 +71,6 @@ Power BI Premium 會依每年承諾用量按月付款。
 
 **如何購買 Power BI Premium？**  
 您也可以從 Microsoft 365 系統管理中心使用 Power BI Premium。 如需詳細資訊，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。 您也可以連絡 Microsoft 代表以取得詳細資訊。
-
-**如何得知我需要購買多少 Power BI Premium 容量？**  
-您可以使用此[成本計算機](https://powerbi.microsoft.com/calculator/)來估計可能需要多少 Power BI Premium 容量。
 
 **Power BI Premium 是否隨附於 Office 365 E5？**  
 Power BI Premium 是以 Power BI Pro 的附加元件形式來提供。 Office 365 E5 包含 Power BI Pro。 E5 客戶可以購買 Premium 作為其現有 Pro 授權的附加元件。

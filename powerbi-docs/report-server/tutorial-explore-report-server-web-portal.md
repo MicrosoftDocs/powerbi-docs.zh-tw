@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: e66b15498f7ba66005448d88dc26cf715947f7da
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418409"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043862"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教學課程：探索 VM 中的 Power BI 報表伺服器入口網站
 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的 Azure 虛擬機器，以便體驗如何檢視、編輯和管理範例 Power BI 及編頁報表與 KPI。
@@ -103,7 +103,7 @@ ms.locfileid: "96418409"
 |---------|---------|
 |![數字 1](media/tutorial-explore-report-server-web-portal/number-1.png) | 範例 Power BI (.PBIX) 報表 |
 |![數字 2](media/tutorial-explore-report-server-web-portal/number-2.png) | 連結至「Power BI 報表伺服器」文件 |
-|![數字 3](media/tutorial-explore-report-server-web-portal/number-3.png) | 啟動已針對 Power BI 報表伺服器最佳化的 Power BI Desktop (2019 年 1 月) |
+|![數字 3](media/tutorial-explore-report-server-web-portal/number-3.png) | 開始 Power BI 報表伺服器 (2021 年1月的 Power BI Desktop)  |
 |![數字 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 在瀏覽器中開啟「Power BI 報表伺服器」入口網站 |
 |![數字 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 啟動 SQL Server Data Tools 來建立編頁 (.RDL) 報表 |
 
@@ -162,7 +162,7 @@ ms.locfileid: "96418409"
 
 1. 選取 [允許]  以允許此網站在您的電腦上開啟程式。 
 
-     報表隨即在 Power BI Desktop 中開啟。 請注意頂端列中的名稱「Power BI Desktop (2019 年 1 月)」。 這是已針對「Power BI 報表伺服器」最佳化的版本。
+     報表隨即在 Power BI Desktop 中開啟。 請注意頂端列中的名稱「Power BI Desktop (2021 年1月) 」。 這是已針對「Power BI 報表伺服器」最佳化的版本。
 
     請使用安裝在 VM 上的 Power BI Desktop 版本。 您不可跨網域來上傳報表。
 

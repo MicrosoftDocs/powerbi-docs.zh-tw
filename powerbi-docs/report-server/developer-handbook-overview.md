@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
-ms.translationtype: HT
+ms.openlocfilehash: 8fbe19beddbb95b27828ee1fae73860fe92e6b4f
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95011993"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044143"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>開發人員手冊概觀, Power BI 報表伺服器
 
 歡迎使用 Power BI 報表伺服器的開發人員手冊，您可於此內部部署位置中儲存和管理您的 Power BI 報表、行動報表及編頁報表。
 
-![系統管理員手冊](media/developer-handbook-overview/admin-handbook.png)
+![Power BI 報表伺服器總覽。](media/admin-handbook-overview/admin-handbook.png)
 
 本手冊會反白顯示您作為開發人員所具有的選項，以使用 Power BI 報表伺服器。
 

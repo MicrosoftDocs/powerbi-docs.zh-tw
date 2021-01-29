@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 07b3004553f62dbdd138d93bf1aba2c08287b9c6
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
-ms.translationtype: HT
+ms.date: 01/25/2021
+ms.openlocfilehash: 5dbc4526061d6b39a3e7f4eff3b06a68784792f6
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044816"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043451"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>支援 Power BI 報表伺服器的時間軸
 
@@ -30,12 +30,12 @@ Power BI 報表伺服器每年發行數次。 下個版本正式推出 (GA) 後�
 
 | **版本** | **可用性日期** | **支援結束日期** |
 | --- | --- | --- |
-| 2019 年 9 月 | 2019 年 9 月 | 不再支援 2019 年 9 月版本及所有較舊版本
-| 2020 年 1 月 | 2020 年 1 月 | 2021 年 1 月
+| 2020 年 1 月 | 2020 年 1 月 | 2020年1月，且不再支援所有舊版
 | 2020 年 5 月 | 2020 年 5 月 | 2021 年 5 月
 | 2020 年 10 月 | 2020 年 10 月 | 2021 年 10 月
+| 2021 年 1 月 | 2021 年 1 月 | 2022年1月
 
-若要下載 Power BI 報表伺服器，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。
+若要下載 Power BI 報表伺服器，並 Power BI Desktop Power BI 報表伺服器，請移至 [內部部署報表與 Power BI 報表伺服器](https://powerbi.microsoft.com/report-server/)。
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 報表伺服器的新功能](whats-new.md)  

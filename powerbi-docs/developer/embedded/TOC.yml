@@ -96,6 +96,8 @@
               href: /rest/api/power-bi-embedded/
             - name: Power BI REST API
               href: /rest/api/power-bi/
+        - name: Power BI 開發人員一日上手課程
+          href: /power-bi/learning-catalog/developer-online-course
         - name: 監視 Power BI Embedded 資料參考
           href: monitor-power-bi-embedded-reference.md
         - name: Power BI 程式庫

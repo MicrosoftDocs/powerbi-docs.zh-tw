@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: a1c8e11fbf3b157a0d9fc1a897347875b82226fa
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 9b4b7557a977c5975920e0ef414b7daf8183c062
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96387250"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044233"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>系統管理員概觀：Power BI 報表伺服器
 本文是 Power BI 報表伺服器的系統管理員概觀，這個內部部署位置可用於儲存及管理您的 Power BI 報表、行動報表及分頁報表。 此文章將介紹規劃、部署及管理「Power BI 報表伺服器」的概念，並提供詳細資訊連結。
@@ -46,7 +46,7 @@ SQL Server Reporting Services 沒有任何就地升級。 若您有現有的 SQL
 ## <a name="next-steps"></a>後續步驟
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 [尋找您的報表伺服器產品金鑰](find-product-key.md)  
-[安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
+[安裝 Power BI 報表伺服器的 Power BI Desktop](install-powerbi-desktop.md)  
 [下載報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)  
 [下載 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 

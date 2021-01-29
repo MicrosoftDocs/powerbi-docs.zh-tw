@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/24/2020
-ms.openlocfilehash: 965c3837b2d0153716442ea37b52b468be9742fb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: e3c4d97ba6d5ba43e05feecca6a1f0d0c27c89aa
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414108"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043716"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的 Power BI 報表
 您可在 Power BI 報表伺服器入口網站儲存和管理內部部署 Power BI 報表，如同您可在 Power BI 服務 (https://powerbi.com) ) 中將 Power BI 報表儲存於雲端一樣。 在 Power BI Desktop 中建立和編輯報表，並將其發行至入口網站。 接著您組織的報表讀者就可在瀏覽器，或在行動裝置上的 Power BI 行動裝置應用程式中加以檢視。
@@ -22,13 +22,13 @@ ms.locfileid: "96414108"
 
 以下是快速入門的四個步驟。
 
-## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>步驟 1：安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
+## <a name="step-1-install-power-bi-desktop-for-power-bi-report-server"></a>步驟1：安裝 Power BI 報表伺服器的 Power BI Desktop
 
-如果您已在 Power BI Desktop 中建立 Power BI 報告，就幾乎準備好建立 Power BI 報表伺服器的 Power BI 報告。 建議您安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本，以便確保伺服器和應用程式一律會保持同步。您在同一部電腦上，可以同時有這兩個版本的 Power BI Desktop 。
+如果您已在 Power BI Desktop 中建立 Power BI 報告，就幾乎準備好建立 Power BI 報表伺服器的 Power BI 報告。 建議您安裝 Power BI 報表伺服器的 Power BI Desktop 版本，讓您知道伺服器和應用程式一律會同步。您可以在同一部電腦上擁有這兩個版本的 Power BI Desktop。
 
 1. 在報表伺服器 web 入口網站中，選取 [下載]  箭號 > [Power BI Desktop]  。
 
-    ![從 Web 入口網站下載 Power BI Desktop](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+    ![從 Web 入口網站下載 Power BI Desktop](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
     或移至 [Power BI 報表伺服器](https://powerbi.microsoft.com/report-server/)首頁，然後選取 [進階下載選項]  。
 
@@ -44,9 +44,9 @@ ms.locfileid: "96414108"
 
 2. 在安裝結束時，請核取 [立即啟動 Power BI Desktop]  。
    
-    其會自動啟動，一切即就緒。 **Power BI Desktop (2020 年 10 月)** 出現在標題列中即表示版本正確。
+    其會自動啟動，一切即就緒。 您可以告訴您有正確的版本，因為 **Power BI Desktop (2021 年1月)** 是在標題列中。
 
-    ![Power BI Desktop 2020 年 10 月](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
+    ![Power BI Desktop 2021 年1月](media/install-powerbi-desktop/power-bi-report-server-desktop.png)
 
 3. 如果您不熟悉 Power BI Desktop，請考慮觀看歡迎畫面上的影片。
    
@@ -102,7 +102,7 @@ ms.locfileid: "96414108"
 * 引導式學習：[探索 Power BI Desktop](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI 報表伺服器
-* [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
+* [安裝 Power BI 報表伺服器的 Power BI Desktop](install-powerbi-desktop.md)  
 * [什麼是 Power BI 報表伺服器？](get-started.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

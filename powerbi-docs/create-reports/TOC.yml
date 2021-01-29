@@ -67,6 +67,8 @@
               href: desktop-high-density-sampling.md
             - name: 關於協助工具
               href: desktop-accessibility-overview.md
+            - name: 憑證撤銷
+              href: desktop-certificate-revocation.md
             - name: 自然語言問與答
               items:
                 - name: 問與答簡介

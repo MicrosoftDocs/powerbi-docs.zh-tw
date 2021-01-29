@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
-ms.openlocfilehash: 412d09d3c25dc8f04e2d83c7a1f95bf36946d581
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0f2793e2fbbff5404e1f920b24f01364278402c6
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96397962"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044118"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>如何找到您的報表伺服器產品金鑰
 了解如何找到您的 Power BI 報表伺服器產品金鑰，以在生產環境中安裝您的伺服器。
@@ -45,7 +45,7 @@ ms.locfileid: "96397962"
  
 ## <a name="next-steps"></a>後續步驟
 [安裝 Power BI 報表伺服器](install-report-server.md)  
-[安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
+[安裝 Power BI 報表伺服器的 Power BI Desktop](install-powerbi-desktop.md)  
 [下載報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)  
 [下載 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 

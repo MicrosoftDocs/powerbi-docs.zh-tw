@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 597ae36aaddcbabbedcd084061410dab9334a702
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 9e0cd283728afad43ddf37f765b1fda66c300270
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413579"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043405"
 ---
 # <a name="purchase-power-bi-premium-for-testing"></a>購買 Power BI Premium 以進行測試
 
 此文章描述如何購買 Power BI Premium A SKU 以用於測試案例，以及您沒有購買 P SKU 的必要權限 (Microsoft 365 全域管理員角色或計費管理員角色) 的案例。 A SKU 不需要任何時限的履約承諾，按小時計費。 A SKU 在 [Azure 入口網站](https://portal.azure.com)中購買。
 
-如需 Power BI Premium 的詳細資訊，請參閱 [什麼是 Power BI Premium？](service-premium-what-is.md)。 如需目前的定價和規劃資訊，請參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)。 即使您的組織使用 Power BI Premium，內容的作者仍然需要 [Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)。 請確定您為貴組織購買至少一個 Power BI Pro 授權。 使用 A SKU 時，_取用內容的所有使用者_ 也都需要 Pro 授權。
+如需 Power BI Premium 的詳細資訊，請參閱 [什麼是 Power BI Premium？](service-premium-what-is.md)。 如需目前的定價和規劃資訊，請參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)。 即使您的組織使用 Power BI Premium，內容的作者仍然需要 [Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)。 請確定您為貴組織購買至少一個 Power BI Pro 授權。 使用 A SKU 時，_取用內容的所有使用者_ 也都需要 Pro 授權。
 
 > [!NOTE]
 > 如果 Premium 訂用帳戶過期，您仍有 30 天可完整存取您的容量。 在該期限之後，您的內容會還原至共用的容量。 共用容量不支援 1 GB 以上的模型。
@@ -92,7 +92,6 @@ A SKU 可透過 Azure Power BI Embedded 服務取得。 您可以透過下列方
 [如何購買 Power BI Premium](service-admin-premium-purchase.md)
 [設定及管理 Power BI Premium 中的容量](service-admin-premium-manage.md)\
 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)\
-[Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)\
 [Power BI Premium 常見問題集](service-premium-faq.md)\
 [Planning a Power BI Enterprise Deployment (規劃 Power BI 企業部署) 技術白皮書](https://aka.ms/pbienterprisedeploy)
 

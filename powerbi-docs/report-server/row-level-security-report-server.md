@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/22/2021
-ms.openlocfilehash: 50c89bdaa47aa8a687178a33627cf9148720acf2
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 2cc5b33065b46f690462454ce55bc16407d77f0b
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718569"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043819"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 報表伺服器中的資料列層級安全性 (RLS)
 
@@ -44,7 +44,7 @@ ms.locfileid: "98718569"
 
  如果報表沒有所需角色，您必須在 Power BI Desktop 中將其開啟，新增或修改角色，然後將其儲存回 Power BI 報表伺服器。 
 
-1. 請在 Power BI Desktop 中，將報表儲存到 Power BI 報表伺服器。 您必須使用針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本。
+1. 請在 Power BI Desktop 中，將報表儲存到 Power BI 報表伺服器。 您必須使用 Power BI 報表伺服器的 Power BI Desktop 版本。
 2. 在 Power BI 報表服務中，選取報表旁邊的省略符號 ( **…** )。 
 
 3. 選取 [管理] > [資料列層級安全性]。 

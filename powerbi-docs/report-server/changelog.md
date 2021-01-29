@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
-ms.translationtype: HT
+ms.date: 01/28/2021
+ms.openlocfilehash: d7fc9437af37052e95eaa771aab98f1331227c14
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053320"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044210"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -21,6 +21,22 @@ ms.locfileid: "98053320"
 
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新功能](whats-new.md)。 
 
+
+## <a name="january-2021"></a>2021 年 1 月
+- **Power BI 報表伺服器**
+    - *Version： 1.10.7698.12811 (Build 15.0.1105.194) ，發行日期：2021年1月21日*
+        - 功能
+            - 新圖示 releate 至 Power BI 並 Power BI 報表。
+            - 新的入口網站預覽體驗已新增至 ReportServer 目錄的 ConfigurationInfo 資料表中的 ' UsePortalV2 ' 功能切換後方。
+        - 錯誤修正
+            - 已修正使用增強型模型中繼資料之特定模型的排程重新整理 Power BI 報表的問題。
+            - 修正在入口網站中編輯資料驅動訂閱的問題。
+        - 安全性更新
+
+- **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+   - *版本： 2.88.1382.0 (2021 年1月) 發行：2021年1月 21* 日 (新組建和新版本) 
+        - 包含 Power BI 報表伺服器 (2021 年1月的連接所需的變更)         
+   
 ## <a name="october-2020"></a>2020 年 10 月
 - **Power BI 報表伺服器**
     - *版本：1.9.7675.15620 (組建 15.0.1104.300)，發行日期：2021 年 1 月 8 日*

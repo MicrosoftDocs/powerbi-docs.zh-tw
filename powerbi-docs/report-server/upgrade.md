@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/22/2020
-ms.openlocfilehash: 890b3c8124cc1711e08415cdcfda1f51b548fa63
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
-ms.translationtype: HT
+ms.openlocfilehash: 68494784e3c5b21c0c3e15bd5a3a816fd07e5f8b
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983060"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043543"
 ---
 # <a name="upgrade-power-bi-report-server"></a>升級 Power BI 報表伺服器
 
@@ -22,7 +22,7 @@ ms.locfileid: "91983060"
 
  **下載** ![下載圖示](media/upgrade/download.png "下載圖示")
 
-若要下載 Power BI 報表伺服器，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。
+若要下載 Power BI 報表伺服器，並 Power BI Desktop Power BI 報表伺服器，請移至 [內部部署報表與 Power BI 報表伺服器](https://powerbi.microsoft.com/report-server/)。
 
 ## <a name="before-you-begin"></a>開始之前
 
@@ -82,12 +82,12 @@ Power BI 報表伺服器會透過 Microsoft Update 接收安全性修正。 若�
 
 ## <a name="upgrade-power-bi-desktop"></a>升級 Power BI Desktop
 
-當您升級報表伺服器之後，請確定所有 Power BI 報表作者都升級到已針對符合該伺服器之 Power BI 報表伺服器最佳化的 Power BI Desktop 版本。
+升級報表伺服器之後，請確定任何 Power BI 報表作者都升級為符合伺服器之 Power BI 報表伺服器的 Power BI Desktop 版本。
 
 ## <a name="next-steps"></a>後續步驟
 
 * [系統管理員概觀](admin-handbook-overview.md)  
-* [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
+* [安裝 Power BI 報表伺服器的 Power BI Desktop](install-powerbi-desktop.md)  
 * [驗證安裝 Reporting Services](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 * [設定報表伺服器服務帳戶](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 * [設定報表伺服器 URL](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  

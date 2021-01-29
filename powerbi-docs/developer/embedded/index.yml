@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 16fa5ae23127c2ebfc1057d1a55129396fbac9c3
-  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.openlocfilehash: b889e6947362de81098709d6c2ad2c819195113b
+  ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 01/26/2021
-  ms.locfileid: "98781491"
+  ms.lasthandoff: 01/29/2021
+  ms.locfileid: "99043198"
 landingContent:
 - title: 開始使用
   linkLists:
@@ -29,6 +29,10 @@ landingContent:
       url: azure-pbie-what-is-power-bi-embedded.md
     - text: 常見問題集
       url: embedded-faq.md
+  - linkListType: reference
+    links:
+    - text: Power BI 開發人員一日上手課程
+      url: /power-bi/learning-catalog/developer-online-course
 - title: 用戶端 API
   linkLists:
   - linkListType: whats-new

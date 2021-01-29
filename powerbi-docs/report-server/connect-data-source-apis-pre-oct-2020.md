@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 72b81f10b6337530ab05f1fcef0a17a5869af867
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: f0dd30e721d8325fdbfd8b562083fbedef2af9c0
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226735"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044187"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server-pre-october-2020"></a>在 Power BI 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器 2020 年 10 月前的版本
 
@@ -21,7 +21,7 @@ ms.locfileid: "98226735"
 您可以透過使用 PowerShell 與必要 API 互動，來變更 Power BI 報表伺服器中裝載之 Power BI 報表的資料來源連接字串。 
 
 > [!IMPORTANT]
-> 如果您正在使用 2020 年 10 月最新版 Power BI 報表伺服器，請參閱[在 Power BI 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器](connect-data-source-apis.md)。
+> 如果您使用的是最新版本的 Power BI 報表伺服器，請參閱 [使用 PowerShell 變更 Power BI 報表中的資料來源連接字串-Power BI 報表伺服器](connect-data-source-apis.md)。
 
 > [!NOTE]
 > 此功能目前僅適用於 DirectQuery。 即將推出匯入和資料重新整理的支援。
