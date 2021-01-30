@@ -2,19 +2,19 @@
 title: 在 Power BI 中監視報表效能
 description: 如何在 Power BI 中監視報表效能的指導方針。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2021
-ms.openlocfilehash: a7da63efcc991da57eba9c6b9bb6b9527ad66e1f
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: 78c7b97cd926f3f98469d6e52aab5889f4e3daa3
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227368"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088733"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中監視報表效能
 

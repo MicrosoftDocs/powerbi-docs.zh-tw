@@ -2,19 +2,19 @@
 title: 在 Power BI 報表中將視覺效果色彩最佳化
 description: 在 Power BI Desktop 或 Power BI 服務中，於 Power BI 報表視覺效果中將視覺效果色彩最佳化的八個提示。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 featuredvideoid: RhYcEsdPqJg
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.openlocfilehash: 1bd49ef488e8daa8f78faca71a7a195707cd833e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f2e42bcb331ed91a6cd76d70bdbccc081ef97c50
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417742"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088756"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>在 Power BI 報表中將視覺效果色彩最佳化的提示
 
