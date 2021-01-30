@@ -2,18 +2,18 @@
 title: 雙向關聯性指導方針
 description: 開發雙向篩選模型關聯性的指導方針。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: b9d1f71b474070c4ad035945b458b5f010f1f6e6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 65c00504a0f46e0ae8d5e6e1cf6cfcad33197a89
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419191"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087238"
 ---
 # <a name="bi-directional-relationship-guidance"></a>雙向關聯性指導方針
 

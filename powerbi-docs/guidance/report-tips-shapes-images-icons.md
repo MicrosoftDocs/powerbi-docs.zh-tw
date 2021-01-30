@@ -2,19 +2,19 @@
 title: 改善在 Power BI 報表中使用圖形、影像和圖示進行分析的提示
 description: 在 Power BI Desktop 或 Power BI 服務中，於 Power BI 報表視覺效果中改善使用圖形、影像和圖示進行分析的四個提示。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 featuredvideoid: -gLwXonWNsI
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/25/2020
-ms.openlocfilehash: c9587fdbf7154bf61f174d1d193b93ca7f991ae0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 1c9b56dd48c7c1ca57e34bcafeba92f498023b7c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386009"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088802"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>改善在 Power BI 報表中使用圖形、影像和圖示進行分析的提示
 

@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: b99f6f53f64e57bc262ea5aa518efa529b73f44e
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565754"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088135"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>適用於 Power BI 的 Azure 安全性基準
 
@@ -166,7 +166,7 @@ Power BI 支援 Azure AD 中的工作階段原則來啟用條件式存取原則�
 
 - [與 Power BI 相關的系統管理員角色](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [M365 Privileged Access Management](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
+- [M365 Privileged Access Management](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)
 
 - [Power BI 中的 Cloud App Security 控制措施](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
@@ -178,7 +178,7 @@ Power BI 支援 Azure AD 中的工作階段原則來啟用條件式存取原則�
 
 **指引**：限制對 Power BI 具有更高權限存取權的高權限帳戶或角色數目。
 
-您可以使用[此處](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)的 M365 Privileged Access Management 指引來啟用 Just-In-Time (JIT) 特殊權限存取。
+您可以使用[此處](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)的 M365 Privileged Access Management 指引來啟用 Just-In-Time (JIT) 特殊權限存取。
 
 如需其他詳細資料，請參閱[此處](https://aka.ms/PBIEnterpriseDeploymentWP)的 Power BI 企業部署文件第 183 頁。
 
@@ -533,7 +533,7 @@ Power BI 活動記錄：
  
 Microsoft 威脅防護會套用相互關聯分析，並將來自不同產品的所有相關警示和調查彙總成一個事件。 鑑於 Microsoft 威脅防護在整個資產和產品套件中的端對端可見度，Microsoft 威脅防護還會針對只能識別為惡意的活動觸發唯一警示。 藉由這麼做，Microsoft 威脅防護可說明更廣泛的攻擊案例，讓安全性作業分析師能夠了解並因應整個組織的複雜威脅。
 
-- [設定 Microsoft 威脅防護中的事件優先順序](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide) (機器翻譯)
+- [設定 Microsoft 威脅防護中的事件優先順序](/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&preserve-view=true) (機器翻譯)
 
 **Azure 資訊安全中心監視**：不適用
 

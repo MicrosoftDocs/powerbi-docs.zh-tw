@@ -9,17 +9,17 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6afc49e0d2fe67c89d906d4715959892868b0027
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 2218889e170519e651127d4246ab61a7505735fb
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408082"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085585"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Power BI 系統管理員適用的 PowerShell Cmdlet、REST API 和 .NET 用戶端程式庫
 Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指令碼。 其同時公開 REST API 並提供 .NET 用戶端程式庫來開發管理解決方案。 本主題說明 Cmdlet 清單以及對應的 API 和 REST API 端點。 如需詳細資訊，請參閱：
 
-- PowerShell [下載](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文件](/powershell/power-bi/overview?view=powerbi-ps)
+- PowerShell [下載](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文件](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true)
 - REST API [文件](/rest/api/power-bi/admin)
 - .NET 用戶端程式庫[下載](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 

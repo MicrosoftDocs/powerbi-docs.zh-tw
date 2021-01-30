@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: overview
 ms.date: 07/23/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a71999cc5358c1849a534ff2b3eb9d689791ceb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 07dba29c57b533537513d84361b4b7b2b61f9221
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419536"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088112"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop 是什麼？
 
@@ -70,7 +70,7 @@ Power BI Desktop 中有三種可用的檢視，可從畫布左側選取。 這�
 
 若要啟動 Power Query 編輯器：
 
-- 從 [常用] 功能區中，選取 [編輯查詢] > [編輯查詢]。
+- 在 [ **首頁** ] 功能區的 [ **查詢** ] 區段中，選取 [ **轉換資料**]。
 
    [Power Query 編輯器] 視窗隨即出現。
 
