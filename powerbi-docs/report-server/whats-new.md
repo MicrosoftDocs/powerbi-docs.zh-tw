@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/27/2021
-ms.openlocfilehash: 0a0bef5c438abfc9ddf0417e95ff57534a64f67e
-ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.openlocfilehash: bb69df893a3a9841d911e558e2ef2afb09230122
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "99043569"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087077"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -492,7 +492,7 @@ Power BI 報表是互動式報表。 很明顯，報表中的標題會是動態�
 
 #### <a name="cross-highlight-by-axis-labels"></a>依軸標籤的交叉醒目提示
 
-選取視覺效果中的軸類別標籤，以交叉醒目提示頁面上的其他項目，就像您在視覺效果中選取資料點一樣。 深入了解[交叉醒目提示](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
+選取視覺效果中的軸類別標籤，以交叉醒目提示頁面上的其他項目，就像您在視覺效果中選取資料點一樣。 深入了解[交叉醒目提示](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-cross-filtering-and-cross-highlighting)。
 
 #### <a name="all-the-new-features"></a>所有新功能
 
