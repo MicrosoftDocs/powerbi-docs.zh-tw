@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 68d12c69afadb3d5d82782c239381844c1d58b5e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b019ed8177a4300b39d41c53c2e7d6a4d84e673a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413533"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086548"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的累加式重新整理
 
@@ -116,7 +116,7 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 #### <a name="current-date"></a>目前日期
 
-「目前日期」是以重新整理時的系統日期為基礎。 如果已為 Power BI 服務中的資料集啟用排程重新整理，則在判斷目前日期時，會將指定的時區納入考量。 透過 Power BI 服務手動叫用及排程的重新整理都會遵守時區 (如果有的話)。 例如，以指定時區在太平洋時間 (美國和加拿大) 下午 8 點發生的重新整理，將會根據太平洋時間 (而非 GMT) 來判斷目前日期。 未透過 Power BI 服務 (例如 [TMSL Refresh 命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) \(部分機器翻譯\)) 叫用的重新整理作業，將不會考慮排程的重新整理時區
+「目前日期」是以重新整理時的系統日期為基礎。 如果已為 Power BI 服務中的資料集啟用排程重新整理，則在判斷目前日期時，會將指定的時區納入考量。 透過 Power BI 服務手動叫用及排程的重新整理都會遵守時區 (如果有的話)。 例如，以指定時區在太平洋時間 (美國和加拿大) 下午 8 點發生的重新整理，將會根據太平洋時間 (而非 GMT) 來判斷目前日期。 未透過 Power BI 服務 (例如 [TMSL Refresh 命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true) \(部分機器翻譯\)) 叫用的重新整理作業，將不會考慮排程的重新整理時區
 
 ![時區](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -180,7 +180,7 @@ Premium 容量中資料集的 [XMLA 端點](service-premium-connect-tools.md)可
 
 #### <a name="override-incremental-refresh-behavior"></a>覆寫累加式重新整理行為
 
-使用 SSMS，您也可以更充分地控制如何使用[表格式模型指令碼語言 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) (部分機器翻譯) 和[表格式物件模型 (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) (部分機器翻譯)，叫用累加式重新整理。 例如，在 SSMS 的「物件總管」中，以滑鼠右鍵按一下資料表，然後選取 [處理資料表] 功能表選項。 然後按一下 [指令碼] 按鈕，以產生 TMSL 重新整理命令。
+使用 SSMS，您也可以更充分地控制如何使用[表格式模型指令碼語言 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯) 和[表格式物件模型 (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current&preserve-view=true) (部分機器翻譯)，叫用累加式重新整理。 例如，在 SSMS 的「物件總管」中，以滑鼠右鍵按一下資料表，然後選取 [處理資料表] 功能表選項。 然後按一下 [指令碼] 按鈕，以產生 TMSL 重新整理命令。
 
 ![[處理資料表] 對話方塊中的 [指令碼] 按鈕](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -208,7 +208,7 @@ Premium 容量中資料集的 [XMLA 端點](service-premium-connect-tools.md)可
 }
 ```
 
-若要深入了解如何使用 TMSL 覆寫預設的累加式重新整理行為，請參閱 [Refresh 命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) \(部分機器翻譯\)。
+若要深入了解如何使用 TMSL 覆寫預設的累加式重新整理行為，請參閱 [Refresh 命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true) \(部分機器翻譯\)。
 
 ### <a name="custom-queries-for-detect-data-changes"></a>偵測資料變更的自訂查詢
 

@@ -2,19 +2,19 @@
 title: Power BI 編頁報表一日上手課程
 description: 這堂影片式課程的目標，是要讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 12/31/2020
-ms.openlocfilehash: 504b5bcb63fa8c8897ae0b44922d3dc144a02730
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: 4a1c6786503b2418fc6fea27e2cb91a3f136a257
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227345"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087790"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Power BI 編頁報表一日上手課程
 

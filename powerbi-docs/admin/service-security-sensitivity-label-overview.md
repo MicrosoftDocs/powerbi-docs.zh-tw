@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52c3d5dea171f34fbbe5133eda6fd51fd471bbd4
-ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.openlocfilehash: 3bc9a946d8f9091f8a2939ad9865460c1f22a446
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925664"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085792"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI 中的敏感度標籤
 
@@ -34,7 +34,7 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 
 在 Power BI 服務中，敏感度標籤可套用至資料集、報表、儀表板與資料流程。 當標記的資料離開 Power BI 時，不論是匯出至 Excel、PowerPoint、PDF 或 .pbix 檔案，還是透過其他支援的匯出情境 (例如 [在 Excel 中進行分析]，或 Excel 中的即時連線樞紐分析表)，Power BI 會自動將標籤套用至匯出的檔案，並根據標籤的檔案加密設定加以保護。 透過這種方式，敏感性資料便可維持在受保護的狀態，即使其離開了 Power BI 也一樣。
 
-此外，敏感度標籤可套用至 Power BI Desktop 中的 .pbix 檔案，讓您的資料與內容在於 Power BI 外進行共用時安全無虞 (例如，套用後便只有貴組織內的使用者才能開啟電子郵件中共用或附加的機密 .pbix 檔案)，甚至在發佈到 Power BI 服務前也是安全的。 如需詳細資料，請參閱[使用敏感度標籤來套用加密以限制存取內容](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide)。
+此外，敏感度標籤可套用至 Power BI Desktop 中的 .pbix 檔案，讓您的資料與內容在於 Power BI 外進行共用時安全無虞 (例如，套用後便只有貴組織內的使用者才能開啟電子郵件中共用或附加的機密 .pbix 檔案)，甚至在發佈到 Power BI 服務前也是安全的。 如需詳細資料，請參閱[使用敏感度標籤來套用加密以限制存取內容](/microsoft-365/compliance/encryption-sensitivity-labels)。
 
 報表、儀表板、資料集和資料流程上的敏感度標籤，可在 Power BI 服務中的許多位置看見。 報表和儀表板上的敏感度標籤也可在 Power BI iOS 和 Android 行動裝置應用程式，以及在內嵌的視覺效果中顯示。 在 Desktop 中，您可以在狀態列中看到敏感度標籤。
 
@@ -185,7 +185,7 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 
 ### <a name="power-bi-desktop-preview"></a>Power BI Desktop (預覽)
 
-* 受保護的 .pbix 檔案只能由檔案的 RMS 擁有者 (即原先將標籤套用至檔案的使用者) 或擁有相關標籤之 [**完全控制** 和/或 **匯出** 使用權限](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide)的使用者開啟和/或發佈。 RMS 擁有者具有完全控制權，因此永遠不會遭封鎖。[查看更多詳細資料](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
+* 受保護的 .pbix 檔案只能由檔案的 RMS 擁有者 (即原先將標籤套用至檔案的使用者) 或擁有相關標籤之 [**完全控制** 和/或 **匯出** 使用權限](/microsoft-365/compliance/encryption-sensitivity-labels)的使用者開啟和/或發佈。 RMS 擁有者具有完全控制權，因此永遠不會遭封鎖。[查看更多詳細資料](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
 
 * 如果套用至 .pbix 檔案的標籤尚未在 Microsoft 365 安全性中心或 Microsoft 365 合規性中心中發佈至使用者，則使用者將無法在 Desktop 中儲存該檔案。
 

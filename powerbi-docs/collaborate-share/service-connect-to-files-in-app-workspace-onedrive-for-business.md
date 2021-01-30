@@ -1,28 +1,28 @@
 ---
-title: 連線到 Power BI 工作區 OneDrive 中的檔案
-description: 了解如何儲存和連線到 Power BI 工作區 OneDrive 上的 Excel、CSV 和 Power BI Desktop 檔案。
+title: 連接到傳統工作區 OneDrive 中的檔案
+description: 瞭解如何在您的傳統 Power BI 工作區的 OneDrive 上儲存及連接到您的 Excel、CSV 和 Power BI Desktop 檔案。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 10/15/2020
+ms.date: 01/28/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6c3c43d8aad26249ac1b8afab09bdcbf1414f0cf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f6544a137b8f656e938db4516de5e8c0685394b4
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411969"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085791"
 ---
-# <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>連線到儲存在 Power BI 工作區 OneDrive 中的檔案
-當您[在 Power BI 中建立工作區](service-create-workspaces.md)時，您也會建立具有關聯之商務用 OneDrive 的 Microsoft 365 群組。 此文章說明如何在商務用 OneDrive 上儲存及更新 Excel、CSV 與 Power BI Desktop 檔案。 這些更新會自動反映到以這些檔案為基礎的 Power BI 報表和儀表板中。
+# <a name="connect-to-files-stored-in-onedrive-for-a-classic-workspace"></a>連接到儲存在 OneDrive 中的傳統工作區檔案
+當您 [在 Power BI 中建立 *傳統* 工作區](service-create-workspaces.md)時，您也會建立具有相關商務用 OneDrive 的 Microsoft 365 群組。 此文章說明如何在商務用 OneDrive 上儲存及更新 Excel、CSV 與 Power BI Desktop 檔案。 這些更新會自動反映到以這些檔案為基礎的 Power BI 報表和儀表板中。
 
 > [!NOTE]
-> 新工作區體驗會變更 Power BI 工作區與 Microsoft 365 群組之間的關係。 每次建立一個新的工作區時，不會自動建立 Microsoft 365 群組。 了解如何[建立新的工作區](service-create-the-new-workspaces.md)
+> *新* 的工作區體驗會變更 Power BI 工作區與 Microsoft 365 群組之間的關聯性。 每次建立一個新的工作區時，不會自動建立 Microsoft 365 群組。 您也可以 [為新的工作區設定工作區 OneDrive](service-create-the-new-workspaces.md#set-a-workspace-onedrive)。
 
-將檔案新增至工作區是兩步驟的程序： 
+將檔案新增到傳統工作區是兩個步驟的程式： 
 
 1. 首先，請[將檔案上傳至工作區的商務用 OneDrive](#1-upload-files-to-the-onedrive-for-business-for-your-workspace)。
 2. 然後您[從 Power BI 連接至這些檔案](#2-import-excel-files-as-datasets-or-as-excel-online-workbooks)。

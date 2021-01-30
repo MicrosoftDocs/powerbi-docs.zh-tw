@@ -2,19 +2,19 @@
 title: Power BI 開發人員一日上手課程
 description: 這堂影片式課程為您成為應用程式開發人員提供了內嵌 Power BI 內容所需的技術知識。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: yana.berkovich
 featuredvideoid: dv-ep90wse8
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 06/01/2020
-ms.openlocfilehash: 67633bf4362984d0a1e3b6a6aa8b74de3747191f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: de53a528ef72c3dc46ea507152a66f8343e0e37e
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414890"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087859"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Power BI 開發人員一日上手課程
 

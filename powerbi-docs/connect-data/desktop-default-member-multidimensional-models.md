@@ -9,18 +9,18 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/10/2019
 LocalizationGroup: Data from files
-ms.openlocfilehash: 333651ad89e50a3debe73dfdafc0dced865553a5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b339117e8cba73da35759a600d3f303b93415711
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405437"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086388"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>使用 Power BI 中的多維度模型
 
 您可以在 Power BI 中連線到多維度模型，然後建立能將模型內的各種資料視覺化的報表。 搭配多維度模型運作時，Power BI 會根據定義為「預設成員」  的資料行，套用規則以決定其處理資料的方式。 
 
-搭配多維度模型運作時，Power BI 會根據使用包含 **DefaultMember** 之資料行的位置，處理來自模型的資料。 *DefaultMember* 屬性會針對多維度模型中的特定資料行以 CSDL (概念結構定義語言) 設定。 若要深入了解預設成員，請參閱其[屬性內容文章](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017) \(機器翻譯\)。 執行 DAX 查詢時，系統會自動套用在模型中指定的預設成員。
+搭配多維度模型運作時，Power BI 會根據使用包含 **DefaultMember** 之資料行的位置，處理來自模型的資料。 *DefaultMember* 屬性會針對多維度模型中的特定資料行以 CSDL (概念結構定義語言) 設定。 若要深入了解預設成員，請參閱其[屬性內容文章](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member) \(機器翻譯\)。 執行 DAX 查詢時，系統會自動套用在模型中指定的預設成員。
 
 本文會描述根據「預設成員」  位置的不同，Power BI 在搭配多維度模型運作時於各種情況下的行為。 
 

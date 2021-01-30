@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5845e56bdcb2257d67d541e35d26c9285a5e9319
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0184e549911afb784e06b1ee829bf113ff97e067
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408128"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086295"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 
@@ -40,7 +40,7 @@ Power BI Pro 是一種個別使用者授權，可讓使用者讀取其他使用�
 ### <a name="purchase-licenses-in-microsoft-365"></a>在 Microsoft 365 中購買授權
 
 > [!NOTE]
-> 如果您通常是透過大量授權合約 (例如 Enterprise 合約) 購買授權，並且想要收到發票，而不是使用信用卡或銀行帳戶購買，則必須以不同的方式提交訂單。 請與您的 Microsoft 轉銷商合作，或透過大量授權服務中心來新增或移除授權。 如需詳細資訊，請參閱[管理訂閱授權](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide)。
+> 如果您通常是透過大量授權合約 (例如 Enterprise 合約) 購買授權，並且想要收到發票，而不是使用信用卡或銀行帳戶購買，則必須以不同的方式提交訂單。 請與您的 Microsoft 轉銷商合作，或透過大量授權服務中心來新增或移除授權。 如需詳細資訊，請參閱[管理訂閱授權](/microsoft-365/commerce/licenses/buy-licenses)。
 
 請遵循下列步驟以在 Microsoft 365 系統管理中心內購買 Power BI Pro 授權：
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 134c11108da77c87ba087df9ac5564521d7a303d
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
-ms.translationtype: HT
+ms.openlocfilehash: 32029ee1c5b19205fafe10c77babfe9bf764341d
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926401"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086456"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>使用 Power BI Desktop 連線至 Oracle 資料庫
 若要使用 Power BI Desktop 連接到 Oracle 資料庫，則執行 Power BI Desktop 的電腦上必須安裝正確的 Oracle 用戶端軟體。 您使用的 Oracle 用戶端軟體取決於已安裝的 Power BI Desktop 版本：32 位元或 64 位元。 其也取決於 Oracle Server 版本。
@@ -24,7 +24,7 @@ ms.locfileid: "97926401"
 - Oracle 資料存取用戶端 (ODAC) 軟體 11.2 和更新版本
 
 > [!NOTE]
-> 如果要設定適用於 Power BI Desktop、內部部署的資料閘道或 Power BI 報表伺服器的 Oracle 資料庫，請參閱 [Oracle 連線類型](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的資訊。 
+> 如果要設定適用於 Power BI Desktop、內部部署的資料閘道或 Power BI 報表伺服器的 Oracle 資料庫，請參閱 [Oracle 連線類型](/sql/reporting-services/report-data/oracle-connection-type-ssrs)一文中的資訊。 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>判斷您已安裝的 Power BI Desktop 版本
@@ -58,7 +58,7 @@ ms.locfileid: "97926401"
    > [!NOTE]
    > 如果您使用本機資料庫或自發資料庫連線，您可能需要將伺服器名稱放在引號中，以避免發生連線錯誤。 
       
-4. 如果您想要使用原生資料庫查詢來匯入資料，請將您的查詢放在展開 [Oracle 資料庫] 對話方塊的 [進階選項] 區段時所顯示 [SQL 陳述式] 方塊中。
+4. 如果您想要使用原生資料庫查詢來匯入資料，請將您的查詢放在展開 [Oracle 資料庫] 對話方塊的 [進階選項] 區段時所顯示 [SQL 陳述式] 方塊中。  Power BI Desktop 不支援在「開始 ...」中執行預存程式和 Oracle 原生查詢的 Oracle 原生查詢end "block 不會傳回任何結果集。  
    
    ![展開 [進階選項]](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
 
@@ -89,4 +89,5 @@ ms.locfileid: "97926401"
 
 如果您在連接到 Oracle 資料庫時，於 Power BI Gateway 中看到錯誤訊息「未設定物件參考」，請遵循[管理您的資料來源 - Oracle](service-gateway-onprem-manage-oracle.md) 中的指示進行。
 
-如要使用 Power BI 報表伺服器，請參閱 [Oracle 連線類型](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的指引。
+如要使用 Power BI 報表伺服器，請參閱 [Oracle 連線類型](/sql/reporting-services/report-data/oracle-connection-type-ssrs)一文中的指引。
+

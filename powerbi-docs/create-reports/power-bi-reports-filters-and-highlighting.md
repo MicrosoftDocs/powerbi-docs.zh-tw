@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/29/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a793ff966f7560924f53357ce7518f0ede65c56
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 572bbc8b24fc3ebf8ee2890480eff25eab87d37d
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393569"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087813"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示
- 本文介紹如何在 Power BI 服務中進行篩選和醒目提示。 其體驗幾乎與 Power BI Desktop 完全相同。 *篩選* 會保留您最關切的資料，而將其他所有資料移除。 「醒目提示」  與篩選不同。 它不會移除資料，而是將一部分可見資料醒目提示，未醒目提示的資料仍保持可見但會變暗。
+ 本文介紹如何在 Power BI 服務中進行篩選和醒目提示。 其體驗幾乎與 Power BI Desktop 完全相同。 *篩選* 會保留您最關切的資料，而將其他所有資料移除。 一般情況下，反白 *顯示* 不會進行篩選。 在大部分的視覺效果中，它並不會移除不相關的資料。 相反地，它會反白顯示相關資料的子集。 其餘的資料會保持可見但呈現暗灰色。 請參閱本文稍後的臨機操作 [交叉篩選和交叉](#ad-hoc-cross-filtering-and-cross-highlighting) 醒目提示，以取得詳細資料。
 
 若要篩選 Power BI 中的報表並將其醒目提示，有許多種不同的方式。 將所有該類資訊放在同篇文章中會容易混淆，因此我們已加以細分成這些小節︰
 
@@ -34,22 +34,22 @@ ms.locfileid: "96393569"
 
 ## <a name="intro-to-the-filters-pane"></a>[篩選] 窗格簡介
 
-您可以在 [篩選]  窗格中套用篩選，或是直接在報表本身的[交叉分析篩選器中進行選取](../visuals/power-bi-visualization-slicers.md)。 [篩選] 窗格會顯示報表中使用的資料表及欄位，以及已套用的篩選 (如果有的話)。 
+您可以在 [篩選] 窗格中套用篩選，或是直接在報表本身的[交叉分析篩選器中進行選取](../visuals/power-bi-visualization-slicers.md)。 [篩選] 窗格會顯示報表中使用的資料表及欄位，以及已套用的篩選 (如果有的話)。 
 
 ![[篩選] 窗格](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-reading-view.png)
 
 有四種類型的篩選。
 
-- [頁面篩選]  會套用至報表頁面上的所有視覺效果     
-- [視覺效果篩選]  會套用至報表頁面上的單一視覺效果。 只有在您已選取報表畫布上的視覺效果時，才會看到視覺效果層級篩選。    
-- [報表篩選]  會套用至報表的所有頁面    
-- [鑽研篩選]  會套用至報表中的單一實體    
+- [頁面篩選] 會套用至報表頁面上的所有視覺效果     
+- [視覺效果篩選] 會套用至報表頁面上的單一視覺效果。 如果您在報表畫布上選取一個視覺效果，則只會看到視覺效果層級篩選條件。    
+- [報表篩選] 會套用至報表的所有頁面    
+- [鑽研篩選] 會套用至報表中的單一實體    
 
 您可以在 [閱讀檢視] 或 [編輯檢視] 中的頁面、視覺效果和報表篩選中搜尋，以尋找和選取所需的值。 
 
 ![在篩選條件中搜尋](media/power-bi-reports-filters-and-highlighting/power-bi-search-filter.png)
 
-如果篩選旁邊有 **All** 這個字詞，表示欄位中的所有值都包含在篩選中。  例如，下方螢幕擷取畫面中的 **Chain(All)** 表示此報表頁面包含所有連鎖店的相關資料。  相反地，[FiscalYear is 2013 or 2014]  的報表層級篩選表示報表只包含 2013 年及 2014 年會計年度的資料。
+如果篩選旁邊有 **All** 這個字詞，表示欄位中的所有值都包含在篩選中。  例如，下方螢幕擷取畫面中的 **Chain(All)** 表示此報表頁面包含所有連鎖店的相關資料。  相反地，[FiscalYear is 2013 or 2014] 的報表層級篩選表示報表只包含 2013 年及 2014 年會計年度的資料。
 
 ## <a name="filters-in-reading-or-editing-view"></a>[閱讀檢視] 或 [編輯檢視] 中的篩選
 您可使用下列兩種模式與報表互動：[閱讀檢視](../consumer/end-user-reading-view.md)和編輯檢視。 系統會依據您使用的模式提供篩選功能。
@@ -70,12 +70,12 @@ ms.locfileid: "96393569"
 
 在 [讀取檢視] 中，透過修改現有的篩選來瀏覽資料。 即使您在行動裝置應用程式中開啟報表，您所做的變更也會與報表一起儲存。 了解[進行報表 [篩選] 窗格概觀](../consumer/end-user-report-filter.md)時的做法
 
-當您結束報表時，會儲存您的篩選。 若要復原您的篩選並返回至預設篩選、切割、鑽研並依報表作者排序：請從頂端功能表列選取 [重設為預設]  。
+當您結束報表時，即會儲存您的篩選條件。 若要復原您的篩選並返回至預設篩選、切割、鑽研並依報表作者排序：請從頂端功能表列選取 [重設為預設]。
 
 ![重設為預設圖示](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ### <a name="filters-in-editing-view"></a>[編輯檢視] 中的篩選
-若您具備報表的擁有者權限，並以 [編輯檢視] 加以開啟，則會看到 [篩選]  只是可用的數個編輯窗格中的一項。
+若您具備報表的擁有者權限，並以 [編輯檢視] 加以開啟，則會看到 [篩選] 只是可用的數個編輯窗格中的一項。
 
 ![[編輯檢視] 中的 [篩選] 窗格](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-editing-view.png)
 
@@ -83,13 +83,16 @@ ms.locfileid: "96393569"
 
 在 [編輯檢視] 中，我們可以透過篩選和醒目提示來進行更多作業。 主要可以新增新的篩選。 了解如何[新增報表篩選](power-bi-report-add-filter.md)等更多功能。
 
-## <a name="ad-hoc-highlighting"></a>隨選醒目提示
-選取視覺效果中的值或軸標籤，以醒目提示頁面上的其他視覺效果。 若要移除醒目提示，請再次選取值，或選取相同視覺效果中的任何空白空間。 醒目提示是快速探索資料影響的有趣方式。 若要微調此類交叉醒目提示的運作方式，請參閱[視覺效果互動](service-reports-visual-interactions.md)。
+## <a name="ad-hoc-cross-filtering-and-cross-highlighting"></a>臨機操作交叉篩選和交叉醒目提示
+選取一個視覺效果中的值或軸標籤，以交叉篩選或交叉醒目提示頁面上其他視覺效果中的相關值。 在大部分的視覺效果中，選取一個視覺效果中的值並不會移除其他視覺效果中不相關的資料。 相反地，它會反白顯示相關資料的子集。 不相關的資料會保持可見但呈現暗灰色。 不過，在某些視覺效果中，選取一個視覺效果中的值，會比其他視覺效果中的篩選更為類似。 例如，在折線圖和散佈圖中，只有相關的資料會保持可見。 不相關的資料會顯示出來，就像您在篩選器中所看到的一樣。 
 
-![交叉醒目提示](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+若要移除醒目提示，請再次選取值，或選取相同視覺效果中的任何空白空間。 醒目提示是快速探索資料影響的有趣方式。 如需更多範例，請參閱「視覺效果如何在 Power BI 報表中相互交叉篩選」的 [交叉篩選和交叉](../consumer/end-user-interactions.md#cross-filtering-and-cross-highlighting) 醒目提示區段。
 
+![顯示交叉篩選和交叉醒目提示的動畫。](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-## <a name="next-steps"></a>後續步驟
+報表編輯器可以改變視覺效果的互動方式。 若要微調交叉醒目提示的運作方式，請參閱 [變更報表中的視覺效果互動方式](service-reports-visual-interactions.md)。
+
+## <a name="next-steps"></a>下一步
 
 [Power BI 報表的全新篩選體驗](power-bi-report-filter.md)
 
@@ -97,6 +100,6 @@ ms.locfileid: "96393569"
 
 [報表篩選概觀](../consumer/end-user-report-filter.md)
 
-[變更報表視覺效果相互交叉篩選及交叉醒目提示的方式](../consumer/end-user-interactions.md)
+[報表視覺效果如何在報表中交叉篩選和交叉醒目提示](../consumer/end-user-interactions.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

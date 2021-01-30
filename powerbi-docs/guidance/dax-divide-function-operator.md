@@ -2,18 +2,18 @@
 title: DAX：DIVIDE 函式與除法運算子 (/) 的比較
 description: 何時使用 DAX DIVIDE 函式的指引。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.openlocfilehash: ece1c0d939ef521b20142acb753de7b7554e870a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: deae824048f90104b21f0fe44c51a6e824d7f1d0
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394121"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088480"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX：DIVIDE 函式與除法運算子 (/) 的比較
 

@@ -2,18 +2,18 @@
 title: 避免在列印編頁報表時出現空白頁面
 description: 設計分頁報表以避免列印時顯示空白頁面的指引。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.openlocfilehash: 0fa886973105bdb4bc8a35f145168c1775ca12cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: c4768f6150d3d68826a846649a161069cef30ed0
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418455"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088181"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>避免在列印編頁報表時出現空白頁面
 

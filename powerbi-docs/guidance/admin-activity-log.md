@@ -2,18 +2,18 @@
 title: 存取 Power BI 活動記錄
 description: 適用於 Power BI 活動記錄的指引與範例 PowerShell 指令碼。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: sample
 ms.date: 09/03/2020
-ms.openlocfilehash: 18ce155419f712cce2c4973949cd02ffbd870724
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0e86966225060c24aa154c0b29ea533dad89908b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394650"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088687"
 ---
 # <a name="access-the-power-bi-activity-log"></a>存取 Power BI 活動記錄
 
@@ -30,7 +30,7 @@ PowerShell 範例可有助了解如何篩選及擷取 Power BI 活動記錄事�
 - 擷取使用者清單以進行直接的報表共用。
 
 > [!NOTE]
-> 您必須熟悉 [Power BI 管理員 API](/rest/api/power-bi/admin) 與 [Power BI PowerShell 課程模組](/powershell/power-bi/overview?view=powerbi-ps)。 在執行這些指令碼區塊之前，必須先安裝 PowerShell 課程模組。 如需詳細資訊，請參閱[追蹤 Power BI 中的使用者活動](../admin/service-admin-auditing.md#use-the-activity-log)。
+> 您必須熟悉 [Power BI 管理員 API](/rest/api/power-bi/admin) 與 [Power BI PowerShell 課程模組](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true)。 在執行這些指令碼區塊之前，必須先安裝 PowerShell 課程模組。 如需詳細資訊，請參閱[追蹤 Power BI 中的使用者活動](../admin/service-admin-auditing.md#use-the-activity-log)。
 >
 > 最多可有 30 分鐘的時間來擷取 Power BI 事件。
 

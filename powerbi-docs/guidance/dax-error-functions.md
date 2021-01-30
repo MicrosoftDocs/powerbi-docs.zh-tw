@@ -2,18 +2,18 @@
 title: DAX：誤差函數的適當用法
 description: 有關何時使用 DAX 誤差函式的指導方針。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/26/2019
-ms.openlocfilehash: fd071fad18580074ce42c990db7f048ce2ad8c2d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: c0766a989ea3dbfe42620fd53b4c49d6144b4c5f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394029"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088457"
 ---
 # <a name="dax-appropriate-use-of-error-functions"></a>DAX：誤差函數的適當用法
 

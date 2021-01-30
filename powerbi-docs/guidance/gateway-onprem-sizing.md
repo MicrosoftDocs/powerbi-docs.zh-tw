@@ -2,18 +2,18 @@
 title: 內部部署的資料閘道大小調整
 description: 有關如何調整內部部署資料閘道大小的指導方針。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.openlocfilehash: c0506b492a0c28140256dc0be850358836b284b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 35630891a66b9aed0b9e568d8e34180e3ee41544
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419379"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088388"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>內部部署的資料閘道大小調整
 
@@ -84,7 +84,7 @@ ms.locfileid: "96419379"
 
 - 力求可靠性、速度快，以及低且一致的延遲
 - 消除 (或減少) 閘道與資料來源之間的電腦躍點數
-- 移除防火牆 Proxy 層所加諸的任何網路節流。 如需 Power BI 端點的詳細資訊，請參閱[將 Power BI URL 新增至允許清單](../admin/power-bi-whitelist-urls.md)。
+- 移除防火牆 Proxy 層所加諸的任何網路節流。 如需 Power BI 端點的詳細資訊，請參閱[將 Power BI URL 新增至允許清單](../admin/power-bi-allow-list-urls.md)。
 - 設定 [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) 以建立對 Power BI 的私人受控連線
 - 針對 Azure VM 中的資料來源，請確定 VM [與 Power BI 服務共置](../admin/service-admin-where-is-my-tenant-located.md)
 - 針對涉及動態 RLS 的 SQL Server Analysis Services (SSAS) 即時連線工作負載，請確定閘道電腦與內部部署 Active Directory 之間有良好的連線能力

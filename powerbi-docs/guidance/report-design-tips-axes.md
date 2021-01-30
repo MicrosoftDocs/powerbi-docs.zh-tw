@@ -2,19 +2,19 @@
 title: 在 Power BI 報表中管理軸的提示
 description: 在 Power BI Desktop 或 Power BI 服務中，於 Power BI 報表視覺效果中有效管理軸的八個提示。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 featuredvideoid: 3t9W7Xvpzo0
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.openlocfilehash: f895ef50647f0755221b81205ba93547a2fdc4b2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 3ce6650aa983da1b3fb402887b02617f3470427a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419007"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087882"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>在 Power BI 報表中管理軸的提示
 

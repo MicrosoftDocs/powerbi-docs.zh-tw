@@ -142,7 +142,7 @@
           href: /powershell/power-bi/
           maintainContext: true
         - name: 服務 URL 參考
-          href: power-bi-whitelist-urls.md
+          href: power-bi-allow-list-urls.md
     - name: 資源
       items:
         - name: Power BI 管理與部署方法

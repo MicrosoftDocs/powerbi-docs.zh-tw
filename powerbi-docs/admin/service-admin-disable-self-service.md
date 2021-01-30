@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff695d49caeab7bed88b932cec6aaec11ec4df29
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 127fe9c306295619dadc9817056f76b243231093
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413671"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085996"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>啟用或停用自助式註冊與購買
 
@@ -44,9 +44,9 @@ ms.locfileid: "96413671"
 
 ### <a name="before-you-begin"></a>開始之前
 
-這些步驟會使用 Azure Active Directory PowerShell 命令來變更 **AllowAdHocSubscriptions** 設定的值。 您必須安裝 Azure AD PowerShell 模組，才能使用這些命令。 如需有關使用 PowerShell 的詳細資訊，請參閱[開始使用 Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)。
+這些步驟會使用 Azure Active Directory PowerShell 命令來變更 **AllowAdHocSubscriptions** 設定的值。 您必須安裝 Azure AD PowerShell 模組，才能使用這些命令。 如需有關使用 PowerShell 的詳細資訊，請參閱[開始使用 Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell)。
 
-若要安裝 Azure AD 模組，請以系統管理員身分啟動 Windows PowerShell。 確定您的本機執行原則允許您執行指令碼。 如果遇到問題，請參閱 [PowerShell 執行原則](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)，以了解如何變更您的本機原則。
+若要安裝 Azure AD 模組，請以系統管理員身分啟動 Windows PowerShell。 確定您的本機執行原則允許您執行指令碼。 如果遇到問題，請參閱 [PowerShell 執行原則](/powershell/module/microsoft.powershell.core/about/about_execution_policies#powershell-execution-policies)，以了解如何變更您的本機原則。
 
 請執行下列命令來安裝 Azure AD 模組：
 
@@ -90,9 +90,9 @@ Set-MsolCompanySettings -AllowAdHocSubscriptions $false
 
 ### <a name="before-you-begin"></a>開始之前
 
-這些步驟會使用 MSCommerce PowerShell 命令來變更 **AllowSelfServicePurchase** 設定的值。 您必須安裝 MSCommerce PowerShell 模組，才能使用這些命令。 如需有關使用 PowerShell 的詳細資訊，請參閱[開始使用 Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)。
+這些步驟會使用 MSCommerce PowerShell 命令來變更 **AllowSelfServicePurchase** 設定的值。 您必須安裝 MSCommerce PowerShell 模組，才能使用這些命令。 如需有關使用 PowerShell 的詳細資訊，請參閱[開始使用 Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell)。
 
-若要安裝 MSCommerce 模組，請以系統管理員身分啟動 Windows PowerShell。 確定您的本機執行原則允許您執行指令碼。 如果遇到問題，請參閱 [PowerShell 執行原則](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)，以了解如何變更您的本機原則。
+若要安裝 MSCommerce 模組，請以系統管理員身分啟動 Windows PowerShell。 確定您的本機執行原則允許您執行指令碼。 如果遇到問題，請參閱 [PowerShell 執行原則](/powershell/module/microsoft.powershell.core/about/about_execution_policies#powershell-execution-policies)，以了解如何變更您的本機原則。
 
 請執行下列命令來安裝 MSCommerce 模組：
 
@@ -128,5 +128,5 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ
 
 如需有關 Power BI 及 Power Platform 其餘部分中自助式購買的詳細資訊，請參閱下列文章：
 
-- [自助式購買常見問題集](/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide#admin-capabilities) \(部分機器翻譯\)
-- [使用 MSCommerce PowerShell 模組的 AllowSelfServicePurchase](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide) \(部分機器翻譯\)
+- [自助式購買常見問題集](/microsoft-365/commerce/subscriptions/self-service-purchase-faq#admin-capabilities) \(部分機器翻譯\)
+- [使用 MSCommerce PowerShell 模組的 AllowSelfServicePurchase](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell) \(部分機器翻譯\)

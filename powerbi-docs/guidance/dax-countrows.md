@@ -2,18 +2,18 @@
 title: DAX：使用 COUNTROWS 而非 COUNT
 description: 有關何時使用 COUNTROWS 函式的指導方針。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/23/2019
-ms.openlocfilehash: 1a2b8c6450cfd855a0018fb64dd385a0db6e350f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 8d3baba388900a9d57d6490db13c25cb363667ba
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394190"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088503"
 ---
 # <a name="dax-use-countrows-instead-of-count"></a>DAX：使用 COUNTROWS 而非 COUNT
 

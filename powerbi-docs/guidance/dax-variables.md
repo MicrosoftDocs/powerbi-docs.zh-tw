@@ -2,18 +2,18 @@
 title: DAX：使用變數來改善公式
 description: 在 DAX 運算式中使用變數的指導方針。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/23/2019
-ms.openlocfilehash: 2448ac8b94465872e4224738162c6a252cafe56c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 9dcf6d957a9418d737a511f93fcda0e1978cc45d
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393592"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088342"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX：使用變數來改善公式
 

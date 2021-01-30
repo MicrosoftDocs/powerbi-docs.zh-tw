@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 93198628677966208609892ee45ea4a28932c091
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98686974"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085835"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
@@ -66,7 +66,7 @@ Microsoft 365 為政府機關提供不同環境，以符合不同的合規性需
 
 若要使用 Power BI 服務，您必須允許連線到網際網路上的必要端點。 這些目的地必須可以連線，才能允許網路、Power BI 和其他相依服務間進行通訊。
 
-在下表中，我們會列出要新增到允許清單，允許連線到 Power BI 服務進行一般網站用途的必要端點。 這些端點是美國政府雲端的獨有端點。 Power BI 服務只需為列出的端點開啟 TCP 連接埠 443。 用於取得資料、儀表板和報表整合、Power BI 視覺效果及其他選擇性服務其端點則並非美國政府雲端獨有的端點。 若也要將這些 URL 新增到允許清單，請參閱[將 Power BI URL 新增到允許清單](power-bi-whitelist-urls.md)。
+在下表中，我們會列出要新增到允許清單，允許連線到 Power BI 服務進行一般網站用途的必要端點。 這些端點是美國政府雲端的獨有端點。 Power BI 服務只需為列出的端點開啟 TCP 連接埠 443。 用於取得資料、儀表板和報表整合、Power BI 視覺效果及其他選擇性服務其端點則並非美國政府雲端獨有的端點。 若也要將這些 URL 新增到允許清單，請參閱[將 Power BI URL 新增到允許清單](power-bi-allow-list-urls.md)。
 
 Power BI 的驗證、身分識別和管理都相依於對 Microsoft 365 服務的連線能力。 您也必須連線到 Microsoft 365 來檢視稽核記錄。 若要識別這些服務的端點，請參閱下表中的 Microsoft 365 整合。
 

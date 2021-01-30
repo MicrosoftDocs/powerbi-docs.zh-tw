@@ -2,18 +2,18 @@
 title: DAX 範例模型
 description: 支援參考文章的 DAX 範例模型。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/25/2020
-ms.openlocfilehash: b2930003da1593ef5d5888c611af6700e00d3d07
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f9fabfe8ccb4350a8d00a7d140618d742dd8c1e4
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394052"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088434"
 ---
 # <a name="dax-sample-model"></a>DAX 範例模型
 

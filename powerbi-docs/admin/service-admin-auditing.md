@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/20/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 3c1e2b4513b3ac920d447ef0b8195c76c1ec2a04
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: cf10ac72f387438a60d3840c69ad1ee713c26708
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413740"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086204"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -122,7 +122,7 @@ $activities[0]
 
 您必須符合這些需求才能存取稽核記錄：
 
-- 您必須是全域管理員或已被指派 Exchange Online 中的「稽核記錄」或「僅供檢視稽核記錄」角色，才能存取稽核記錄。 根據預設，「法規遵循管理」和「組織管理」角色群組會隨附在 Exchange 系統管理中心的 [權限] 頁面上指派的這些角色。 如需可檢視稽核記錄的角色詳細資訊，請參閱[搜尋稽核記錄的要求](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log)。
+- 您必須是全域管理員或已被指派 Exchange Online 中的「稽核記錄」或「僅供檢視稽核記錄」角色，才能存取稽核記錄。 根據預設，「法規遵循管理」和「組織管理」角色群組會隨附在 Exchange 系統管理中心的 [權限] 頁面上指派的這些角色。 如需可檢視稽核記錄的角色詳細資訊，請參閱[搜尋稽核記錄的要求](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#requirements-to-search-the-audit-log)。
 
     若要提供稽核記錄存取權給非系統管理員帳戶，請將使用者新增為這些角色群組中其中一個角色群組的成員。 如果您想要以另一種方式執行，則可以在 Exchange 系統管理中心建立自訂角色群組，將「稽核記錄」或「僅供檢視稽核記錄」角色指派給這個群組，然後將非系統管理員帳戶新增至新的角色群組。 如需詳細資訊，請參閱[在 Exchange Online 中管理角色群組](/Exchange/permissions-exo/role-groups)。
 
@@ -211,7 +211,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 ### <a name="use-powershell-to-search-audit-logs"></a>使用 PowerShell 來搜尋稽核記錄
 
-您也可以使用 PowerShell，依據您的登入存取稽核記錄。 下列範例顯示如何連線至 Exchange Online PowerShell，並接著使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令來提取 Power BI 稽核記錄項目。 若要執行該指令碼，系統管理員必須將適當的權限指派給您，如[稽核記錄需求](#audit-log-requirements)一節中所述。
+您也可以使用 PowerShell，依據您的登入存取稽核記錄。 下列範例顯示如何連線至 Exchange Online PowerShell，並接著使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) 命令來提取 Power BI 稽核記錄項目。 若要執行該指令碼，系統管理員必須將適當的權限指派給您，如[稽核記錄需求](#audit-log-requirements)一節中所述。
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -226,7 +226,7 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 ### <a name="use-powershell-to-export-audit-logs"></a>使用 PowerShell 來匯出稽核記錄錄
 
-您也可以使用 PowerShell 來匯出稽核記錄搜尋的結果。 下列範例示範如何從 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令傳送，然後使用 [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) Cmdlet 來匯出結果。 若要執行該指令碼，系統管理員必須將適當的權限指派給您，如[稽核記錄需求](#audit-log-requirements)一節中所述。
+您也可以使用 PowerShell 來匯出稽核記錄搜尋的結果。 下列範例示範如何從 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) 命令傳送，然後使用 [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) Cmdlet 來匯出結果。 若要執行該指令碼，系統管理員必須將適當的權限指派給您，如[稽核記錄需求](#audit-log-requirements)一節中所述。
 
 ```powershell
 $UserCredential = Get-Credential

@@ -2,18 +2,18 @@
 title: 規劃部署以移轉至 Power BI
 description: 在移轉至 Power BI 時規劃部署的指導方針。
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.openlocfilehash: f161819b6e26c197bacc5534b5abfb426d612624
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f6b781d6b3f87587e7734d5f842a013fd6fb5c19
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419214"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086686"
 ---
 # <a name="plan-deployment-to-migrate-to-power-bi"></a>規劃部署以移轉至 Power BI
 
