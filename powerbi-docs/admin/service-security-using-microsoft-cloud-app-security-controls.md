@@ -2,41 +2,41 @@
 title: 在 Power BI 中使用 Microsoft Cloud App Security 控制措施
 description: 了解如何搭配 Power BI 使用 Microsoft Cloud App Security
 author: paulinbar
-ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
+ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f7bd3a59395e9f5f1ea167b7e7988aeb9882a72f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 8a09de5777332d69332cae6928022e7e99fe689e
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413326"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422275"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>在 Power BI 中使用 Microsoft Cloud App Security 控制措施
 
-使用 Cloud App Security 搭配 Power BI，有利於保護 Power BI 報表、資料和服務免於遭到非預期的外洩或入侵。 利用 Cloud App Security，您可以使用 Azure Active Directory (Azure AD) 的即時工作階段控制項，針對組織的資料建立條件式存取原則，以協助確保 Power BI 分析的安全。 設定好這些原則後，系統管理員就可以監視使用者的存取和活動、執行即時風險分析，以及設定標籤特定控制項。 
+使用 Cloud App Security 搭配 Power BI，有利於保護 Power BI 報表、資料和服務免於遭到非預期的外洩或入侵。 使用 Cloud App Security，您可以使用 Azure Active Directory (Azure AD) 中的即時會話控制項來建立組織資料的條件式存取原則，以協助確保您的 Power BI 分析是安全的。 設定好這些原則後，系統管理員就可以監視使用者的存取和活動、執行即時風險分析，以及設定標籤特定控制項。 
 
 ![使用 Cloud App Security 控制措施窗格](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
 
 除了 Power BI，您也可以為各種應用程式和服務設定 Cloud App Security。 您需要設定 Cloud App Security 搭配 Power BI 工作，以得益於 Cloud App Security 對 Power BI 資料和分析的防護。 如需 Cloud App Security 的詳細資訊 (包括運作方式概觀、儀表板及應用程式風險分數)，請參閱 [Cloud App Security](/cloud-app-security/) 文件。
 
+## <a name="cloud-app-security-licensing"></a>Cloud App Security 授權
 
-## <a name="using-cloud-app-security-with-power-bi"></a>搭配 Power BI 使用 Cloud App Security
-
-若要使用 Cloud App Security 搭配 Power BI，您必須使用及設定相關的 Microsoft 安全性服務，部分在 Power BI 外設定。
-
-### <a name="cloud-app-security-licensing"></a>Cloud App Security 授權
-
-您必須擁有下列其中一項[授權](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO)，租用戶才能擁有 Cloud App Security：
+若要使用 Cloud App Security 搭配 Power BI，您必須使用及設定相關的 Microsoft 安全性服務，部分在 Power BI 外設定。 您必須擁有下列其中一項[授權](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO)，租用戶才能擁有 Cloud App Security：
 * Microsoft Cloud App Security：為所有支援的應用程式提供 Cloud App Security 功能，屬於 EMS E5 和 Microsoft 365 E5 套件的一部分。
 * Office 365 Cloud App Security：僅為 Office 365 提供 Cloud App Security 功能，屬於 Office 365 E5 套件的一部分。
-* Azure Active Directory Premium P1，以得益於主要 Cloud App Security 功能。
 
-以下各節說明在 Power BI 中使用 Cloud App Security 的步驟。
+
+## <a name="configure-real-time-controls-for-power-bi-with-cloud-app-security"></a>使用 Cloud App Security 設定 Power BI 的即時控制項
+
+> [!NOTE]
+> * 需要 Azure Active Directory Premium P1 授權才能受益于 Cloud App Security 的即時控制項。
+
+下列各節說明使用 Cloud App Security 為 Power BI 設定即時控制項的步驟。
 
 ### <a name="set-session-policies-in-azure-ad-required"></a>在 Azure AD 中設定工作階段原則 (必要)
 設定工作階段控制措施的必要步驟會在 Azure AD 和 Cloud App Security 入口網站中完成。 在 Azure AD 入口網站中，您要建立適用於 Power BI 的條件式存取原則，並透過 Cloud App Security 服務路由傳送 Power BI 中使用的工作階段。 
@@ -60,6 +60,20 @@ Cloud App Security 也有專門針對 Power BI 的兩項內建偵測。 [本文�
 敏感度標籤可讓您分類並協助保護敏感性內容，讓組織中的人員可以與組織外部的夥伴共同作業，但仍請謹慎小心敏感性內容和資料。 
 
 您可以閱讀有關 [Power BI 敏感度標籤](service-security-sensitivity-label-overview.md)一文，其中詳述使用 Power BI 敏感度標籤的程序。 請參閱下文以取得[以敏感度標籤為基礎的 Power BI 原則範例](#example)。
+
+## <a name="custom-policies-to-alert-on-suspicious-user-activity-in-power-bi"></a>Power BI 中可疑使用者活動發出警示的自訂原則
+
+Cloud App Security 活動原則可讓系統管理員定義自己的自訂規則，以協助偵測偏離此標準的使用者行為，甚至可能會自動採取行動（如果看似危險）。 例如：
+
+* **移除大量敏感度標籤。** 例如：當單一使用者在短時間內的20個不同報表中移除敏感度標籤，但短于5分鐘的時間範圍內，則會發出警示。
+
+* **加密敏感度標籤降級。** 例如：當具有「高度機密」敏感度標籤的報表現在分類為「公用」時，提醒我。
+
+> [!NOTE]
+> * 您可以使用 [POWER BI REST api](/rest/api/power-bi/)，找到 Power BI 成品和敏感度標籤 (識別碼) 的唯一識別碼。 請參閱 [取得資料集](/rest/api/power-bi/datasets/getdatasets) 或 [取得報表](/rest/api/power-bi/reports/getreports)。
+
+
+自訂活動原則會在 Cloud App Security 入口網站中設定。 [深入了解](/cloud-app-security/user-activity-policies)。 
 
 ## <a name="built-in-cloud-app-security-detections-for-power-bi"></a>Power BI 的內建 Cloud App Security 偵測
 

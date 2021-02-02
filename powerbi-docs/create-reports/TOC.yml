@@ -248,7 +248,7 @@
               href: ../visuals/power-bi-report-visualizations.md
             - name: 變更報表中的視覺效果
               href: ../visuals/power-bi-report-change-visualization-type.md
-            - name: 自訂視覺效果標題、背景和圖例
+            - name: 自訂視覺效果標題、背景、圖例等等
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: 顯示沒有資料的項目
               href: desktop-show-items-no-data.md

@@ -11,22 +11,20 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
-ms.translationtype: HT
+ms.openlocfilehash: 8cfba48839f4055c7d48bf01a475cf2804053239
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191774"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422321"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>自訂視覺效果標題、背景、標籤與圖例
 
-[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
-
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 在本教學課程中，您將學到一些不同的方法，可以用來自訂視覺效果。 有很多選項可讓您自訂視覺效果。 深入了解它們的最佳方式就是探索 [格式]窗格 (選取油漆滾筒圖示)。 為了協助開始進行，本文示範如何自訂視覺效果標題、圖例、背景、標籤、圖層，以及如何新增主題。
 
 您無法自訂所有視覺效果。 如需詳細資料，請參閱視覺效果的[完整清單](#visualization-types-that-you-can-customize)。
-
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -60,14 +58,13 @@ ms.locfileid: "98191774"
 
     ![已輸入標題文字的 [格式] 窗格螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
-1. 將 [字型色彩] 變更為白色，並將 [背景色彩] 變更為藍色。    
+1. 將 [字型色彩] 變更為白色，並將 [背景色彩] 變更為藍色。
 
     a. 選取下拉式清單，並從 [佈景主題色彩]、[最近使用的色彩]，或 [自訂色彩] 選擇色彩。
-    
+
     ![字型色彩和背景色彩選項的螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. 選取下拉式清單來關閉色彩視窗。
-
 
 1. 將文字大小放大到 [16 點]。
 
@@ -128,6 +125,7 @@ ms.locfileid: "98191774"
 如果需要還原所有變更，請選取 [圖例] 自訂窗格底部的 [還原為預設值]。
 
 ## <a name="customize-total-labels-for-stacked-visuals"></a>自訂堆疊視覺效果的總計標籤
+
 堆疊視覺效果可以顯示資料標籤和總計標籤。 在堆疊直條圖上，資料標籤會識別資料行每個部分的值。 總計標籤會顯示整個彙總資料行的總計值。 
 
 觀看 Rien 如何將總計標籤新增至堆疊圖表，然後依照下列步驟自行嘗試。
@@ -136,7 +134,7 @@ ms.locfileid: "98191774"
 
 1. 開啟 [概觀] 報表頁面，然後選取 [依鏈結和商店類型的平均銷售區域大小] 橫條圖。
 
-1. 在 [視覺效果] 索引標籤中，選取![堆疊橫條圖的圖示](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png)，將此橫條圖轉換成堆疊橫條圖。 請注意，視覺效果會保留其資料標籤。 
+1. 在 [視覺效果] 索引標籤中，選取![堆疊橫條圖的圖示](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png)，將此橫條圖轉換成堆疊橫條圖。 請注意，視覺效果會保留其資料標籤。
 
     ![新堆疊橫條圖的螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-chart.png)
 
@@ -150,24 +148,23 @@ ms.locfileid: "98191774"
 
     ![具有總計標籤的新堆疊橫條圖螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
 
-
 ## <a name="customize-layer-order"></a>自訂圖層順序
+
 變更報表中視覺效果與圖形的圖層順序。 圖層順序會決定在選取時將會出現在前方的物件。 每當在報表畫布上選取物件時，該物件就會轉變為作用中，並移至最上層。 對於視覺效果而言，這可讓您更輕鬆地與選取的視覺效果互動。 但若是圖形與背景，您可能會想要將其安全地置於底層，以防意外選取而導致覆蓋或遮蔽了報表視覺效果。 
 
 在 Power BI 服務、Power BI Desktop、行動版及報表伺服器中皆可使用圖層控制。 本文說明如何在 Power BI 服務中變更圖層順序。
 
 觀看 Rien 如何變更圖層順序，然後遵循下列步驟親自試試看。
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
 
-1. 選取黃色加號以新增報表頁面。 
+1. 選取黃色加號以新增報表頁面。
 
-1. 將圖形新增至畫布。 我們在這裡新增了藍色矩形。 
+1. 將圖形新增至畫布。 我們在這裡新增了藍色矩形。
 
     ![具有藍色矩形的新報表頁面螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
 
-1. 從報表中的另一個頁面複製並貼上視覺效果。 
+1. 從報表中的另一個頁面複製並貼上視覺效果。
 
     ![具有藍色矩形與圓形圖的新報表頁面螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
 
@@ -179,14 +176,12 @@ ms.locfileid: "98191774"
 
 1. 在 [閱讀] 檢視中，當選取藍色矩形時，矩形會留在後方圖層中。
 
-
 ## <a name="customize-colors-using-a-theme"></a>使用主題自訂色彩
 
 透過報表主題，您可以將設計變更套用至整個報表，例如使用公司色彩、變更圖示集，或套用新的預設視覺效果格式。 當您套用報表主題時，報表中的所有視覺效果都會使用所選主題中的色彩和格式。
 
 若要將主題套用至您的報表，請從功能表列選取 [切換主題]。 選擇一個主題。  下列報表使用 [日光] 主題。
 
- 
 ![使用黃色、橙色和紅色 [日光] 主題的報表](media/power-bi-visualization-customize-title-background-and-legend/power-bi-theme.png)
 
 ## <a name="visualization-types-that-you-can-customize"></a>您可以自訂的視覺效果類型
@@ -227,5 +222,3 @@ ms.locfileid: "98191774"
 - [開始使用色彩格式和軸屬性](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-
-

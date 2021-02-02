@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 12/28/2020
-ms.openlocfilehash: acd9d98b55697e8ca3729cad65a1ead8f01f6e62
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/01/2021
+ms.openlocfilehash: 64a9472960195c8d4f91013a778bb61cdf029ab4
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887009"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422344"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -40,15 +40,41 @@ ms.locfileid: "97887009"
 
 該 API 是非同步的。 呼叫 [exportToFile](/rest/api/power-bi/reports/exporttofile) \(英文\) API 時，其會觸發匯出作業。 觸發匯出作業之後，請使用[輪詢](/rest/api/power-bi/reports/getexporttofilestatus) \(英文\) 來追蹤作業，直到完成為止。
 
-在輪詢期間，API 會傳回代表已完成之工作量的數字。 每個匯出作業中的工作是根據報表所擁有的頁數來計算。 所有頁面都具有相同的權數。 例如，如果您要匯出包含 10 個頁面的報表，而輪詢傳回 70，這表示 API 已處理匯出作業中 10 個頁面的 7 個頁面。
+在輪詢期間，API 會傳回代表已完成之工作量的數字。 每個匯出工作中的工作會根據作業中的匯出總數來計算。 匯出包括匯出單一視覺效果，或包含或不含書簽的頁面。 所有匯出都有相同的權數。 例如，如果您的匯出作業包含匯出具有10個頁面的報表，而輪詢傳回70，則表示 API 已在匯出作業的10個頁面中處理了七個頁面。
 
 當匯出完成時，輪詢 API 呼叫會傳回 [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile) \(英文\) 來取得檔案。 該 URL 在 24 小時內有效。
 
 ## <a name="supported-features"></a>支援的功能
 
+本節說明下列支援功能的操作：
+
+* [選取要列印的頁面](#selecting-which-pages-to-print)
+* [匯出頁面或單一視覺效果](#exporting-a-page-or-a-single-visual)
+* [Bookmarks](#bookmarks)
+* [篩選條件](#filters)
+* [驗證](#authentication)
+* [資料列層級安全性 (RLS)](#row-level-security-rls)
+* [資料保護](#data-protection)
+* [當地語系化](#localization)
+
 ### <a name="selecting-which-pages-to-print"></a>選取要列印的頁面
 
 根據[取得頁面](/rest/api/power-bi/reports/getpages) \(英文\) 或[取得群組中的頁面](/rest/api/power-bi/reports/getpagesingroup) \(英文\) 傳回值，指定您要列印的頁面。 您也可以指定您要匯出的頁面順序。
+
+### <a name="exporting-a-page-or-a-single-visual"></a>匯出頁面或單一視覺效果
+
+您可以指定要匯出的頁面或單一視覺效果。 您可以使用或不使用書簽來匯出頁面。
+
+根據匯出的類型而定，您必須將不同的屬性傳遞至 [ExportReportPage](/rest/api/power-bi/reports/exporttofile#exportreportpage) 物件。 下表指定每個匯出作業所需的屬性。  
+
+>[!NOTE]
+>匯出單一視覺效果的權數，與匯出頁面 (包含或不含書簽) 相同。 這表示，就系統計算而言，這兩個作業都具有相同的值。
+
+|屬性   |頁面     |單一視覺效果  |註解|
+|------------|---------|---------|---|
+|`bookmark`  |選擇性 |![不適用。](../../media/no.png)|用來匯出處於特定狀態的頁面|
+|`pageName`  |![適用。](../../media/yes.png)|![適用。](../../media/yes.png)|使用 [GetPages](/rest/api/power-bi/reports/getpage) REST API 或 `getPages` 用戶端 API。 如需詳細資訊，請參閱 [取得頁面和視覺效果](/javascript/api/overview/powerbi/get-visuals)。   |
+|`visualName`|![不適用。](../../media/no.png)|![適用。](../../media/yes.png)|有兩種方式可以取得視覺效果的名稱：<li>使用 `getVisuals` 用戶端 API。 如需詳細資訊，請參閱 [取得頁面和視覺效果](/javascript/api/overview/powerbi/get-visuals)。</li><li>接聽並記錄在選取視覺效果時觸發的 *visualClicked* 事件。 如需詳細資訊，請參閱[如何處理事件](/javascript/api/overview/powerbi/handle-events)。</li>. |
 
 ### <a name="bookmarks"></a>書籤
 
@@ -127,10 +153,10 @@ ms.locfileid: "97887009"
 
 * 您要匯出的報表必須位於 Premium 或 Embedded 容量上。
 * 您要匯出之報表的資料集必須位於 Premium 或 Embedded 容量上。
-* 針對公開預覽版，每小時匯出的 Power BI 報表頁面數目限制為每容量 50 個。
+* 針對公開預覽版，每小時的 Power BI 匯出數目限制為每個容量50。 匯出指的是匯出單一視覺效果或含有或不含書簽的報表頁面，而且不包含匯出編頁報表。
 * 匯出的報表不能超過 250 MB 的檔案大小。
 * 匯出為 .png 時，不支援敏感性標籤。
-* 匯出的報表可有 50 頁。 如果報表包含更多頁面，則 API 會傳回錯誤並取消匯出作業。
+* 匯出 (單一視覺效果或報表頁面) 可包含在匯出的報表中的匯出數目為 50 (這不包括將分頁報表匯出) 。 如果要求包含更多匯出，則 API 會傳回錯誤並取消匯出作業。
 * 不支援[個人書籤](../../consumer/end-user-bookmarks.md#personal-bookmarks)與[永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) \(英文\)。
 * 不支援下面所列的 Power BI 視覺效果。 匯出包含這些視覺效果的報表時，包含這些視覺效果的報表部分將不會轉譯，而且會顯示錯誤符號。
     * 未經認證的 Power BI 視覺效果

@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/28/2021
-ms.openlocfilehash: d7fc9437af37052e95eaa771aab98f1331227c14
-ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.date: 02/01/2021
+ms.openlocfilehash: 6742b915cf4418cd0f9f735eaffea8da1d010e79
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "99044210"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422367"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -25,10 +25,11 @@ ms.locfileid: "99044210"
 ## <a name="january-2021"></a>2021 年 1 月
 - **Power BI 報表伺服器**
     - *Version： 1.10.7698.12811 (Build 15.0.1105.194) ，發行日期：2021年1月21日*
-        - 功能
+        - 特性
             - 新圖示 releate 至 Power BI 並 Power BI 報表。
+            - 隨附于發行版本3.5.0 的自訂視覺 API
             - 新的入口網站預覽體驗已新增至 ReportServer 目錄的 ConfigurationInfo 資料表中的 ' UsePortalV2 ' 功能切換後方。
-        - 錯誤修正
+        - Bug 修正
             - 已修正使用增強型模型中繼資料之特定模型的排程重新整理 Power BI 報表的問題。
             - 修正在入口網站中編輯資料驅動訂閱的問題。
         - 安全性更新
@@ -40,7 +41,7 @@ ms.locfileid: "99044210"
 ## <a name="october-2020"></a>2020 年 10 月
 - **Power BI 報表伺服器**
     - *版本：1.9.7675.15620 (組建 15.0.1104.300)，發行日期：2021 年 1 月 8 日*
-        - 錯誤修正
+        - Bug 修正
             - 已修正具有兩個或多個資料來源且只有字母大小寫不同的報表重新整理問題。
             - 已修正具有特定巢狀聯結組合的報表重新整理問題。
     - *版本：1.9.7627.11028 (組建 15.0.1104.264)，發行日期：2020 年 11 月 18 日*
@@ -54,7 +55,7 @@ ms.locfileid: "99044210"
             - 在 Power BI 報表伺服器中啟用對增強型資料集中繼資料的支援。
             - 已啟用 Power BI 報表的更新連線功能，以處理 DirectQuery 和重新整理 (如需詳細資料，請參閱[變更資料來源連接字串](./connect-data-source-apis.md))。
         - 安全性更新
-        - Bug 修正
+        - 錯誤修正
             - 已修正阻礙使用者變更 Power BI 報表重新整理排程的問題。
             - 已修正當認證過期後，使用者管理報表時收到的困惑錯誤訊息。
             - 已修正匯出報表在名稱中包含句點的問題。
