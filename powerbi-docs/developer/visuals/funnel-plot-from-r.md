@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: f1f8c037a3ceb66d8ffb5abab6bccd4ec9bc7adc
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: 3d618735f2783e0fce0be938fbdcac7beb5d399e
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969550"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495102"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教學課程：從 R 指令碼到 R 視覺效果 - 建置漏斗圖
 本文逐步說明如何在 R 視覺效果中使用 R 指令碼來建置漏斗圖。
@@ -270,7 +270,7 @@ ms.locfileid: "97969550"
 
 * 您可以使用 [GitHub](https://github.com/Microsoft?utf8=%E2%9C%93&q=PowerBI&type=&language=R) 中提供的程式碼，而不必從頭開始開發 R 支援的視覺效果。 您可以選取要作為範本使用的視覺效果，並將程式碼複製到新專案。
 
-   例如，您可以嘗試使用[曲線自訂視覺效果](https://github.com/PowerBi-Projects/PowerBI-visuals-spline)。
+   例如，您可以嘗試使用[曲線自訂視覺效果](https://github.com/microsoft/PowerBI-visuals-spline)。
 
 * 每個 R 視覺效果都會將 `unique` 運算子套用至其輸入資料表。 為了避免移除相同的資料列，請考慮使用唯一識別碼來新增額外的輸入欄位，並在 R 程式碼中予以忽略。   
 

@@ -8,15 +8,15 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 01/25/2021
+ms.date: 02/01/2021
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: a3492383d5341518de178419afe29df1af8fa26b
-ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.openlocfilehash: 4ec3b034822ca9db86bc8d481588d44ae44158a1
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "98861253"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495148"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>「商務使用者」的授權和訂閱
 
@@ -36,7 +36,7 @@ ms.locfileid: "98861253"
 
 ## <a name="licenses"></a>授權
 
-Power BI 服務的每個使用者都有一個「高階」*每一使用者** 授權的 *免費* 授權（ *Pro* 授權）。 若您是 Power BI 的「商務使用者」，可能會使用由 Power BI 系統管理員所管理的免費授權。
+Power BI 服務的每個使用者都有 *免費* 授權、 *Pro* 授權或 *Premium 每位使用者** 授權。 若您是 Power BI 的「商務使用者」，可能會使用由 Power BI 系統管理員所管理的免費授權。
 
 您可能同時擁有多個授權。  此服務一律會提供與您目前所有最寬鬆授權相等的體驗。
 

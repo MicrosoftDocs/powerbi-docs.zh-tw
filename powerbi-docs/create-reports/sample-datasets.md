@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
 LocalizationGroup: Samples
-ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f69be1cd602c0b20c48581a5d6ee1ff034749b2a
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396192"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495125"
 ---
 # <a name="get-samples-for-power-bi"></a>取得 Power BI 範例
 您是否剛接觸 Power BI 並想要試用，但沒有任何資料；  或者，您可能想要查看說明 Power BI 功能的報表。 交給我們吧。
@@ -42,7 +42,7 @@ Power BI 報表設計師 Miguel Myers 和 Chris Hamill 建立銷售與退貨 .pb
 您可以下列方式探索：
 
 - 在 Power BI 社群[資料故事程式庫](https://community.powerbi.com/t5/Data-Stories-Gallery/Sales-amp-Returns-Sample-Report/m-p/876607) (英文) 中檢視以及互動。
-- 下載 .pbix 檔案並深入探索。 一窺「幕後」真相，以了解 Miguel 如何進行。 選取此連結會自動下載檔案：[銷售與退貨範例報表](https://go.microsoft.com/fwlink/?linkid=2113239)。
+- 下載 .pbix 檔案並深入探索。 一窺「幕後」真相，以了解 Miguel 如何進行。 選取此連結會自動下載檔案：[銷售與退貨範例報表](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Sales%20%26%20Returns%20Sample%20v201912.pbix)。
 - 閱讀 Power BI 部落格文章中的報表，[瀏覽新的銷售與退貨範例報表](https://powerbi.microsoft.com/blog/take_a_tour_of_the_new_sales_returns_sample_report/) (英文)。
 
 ## <a name="sample-app-from-appsource"></a>AppSource 的範例應用程式

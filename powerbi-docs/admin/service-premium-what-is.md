@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 01/18/2021
+ms.date: 02/01/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: c89cf7b00d5167ffb68a491a9cfdcea21378dfd5
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 05f2523e468759444a731d5484e8ce17350a46ae
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565142"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494895"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -76,25 +76,15 @@ Premium Gen2 提供下列更新或改進的體驗：
 
 1.    計量應用程式中無法追蹤 Premium Gen2 容量使用率。
 
-2.    在管理入口網站的 [Premium Gen2 容量] 設定頁面中，尚未顯示適用於特定工作負載的 Premium Gen2 容量設定。 若要變更設定，請將容量轉換成 Premium 的原始版本，變更設定，然後再次將容量設定為使用 Premium Gen2。 記憶體配置設定不適用於 Premium Gen2 容量。
+2.  如果您在 Premium Gen2 上使用 XMLA，請確定您使用的是最新版本的[資料模型化和管理工具](service-premium-connect-tools.md#data-modeling-and-management-tools)。 
 
-3.  如果您在 Premium Gen2 上使用 XMLA，請確定您使用的是最新版本的[資料模型化和管理工具](service-premium-connect-tools.md#data-modeling-and-management-tools)。 
-
-4.  只有最新的用戶端程式庫才支援 Premium Gen2 中 Analysis 服務功能。 支援這項需求的相依工具其預估發行日期如下：
+3.  只有最新的用戶端程式庫才支援 Premium Gen2 中 Analysis 服務功能。 支援這項需求的相依工具其預估發行日期如下：
 
     |工具|需要的最低版本|預估發行日期|
     |---|---|---|
     |SQL Server Management Studio (SSMS)|18.8|2020 年 12 月 8 日|
     |SQL Server Data Tools (SSDT)|2.9.15|2020 年 11 月 30 日正式推出|
     | AS PowerShell| 高於 21.1.18229|2020 年 11 月 26 日|
-
-5.  不支援將包含資料流程的工作區從其中一個 Premium Gen2 容量重新指派至不同區域中另一個 Premium 容量。 此外，也不支援將大型儲存體格式模型從其中一個 Premium 容量移至另一個 Premium 容量。 如果已經移轉至不同區域的容量，請採取下列其中一個步驟來還原功能：
- 
-    1.  建立新的工作區並複製資料流程
-    2.  將工作區移轉回上一個區域中的容量
-    3.  切換回 Premium Gen 1
-
-這項限制可能會在 Premium Gen 2 正式發行 (GA) 時予以移除。
 
 
 ## <a name="subscriptions-and-licensing"></a>訂閱和授權
@@ -126,11 +116,6 @@ Power BI **Premium Per User** 可讓組織以個別使用者為基礎，對 Prem
 工作區存放在容量中。 每個 Power BI 使用者都有個人工作區，稱為 **我的工作區**。 可建立額外的工作區 (稱為 **工作區**) 來啟用共同作業。 根據預設，工作區 (包括個人工作區) 是在共用容量中建立的。 當具有 Premium 容量時，即可將「我的工作區」和工作區指派給 Premium 容量。
 
 系統會將容量管理員的「我的工作區」自動指派到 Premium 容量。
-
-### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 (預覽) 的更新
-
-Premium Gen 2 節點不再使用保留的基礎結構。 相反地，此服務會從強大計算節點的共用集區中配置足夠的資源，來確保每個執行中的工作負載都會有足夠的計算能力。
-
 
 ### <a name="capacity-nodes"></a>容量節點
 

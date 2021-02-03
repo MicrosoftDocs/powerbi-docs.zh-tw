@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 00f78fef9f1abd11d7c553009db5541822c59c85
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
-ms.translationtype: HT
+ms.openlocfilehash: 377ede2171a721a33aa0b70819ef511d721f2590
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926359"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494435"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>在 Power BI Desktop 中連接到 Snowflake
 在 Power BI Desktop 中，您可以連接至 **Snowflake** 運算倉儲並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
@@ -47,6 +47,10 @@ ms.locfileid: "97926359"
 ![ODBC 錯誤 28000 導致連線失敗。](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
 您可以 **載入** 選取的資料表，將整個資料表帶入 **Power BI Desktop** 中，也可以 **編輯** 查詢以開啟 **查詢編輯器**，以便您篩選並縮小搜尋範圍到一組您想要使用的資料，然後將該組精簡的資料載入 **Power BI Desktop** 中。
+
+## <a name="custom-roles"></a>自訂角色
+
+雪花式連接器中的「自訂角色」支援目前只適用于基本驗證。 這將在不久的將來解決。
 
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 連接至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰

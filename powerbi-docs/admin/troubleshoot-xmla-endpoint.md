@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/13/2021
+ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226977"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494457"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>針對 XMLA 端點連線能力進行疑難排解
 
@@ -221,6 +221,10 @@ Error returned: ‘Metadata change of current operation cannot be resolved, plea
 ## <a name="dataset-refresh-through-the-xmla-endpoint"></a>透過 XMLA 端點重新整理資料集
 
 上次重新整理日期與時間會顯示在 Power BI 中的幾處位置，例如報表ˇ與清單中的 [已重新整理] 資料行、[資料集詳細資料]、[資料集設定]，以及 [資料集重新整理記錄]。 目前，Power BI 中所顯示重新整理日期與時間 **不** 包含使用 TMSL/TOM、SSMS 或協力廠商工具來透過 XMLA 端點執行的重新整理作業。
+
+## <a name="discover_m_expressions"></a>DISCOVER_M_EXPRESSIONS 
+
+使用 XMLA 端點的 Power BI 中，目前不支援 DMV DISCOVER_M_EXPRESSIONS 資料管理檢視 (DMV) 。 應用程式可以使用表格式物件模型 (TOM) 來取得資料模型所使用的 M 運算式。
 
 ## <a name="see-also"></a>另請參閱
 

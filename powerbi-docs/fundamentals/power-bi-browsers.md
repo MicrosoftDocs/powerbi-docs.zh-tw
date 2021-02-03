@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 03/25/2020
+ms.date: 02/01/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 425a7561d33a96db7c9537a934d9707af6388f1e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: c7f5f5769c5d4f29ba67b64c0e0fa646aa5d4ddb
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416730"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495079"
 ---
 # <a name="supported-browsers-for-power-bi"></a>支援 Power BI 的瀏覽器
 
-Power BI 設計旨在使用這些支援的瀏覽器，但效能會因所選瀏覽器而有所不同。 特別是若您正在使用 Internet Explorer，則執行效能可能會更差。 我們強烈建議從 Internet Explorer 切換到新式瀏覽器 (包括 Microsoft Edge)。 若執行效能仍然無法令人接受，請測試其他支援的現代化瀏覽器，以查看這些瀏覽器是否為 Power BI 解決方案提供了更佳的結果。
+Power BI 的設計目的是要與以下所述的任何支援的瀏覽器搭配運作。 但是，效能會因您選擇的瀏覽器而有所不同。 特別是若您正在使用 Internet Explorer，則執行效能可能會更差。 我們強烈建議從 Internet Explorer 切換到新式瀏覽器 (包括 Microsoft Edge)。 如果您仍遇到無法接受的效能，請測試其他支援的新式瀏覽器，以查看是否為您的 Power BI 解決方案提供更佳的結果。
 
 Power BI 在所有適用的平台都支援這些瀏覽器：
 
@@ -33,5 +33,5 @@ Power BI 在所有適用的平台都支援這些瀏覽器：
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 是什麼？](power-bi-overview.md)
-* 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)
+* 詢問 [Power BI 社群](https://community.powerbi.com/)
 * 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)

@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: b99f6f53f64e57bc262ea5aa518efa529b73f44e
-ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.openlocfilehash: 04a971aa6d1e584866ff7740676ab35b2e0e17af
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99088135"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494872"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>適用於 Power BI 的 Azure 安全性基準
 
@@ -221,7 +221,7 @@ Power BI 支援 Azure AD 中的工作階段原則來啟用條件式存取原則�
 **指引**：安全、隔離的工作站對於敏感性角色 (例如系統管理員、開發人員及重要服務操作員) 的安全性來說至關重要。 針對與管理 Power BI 相關的系統管理工作，使用高度安全的使用者工作站和/或 Azure Bastion。 請使用 Azure Active Directory、Microsoft Defender 進階威脅防護 (ATP) 和/或 Microsoft Intune，以部署安全且受控的使用者工作站來進行系統管理工作。 受保護的工作站可以集中管理以施行安全設定，包括增強式驗證、軟體和硬體基準、受限的邏輯和網路存取。
 
 了解特殊權限存取
-- [工作站](/azure/active-directory/devices/concept-azure-managed-workstation) (機器翻譯)
+- [工作站](https://4sysops.com/archives/understand-the-microsoft-privileged-access-workstation-paw-security-model/) (機器翻譯)
 
 - [部署特殊權限存取工作站](/azure/active-directory/devices/howto-azure-managed-workstation) (機器翻譯)
 

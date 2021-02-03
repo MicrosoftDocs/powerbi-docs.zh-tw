@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 02/01/2021
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: ced239ba0ac8f34314caf559a04126bf64ca7c50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 32ef0845c2482b4f8a71240f432071b44cb518ea
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412337"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494320"
 ---
 # <a name="managing-premium-capacities"></a>管理 Premium 容量
 
@@ -44,7 +44,7 @@ Power BI 管理入口網站的 [容量設定] 頁面會顯示已購買的 V 核�
 
 除非在工作區權限中明確指派，否則容量管理員無法存取工作區內容。 他們也無法存取所有的 Power BI 管理區域 (除非已明確指派)，例如使用計量、稽核記錄檔或租用戶設定。 重要的是，容量管理員沒有建立新容量或調整現有容量大小的權限。 管理員是按每個容量來指派，確保他們只能檢視和管理指派給他們的容量。
 
-容量大小選取自可用的 SKU 選項清單，其受限於集區中可用的 V 核心數目。 您可以從集區建立多個容量，這可能來自一或多個已購買的 SKU。 例如，P3 SKU (32 個 V 核心) 可用來建立三個容量：一個 P2 (16 個 V 核心) 和兩個 P1 (2 x 8 個 V 核心)。 如[最佳化 Premium 容量](service-premium-capacity-optimize.md)一文所述，藉由建立較小的容量，可以達到更佳的效能和規模。 下圖顯示虛構組織 Contoso 的範例設定，其中包含五個 Premium 容量 (3 個 P1 及 2 個 P3，每個內含多個工作區)，以及共用容量中的數個工作區。
+容量大小選取自可用的 SKU 選項清單，其受限於集區中可用的 V 核心數目。 您可以從集區建立多個容量，這可能來自一或多個已購買的 SKU。 例如，P3 SKU (32 個 V 核心) 可用來建立三個容量：一個 P2 (16 個 V 核心) 和兩個 P1 (2 x 8 個 V 核心)。 下圖顯示虛構組織 Contoso 的範例設定，其中包含五個 Premium 容量 (3 個 P1 及 2 個 P3，每個內含多個工作區)，以及共用容量中的數個工作區。
 
 ![虛構組織 Contoso 的範例設定](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -63,6 +63,8 @@ Power BI 服務管理員和全域管理員可修改 Premium 容量。 具體來�
 根據預設，Premium 容量支援與執行中 Power BI 查詢相關聯的工作負載。 Premium 容量也支援額外的工作負載：**AI (認知服務)** 、**編頁報表** 及 **資料流程**。 每個工作負載都需要設定工作負載所能使用的最大記憶體 (以總可用記憶體百分比表示)。 請務必了解，增加的最大記憶體配置可能會影響可以裝載的作用中模型數目，以及重新整理的輸送量。 
 
 記憶體會以動態方式配置給資料流程，但會以靜態方式配置給編頁報表。 以靜態方式配置最大記憶體的原因是，編頁報表是在容量的安全容納空間內執行。 設定編頁報表記憶體時應特別小心，因為它會減少用於載入模型的可用記憶體。 若要深入了解，請參閱[預設記憶體設定](service-admin-premium-workloads.md#default-memory-settings)。
+
+針對 Premium Gen2，不需要任何記憶體設定或更新。 所有工作負載都有其所需的所有記憶體，在容量 SKU 的限制內。
 
 您可以刪除 Premium 容量，而不會導致刪除其工作區和內容。 相反地，它會將任何指派的工作區移至共用容量。 在不同區域中建立 Premium 容量時，工作區會移至主要區域的共用容量。
 
