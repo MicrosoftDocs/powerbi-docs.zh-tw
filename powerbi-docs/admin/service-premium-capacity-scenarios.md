@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21ec2baf472d9650e550de8808ce3dc98b7cb49f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0038cce77a62f32a5fb5ca32a49fd8f6337352a6
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412291"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532743"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium 容量案例
 
@@ -31,6 +31,8 @@ ms.locfileid: "96412291"
 
 > [!NOTE]
 > Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+>
+>若要查看 Power BI Embedded Gen2 增強功能，請參閱 [Power BI Embedded 層代 2](../developer/embedded/power-bi-embedded-generation-2.md)。
 
 ## <a name="keeping-datasets-up-to-date"></a>將資料集保持在最新狀態
 
@@ -127,7 +129,7 @@ Power BI 系統管理員可使用應用程式中的 [查詢持續時間] 視覺�
 在遭遇記憶體壓力的容量中，同一視覺效果會清楚顯示使用中記憶體和總記憶體貼近，這表示無法再將其他資料集載入記憶體中。 在此情況下，Power BI 管理員可以按一下 [容量重新啟動]  (在管理入口網站的容量設定區域的 [進階選項]  中)。 重新啟動容量會將所有資料集從記憶體中清除，並允許它們視需要重新載入記憶體中 (藉由查詢或資料重新整理)。
 
 > [!NOTE]
-> 針對 Premium Gen2，系統並不需要追蹤記憶體使用量。 Premium Gen2 中的唯一限制，是針對單一成品的磁碟使用量。 磁碟使用量不能超過容量上可用的記憶體。 如需 Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+> 針對 Premium Gen2 和 [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md)，不需要追蹤記憶體耗用量。 Premium Gen2 和 Embedded Gen2 的唯一限制是單一成品的記憶體使用量。 磁碟使用量不能超過容量上可用的記憶體。 如需 Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 ![**使用中** 記憶體與 **所有** 記憶體貼近](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
 
@@ -148,7 +150,7 @@ CPU 飽和會表現在作業花費的時間比所需的更長，因為 CPU 嘗�
 在某些情況下，Power BI 管理員可以藉由建立儀表板 (會以任何資料集重新整理定期查詢快取的圖格) 而不是報表，來要求資料集擁有者建立較穩定的查詢工作負載。 這有助於避免儀表板載入時的尖峰。 對於指定的商務需求，此解決方案可能不一定可行，不過，它可以是不需要變更資料集就避免 CPU 飽和的有效方式。
 
 > [!NOTE]
-> 針對 Premium Gen2，系統會在每個成品的層級上追蹤 CPU 時間使用率，且會在容量使用率應用程式中加以顯示。 每個成品都會顯示其在指定時間範圍內的總 CPU 時間使用率。 如需 Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+> 針對 Premium Gen2 和 [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md)，CPU 時間使用率會在每個成品層級上追蹤，而且會顯示在容量使用率應用程式中。 每個成品都會顯示其在指定時間範圍內的總 CPU 時間使用率。 如需 Premium Gen2 的詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 
 ## <a name="acknowledgments"></a>通知
 

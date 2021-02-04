@@ -12,24 +12,24 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 12/16/2020
-  ms.openlocfilehash: be6ec499d78d3ba5f3899fcb8556296568a40319
-  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-  ms.translationtype: HT
+  ms.date: 02/03/2021
+  ms.openlocfilehash: 8f8956075030eee75077b9da9b6fccca94b73546
+  ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+  ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 12/17/2020
-  ms.locfileid: "97621847"
+  ms.lasthandoff: 02/04/2021
+  ms.locfileid: "99533042"
 highlightedContent:
   items:
   - title: 開始使用 Power BI Desktop
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: 適用於 Power BI 資料集和 Azure Analysis 的 DirectQuery
+  - title: Power BI embedded analytics 用戶端 Api
+    itemType: overview
+    url: /javascript/api/overview/powerbi/
+  - title: '使用資料集中樞探索資料集 (預覽) '
     itemType: concept
-    url: connect-data/desktop-directquery-datasets-azure-analysis-services.md
-  - title: 在 Power BI 中取用 Azure Machine Learning 模型
-    itemType: tutorial
-    url: connect-data/service-aml-integrate.md
+    url: connect-data/service-datasets-hub.md
   - title: Microsoft Learn 上的 Power BI
     itemType: learn
     url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
@@ -234,13 +234,24 @@ conceptualContent:
 additionalContent:
   sections:
   - title: 相關工具
-  - items:
+    items:
     - title: Power BI 報表伺服器
       summary: 探索 Power BI 報表伺服器，這是具有入口網站的內部部署報表伺服器，您可在該入口網站中顯示和管理 Power BI 報表、編頁報表以及 KPI。
       url: report-server/index.yml
     - title: Power BI REST API
       summary: Power BI REST API 可為內嵌、管理和使用者資源提供服務端點。
       url: /rest/api/power-bi/
-    - title: Power Platform 文件
-      summary: 了解 Power BI、Power Apps、Power Automate 以及 Power Virtual Agents 如何搭配運作。
-      url: /power-platform/
+    - title: Power BI embedded analytics 用戶端 Api
+      summary: 使用 JavaScript 或 TypeScript 來內嵌 Power BI 的用戶端程式庫。
+      url: /javascript/api/overview/powerbi/
+  - title: 其他 Microsoft Power Platform 產品
+    items:
+    - title: Power Apps
+      summary: 快速建立低程式碼的應用程式，將 precesses 現代化並解決您組織中的艱難商務挑戰。
+      url: /powerapps/
+    - title: Power Automate
+      summary: 在您最愛的應用程式與服務之間建立自動化工作流程，以同步處理檔案、取得通知等等。
+      url: /power-automate/
+    - title: Power Virtual Agents
+      summary: 使用引導式、無程式碼的圖形化介面建立強大的 bot，而不需要資料科學家或開發人員。
+      url: /power-virtual-agents/

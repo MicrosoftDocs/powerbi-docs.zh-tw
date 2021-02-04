@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: 3d35df1c38a0a62325f88fa19ee7267a3b209647
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 28baefb80037d1f78d2a2fd51b3989aa5d2a1ebb
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494487"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533088"
 ---
 # <a name="scan-barcodes-from-the-mobile-app-to-get-filtered-data"></a>從行動應用程式掃描條碼以取得篩選的資料 
 掃描真實世界中的條碼，直接取得 Power BI 行動裝置應用程式中已篩選的 BI 資訊。
@@ -73,7 +73,7 @@ ms.locfileid: "99494487"
 * 行動裝置應用程式僅針對在所有報表資料表中只有一個條碼資料行的報表支援條碼篩選。 如果您掃描的條碼有一個以上的條碼資料行，就不會進行篩選。
 
 ## <a name="issues-with-scanning-a-barcode"></a>條碼掃描問題
-以下是當您掃描專案的條碼時，可能會遇到的一些 issus。
+以下是當您掃描專案的條碼時，可能會遇到的一些問題。
 
 * 您收到訊息 **無法篩選報表-看起來就是此條碼不存在於報表資料中**：這表示您掃描的條碼值不會出現在您選擇要篩選的報表 datamodel 中。 比方說，如果您掃描的條碼未包含在報表中，就可能會發生這種情況。 您可以掃描不同的產品、選擇不同的報表 (如有多份報表可供選擇)，或檢視未經篩選的報表。
 

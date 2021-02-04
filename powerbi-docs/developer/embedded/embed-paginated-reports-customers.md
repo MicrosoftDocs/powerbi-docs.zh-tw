@@ -1,6 +1,6 @@
 ---
-title: 針對客戶，在 Power BI 內嵌式分析應用程式中內嵌編頁報表，以便取得更佳的內嵌 BI 見解
-description: 了解如何使用 Power BI API，將 Power BI 編頁報表整合或內嵌至應用程式。 使用 Power BI 內嵌式分析，以便取得更佳的內嵌 BI 見解。
+title: 針對客戶，在 Power BI 內嵌式分析應用程式中內嵌 Power BI 編頁報表
+description: 瞭解如何將 Power BI 編頁報表整合或內嵌至內嵌式分析應用程式。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 01/04/2019
-ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
-ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.date: 01/14/2021
+ms.openlocfilehash: 081c6c409a2aed7003952b30ff16dcb7f032ed40
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98781634"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533134"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式
 
@@ -58,10 +58,16 @@ ms.locfileid: "98781634"
 * **Power BI Premium** - 若要內嵌編頁報表，需要 *P* SKU 容量。 內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買容量。 此訂用帳戶會使用 *A* SKU。 若要內嵌編頁報表，您至少需要一個 *A4* 訂用帳戶。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 
+    >[!NOTE]
+    >Power BI Embedded 最近發行了稱為 **Embedded Gen2** 的新版本。 Embedded Gen2 可簡化內嵌容量的管理，並改善 Power BI Embedded 體驗。 如需詳細資訊，請參閱 [Power BI Embedded 第 2 代](power-bi-embedded-generation-2.md)。
+
 下表說明每個 SKU 的資源和限制。 若要判斷最符合需求的容量，請參閱[我該為案例購買哪一種 SKU](./embedded-faq.md#which-solution-should-i-choose) 資料表。
 
 | 容量節點 | V 核心總數 | 後端 V 核心 | RAM (GB) | 前端 V 核心 | 
 | --- | --- | --- | --- | --- |
+| A1 搭配 [Embedded Gen2](power-bi-embedded-generation-2.md) | 1 | 0.5 | 2.5 | 0.5 |
+| A2 搭配 [Embedded Gen2](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
+| A3 搭配 [Embedded Gen2](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -206,7 +212,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 在應用程式中針對客戶內嵌 Power BI 編頁報表時，您必須先具有 **Azure AD** [服務主體](embed-service-principal.md)，並取得 Power BI 應用程式的 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，之後才能呼叫 [Power BI REST API](/rest/api/power-bi/)。
 
-為了使用 **存取權杖** 建立 Power BI 用戶端，請建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 **_Microsoft.Rest.TokenCredentials_* _ 物件包裝在一起來建立 Power BI 用戶端物件。
+為了使用 **存取權杖** 建立 Power BI 用戶端，請建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](/rest/api/power-bi/) 互動。 您可以使用 **_>microsoft.rest.tokencredentials_** 物件包裝 **AccessToken** 來建立 Power BI 用戶端物件。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -228,7 +234,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 下列程式碼範例示範如何從指定工作區中擷取第一份報表。
 
-「無論您想要內嵌報表、儀表板或磚，您都可以在[範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 檔案中，找到如何取得的該內容項目的範例。」_*
+*取得您要內嵌的報表、儀表板或圖格的內容項目範例，位於 [範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples)的 Services\EmbedService.cs 檔案內。*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

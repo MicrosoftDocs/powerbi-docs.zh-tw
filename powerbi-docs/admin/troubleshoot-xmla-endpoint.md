@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 0ae9a37d8d3a54d02811b9f3051d11cb1ab82ff8
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494457"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532559"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>針對 XMLA 端點連線能力進行疑難排解
 
@@ -144,7 +144,7 @@ XMLA 端點可讓您針對表格式模型以及 Power BI Desktop 中建立的資
 
 ### <a name="query-execution"></a>查詢執行
 
-連線到 [Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview) 容量中的工作區時，SQL Server Management Studio 可能會顯示下列錯誤：
+當連接到 [Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview) 或 [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md) 容量中的工作區時，SQL Server Management Studio 可能會顯示下列錯誤：
 
 ```
 Executing the query ...
@@ -155,7 +155,7 @@ Error -1052311437:
 
 ### <a name="refresh-operations"></a>重新整理作業
 
-使用 SSMS v18.7.1 或更低版本，在 Premium Gen2 容量中的資料集上執行長時間執行 (> 1 分鐘) 的重新整理作業時，SSMS 可能會顯示類似下列的錯誤，即使重新整理作業成功也一樣：
+當您使用 SSMS v 18.7.1 或更低版本來執行長時間執行的 ( # B0 1 分鐘) 重新整理作業（在高階 Gen2 或 [內嵌 Gen2](../developer/embedded/power-bi-embedded-generation-2.md) 容量中的資料集），SSMS 可能會顯示類似下列的錯誤，即使重新整理作業成功：
 
 ```
 Executing the query ...

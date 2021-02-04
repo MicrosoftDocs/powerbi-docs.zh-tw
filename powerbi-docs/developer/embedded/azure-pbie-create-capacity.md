@@ -1,6 +1,6 @@
 ---
-title: 在 Azure 入口網站中建立 Power BI Embedded 容量 | Microsoft Docs
-description: 本文逐步解說如何在 Microsoft Azure 中建立 Power BI Embedded 容量。
+title: 在 Azure 入口網站中，建立 Power BI Embedded 容量，以取得 Power BI 內嵌式分析內嵌 BI 解決方案
+description: 本文逐步解說如何在 Microsoft Azure 中建立 Power BI Embedded 容量，以取得 Power BI 內嵌式分析內嵌 BI 解決方案。
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -9,13 +9,13 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
-ms.date: 08/02/2020
-ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: e006d4fe23c85daf941ba7274027ee21b0f44eac
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155704"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532651"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中建立 Power BI Embedded 容量
 
@@ -27,9 +27,9 @@ ms.locfileid: "98155704"
 
 * **Azure 訂用帳戶：** 請瀏覽 [Azure 免費試用版](https://azure.microsoft.com/free/)以建立帳戶。
 
-* **Azure Active Directory：** 訂用帳戶必須與 Azure Active Directory (Azure AD) 租用戶建立關聯。 此外，**_您必須使用該租用戶中的帳戶登入 Azure_* _。 不支援 Microsoft 帳戶。 若要深入了解，請參閱[驗證和使用者權限](/azure/analysis-services/analysis-services-manage-users)。
+* **Azure Active Directory：** 訂用帳戶必須與 Azure Active Directory (Azure AD) 租用戶建立關聯。 此外， **_您必須使用該租使用者中的帳戶登入 Azure_**。 不支援 Microsoft 帳戶。 若要深入了解，請參閱[驗證和使用者權限](/azure/analysis-services/analysis-services-manage-users)。
 
-_ **Power BI 租用戶：** Azure AD 租用戶中至少有一個帳戶必須已註冊 Power BI。
+* **Power BI 租用戶：** Azure AD 租用戶中至少有一個帳戶必須已註冊 Power BI。
 
 * **資源群組：** 使用您已擁有的資源群組或 [建立新的資源群組](/azure/azure-resource-manager/resource-group-overview)。
 
@@ -46,9 +46,9 @@ _ **Power BI 租用戶：** Azure AD 租用戶中至少有一個帳戶必須已�
 3. 在 Power BI Embedded 中，選取 [新增]。
 
 4. 填入必要資訊，然後按一下 [檢閱 + 建立]。
-
-    >[!div class="mx-imgBorder"]
-    >![顯示 [Power B I Embedded] 頁面的 [基本] 索引標籤，以在 Azure 入口網站中建立新容量的螢幕擷取畫面。](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
+    
+    > [!div class="mx-imgBorder"]
+    >![顯示 [Power B I Embedded] 頁面的 [基本] 索引標籤，以在 Azure 入口網站中建立新容量的螢幕擷取畫面。](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **訂用帳戶** - 要用來建立容量的訂用帳戶。
 
@@ -66,7 +66,19 @@ _ **Power BI 租用戶：** Azure AD 租用戶中至少有一個帳戶必須已�
         >* 您可選取不同的使用者或服務主體，以作為容量管理員。
         >* 容量管理員必須屬於佈建容量的租用戶。 企業對企業 (B2B) 使用者不能是容量管理員。
 
+    * **資源模式** -在這兩個 Power BI Embedded 資源模式之間選取：
+
+        * **內嵌層代 1** -傳統 Power BI Embedded 資源。
+
+        * **內嵌式世代 2** -新的 Power BI Embedded 資源，提供改良的體驗。 如需詳細資訊，請參閱 [Power BI Embedded Premium 第2代](power-bi-embedded-generation-2.md)。
+        
+        >[!IMPORTANT]
+        >建立容量資源之後，即無法切換世代。 如果您想要變更 Power BI Embedded 產生，您可以使用不同世代來建立另一個資源，然後將工作區重新指派給它。 您也可以使用 Azure Resource Manager Api 將此程式自動化。
+
 # <a name="azure-cli"></a>[Azure CLI](#tab/CLI)
+
+>[!NOTE]
+>[Power BI Embedded 層代 2 (預覽) ](power-bi-embedded-generation-2.md)不支援 Azure CLI。
 
 ### <a name="use-azure-cloud-shell"></a>使用 Azure Cloud Shell
 
@@ -128,7 +140,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>使用 Azure CLI 刪除容量
 
-若要使用 Azure CLI 來刪除容量，請使用 [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 命令。
+若要使用 Azure CLI 來刪除容量，請使用 [Azure Power BI embedded-容量刪除](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 命令。
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -137,7 +149,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>使用 Azure CLI 管理容量
 
-您可使用 [az powerbi](/cli/azure/ext/powerbidedicated/powerbi) 來檢視所有 Power BI Embedded 的 Azure CLI 命令。
+您可以在 [Azure Power BI](/cli/azure/ext/powerbidedicated/powerbi)中查看所有 Power BI Embedded Azure CLI 命令。
 
 # <a name="arm-template"></a>[ARM 範本](#tab/ARM-template)
 
@@ -151,6 +163,12 @@ az powerbi embedded-capacity delete --name
 
 本快速入門中使用的範本是來自 [Azure 快速入門範本](https://azure.microsoft.com/resources/templates/101-power-bi-embedded)。
 
+在範本中定義 Azure 資源之後， [PowerBIDedicated/容量 Az](/azure/templates/microsoft.powerbidedicated/allversions) -建立 Power BI Embedded 的容量。
+
+#### <a name="embedded-gen1"></a>內嵌 Gen1
+
+使用此範本來建立傳統 Power BI Embedded 資源。
+
 ```json
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
@@ -159,14 +177,14 @@ az powerbi embedded-capacity delete --name
         "name": {
             "type": "string",
             "metadata": {
-              "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
             }
         },
         "location": {
             "type": "string",
             "defaultValue": "[resourceGroup().location]",
             "metadata": {
-              "description": "The location where Power BI is hosted for your tenant"
+                "description": "The location where Power BI is hosted for your tenant"
             }
         },
         "sku": {
@@ -180,13 +198,13 @@ az powerbi embedded-capacity delete --name
                 "A6"
             ],
             "metadata": {
-              "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
             }
         },
         "admin": {
             "type": "string",
             "metadata": {
-              "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
             }
         }
     },
@@ -211,7 +229,70 @@ az powerbi embedded-capacity delete --name
 }
 ```
 
-範本中定義了一個 Azure 資源：[Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - 建立 Power BI Embedded 的容量。
+#### <a name="embedded-gen2-preview"></a>Embedded Gen2 (preview) 
+
+您可以使用此範本來建立 [內嵌的 Gen 2](power-bi-embedded-generation-2.md) 資源。
+
+```json
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "type": "string",
+            "metadata": {
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+            }
+        },
+        "location": {
+            "type": "string",
+            "defaultValue": "[resourceGroup().location]",
+            "metadata": {
+                "description": "The location where Power BI is hosted for your tenant"
+            }
+        },
+        "sku": {
+            "type": "string",
+            "allowedValues": [
+                "A1",
+                "A2",
+                "A3",
+                "A4",
+                "A5",
+                "A6"
+            ],
+            "metadata": {
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+            }
+        },
+        "admin": {
+            "type": "string",
+            "metadata": {
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+            }
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.PowerBIDedicated/capacities",
+            "apiVersion": "2018-09-01-preview",
+            "name": "[parameters('name')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "[parameters('sku')]"
+            },
+            "properties": {
+                "administration": {
+                    "members": [
+                        "[parameters('admin')]"
+                    ]
+                },
+                "mode": "Gen2"
+            }
+        }
+    ]
+}
+```
 
 ### <a name="deploy-the-template"></a>部署範本
 

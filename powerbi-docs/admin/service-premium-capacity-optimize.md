@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: dd0080f96117be949a7d4901f8445a509740b5b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f3bdf12106ffa15764719fe3146a1ed52adf5990
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413441"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532927"
 ---
 # <a name="optimizing-premium-capacities"></a>最佳化 Premium 容量
 
@@ -30,6 +30,8 @@ ms.locfileid: "96413441"
 
 > [!NOTE]
 > Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+>
+>若要查看 Power BI Embedded Gen2 增強功能，請參閱 [Power BI Embedded 層代 2](../developer/embedded/power-bi-embedded-generation-2.md)。
 
 此文章中的建議與最佳做法能確保每個資料集與其他 Power BI 成品的 CPU 使用率都能夠最佳化。
 

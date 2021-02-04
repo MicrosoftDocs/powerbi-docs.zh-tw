@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5cce18c2ec4a24b06f4cf48d5fd2b542109d70c6
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
-ms.translationtype: HT
+ms.openlocfilehash: 2eb1c5bd685cedabd96483867546c7578124af45
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512485"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532835"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>設定及管理 Power BI Premium 中的容量
 
@@ -24,7 +24,7 @@ ms.locfileid: "94512485"
 
 ![Power BI 的容量設定畫面](media/service-admin-premium-manage/premium-capacity-management.png)
 
-「容量」是 Power BI Premium 和 Power BI Embedded 供應項目的中心。 它是一組專門保留供組織使用的資源集。 擁有容量可讓您將儀表板、報表和資料集發佈給整個組織的使用者，而不必為使用者一一購買授權。 它也會為容量中所裝載內容提供可靠且一致的效能。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium-what-is.md)。
+*容量* 是 Power BI Premium 和 [Power BI Embedded](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md) 供應專案的核心。 它是一組專門保留供組織使用的資源集。 擁有容量可讓您將儀表板、報表和資料集發佈給整個組織的使用者，而不必為使用者一一購買授權。 它也會為容量中所裝載內容提供可靠且一致的效能。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium-what-is.md)。
 
 > [!NOTE]
 > Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。

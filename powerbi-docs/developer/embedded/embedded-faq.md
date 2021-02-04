@@ -1,19 +1,19 @@
 ---
-title: 關於 Power BI 內嵌式分析的常見問題集，可協助您取得更佳內嵌 BI 見解
-description: 瀏覽 Power BI 內嵌式分析相關的常見問題集與答案清單，其可增強客戶的內嵌 BI 見解。
+title: 關於 Power BI 內嵌式分析的常見問題集
+description: 流覽有關 Power BI embedded analytics 的常見問題和解答清單
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: d787dfbb926a3a1224d5b4949003e0b0d260260f
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: e9487cc0cd799e925108163f729fdbf7da5d3ad5
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155633"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532996"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -41,6 +41,10 @@ Microsoft 為 ISV 開發了 Power BI Embedded，這些 ISV 希望將視覺效果
 Power BI Premium 是專為企業打造的容量，其單一檢視集結了組織、夥伴、客戶及供應商，適合想要完整 BI 解決方案的企業使用。 Power BI Premium 可協助您的組織制定決策。 Power BI Premium 是 SaaS 產品，可讓使用者透過 Power BI 行動裝置應用程式、內部開發的應用程式或在 Power BI 入口網站取用內容。
 
 Power BI Embedded 適用於想要將視覺效果內嵌到應用程式的 ISV。 因為 Power BI Embedded 適用於應用程式開發人員，不論該應用程式的客戶是組織內部或外部的任何人員，都能取用儲存在 Power BI Embedded 容量中的內容，進而協助您的客戶制定決策。 您無法透過單鍵發佈到 Web 或 SharePoint 來共用 Power BI Embedded 容量內容。
+
+### <a name="what-is-power-bi-embedded-generation-2"></a>什麼是 Power BI Embedded 層級2？
+
+Power BI Embedded 最近發行了稱為 **Embedded Gen2** 的新版本。 Embedded Gen2 可簡化內嵌容量的管理，並改善 Power BI Embedded 體驗。 如需詳細資訊，請參閱 [Power BI Embedded 第 2 代](power-bi-embedded-generation-2.md)。
 
 ### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Microsoft 對於客戶購買 Power BI Premium 與 Power BI Embedded 的時機有什麼建議？
 

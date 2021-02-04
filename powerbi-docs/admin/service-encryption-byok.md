@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fd4ca0d87530c6421321e10ed97c3ea4e9a32c8d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 2313e736dee73666bb5ddb380b39a217c6b61237
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408013"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532628"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>攜帶您自己的加密金鑰以用於 Power BI
 
@@ -26,6 +26,8 @@ BYOK 可更輕鬆地滿足透過雲端服務提供者 (在此案例中為 Micros
 
 > [!IMPORTANT]
 > Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Preview Gen2 容量在預覽期間並 **無法** 支援 BYOK。
+>
+>**內嵌 Gen2** 容量在預覽期間也 **不** 支援 BYOK。 若要查看 Power BI Embedded Gen2 增強功能，請參閱 [Power BI Embedded 層代 2](../developer/embedded/power-bi-embedded-generation-2.md)。
 
 ## <a name="data-source-and-storage-considerations"></a>資料來源和儲存體考量
 

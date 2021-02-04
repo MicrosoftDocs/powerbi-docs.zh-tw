@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 46e2684b468e480da5db5287ffc40466d71c8f22
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
-ms.translationtype: HT
+ms.openlocfilehash: f99f40fd04154f2a934fb812dfc1a4683e64ceb9
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512209"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532973"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用應用程式監視 Premium 容量
 
@@ -27,6 +27,8 @@ ms.locfileid: "94512209"
 
 > [!NOTE]
 > Power BI Premium 最近已發行名叫 **Premium Gen2** 的新版本 Premium，其目前處於預覽狀態。 Premium Gen2 將能簡化 Premium 容量的管理，並減少管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+>
+>若要查看 Power BI Embedded Gen2 增強功能，請參閱 [Power BI Embedded 層代 2](../developer/embedded/power-bi-embedded-generation-2.md)。
 
 ## <a name="install-the-app"></a>安裝應用程式
 

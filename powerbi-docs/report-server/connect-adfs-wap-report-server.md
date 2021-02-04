@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 10/12/2020
-ms.openlocfilehash: 17e153528e45a52de7addf3563c58c2586600660
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
-ms.translationtype: HT
+ms.date: 02/03/2021
+ms.openlocfilehash: 73c7e0b2256d4a45fb9f433a887827e772a32257
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025996"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533065"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>使用 Web 應用程式 Proxy 和 Active Directory 同盟服務 - Power BI 報表伺服器
 
@@ -68,7 +68,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 確定您具有報�
 
     ![新增信賴憑證者信任](media/connect-adfs-wap-report-server/report-server-adfs-add-relying-party-trust.png)
 
-2. 遵循**新增信賴憑證者信任**精靈中的步驟。
+2. 遵循 **新增信賴憑證者信任** 精靈中的步驟。
 
     選擇 [非宣告感知]  選項，以使用 Windows 整合式安全性作為驗證機制。
 
@@ -85,7 +85,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 確定您具有報�
 
     ![選擇存取控制](media/connect-adfs-wap-report-server/report-server-adfs-choose-access-control.png)
     
-    選取 [下一步]  ，然後選取 [完成]  來完成**新增信賴憑證者信任**精靈。
+    選取 [下一步]  ，然後選取 [完成]  來完成 **新增信賴憑證者信任** 精靈。
 
     完成時，信賴憑證者信任的屬性應如下所示。
 
@@ -93,7 +93,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 確定您具有報�
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3.設定 Web 應用程式 Proxy (WAP)
 
-您要在環境內的伺服器上啟用 Windows 角色「Web 應用程式 Proxy」(角色)。 它必須位於 Windows 2016 伺服器上。 如需詳細資訊，請參閱 [Web Application Proxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) (Windows Server 2016 中的 Web 應用程式 Proxy) 和 [Publishing Applications using AD FS Preauthentication](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication) (使用 AD FS 預先驗證發行應用程式)。
+您要在環境內的伺服器上啟用 Windows 角色「Web 應用程式 Proxy」(角色)。 它必須位於 Windows 2016 伺服器上。 如需詳細資訊，請參閱 [Web Application Proxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) (Windows Server 2016 中的 Web 應用程式 Proxy) 和 [Publishing Applications using AD FS Preauthentication](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#BKMK_1.2) (使用 AD FS 預先驗證發行應用程式)。
 
 ### <a name="configure-constrained-delegation"></a>設定限制委派
 
@@ -104,7 +104,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 確定您具有報�
 若要設定限制委派，請遵循這些步驟。
 
 1. 在已安裝 Active Directory 工具的電腦上，啟動 [Active Directory 使用者和電腦]  。
-2. 尋找 WAP 伺服器的電腦帳戶。 根據預設，該帳戶會在**電腦**容器中。
+2. 尋找 WAP 伺服器的電腦帳戶。 根據預設，該帳戶會在 **電腦** 容器中。
 3. 以滑鼠右鍵按一下 WAP 伺服器，並移至 [內容]  。
 4. 在 [委派]  索引標籤上，選取 [信任這台電腦，但只委派指定的服務]  ，然後選取 [使用任何驗證通訊協定]  。
 
@@ -145,11 +145,11 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 確定您具有報�
 
     ![支持的用戶端](media/connect-adfs-wap-report-server/report-server-supported-clients-publish-new-app-wizard.png)
 
-5. 新增我們在 AD FS 伺服器中建立的**信賴憑證者** (如下所示)，然後選取 [下一步]  。
+5. 新增我們在 AD FS 伺服器中建立的 **信賴憑證者** (如下所示)，然後選取 [下一步]  。
 
     ![信賴憑證者發佈](media/connect-adfs-wap-report-server/report-server-relying-party-publish-new-app-wizard.png)
 
-6. 在 [外部 URL]  區段中，放入 WAP 伺服器上設定的可公開存取 URL。 新增透過報表伺服器 (報表伺服器組態管理員) 設定的 URL，如下列**後端伺服器 URL**一節所示。 在**後端伺服器 SPN** 區段中，新增報表伺服器的 SPN。
+6. 在 [外部 URL]  區段中，放入 WAP 伺服器上設定的可公開存取 URL。 新增透過報表伺服器 (報表伺服器組態管理員) 設定的 URL，如下列 **後端伺服器 URL** 一節所示。 在 **後端伺服器 SPN** 區段中，新增報表伺服器的 SPN。
 
     ![發佈設定](media/connect-adfs-wap-report-server/report-server-publishing-settings-new-app-wizard.png)
 

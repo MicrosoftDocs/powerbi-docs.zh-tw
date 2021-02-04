@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: c27d95715fe436b59825390b1cc16111e83ffc1d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565000"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533019"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI embedded 分析中的容量和 SKU
 
@@ -37,6 +37,9 @@ Power BI 內嵌式分析包含兩種解決方案：
 Power BI Embedded 適用於想要將視覺效果內嵌到應用程式的 ISV 和開發人員。
 
 使用 Power BI Embedded 的應用程式，可讓使用者取用儲存於 Power BI Embedded 容量的內容。
+
+>[!NOTE]
+>Power BI Embedded 最近發行了稱為 **Embedded Gen2** 的新版本。 Embedded Gen2 可簡化內嵌容量的管理，並改善 Power BI Embedded 體驗。 如需詳細資訊，請參閱 [Power BI Embedded 第 2 代](power-bi-embedded-generation-2.md)。
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -142,6 +145,10 @@ Power BI Premium 提供兩種 SKU：*P* 和 *EM*。
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
+
+#### <a name="embedded-gen-2-memory-enhancements-preview"></a>Embedded Gen 2 記憶體增強功能 (預覽) 
+
+[Power BI Embedded 層代 2](power-bi-embedded-generation-2.md) (也稱為內嵌式 Gen 2) ，則每個節點大小可用的記憶體數量會設定為單一 Power BI 專案的記憶體使用量限制，例如報表或儀表板 (，而不是記憶體的累積耗用量。 例如，在 Embedded Gen2 A4 容量中，相較于原始的 Power BI Embedded 容量，只有單一資料集大小會限制為 25 GB，而在相同時間內處理之資料集的總記憶體使用量限制為 25 GB。
 
 ## <a name="next-steps"></a>後續步驟
 
