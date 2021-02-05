@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 340f29394d0c6c83659d77f2545a4f76eef99a9a
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: a35b8e127c008f78cb9348704b9e049f9fa3b46f
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597656"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569983"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>如何在 Power BI 中使用 DirectQuery
 
@@ -163,7 +163,6 @@ SQL Server Analysis Services 是特殊案例。 連線至 SQL Server Analysis Se
 DirectQuery 模型支援幾乎所有報告功能。 因此，只要基礎來源提供適當的效能等級，則可以使用一組相同的視覺效果。 Power BI 服務所提供的一些其他功能在發佈報表之後有某些重要限制：
 
 * **不支援快速見解：** Power BI 快速見解可搜尋資料集的不同子集，同時套用一組複雜的演算法來探索潛在相關見解。 這項功能需要很高效能的查詢，因此無法用於使用 DirectQuery 的資料集。
-* **不支援問答集：** Power BI 問與答可讓您使用直覺式的自然語言功能來探索資料，並以圖表和圖形形式接收回應。 不過，目前不支援使用 DirectQuery 的資料集。
 * **使用 [在 Excel 中探索] 很可能會導致較差的效能：** 您可以在資料集上使用「在 Excel 中探索」功能來探索資料。 此方法可在 Excel 中建立樞紐分析表和樞紐分析圖。 雖然使用 DirectQuery 的資料集支援這項功能，但效能通常會比在 Power BI 中建立視覺效果還要慢，因此如果您必須要使用 Excel，則應將此事項列入決定使用 DirectQuery 的考量。
 * **文字資料行的最大長度：** 使用 DirectQuery 之資料集的文字資料行中資料的最大長度為 32,764 個字元。 若報告的文字長度大於該長度，則將導致錯誤。
 

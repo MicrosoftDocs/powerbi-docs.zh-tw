@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/19/2021
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cbf41315f6b33483b7fdd0797bf4dfbcebb605c3
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: 0601760392b9bac549ff683f4460a3681da16119
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597686"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570006"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用複合模型
 
@@ -180,7 +180,7 @@ Power BI Desktop 中的複合模型功能包含三種相關功能：
 
 當您使用 DirectQuery 連線到這些多維度來源時，將無法連線到其他 DirectQuery 來源，也無法與「匯入」資料結合。
 
-使用複合模型時，仍然受限於 DirectQuery 的現有限制。 這其中有許多限制現在會依個別資料表的儲存模式而異。 例如，「匯入」資料表上的導出資料行可以參考其他資料表，但 DirectQuery 資料表上的導出資料行仍僅能參考相同資料表上的資料行。 如果模型內有任何資料表為 DirectQuery，則其他限制會套用至整個模型。 例如，當 QuickInsights 及問與答功能中有任何資料表為 DirectQuery 的儲存模式時，該模型便無法使用這兩項功能。
+使用複合模型時，仍然受限於 DirectQuery 的現有限制。 這其中有許多限制現在會依個別資料表的儲存模式而異。 例如，「匯入」資料表上的導出資料行可以參考其他資料表，但 DirectQuery 資料表上的導出資料行仍僅能參考相同資料表上的資料行。 如果模型內有任何資料表為 DirectQuery，則其他限制會套用至整個模型。 例如，如果模型中有任何資料表具有 DirectQuery 的儲存模式，則無法在模型上使用不提供 quickinsights 功能。
 
 ## <a name="next-steps"></a>後續步驟
 

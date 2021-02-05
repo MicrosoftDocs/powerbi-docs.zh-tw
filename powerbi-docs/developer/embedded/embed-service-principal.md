@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 11/23/2020
-ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/04/2021
+ms.openlocfilehash: 6a322d331dce9fd989a93545745cf7feb2d9eb70
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886779"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569960"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>使用服務主體和應用程式祕密內嵌 Power BI 內容
 
@@ -243,7 +243,7 @@ Add-PowerBIWorkspaceUser -Id $pbiWorkspace.Id -AccessRight Member -PrincipalType
 * 需有 Power BI 管理員權限，才能在 Power BI 管理入口網站的開發人員設定中啟用服務主體。
 * [為組織內嵌](embed-sample-for-your-organization.md)應用程式無法使用服務主體。
 * 不支援[資料流程](../../transform-model/dataflows/dataflows-introduction-self-service.md)管理。
-* 服務主體目前不支援任何管理員 API。
+* 服務主體僅支援一些唯讀的系統管理員 Api。 若要啟用唯讀系統管理員 Api 的服務主體支援，您必須在您的租使用者中啟用 Power BI 服務系統管理員設定。 如需詳細資訊，請參閱 [啟用唯讀系統管理員 api 的服務主體驗證](../../admin/read-only-apis-service-principal-authentication.md)。
 * 搭配 [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) 資料來源使用服務主體時，服務主體本身必須具有 Azure Analysis Services 執行個體權限。 基於此目的使用包含服務主體的安全性群組將無法正常運作。
 
 ## <a name="next-steps"></a>後續步驟

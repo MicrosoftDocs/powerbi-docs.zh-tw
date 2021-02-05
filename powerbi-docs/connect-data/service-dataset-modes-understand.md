@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/01/2020
-ms.openlocfilehash: 5b4c32296c7121fa3d161461af7e86caba617ee1
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
-ms.translationtype: HT
+ms.openlocfilehash: 5f03a994085e139da714219ce2e9095bde3a35d6
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96501941"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570029"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI 服務中的資料集模式
 
@@ -80,7 +80,7 @@ _DirectQuery_ 模式是匯入模式的替代方案。 在 DirectQuery 模式中�
 不過，DirectQuery 模型有一些關聯限制：
 
 - DAX 公式只能使用可以轉換成資料來源所能理解之原生查詢的函式。 不支援計算資料表。
-- 不支援問與答及快速見解功能
+- 不支援快速見解功能
 
 從 Power BI 服務資源的觀點來看，DirectQuery 模型需要：
 
@@ -105,7 +105,7 @@ _DirectQuery_ 模式是匯入模式的替代方案。 在 DirectQuery 模式中�
 
 如需詳細資訊，請參閱[在 Power BI Desktop 中使用複合模型](../transform-model/desktop-composite-models.md)。
 
-## <a name="next-steps"></a>後續步驟
+## <a name="next-steps"></a>下一步
 
 - [Power BI 服務中的資料集](service-dataset-modes-understand.md)
 - [Power BI Desktop 中的儲存模式](../transform-model/desktop-storage-mode.md)

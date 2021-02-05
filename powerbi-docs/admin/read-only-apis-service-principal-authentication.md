@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 02/04/2021
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 48e1a82b7a88bf4535acea49ea6770cedfdbf304
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: e255fbef8b29422ea7736e43adaa5e4197a6338f
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98564882"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569937"
 ---
 # <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>針對唯讀管理員 API 啟用服務主體驗證 (預覽)
 
@@ -51,19 +51,23 @@ ms.locfileid: "98564882"
     >[!IMPORTANT]
     >一旦您啟用要與 Power BI 搭配使用的服務主體，應用程式的 Azure AD 權限就不再有任何效果。 然後，應用程式的使用權限會透過 Power BI 系統管理入口網站管理。
 
+## <a name="supported-apis"></a>支援的 API
+
+服務主體目前支援下列 API：
+* [GetGroupsAsAdmin](/rest/api/power-bi/admin/groups_getgroupsasadmin) \(英文\)，搭配適用於儀表板、資料集、報表與資料流程的 $expand 
+* [GetDashboardsAsAdmin](/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) \(英文\)，搭配 $expand 磚
+* [GetDatasourcesAsAdmin](/rest/api/power-bi/admin/datasets_getdatasourcesasadmin) \(英文\) 
+* [GetDatasetToDataflowsLinksAsAdmin](/rest/api/power-bi/admin/datasets_getdatasettodataflowslinksingroupasadmin) \(英文\)
+* [GetDataflowDatasourcesAsAdmin](/rest/api/power-bi/admin/dataflows_getdataflowdatasourcesasadmin) \(英文\) 
+* [GetDataflowUpstreamDataflowsAsAdmin](/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) \(英文\) 
+* [GetCapacitiesAsAdmin](/rest/api/power-bi/admin/getcapacitiesasadmin) \(英文\)
+* [GetActivityLog](/rest/api/power-bi/admin/getactivityevents) \(英文\)
+* [GetModifiedWorkspaces](/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+* [WorkspaceGetInfo](/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+* [WorkspaceScanStatus](/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+* [WorkspaceScanResult](/rest/api/power-bi/admin/workspaceinfo_getscanresult)
+
 ## <a name="considerations-and-limitations"></a>考量與限制
+
 * 您無法使用服務主體登入 Power BI 入口網站。
 * 需有 Power BI 管理員權限，才能在 Power BI 管理入口網站的 [管理員 API 設定] 中啟用服務主體。
-* 服務主體目前支援下列 API：
-    * [GetGroupsAsAdmin](/rest/api/power-bi/admin/groups_getgroupsasadmin) \(英文\)，搭配適用於儀表板、資料集、報表與資料流程的 $expand 
-    * [GetDashboardsAsAdmin](/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) \(英文\)，搭配 $expand 磚
-    * [GetDatasourcesAsAdmin](/rest/api/power-bi/admin/datasets_getdatasourcesasadmin) \(英文\) 
-    * [GetDatasetToDataflowsLinksAsAdmin](/rest/api/power-bi/admin/datasets_getdatasettodataflowslinksingroupasadmin) \(英文\)
-    * [GetDataflowDatasourcesAsAdmin](/rest/api/power-bi/admin/dataflows_getdataflowdatasourcesasadmin) \(英文\) 
-    * [GetDataflowUpstreamDataflowsAsAdmin](/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) \(英文\) 
-    * [GetCapacitiesAsAdmin](/rest/api/power-bi/admin/getcapacitiesasadmin) \(英文\)
-    * [GetActivityLog](/rest/api/power-bi/admin/getactivityevents) \(英文\)
-    * [GetModifiedWorkspaces](/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
-    * [WorkspaceGetInfo](/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
-    * [WorkspaceScanStatus](/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
-    * [WorkspaceScanResult](/rest/api/power-bi/admin/workspaceinfo_getscanresult)

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 09/09/2020
-ms.openlocfilehash: 6ad81bc88ee559fa08400b5ed8a74dd1a9b6051f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 74e99f42677c6adda73a8b5e2e3043e2d039f5b3
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410014"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569891"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 問與答的限制
 
@@ -34,8 +34,6 @@ Power BI 問與答支援 Power BI 服務中的下列資料來源設定：
 **問與答支援 DirectQuery** (預覽)
 
 問與答現在支援 SQL DirectQuery 來源，包含 SQL Server 2019、Azure SQL 資料庫以及 Azure Synapse Analytics。 您可使用問與答，以針對這些資料來源詢問自然語言問題。 問與答的行為在 DirectQuery 模式中有一項小變更：當鍵入問題之後，需選取 [提交] 按鈕。 這項變更可供在鍵入時，避免不必要的查詢造成 DirectQuery 來源多載。
-
-問與答不支援其他 DirectQuery 來源。 即使資料集內有其他 DirectQuery 來源，也不會因此完全無法使用問與答，但可能無法正確回答某些問題，或傳回錯誤。
 
 ### <a name="data-sources-not-supported"></a>不支援的資料來源
 
@@ -68,11 +66,11 @@ Power BI 系統管理員可使用租用戶設定來管理儲存問題的能力�
 
 - 國家/地區是美國
 - 國家/地區不是美國
-- 產品 > 100
-- 產品大於 100
-- 產品 = 100
-- 產品等於 100
-- 產品 < 100
+- Products > 100
+- Products 大於 100
+- Products = 100
+- Products 等於 100
+- Products < 100
 - 產品小於 100
 
 > [!NOTE]
@@ -85,4 +83,4 @@ Power BI 系統管理員可使用租用戶設定來管理儲存問題的能力�
 
 ## <a name="next-steps"></a>後續步驟
 
-有一些最佳做法可以改善自然語言引擎。 如需詳細資訊，請參閱 [Q&A 最佳做法](q-and-a-best-practices.md)。
+有一些最佳做法可以改善自然語言引擎。 如需詳細資訊，請參閱[問與答最佳做法](q-and-a-best-practices.md)。
