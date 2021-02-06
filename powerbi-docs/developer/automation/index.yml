@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: eb357c5a89afec8f42b86ec80bca688e37101322
-  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.openlocfilehash: 612864f2cd172b8a3e25f735526a5c190126e283
+  ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 01/26/2021
-  ms.locfileid: "98781537"
+  ms.lasthandoff: 02/06/2021
+  ms.locfileid: "99616873"
 landingContent:
 - title: 開始使用
   linkLists:
@@ -45,6 +45,12 @@ landingContent:
     links:
     - text: Power BI embedded analytics 用戶端 Api
       url: /javascript/api/overview/powerbi/
+- title: 內嵌 Gen2
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: 'Power BI Embedded 層代 2 (預覽) '
+      url: ../embedded/power-bi-embedded-generation-2.md
 - title: 使用資料
   linkLists:
   - linkListType: concept

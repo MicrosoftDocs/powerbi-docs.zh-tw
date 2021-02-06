@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
+ms.custom: subject-monitoring
 ms.date: 01/14/2021
-ms.openlocfilehash: fc6b9dd4d50d665211324d1b6c05e62468fc034d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 9c07e75736b3ccdb33bf76f79656a8982cddb6d8
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98690739"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99617011"
 ---
 # <a name="monitoring-power-bi-embedded-data-reference"></a>監視 Power BI Embedded 資料參考
 
@@ -31,7 +32,7 @@ ms.locfileid: "98690739"
 
 資源提供者和類型： [Microsoft. PowerBIDedicated/容量](/azure/azure-monitor/platform/metrics-supported#microsoftpowerbidedicatedcapacities)
 
-| Name | Metric | 單位 | 描述 |
+| Name | Metric | 單位 | Description |
 |:---|:-------|:-----|:------------|
 |記憶體 (Gen1)  |memory_metric               |位元組        |記憶體。 A1、0-5 GB 代表 A1、GB （A2）、0-10 GB （適用于 A3）、0-25 GB （A4）、0-50 GB （A5）和 0-100 GB （A6）的範圍 0-3 GB。 僅支援 Power BI Embedded 代1資源。 |
 |記憶體 ()  (Gen1 的資料集，)  |memory_thrashing_metric     |百分比      |記憶體猛移的平均值。 僅支援 Power BI Embedded 代1資源。 |
@@ -134,7 +135,7 @@ Power BI Embedded 沒有包含維度的任何計量。
 
 Power BI Embedded 使用 **Power BI 的專用** 架構。
 
-## <a name="next-steps"></a>後續步驟
+## <a name="next-steps"></a>下一步
 
 >[!div class="nextstepaction"]
 >[監視 Azure Power BI Embedded](monitor-power-bi-embedded.md)

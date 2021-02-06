@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 51bd353206d605cd0627e10e226d0950adf8de0f
-  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.openlocfilehash: 394307104ed66c74a2a2739cff34824a9b7a70b6
+  ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 01/26/2021
-  ms.locfileid: "98781465"
+  ms.lasthandoff: 02/06/2021
+  ms.locfileid: "99616952"
 highlightedContent:
   items:
   - title: 搭配 Power BI 使用內嵌式分析
@@ -33,6 +33,9 @@ highlightedContent:
   - title: Power BI embedded analytics 用戶端 Api
     itemType: whats-new
     url: /javascript/api/overview/powerbi/
+  - title: 'Power BI Embedded 層代 2 (預覽) '
+    itemType: whats-new
+    url: embedded/power-bi-embedded-generation-2.md
   - title: 自動化範本應用程式設定
     itemType: concept
     url: template-apps/template-apps-auto-install.md

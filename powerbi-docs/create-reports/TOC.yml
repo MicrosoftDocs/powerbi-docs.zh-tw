@@ -312,6 +312,10 @@
               href: ../visuals/power-bi-visualization-scatter.md
             - name: 使用高密度散佈圖
               href: ../visuals/desktop-high-density-scatter-charts.md
+            - name: '建立小型倍數 (預覽版) '
+              href: ../visuals/power-bi-visualization-small-multiples.md
+            - name: '與小型倍數互動 (預覽版) '
+              href: ../visuals/power-bi-visualization-small-multiples-interact.md
             - name: 圖形對應視覺效果 (預覽)
               href: ../visuals/desktop-shape-map.md
             - name: 智慧型敘事

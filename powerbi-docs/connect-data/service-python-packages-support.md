@@ -10,12 +10,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 06/26/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 07b16bb90b548f071472f9f7d22095ccdff78f56
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: d3a30098b793ccb75cbae6c271ab1685b3176a10
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401711"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99616942"
 ---
 # <a name="create-visuals-by-using-python-packages-in-the-power-bi-service"></a>在 Power BI 服務中使用 Python 套件建立視覺效果
 您可以使用功能強大的 [Python 程式設計語言](https://www.python.org/) \(英文\)，在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 Python 套件，而且一直都可支援更多套件。
@@ -46,7 +46,7 @@ ms.locfileid: "96401711"
 |pandas|1.0.1|https://pypi.org/project/pandas|
 |scikit-learn|0.23.0|https://pypi.org/project/scikit-learn|
 |scipy|1.4.1|https://pypi.org/project/scipy|
-|s eaborn|0.10.1|https://pypi.org/project/seaborn|
+|以 seaborn|0.10.1|https://pypi.org/project/seaborn|
 |statsmodels|0.11.1|https://pypi.org/project/statsmodels|
 |xgboost|1.1.0|https://pypi.org/project/xgboost|
 
