@@ -1,20 +1,20 @@
 ---
 title: 匯出 Power BI 內嵌式分析編頁報表 API 以獲得更好的內嵌 BI 見解
-description: 了解如何匯出內嵌 Power BI 分頁報表。 使用 Power BI 內嵌式分析，取得更佳的內嵌 BI 見解。
+description: 了解如何匯出內嵌 Power BI 分頁報表。
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 04/05/2020
-ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
-ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.date: 02/09/2021
+ms.openlocfilehash: 9757b19e4faf4537cf4ff3c1e6f06dc9d499bc8c
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98781525"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013582"
 ---
-# <a name="export-paginated-report-to-file-preview"></a>將分頁報表匯出至檔案 (預覽)
+# <a name="export-paginated-report-to-file"></a>將編頁報表匯出至檔案
 
 `exportToFile` API 可供使用 REST 呼叫來匯出 Power BI 分頁報表。 支援下列檔案格式：
 * **.pptx** (PowerPoint)

@@ -1,18 +1,18 @@
 ---
-title: 匯出 Power BI 內嵌式分析報表 API 以獲得更好的內嵌 BI 見解
-description: 了解如何匯出內嵌的 Power BI 報表，以增強您 Power BI 內嵌之分析內嵌的 BI 體驗。 使用 Power BI 內嵌式分析，取得更佳的內嵌 BI 見解。
+title: 匯出 Power BI 內嵌式分析報表 API
+description: 瞭解如何匯出內嵌的 Power BI 報表。
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 02/01/2021
-ms.openlocfilehash: 64a9472960195c8d4f91013a778bb61cdf029ab4
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.date: 02/09/2021
+ms.openlocfilehash: 68d4802ebb150827982a348bc67f6f46f60812be
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422344"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013559"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/19/2020
-ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: d8460fe1a3eb199848f47181837225f1e540bb08
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297908"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013628"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -28,6 +28,13 @@ ms.locfileid: "93297908"
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>我需要針對編頁報表使用何種大小的 Premium 容量？
 
 編頁報表工作負載可在 P1 - P3 SKU 上使用。  您也可以針對內嵌或/開發案例搭配 A4 – A6 SKU 使用它。
+
+> [!NOTE]
+> Power BI 最近發行了新版本的 Premium，稱為 **Premium Gen2**，目前為預覽狀態。 在 **Premium Gen2** 中，編頁報表工作負載可在 P1-P3 Sku 和 A1-A6 sku 上使用。 
+>
+>Premium Gen2 可簡化 Premium 容量的管理，並降低管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview)。
+>
+>若要查看 Power BI Embedded Gen2 增強功能，請參閱 [Power BI Embedded 層代 2](../developer/embedded/power-bi-embedded-generation-2.md)。
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>我可以在容量中針對編頁報表放置的記憶體閾值上限為何？
 
@@ -74,13 +81,16 @@ ms.locfileid: "93297908"
 
 適用於編頁報表之每個 Premium SKU 中的預設記憶體：
 
-- **P1/A4** ：20% 預設值；10% 最小值
-- **P2/A5** ：20% 預設值；5% 最小值
-- **P3/A6** ：20% 預設值；2.5% 最小值
+- **P1/A4**：20% 預設值；10% 最小值
+- **P2/A5**：20% 預設值；5% 最小值
+- **P3/A6**：20% 預設值；2.5% 最小值
 
 Power BI 管理員可在管理入口網站中修改預設的記憶體百分比上限。 請參閱 [容量設定] 索引標籤上 [Power BI Premium] 下方的 [編頁報表] 工作負載區段。
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="[編頁報表容量設定] 索引標籤":::
+
+> [!NOTE]
+> **Premium Gen2** 目前為預覽狀態，您不需要變更記憶體設定。 基礎系統會自動管理 Premium Gen2 中的記憶體。 編頁報表工作負載可在 P1-P3 Sku 上取得，而在 **Premium Gen2** 中則為 A1-A6 sku。
 
 ## <a name="general"></a>一般
 

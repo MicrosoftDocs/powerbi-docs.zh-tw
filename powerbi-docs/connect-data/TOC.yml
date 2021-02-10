@@ -257,6 +257,8 @@
           items:
             - name: 使用應用程式連線到服務
               href: service-connect-to-services.md
+            - name: 使用 Power BI 分析熱門股票
+              href: service-connect-to-analyze-stocks.md
             - name: COVID-19 美國追蹤報表
               href: service-connect-to-covid-19-tracking.md
             - name: 危機通訊狀態報表
