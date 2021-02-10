@@ -1,21 +1,21 @@
 ---
-title: 取得更佳的內嵌式 BI 見解：Power BI 內嵌式分析中的 Power BI 視覺效果提交測試
-description: 此文章描述您的視覺效果在發佈至 AppSource 之前必須通過的測試案例。 也有選擇性測試案例。 使用 Power BI 內嵌式分析，取得更佳的內嵌式 BI 見解。
+title: Power BI 視覺效果的提交測試
+description: 此文章描述您的視覺效果在發佈至 AppSource 之前必須通過的測試案例。 也有選擇性測試案例。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 04/15/2020
-ms.openlocfilehash: b5054d821dc797f1606fea8ec5d0bb43569a57e5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: 391282b7868ba24b14c0859d431e6868b3fcbc2d
+ms.sourcegitcommit: 7e0cc3b1ed9cf38da134ef7221648cb758ceea98
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888458"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100100825"
 ---
-# <a name="submission-testing-of-a-power-bi-visual"></a>Power BI 視覺效果的提交測試
+# <a name="testing-a-power-bi-visual-before-submission"></a>在提交前測試 Power BI 的視覺效果
 
 您的視覺效果在發佈至 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 之前，必須通過本文中所列出的測試。 請先測試您的視覺效果再提交。 如果您的視覺效果未通過必要的測試案例，則會予以拒絕。
 
@@ -23,7 +23,13 @@ ms.locfileid: "97888458"
 
 ## <a name="testing-a-new-version-of-a-published-visual"></a>測試已發行視覺效果的新版本
 
-如果您打算對已發行視覺效果的新版本進行測試或偵錯，您可以藉由在 Power BI Desktop 中啟用開發人員模式，使用本機檔案版本覆寫 AppSource 版本。
+根據預設，Power BI 會從 AppSource 載入最新的視覺效果版本，即使您從本機檔案匯入視覺效果也是如此。
+
+如果您要測試或偵測已發行之視覺效果的新版本，您可以在 Power BI Desktop 或 Power BI 服務中啟用開發人員模式，以本機檔案版本覆寫 AppSource 版本。
+
+### <a name="enable-developer-mode-in-power-bi-desktop"></a>在 Power BI Desktop 中啟用開發人員模式
+
+在 Power BI Desktop 中，開發人員模式只能針對單一工作階段運作。 如果您開啟新的 Power BI Desktop 執行個體進行測試，就必須再次啟用開發人員模式。
 
 請遵循下列步驟啟用開發人員模式：
 
@@ -37,8 +43,11 @@ ms.locfileid: "97888458"
 
 5. 在開發人員模式中，選取 [開啟此工作階段的開發人員模式] 選項。
 
->[!NOTE]
->在 Power BI Desktop 中，開發人員模式只能針對單一工作階段運作。 如果您開啟新的 Power BI Desktop 執行個體進行測試，就必須再次啟用開發人員模式。
+### <a name="enable-developer-mode-in-power-bi-service"></a>在 Power BI 服務中啟用開發人員模式
+
+在 Power BI 服務中，每個使用者帳戶都會保留開發人員模式。 每次使用者從本機檔案載入封裝時，Power BI 將會忽略視覺效果的 AppSource 版本。
+
+若要在 Power BI 服務中啟用開發人員模式，請遵循 [設定 Power BI 服務以開發視覺效果](environment-setup.md#set-up-power-bi-service-for-developing-a-visual)的指示。
 
 ## <a name="general-test-cases"></a>一般測試案例
 

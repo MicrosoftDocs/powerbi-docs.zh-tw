@@ -72,6 +72,8 @@
               href: mobile-apps-scan-barcode-iphone.md
             - name: 進行互動設定
               href: mobile-app-interaction-settings.md
+            - name: 分割畫面模式
+              href: mobile-apps-split-screen.md
             - name: 深色模式
               href: mobile-apps-dark-mode.md
             - name: 使用行動裝置管理的設定
