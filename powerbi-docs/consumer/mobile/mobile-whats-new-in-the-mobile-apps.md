@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2021
-ms.openlocfilehash: 83c7a778b6c799bd759443e7601e1f624ed5f9e5
-ms.sourcegitcommit: 5c943a05071efb69a17ca4c501c6b89f2f351f1a
+ms.openlocfilehash: fbd43600e67e4ac544df65bba6d9d2072293132d
+ms.sourcegitcommit: 7e0cc3b1ed9cf38da134ef7221648cb758ceea98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/10/2021
-ms.locfileid: "100089472"
+ms.locfileid: "100100848"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -26,7 +26,7 @@ ms.locfileid: "100089472"
 >**使用 Windows 10 行動裝置版的手機** 的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日終止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="february-2021"></a>2021年2月
-### <a name="support-for-power-bi-in-split-screens-android-tablets-only"></a>僅支援分割畫面中的 Power BI (Android 平板電腦) 
+### <a name="support-for-power-bi-in-split-screens-android-tablets"></a>支援分割畫面 (Android 平板電腦) 的 Power BI
 
 如果您的 Android 平板電腦有多視窗支援，您可以並排查看您的資料，並與另一個使用分割畫面模式的應用程式互動。 [深入了解！](mobile-apps-split-screen.md)
 
