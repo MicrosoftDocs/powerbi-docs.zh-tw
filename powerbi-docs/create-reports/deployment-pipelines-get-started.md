@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: pbi-deployment
 ms.custom: contperf-fy21q1
-ms.date: 11/11/2020
-ms.openlocfilehash: 9d0c10b80aeb1bf4745bb8a646933bcfea9bafc6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: 53e6e7401caff5b4334af67f5de54a3669214851
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621203"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489984"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>開始使用部署管線
 
@@ -143,6 +143,8 @@ ms.locfileid: "97621203"
 
 ### <a name="create-a-dataset-rule"></a>建立資料集規則
 
+若要建立資料集規則，請依照本節中的步驟進行。 在您建立所需的所有資料集規則之後，請使用新建立的規則，將資料集從來源階段部署到建立規則的目標階段。 在您將資料集從來源部署到目標階段之前，您的規則將不會套用。
+
 1. 在您想要建立資料集規則的管線階段中，選取 [部署設定]。
 
     ![[部署設定] 按鈕的螢幕擷取畫面，其位於每個部署管線階段的右上角。](media/deployment-pipelines-get-started/deployment-settings.png)
@@ -222,6 +224,8 @@ ms.locfileid: "97621203"
 * **新增** - 來源階段中的新項目。 這是目標階段中不存在的項目。 部署之後，系統會將此項目複製到目標階段。
 
 * **不同** - 存在於來源與目標階段中的項目，上次部署之後其中一個的版本已變更。 部署之後，不論已經變更的位置為何，來源階段中的項目皆會覆寫目標階段中的項目。
+
+    具有尚未部署之已設定資料集規則的資料集也會標示為 *不同*。 這是因為在將資料集從來源階段部署到包含已設定規則的目標階段之前，不會套用資料集規則。
 
 * **遺漏的位置** - 此標籤表示項目出現在目標階段中，但不在來源階段中。
 

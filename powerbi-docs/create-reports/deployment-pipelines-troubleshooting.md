@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.date: 11/11/2020
-ms.openlocfilehash: 3787f1cb61262f9f1fa64e04487c7d6395b4e549
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: f502649c08a71dc1cc602f0f69f4134a10a5a879
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417627"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489892"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>部署管線疑難排解
 
@@ -146,6 +146,10 @@ ms.locfileid: "96417627"
 
 >[!NOTE]
 >回溯部署僅支援[完整部署](deployment-pipelines-get-started.md#deploying-all-content)。 其不支援[選擇性部署](deployment-pipelines-get-started.md#selective-deployment)
+
+### <a name="why-do-i-need-to-deploy-after-configuring-dataset-rules"></a>為什麼我需要在設定資料集規則之後部署？
+
+設定之後，就不會立即套用資料集規則。 若要套用資料集規則，您必須將資料集從來源階段部署到目標階段，其中包括已建立的資料集規則。 設定資料集規則，並在部署之前，會在具有所設定規則的資料集旁邊顯示 *不同* 的指標。 這表示您需要將該資料集從來源階段部署至目標階段。 一旦部署之後，如果未進行任何其他變更，則 *不同* 的指標將會消失，表示規則已成功套用。
 
 ### <a name="does-deployment-pipelines-support-multi-geo"></a>部署管線支援多地理位置嗎？
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 2ecb47513ada6ab2f4b81d5e26a1ca41717b7676
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565727"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490007"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>自動設定範本應用程式安裝
 
@@ -61,6 +61,7 @@ ms.locfileid: "98565727"
 * 已就緒供安裝的 **已參數化範本應用程式**。 所要建立的範本應用程式其租用戶，必須是您在 Azure AD 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](../../connect-data/service-template-apps-tips.md)或[在 Power BI 中建立範本應用程式](../../connect-data/service-template-apps-create.md)。 您必須記下範本應用程式中的下列資訊，以便進行後續步驟：
      * 在建立應用程式後，於[定義範本應用程式屬性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)流程結尾安裝 URL 中顯示的「應用程式識別碼」、「套件金鑰」，以及「擁有者識別碼」。 您也可以選取範本應用程式[版本管理](../../connect-data/service-template-apps-create.md#manage-the-template-app-release)中的 [取得連結]，以取得相同的連結。
     * 在範本應用程式資料集中定義的「參數名稱」。 參數名稱是區分大小寫的字串，且可在[定義範本應用程式的屬性](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)時，從 [參數設定] 索引標籤中取得，或從 Power BI 中的資料集設定取得。
+* 若要能夠測試您的自動化工作流程，請以系統管理員身分將服務主體新增至範本應用程式工作區。
 
     >[!NOTE]
     >如果範本應用程式已準備好進行安裝，則即使該範本應用程式尚未在 AppSource 上開放使用，您也可以在其中測試預先設定的安裝應用程式。 若要讓租用戶以外的使用者能夠使用自動安裝應用程式來安裝範本應用程式，則必須在 [Power BI Apps 市集](https://app.powerbi.com/getdata/services)中開放使用該範本應用程式。 在使用您正在建立的自動安裝應用程式來發佈範本應用程式之前，請務必先將其發佈到[合作夥伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。

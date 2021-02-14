@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 10/13/2020
+ms.date: 02/10/2021
 LocalizationGroup: Data from files
-ms.openlocfilehash: b984c0f6ebee6cdcc9982956701f3a112be74ab7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: cf63c16822e04e160da2765ae0be20bd707e89da
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413188"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489920"
 ---
 # <a name="tutorial-from-excel-workbook-to-stunning-report-in-power-bi-desktop"></a>教學課程：將 Excel 活頁簿轉變為令人驚豔的 Power BI Desktop 報表
 
@@ -120,7 +120,9 @@ ms.locfileid: "96413188"
 
 1. 鍵入此量值，以產生介於 2013 年 1 月 1 日到 2014 年 12 月 31 日之間的 [Calendar] 資料表。  
 
-    `Calendar = CALENDAR(DATE(2013,01,01),Date(2014,12,31))` 
+    ```dax
+    Calendar = CALENDAR(DATE(2013,01,01),Date(2014,12,31))    
+    ```
 
 2. 選取核取記號加以認可。
 
@@ -207,9 +209,23 @@ ms.locfileid: "96413188"
 
 ### <a name="visual-5-year-slicer"></a>視覺效果 5：年交叉分析篩選器 
 
-交叉分析篩選器是一項很重要的工具，可將報表頁面上視覺效果篩選為特定的選取項目。 在此範例中，我們可建立交叉分析篩選器，將範圍縮小至每月和每年的績效。  
+交叉分析篩選器是一項很重要的工具，可將報表頁面上視覺效果篩選為特定的選取項目。 在此情況下，我們可以建立兩個不同的交叉分析篩選器，以針對每個月和年的效能進行縮減。 一個交叉分析篩選器會使用原始資料表中的 [日期] 欄位。 另一個則會使用您稍早在本教學課程中 [為「額外點數](#extra-credit-write-a-measure-in-dax) 」所建立的「日期資料表」。
 
-1. 在 [欄位] 窗格中，選取 [Date] 欄位，並拖曳至畫布左側的空白區域。 
+
+**使用原始資料表的日期交叉分析篩選器**
+
+1. 在 [欄位] 窗格中，選取 [財務] 資料表中的 [ **日期** ] 欄位。 將它拖曳至畫布左側的空白區域。 
+2. 在 [視覺效果] 窗格中選擇 [交叉分析篩選器]。 
+
+    Power BI 會自動建立數位範圍交叉分析篩選器。 
+
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-numeric-range.png" alt-text="日期數位範圍交叉分析篩選器的螢幕擷取畫面。":::
+
+1. 您可以拖曳 end 以進行篩選，或選取右上角的箭號，然後將它變更為不同類型的交叉分析篩選器。
+
+**使用 DAX 資料表的日期交叉分析篩選器**
+
+1. 在 [欄位] 窗格中，選取 [行事曆] 資料表中的 [ **日期** ] 欄位。 將它拖曳至畫布左側的空白區域。 
 2. 在 [視覺效果] 窗格中選擇 [交叉分析篩選器]。 
 3. 在 [視覺效果] 窗格的 [欄位] 區段中，選取 [欄位] 中的下拉式功能表。 移除 [季] 和 [日]，只保留 [年] 和 [月]。 
 
@@ -219,7 +235,9 @@ ms.locfileid: "96413188"
 
     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="日日期階層交叉分析篩選器的螢幕擷取畫面。":::
 
-現在，如果經理只想查看 2013 年的資料，您可使用交叉分析篩選器在年份或每年的特定月份之間進行切換。 
+    這是我們將在完成的報表中使用的交叉分析篩選器。
+
+現在，如果您的管理員要求只查看2013資料，您可以使用交叉分析篩選器來選取年或每年的特定月份。
 
 ### <a name="extra-credit-format-the-report"></a>為報表加分：將報表格式化
 

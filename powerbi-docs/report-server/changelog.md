@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/01/2021
-ms.openlocfilehash: 6742b915cf4418cd0f9f735eaffea8da1d010e79
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.date: 02/11/2021
+ms.openlocfilehash: edbb742cfb9d19e47c50ed7c43fa3ba4ba36f779
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422367"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489846"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -24,8 +24,8 @@ ms.locfileid: "99422367"
 
 ## <a name="january-2021"></a>2021 年 1 月
 - **Power BI 報表伺服器**
-    - *Version： 1.10.7698.12811 (Build 15.0.1105.194) ，發行日期：2021年1月21日*
-        - 特性
+    - *Version： 1.10.7698.27886 (Build 15.0.1105.195) ，發行日期：2021年1月21日*
+        - 功能
             - 新圖示 releate 至 Power BI 並 Power BI 報表。
             - 隨附于發行版本3.5.0 的自訂視覺 API
             - 新的入口網站預覽體驗已新增至 ReportServer 目錄的 ConfigurationInfo 資料表中的 ' UsePortalV2 ' 功能切換後方。

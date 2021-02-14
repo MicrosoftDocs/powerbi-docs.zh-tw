@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 9a652531b90d65df985c0698d3fade7927a1907b
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565782"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490053"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>教學課程：使用 Azure 函數自動設定範本應用程式安裝
 
@@ -62,6 +62,7 @@ ms.locfileid: "98565782"
 * 已設定的 Azure Active Directory (Azure AD) 租用戶。 如需設定租用戶的指示，請參閱[建立 Azure Active Directory 租用戶](../embedded/create-an-azure-active-directory-tenant.md)。
 * 已在上述租用戶中註冊的[服務主體 (僅適用於應用程式權杖)](../embedded/embed-service-principal.md)。
 * 已備妥安裝的[已參數化範本應用程式](../../connect-data/service-template-apps-overview.md)。 建立範本應用程式的租用戶，必須是您在 Azure AD 中註冊應用程式的相同租用戶。 如需詳細資訊，請參閱[範本應用程式祕訣](../../connect-data/service-template-apps-tips.md)或[在 Power BI 中建立範本應用程式](../../connect-data/service-template-apps-create.md)。
+* 若要能夠測試您的自動化工作流程，請以系統管理員身分將服務主體新增至範本應用程式工作區。
 * Power BI Pro 授權。 如果您沒有註冊 Power BI Pro，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)再開始進行操作。
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>設定範本應用程式自動開發環境
@@ -77,6 +78,8 @@ ms.locfileid: "98565782"
 儲存「應用程式識別碼」(ClientID) 與「應用程式祕密」(ClientSecret)，以供稍後的步驟使用。
 
 您可瀏覽[內嵌安裝工具](https://aka.ms/embedsetup/AppOwnsData)，立刻開始下載應用程式註冊。 如果您正在使用 [Power BI 應用程式註冊工具](https://app.powerbi.com/embedsetup) ，請選取 [Embed for your customers] \(為客戶內嵌\) 選項。
+
+以系統管理員身分將服務主體新增至範本應用程式工作區，讓您能夠測試自動化工作流程。
 
 ## <a name="template-app-preparation"></a>範本應用程式準備工作
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/09/2021
-ms.openlocfilehash: d8460fe1a3eb199848f47181837225f1e540bb08
-ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
+ms.openlocfilehash: 788f6cbd840b2c260b00033e27d39f56ed7ce964
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "100013628"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489823"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -30,7 +30,7 @@ ms.locfileid: "100013628"
 編頁報表工作負載可在 P1 - P3 SKU 上使用。  您也可以針對內嵌或/開發案例搭配 A4 – A6 SKU 使用它。
 
 > [!NOTE]
-> Power BI 最近發行了新版本的 Premium，稱為 **Premium Gen2**，目前為預覽狀態。 在 **Premium Gen2** 中，編頁報表工作負載可在 P1-P3 Sku 和 A1-A6 sku 上使用。 
+> Power BI 最近發行了新版本的 Premium，稱為 **Premium Gen2**，目前為預覽狀態。 在 **Premium Gen2** 中，編頁報表工作負載可在 EM1-em3 逐月 Sku、P1-P3 Sku 和 A1 A6 sku 上使用。  它也可以每個使用者為基礎，且每位使用者都是以 Premium Gen2 和公開預覽形式建立的 Premium。 
 >
 >Premium Gen2 可簡化 Premium 容量的管理，並降低管理負擔。 如需詳細資訊，請參閱 [Power BI Premium 第 2 代 (預覽)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview)。
 >

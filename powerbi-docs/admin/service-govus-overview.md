@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 93198628677966208609892ee45ea4a28932c091
-ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.openlocfilehash: 989fa597d3de14d8026a6d480d6925325005e0a9
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99085835"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489800"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
@@ -76,7 +76,7 @@ Power BI 的驗證、身分識別和管理都相依於對 Microsoft 365 服務�
 | ---- | ----- |
 | 後端 API | **GCC**：api.powerbigov.us |
 | | **GCC-High**：api.high.powerbigov.us |
-| | **DoD**：api.mil.powerbi.gov.us |
+| | **DoD**： api.mil.powerbigov.us |
 | 後端 API | **GCC**：*analysis.usgovcloudapi.net |
 | | **GCC High**：*.high.analysis.usgovcloudapi.net |
 | | **DoD**：*.mil.analysis.usgovcloudapi.net |
