@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/14/2021
-ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
-ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.date: 02/15/2021
+ms.openlocfilehash: 0c6686b667f96e45fc1e21d4cb9512196053f288
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "99533019"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531945"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI embedded 分析中的容量和 SKU
 
@@ -148,7 +148,7 @@ Power BI Premium 提供兩種 SKU：*P* 和 *EM*。
 
 #### <a name="embedded-gen-2-memory-enhancements-preview"></a>Embedded Gen 2 記憶體增強功能 (預覽) 
 
-[Power BI Embedded 層代 2](power-bi-embedded-generation-2.md) (也稱為內嵌式 Gen 2) ，則每個節點大小可用的記憶體數量會設定為單一 Power BI 專案的記憶體使用量限制，例如報表或儀表板 (，而不是記憶體的累積耗用量。 例如，在 Embedded Gen2 A4 容量中，相較于原始的 Power BI Embedded 容量，只有單一資料集大小會限制為 25 GB，而在相同時間內處理之資料集的總記憶體使用量限制為 25 GB。
+每個節點大小的可用記憶體數量，在 [SKU 記憶體和計算 power](#sku-memory-and-computing-power)資料表的 *RAM (GB)* 資料行中有所說明。 [Power BI Embedded 層代 2](power-bi-embedded-generation-2.md) (也稱為內嵌式 Gen 2) ，此記憶體數量會設定為單一 Power BI 專案的記憶體使用量限制，例如資料集、報表或儀表板 (，而不是記憶體的累積耗用量。 例如，在 Embedded Gen2 A4 容量中，相較于原始的 Power BI Embedded 容量，只有單一資料集大小會限制為 25 GB，而在相同時間內處理之資料集的總記憶體使用量限制為 25 GB。
 
 ## <a name="next-steps"></a>後續步驟
 

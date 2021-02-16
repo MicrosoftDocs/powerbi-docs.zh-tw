@@ -1,30 +1,30 @@
 ---
-title: 設定 Power BI 報表中的篩選
-description: 您對報表篩選設計和功能有很大的控制權。
+title: Power BI 報表中的格式篩選
+description: 您對報表篩選器格式、設計和功能有很大的控制權。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 02/08/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 2ddefcfa7a9381cf6d45466d5115045ea4274a16
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 6b509576a3fe76e3565f9c0c354155957d7ad069
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415166"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531646"
 ---
-# <a name="design-filters-in-power-bi-reports"></a>設定 Power BI 報表中的篩選
+# <a name="format-filters-in-power-bi-reports"></a>Power BI 報表中的格式篩選
 
 [!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-有了新的篩選體驗，您對報表篩選設計和功能有很大的控制權。 您可將 [篩選] 窗格格式化，使其看起來像報表的其餘部分。 您可以鎖定甚至是隱藏篩選。 設計報表時，您不會再於 [視覺效果] 窗格中看到舊的 [篩選] 窗格。 您會在單一 [篩選] 窗格中，執行您所有的篩選編輯和格式設定。 
+您對報表篩選設計和功能有很大的控制權。 本文說明如何格式化 [篩選] 窗格，讓它看起來像是報表的其餘部分。 您可以鎖定甚至是隱藏篩選。
 
 ![篩選體驗](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-身為報表設計師，以下是您可以在新的 [篩選] 窗格中執行的一些工作：
+第一個步驟是 [將篩選新增至報表](power-bi-report-add-filter.md)。 然後，您可以使用報表設計師來格式化 [篩選] 窗格：
 
 - 新增和移除要篩選的欄位。 
 - 變更篩選狀態。
@@ -38,50 +38,33 @@ ms.locfileid: "96415166"
 
 ![視覺效果的篩選清單](media/power-bi-report-filter/power-bi-filter-visual.png)
 
-閱讀[報表讀者如何在報表中使用篩選](../consumer/end-user-report-filter.md)的資訊。
-
-## <a name="view-filters-for-a-visual-in-reading-mode"></a>在 [閱讀] 模式中檢視視覺效果的篩選條件
-
-在 [閱讀] 模式中，將滑鼠停在篩選圖示上，以查看影響該視覺效果的所有篩選條件、交叉分析篩選器等項目的快顯篩選清單。 快顯篩選清單和 [篩選] 窗格的格式設定一樣。
-
-![影響視覺效果的篩選條件](media/power-bi-report-filter/power-bi-filter-per-visual.png)
-
-以下是此檢視顯示的篩選條件類型：
-
-- 基本篩選條件
-- 交叉分析篩選器
-- 交叉醒目提示 
-- 交叉篩選
-- 進階篩選條件
-- 前 N 個篩選條件
-- 相對日期篩選條件
-- 同步交叉分析篩選器
-- 包含/排除篩選條件
-- 透過 URL 傳遞的篩選條件
-
-深入了解[在閱讀模式中與篩選互動](../consumer/end-user-report-filter.md)。
+閱讀報表讀取器如何在報表閱讀模式中 [使用篩選](../consumer/end-user-report-filter.md) 的相關資訊。
 
 ## <a name="build-the-filters-pane"></a>建置 [篩選] 窗格
 
-啟用新的 [篩選] 窗格之後，您可以在報表頁面的右邊看到，預設會根據您目前的報表設定來設定格式。 在 [篩選] 窗格中，您會設定要包含哪些篩選，以及更新現有篩選。 [篩選] 窗格的外觀如同發佈報表時，報表取用者看到的一樣。 
+預設會根據您目前的報表設定來格式化 [篩選] 窗格。 在 [篩選] 窗格中，您會設定要包含哪些篩選，以及更新現有篩選。 當您發行報表時，[篩選] 窗格看起來會與您的報表取用者相同。 
 
-1. 根據預設，您的報表取用者可以看到 [篩選] 窗格。 如果您不想讓報表取用者看到，請選取 [篩選] 旁的眼睛圖示。
+1. 當您將視覺效果新增至報表畫布時，Power BI 會自動將篩選新增至視覺效果中每個欄位的 [篩選] 窗格。
 
-    ![Power BI 篩選眼睛圖示](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
+2. 若要建立 [篩選] 窗格，請將感興趣的其他欄位拖曳到 [篩選] 窗格中，做為視覺效果、頁面或報表層級篩選。
 
-2. 若要開始建置 [篩選] 窗格，請將感興趣的欄位拖曳至 [篩選] 窗格作為視覺效果、頁面或報表層級篩選。
+## <a name="show-or-hide-the-filters-pane"></a>顯示或隱藏 [篩選] 窗格
 
-當您將視覺效果新增至報表畫布時，Power BI 會自動將篩選新增至視覺效果中每個欄位的 [篩選] 窗格。 
+### <a name="hide-the-filters-pane-in-reading-mode"></a>在閱讀模式中隱藏 [篩選] 窗格
 
-## <a name="hide-the-filters-pane-while-editing"></a>編輯時隱藏 [篩選] 窗格
+如果您不想讓報表讀者看到 [篩選] 窗格，請選取 [**篩選**] 旁的 **眼睛** 圖示。
 
-Power BI Desktop 在預覽中有新的功能區。 在 [檢視] 索引標籤上，[篩選] 切換按鈕可供顯示或隱藏 [篩選] 窗格。 當未使用 [篩選] 窗格，且螢幕上需要額外空間時，這項功能就很有用。 這項新功能會將 [篩選] 窗格與可開啟和關閉的其他窗格對齊，例如 [書簽] 和 [選取] 窗格。 
+![眼睛圖示](media/power-bi-report-filter/power-bi-filter-eye.png) 
+
+### <a name="hide-the-filters-pane-while-editing"></a>編輯時隱藏 [篩選] 窗格
+
+當您在編輯報表時，如果您未使用 [篩選] 窗格，而且螢幕上需要額外的空間，就可以隱藏 [篩選] 窗格。 
+
+- 在 [ **視圖** ] 索引標籤上，[ **篩選** ] 按鈕可讓您顯示或隱藏 [篩選] 窗格。
 
 ![編輯時顯示或隱藏 [篩選] 窗格](media/power-bi-report-filter/power-bi-filter-hide.png)
 
-此設定只會隱藏 Power BI Desktop 中的 [篩選] 窗格。 如果想要隱藏終端使用者的 [篩選] 窗格，請改為選取 [篩選] 旁的 **眼睛** 圖示。
-
-![眼睛圖示](media/power-bi-report-filter/power-bi-filter-eye.png) 
+此設定只會隱藏 Power BI Desktop 中的 [篩選] 窗格。 Power BI 服務中的編輯模式沒有對等專案。
 
 ## <a name="lock-or-hide-filters"></a>鎖定或隱藏篩選條件
 
@@ -205,7 +188,7 @@ Power BI Desktop 在預覽中有新的功能區。 在 [檢視] 索引標籤上�
 
 ![重新排列篩選排序次序](media/power-bi-report-filter/power-bi-filter-sort.gif)
 
-篩選的預設排序次序是依字母順序。 若要啟動自訂排序模式，只要將任何篩選拖曳至新位置即可。 您只能在套用篩選的層級排序篩選，例如視覺效果層級、頁面層級或報表層級篩選。
+篩選的預設排序次序是依字母順序。 若要啟動自訂排序模式，只要將任何篩選拖曳至新位置即可。 您只能重新排列其套用層級內的篩選準則。 例如，您可以在 [篩選] 窗格的視覺效果層級區段中，變更視覺效果層級篩選的順序。
 
 ## <a name="improved-filters-pane-accessibility"></a>改善篩選窗格協助工具
 
@@ -275,7 +258,7 @@ Power BI Desktop 在預覽中有新的功能區。 在 [檢視] 索引標籤上�
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-發佈至 Web 不會顯示 [篩選] 窗格。 如果您打算將報表發佈至 Web，請考慮新增交叉分析篩選器以供篩選。
+發佈至 Web 不會顯示 [篩選] 窗格。 如果您打算將報表發行至 web，請考慮改為新增篩選器來進行篩選。
 
 ## <a name="next-steps"></a>後續步驟
 

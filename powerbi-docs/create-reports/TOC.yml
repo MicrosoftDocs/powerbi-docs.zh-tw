@@ -59,8 +59,6 @@
               href: desktop-ribbon.md
             - name: 使用報表檢視
               href: desktop-report-view.md
-            - name: 報表中的篩選類型
-              href: power-bi-report-filter-types.md
             - name: 在報表中進行篩選和醒目提示
               href: power-bi-reports-filters-and-highlighting.md
             - name: 高密度折線圖取樣
@@ -142,6 +140,26 @@
               href: desktop-tooltips.md
             - name: 將報表匯出至 PDF 檔案
               href: desktop-export-to-pdf.md
+            - name: 報表中的篩選和交叉分析篩選器
+              items:
+                - name: 新增報表篩選
+                  href: power-bi-report-add-filter.md
+                - name: 報表中的格式篩選
+                  href: power-bi-report-filter.md
+                - name: 報表中的篩選類型
+                  href: power-bi-report-filter-types.md
+                - name: 交叉分析篩選器
+                  href: ../visuals/power-bi-visualization-slicers.md
+                - name: 數值範圍交叉分析篩選器
+                  href: desktop-slicer-numeric-range.md
+                - name: 相對日期交叉分析篩選器與篩選
+                  href: ../visuals/desktop-slicer-filter-date-range.md
+                - name: 相對時間交叉分析篩選器與篩選
+                  href: slicer-filter-relative-time.md
+                - name: 建立可以調整大小的交叉分析篩選器
+                  href: power-bi-slicer-filter-responsive.md
+                - name: 將多個欄位新增至交叉分析篩選器
+                  href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: 套用見解以說明視覺效果中的波動 (預覽)
               href: desktop-insights.md
             - name: 使用見解來探索散發的差異 (預覽)
@@ -158,10 +176,6 @@
               href: desktop-bookmarks.md
             - name: 使用報表主題
               href: desktop-report-themes.md
-            - name: 使用報表中的篩選
-              href: power-bi-report-filter.md
-            - name: 新增報表篩選
-              href: power-bi-report-add-filter.md
             - name: 套用分組與量化
               href: desktop-grouping-and-binning.md
             - name: 套用格線與貼齊格線
@@ -174,18 +188,6 @@
               href: desktop-add-custom-column.md
             - name: 使用內嵌階層標籤
               href: desktop-inline-hierarchy-labels.md
-            - name: 交叉分析篩選器
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: 數值範圍交叉分析篩選器
-              href: desktop-slicer-numeric-range.md
-            - name: 相對日期交叉分析篩選器與篩選
-              href: ../visuals/desktop-slicer-filter-date-range.md
-            - name: 相對時間交叉分析篩選器與篩選
-              href: slicer-filter-relative-time.md
-            - name: 建立可以調整大小的交叉分析篩選器
-              href: power-bi-slicer-filter-responsive.md
-            - name: 將多個欄位新增至交叉分析篩選器
-              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: 使用資料列層級安全性來限制資料存取
               href: desktop-rls.md
             - name: 自訂工具提示

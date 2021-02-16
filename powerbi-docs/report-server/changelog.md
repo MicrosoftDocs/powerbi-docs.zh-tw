@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/11/2021
-ms.openlocfilehash: edbb742cfb9d19e47c50ed7c43fa3ba4ba36f779
-ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.openlocfilehash: 768e0e8a360c2434fdb66cf309d24857707b9d59
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "100489846"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531577"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -24,7 +24,7 @@ ms.locfileid: "100489846"
 
 ## <a name="january-2021"></a>2021 年 1 月
 - **Power BI 報表伺服器**
-    - *Version： 1.10.7698.27886 (Build 15.0.1105.195) ，發行日期：2021年1月21日*
+    - *Version： 1.10.7698.27886 (Build 15.0.1105.195) ，發行日期：2021年1月28日*
         - 功能
             - 新圖示 releate 至 Power BI 並 Power BI 報表。
             - 隨附于發行版本3.5.0 的自訂視覺 API
@@ -35,7 +35,7 @@ ms.locfileid: "100489846"
         - 安全性更新
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
-   - *版本： 2.88.1382.0 (2021 年1月) 發行：2021年1月 21* 日 (新組建和新版本) 
+   - *版本： 2.88.1382.0 (2021 年1月) 發行：2021年1月28日* (新組建和新版本) 
         - 包含 Power BI 報表伺服器 (2021 年1月的連接所需的變更)         
    
 ## <a name="october-2020"></a>2020 年 10 月

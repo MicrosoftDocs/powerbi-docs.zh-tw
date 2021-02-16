@@ -7,20 +7,20 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 10/21/2020
+ms.date: 02/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 914477d8b4bed0b6f90f700afcbfdfbfc263bb1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b646237bddeaae8b73ef809504ab3aea2257c0e6
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410451"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531462"
 ---
 # <a name="build-permission-for-shared-datasets"></a>共用資料集的建置權限
 
 當您在 Power BI Desktop 中建立報表時，該報表中資料會儲存在「資料模型」中。 當您將報表發佈至 Power BI 服務時，也會將資料發佈為「資料集」。 您可以將該報表的「建置權限」授與其他人，以便其可探索並重複使用您共用的資料集。 本文會說明如何使用建置權限控制資料存取權。
 
-建置權限適用資料集。 當您將建置權限授與使用者時，其可在您的資料集中建置新內容，例如報表、儀表板、從問與答釘選的磚，以及見解探索。 
+建置權限適用資料集。 當您授與使用者建立許可權時，他們可以在您的資料集上建立新的內容，例如報表、儀表板、來自 Q&A、編頁報表和見解探索的釘選磚。 
 
 使用者也需要有建置權限，才能在 Power BI「外」使用資料：
 

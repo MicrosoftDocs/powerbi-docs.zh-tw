@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 996c4a1e7b2bdda0bfdfa0951afc7922b2996084
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396168"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531554"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>變更 Power BI 報表的設定
 
@@ -67,7 +67,7 @@ ms.locfileid: "96396168"
 
 ## <a name="control-filters"></a>控制項篩選
 
-報表 [設定] 窗格中有三個設定，其用來控制讀者與報表篩選的互動。 下列連結會連接到[設計 Power BI 報表中的篩選](power-bi-report-filter.md)一文，以取得每個設定的詳細資料。
+報表 [設定] 窗格中有三個設定，其用來控制讀者與報表篩選的互動。 下列連結會移至 [Power BI 報表中的篩選器的格式](power-bi-report-filter.md) ，以取得每個設定的詳細資料。
 
 - **永續性篩選** 允許讀者 [在報表上儲存篩選](power-bi-report-filter.md#allow-saving-filters)。
 - **篩選體驗** 還有兩個設定：

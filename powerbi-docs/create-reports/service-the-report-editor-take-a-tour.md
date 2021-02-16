@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 12/01/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 560c03865519d1c5d2435dc333954f284ee726e6
-ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
-ms.translationtype: HT
+ms.openlocfilehash: 83a68e0d2aec6fa5a47919447872ef440c71792a
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96536499"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531715"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
 
@@ -79,7 +79,7 @@ Power BI 報表編輯器分成數個主要區段：
 
 ![新的篩選體驗](media/service-the-report-editor-take-a-tour/power-bi-filters-pane.png)
 
-深入了解[新篩選體驗](power-bi-report-filter.md)。
+[在新的篩選體驗中深入瞭解如何格式化 [篩選] 窗格](power-bi-report-filter.md)。
 
 ## <a name="4-the-visualizations-pane"></a>4.[視覺效果] 窗格
 
