@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/11/2021
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 0c6fb504cd985103d811b820cc85212aaa72bc76
-ms.sourcegitcommit: 9a00abaca80d0cdb2bd0cd9270f99db62df8a2ce
+ms.openlocfilehash: 9752eddb82fa8f612b9d740cf010c0649ba5b3f8
+ms.sourcegitcommit: 803653e8aa79ed38ec555c27c13b3b6835f98a5d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/17/2021
-ms.locfileid: "100569523"
+ms.locfileid: "100569739"
 ---
 # <a name="power-bi-security-white-paper"></a>Power BI 安全性技術白皮書
 
@@ -155,7 +155,7 @@ Power BI 行動版不會存取裝置上的其他應用程式資料夾或檔案�
 
 ## <a name="authentication-to-the-power-bi-service"></a>Power BI 服務的驗證
 
-Power BI 服務的使用者驗證包含一系列的要求、回應，並在使用者的瀏覽器和 Power BI 服務或 Power BI 所使用的 Azure 服務之間重新導向。 該順序說明 Power BI 中的使用者驗證程式，其遵循 [Azure Active Directory 的驗證碼授與流程](/azure/active-directory/develop/v2-oauth2-auth-code-flow)。 如需組織的使用者驗證模型選項 (登入模型) 的詳細資訊，請參閱 [選擇 Microsoft 365 的登入模型](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)。
+Power BI 服務的使用者驗證包含一系列的要求、回應，並在使用者的瀏覽器和 Power BI 服務或 Power BI 所使用的 Azure 服務之間重新導向。 該順序說明 Power BI 中的使用者驗證程式，其遵循 [Azure Active Directory 的驗證碼授與流程](/azure/active-directory/develop/v2-oauth2-auth-code-flow)。 如需組織的使用者驗證模型選項 (登入模型) 的詳細資訊，請參閱 [選擇 Microsoft 365 的登入模型](https://www.microsoft.com/en-us/microsoft-365/blog/2014/05/13/choosing-a-sign-in-model-for-office-365/)。
 
 ### <a name="authentication-sequence"></a>驗證順序
 
