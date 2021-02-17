@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/14/2020
-ms.openlocfilehash: f9a3558bd83f9c2e263d69ad37c3e985c2c6199a
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: 4a7156259dbc1273ab14ce4e44d91b54794736e0
+ms.sourcegitcommit: bae5e9a37772360d0aae8624905d5f33951a187f
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597602"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100560976"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什麼是 Power BI 範本應用程式？
 
@@ -23,11 +23,11 @@ ms.locfileid: "98597602"
 
 您可以建置範本應用程式，讓客戶連線並在自己的帳戶內具現化。 身為領域專家，他們可將資料解除鎖定，讓其商務使用者都能輕鬆使用。  
 
-將您的範本應用程式提交至合作夥伴中心。 然後，這些應用程式將可在 [Power BI 應用程式市集](https://app.powerbi.com/getdata/services)與 [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) 中公開取得。 以下為公用範本應用程式建立體驗的高階說明。
+將您的範本應用程式提交至合作夥伴中心。 然後，這些應用程式將可在 [Power BI 應用程式市集](https://app.powerbi.com/groups/me/getapps/apps)與 [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) 中公開取得。 以下為公用範本應用程式建立體驗的高階說明。
 
 ## <a name="power-bi-apps-marketplace"></a>Power BI 應用程式市集
 
-Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，透過預先封裝的儀表板與報表 (可以連線到即時資料來源) 取得即時見解。 許多 Power BI 應用程式都已經可以在 [Power BI 應用程式市集](https://app.powerbi.com/getdata/services)中取得。
+Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，透過預先封裝的儀表板與報表 (可以連線到即時資料來源) 取得即時見解。 許多 Power BI 應用程式都已經可以在 [Power BI 應用程式市集](https://app.powerbi.com/groups/me/getapps/apps)中取得。
 
 :::row:::
     :::column:::
@@ -118,6 +118,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 | 資料來源 | 允許針對雲端排程的資料重新整理支援的資料來源。 <br>不支援： <li>即時連線 (非 Azure AS)</li> <li>內部部署資料來源 (不支援個人和企業閘道)</li> <li>即時 (不支援推送資料集)</li> <li>複合模型</li></ul> |
 | 資料集：跨工作區 | 不允許跨工作區資料集  |
 | 查詢參數 | 不支援：適用於資料集之類型 "Any"、"Date" 或 "Binary" 類型區塊重新整理作業的參數 |
+| 累加式重新整理 | 範本應用程式不支援累加式重新整理 |
 | Power BI 視覺效果 | 只支援公開可用的 Power BI 視覺效果。 不支援[組織 Power BI 視覺效果](../developer/visuals/power-bi-custom-visuals-organization.md) |
 | 主權雲端 | 範本應用程式無法在主權雲端中使用 |
 

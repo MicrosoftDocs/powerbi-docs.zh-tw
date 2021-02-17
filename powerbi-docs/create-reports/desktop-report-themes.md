@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 67264868fdbba42856169ca586066f650fca5c38
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.openlocfilehash: 61b909ba5c90c7ecf801b4ce448e73353d2334c4
+ms.sourcegitcommit: 9a00abaca80d0cdb2bd0cd9270f99db62df8a2ce
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621962"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100569631"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 
@@ -171,7 +171,7 @@ ms.locfileid: "97621962"
 
 - **name**：報表主題名稱。 此欄位是唯一的必要欄位。
 - **dataColors**：要用於 Power BI Desktop 視覺效果資料的十六進位色彩代碼清單。 此清單可隨您的喜好包含任意數量的色彩。
-- **background**、**firstLevelElements** 和 **tableAccent** 等：色彩類別。 色彩類別可讓您在報表中同時設定多種結構色彩。
+- **背景**、 **前景** 和 **>tableaccent** (等 ) ：色彩類別。 色彩類別可讓您在報表中同時設定多種結構色彩。
 
 您可以使用此 JSON 檔案作為基礎，以自行建立要匯入的自訂報表主題檔案。 如果您只想要調整報表的基本色彩，請變更檔案中的名稱和十六進位代碼。
 
