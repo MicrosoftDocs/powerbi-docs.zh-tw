@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 10/21/2020
+ms.date: 02/17/2021
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 3828a11f4b4447f6484e121fec84fb44d702c86a
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
-ms.translationtype: HT
+ms.openlocfilehash: f9ac328df2f24ef9993b6f9bd9c86aa94ee017de
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93136245"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655708"
 ---
 |功能   | 系統管理員  | 成員  | 參與者  | 檢視者 |
 |---|---|---|---|---|
@@ -26,12 +26,12 @@ ms.locfileid: "93136245"
 | 共用項目或共用應用程式。<sup>2</sup> |  ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | 允許其他人再次共用項目。<sup>2</sup> |  ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | 在同事的首頁上精選應用程式 |  ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| 管理資料集權限。<sup>3</sup> | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) |  |  |
 | 在同事的首頁上精選儀表板和報表 |  ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) |   |
 | 建立、編輯和刪除工作區中的內容。  |  ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | 將報表發佈至工作區、刪除內容。  |  ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | 根據此工作區中的資料集，在另一個工作區中建立報表。<sup>2</sup> |  ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | 複製報表。<sup>3</sup> | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
-| 管理資料集權限。<sup>3</sup> | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | 透過內部部署閘道排程資料重新整理。<sup>4</sup> | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | 修改閘道連線設定。<sup>4</sup> | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | 檢視項目並與其互動。<sup>5</sup> |  ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  |

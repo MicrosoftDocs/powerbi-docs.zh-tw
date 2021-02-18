@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf9740e0f4f6a2e25e1d5d0cc49671bd6eb90b37
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 44e8af257bc4b4e2a83747f79505caed8f3cc72a
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565397"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655761"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>將資料流程儲存體設定為使用 Azure Data Lake Gen 2 
 
@@ -24,7 +24,7 @@ ms.locfileid: "98565397"
 
 ## <a name="pre-requisites"></a>必要條件
 
-若要帶入自己的 ADLS Gen 2 帳戶，則必須在儲存體帳戶、資源群組或訂用帳戶層具備擁有者權限。 若您是系統管理員，則仍然必須為自己指派擁有者權限。 
+若要帶入自己的 ADLS Gen 2 帳戶，則必須在儲存體帳戶、資源群組或訂用帳戶層具備擁有者權限。 若您是系統管理員，則仍然必須為自己指派擁有者權限。  **目前不支援防火牆後方的 ADLS Gen2 儲存體帳戶**
 
 儲存體帳戶必須在[階層命名空間 (HNS)](/azure/storage/blobs/create-data-lake-storage-account) 已啟用的情況下才能建立。 
 

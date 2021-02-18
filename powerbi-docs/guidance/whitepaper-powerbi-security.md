@@ -9,18 +9,18 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/11/2021
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9752eddb82fa8f612b9d740cf010c0649ba5b3f8
-ms.sourcegitcommit: 803653e8aa79ed38ec555c27c13b3b6835f98a5d
+ms.openlocfilehash: 655fde0ef19c15f368cb2219498bb26d4411d5d3
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100569739"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655676"
 ---
 # <a name="power-bi-security-white-paper"></a>Power BI 安全性技術白皮書
 
 **摘要：** Power BI 是 Microsoft 提供的線上軟體服務 (*SaaS* 或軟體即服務) 供應專案，可讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
 
-**寫入器：** Yitzhak Kesselman、Paddy Osborne、Matt Neely、Tony Bencic、Srinivasan Turuvekere、Cristian Petculescu、Adi Regev、Naveen Sivaraj、Ben Glastein、Evgeny Tshiorny、Arthi Ramasubramanian Iyer、Sid Jayadevan、Ronald Chang、Ori Eduar、Anton Fritz、Idan Sheinberg、Ron Gilad、Sagiv Hadaya、Paul Inbar、Igor Uzhviev、Michael Roth、Tarquino Gennady、pat Orion、Yury Berezansky、Maya Shenhav、Romit Chattopadhyay、Yariv Maimon、Bogdan crivat 著、
+**寫入器：** Yitzhak Kesselman、Paddy Osborne、Matt Neely、Tony Bencic、Srinivasan Turuvekere、Cristian Petculescu、Adi Regev、Naveen Sivaraj、Ben Glastein、Evgeny Tshiorny、Arthi Ramasubramanian Iyer、Sid Jayadevan、Ronald Chang、Ori Eduar、Anton Fritz、Idan Sheinberg、Ron Gilad、Sagiv Hadaya、Paul Inbar、Igor Uzhviev、Michael Roth、Jaime Tarquino、Gennady pat、Orion Yury、Berezansky Maya、Shenhav Romit、Chattopadhyay Yariv、Maimon Bogdan、crivat 著
 
 **技術審核者：** Cristian Petculescu、Amir Netz、Sergei Gundorov
 

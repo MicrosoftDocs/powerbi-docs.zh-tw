@@ -9,13 +9,13 @@ ms.topic: tutorial
 ms.author: samkemp
 author: samuel100
 ms.reviewer: sdgilley, maggies
-ms.date: 12/10/2020
-ms.openlocfilehash: 6c68fff575e4da0c9126904df2de5292747c209c
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
-ms.translationtype: HT
+ms.date: 02/17/2021
+ms.openlocfilehash: 91ba29a09cfdd434c52794e83651736c2b796b1e
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491774"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655653"
 ---
 # <a name="tutorial-consume-azure-machine-learning-models-in-power-bi"></a>教學課程：在 Power BI 中取用 Azure Machine Learning 模型
 
@@ -57,6 +57,10 @@ https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt
 
 選取 [確定]。
 
+在 [**存取 Web 內容**] 中，選取 [**匿名**  >  **連接]**。
+
+:::image type="content" source="media/service-aml-integrate/anonymous-access-web-content.png" alt-text="顯示 Web 內容匿名存取的螢幕擷取畫面。":::
+
 選取 [轉換資料] 以開啟 [Power Query 編輯器] 視窗。
 
 在 Power Query 編輯器的 [常用] 功能區中，選取 [Azure Machine Learning] 按鈕。
@@ -84,7 +88,9 @@ Power Query 會自動為您填入資料行。 您還記得，在我們的服務�
 > [!NOTE]
 > 如果您已部署設計工具模型，就會看到一筆 **記錄**。
 
-若要取得預測，在 [轉換] 功能區上，選取 [展開資料行] 按鈕 > [展開至新資料列]。
+若要取得預測，請選取 [ **AzureML.my-糖尿病** ] 資料行標頭中的雙向箭號 > **展開至 [新增** 資料列]。
+
+:::image type="content" source="media/service-aml-integrate/expand-column.png" alt-text="顯示展開資料行圖示的螢幕擷取畫面。":::
 
 展開之後，您會在 [AzureML.my-diabetes-model] 資料行中看到預測。
 

@@ -30,6 +30,8 @@
           href: embedded-capacity.md
         - name: 容量規劃
           href: embedded-capacity-planning.md
+        - name: Embedded analytics 應用程式權杖
+          href: embed-tokens.md
         - name: 產生內嵌權杖的考量
           href: generate-embed-token.md
         - name: 效能最佳做法
